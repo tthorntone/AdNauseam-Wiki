@@ -1,3 +1,9 @@
+### 0.1.0.5
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.5.zip) date: 24 June 2014
+- Added a hint in the popup about the purpose of the power button. See <https://github.com/gorhill/uBlock/commit/225bc2d33c5743f0ce1394e2dac9aa0c37c14e48?
+
+***
+
 ### 0.1.0.4
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.4.zip) date: 24 June 2014
 - Fixed <https://github.com/gorhill/ublock/issues/1>: "It blocks playing music on soundcloud.com".
