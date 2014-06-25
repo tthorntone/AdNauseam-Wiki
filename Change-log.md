@@ -1,3 +1,9 @@
+### 0.1.0.8
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.8.zip) date: 25 June 2014
+- Fixed <https://github.com/gorhill/ublock/issues/14>: "Twitter glitches when using Fanboy’s Annoyance List".
+
+***
+
 ### 0.1.0.7
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.7.zip) date: 25 June 2014
 - Fixed <https://github.com/gorhill/ublock/issues/13>: "Google ads on Google.com".
