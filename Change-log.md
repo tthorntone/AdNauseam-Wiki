@@ -1,3 +1,9 @@
+### 0.1.0.7
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.7.zip) date: 25 June 2014
+- Fixed <https://github.com/gorhill/ublock/issues/13>: "Google ads on Google.com".
+
+***
+
 ### 0.1.0.6
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.6.zip) date: 24 June 2014
 - Partially addressed <https://github.com/gorhill/ublock/issues/7> and <https://github.com/gorhill/ublock/issues/11>: Redirecting to no-op contents whenever possible.
