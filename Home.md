@@ -1,1 +1,2 @@
-Welcome to the uBlock wiki!
+- [Change log](https://github.com/gorhill/uBlock/wiki/Change-log)
+- [My answer to Chrome store reviews where appropriate](https://github.com/gorhill/uBlock/wiki/My-answer-to-Chrome-store-reviews-where-appropriate)
