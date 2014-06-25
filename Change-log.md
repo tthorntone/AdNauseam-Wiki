@@ -1,6 +1,6 @@
 ### 0.1.0.6
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.6.zip) date: 24 June 2014
-- Partially addressed <https://github.com/gorhill/ublock/issues/7> and <https://github.com/gorhill/ublock/issues/11>: Redirecting to no-op content whenever possible.
+- Partially addressed <https://github.com/gorhill/ublock/issues/7> and <https://github.com/gorhill/ublock/issues/11>: Redirecting to no-op contents whenever possible.
 
 ***
 
