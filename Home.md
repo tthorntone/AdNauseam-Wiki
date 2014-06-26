@@ -1,2 +1,2 @@
 - [Change log](https://github.com/gorhill/uBlock/wiki/Change-log)
-- [My answer to Chrome store reviews where appropriate](https://github.com/gorhill/uBlock/wiki/My-answer-to-Chrome-store-reviews-where-appropriate)
+- [My answer to web store reviews where appropriate](https://github.com/gorhill/uBlock/wiki/My-answer-to-web-store-reviews-where-appropriate)
