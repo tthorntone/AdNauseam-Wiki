@@ -1,3 +1,10 @@
+### 0.1.0.9
+- Release date: Not released yet
+- Fixed <https://github.com/gorhill/ublock/issues/16>: "Changelog links wrong".
+    * The link was right, problem was an issue with mixing jQuery's `$()` with `window.addEventListener('load', ...)`.
+
+***
+
 ### 0.1.0.8
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.8.zip) date: 25 June 2014
 - Fixed <https://github.com/gorhill/ublock/issues/14>: "Twitter glitches when using Fanboy’s Annoyance List".
