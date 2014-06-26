@@ -1,2 +1,3 @@
 - [Change log](https://github.com/gorhill/uBlock/wiki/Change-log)
+- Install from [Chrome store](https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm), Opera store (waiting for approval), or [manually](https://github.com/gorhill/uBlock/tree/master/dist#install) (you will have to update manually as well).
 - [My answer to web store reviews where appropriate](https://github.com/gorhill/uBlock/wiki/My-answer-to-web-store-reviews-where-appropriate)
