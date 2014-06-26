@@ -1,4 +1,4 @@
-I can't answer to the review in Chrome store. It's unfortunate as sometimes I could help fix the problem(s), but the review area is not a forum, so I understand the limitations. Still, I will answer here to those reviews for which I have something meaningful to say.
+I can't answer to the review in Chrome store. It's unfortunate as sometimes I could help fix the problem(s), or correct inaccuracies, but the review area is not a forum, so I understand the limitations. Still, I will answer here to those reviews for which I have something meaningful to say.
 
 ***
 
