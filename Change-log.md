@@ -1,5 +1,12 @@
+### 0.1.0.11
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.11.zip) date: 27 June 2014
+- Fixed <https://github.com/gorhill/ublock/issues/21>: "Have uBlock maintain its own list of filters to unbreak sites".
+- Fixed <https://github.com/gorhill/ublock/issues/20>: "Cannot directly access forum on xda-developers.com from front page".
+
+***
+
 ### 0.1.0.10
-- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.10.zip) date: 25 June 2014
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.10.zip) date: 26 June 2014
 - Fixed <https://github.com/gorhill/ublock/issues/18>: "Conflict with HTTPS Everywhere extension in Chrome".
 - [Fixed bad test](/gorhill/uBlock/commit/a6496e5cfb76d1a13d3ca8836cb21d5969b49ae7) in request handler.
 
