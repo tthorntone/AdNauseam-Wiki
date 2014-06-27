@@ -1,3 +1,10 @@
+### 0.1.0.10
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.10.zip) date: 25 June 2014
+- Fixed <https://github.com/gorhill/ublock/issues/18>: "Conflict with HTTPS Everywhere extension in Chrome".
+- [Fixed bad test](/gorhill/uBlock/commit/a6496e5cfb76d1a13d3ca8836cb21d5969b49ae7) in request handler.
+
+***
+
 ### 0.1.0.9
 - Release date: Not released yet
 - Fixed <https://github.com/gorhill/ublock/issues/16>: "Changelog links wrong".
