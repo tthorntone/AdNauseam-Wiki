@@ -8,6 +8,7 @@
 ### 0.1.0.10
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.10.zip) date: 26 June 2014
 - Fixed <https://github.com/gorhill/ublock/issues/18>: "Conflict with HTTPS Everywhere extension in Chrome".
+    * In order to fix this, I had to reverse the partial solution put in place to fix [issue #7](/gorhill/uBlock/issues/7#issuecomment-47301344), "Blocked contents don't always disappear properly".
 - [Fixed bad test](/gorhill/uBlock/commit/a6496e5cfb76d1a13d3ca8836cb21d5969b49ae7) in request handler.
 
 ***
