@@ -1,3 +1,10 @@
+### 0.1.1.0
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.1.0.zip) date: 27 June 2014
+- Fixed <https://github.com/gorhill/ublock/issues/25>: "Add the new Fanboy's "Anti-Facebook Filters".
+- Fixed <https://github.com/gorhill/ublock/issues/7>: "Blocked contents don't always disappear properly".
+
+***
+
 ### 0.1.0.11
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.0.11.zip) date: 27 June 2014
 - Fixed <https://github.com/gorhill/ublock/issues/21>: "Have uBlock maintain its own list of filters to unbreak sites".
