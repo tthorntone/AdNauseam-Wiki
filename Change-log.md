@@ -2,6 +2,7 @@
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.1.0.zip) date: 27 June 2014
 - **New setting:** In _"Settings"_ tab of the dashboard: _"Hide placeholders of blocked elements"_.
     - Check to prevent blocked images and frames to take space on the page.
+- [Translation work](/gorhill/uBlock/pull/24) by [tlu1024](/tlu1024) (German)
 - Fixed <https://github.com/gorhill/ublock/issues/25>: "Add the new Fanboy's "Anti-Facebook Filters".
 - Fixed <https://github.com/gorhill/ublock/issues/7>: "Blocked contents don't always disappear properly".
 
