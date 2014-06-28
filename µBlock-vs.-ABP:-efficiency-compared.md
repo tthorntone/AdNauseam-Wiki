@@ -27,3 +27,15 @@ Below are the average time it takes for each extension to handle a net request i
 Fun fact: µBlock will actually execute more efficiently if you enable _ hpHosts’s Ad and tracking servers_, the timing of `chrome.webRequest.onBeforeRequest` goes below 185 ms when this list is enabled. The key is that filters made of plain hostnames are processed in a very efficient way in µBlock.
 
 ### Added memory footprint to web pages
+
+Extensions have their own memory footprint, but they also causes increased memory footprint in web pages. Below you can see the added memory footprint in a very simple web page, [Hacker News](https://news.ycombinator.com/). First screenshot is when no extension at all is used, so it's consider it is the reference memory footprint, other screenshots show the new memory footprint caused by each extension.
+
+##### No extension
+![No extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/hn-alone.png)
+
+##### Adblock Plus
+![ABP](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/hn-abp.png)
+
+##### µBlock
+![uBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/hn-ublock.png)
+
