@@ -1,7 +1,6 @@
 New, more comprehensive benchmark
 
-[under construction]
-
+[Sessbench](https://github.com/gorhill/sessbench) is used to run the below script automatically.
 
 ```
 wait 3
