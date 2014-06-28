@@ -24,7 +24,10 @@ Below are the average time it takes for each extension to handle a net request i
 ##### µBlock
 ![uBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/ublock-obr.png)
 
-Note that the results above are the tail end of running the complete benchmark (60 URLs, repeated 3 times).
+Note that the results above are the tail end of running the complete benchmark (60 URLs, repeated 3 times). 
+
+Also noteworthy, ABP uses a cache mechanism to possibly avoid having to test a URL by reusing a prior
+result for that same URL, which would cause ABP timing to be quite low. It's unclear to me how much this mechanism kicked in with the current benchmark. µBlock doesn't use such mechanism, so whether a web page is visited repeatedly or not doesn't influence timing.
 
 ### Added memory footprint to web pages
 
