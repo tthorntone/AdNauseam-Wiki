@@ -24,6 +24,6 @@ Below are the average time it takes for each extension to handle a net request i
 ##### µBlock
 ![uBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/ublock-obr.png)
 
-Fun fact: µBlock will actually execute more efficiently if you enable _ hpHosts’s Ad and tracking servers_, the timing of `chrome.webRequest.onBeforeRequest` goes below 185ms.
+Fun fact: µBlock will actually execute more efficiently if you enable _ hpHosts’s Ad and tracking servers_, the timing of `chrome.webRequest.onBeforeRequest` goes below 185 ms when this list is enabled. The key is that filters made of plain hostnames are processed in a very efficient way in µBlock.
 
 ### Added memory footprint to web pages
