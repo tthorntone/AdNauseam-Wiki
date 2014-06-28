@@ -28,7 +28,7 @@ Fun fact: µBlock will actually execute more efficiently if you enable _ hpHos
 
 ### Added memory footprint to web pages
 
-Extensions have their own memory footprint, but they also causes increased memory footprint in web pages. Below you can see the added memory footprint in a very simple web page, [Hacker News](https://news.ycombinator.com/). First screenshot is when no extension at all is used, so consider it as the reference memory footprint for this web page, other screenshots show the increased memory footprint caused by each extension.
+Extensions have their own memory footprint, but they also causes increased memory footprint in web pages. Below you can see the added memory footprint in a very simple web page, [Hacker News](https://news.ycombinator.com/). First screenshot is when no extension at all is used, so consider it as the reference memory footprint for this web page, other screenshots show the increased memory footprint caused by each extension. The browser was left on idle after loading the page in order to force the garbage collector to kick in.
 
 ##### No extension
 ![No extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/hn-alone.png)
