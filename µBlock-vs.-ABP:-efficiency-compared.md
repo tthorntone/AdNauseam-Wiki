@@ -1,5 +1,5 @@
-## Own memory footprint
+### Own memory footprint
 
-## Added overhead to each net request
+### Added overhead to each net request
 
-## Added memory footprint to web pages
+### Added memory footprint to web pages
