@@ -1,4 +1,4 @@
-Here is a quick illustrated comparison of efficiency using various angles. Each extension were tested alone, as the only extension present.
+Here is a quick illustrated comparison of efficiency using various angles. Each extension were tested alone, as the only extension present. Benchmarking was performed with Chromium on Linux Mint 64-bit.
 
 ### Own memory footprint
 
