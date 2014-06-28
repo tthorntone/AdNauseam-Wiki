@@ -24,6 +24,8 @@ Below are the average time it takes for each extension to handle a net request i
 ##### µBlock
 ![uBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/ublock-obr.png)
 
+Note that the results above are the tail end of running the complete benchmark (60 URLs, repeated 3 times).
+
 ### Added memory footprint to web pages
 
 Extensions have their own memory footprint, but they also causes increased memory footprint in web pages. Below you can see the added memory footprint in a very simple web page, [Hacker News](https://news.ycombinator.com/). First screenshot is when no extension at all is used, so consider it as the reference memory footprint for this web page, other screenshots show the increased memory footprint caused by each extension. The browser was left on idle after loading the page in order to allow the garbage collector to kick in.
