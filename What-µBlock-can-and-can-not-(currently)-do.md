@@ -26,3 +26,10 @@ in the settings.
 Filters with the `$elemhide` option are ignored. At time of writing, I see 50 such
 filters in _EasyList_. The purpose of these filters is to disable cosmetic filters on
 specific site.
+
+#### "µBlock has a smaller memory footprint than Ghostery or Disconnect."
+
+No, last time I checked, µBlock has a larger memory footprint than both _Ghostery_ 
+and _Disconnect_. Regarding CPU footprint, I don't know, I didn't measure yet (maybe
+I will). Keep in mind that µBlock, like ABP, Adguard, and some others allows users
+to enter their own filters.
