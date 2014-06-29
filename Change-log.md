@@ -1,6 +1,6 @@
 ### 0.1.1.1
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.1.1.zip) date: 29 June 2014
-- Translation work by [tailHey](/tailHey) (French) and [tlu1024](/tlu1024) (German).
+- Translation work by [tailHey](/tailHey) ([French](/gorhill/uBlock/commits?author=tailHey)) and [tlu1024](/tlu1024) ([German](https://github.com/gorhill/uBlock/commits?author=tlu1024)).
 - Fixed <https://github.com/gorhill/uBlock/issues/33>: "Need translation of detailed description: German".
 - Fixed <https://github.com/gorhill/uBlock/issues/28>: "Parse and enforce Adblock+ element hiding filters option not working properly".
 
