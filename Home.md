@@ -3,4 +3,4 @@
 - [µBlock vs. ABP: efficiency compared](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
 - [µBlock vs. others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-others:-Blocking-ads,-trackers,-malwares)
 - [My answer to web store reviews where appropriate](https://github.com/gorhill/uBlock/wiki/My-answer-to-web-store-reviews-where-appropriate)
-- [µBlock can and can not (currently) do](https://github.com/gorhill/uBlock/wiki/What-%C2%B5Block-can-and-can-not-(currently)-do)
+- [What µBlock can and can not (currently) do](https://github.com/gorhill/uBlock/wiki/What-%C2%B5Block-can-and-can-not-(currently)-do)
