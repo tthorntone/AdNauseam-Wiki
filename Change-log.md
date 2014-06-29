@@ -1,3 +1,8 @@
+### 0.1.1.1
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.1.1.zip) date: 29 June 2014
+- Fixed (by [tlu1024](/tlu1024)) <https://github.com/gorhill/uBlock/issues/33>: "Need translation of detailed description: German".
+- Fixed <https://github.com/gorhill/uBlock/issues/28>: "Parse and enforce Adblock+ element hiding filters option not working properly".
+
 ### 0.1.1.0
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.1.0.zip) date: 27 June 2014
 - **New setting:** In _"Settings"_ tab of the dashboard: _"Hide placeholders of blocked elements"_.
