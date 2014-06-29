@@ -29,8 +29,9 @@ specific site.
 
 #### "µBlock has a smaller memory footprint than Ghostery or Disconnect."
 
-No it doesn't. Last time I checked, µBlock has a larger memory footprint than both _Ghostery_ 
-and [_Disconnect_](/disconnectme/disconnect). Regarding CPU footprint, I don't know, I didn't measure yet (maybe
+No it doesn't. Last time I checked, µBlock has a larger memory footprint than both 
+[Ghostery](https://www.ghostery.com) and [Disconnect](/disconnectme/disconnect). 
+Regarding CPU footprint, I don't know, I didn't measure yet (maybe
 I will). Keep in mind that µBlock, like ABP, Adguard, and some others allows users
 to enter their own filters. There are also other differences, or similarities: µBlock, _Disconnect_
 and ABP are licensed under [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License).
