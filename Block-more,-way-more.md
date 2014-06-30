@@ -10,6 +10,6 @@ I cannot select this list by default for new installs, since I have no idea yet 
 
 Eventually, if more users try the **hpHosts ad/tracking servers** list, and report any and all issues with it, we can create the appropriate exception filters to prevent these web page breakages, and then it might become feasible to enable it out of the box.
 
-For instance, the recent [hacking of Reuters through the Taboola content delivery network](https://medium.com/@FredericJacobs/the-reuters-compromise-by-the-syrian-electronic-army-6bf570e1a85b) would have left you unaffected, as **hpHosts ad/tracking servers** does contain the hostname `cdn.taboola.com`, which is from where the compromised javascript file was downloaded.
+For instance, the recent [hacking of Reuters through the Taboola content delivery network](https://medium.com/@FredericJacobs/the-reuters-compromise-by-the-syrian-electronic-army-6bf570e1a85b) would have left you unaffected if you were using this list, as **hpHosts ad/tracking servers** does contain the hostname `cdn.taboola.com`, which is from where the compromised javascript file was downloaded.
 
 So if you wish to help in making it possible to enable this list out of the box, try it, and report any breakage (after verifying the same breakage doesn't occur when the list is disabled) in [issue #17](https://github.com/gorhill/uBlock/issues/17).
