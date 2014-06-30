@@ -1,6 +1,6 @@
 ### 0.1.2.0
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.2.0.zip) date: 30 June 2014
-- Translation work by [placeholder for name, or "anonymous": waiting for an answer] (Italian).
+- Translation work by {placeholder for name, or "anonymous": waiting for an answer} (Italian).
 - Added exception filters [to make hpHosts more usable](/gorhill/uBlock/issues/17).
 
 ### 0.1.1.1
