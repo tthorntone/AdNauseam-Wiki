@@ -1,3 +1,8 @@
+### 0.1.2.0
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.2.0.zip) date: 30 June 2014
+- Italian translation work by [placeholder name of "anonymous"].
+- Added exception filters [to make hpHosts more usable](/gorhill/uBlock/issues/17).
+
 ### 0.1.1.1
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.1.1.zip) date: 29 June 2014
 - Translation work by [tailHey](/tailHey) ([French](/gorhill/uBlock/commits?author=tailHey)) and [tlu1024](/tlu1024) ([German](https://github.com/gorhill/uBlock/commits?author=tlu1024)).
