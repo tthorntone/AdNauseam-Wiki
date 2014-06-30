@@ -2,6 +2,8 @@
 
 But there is an interesting hosts file available which is not enabled by default out-of-the-box: [hpHosts ad/tracking servers](http://hosts-file.net/) list. This list contains over 20,000 hostnames linked to ad servers.
 
+![hpHosts](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/wiki-hphosts.png)
+
 I have been using this list since days now, and I really do not see many issues, i.e. numerous unexpected web site "breakage".
 
 I cannot select this list by default for new installs, since I have no idea yet of its likelihood of "breaking" web pages. But you may want to give it a try, adding an extra 20,000 ad servers to the filtering engine surely is of help (I may run a benchmark eventually to compare the blocking power relative to plain out-of-the-box settings).
