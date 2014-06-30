@@ -24,7 +24,7 @@ I cannot select this list by default for new installs, since I have no idea yet 
 > - Outbound cookies: 48 / 175
 > - Net requests: 2,513 / 5,099
 
-For reference, Adblock Plus with _EasyList_, _EasyPrivacy_ and Malware protection list (acceptable ads disabled):
+For reference, Adblock Plus with _EasyList_, _EasyPrivacy_ and Malware protection enabled ("Acceptable ads" disabled):
 
 > Coming
 
