@@ -26,7 +26,7 @@ in the settings.
 
 Filters with the `$elemhide` option are ignored. At time of writing, I see 50 such
 filters in _EasyList_. The purpose of these filters is to disable cosmetic filters on
-specific site.
+specific sites.
 
 #### "µBlock has a smaller memory footprint than Ghostery or Disconnect."
 
