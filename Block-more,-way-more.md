@@ -16,7 +16,7 @@ I cannot select this list by default for new installs, since I have no idea yet 
 - Outbound cookies: 36 / 158
 - Net requests: 2,329 / 4,864
 
-**Without** hpHosts ad/tracking servers:
+**Without** hpHosts ad/tracking servers (out-of-the-box settings):
 
 - Domains: **243** / 244
 - Hosts: 393 / 612
