@@ -10,19 +10,23 @@ I cannot select this list by default for new installs, since I have no idea yet 
 
 **With** hpHosts ad/tracking servers:
 
-- Domains: **219** / 220
-- Hosts: 347 / 564
-- Scripts: 558 / 832
-- Outbound cookies: 36 / 158
-- Net requests: 2,329 / 4,864
+> - Domains: **219** / 220
+> - Hosts: 347 / 564
+> - Scripts: 558 / 832
+> - Outbound cookies: 36 / 158
+> - Net requests: 2,329 / 4,864
 
 **Without** hpHosts ad/tracking servers (out-of-the-box settings):
 
-- Domains: **243** / 244
-- Hosts: 393 / 612
-- Scripts: 596 / 871
-- Outbound cookies: 48 / 175
-- Net requests: 2,513 / 5,099
+> - Domains: **243** / 244
+> - Hosts: 393 / 612
+> - Scripts: 596 / 871
+> - Outbound cookies: 48 / 175
+> - Net requests: 2,513 / 5,099
+
+For reference, Adblock Plus with _EasyList_, _EasyPrivacy_ and Malware protection list (acceptable ads disabled):
+
+> Coming
 
 Eventually, if more users try the **hpHosts ad/tracking servers** list, and report any and all issues with it, we can create the appropriate exception filters to prevent web page breakages, and then it might become feasible to enable it out of the box.
 
