@@ -10,4 +10,4 @@ Eventually, if more users try the hpHosts ad/tracking servers list, and report a
 
 For instance, the recent [hacking of Reuters through the Taboola content delivery network](http://www.ibtimes.co.uk/reuters-hacked-by-syrian-electronic-army-via-taboola-ad-1453717) would have left you unaffected, as hpHosts ad/tracking servers does contain the hostname `cdn.taboola.com`, which is from where the compromised javascript file was downloaded.
 
-So if you wish to help in making it possible to enable this list out of the box, try it, and report any breakage (which doesn't happen without this list enabled) in [issue #17](https://github.com/gorhill/uBlock/issues/17)
+So if you wish to help in making it possible to enable this list out of the box, try it, and report any breakage (after verifying the same breakage doesn't occur when the list is disabled) in [issue #17](https://github.com/gorhill/uBlock/issues/17)
