@@ -26,7 +26,7 @@ I cannot select this list by default for new installs, since I have no idea yet 
 
 For reference, Adblock Plus with _EasyList_, _EasyPrivacy_ and Malware protection enabled ("Acceptable ads" disabled):
 
-> - Domains: 250 / 251
+> - Domains: **250** / 251
 > - Hosts: 401 / 619
 > - Scripts: 613 / 894
 > - Outbound cookies: 45 / 183
