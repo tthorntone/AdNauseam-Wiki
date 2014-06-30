@@ -14,7 +14,7 @@ Both extensions had _EasyList_, _EasyPrivacy_, _Peter Lowe's Ad Server_ list, an
 
 ### Added overhead to each net request
 
-ABP and µBlock need to process the URL of each net request against all the filters, and eventually tell the waiting browser whether the request should be cancelled or not. Since the browser is waiting for an answer, this is a time critical part and determining whether the request should be allowed or not must be done as fast as possible.
+ABP and µBlock need to evaluate the URL of each net request against their dictionary of filters, and eventually tell the waiting browser whether the request should be cancelled or not. Since the browser is waiting for an answer, this is a time critical part and determining whether the request should be allowed or not must be done as fast as possible.
 
 Below are the average time it takes for each extension to handle a net request in their respective `chrome.webRequest.onBeforeRequest` handler, using the same [benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark).
 
