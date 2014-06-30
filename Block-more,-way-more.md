@@ -6,7 +6,7 @@ I have been using this list since days now, and I really do not see many issues,
 
 I cannot select this list by default for new installs, since I have no idea yet of its likelihood of "breaking" web pages. But you may want to give it a try, adding an extra 20,000 ad servers to the filtering engine surely is of help (I may run a benchmark eventually to compare the blocking power relative to plain out-of-the-box settings).
 
-Eventually, if more users try the hpHosts ad/tracking servers list, and report any and all issues with it, we can create the appropriate exception filters to prevent these breakage, and then it might become feasible to enable it out of the box.
+Eventually, if more users try the hpHosts ad/tracking servers list, and report any and all issues with it, we can create the appropriate exception filters to prevent these web page breakages, and then it might become feasible to enable it out of the box.
 
 For instance, the recent [hacking of Reuters through the Taboola content delivery network](http://www.ibtimes.co.uk/reuters-hacked-by-syrian-electronic-army-via-taboola-ad-1453717) would have left you unaffected, as hpHosts ad/tracking servers does contain the hostname `cdn.taboola.com`, which is from where the compromised javascript file was downloaded.
 
