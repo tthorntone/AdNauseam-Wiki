@@ -2,5 +2,6 @@
 - Install from [Chrome store](https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm), Opera store (waiting for approval), or [manually](https://github.com/gorhill/uBlock/tree/master/dist#install).
 - [µBlock vs. ABP: efficiency compared](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
 - [µBlock vs. others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-others:-Blocking-ads,-trackers,-malwares)
+- [Block more, way more](https://github.com/gorhill/uBlock/wiki/Block-more,-way-more)
 - [What µBlock can and can not (currently) do](https://github.com/gorhill/uBlock/wiki/What-%C2%B5Block-can-and-can-not-(currently)-do)
 - [My answer to web store reviews where appropriate](https://github.com/gorhill/uBlock/wiki/My-answer-to-web-store-reviews-where-appropriate)
