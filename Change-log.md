@@ -2,7 +2,7 @@
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.3.0.zip) date: 2 July 2014
 - New _"Statistics"_ tab in the dashboard: to see which requests were blocked on a particular page.
     - Optional, disabled by default in order to prevent overhead of such a feature for users who will never care about this level of details.
-    - If enabled, there will be a small eye in the popup to easily access the tab.
+    - If enabled, there will be a small eye icon in the popup to easily access the tab.
 - Translation work by [Ginohax](/Ginohax) (Italian).
 - Fixed <https://github.com/gorhill/uBlock/issues/37>: "Avoid avoidable overhead in contentscript_end.js ..."
 - Fixed <https://github.com/gorhill/uBlock/issues/12>: "Possibility to view blocked elements + corresponding filters"
