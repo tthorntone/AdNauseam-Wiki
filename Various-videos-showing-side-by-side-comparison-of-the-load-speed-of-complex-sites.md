@@ -4,4 +4,4 @@
 
 #### Sports Illustrated (www.si.com): µBlock vs. no blocker
 
-[Coming soon. I have no idea what result to expect]
+[Coming soon. I have no idea what result to expect.]
