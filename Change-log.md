@@ -1,3 +1,8 @@
+### 0.1.3.2
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.3.2.zip) date: 2 July 2014
+- Translation [work](/gorhill/uBlock/commit/c1421d04236eca315c63704b2e4be9a1f55dd888) by [tlu1024](/tlu1024) (Chinese Simplified)
+- Fixed <https://github.com/gorhill/uBlock/issues/42>: "Filters using the `~example.com` syntax for the `domain=` option are broken".
+
 ### 0.1.3.1
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.3.1.zip) date: 2 July 2014
 - Translation [work](/gorhill/uBlock/commit/a0a3f5b30b1abae610a14606b6cf3991487e4775) by [faye925](/faye925) (Chinese Simplified)
