@@ -1,6 +1,7 @@
 ### 0.1.3.1
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.3.1.zip) date: 2 July 2014
-- Translation [work](https://github.com/gorhill/uBlock/commit/a0a3f5b30b1abae610a14606b6cf3991487e4775) by [faye925](/faye925) (Chinese Simplified)
+- Translation [work](/gorhill/uBlock/commit/a0a3f5b30b1abae610a14606b6cf3991487e4775) by [faye925](/faye925) (Chinese Simplified)
+- Translation [work](/gorhill/uBlock/commit/bdcd1ceadad2fe45136a2fb0b419a798bbdf3214) by [tailHey](/tailHey) (French)
 
 ### 0.1.3.0
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.3.0.zip) date: 2 July 2014
