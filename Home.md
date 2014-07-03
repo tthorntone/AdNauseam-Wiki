@@ -1,3 +1,5 @@
+[![ABP vs µBlock](http://img.youtube.com/vi/SzJr4hmPlgQ/1.jpg)](https://www.youtube.com/watch?v=SzJr4hmPlgQ)
+
 - [Change log](https://github.com/gorhill/uBlock/wiki/Change-log)
 - Install from [Chrome store](https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm), Opera store (waiting for approval), or [manually](https://github.com/gorhill/uBlock/tree/master/dist#install).
 - [µBlock vs. ABP: efficiency compared](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
