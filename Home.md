@@ -4,7 +4,7 @@
 - [µBlock vs. ABP: efficiency compared](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
 - [µBlock vs. others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-others:-Blocking-ads,-trackers,-malwares)
 - [Block more, way more](https://github.com/gorhill/uBlock/wiki/Block-more,-way-more)
-- [About "Adblock Plus reports more stuff blocked!"](https://github.com/gorhill/uBlock/wiki/About-%22Adblock-Plus-reports-more-stuff-blocked!%22)
+- [About "This other extension reports more stuff blocked!"](https://github.com/gorhill/uBlock/wiki/About-%This-other-extension-reports-more-stuff-blocked!%22)
 - [Various videos showing side by side comparison of the load speed of complex sites](/gorhill/uBlock/wiki/Various-videos-showing-side-by-side-comparison-of-the-load-speed-of-complex-sites)
 - [What µBlock can and can not (currently) do](https://github.com/gorhill/uBlock/wiki/What-%C2%B5Block-can-and-can-not-(currently)-do)
 - [My answer to web store reviews where appropriate](https://github.com/gorhill/uBlock/wiki/My-answer-to-web-store-reviews-where-appropriate)
