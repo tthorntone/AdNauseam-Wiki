@@ -44,3 +44,5 @@ Adblock Plus
 So µBlock caused the browser to hit many less remote servers, meaning it blocked more, and yet its badge displayed a lower number of requests blocked.
 
 So the point is, do not rely on the badge to judge blocking power, i.e. to assess how well your privacy is protected, you would fool yourself big time.
+
+On the other hand, blocking too much may "break" some aspects of a web site, so in the end, as long as you understand what is happening under the hood, you can make informed choices.
