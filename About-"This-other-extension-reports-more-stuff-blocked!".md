@@ -2,7 +2,7 @@ TL;DR: Do not rely on the number shown over extension badge to judge blocking po
 
 ***
 
-For both Adblock Plus and µBlock, the badge on the icon reports the number of net requests blocked by the extension.
+For both Adblock Plus and µBlock (and many other such extensions), the badge on the icon reports the number of net requests blocked by the extension.
 
 Sometimes, for the same page, one extension can report more stuff blocked than the other, while the reality could be the opposite.
 
