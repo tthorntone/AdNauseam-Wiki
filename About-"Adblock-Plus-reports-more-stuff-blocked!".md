@@ -8,7 +8,7 @@ Ultimately, for me it's the [benchmarks I run](/gorhill/uBlock/wiki/%C2%B5Block-
 
 If you don't want to run a benchmark, I have this [little online tool](http://raymondhill.net/httpsb/har-parser.html) with which you can find out the requests which were **not** prevented from leaving your browser. To use it, open the dev console for the page for which you want a report, and go to the _Network_ tab.
 
-Clear the browser cache by right-clicking somewhere in the _Network_ tab console. Force a reload of the web page, then right-click in the _Network_ tab console, and select _"Copy all as HAR"_. Then paste the result in the text area of this online tool, and click _Parse_. You will be shown the hostnames which were hit by the browser for the particular page you loaded.
+Clear the browser cache by right-clicking somewhere in the _Network_ tab console. Force a reload of the web page, then right-click in the _Network_ tab console, and select _"Copy all as HAR"_. Then paste the result in the text area of [this online tool](http://raymondhill.net/httpsb/har-parser.html), and click _Parse_. You will be shown the hostnames which were hit by the browser for the particular page you loaded.
 
 For example, for the front page of <http://www.cnet.com/>, µBlock shows 10 request blocked, while ABP shows 16 (both with a lot of filter lists). However here is what really happened internally:
 
