@@ -36,3 +36,7 @@ Adblock Plus
 - fonts.cnet.com
 - urs.cnet.com
 - www.cnet.com
+
+So µBlock caused the browser to hit less remote servers, meaning it blocked more, and yet its badge displayed "10" requests blocked.
+
+So the point is do not rely on the badge to gauge blocking power, i.e. to gauge how well your privacy is protected, you would fool yourself.
