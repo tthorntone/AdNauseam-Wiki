@@ -41,6 +41,6 @@ Adblock Plus
 - urs.cnet.com
 - www.cnet.com
 
-So µBlock caused the browser to hit many less remote servers, meaning it blocked more, and yet its badge displayed "10" requests blocked.
+So µBlock caused the browser to hit many less remote servers, meaning it blocked more, and yet its badge displayed a lower number of requests blocked.
 
 So the point is, do not rely on the badge to judge blocking power, i.e. to assess how well your privacy is protected, you would fool yourself big time.
