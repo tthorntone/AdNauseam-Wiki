@@ -1,12 +1,28 @@
+### 0.1.3.4
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.3.4.zip) date: 5 July 2014
+- Fixed <https://github.com/gorhill/uBlock/issues/46>: "uBlock blocking behind the scene requests while it should not".
+    - This was preventing the browser the ability to login in a user's Google account.
+
+***
+
+### 0.1.3.3
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.3.3.zip) date: 5 July 2014
+
+***
+
 ### 0.1.3.2
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.3.2.zip) date: 2 July 2014
 - Translation [work](/gorhill/uBlock/commit/c1421d04236eca315c63704b2e4be9a1f55dd888) by [tlu1024](/tlu1024) (German)
 - Fixed <https://github.com/gorhill/uBlock/issues/42>: "Filters using the `~example.com` syntax for the `domain=` option are broken".
 
+***
+
 ### 0.1.3.1
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.3.1.zip) date: 2 July 2014
 - Translation [work](/gorhill/uBlock/commit/a0a3f5b30b1abae610a14606b6cf3991487e4775) by [faye925](/faye925) (Chinese Simplified)
 - Translation [work](/gorhill/uBlock/commit/bdcd1ceadad2fe45136a2fb0b419a798bbdf3214) by [tailHey](/tailHey) (French)
+
+***
 
 ### 0.1.3.0
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.3.0.zip) date: 2 July 2014
@@ -17,16 +33,22 @@
 - Fixed <https://github.com/gorhill/uBlock/issues/37>: "Avoid avoidable overhead in contentscript_end.js ..."
 - Fixed <https://github.com/gorhill/uBlock/issues/12>: "Possibility to view blocked elements + corresponding filters"
 
+***
+
 ### 0.1.2.0
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.2.0.zip) date: 30 June 2014
 - Translation work by [Ginohax](/Ginohax) (Italian).
 - Added exception filters [to make hpHosts more usable](/gorhill/uBlock/issues/17).
+
+***
 
 ### 0.1.1.1
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.1.1.zip) date: 29 June 2014
 - Translation work by [tailHey](/tailHey) ([French](/gorhill/uBlock/commits?author=tailHey)) and [tlu1024](/tlu1024) ([German](https://github.com/gorhill/uBlock/commits?author=tlu1024)).
 - Fixed <https://github.com/gorhill/uBlock/issues/33>: "Need translation of detailed description: German".
 - Fixed <https://github.com/gorhill/uBlock/issues/28>: "Parse and enforce Adblock+ element hiding filters option not working properly".
+
+***
 
 ### 0.1.1.0
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.1.0.zip) date: 27 June 2014
