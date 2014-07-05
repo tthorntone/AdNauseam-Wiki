@@ -1,7 +1,7 @@
 ### 0.1.3.4
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.3.4.zip) date: 5 July 2014
 - Fixed <https://github.com/gorhill/uBlock/issues/46>: "uBlock blocking behind the scene requests while it should not".
-    - This was preventing the browser the ability to login in a user's Google account.
+    - This was breaking the browser's ability to login in a user's Google account from the browser's _Apps_ page (`chrome://apps`, or `chrome://chrome-signin`).
 
 ***
 
