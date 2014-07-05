@@ -10,7 +10,7 @@
 - Fixed <https://github.com/gorhill/uBlock/issues/44>: "EasyList Czech and Slovak moved".
 - Fixed <https://github.com/gorhill/uBlock/issues/41>: "Extremely generic element hiding selectors are current performance bottleneck".
     - Probably users won't notice this performance improvement, as the test case used was a demanding one:
-        - Tested page, heavily bloated front page of <http://www.si.com> ([a demanding page](http://www.youtube.com/watch?v=1NmQvv7MGbE) for cosmetic filters)
+        - Tested page, heavily bloated front page of [www.si.com](http://www.si.com) ([a demanding page](http://www.youtube.com/watch?v=1NmQvv7MGbE) for cosmetic filters)
         - I used many lists with cosmetic filters in them: _EasyList_, _EasyPrivacy_, _Fanboy Annoyance_, _Fanboy Enhanced Tracking_, _Fanboy Anti-Facebook_.
         - The improvement cuts µBlock's cosmetic filters implementation overhead from 90ms to 60ms per page load for that particularly demanding page (over 2,500 HTML elements), with the above lists (representing over 33,500 cosmetic filters).
         - So if µBlock can do well with this one page, it most certainly can do very well with almost everything else.
