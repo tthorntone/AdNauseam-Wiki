@@ -10,7 +10,7 @@
 - Fixed <https://github.com/gorhill/uBlock/issues/47>: "Option to also log non-blocked requests".
 - Fixed a few glitches which caused the blocking count to be reset constantly on Google Maps, and some others here and there, I dodn't feel like opening an issue for each of these. Check [the commit](/gorhill/uBlock/commit/ee610b3aad679440da51da9449b345afda6f274d) if you are really that curious.
 
-Also, I registered the [project at Crowdin](https://crowdin.net/project/ublock), so if you want to contribute translation work, that would be the place to do it. I'm learning how all this work, so I might have been clumsy when setting up the project, but it currently works, I might just decide to restructure the directory tree if I can do it without losing work.
+Also, I registered the [project at Crowdin](https://crowdin.net/project/ublock), so if you want to contribute translation work, that would be the place to do it. I'm learning how all this work, so I might have been clumsy when setting up the project, but it currently works, I might just decide to restructure the directory tree if I can do it without losing work (I thought it had to reflect the project's directory tree here at Github).
 
 ***
 
