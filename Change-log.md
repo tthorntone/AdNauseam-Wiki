@@ -9,7 +9,7 @@
     - The logging opens the door to more advanced features if needed, like the disabling of specific filters, or to be able to easily create filters.
 - Fixed <https://github.com/gorhill/uBlock/issues/47>: "Option to also log non-blocked requests".
 
-Also, I registered the [project at Crowdin](https://crowdin.net/project/ublock), so if you want to contribute translation work, that would be the place to do it. I'm learning how all this work, so I might have been clumsy when setting up the project, but it currently works, I might just decide to restructure the directory tree.
+Also, I registered the [project at Crowdin](https://crowdin.net/project/ublock), so if you want to contribute translation work, that would be the place to do it. I'm learning how all this work, so I might have been clumsy when setting up the project, but it currently works, I might just decide to restructure the directory tree if I can do it without losing work.
 
 ***
 
