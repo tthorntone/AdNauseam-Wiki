@@ -5,7 +5,7 @@
     - Disabled by default.
     - Does not affect memory and CPU footprint if disabled.
     - Will likely increase a bit memory footprint when enabled (µBlock will still be quite below the memory footprint of big name blockers).
-    - The logging opens the door for more advanced features, like the disabling of specific filters, or to be able to easily create filters.
+    - The logging opens the door to more advanced features if needed, like the disabling of specific filters, or to be able to easily create filters.
 - Fixed <https://github.com/gorhill/uBlock/issues/47>: "Option to also log non-blocked requests".
 
 ***
