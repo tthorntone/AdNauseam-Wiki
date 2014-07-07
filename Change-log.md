@@ -4,6 +4,8 @@
 - Using `Number.toLocaleString` to display number of requests blocked since install.
     - As [suggested by a user on Wilders Securities Forums](http://www.wilderssecurity.com/threads/%C2%B5block-a-lean-and-fast-blocker.365273/page-4#post-2388950).
 
+***
+
 ### 0.1.4.1
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.1.zip) date: 7 July 2014
 - Better layout for log of requests, emphasizing domains.
