@@ -1,12 +1,15 @@
 ### 0.1.4.0
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.0.zip) date: 6 July 2014
 - **New settings:** _"Enable the logging of non-blocked requests"_
+    - In the _Statistics_ tab in the dashboard.
     - Just like the other option to log blocked requests, except this one is to be able to see what was **not** blocked, along with the relevant exception filter it any.
     - Disabled by default.
     - Does not affect memory and CPU footprint if disabled.
     - Will likely increase a bit memory footprint when enabled (µBlock will still be quite below the memory footprint of big name blockers).
     - The logging opens the door to more advanced features if needed, like the disabling of specific filters, or to be able to easily create filters.
 - Fixed <https://github.com/gorhill/uBlock/issues/47>: "Option to also log non-blocked requests".
+
+Also, I registered the [project at Crowdin](https://crowdin.net/project/ublock), so if you want to contribute translation work, that would be the place to do it. I'm learning how all this work, so I might have been clumsy when setting up the project, but it currently works, I might just decide to restructure the directory tree.
 
 ***
 
