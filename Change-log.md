@@ -1,3 +1,11 @@
+
+### 0.1.4.1
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.1.zip) date: 7 July 2014
+- Better layout for log of requests, emphasizing domains.
+    - No open issue for this one. Changes in [069909117148e5e1bebf119dd532fd88e8dff1d6](https://github.com/gorhill/uBlock/commit/069909117148e5e1bebf119dd532fd88e8dff1d6).
+
+***
+
 ### 0.1.4.0
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.0.zip) date: 6 July 2014
 - **New settings:** _"Enable the logging of non-blocked requests"_
