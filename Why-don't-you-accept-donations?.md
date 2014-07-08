@@ -10,4 +10,4 @@ If I were to accept donations, then in my opinion, the projects (µBlock, HTTP S
 
 Another reason, I want to be free to do whatever I want.
 
-I may get bored with these projects and wanting to move on to something else. Accepting donations would force me to keep working on these projects, because people who donate usually have reasonable expectations in return for their donations: to keep the projects going. I want to be free of such funds-related expectations.
+I may get bored with these projects and wanting to move on to something else. Accepting donations would force me to keep working on these projects, because people who donate usually have reasonable expectations in return for their donations: to keep the projects going. I want to be free of such funds-related expectations. Sorry if this sounds selfish.
