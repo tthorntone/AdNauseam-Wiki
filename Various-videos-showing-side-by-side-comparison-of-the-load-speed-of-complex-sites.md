@@ -10,4 +10,4 @@ Videos available for download here: <https://github.com/gorhill/uBlock/tree/mast
 
 #### CPU usage when running reference benchmark
 
-[![ABP vs µBlock](http://img.youtube.com/vi/X8tGAPYLGtI/2.jpg)](https://www.youtube.com/watch?v=X8tGAPYLGtI)
+[![ABP vs µBlock](http://img.youtube.com/vi/X8tGAPYLGtI/0.jpg)](https://www.youtube.com/watch?v=X8tGAPYLGtI)
