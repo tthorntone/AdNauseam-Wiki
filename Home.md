@@ -1,6 +1,6 @@
 - [Change log](https://github.com/gorhill/uBlock/wiki/Change-log)
 - [How to whitelist a web site](/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
-- Install from [Chrome store](https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm), Opera store (waiting for approval), or [manually](https://github.com/gorhill/uBlock/tree/master/dist#install).
+- Install from [Chrome store](https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm), Opera store (https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](https://github.com/gorhill/uBlock/tree/master/dist#install).
 - [µBlock vs. ABP: efficiency compared](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
 - [µBlock vs. others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-others:-Blocking-ads,-trackers,-malwares)
 - [Block more, way more](https://github.com/gorhill/uBlock/wiki/Block-more,-way-more)
