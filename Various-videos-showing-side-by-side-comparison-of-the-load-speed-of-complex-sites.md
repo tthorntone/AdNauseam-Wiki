@@ -7,3 +7,7 @@ Videos available for download here: <https://github.com/gorhill/uBlock/tree/mast
 #### Sports Illustrated (www.si.com): Adblock Plus vs. µBlock
 
 [![ABP vs µBlock](http://img.youtube.com/vi/SzJr4hmPlgQ/0.jpg)](https://www.youtube.com/watch?v=SzJr4hmPlgQ)
+
+#### CPU usage when running reference benchmark
+
+[![ABP vs µBlock](http://img.youtube.com/vi/X8tGAPYLGtI/0.jpg)](https://www.youtube.com/watch?v=X8tGAPYLGtI)
