@@ -19,10 +19,28 @@ ABP and µBlock need to evaluate the URL of each net request against their dicti
 Below are the average time it takes for each extension to handle a net request in their respective `chrome.webRequest.onBeforeRequest` handler, using the same [benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark).
 
 ##### Adblock Plus
-![ABP](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/abp-obr.png)
+    ABP > onBeforeRequest: 0.286 ms (19448 samples)
+    ABP > onBeforeRequest: 0.286 ms (19697 samples)
+    ABP > onBeforeRequest: 0.286 ms (19890 samples)
+    ABP > onBeforeRequest: 0.285 ms (20157 samples)
+    ABP > onBeforeRequest: 0.284 ms (20675 samples)
+    ABP > onBeforeRequest: 0.284 ms (20790 samples)
+    ABP > onBeforeRequest: 0.284 ms (20956 samples)
+    ABP > onBeforeRequest: 0.284 ms (21112 samples)
+    ABP > onBeforeRequest: 0.283 ms (21279 samples)
+    ABP > onBeforeRequest: 0.283 ms (21472 samples)
 
 ##### µBlock
-![uBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/ublock-obr.png)
+    µBlock > onBeforeRequest: 0.173 ms (18913 samples)
+    µBlock > onBeforeRequest: 0.172 ms (19177 samples)
+    µBlock > onBeforeRequest: 0.172 ms (19354 samples)
+    µBlock > onBeforeRequest: 0.172 ms (19681 samples)
+    µBlock > onBeforeRequest: 0.171 ms (20139 samples)
+    µBlock > onBeforeRequest: 0.171 ms (20311 samples)
+    µBlock > onBeforeRequest: 0.171 ms (20461 samples)
+    µBlock > onBeforeRequest: 0.171 ms (20610 samples)
+    µBlock > onBeforeRequest: 0.171 ms (20756 samples)
+    µBlock > onBeforeRequest: 0.171 ms (20933 samples)
 
 Note that the results above are the tail end of running the complete benchmark (60 front pages of high traffic web sites, repeated 3 times). 
 
