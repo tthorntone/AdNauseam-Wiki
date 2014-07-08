@@ -1,3 +1,9 @@
+### 0.1.4.4
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.4.zip) date: 8 July 2014
+- Fixed <https://github.com/gorhill/uBlock/issues/49>: "Checkboxes in Settings tab not initialized properly".
+
+***
+
 ### 0.1.4.3
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.3.zip) date: 8 July 2014
 - Performance work: the handling of net requests went on average from above 220ms to under 180ms per net request (as per [reference benchmark](/gorhill/uBlock/wiki/Reference-benchmark)).
