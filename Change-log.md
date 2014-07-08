@@ -6,7 +6,7 @@
 
 ### 0.1.4.3
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.3.zip) date: 8 July 2014
-- Performance work: the handling of net requests went on average from above 220ms to under 180ms per net request (as per [reference benchmark](/gorhill/uBlock/wiki/Reference-benchmark)).
+- [Performance work](/gorhill/uBlock/commit/c837f32fa728e73e6498a6395efb6acfcf9d1ac6): the handling of net requests went on average from above 220ms to under 180ms per net request (as per [reference benchmark](/gorhill/uBlock/wiki/Reference-benchmark)).
 
 ***
 
