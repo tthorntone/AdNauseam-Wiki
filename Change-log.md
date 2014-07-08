@@ -1,3 +1,9 @@
+### 0.1.4.3
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.3.zip) date: 8 July 2014
+- Performance work: the handling of net requests went from above 280ms to under 200ms.
+
+***
+
 ### 0.1.4.2
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.2.zip) date: 7 July 2014
 - Fixed font family used to display requests in _Statistics_ tab.
