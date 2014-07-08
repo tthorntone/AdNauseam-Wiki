@@ -2,7 +2,7 @@ A couple of reasons, each on its own is enough for me to not want donations.
 
 ##### One reason is a mix of practicality and because of who I am.
 
-If I were to accept donations, because of who I am, I would be unable to **not** disclose **exactly** what is going on with these donations: revenues, withdrawals (for what purpose), etc. Because these would be funds donated with the expectations to help, I would want to disclose everything related to these donations, so people who have given know how their donations are used for this project. That's just who I am, I wouldn't be able to do otherwise. Thing is, I don't want to deal with all this administrative work I would bring to myself if I were to accept donations.
+If I were to accept donations, because of who I am, I would be unable to **not** disclose **exactly** what is going on with these donations: revenues, withdrawals (for what purpose), etc. Because these would be funds donated with the expectations to help, I would want to disclose everything related to these donations, so people who have given know how their donations are used for this project. I wouldn't be able to do otherwise. Thing is, I don't want to deal with all this administrative work I would bring to myself if I were to accept donations.
 
 ##### Another reason, to ensure the main purpose of these projects is protected.
 
