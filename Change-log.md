@@ -1,3 +1,9 @@
+### 0.1.4.5
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.5.zip) date: 9 July 2014
+- Fixed <https://github.com/gorhill/uBlock/issues/50>: "Thepiratebay leaves behind blocked element divs".
+
+***
+
 ### 0.1.4.4
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.4.zip) date: 8 July 2014
 - Fixed <https://github.com/gorhill/uBlock/issues/49>: "Checkboxes in Settings tab not initialized properly".
