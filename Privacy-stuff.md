@@ -2,7 +2,7 @@ There are many lists out there which purpose is to enhance privacy protection. M
 
 ##### Twitter widget
 
-I don't know why this one is not blocked by Fanboy Annoyance, as the list already block many other twitter widget-related stuff. So if you use above list, you may want to add the following to your filters:
+I don't know why this one is not blocked by Fanboy Annoyance, as the list already blocks many other twitter widget-related stuff. So if you use above list, you may want to add the following to your filters:
 
 `||platform.twitter.com/widgets.js$third-party`
 
