@@ -8,7 +8,7 @@ I don't know why this one is not blocked by Fanboy Annoyance, as the list alread
 
 ##### Gravatar
 
-Each time you visit a site which pull cute little avatar image aside (typically) a commenter's name, there is a corresponding request to [Gravatar](https://gravatar.com)'s web site, and the HTTP `referer` header contains the site you are visiting. The tracking potential is too much for me, so I block all these requests:
+Each time you visit a site which pull cute little avatar images aside (typically) a commenter's name, there is a corresponding request to [Gravatar](https://gravatar.com)'s web site, and the HTTP `referer` header contains the site you are visiting. The tracking potential is too much for me, so I block all these requests:
 
 `||gravatar.com^$third-party`
 
