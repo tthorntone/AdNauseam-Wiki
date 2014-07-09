@@ -1,3 +1,10 @@
+### 0.1.4.6
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.6.zip) date: 9 July 2014
+- Dutch translation work (not complete) from [contributor at Crowdin](https://crowdin.net/project/ublock/nl/activity).
+- Fixed <https://github.com/gorhill/uBlock/issues/51>: "Show the updated content of a list, not its content at install time".
+
+***
+
 ### 0.1.4.5
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.5.zip) date: 9 July 2014
 - Fixed <https://github.com/gorhill/uBlock/issues/50>: "Thepiratebay leaves behind blocked element divs".
