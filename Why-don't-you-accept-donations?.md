@@ -1,3 +1,1 @@
-A couple of reasons, each on its own is enough for me to not want donations.
-
 I don't want the administrative workload coming with donations. I don't want the project to become in need of funding in any way: no dedicated home page + no forum = no cost = no need for donations. I want to be free to move onto something else if ever I get tired working on these project (no donations = no expectations).
