@@ -1,6 +1,12 @@
+### 0.1.4.8
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.8.zip) date: 10 July 2014
+    - Sorry for the quick update, I just want the contributors to be able to benefit from the results of their translation work.
+- Swedish translation work from [contributor at Crowdin](https://crowdin.net/project/ublock/sv-SE/activity).
+- Ukrainian translation work (partial) from [contributor at Crowdin](https://crowdin.net/project/ublock/uk/activity).
+
 ### 0.1.4.7
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.7.zip) date: 10 July 2014
-- Brazilian portuguese translation work from [contributor at Crowdin](https://crowdin.net/project/ublock/pt-BR/activity).
+- Brazilian Portuguese translation work from [contributor at Crowdin](https://crowdin.net/project/ublock/pt-BR/activity).
 - Dutch translation work from [contributor at Crowdin](https://crowdin.net/project/ublock/nl/activity).
 - Chinese translation work from [contributor on Github](/gorhill/uBlock/commit/8633ad3ad9cb9142eb9eadeb36f070bba87ecc05)
 
