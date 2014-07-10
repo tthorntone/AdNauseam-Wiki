@@ -1,3 +1,11 @@
+### 0.1.4.7
+- [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.7.zip) date: 10 July 2014
+- Brazilian portuguese translation work from [contributor at Crowdin](https://crowdin.net/project/ublock/pt-BR/activity).
+- Dutch translation work from [contributor at Crowdin](https://crowdin.net/project/ublock/nl/activity).
+- Chinese translation work from [contributor on Github](/gorhill/uBlock/commit/8633ad3ad9cb9142eb9eadeb36f070bba87ecc05)
+
+***
+
 ### 0.1.4.6
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.6.zip) date: 9 July 2014
 - Dutch translation work (not complete) from [contributor at Crowdin](https://crowdin.net/project/ublock/nl/activity).
