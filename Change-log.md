@@ -1,6 +1,6 @@
 ### 0.1.4.8
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.8.zip) date: 10 July 2014
-    - Sorry for the quick update, I just want the contributors to be able to benefit from the results of their translation work.
+    - Sorry for the quick releases, I just want the contributors to be able to benefit from the results of their translation work.
 - Swedish translation work from [contributor at Crowdin](https://crowdin.net/project/ublock/sv-SE/activity).
 - Ukrainian translation work (partial) from [contributor at Crowdin](https://crowdin.net/project/ublock/uk/activity).
 
