@@ -6,7 +6,7 @@ Once in element-picker mode, you have to point and click on the element you wish
 
 Once you click on the element, you will be presented with a modal dialog box which allows you to select, and optionally edit and create a filter for the element you wish to remove from the web page.
 
-If possible, a network filter will be offered, and a list of cosmetic filters, aka CSS selectors which have been derived from the element you clicked. These CSS selectors are to be used as cosmetic filters. The top most CSS selector is the most specific which could be derived to the element you clicked. The bottom-most is the farthest, the least specific.
+If possible, a network filter will be offered, and a list of cosmetic filters, aka CSS selectors which have been derived from the element you clicked. These CSS selectors are to be used as cosmetic filters. The top most CSS selector is the most specific which could be derived from the element you clicked. The bottom-most is the farthest, the least specific.
 
 When you click on one of the pre-computed CSS selector, you will be shown what effect it will have on the page. You may want to ensure a CSS selector will not also get rid of useful items on the page.
 
