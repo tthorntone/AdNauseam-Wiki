@@ -62,6 +62,14 @@ Extensions have their own memory footprint, but they also causes increased memor
 
 Now keep in mind this is the added footprint for a very simple web page which has no embedded frames. You can multiply the added footprint on the main page by the number of frames embedded on a page, so page with frames can end up consuming a _lot_ more memory than they would have otherwise. A good stress test which demonstrate this is the [infamous vim test](https://github.com/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption).
 
+##### µBlock vs. Adblock: memory usage differential during reference benchmark
+
+![µBlock vs. Adblock: memory usage differential during reference benchmark](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/media/ublock-vs-abp-cpu-2.png)
+
+Above picture gives an overview of how much more memory Adblock Plus consumes over µBlock. The reference benchmark was used, which consists in visiting 60 front page og high traffic web sites.
+
+The blue area represents how much more ABP itself consumes more memory then µBlock. The orange area represents how much more ABP causes the web pages themselves to consume more memory.
+
 ### Related wiki pages
 
 - [Net request filtering efficiency: HTTP Switchboard vs. Adblock Plus](https://github.com/gorhill/httpswitchboard/wiki/Net-request-filtering-efficiency:-HTTP-Switchboard-vs.-Adblock-Plus)
