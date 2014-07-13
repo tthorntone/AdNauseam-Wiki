@@ -70,7 +70,7 @@ Above picture gives an overview of how much more memory Adblock Plus consumes ov
 
 The vertical represents MB. The horizontal axes is time in seconds, and the data was tediously extracted from [this video](https://www.youtube.com/watch?v=DKM78oV_ftg) (consider the video to be the raw data -- I need to publish my spreadsheet as well so people can double check in doubt).
 
-The blue area represents how much more ABP itself consumes more memory then µBlock. The orange area represents how much more ABP causes the web pages themselves to consume more memory.
+The blue area represents how much more ABP itself consumes more memory then µBlock. The orange area represents how much more ABP causes the web pages themselves to consume more memory. ABP systematically causes web pages to consume more memory, and often quite a lot, north of 100 MB for some sites. This kind of added short term memory overhead is not cheap, as it also means the CPU is working harder.
 
 ### Related wiki pages
 
