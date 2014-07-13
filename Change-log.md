@@ -2,6 +2,7 @@
 - [Release](/gorhill/uBlock/releases/tag/0.2.0.0) date: 13 July 2014
 - New feature: Ability to [interactively pick an element](/gorhill/uBlock/wiki/Element-picker) to be blocked.
     - Consider this a feature still in _beta_.
+- More translation work from contributors at [Crowdin](https://crowdin.net/project/ublock)
 - Fixed <https://github.com/gorhill/uBlock/issues/57>: "Adwords ads appear quickly, then disappear"
     - A new type of cosmetic filter has been defined: "entity-based" filters, which allows to create filters for a specific "entity", where "entity" is defined as "the domain name minus the public suffix".
     - Concretely, this allows to define one single cosmetic filter which will work with `google.com`, `google.ca`, `google.com.br`, etc.
