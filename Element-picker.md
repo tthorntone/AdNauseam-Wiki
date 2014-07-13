@@ -14,6 +14,6 @@ When you click on one of the pre-computed CSS selector, you will be shown what e
 
 You may manually edit the selector. However the result needs to be a valid filter, otherwise you won't be allowed to create a filter out of it. A valid filter in the context of the element picker is one which matches at least one element on the web page.
 
-You may quit the interactive element picker by clicking the _Quit_ button. You may close the modal dialog and go pick an element again by clicking the _Pick_ button.
+You may quit the interactive element picker by clicking the _Quit_ button (or press _Esc_). You may close the modal dialog and go pick an element again by clicking the _Pick_ button.
 
 The _Create_ button will be enabled only if a proper filter can be created from the content of the text area. Once you click the _Create_ button, the element picker will add the necessary tokens to ensure the filter apply **only** to the current web site, will add it to your custom list of filters and save it.
