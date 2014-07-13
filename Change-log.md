@@ -1,6 +1,6 @@
 ### 0.2.0.0
 - Release date: Not released
-- New feature: Ability to interactively pick an element to be blocked.
+- New feature: Ability to [interactively pick an element](/gorhill/uBlock/wiki/Element-picker) to be blocked.
     - Consider this a feature still in _beta_.
 
 ### 0.1.4.8
