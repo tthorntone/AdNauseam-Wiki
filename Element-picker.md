@@ -4,7 +4,7 @@ If there is an element on a web page you wish to remove forever, open the extens
 
 Once in element-picker mode, you have to point and click on the element you wish to remove.
 
-Once you click on the element, you will be presented with a modal dialog box which allows you to select, and optionally edit the filter which will be create in order to remove the element you wish to remove from the web page.
+Once you click on the element, you will be presented with a modal dialog box which allows you to select, and optionally edit the filter which will be created in order to create a filter for the element you wish to remove from the web page.
 
 If possible, a network filter will be offered, and a list of CSS selector which have been derived from the element you clicked. These CSS selectors are to be used as cosmetic filters. The top most CSS selector is the closest to the element you clicked. The bottom-most is the farthest.
 
