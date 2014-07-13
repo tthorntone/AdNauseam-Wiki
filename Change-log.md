@@ -7,7 +7,7 @@
     - Concretely, this allows to define one single cosmetic filter which will work with `google.com`, `google.ca`, `google.com.br`, etc.
     - Whereas before, it would have been to tedious to repeat the same set of cosmetic filters for each domain name variant, hence forcing the EasyList maintainer to declare these filters as generic.
     - These filters are specific to µBlock, but down the road maybe the syntax will be adopted by the community.
-    - The problem this new filter syntax solves is to be able to create filter specific enough for these to be injected early in the page load pipeline.
+    - The problem this new filter syntax solves is to be able to create filter specific enough for these to be injected early in the page load timeline.
 - Fixed <https://github.com/gorhill/uBlock/issues/4>: "Select element to block"
     - See [Element picker](https://github.com/gorhill/uBlock/wiki/Element-picker).
 
