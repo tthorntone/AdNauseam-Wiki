@@ -1,5 +1,5 @@
 ### 0.2.0.0
-- Release date: Not released
+- [Release](/gorhill/uBlock/releases/tag/0.2.0.0) date: 13 July 2014
 - New feature: Ability to [interactively pick an element](/gorhill/uBlock/wiki/Element-picker) to be blocked.
     - Consider this a feature still in _beta_.
 - Fixed <https://github.com/gorhill/uBlock/issues/57>: "Adwords ads appear quickly, then disappear"
