@@ -1,3 +1,8 @@
+### 0.2.0.0
+- Release date: Not released
+- New feature: Ability to interactively pick an element to be blocked.
+    - Consider this a feature still in _beta_.
+
 ### 0.1.4.8
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.8.zip) date: 10 July 2014
     - Sorry for the quick releases, I just want the contributors to be able to benefit from the results of their translation work.
