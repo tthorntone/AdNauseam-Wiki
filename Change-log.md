@@ -1,20 +1,8 @@
-### 0.2.0.1
-- [Release](/gorhill/uBlock/releases/tag/0.2.0.1) date: 13 July 2014
-- Fixed <https://github.com/gorhill/uBlock/issues/60>: "Do not prevent access to element picker if uBlock disabled for a site"
+Starting with version 0.2.0.0, you can find the change log and releases at this page:
 
-### 0.2.0.0
-- [Release](/gorhill/uBlock/releases/tag/0.2.0.0) date: 13 July 2014
-- New feature: Ability to [interactively pick an element](/gorhill/uBlock/wiki/Element-picker) to be blocked.
-    - Consider this a feature still in _beta_.
-- More translation work from contributors at [Crowdin](https://crowdin.net/project/ublock)
-- Fixed <https://github.com/gorhill/uBlock/issues/57>: "Adwords ads appear quickly, then disappear"
-    - A new type of cosmetic filter has been defined: "entity-based" filters, which allows to create filters for a specific "entity", where "entity" is defined as "the domain name minus the public suffix".
-    - Concretely, this allows to define one single cosmetic filter which will work with `google.com`, `google.ca`, `google.com.br`, etc.
-    - Whereas before, it would have been to tedious to repeat the same set of cosmetic filters for each domain name variant, hence forcing the EasyList maintainer to declare these filters as generic.
-    - These filters are specific to µBlock, but down the road maybe the syntax will be adopted by the community.
-    - The problem this new filter syntax solves is to be able to create filter specific enough for these to be injected early in the page load timeline.
-- Fixed <https://github.com/gorhill/uBlock/issues/4>: "Select element to block"
-    - See [Element picker](https://github.com/gorhill/uBlock/wiki/Element-picker).
+<https://github.com/gorhill/uBlock/releases>
+
+This is the proper Github-way to release new revisions/versions, and this simplify my work.
 
 ### 0.1.4.8
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.8.zip) date: 10 July 2014
