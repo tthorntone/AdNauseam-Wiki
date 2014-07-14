@@ -66,7 +66,7 @@ Now keep in mind this is the added footprint for a very simple web page which ha
 
 ![µBlock vs. Adblock: memory usage differential during reference benchmark](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/media/ublock-vs-abp-cpu-2.png)
 
-Above picture gives an overview of how much more memory Adblock Plus consumes over µBlock. The [reference benchmark](/gorhill/uBlock/wiki/Reference-benchmark) was used, which consists in visiting 60 front page of high traffic web sites.
+Above picture gives an overview of how much more memory Adblock Plus consumes over µBlock. It represents the **extra memory** ABP consumes relative to µBlock -- so essentially µBlock is the horizontal axis. The [reference benchmark](/gorhill/uBlock/wiki/Reference-benchmark) was used, which consists in visiting 60 front page of high traffic web sites.
 
 The vertical represents MB. The horizontal axes is time in seconds, and the data was tediously extracted from [this video](https://www.youtube.com/watch?v=DKM78oV_ftg) (consider the video to be the raw data -- I need to publish my spreadsheet as well so people can double check in doubt).
 
