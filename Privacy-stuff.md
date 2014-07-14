@@ -1,5 +1,9 @@
 There are many lists out there which purpose is to enhance privacy protection. Many missing entries though. So here:
 
+##### Settings
+
+Unlike HTTP Switchboard, µBlock doesn't foil cookie headers. I strongly suggest privacy-minded users enable _"Block third-party cookies and site data"_ in the browser settings.
+
 ##### Twitter widget
 
 I don't know why this one is not blocked by Fanboy Annoyance, as the list already blocks many other twitter widget-related stuff. So if you use above list, you may want to add the following to your filters:
