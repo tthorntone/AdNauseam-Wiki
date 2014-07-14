@@ -1,3 +1,11 @@
+#### "µBlock is just a stripped-down version of HTTP Switchboard".
+
+No. µBlock started off by extracting the ABP engines (net and cosmetic filters) from HTTP Switchboard ("HTTPSB"). These engines needed more work to bring them to maturity. Most of that work has not been ported back to HTTPSB. Actually, I am questioning doing so, for the sake of code sanity, I consider removing ABP-filtering engine from HTTPSB, so that both extension complement each other, and with a narrower purpose, they can focus on doing what they do more perfectly.
+
+Consider [this issue](/gorhill/httpswitchboard/issues/373) as a good example of how trying to do too many things lead to over-complicated software that I myself struggle to explain. Also, IMO a good way to sabotage a good piece of software is to turn it into a kitchen-sink tool.
+
+The more I think about it, the more I am convinced this is the right thing to do. If you look closely at the [inner working of HTTPSB](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview), ABP-filtering is already a separate part.
+
 #### "µBlock does not support element hiding".
 
 Yes it does. Try entering `twitter.com##body` in the _"Your filters"_ text area 
