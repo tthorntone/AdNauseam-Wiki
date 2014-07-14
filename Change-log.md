@@ -1,3 +1,7 @@
+### 0.2.0.1
+- [Release](/gorhill/uBlock/releases/tag/0.2.0.1) date: 13 July 2014
+- Fixed <https://github.com/gorhill/uBlock/issues/60>: "Do not prevent access to element picker if uBlock disabled for a site"
+
 ### 0.2.0.0
 - [Release](/gorhill/uBlock/releases/tag/0.2.0.0) date: 13 July 2014
 - New feature: Ability to [interactively pick an element](/gorhill/uBlock/wiki/Element-picker) to be blocked.
