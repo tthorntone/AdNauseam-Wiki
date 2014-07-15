@@ -28,9 +28,9 @@ No it doesn't. There are things ABP can do which µBlock can't at this time. I w
 consider all feature requests, but I will implement only those which do not jeopardize µBlock's
 defining traits: lean, efficient and minimalist.
 
-Filters with the `$popup` option are ignored. At time of writing, I see 558 such
+~~Filters with the `$popup` option are ignored. At time of writing, I see 558 such
 filters in _EasyList_. Chromium comes with a built-in popup blocker, which can be enabled
-in the settings.
+in the settings.~~ Supported in 0.2.1.0.
 
 Filters with the `$elemhide` option are ignored. At time of writing, I see 50 such
 filters in _EasyList_. The purpose of these filters is to disable cosmetic filters on
