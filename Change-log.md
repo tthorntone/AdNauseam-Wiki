@@ -10,6 +10,8 @@ This is the proper Github-way to release new revisions/versions, and this simpli
 - Swedish translation work from [contributor at Crowdin](https://crowdin.net/project/ublock/sv-SE/activity).
 - Ukrainian translation work (partial) from [contributor at Crowdin](https://crowdin.net/project/ublock/uk/activity).
 
+***
+
 ### 0.1.4.7
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.7.zip) date: 10 July 2014
 - Brazilian Portuguese translation work from [contributor at Crowdin](https://crowdin.net/project/ublock/pt-BR/activity).
