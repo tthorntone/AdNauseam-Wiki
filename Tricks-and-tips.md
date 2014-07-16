@@ -12,4 +12,8 @@ Here is an example. ABP with _EasyList_ and _EasyPrivacy_. µBlock blocks one re
 
 ![Did not block](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/tips-n-tricks-001.png)
 
-I really thought _EasyPrivacy_ was blocking Google Analytics.
+I really thought _EasyPrivacy_ was blocking completely Google Analytics. How many of you also thought so?
+
+Once you disabled the other blocker, µBlock will take over the whole responsibility to block all you want:
+
+![Did not block](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/tips-n-tricks-002.png)
