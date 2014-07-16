@@ -1,5 +1,3 @@
-There are many lists out there which purpose is to enhance privacy protection. Many missing entries though. So here:
-
 ##### Settings
 
 Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest privacy-minded users to...
