@@ -2,7 +2,10 @@ There are many lists out there which purpose is to enhance privacy protection. M
 
 ##### Settings
 
-Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest privacy-minded users to enable _"Block third-party cookies and site data"_ in the browser settings.
+Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest privacy-minded users to...
+
+- Enable _"Block third-party cookies and site data"_ in _"Content settings"_ / _"Cookies"_.
+- Enable _"Click to play"_ in _"Content settings"_ / _"Plug-ins"_.
 
 ##### Twitter widget
 
