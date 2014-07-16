@@ -8,3 +8,4 @@ Other blockers typically cancel requests during `chrome.webRequest.onBeforeReque
 
 So in such case, if you notice µBlock actually still ends up blocks something, it's actually everything the other blocker(s) did **not** block. Thus, µBlock can also be used to find out what other blockers are missing.
 
+![Did not block](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/tips-n-tricks-001.png)
