@@ -43,4 +43,4 @@ No it doesn't. Last time I checked, µBlock has a larger memory footprint than b
 Regarding CPU footprint, I don't know, I didn't measure yet (maybe
 I will). Keep in mind that µBlock, like ABP, Adguard, and some others allows users
 to enter their own filters. There are also other differences, or similarities: µBlock, _Disconnect_
-and ABP are licensed under [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License).
+and ABP are licensed under [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License). Also, there is [this](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares).
