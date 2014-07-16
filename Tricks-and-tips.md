@@ -12,7 +12,7 @@ Here is an example. ABP with _EasyList_ and _EasyPrivacy_. µBlock shows it bloc
 
 ![Did not block](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/tips-n-tricks-001.png)
 
-I really thought _EasyPrivacy_ was blocking completely Google Analytics. How many of you also thought so? ([Here](https://adblockplus.org/forum/viewtopic.php?t=22023)).
+Turns out it's Google Analytics... I really thought _EasyPrivacy_ was blocking completely Google Analytics. How many of you also thought so? ([Here](https://adblockplus.org/forum/viewtopic.php?t=22023)).
 
 Once you disable the other blocker(s), µBlock will take over the whole responsibility to block all you want:
 
