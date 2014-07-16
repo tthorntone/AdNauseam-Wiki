@@ -9,7 +9,7 @@ Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest p
 
 ##### Regarding EasyPrivacy
 
-In case you were not aware, using _EasyPrivacy_ doesn't protect against Google Analytics. So if you were using Adblock Plus with _EasyPrivacy_ (as recommended by the EFF), you might have thought that you were protected against Google Analytics.
+In case you were not aware, using _EasyPrivacy_ doesn't protect against Google Analytics. So if you were using Adblock Plus with _EasyPrivacy_ (as [recommended by the EFF](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online)), you might have thought that you were protected against Google Analytics.
 
 If you are using µBlock, no worry, it protects against Google Analytics out of the box -- via _"Peter Lowe's Ad server"_ list.
 
