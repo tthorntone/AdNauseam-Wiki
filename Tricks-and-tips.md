@@ -14,7 +14,7 @@ Here is an example. ABP with _EasyList_ and _EasyPrivacy_. µBlock shows it bloc
 
 Turns out it's Google Analytics... I really thought _EasyPrivacy_ was blocking completely Google Analytics. How many of you also thought so? ([Found this...](https://adblockplus.org/forum/viewtopic.php?t=22023)).
 
-Once you disable the other blocker(s), µBlock will take over the whole responsibility to block all you want (and this includes Google Analytics with out of the box settings, via _"Peter Lowe’s Ad server list"_):
+Once you disable the other blocker(s), µBlock will take over the whole responsibility to block all you want (and this includes Google Analytics with out of the box settings, via [_"Peter Lowe’s Ad server list"_](http://pgl.yoyo.org/as/)):
 
 ![Did not block](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/tips-n-tricks-002.png)
 
