@@ -3,6 +3,7 @@
 Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest privacy-minded users to...
 
 - Enable _"Block third-party cookies and site data"_ in _"Content settings"_ / _"Cookies"_.
+    - It works very well: see "Outbound cookies" in [this benchmark results](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares).
 - Enable _"Click to play"_ in _"Content settings"_ / _"Plug-ins"_.
 
 ##### Regarding EasyPrivacy
