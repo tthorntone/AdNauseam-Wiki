@@ -7,6 +7,12 @@ Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest p
 - Enable _"Block third-party cookies and site data"_ in _"Content settings"_ / _"Cookies"_.
 - Enable _"Click to play"_ in _"Content settings"_ / _"Plug-ins"_.
 
+##### Regarding EasyPrivacy
+
+In case you were not aware, using _EasyPrivacy_ doesn't protect against Google Analytics. So if you were using Adblock Plus with _EasyPrivacy_ (as recommended by the EFF), you might have thought that you were protected against Google Analytics.
+
+If you are using µBlock, no worry, it protects against Google Analytics out of the box -- via _"Peter Lowe's Ad server"_ list.
+
 ##### Twitter widget
 
 I don't know why this one is not blocked by Fanboy Annoyance, as the list already blocks many other twitter widget-related stuff. So if you use above list, you may want to add the following to your filters:
