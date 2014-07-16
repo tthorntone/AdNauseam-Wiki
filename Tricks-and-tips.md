@@ -8,4 +8,8 @@ Other blockers typically cancel requests during `chrome.webRequest.onBeforeReque
 
 So in such case, if you notice µBlock actually still ends up blocks something, it's actually everything the other blocker(s) did **not** block. Thus, µBlock can also be used to find out what other blockers are missing.
 
+Here is an example. ABP with _EasyList_ and _EasyPrivacy_. µBlock blocks one request, thus something not blocked by ABP:
+
 ![Did not block](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/tips-n-tricks-001.png)
+
+I really thought _EasyPrivacy_ was blocking Google Analytics.
