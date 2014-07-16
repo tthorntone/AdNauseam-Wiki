@@ -17,3 +17,5 @@ I really thought _EasyPrivacy_ was blocking completely Google Analytics. How man
 Once you disabled the other blocker, µBlock will take over the whole responsibility to block all you want:
 
 ![Did not block](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/tips-n-tricks-002.png)
+
+Note that using µBlock as a tool to find out what other blockers **do not** block works as long as the other blockers completely rely on `chrome.webRequest.onBeforeRequest` to do their job, and not on `chrome.webRequest.onBeforeSendHeaders`.
