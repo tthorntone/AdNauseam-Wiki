@@ -6,6 +6,17 @@ Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest p
     - It works very well: see "Outbound cookies" in [this benchmark results](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares).
 - Enable _"Click to play"_ in _"Content settings"_ / _"Plug-ins"_.
 
+##### Command line switches
+
+I personally these command line switches (Chromium on Linux):
+
+- `--disable-component-extensions-with-background-pages` ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-component-extensions-with-background-pages))
+    - "Disable default component extensions with background pages"
+    - I believe this takes care to prevent Hangout Services to be launched by the browser.
+    - With other Chromium-based browsers, maybe more stuff would be disabled, you decide whether this is good or bad.
+- `--disable-background-networking` ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-background-networking))
+    - "Disable several subsystems which run network requests in the background."
+
 ##### Regarding EasyPrivacy
 
 In case you were not aware, using _EasyPrivacy_ doesn't protect against Google Analytics. So if you were using Adblock Plus with _EasyPrivacy_ (as [recommended by the EFF](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online)), you might have thought you were protected against Google Analytics. [You are not](https://github.com/gorhill/uBlock/wiki/Tricks-and-tips#easy-way-to-find-out-what-other-blockers-do-not-block-what-they-should-block).
