@@ -12,7 +12,7 @@ I personally use these command line switches (Chromium on Linux):
 
 - `--disable-component-extensions-with-background-pages`
     - _"Disable default component extensions with background pages"_ ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-component-extensions-with-background-pages))
-    - I believe this prevent Hangout Services to be launched by the browser as a background process. I wasn't too happy to find out there was such a process launched even though I do not use Google's _Hangout_.
+    - I believe this prevent Hangout Services to be launched by the browser as a background process. I wasn't too happy to find out there was [such a process](https://code.google.com/p/chromium/codesearch#chromium/src/chrome/browser/resources/hangout_services/background.html) launched even though I do not use Google's _Hangout_.
     - With other Chromium-based browsers, maybe more stuff would be disabled, you decide whether this is good or bad.
 - `--disable-background-networking`
     - _"Disable several subsystems which run network requests in the background"_ ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-background-networking))
