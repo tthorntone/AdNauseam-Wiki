@@ -2,7 +2,7 @@ Starting with version 0.2.0.0, you can find the change log and releases at this 
 
 <https://github.com/gorhill/uBlock/releases>
 
-This is the proper Github-way to release new revisions/versions, and this simplifies my work.
+This is the proper Github-way to release new revisions/versions, and this simplifies my work. Thanks to [mikhaelkh](/mikhaelkh) for the [tip](/gorhill/httpswitchboard/issues/368).
 
 ### 0.1.4.8
 - [Release](/gorhill/ublock/blob/master/dist/ublock_0.1.4.8.zip) date: 10 July 2014
