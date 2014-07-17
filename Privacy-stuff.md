@@ -16,6 +16,7 @@ I personally use these command line switches (Chromium on Linux):
     - With other Chromium-based browsers, maybe more stuff would be disabled, you decide whether this is good or bad.
 - `--disable-background-networking`
     - _"Disable several subsystems which run network requests in the background"_ ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-background-networking))
+- [add more switch of interests whenever new ones are found]
 
 ##### Regarding EasyPrivacy
 
