@@ -10,12 +10,12 @@ Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest p
 
 I personally use these command line switches (Chromium on Linux):
 
-- `--disable-component-extensions-with-background-pages` ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-component-extensions-with-background-pages))
-    - "Disable default component extensions with background pages"
+- `--disable-component-extensions-with-background-pages`
+    - _"Disable default component extensions with background pages"_ ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-component-extensions-with-background-pages))
     - I believe this takes care to prevent Hangout Services to be launched by the browser.
     - With other Chromium-based browsers, maybe more stuff would be disabled, you decide whether this is good or bad.
-- `--disable-background-networking` ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-background-networking))
-    - "Disable several subsystems which run network requests in the background."
+- `--disable-background-networking`
+    - _"Disable several subsystems which run network requests in the background"_ ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-background-networking))
 
 ##### Regarding EasyPrivacy
 
