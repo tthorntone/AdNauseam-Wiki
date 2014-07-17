@@ -6,7 +6,7 @@ Net requests can be cancelled as effectively using `chrome.webRequest.onBeforeSe
 
 Other blockers typically cancel requests during `chrome.webRequest.onBeforeRequest`, which means by the time µBlock's handler kicks in, many, if not all, net requests have been blocked by the other blocker(s).
 
-So in such case, if you notice µBlock actually still ends up blocks something, it's actually everything the other blocker(s) did **not** block. Thus, µBlock can also be used to find out what other blockers are missing.
+So in such case, if you notice µBlock actually still ends up blocking something, it's actually everything the other blocker(s) did **not** block. Thus, µBlock can also be used to find out what other blockers are missing.
 
 Here is an example. ABP with _EasyList_ and _EasyPrivacy_. µBlock shows it blocked one request, thus something was **not** blocked by ABP:
 
