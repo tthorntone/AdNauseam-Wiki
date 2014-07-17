@@ -8,7 +8,7 @@ Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest p
 
 ##### Command line switches
 
-I personally these command line switches (Chromium on Linux):
+I personally use these command line switches (Chromium on Linux):
 
 - `--disable-component-extensions-with-background-pages` ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-component-extensions-with-background-pages))
     - "Disable default component extensions with background pages"
