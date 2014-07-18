@@ -5,6 +5,7 @@ Summary: µBlock blocked everything Adblock Plus blocked, **plus**:
 - live.com
 - newsvine.com
 
+Raw results:
 
 | µBlock 0.2.3.0                        | Adblock Plus 1.8.3                    |
 | -------------------------------------:|--------------------------------------:|
