@@ -5,7 +5,11 @@ Summary: µBlock blocked everything Adblock Plus blocked, **plus**:
 - live.com
 - newsvine.com
 
-Raw results:
+There is stuff in there which I don't like to see not being blocked by µBlock:
+- janrain.com
+- janrainbackplane.com
+
+And probably so many more which are of no interests for users:
 
 | µBlock 0.2.3.0                        | Adblock Plus 1.8.3                    |
 | -------------------------------------:|--------------------------------------:|
