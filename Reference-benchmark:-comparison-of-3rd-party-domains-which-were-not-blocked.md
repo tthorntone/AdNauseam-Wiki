@@ -1,6 +1,5 @@
 
 
-
 | µBlock 0.2.3.0                        | Adblock Plus 1.8.3                    |
 | -------------------------------------:|--------------------------------------:|
 | 2mdn.net                              | 2mdn.net                              |
@@ -47,7 +46,7 @@
 | djcs-olympics.s3.amazonaws.com        | djcs-olympics.s3.amazonaws.com        |
 | dnkzzz1hlto79.cloudfront.net          | dnkzzz1hlto79.cloudfront.net          |
 | do17qa6ql691x.cloudfront.net          | do17qa6ql691x.cloudfront.net          |
-|                                       | **doubleclick.net**                   |
+|                                       | **DOUBLECLICK.NET**                   |
 | dqwufkbc3sdtr.cloudfront.net          | dqwufkbc3sdtr.cloudfront.net          |
 | dwgyu36up6iuz.cloudfront.net          | dwgyu36up6iuz.cloudfront.net          |
 | facebook-web-clients.appspot.com      | facebook-web-clients.appspot.com      |
@@ -93,7 +92,7 @@
 | krxd.net                              | krxd.net                              |
 | licdn.com                             | licdn.com                             |
 | linkedin.com                          | linkedin.com                          |
-|                                       | **live.com**                          |
+|                                       | **LIVE.COM**                          |
 | livefyre.com                          | livefyre.com                          |
 | llnwd.net                             | llnwd.net                             |
 | logicbuy.com                          | logicbuy.com                          |
@@ -109,7 +108,7 @@
 | newscred.com                          | newscred.com                          |
 | newsgator.com                         | newsgator.com                         |
 | newsinc.com                           | newsinc.com                           |
-|                                       | **newsvine.com**                      |
+|                                       | **NEWSVINE.COM**                      |
 | nyt.com                               | nyt.com                               |
 | ooyala.com                            | ooyala.com                            |
 | ophan.co.uk                           | ophan.co.uk                           |
