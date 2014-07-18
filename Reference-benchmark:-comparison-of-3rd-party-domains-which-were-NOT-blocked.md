@@ -6,7 +6,7 @@ Summary: µBlock blocked everything Adblock Plus blocked, **plus**:
 - live.com
 - newsvine.com
 
-There is stuff in there which I don't like to see not being blocked by µBlock:
+There is stuff in there which I don't like to see not being blocked by µBlock. Examples:
 - janrain.com
 - janrainbackplane.com
 
