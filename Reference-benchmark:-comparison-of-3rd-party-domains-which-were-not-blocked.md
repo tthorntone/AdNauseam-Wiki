@@ -1,3 +1,9 @@
+Below is a list of domains which were not blocked when executing the reference benchmark. I performed only one run to collect the data here. The run was performed on July 18, 2014.
+
+Summary: µBlock blocked everything Adblock Plus blocked, **plus**:
+- doubleclick.net
+- live.com
+- newsvine.com
 
 
 | µBlock 0.2.3.0                        | Adblock Plus 1.8.3                    |
