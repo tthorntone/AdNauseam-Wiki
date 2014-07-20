@@ -93,10 +93,10 @@ I performed only one run to collect the data here. The run was performed on July
 | | | go-mpulse.net |
 | google-analytics.com | google-analytics.com | google-analytics.com |
 | google.com | google.com | google.com |
-| googlesyndication.com | googlesyndication.com | googleadservices.com |
-| googletagservices.com | googletagservices.com | googlesyndication.com |
+| | | googleadservices.com |
+| googlesyndication.com | googlesyndication.com | googlesyndication.com |
 | | | googletagmanager.com |
-| | | googletagservices.com |
+| googletagservices.com | googletagservices.com | googletagservices.com |
 | googleusercontent.com | googleusercontent.com | googleusercontent.com |
 | gotraffic.net | gotraffic.net | gotraffic.net |
 | gravatar.com | gravatar.com | gravatar.com |
