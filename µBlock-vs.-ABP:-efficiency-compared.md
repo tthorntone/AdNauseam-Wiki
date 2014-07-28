@@ -1,5 +1,9 @@
 Here is a quick illustrated comparison of efficiency using various angles. Each extension were tested alone, as the only extension present. Benchmarking was performed with Chromium on Linux Mint 64-bit.
 
+- [Own memory footprint](#own-memory-footprint)
+- [Added overhead to each net request](#added-overhead-to-each-net-request)
+- [Added memory footprint to web pages](#added-memory-footprint-to-web-pages)
+
 ### Own memory footprint
 
 These screenshots show the memory footprint of ABP and µBlock _after_ they have gone through this rather [demanding benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark). Once the benchmark was completed, I forced the browser to garbage collect the memory in each extension by clicking the trash icon (in dev console) a couple of times -- this is an _important step_, or else the shown memory footprint is not too reliable.
@@ -60,7 +64,11 @@ Extensions have their own memory footprint, but they also causes increased memor
 ##### µBlock
 ![uBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/hn-ublock.png)
 
-Now keep in mind this is the added footprint for a very simple web page which has no embedded frames. You can multiply the added footprint on the main page by the number of frames embedded on a page, so page with frames can end up consuming a _lot_ more memory than they would have otherwise. A good stress test which demonstrate this is the [infamous vim test](https://github.com/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption).
+Now keep in mind this is the added footprint for a very simple web page which has no embedded frames. You can multiply the added footprint on the main page by the number of frames embedded on a page, so page with frames can end up consuming a _lot_ more memory than they would have otherwise. For instance, a very simple web page with a couple of `iframe` in it, [The Acid3 Test](http://acid3.acidtests.org/):
+
+![uBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/acid3test-mem.png)
+
+A good stress test which further demonstrate this is the [infamous vim test](https://github.com/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption).
 
 ##### µBlock vs. Adblock: memory usage differential during reference benchmark
 
