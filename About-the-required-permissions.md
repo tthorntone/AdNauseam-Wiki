@@ -15,6 +15,7 @@ This is necessary to be able to:
     - To flush from memory internal data structures
 - To find out which tab is currently active (to fill popup menu with associated stats/settings)
 - To be able to inject the element picker script
+- To implement the popup-blocker
 
 See code:
 - <https://github.com/gorhill/uBlock/search?q=%22chrome.tabs%22&type=Code>
