@@ -22,7 +22,8 @@ See code:
 
 #### "Manage your download"
 
-This is to be able to save your filters locally (in the _"Your filters"_ tab in the dashboard).
+- To be able to save your filters locally (in the _"Your filters"_ tab in the dashboard)
+- (Future) to be able to back up all your data (from the _"About"_ tab, just like in HTTP Switchboard)
 
 See code:
 - <https://github.com/gorhill/uBlock/search?q=%22chrome.downloads%22&type=Code>
