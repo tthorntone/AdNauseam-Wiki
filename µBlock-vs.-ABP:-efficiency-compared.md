@@ -76,7 +76,7 @@ A good stress test which further demonstrate this is the [infamous vim test](htt
 
 Above picture gives an overview of how much more memory Adblock Plus consumes over µBlock. It represents the **extra memory** ABP consumes relative to µBlock -- so essentially µBlock is the horizontal axis. If memory consumption of ABP and µBlock were exactly the same, there would be no graph. The [reference benchmark](/gorhill/uBlock/wiki/Reference-benchmark) was used, which consists of visiting 60 front page of high traffic web sites.
 
-The vertical represents MB. The horizontal axes is time in seconds, and the data was tediously extracted from [this video](https://www.youtube.com/watch?v=DKM78oV_ftg) (consider the video to be the raw data -- I need to publish my spreadsheet as well so people can double check in doubt).
+The vertical represents MB. The horizontal axes is time in seconds, and the data was tediously extracted from [this video](https://www.youtube.com/watch?v=DKM78oV_ftg) (consider the video to be the raw data -- [here is the spreadsheet](https://github.com/gorhill/uBlock/blob/master/doc/benchmarks/ublock-vs-abp-timeline.ods) so people can double check in doubt).
 
 The blue area represents how much more ABP itself consumes more memory then µBlock. The orange area represents how much more ABP causes the web pages themselves to consume more memory. ABP systematically causes web pages to consume more memory, and often quite a lot, north of 100 MB for some sites. This kind of added short term memory overhead is not cheap, as it also means the CPU is working harder.
 
