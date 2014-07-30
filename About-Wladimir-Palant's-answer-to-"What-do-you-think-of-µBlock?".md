@@ -7,7 +7,7 @@ This has been a pattern with Wladimir Palant with regard to my work. [Outright m
 - What "proposals" is he specifically referring to?
 - What specific "scenarios" is he referring to?
 
-Conveniently for him, I just don't know how to comment specifically technical aspects in response to vague statements. How does one do that?
+Conveniently for him, I just don't know how to comment specifically whatever technical aspects in response to vague statements. How does one do that?
 
 Also, nowhere in the code did I trade _"performance for memory use"_, both memory use and CPU use have always been of highest concern. Given that my [benchmarks](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared) show µBlock does _significantly_ better than ABP on both memory and CPU count, vaguely stating that _"clear tendency to trade performance for memory use"_ is just plain nonsense.
 
