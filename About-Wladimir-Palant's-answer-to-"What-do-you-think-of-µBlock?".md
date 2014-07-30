@@ -1,1 +1,9 @@
-[brb fixing #116]
+I see Wladimir Palant has again commented on µBlock [in his comment section](https://palant.de/2014/07/29/which-is-better-adblock-or-adblock-plus#c000761), in response to a someone asking "What do you think of µBlock?":
+
+> Didn’t have a chance to look at it yet. So far the author has been posting proposals that were supposed to fix all that is wrong with Adblock Plus but always failed to consider some scenarios. These proposals also had a clear tendency to trade performance for memory use. It seems that he gave up taking to the stupid Adblock Plus developers and rolled his own.
+
+This has been a pattern with Wladimir Palant with regard to my work. [Outright misrepresentation](https://github.com/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption), or criticism through vague statements while never specific enough to understand what part of the code he is referring to.
+
+For the record, nowhere in the code did I trade "performance for memory use", both memory use and CPU use have always been of highest concern. Given that my [benchmarks](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared) show µBlock does significantly better than ABP on both memory and CPU count, vaguely stating that "clear tendency to trade performance for memory use" is just plain nonsense.
+
+I did ask him to be specific about his statement regarding how I implemented element hiding without injecting gigantic CSS stylesheet in every page and frame, but never received a response, and it is understandable why: he was [misrepresenting the solution](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39).
