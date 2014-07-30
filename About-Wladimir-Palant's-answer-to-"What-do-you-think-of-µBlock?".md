@@ -7,7 +7,7 @@ This has been a pattern with Wladimir Palant with regard to my work. [Outright m
 - What "proposals" is he specifically referring to?
 - What specific "scenarios" is he referring to?
 
-Also. nowhere in the code did I trade "performance for memory use", both memory use and CPU use have always been of highest concern. Given that my [benchmarks](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared) show µBlock does _significantly_ better than ABP on both memory and CPU count, vaguely stating that "clear tendency to trade performance for memory use" is just plain nonsense.
+Also, nowhere in the code did I trade "performance for memory use", both memory use and CPU use have always been of highest concern. Given that my [benchmarks](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared) show µBlock does _significantly_ better than ABP on both memory and CPU count, vaguely stating that "clear tendency to trade performance for memory use" is just plain nonsense.
 
 I did ask him to be specific about his statement regarding how I implemented element hiding without injecting gigantic CSS stylesheet in every page and frame, but never received a response, and it is understandable why: he was [misrepresenting the solution](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39): nothing in my implementation was "broken", and his supposed worries about page hanging are beyond ridiculous given that's it's exactly the result of ABP's solution, which is to inject unconditionally 13,000 CSS rules in every page and every frame on a page.
 
