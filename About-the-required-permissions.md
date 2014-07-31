@@ -22,7 +22,7 @@ See code:
 - <https://github.com/gorhill/uBlock/search?q=%22chrome.tabs%22&type=Code>
 - <https://github.com/gorhill/uBlock/search?q=%22chrome.webNavigation%22&type=Code>
 
-#### "Manage your download"
+#### "Manage your downloads"
 
 - To be able to save your filters locally (in the _"Your filters"_ tab in the dashboard)
 - To be able to save your whitelist sites locally (in the _"Whitelist"_ tab in the dashboard)
