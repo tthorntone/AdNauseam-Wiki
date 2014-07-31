@@ -38,4 +38,4 @@ Each time you visit a site which pull cute little avatar images aside (typically
 
 I don't know if, and how much this breaks things. But for now I am happy to not have my browsing habits disclosed to gravatar.com. I can live without these cute thumbnails.
 
-But this applies to any domain which is ubiquitous enough, `gravatar.com` is just one example among so many. To deal with this easily, I find HTTP Switchboard to be the best tool, as to blacklists a ubiquitous domain is simply a matter of point and click.
+But this applies to any domain which is ubiquitous enough, `gravatar.com` is just one example among so many. To deal with this easily, I find HTTP Switchboard to be the best tool, as to blacklist a ubiquitous domain is simply a matter of point and click.
