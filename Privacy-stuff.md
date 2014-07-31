@@ -30,10 +30,12 @@ I don't know why this one is not blocked by Fanboy Annoyance, as the list alread
 
 `||platform.twitter.com/widgets.js$third-party`
 
-##### Gravatar
+##### Gravatar (et al)
 
 Each time you visit a site which pull cute little avatar images aside (typically) a commenter's name, there is a corresponding request to [Gravatar](https://gravatar.com)'s web site, and the HTTP `referer` header contains the site you are visiting. The tracking potential is too much for me, so I block all these requests:
 
 `||gravatar.com^$third-party`
 
 I don't know if, and how much this breaks things. But for now I am happy to not have my browsing habits disclosed to gravatar.com. I can live without these cute thumbnails.
+
+But this applies to any domain which us ubiquitous enough, `gravatar.com` is just one example among so many. To deal with this easily, I find HTTP Switchboard to be the best tool, as to blacklists a ubiquitous domain is simply a matter of point and click.
