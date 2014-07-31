@@ -6,7 +6,7 @@
 See code:
 - <https://github.com/gorhill/uBlock/search?q=%22chrome.webRequest%22&type=Code>
 
-#### "Access you tabs and browsing activity"
+#### "Access your tabs and browsing activity"
 
 This is necessary to be able to:
 
