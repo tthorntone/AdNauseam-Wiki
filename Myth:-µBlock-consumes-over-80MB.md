@@ -13,4 +13,4 @@ If the browser is idle enough, before one minute has elapsed, the browser should
 
 The top image shows the memory footprint of µBlock right after launch (Chrome 64-bit) (Expect similar memory footprint each time the filter lists have to be reloaded). The image at the bottom shows the memory footprint of µBlock before one minute has elapsed while the browser is idle.
 
-Note that once µBlock's baseline memory footprint won't change that much afterward. It will likely settles a few MB above the memory footprint reached after garbage collection has occurred, whenever the garbage collector is permitted to do its job.
+Note that µBlock's baseline memory footprint won't change that much afterwards. It will likely settles a few MB above the memory footprint reached after garbage collection has occurred, whenever the garbage collector is permitted to do its job.
