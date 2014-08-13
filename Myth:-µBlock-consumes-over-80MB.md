@@ -5,7 +5,7 @@ I've seen a couple of instances of people claiming µBlock is not as memory effi
 
 When µBlock launches, it loads all selected filter lists, parse the content, eliminate duplicates, than instantiates the filters using efficient internal representation. This parsing of the filter lists requires a good amount of temporary memory.
 
-So if you look at the task manager **right after** µBlock has loaded and parsed the filters, you will still see µBlock's memory footprint as a result of loading all the filter lists. Still, at the this point all this temporary has been relinquished to the browser, but the browser hasn't yet claimed the freed memory to make it available for reuse.
+So if you look at the task manager **right after** µBlock has loaded and parsed the filters, you will still see µBlock's memory footprint as a result of loading all the filter lists. Still, at this point all this temporary memory has been relinquished to the browser, but the browser hasn't yet claimed the freed memory to make it available for reuse.
 
 If the browser is idle enough, before one minute has elapsed, the browser should be able to [garbage collect](http://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) the temporary memory which was freed by µBlock after it finished loading and parsing the filter lists:
 
