@@ -3,7 +3,7 @@ I've seen a couple of instances of people claiming µBlock is not as memory effi
 - ["I just installed it, and it uses 117MB - that's not even close"](http://www.reddit.com/r/chrome/comments/2cpogs/fast_and_light_ad_blocker_for_chrome_%C2%B5block/cjhutwz)
 - ["Simply tried, did not see where the province of memory" (Google translate...)](http://bbs.kafan.cn/thread-1762885-1-1.html#pid32323303)
 
-When µBlock launches, it loads each filter file, parse the content, eliminate duplicates, than instantiates the filters using optimal representation. This parsing of the filter lists requires a good amount of temporary memory.
+When µBlock launches, it loads all selected filter lists, parse the content, eliminate duplicates, than instantiates the filters using efficient internal representation. This parsing of the filter lists requires a good amount of temporary memory.
 
 So if you look at the task manager right after µBlock has been activated, you will still see µBlock's memory footprint as a result of loading all the filter lists. Still, at the this point all this temporary has been relinquished to the browser, but the browser hasn't yet claimed the freed memory to make it available for reuse.
 
