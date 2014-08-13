@@ -4,6 +4,7 @@
 - [Privacy stuff](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)
 - [Tricks and tips](https://github.com/gorhill/uBlock/wiki/Tricks-and-tips)
 - [µBlock vs. ABP: efficiency compared](/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
+- [Myth: µBlock consumes over 80MB](https://github.com/gorhill/uBlock/wiki/Myth:-%C2%B5Block-consumes-over-80MB)
 - [µBlock and others: Blocking ads, trackers, malwares](/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares)
 - [Block more, way more](/gorhill/uBlock/wiki/Block-more,-way-more)
 - [About "This other extension reports more stuff blocked!"](/gorhill/uBlock/wiki/About-%22This-other-extension-reports-more-stuff-blocked!%22)
