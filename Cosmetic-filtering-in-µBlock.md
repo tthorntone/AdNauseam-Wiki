@@ -20,11 +20,11 @@ Benchmarking heavy sites (such as `si.com` which I use as a reference benchmark 
 
 This is the result of profiling `www.si.com` -- page loaded 10 times, hence timing values must be divided by ten to obtain per-page timings:
 
-##### µBlock 0.3.0.0
+##### µBlock 0.3.0.0:
 
 ![µBlock 0.3.0.0](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/profiling-cosmetic-filters-v0.3.png)
 
-##### µBlock 0.4.0.0
+##### µBlock 0.4.0.0:
 
 ![µBlock 0.4.0.0](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/profiling-cosmetic-filters-v0.4.png)
 
