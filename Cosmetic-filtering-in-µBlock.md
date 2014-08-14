@@ -28,4 +28,4 @@ This is the result of profiling `www.si.com` -- page loaded 10 times, hence timi
 
 ![µBlock 0.4.0.0](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/profiling-cosmetic-filters-v0.4.png)
 
-While at it, I decided to make use of this caching mechanism to also take care of hiding HTML elements linked to blocked net requests.
+While at it, I decided to make use of this caching mechanism to also take care of hiding HTML elements linked to blocked net requests, such that elements which are destined to have their net request blocked will be hidden even before their net request is fired in the browser.
