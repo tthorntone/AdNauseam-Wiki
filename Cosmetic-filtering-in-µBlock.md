@@ -1,6 +1,6 @@
 I consider version 0.4.0.0 to be an important milestone for µBlock, hence the jump from 0.3.2.3 to 0.4.0.0.
 
-Contrary to Adblock Plus, µBlock does not inject **all** the generic cosmetic filters into each page and each embedded frames on a page, and this is why pages load faster with µBlock, and this is why the memory footprint of the web pages themselves is significantly smaller with µBlock than with Adblock Plus.
+Contrary to Adblock Plus, µBlock does **not** inject **all** the generic cosmetic filters into each page and each embedded frames on a page, and this is why pages load faster with µBlock, and this is why the memory footprint of the web pages themselves is significantly smaller with µBlock than with Adblock Plus.
 
 To be able to inject only the cosmetic filters which are relevant to a web page (rather than all of them), µBlock waits for the primary DOM to be available, then survey and collect information on the page to find out which cosmetic filters need to be injected in the page.
 
