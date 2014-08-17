@@ -1,3 +1,7 @@
+##### Intro
+
+If you really care very much about your privacy (not being tracked, data mined, etc.), µBlock is a crutch, even with _EasyPrivacy_ enabled. If you want more than a crutch, HTTP Switchboard is the way to go.
+
 ##### Settings
 
 Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest privacy-minded users to...
@@ -38,4 +42,6 @@ Each time you visit a site which pull cute little avatar images aside (typically
 
 I don't know if, and how much this breaks things. But for now I am happy to not have my browsing habits disclosed to gravatar.com. I can live without these cute thumbnails.
 
-But this applies to any domain which is ubiquitous enough, `gravatar.com` is just one example among so many. To deal with this easily, I find [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) to be the best tool, as to blacklist a ubiquitous domain is simply a matter of point and click.
+But this applies to any domain which is ubiquitous enough, `gravatar.com` is just one example among so many. 
+
+To deal with this easily, I find [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) to be the best tool, as to blacklist a ubiquitous domain is simply a matter of point and click.
