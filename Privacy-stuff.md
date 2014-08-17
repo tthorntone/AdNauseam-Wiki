@@ -26,7 +26,7 @@ I personally use these command line switches (Chromium on Linux):
 
 In case you were not aware, using _EasyPrivacy_ doesn't protect completely against Google Analytics. So if you were using Adblock Plus with _EasyPrivacy_ (as [recommended by the EFF](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online)), you might have thought you were protected against Google Analytics. This is not necessarily the case.
 
-If you are using µBlock, no worry, it protects against Google Analytics out of the box -- via _"Peter Lowe's Ad server"_ list.
+If you are using µBlock, it protects you *more* against Google Analytics out of the box -- via _"Peter Lowe's Ad server"_ list. Yet, given that an exception filter may exist somewhere in one of the many lists, I can't guarantee the protection is 100%.
 
 ##### Twitter widget
 
