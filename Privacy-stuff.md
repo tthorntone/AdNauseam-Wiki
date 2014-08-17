@@ -44,4 +44,4 @@ I don't know if, and how much this breaks things. But for now I am happy to not 
 
 But this applies to any domain which is ubiquitous enough, `gravatar.com` is just one example among so many. 
 
-To deal with this easily, I find [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) to be the best tool, as to blacklist a ubiquitous domain is simply a matter of point and click.
+To deal with this easily, I find [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) to be the best tool, as to blacklist a ubiquitous domain with 100% certainty is simply a matter of point and click.
