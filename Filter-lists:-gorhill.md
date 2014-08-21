@@ -58,7 +58,7 @@ And following is a comparison of typical results to show what these lists accomp
 | static.licdn.com                     | static.licdn.com                     |                                      |
 | stats.wp.com                         |                                      |                                      |
 | tacoda.at.atwola.com                 |                                      |                                      |
-| <sup>tctechcrunch2011.files.wordpress.com</sup> | <sup>tctechcrunch2011.files.wordpress.com</sup> | <sup>tctechcrunch2011.files.wordpress.com</sup> |
+| tctechcrunch2011.files.<br>wordpress.com | tctechcrunch2011.files.<br>wordpress.com | tctechcrunch2011.files.<br>wordpress.com |
 | techcrunch.com                       | techcrunch.com                       | techcrunch.com                       |
 | www.facebook.com                     | www.facebook.com                     |                                      |
 | www.google-analytics.com             |                                      |                                      |
