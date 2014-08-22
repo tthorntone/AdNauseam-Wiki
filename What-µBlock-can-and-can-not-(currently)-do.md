@@ -17,7 +17,7 @@ icon in the pop-up of the extension.
 µBlock also parse _EasyList_, _EasyPrivacy_, _Malware domains_ lists, 
 and _Peter Lowes's Ad server_ list out of the box and yet uses less than half the 
 memory of [Adblock Plus](https://adblockplus.org/) ("ABP"), which is itself much more efficient than 
-[Adblock](https://getadblock.com/) (at least this is what I have measured on Chromium-based browsers).
+[AdBlock](https://getadblock.com/) (at least this is what I have measured on Chromium-based browsers).
 
 #### "µBlock has all the features ABP has!"
 
