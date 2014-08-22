@@ -1,6 +1,6 @@
 ##### Intro
 
-If you really care very much about your privacy (not being tracked, data mined, etc.), µBlock is a crutch (not a bad one though), even with _EasyPrivacy_ enabled (this is true for any "ad blocker"). If you want more than a good crutch, HTTP Switchboard is the way to go: it gives you full disclosure and full control of what web pages do.
+If you really care very much about your privacy (not being tracked, data mined, etc.), µBlock is a crutch (a good one though), even with _EasyPrivacy_ enabled (this is true for any "ad blocker"). If you want more than a good crutch, HTTP Switchboard is the way to go: it gives you full disclosure and full control of what web pages do.
 
 ##### Settings
 
