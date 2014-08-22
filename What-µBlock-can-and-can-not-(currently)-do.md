@@ -25,7 +25,7 @@ memory of [Adblock Plus](https://adblockplus.org/) ("ABP"), which is itself much
 
 #### "µBlock has all the features ABP has!"
 
-<sup>**Edit:** The text here was written at some point when µBlock was a version before 0.2.0.0, so a long time ago. As of version 0.5.0.1, the latest version, there is not much ABP for Chrome does which µBlock can't do. The only thing coming to mind is the _"Block element"_ feature in the contextual menu (right-click). Conversely there are things µBlock can do which ABP can't: read hosts file, log and inspect all requests (blocked and allowed), disabling the parsing of cosmetic filters (to save memory).</sup>
+<sup>**Edit:** The text here was written at some point when µBlock was a version before 0.2.0.0, so a long time ago. As of version 0.5.0.1, the latest version, there is not much ABP for Chrome does which µBlock can't do. The only thing coming to mind is the _"Block element"_ feature in the contextual menu (right-click). Conversely there are things µBlock can do which ABP for Chrome can't: read hosts file, log and inspect all requests (blocked and allowed), disabling the parsing of cosmetic filters (to save memory).</sup>
 
 No it doesn't. There are things ABP can do which µBlock can't at this time. I will 
 consider all feature requests, but I will implement only those which do not jeopardize µBlock's
