@@ -14,3 +14,5 @@ If the browser is idle enough, before one minute has elapsed, the browser should
 The top image shows the memory footprint of µBlock right after launch (Chrome 64-bit) (Expect similar memory footprint each time the filter lists have to be reloaded). The image at the bottom shows the memory footprint of µBlock before one minute has elapsed while the browser is idle.
 
 Note that µBlock's baseline memory footprint won't change that much afterwards. It will likely settles a few MB above the memory footprint reached after garbage collection has occurred, whenever the garbage collector is permitted to do its job.
+
+When repeatedly reload all filters (after say, changing selection of filter lists), I notice µBlock's baseline memory footprint edges higher each time. I entered [an issue](https://github.com/gorhill/uBlock/issues/22) to be remembered to investigate whether anything can be done for this. Currently I think this is simply caused by cumulative memory fragmentation and there might be nothing which can be done. Typically I expected users whill select a set of lists and stick to that afterward, so this would make this particular issue irrelevant.
