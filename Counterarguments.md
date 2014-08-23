@@ -1,3 +1,5 @@
+Just a page to collect my counterarguments when I spot something which I believe deserve countering.
+
 #### Who care about efficiency, I have 8 GB
 
 Doing more with less is a virtue in software. For users of µBlock, this means:
