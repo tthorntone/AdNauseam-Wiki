@@ -23,7 +23,7 @@ With hosts file under control of µBlock, it is then possible to un-break web si
 
 Many of the exception filters in [_"µBlock filters"_](https://github.com/gorhill/uBlock/blob/master/assets/ublock/filters.txt) are actually exception filters to counter entries in the hosts files shipped with µBlock.
 
-I want the project to be committed to fully support the hosts files which ship with µBlock, i.e. report any issues arising from using these, and appropriate exception filters will be used.
+I want the project to be committed to fully support the hosts files which ship with µBlock, i.e. report any issues arising from using these, and appropriate exception filters will be created.
 
 I personally use all of these hosts files, and so far not much breakage.
 
