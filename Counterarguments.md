@@ -13,6 +13,14 @@ Doing more with less is a virtue in software. For users of µBlock, this means:
 
 Memory and CPU cycles are finite resources. A sure way for a developer to **not** be hired when being interviewed is to dismiss efficiency work because "memory is plentiful" or "CPU nowadays are fast enough".
 
+#### Just use a hosts file
+
+You can't un-break web pages with [hosts file](http://en.wikipedia.org/wiki/Hosts_(file)) at OS level.
+
+µBlock supports the parsing/enforcing of hosts files, and ships with a couple of them. One of them, _"Peter Lowe’s Ad server list"_ is enabled out of the box.
+
+This way it is possible to un-break web sites: a user can just disable µBlock for the web site which breaks, or an exception filter can be created to counter the blocking of a specific hostname appearing in a hosts file. Many of the exception filters in [_"µBlock filters"_](https://github.com/gorhill/uBlock/blob/master/assets/ublock/filters.txt) are actually exception filters to counter entries in the hosts files shipped with µBlock.
+
 #### µBlock is a fork of Adblock Plus code
 
 No. Code is wholly original, it was written from scratch. There are a very few places I borrowed code from elsewhere, and this is clearly identified. For example, for the element picker, I [embedded](https://github.com/gorhill/uBlock/blob/master/js/element-picker.js#L27) [CSS.escape](http://mths.be/cssescape) from Mathias Bynens.
