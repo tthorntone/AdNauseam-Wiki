@@ -29,7 +29,7 @@ I personally use all of these hosts files, and [it increases significantly the b
 
 #### µBlock is a fork of Adblock Plus code
 
-No. Code is wholly original, it was written from scratch. There are a very few places I borrowed code from elsewhere, and this is clearly identified. For example, for the element picker, I [embedded](https://github.com/gorhill/uBlock/blob/master/js/element-picker.js#L27) [CSS.escape](http://mths.be/cssescape) from Mathias Bynens.
+No. Code is wholly original, it was written from scratch. There are a very few places I borrowed code from elsewhere, and this is clearly identified. For example, for the element picker, I [embedded](https://github.com/gorhill/uBlock/blob/master/js/element-picker.js#L27) [CSS.escape](http://mths.be/cssescape) from Mathias Bynens (because Chromium doesn't support yet [CSS.escape](https://developer.mozilla.org/en-US/docs/Web/API/CSS.escape)).
 
 #### Adblock Edge is as light as µBlock
 
