@@ -1,4 +1,4 @@
-- [Change log](https://github.com/gorhill/uBlock/wiki/Change-log)
+- [Change log](https://github.com/gorhill/uBlock/releases) ([Old one](https://github.com/gorhill/uBlock/wiki/Change-log))
 - [How to whitelist a web site](/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
 - Install from [Chrome store](https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](/gorhill/uBlock/tree/master/dist#install).
 - [Privacy stuff](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)
