@@ -19,7 +19,13 @@ You can't un-break web pages with [hosts file](http://en.wikipedia.org/wiki/Host
 
 µBlock supports the parsing/enforcing of hosts files, and ships with a couple of them. One of them, _"Peter Lowe’s Ad server list"_ is enabled out of the box.
 
-This way it is possible to un-break web sites: a user can just disable µBlock for the web site which breaks, or an exception filter can be created to counter the blocking of a specific hostname appearing in a hosts file. Many of the exception filters in [_"µBlock filters"_](https://github.com/gorhill/uBlock/blob/master/assets/ublock/filters.txt) are actually exception filters to counter entries in the hosts files shipped with µBlock.
+With hosts file under control of µBlock, it is then possible to un-break web sites: a user can just disable µBlock for the web site which breaks, or an exception filter can be created to counter the blocking of a specific hostname appearing in a hosts file.
+
+Many of the exception filters in [_"µBlock filters"_](https://github.com/gorhill/uBlock/blob/master/assets/ublock/filters.txt) are actually exception filters to counter entries in the hosts files shipped with µBlock.
+
+I want the project to be committed to fully support the hosts files which ship with µBlock, i.e. report any issues arising from using these, and appropriate exception filters will be used.
+
+I personally use all of these hosts files, and [it increases significantly the blocking power](https://github.com/gorhill/uBlock/wiki/Filter-lists:-gorhill) of µBlock.
 
 #### µBlock is a fork of Adblock Plus code
 
