@@ -25,7 +25,7 @@ Many of the exception filters in [_"µBlock filters"_](https://github.com/gorhil
 
 I want the project to be committed to fully support the hosts files which ship with µBlock, i.e. report any issues arising from using these, and appropriate exception filters will be used.
 
-I personally use all of these hosts files, and [it increases significantly the blocking power](https://github.com/gorhill/uBlock/wiki/Filter-lists:-gorhill) of µBlock.
+I personally use all of these hosts files, and so far not much breakage.
 
 #### µBlock is a fork of Adblock Plus code
 
