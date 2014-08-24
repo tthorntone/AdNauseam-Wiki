@@ -2,11 +2,6 @@
 
 No. µBlock started off by extracting the pattern-filtering engines (net and cosmetic filters) from [HTTP Switchboard](https://github.com/gorhill/httpswitchboard#http-switchboard-for-chromium) ("HTTPSB"). These engines needed more work to bring them to maturity. Most of that work won't be ported back to HTTPSB. See ["The road ahead"](https://github.com/gorhill/httpswitchboard/issues/378) for details.
 
-#### "µBlock does not support element hiding".
-
-Yes it does. Try entering `twitter.com##body` in the _"Your filters"_ text area 
-and visit twitter.com: the page will be blank.
-
 #### "The memory usage isn't actually ABP's fault, _EasyList_ is like 40,000+ lines of rules that all have to be parsed by ABP".
 
 µBlock also parse _EasyList_, _EasyPrivacy_, _Malware domains_ lists, 
