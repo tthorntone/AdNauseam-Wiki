@@ -7,11 +7,6 @@ No. µBlock started off by extracting the pattern-filtering engines (net and cos
 Yes it does. Try entering `twitter.com##body` in the _"Your filters"_ text area 
 and visit twitter.com: the page will be blank.
 
-~~What it doesn't support [yet](https://github.com/gorhill/uBlock/issues/4), 
-is the UI counterpart to "element hiding", i.e. being able to click on an element 
-to extract filters out of it.~~ Never mind, it's now available in 0.2.0.0. Click the "slashed eye"
-icon in the pop-up of the extension.
-
 #### "The memory usage isn't actually ABP's fault, _EasyList_ is like 40,000+ lines of rules that all have to be parsed by ABP".
 
 µBlock also parse _EasyList_, _EasyPrivacy_, _Malware domains_ lists, 
@@ -21,19 +16,11 @@ memory of [Adblock Plus](https://adblockplus.org/) ("ABP"), which is itself much
 
 #### "µBlock has all the features ABP has!"
 
-<sup>**Edit:** The text here was written at some point when µBlock was a version before 0.2.0.0, so a long time ago. As of version 0.5.0.1, the latest version, there is not much ABP for Chrome does which µBlock can't do. The only thing coming to mind is the _"Block element"_ feature in the contextual menu (right-click). Conversely there are things µBlock can do which ABP for Chrome can't: read hosts files, log and inspect all requests (blocked and allowed), disabling the parsing of cosmetic filters (to save memory).</sup>
+µBlock doesn't have a _"Block element"_ entry in the contextual menu (right-click). 
 
-No it doesn't. There are things ABP can do which µBlock can't at this time. I will 
-consider all feature requests, but I will implement only those which do not jeopardize µBlock's
-defining traits: lean, efficient and minimalist.
+Regular expression-based filters are not supported. At time of writing I see three such filter in _EasyList_, and none in _EasyPrivacy_. So rather uncommon. I may support them if there is really a need, but only for those which will have the `domain` filter option set: otherwise it's just impossible to implement efficiently such filters, and µBlock won't encourage their use by supporting these. For all the instances I have seen, it is possible to translate them into more efficient non-regex-based filters.
 
-~~Filters with the `$popup` option are ignored. At time of writing, I see 558 such
-filters in _EasyList_. Chromium comes with a built-in popup blocker, which can be enabled
-in the settings.~~ Supported in 0.2.1.0.
-
-Filters with the `$elemhide` option are ignored. At time of writing, I see 50 such
-filters in _EasyList_. The purpose of these filters is to disable cosmetic filters on
-specific sites.
+Filters with the `$elemhide` option are ignored. At time of writing, I see 50 such filters in _EasyList_. The purpose of these filters is to disable cosmetic filters on specific sites.
 
 #### "µBlock has a smaller memory footprint than Ghostery or Disconnect."
 
