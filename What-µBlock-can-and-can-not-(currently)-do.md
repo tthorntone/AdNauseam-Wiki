@@ -11,7 +11,7 @@ memory of [Adblock Plus](https://adblockplus.org/) ("ABP"), which is itself much
 
 #### "µBlock has all the features ABP has!"
 
-µBlock doesn't have a _"Block element"_ entry in the contextual menu (right-click). 
+µBlock doesn't have a _"Block element"_ entry in the contextual menu (right-click). The element picker can be used though to pick whatever element you do not want to see. Nobody asked for a contextual menu entry yet, so I don't consider it a sought-after feature, hence I didn't spend time implementing it.
 
 Regular expression-based filters are not supported. At time of writing I see three such filter in _EasyList_, and none in _EasyPrivacy_. So rather uncommon. I may support them if there is really a need, but only for those which will have the `domain` filter option set: otherwise it's just impossible to implement efficiently such filters, and µBlock won't encourage their use by supporting these. For all the instances I have seen, it is possible to translate them into more efficient non-regex-based filters.
 
