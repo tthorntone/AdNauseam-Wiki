@@ -15,11 +15,13 @@ Memory and CPU cycles are finite resources. A sure way for a developer to **not*
 
 #### Just use a hosts file
 
-You can't un-break web pages with [hosts file](http://en.wikipedia.org/wiki/Hosts_(file)) at OS level.
-
 µBlock supports the parsing/enforcing of hosts files, and ships with a couple of them. One of them, _"Peter Lowe’s Ad server list"_ is enabled out of the box.
 
-With hosts file under control of µBlock, it is then possible to un-break web sites: a user can just disable µBlock for the web site which breaks, or an exception filter can be created to counter the blocking of a specific hostname appearing in a hosts file.
+Using a hosts file at OS level is definitely the best solution for lists of malware domain, since these malware-linked domains would be blocked system-wide at OS level, and not a single net request would ever reach such remote server.
+
+However, for lists of domain linked to ad servers, trackers, analytics, etc., this is not a good solution: You can't un-break web pages with a [hosts file](http://en.wikipedia.org/wiki/Hosts_(file)) at OS level.
+
+With hosts file under control of µBlock, it is possible to un-break web sites: a user can just disable µBlock for the web site which breaks, or an exception filter can be created to counter the blocking of a specific hostname appearing in a hosts file.
 
 Many of the exception filters in [_"µBlock filters"_](https://github.com/gorhill/uBlock/blob/master/assets/ublock/filters.txt) are actually exception filters to counter entries in the hosts files shipped with µBlock.
 
