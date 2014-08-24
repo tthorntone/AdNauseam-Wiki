@@ -17,7 +17,7 @@ Memory and CPU cycles are finite resources. A sure way for a developer to **not*
 
 µBlock supports the parsing/enforcing of hosts files, and ships with a couple of them. One of them, _"Peter Lowe’s Ad server list"_ is enabled out of the box.
 
-Using a hosts file at OS level is definitely the best solution for lists of malware domain, since these malware-linked domains would be blocked system-wide at OS level, and all applications would benefit from it. A problem though is that for the average user, this is rather technical, and even more so when factoring the regular update of such lists at OS level.
+Using a hosts file at OS level rather than µBlock level is definitely the better solution for lists of malware domain, since these malware-linked domains would be blocked system-wide at OS level, and all applications would benefit from it.
 
 However, for lists of domain linked to ad servers, trackers, analytics, etc., this is not a good solution: **You can't easily un-break web pages with a [hosts file](http://en.wikipedia.org/wiki/Hosts_(file)) at OS level.**
 
