@@ -27,7 +27,7 @@ Filters with the `$elemhide` option are ignored. At time of writing, I see 50 su
 No it doesn't. Last time I checked, µBlock has a larger memory footprint than both 
 [Ghostery](https://www.ghostery.com) and [Disconnect](/disconnectme/disconnect). That's for their own memory footprint. I didn't look into their contributions to the memory footprint added to each web page.
 
-Regarding CPU footprint, I don't know, I didn't measure yet (maybe I will), but my hunch at this point is that the CPU overhead is higher than that of µBlock. I did run CPU benchmark a very long time ago, and this was the case -- but after such a long time, I have to assume things have changed and I would need to benchmark again -- a time-consuming task.
+Regarding CPU footprint, I don't know, I didn't measure yet (maybe I will), but my hunch at this point is that the CPU overhead is higher than that of µBlock. I did run [CPU benchmark a very long time ago](https://github.com/gorhill/httpswitchboard/wiki/Doesn't-HTTPSB-add-a-significant-overhead-to-network-traffic%3F), and this was the case -- but after such a long time, I have to assume things have changed and I would need to benchmark again -- a time-consuming task.
 
 Keep in mind that µBlock, like ABP, Adguard, and some others allows users to enter their own filters, something not possible with Ghostery or Disconnect.
 
