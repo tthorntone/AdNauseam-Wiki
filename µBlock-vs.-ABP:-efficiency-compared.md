@@ -1,8 +1,9 @@
 Here is a quick illustrated comparison of efficiency using various angles. Each extension were tested alone, as the only extension present. Benchmarking was performed with Chromium on Linux Mint 64-bit.
 
 - [Own memory footprint](#own-memory-footprint)
-- [Added overhead to each net request](#added-overhead-to-each-net-request)
+- [Added CPU overhead to each net request](#added-cpu-overhead-to-each-net-request)
 - [Added memory footprint to web pages](#added-memory-footprint-to-web-pages)
+- [Added CPU footprint to web pages](#added-cpu-overhead-to-web-pages)
 
 ### Own memory footprint
 
@@ -16,7 +17,7 @@ These screenshots show the memory footprint of ABP and µBlock _after_ they have
 
 Both extensions had _EasyList_, _EasyPrivacy_, _Peter Lowe's Ad Server_ list, and malware protection (there are more filters in µBlock for this last one).
 
-### Added overhead to each net request
+### Added CPU overhead to each net request
 
 ABP and µBlock need to evaluate the URL of each net request against their dictionary of filters, and eventually tell the waiting browser whether the request should be cancelled or not. Since the browser is waiting for an answer, this is a time critical part and determining whether the request should be allowed or not must be done as fast as possible.
 
@@ -80,6 +81,10 @@ Above picture gives an overview of how much more memory Adblock Plus consumes ov
 The vertical axis represents MB. The horizontal axis is time in seconds, and the data was tediously extracted from [this video](https://www.youtube.com/watch?v=DKM78oV_ftg) (consider the video to be the raw data -- [here is the spreadsheet](https://github.com/gorhill/uBlock/blob/master/doc/benchmarks/ublock-vs-abp-timeline.ods) so people can double check in doubt).
 
 The blue area represents how much more ABP itself consumes more memory than µBlock. The orange area represents how much more ABP causes the web pages themselves to consume more memory. ABP systematically causes web pages to consume more memory, and often quite a lot, north of 100 MB for some sites. This kind of added short term memory overhead is not cheap, as it also means the CPU is working harder.
+
+### Added CPU overhead to web pages
+
+[Coming]
 
 ### Related wiki pages
 
