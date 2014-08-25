@@ -3,7 +3,7 @@ Here is a quick illustrated comparison of efficiency using various angles. Each 
 - [Own memory footprint](#own-memory-footprint)
 - [Added CPU overhead to each net request](#added-cpu-overhead-to-each-net-request)
 - [Added memory footprint to web pages](#added-memory-footprint-to-web-pages)
-- [Added CPU footprint to web pages](#added-cpu-overhead-to-web-pages)
+- [Added CPU overhead to web pages](#added-cpu-overhead-to-web-pages)
 
 ### Own memory footprint
 
