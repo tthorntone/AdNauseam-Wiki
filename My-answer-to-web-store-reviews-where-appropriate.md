@@ -14,8 +14,6 @@ It's what is logged in the dev console when net requests are blocked. This is ac
 
 Adblock Plus will also causes `net::ERR_BLOCKED_BY_CLIENT` to be logged for each net request it blocks, it's no different.
 
-I'm at a loss for words.
-
 ***
 
 #### Robert Lillywhite2 (Chrome store, 24 August 2014)
