@@ -84,7 +84,13 @@ The blue area represents how much more ABP itself consumes more memory than µBl
 
 ### Added CPU overhead to web pages
 
-[Coming]
+This is the benchmarks comparing CPU usage in the background page when loading [si.com](https://www.si.com) ten times. Each page load was triggered after the previous page load completed.
+
+**Top:** Adblock Plus 1.8.3. **Bottom:** µBlock 0.5.1.0.
+
+![CPU benchmark](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/bgpage-cpu-si.comx10.png)
+
+I did measure CPU usage for content scripts (above is background page), but given the web page used for the benchmark is quite a bloated one, the useful figures were drawn in a see of noise. But the fact that ABP inserts 14,000+ CSS rules caused the CPU to used much more than µBlock (3 to 1 ratio). Also, the amount of work µBlock does in its content scripts is proportional to the complexity of a web page. So given µBlock did much better than ABP in its content script for such a bloated web site means it has the right approach to implementing cosmetic filters.
 
 ### Related wiki pages
 
