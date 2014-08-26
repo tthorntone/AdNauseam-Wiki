@@ -12,7 +12,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 It's what is logged in the dev console when net requests are blocked. This is actually a **good** thing, this proves the extension does what it says it does -- blocking.
 
-Adblock Plus will also causes `net::ERR_BLOCKED_BY_CLIENT` to be logged each net request it blocks, it's no different.
+Adblock Plus will also causes `net::ERR_BLOCKED_BY_CLIENT` to be logged for each net request it blocks, it's no different.
 
 I'm at a loss for words.
 
