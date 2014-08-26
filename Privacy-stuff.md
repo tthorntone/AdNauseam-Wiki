@@ -9,6 +9,7 @@ Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest p
 - Enable _"Block third-party cookies and site data"_ in _"Content settings"_ / _"Cookies"_.
     - It works very well: see "Outbound cookies" in [this benchmark results](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares).
     - But this may break some sites. For instance, you won't be able to enter comments on Youtube.
+    - Useful to know: the block also applies to local storage, not just cookies.
 - Enable _"Click to play"_ in _"Content settings"_ / _"Plug-ins"_.
 
 ##### Command line switches
