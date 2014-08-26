@@ -7,7 +7,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 > 经常性的导致网页net::ERR_BLOCKED_BY_CLIENT
 > 换回ADB [3-star rating]
 
-> Frequently causes web `net::ERR_BLOCKED_BY_CLIENT`
+> Frequent causes web `net::ERR_BLOCKED_BY_CLIENT`
 > Exchange ADB [Google translate]
 
 It's what is logged in the dev console when net requests are blocked. This is actually a **good** thing, this proves the extension does what it says it does -- blocking.
