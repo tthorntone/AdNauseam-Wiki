@@ -84,7 +84,7 @@ The blue area represents how much more ABP itself consumes more memory than µBl
 
 ### Added CPU overhead to web pages
 
-This is the benchmarks comparing CPU usage in the background page when loading [si.com](https://www.si.com) ten times. Each page load was triggered after the previous page load completed.
+This is the benchmarks comparing CPU usage in the background page when loading [si.com](http://www.si.com) ten times. Each page load was triggered after the previous page load completed.
 
 **Top:** Adblock Plus 1.8.3. **Bottom:** µBlock 0.5.1.0.
 
