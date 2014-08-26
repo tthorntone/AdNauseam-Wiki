@@ -5,7 +5,7 @@ Just a page to collect my counterarguments when I spot something which I believe
 Doing more with less is a virtue in software. For users of µBlock, this means:
 
 - Page loads faster
-- Free to use more filter lists
+- Free to use [more filter lists](https://github.com/gorhill/uBlock/wiki/Filter-lists:-gorhill):
     - For instance, [ABP warns against using too many filter lists](https://adblockplus.org/en/getting_started#subscription): _"It is important to note that you should not add too many filterlists to Adblock Plus"_
 - Free to use a blocker on less powerful devices
     - For instance: [Reddit: _"ABP was a significant burden on my CPU"_](http://www.reddit.com/r/chromeos/comments/298jh1/just_a_tip_try_out_%C2%B5block_for_your_adblocking/)
