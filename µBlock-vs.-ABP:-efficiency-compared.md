@@ -90,7 +90,7 @@ This is the benchmarks comparing CPU usage in the background page when loading [
 
 ![CPU benchmark](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/bgpage-cpu-si.comx10.png)
 
-I did measure CPU usage for content scripts (above benchmarks are for background pages), but given the web page used for the benchmark is quite a bloated one, the useful figures were drawn in a see of noise. But the fact that ABP inserts 14,000+ CSS rules caused the CPU to used be much more than µBlock (3 to 1 ratio) when comparing content script CPU usage (again, above is background page CPU usage).
+I did measure CPU usage for content scripts (above benchmarks are for background pages), but given the web page used for the benchmark is quite a bloated one, the useful figures were drawn in a see of noise. But the fact that ABP inserts 14,000+ CSS rules caused the CPU to used be much more than µBlock (2-3 to 1 ratio) when comparing content script CPU usage (again, above is background page CPU usage).
 
 Also, the amount of work µBlock does in its content scripts is proportional to the complexity of a web page. So given µBlock did much better CPU-wise than ABP in its content script for such a bloated web site means it was a worst-case scenario for µBlock, and yet it did its job of hiding elements between 2 and 3 times faster.
 
