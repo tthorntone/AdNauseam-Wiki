@@ -6,7 +6,7 @@ To be able to inject only the cosmetic filters which are relevant to a web page 
 
 The result is significant gain in memory and page load efficiency. This gain in memory and CPU efficiency translates directly in more freedom for the user to enable more filter lists without severely crippling the browser speed, and without causing less powerful devices to become unusable (example: ["Acer C720 running slow"](http://www.reddit.com/r/chromeos/comments/2d60ed/acer_c720_running_slow/cjmkbgy)).
 
-However the inconvenience is that the HTML elements which need to be hidden from view through cosmetic filtering may appear briefly before disappearing, because the generic cosmetic filters which have been picked as a result of the survey take effect after the page displays.
+However the inconvenience is that the HTML elements which need to be hidden from view through cosmetic filtering may appear briefly before disappearing, because the generic cosmetic filters which have been picked as a result of the survey may take effect after the page displays.
 
 One solution to mitigate this was to introduce a while ago the concept of entity-based cosmetic filters. This new class of cosmetic filters allows µBlock to inject such cosmetic filters without having to wait for the primary DOM to be available, hence the HTML elements which are targeted will be hidden early enough, before the page displays.
 
