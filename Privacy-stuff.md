@@ -24,6 +24,12 @@ I personally use these command line switches (Chromium on Linux):
     - _"Disable several subsystems which run network requests in the background"_ ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-background-networking))
 - [add more switch of interests whenever new ones are found]
 
+Another powerful command line switch is:
+
+- `--host-rules="MAP *.google-analytics.com 0.0.0.0","MAP *.googleadservices.com 0.0.0.0","MAP *.doubleclick.net 0.0.0.0","MAP *.googletagservices.com 0.0.0.0"`
+    - This switch maps those hostnames (or any other ones) to the IP address 0.0.0.0 ([ref](http://peter.sh/experiments/chromium-command-line-switches/#host-rules)) and hence blocks them effectively (even on the Chrome webstore where extensions like µBlock are disabled). 
+    - _However, note that blocking those hostnames with that switch might break some websites. That's why blocking them with HTTP Switchboard is preferable since you can whitelist them as exceptions for those websites which won't work without them._
+
 ##### Regarding EasyPrivacy
 
 In case you were not aware, using _EasyPrivacy_ doesn't protect completely against Google Analytics. So if you were using Adblock Plus with _EasyPrivacy_ (as [recommended by the EFF](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online)), you might have thought you were protected against Google Analytics. This is not necessarily the case.
