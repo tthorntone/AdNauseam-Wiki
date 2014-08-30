@@ -4,4 +4,8 @@ The feature is already available, it is the big power button: it serves to white
 
 ![µBlock's popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
 
-Tip: if you press the `Ctrl` key as you click the power button, this will whitelist only the current web page, not the whole site (true since [version 0.3.2.0](https://github.com/gorhill/uBlock/releases/tag/0.3.2.0))
+### Tips
+
+If you press the `Ctrl` key as you click the power button, this will whitelist only the current web page, not the whole site (true since [version 0.3.2.0](https://github.com/gorhill/uBlock/releases/tag/0.3.2.0))
+
+Also, you can whitelist a section of a web site. This can currently only be done by editing manually your whitelist. If you add an asterisk `*` at the end of a URL, all the pages which **starts** exactly with that URL will be whitelisted.
