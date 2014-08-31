@@ -36,6 +36,8 @@ In case you were not aware, using _EasyPrivacy_ doesn't protect completely again
 
 If you are using µBlock, it protects you *more* against Google Analytics out of the box -- via _"Peter Lowe's Ad server"_ list. Yet, given that an exception filter may exist somewhere in one of the many lists, I can't guarantee the protection is 100%.
 
+##### Overriding exception filters
+
 However, in [µBlock 0.5.5.0](https://github.com/gorhill/uBlock/releases/tag/0.5.5.0) a new filter option `important` was introduced with the consequence that corresponding exception rules are ignored. Example:
 
 `||google-analytics.com^$important`
