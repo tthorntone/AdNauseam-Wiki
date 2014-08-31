@@ -38,11 +38,11 @@ If you are using µBlock, it protects you *more* against Google Analytics out of
 
 ##### Overriding exception filters
 
-However, in [µBlock 0.5.5.0](https://github.com/gorhill/uBlock/releases/tag/0.5.5.0) a new filter option `important` was introduced with the consequence that corresponding exception rules are ignored. Example:
+However, in [µBlock 0.5.5.0](https://github.com/gorhill/uBlock/releases/tag/0.5.5.0) a new filter option `important` was introduced with the consequence that corresponding exception rules are ignored. Example: Adding
 
 `||google-analytics.com^$important`
 
-blocks Google Analytics regardless of existing exception rules. You can restrict this rule to specific domains like
+to "Your filters" blocks Google Analytics regardless of existing exception rules. You can restrict this rule to specific domains like
 
 `||google-analytics.com^$important,domain=example1.com|example2.com`
 
