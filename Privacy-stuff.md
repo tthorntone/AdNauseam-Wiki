@@ -4,7 +4,7 @@ If you really care very much about your privacy (not being tracked, data mined, 
 
 ##### Settings
 
-Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest privacy-minded users to...
+Unlike HTTP Switchboard, µBlock can't foil cookie headers. For privacy-minded users it is strongly suggested to...
 
 - Enable _"Block third-party cookies and site data"_ in _"Content settings"_ / _"Cookies"_.
     - It works very well: see "Outbound cookies" in [this benchmark results](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares).
@@ -14,11 +14,11 @@ Unlike HTTP Switchboard, µBlock can't foil cookie headers. I strongly suggest p
 
 ##### Command line switches
 
-I personally use these command line switches (Chromium on Linux):
+These command line switches might be of interest to privacy-minded users:
 
 - `--disable-component-extensions-with-background-pages`
     - _"Disable default component extensions with background pages"_ ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-component-extensions-with-background-pages))
-    - I believe this prevent Hangout Services to be launched by the browser as a background process. I wasn't too happy to find out there was [such a process](https://code.google.com/p/chromium/codesearch#chromium/src/chrome/browser/resources/hangout_services/background.html) launched even though I do not use Google's _Hangout_.
+    - This seems to prevent Hangout Services to be launched by the browser as a background process. Even in Chromium there is [such a process](https://code.google.com/p/chromium/codesearch#chromium/src/chrome/browser/resources/hangout_services/background.html) launched even if you do not use Google's _Hangout_.
     - With other Chromium-based browsers, maybe more stuff would be disabled, you decide whether this is good or bad.
 - `--disable-background-networking`
     - _"Disable several subsystems which run network requests in the background"_ ([ref](http://peter.sh/experiments/chromium-command-line-switches/#disable-background-networking))
