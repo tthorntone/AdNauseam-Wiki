@@ -27,8 +27,10 @@ Note that Adblock Plus also injects `##a[href^="http://www.faceporn.net/free?"]`
 > 经常性的导致网页net::ERR_BLOCKED_BY_CLIENT
 > 换回ADB [3-star rating]
 
+Google translate:
+
 > Frequent causes web `net::ERR_BLOCKED_BY_CLIENT`
-> Exchange ADB [Google translate]
+> Exchange ADB
 
 It's what is logged in the dev console when net requests are blocked. This is actually a **good** thing, this proves the extension does what it says it does -- blocking.
 
