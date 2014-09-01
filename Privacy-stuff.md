@@ -49,7 +49,7 @@ to "Your filters" blocks Google Analytics regardless of existing exception rules
 
 ##### Twitter widget
 
-I don't know why this one is not blocked by Fanboy Annoyance, as the list already blocks many other twitter widget-related stuff. So if you use above list, you may want to add the following to your filters:
+It's unclear why this one is not blocked by Fanboy Annoyance, as the list already blocks many other twitter widget-related stuff. So if you use above list, you may want to add the following to your filters:
 
 `||platform.twitter.com/widgets.js$third-party`
 
@@ -59,8 +59,8 @@ Each time you visit a site which pull cute little avatar images aside (typically
 
 `||gravatar.com^$third-party`
 
-I don't know if, and how much this breaks things. But for now I am happy to not have my browsing habits disclosed to gravatar.com. I can live without these cute thumbnails.
+It's unclear if, and how much this breaks things. But will prevent your browsing habits to be disclosed to gravatar.com. We can live without these cute thumbnails, can't we?
 
 But this applies to any domain which is ubiquitous enough, `gravatar.com` is just one example among so many. 
 
-To deal with this easily, I find [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) to be the best tool, as to blacklist a ubiquitous domain with 100% certainty is simply a matter of point and click.
+To deal with this easily, [HTTP Switchboard](https://github.com/gorhill/httpswitchboard) is the best tool, as to blacklist a ubiquitous domain with 100% certainty is simply a matter of point and click.
