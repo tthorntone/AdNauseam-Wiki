@@ -4,13 +4,13 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 #### Максим Черепинин (Chrome store, 1 September 2014)
 
-> При запуске в коде страницы появляется вставка на какой то сайт http://www.faceporn.net/free &lt;style id="ublock-preload-1ae7a5f130fc79b4fdb8a4272d9426b5"&gt;[href^=&quot;http://www.faceporn.net/free?&quot;]
-{display:none !important;}&lt;/style&gt; [1-star rating]
+> При запуске в коде страницы появляется вставка на какой то сайт hxxp://www.faceporn.net/free `<style id="ublock-preload-1ae7a5f130fc79b4fdb8a4272d9426b5">[href^="http://www.faceporn.net/free?"]
+{display:none !important;}</style>` [1-star rating]
 
 Google translate:
 
-> When you run the code page appears insert on what that's http://www.faceporn.net/free &lt;style id="ublock-preload-1ae7a5f130fc79b4fdb8a4272d9426b5"&gt;[href^=&quot;http://www.faceporn.net/free?&quot;]
-{display:none! important;}&lt;/style&gt;
+> When you run the code page appears insert on what that's hxxp://www.faceporn.net/free `<style id="ublock-preload-1ae7a5f130fc79b4fdb8a4272d9426b5">[href^="http://www.faceporn.net/free?"]
+{display:none! important;}</style>`
 
 See [issue #161](https://github.com/gorhill/uBlock/issues/161). The following filter is in [_EasyList_](https://easylist-downloads.adblockplus.org/):
 
