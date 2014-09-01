@@ -46,11 +46,6 @@ to "Your filters" blocks Google Analytics regardless of existing exception rules
 
 `||google-analytics.com^$important,domain=example1.com|example2.com`
 
-or you could _exclude_ specific domains from this rule:
-
-`||google-analytics.com^$important,domain=~example1.com|~example2.com`
-
-Thus, this option is much more flexible than the above mentioned `--host-rules` command line switch.
 
 ##### Twitter widget
 
