@@ -2,6 +2,24 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### Максим Черепинин (Chrome store, 1 September 2014)
+
+> При запуске в коде страницы появляется вставка на какой то сайт http://www.faceporn.net/free <style id="ublock-preload-1ae7a5f130fc79b4fdb8a4272d9426b5">[href^="http://www.faceporn.net/free?"]
+{display:none !important;}</style>
+
+> When you run the code page appears insert on what that's http://www.faceporn.net/free <style id="ublock-preload-1ae7a5f130fc79b4fdb8a4272d9426b5">[href^="http://www.faceporn.net/free?"]
+{display:none! important;}</ style>
+
+See issue #161. The following filter is in [_EasyList_](https://easylist-downloads.adblockplus.org/easylist.txt):
+
+    ##a[href^="http://www.faceporn.net/free?"]
+
+This filter is classified internally by µBlock as a _high-medium generic_ filter. High generic filters are the most challenging to implement performance-wise. High-medium generic filters are implemented as follow: All the high-medium generic filters which matches the 8 first characters of the URL of a link on a web page will be seen as relevant to the web page and thus a CSS selector based on these filters will be injected in the web page, in order to hide the unwanted links. Now the above filter, as per implementation happens to match the ubiquitous links to `WWW.FACEbook.com`, and thus get inserted as a CSS selector.
+
+Note that Adblock Plus also injects `##a[href^="http://www.faceporn.net/free?"]` in every page, but unlike  µBlock, it is inserted in every page unconditionally, while µBlock tries as much as possible for performance-purpose to inject it only where it may be needed.
+
+***
+
 #### Feng Wang (Chrome store, 26 August 2014)
 
 > 经常性的导致网页net::ERR_BLOCKED_BY_CLIENT
