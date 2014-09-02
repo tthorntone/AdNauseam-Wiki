@@ -6,7 +6,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 > This is a very good blocker that needs refinement. It blocks too many non-ad fields, such as blanks to enter passwords and usernames. This app could be the best with tweaks, but AdBlock Plus remains the reference standard. [4-star rating]
 
-µBlock enforces Adblock Plus's _EasyList_ and _EasyPrivacy_, so if µBlock blocks more stuff than Adblock Plus with the **same filter lists** (_EasyList_ + _EasyPrivacy_, as per [EFF's advice](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online)), then this is a bug and it should be reported with appropriate details so that I can reproduce and investigate it. I can't fix things which I am not aware are broken.
+µBlock enforces Adblock Plus's _EasyList_ and _EasyPrivacy_, so if µBlock blocks more stuff than Adblock Plus with the **same filter lists** (_EasyList_ + _EasyPrivacy_, as per [EFF's advice](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online)), then this is a bug and it should be reported with appropriate details so that I can reproduce it, investigate it and fix it. I can't fix things which I am not aware are broken.
 
 ***
 
