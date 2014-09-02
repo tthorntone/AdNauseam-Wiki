@@ -2,6 +2,14 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### Paul Kelly (Chrome store, 2 September 2014)
+
+> This is a very good blocker that needs refinement. It blocks too many non-ad fields, such as blanks to enter passwords and usernames. This app could be the best with tweaks, but AdBlock Plus remains the reference standard. [4-star rating]
+
+µBlock enforces Adblock Plus's _EasyList_ and _EasyPrivacy_, so if µBlock blocks more stuff than Adblock Plus with the **same filter lists** (_EasyList_ + _EasyPrivacy_, as per [EFF's advice](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online)), then this is a bug and it should be reported with appropriate details so that I can reproduce and investigate it. I can't fix things which I am not aware are broken.
+
+***
+
 #### _Review removed_ (Chrome store, 1 September 2014)
 
 > При запуске в коде страницы появляется вставка на какой то сайт hxxp://www.faceporn.net/free `<style id="ublock-preload-1ae7a5f130fc79b4fdb8a4272d9426b5">[href^="http://www.faceporn.net/free?"]
