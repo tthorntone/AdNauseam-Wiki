@@ -2,7 +2,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
-#### [Review removed] (Chrome store, 1 September 2014)
+#### _Review removed_ (Chrome store, 1 September 2014)
 
 > При запуске в коде страницы появляется вставка на какой то сайт hxxp://www.faceporn.net/free `<style id="ublock-preload-1ae7a5f130fc79b4fdb8a4272d9426b5">[href^="http://www.faceporn.net/free?"]
 {display:none !important;}</style>` [1-star rating]
