@@ -6,7 +6,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 > Going to have to agree with another reviewer - this blocker is great on memory usage, but blocks many other fields (i.e. my insurance company's login fields, the Target.com search box).  [...] [4-star rating]
 
-Just to highlight how important it is to be specific when something doesn't work... Here I am given something specific, "blocks [...] the Target.com search box". So **now** I can investigate. Well, the problem exists also with Adblock Plus, as the issue is caused by a filter in _EasyPrivacy_. Thus to workaround that filter which break target.com, I created an exception filter to cancel the one causing problem in _EasyPrivacy_.
+Just to highlight how important it is to be specific when something doesn't work... Here I am given something specific, _"blocks [...] the Target.com search box"_. So **now** I can investigate. Well, the problem exists also with Adblock Plus, as the issue is caused by a filter in _EasyPrivacy_. Thus to workaround that filter which break target.com, I created an exception filter to cancel the one causing problem in _EasyPrivacy_.
 
 ***
 
