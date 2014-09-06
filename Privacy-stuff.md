@@ -42,13 +42,14 @@ However, in [µBlock 0.5.5.0](https://github.com/gorhill/uBlock/releases/tag/0.5
 
     ||google-analytics.com^$important
 
-to "Your filters" blocks Google Analytics regardless of existing exception rules. You can restrict this rule to specific domains like
+to _"Your filters"_ blocks Google Analytics regardless of existing exception rules. You can restrict this rule to specific domains like
 
     ||google-analytics.com^$important,domain=example1.com|example2.com
 
 Or to all third-parties:
 
     ||facebook.com^$important,third-party
+    ||linkedin.com^$important,third-party
 
 ##### Twitter widget
 
