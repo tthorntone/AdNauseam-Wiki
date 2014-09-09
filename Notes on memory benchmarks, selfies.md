@@ -2,7 +2,7 @@
 
 When I run my benchmarks, the methodology used is to reproduce what I believe is the most common scenario: a user launches his/her browser with µBlock already fully configured to his/her liking, without further changes to the selection of filter lists. The launch-and-forget scenario. I also benchmark this way for all other blockers.
 
-However there are specific operations which will cause µBlock to churn through lot of short-term memory (let's call this "memory-churning"), and although all that short-term memory is freed by µBlock once the specific operation is completed, not all that freed memory will be garbage-collected by the browser for whatever reasons. Memory fragmentation is possibly a factor.
+However there are specific operations which will cause µBlock to churn through lot of short-term memory (let's call this "memory-churning"), and although all that short-term memory is freed by µBlock once the specific operation is completed, not all that freed memory will be garbage-collected by the browser for whatever reasons. Memory fragmentation is possibly a factor. This causes an higher memory baseline for µBlock, as can be seen in the browser's _Task Manager_.
 
 So in essence you won't obtain the same memory figures which I used in my published benchmarks if you caused µBlock to go through memory-churning before looking at the memory figures.
 
