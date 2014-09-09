@@ -6,7 +6,7 @@ However there are specific operations which will cause µBlock to churn through 
 
 So in essence you won't obtain the same memory figures which I used in my published benchmarks if you caused µBlock to go through memory-churning before looking at the memory figures.
 
-Reloading all the filters is quite a memory-churning operation. Here are operations which causes all the filters to be reloaded:
+Reloading all the filters is the most severe memory-churning operation in µBlock. Here are operations which causes all the filters to be reloaded:
 
 - Launching or restarting µBlock (obviously).
 - Changing the selection of filter lists.
