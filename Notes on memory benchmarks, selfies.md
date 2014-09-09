@@ -8,9 +8,9 @@ However there are specific operations which will cause µBlock to churn through 
 
 Memory-churning operations lead to a permanently higher memory baseline for µBlock, as can be seen in the browser's _Task Manager_.
 
-So in essence you won't obtain the same memory figures which I used in my published benchmarks if you caused µBlock to go through memory-churning before looking at the memory figures, even after letting the browser's garbage collector do its job.
+So in essence you won't obtain the same memory figures which I used in my published benchmarks if you cause µBlock to go through memory-churning before looking at the memory figures, even after letting the browser's garbage collector do its job.
 
-Reloading all the filters is the most severe memory-churning operation in µBlock. Here are operations which causes all the filters to be reloaded:
+Memory-churning of course applies to all extensions. The difference with other blockers might be what operations lead to memory-churning. Reloading all the filters is the most severe memory-churning operation in µBlock. Here are operations which causes all the filters to be reloaded:
 
 - Launching or restarting µBlock (obviously).
 - Changing the selection of filter lists.
