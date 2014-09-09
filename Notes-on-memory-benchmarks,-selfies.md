@@ -11,7 +11,7 @@ Reloading all the filters is the most severe memory-churning operation in µBloc
 - Launching or restarting µBlock (obviously).
 - Changing the selection of filter lists.
 - Adding removing custom filters.
-- Updating the filter lists.
+- Updating the filter lists (this may be done automatically if _Auto-update_ is enabled).
 
 Additionally, with version 0.6+, µBlock will create a selfie to improve its load time next time the browser is launched, and creating a selfie is also a memory-churning operation. However for this one particular operation, once the selfie is created, the reward is that subsequent re-launch of µBlock will become very efficient CPU- and memory-wise -- as all the downloading/parsing of filters from raw text files will be completely bypassed.
 
