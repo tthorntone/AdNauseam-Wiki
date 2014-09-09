@@ -6,7 +6,7 @@ When I run my benchmarks, the methodology used is to reproduce what I believe is
 
 However there are specific operations which will cause µBlock to churn through lot of short-term memory (let's call this "memory-churning"), and although all that short-term memory is freed by µBlock once the specific operation is completed, not all that freed memory will be garbage-collected by the browser for whatever reasons. Memory fragmentation is possibly a factor.
 
-Memory-churning operations lead to an permanently higher memory baseline for µBlock, as can be seen in the browser's _Task Manager_.
+Memory-churning operations lead to a permanently higher memory baseline for µBlock, as can be seen in the browser's _Task Manager_.
 
 So in essence you won't obtain the same memory figures which I used in my published benchmarks if you caused µBlock to go through memory-churning before looking at the memory figures.
 
