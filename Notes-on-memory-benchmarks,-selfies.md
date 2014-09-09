@@ -22,3 +22,8 @@ Without a selfie available:<br>
 
 With a selfie available:<br>
 ![With selfie](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/ublock-vs-abp-memory-201409-b.png)
+
+Benchmark details:
+- µBlock: default filter lists
+- ABP: _EasyList_, _EasyPrivacy_, _Malware Domains_. _"Acceptable ads"_ disabled
+- Screenshots taken at least 15 minutes after running [reference benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark) and closing all web pages except the _Extensions_ page.
