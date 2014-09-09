@@ -17,7 +17,7 @@ Additionally, with version 0.6+, µBlock is able to create a selfie to improve i
 
 The time at which a selfie is created is at µBlock's discretion. Currently, this will happen some minutes after the filter lists has been loaded, so as to avoid launching memory-churning selfie creation operations before there is a good likelihood the user is done tampering with his selection of filters.
 
-Take note that all the benchmarks appearing on the main page are quite dated at this point, a lot of code has been added or changed in µBlock. So for version 0.6. I ran the reference benchmark to find out where µBlock stands memory efficiency-wise -- along with ABP 1.8.3 for comparison.
+Take note that all the benchmarks appearing on the main page are quite dated at this point, a lot of code has been added or changed in µBlock. So for version 0.6 I ran the reference benchmark to find out where µBlock stands memory efficiency-wise -- along with ABP 1.8.3 for comparison.
 
 Without a selfie available:<br>
 ![Without selfie](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/ublock-vs-abp-memory-201409-a.png)
