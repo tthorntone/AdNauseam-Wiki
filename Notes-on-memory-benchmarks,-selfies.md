@@ -23,7 +23,7 @@ The time at which a selfie is created is at µBlock's discretion. Currently, thi
 
 Take note that all the benchmarks appearing on the main page are quite dated at this point, a lot of code has been added or changed in µBlock. So for version 0.6 I ran the reference benchmark to find out where µBlock stands memory efficiency-wise -- along with ABP 1.8.3 for comparison.
 
-Without a selfie available:<br>
+Without a selfie available (one was created during the benchmark):<br>
 ![Without selfie](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/ublock-vs-abp-memory-201409-a.png)
 
 With a selfie available:<br>
