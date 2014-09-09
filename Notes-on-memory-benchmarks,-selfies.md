@@ -1,4 +1,6 @@
-µBlock is quite memory efficient compared to most other blockers. However, users will often report that this is not the case. I already wrote about this [here](https://github.com/gorhill/uBlock/wiki/Myth:-%C2%B5Block-consumes-over-80MB). I will add more details here, as there is more than just garbage collection to factor in. 
+µBlock is quite memory efficient compared to most other blockers. However, users will often report that this is not the case, or not as impressive as "advertised" by the official documentation.
+
+I already wrote about this [here](https://github.com/gorhill/uBlock/wiki/Myth:-%C2%B5Block-consumes-over-80MB). I will add more details here, as there is more than just garbage collection to factor in. 
 
 When I run my benchmarks, the methodology used is to reproduce what I believe is the most common scenario: a user launches his/her browser with µBlock already fully configured to his/her liking, without further changes to the selection of filter lists. The launch-and-forget scenario. I also benchmark this way for all other blockers.
 
