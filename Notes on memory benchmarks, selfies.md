@@ -15,6 +15,8 @@ Reloading all filters causes is quite a memory-churning operation. Here are oper
 
 Additionally, with version 0.6+, µBlock will create a selfie to improve its load time next time the browser is launched, and creating a selfie is also a memory-churning operation. However for this one particular operation, once the selfie is created, the reward is that subsequent re-launch of µBlock will become very efficient CPU- and memory-wise -- as all the downloading/parsing of filters from raw text files will be completely bypassed.
 
+The time at which a selfie is created is at µBlock's discretion. Currently, this will happen some minutes after the filter lists has been loaded, so as to avoid launching memory-churning selfie creation operations before there is a good likelihood the user is done tampering with his selection of filters.
+
 Take note that all the benchmarks appearing on the main page are quite dated at this point, a lot of code has been added or changed in µBlock. So for version 0.6. I ran the reference benchmark to find out where µBlock stands memory efficiency-wise -- along with ABP 1.8.3 for comparison.
 
 Without a selfie available:<br>
