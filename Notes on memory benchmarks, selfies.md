@@ -35,4 +35,4 @@ Benchmark details:
 - Third-party cookies disabled
 - µBlock: default filter lists
 - ABP: _EasyList_, _EasyPrivacy_, _Malware Domains_. _"Acceptable ads"_ disabled
-- Screenshots taken at least 15 minutes after running [reference benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark) and closing all web pages except the _Extensions_ page.
+- Screenshots taken at least 15 minutes after [reference benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark) completed, and closing all web pages except the _Extensions_ page.
