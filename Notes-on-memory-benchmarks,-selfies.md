@@ -39,4 +39,4 @@ Benchmark details:
 
 ### Reminder
 
-Remember, what is covered above is what I call the extension's _own_ memory. The worst though is the contributed memory footprint by Adblock Plus for web pages. The sum of all contributed memory footprint by ABP to all opened web pages relative to µBlock's contributed memory footprint **dwarf** the difference shown above, due to the fact that ABP will inject 14,000+ CSS rules in every web page, and every `iframe` of every web page, and this is when using _EasyList_ only.
+Remember, what is covered above is what I call the extension's _own_ memory. The worst though is the contributed memory footprint by Adblock Plus for web pages. The sum of all [contributed memory footprint by ABP to all opened web pages](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared#added-memory-footprint-to-web-pages) relative to µBlock's contributed memory footprint **dwarf** the difference shown above, due to the fact that ABP will inject 14,000+ CSS rules in every web page, and every `iframe` of every web page, and this is when using _EasyList_ only.
