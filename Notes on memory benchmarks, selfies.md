@@ -36,3 +36,7 @@ Benchmark details:
 - µBlock: default filter lists
 - ABP: _EasyList_, _EasyPrivacy_, _Malware Domains_. _"Acceptable ads"_ disabled
 - Screenshots taken at least 15 minutes after [reference benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark) completed, and closing all web pages except the _Extensions_ page.
+
+### Reminder
+
+Remember, what is covered above is what I call the extension's _own_ memory. The worst though is the contributed memory footprint by Adblock Plus for web pages. The sum of all contributed memory footprint by ABP to all opened web pages relative to µBlock's contributed memory footprint **dwarf** the difference shown above, due to the fact that ABP will inject 14,000+ CSS rules in every web page, and every `iframe` of every web page, and this is when using _EasyList_ only.
