@@ -4,7 +4,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 #### David A (Chrome store, 14 September 2014)
 
-> Now I know why the cpu and memory is so low. This crap doesnt even save ad filters permanently. Even the ones you subscribed to. little ads come back when you refresh the page. Refresh a page again and they are gone? Its like its playing hide and go seek.
+> Now I know why the cpu and memory is so low. This crap doesnt even save ad filters permanently. Even the ones you subscribed to. little ads come back when you refresh the page. Refresh a page again and they are gone? Its like its playing hide and go seek. [2-star rating]
 
 The reason the memory and CPU is low (thanks for noticing) is the code was written from scratch with performance in mind, using benchmarks to drive development. It supports almost 100% of Adblock Plus filter syntax. The behavior your are seeing is not normal. If you could give me a URL where the problem occurs (see it as your contribution to the project), I could investigate.
 
