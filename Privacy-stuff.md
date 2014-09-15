@@ -11,6 +11,7 @@ Unlike HTTP Switchboard, µBlock can't foil cookie headers. For privacy-minded u
     - But this may break some sites. For instance, you won't be able to enter comments on Youtube.
     - Useful to know: the block also applies to local storages, not just cookies.
 - Enable _"Click to play"_ in _"Content settings"_ / _"Plug-ins"_.
+- Disable _"Predict network actions to improve page load performance"_, as this causes DNS queries even for blocked network requests (see issue #232).
 
 ##### Command line switches
 
