@@ -4,7 +4,7 @@ I already wrote about this [here](https://github.com/gorhill/uBlock/wiki/Myth:-%
 
 When I run my benchmarks, the methodology used is to reproduce what I believe is the most common scenario: a user launches his/her browser with µBlock already fully configured to his/her liking, without further changes to the selection of filter lists. The launch-and-forget scenario. I also benchmark this way for all other blockers.
 
-However there are specific operations which will cause µBlock to churn through lot of short-term memory (let's call this "memory-churning"), and although all that short-term memory is freed by µBlock once the specific operation is completed, not all that freed memory will be garbage-collected by the browser for whatever reasons. Memory fragmentation is possibly a factor.
+However there are specific operations which will cause µBlock to churn through lot of short-term memory (let's call this "memory-churning"), and although all that short-term memory is freed by µBlock once the specific operation is completed, not all that freed memory will be garbage-collected by the browser for whatever reasons. [Memory fragmentation](http://en.wikipedia.org/wiki/Fragmentation_(computing)#External_fragmentation) is possibly a factor.
 
 Memory-churning operations lead to a permanently higher memory baseline for µBlock, as can be seen in the browser's _Task Manager_.
 
