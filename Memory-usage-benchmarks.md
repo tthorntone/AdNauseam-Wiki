@@ -21,7 +21,7 @@ Observations during benchmark:
 Settings:
 - **µBlock v 0.6.2.1**: _EasyList_, _EasyPrivacy_, _Peter Lowe's_, _Fanboy’s Social Blocking List‎_, all malware lists (3).
 - **AdBlock 2.7.13**: _AdBlock custom filters_, _EasyList_, _EasyPrivacy_, _Fanboy’s Social Blocking List‎_, _Malware protection_.
-- **Adblock Plus 1.8.5**: _EasyList_, _EasyPrivacy_, _Fanboy’s Social Blocking List‎_, _Malware Domains_. _Acceptable ads_ not selected.
+- **Adblock Plus 1.8.5**: _EasyList_, _EasyPrivacy_, _Fanboy’s Social Blocking List‎_, _Malware Domains_. _Acceptable ads_ disabled.
 - **Ghostery 5.4.0**: _Blocking all trackers_. Ghostrank not selected. _Alert bubble_ disabled.
 - **Disconnect 5.18.15**: Default settings.
 
