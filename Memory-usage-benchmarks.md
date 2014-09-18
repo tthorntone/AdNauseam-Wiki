@@ -1,4 +1,4 @@
-Just a place for me o keep track of comparative memory usage over time. Screenshot before/after reference benchmark. Great care taken to ensure memory was garbage collected before screenshots taken. To force memory garbage collection, browser left on idle for more than 1 minute, then dev console of each extension opened, _Timeline_ tab, then clicked twice on the trash can icon.
+Just a place for me to keep track of comparative memory usage over time. Screenshot before/after reference benchmark. Great care taken to ensure memory was garbage collected before screenshots taken. To force memory garbage collection, browser left on idle for more than 1 minute, then dev console of each extension opened, _Timeline_ tab, then clicked twice on the trash can icon.
 
 ### 18 September 2014
 
