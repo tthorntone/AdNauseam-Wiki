@@ -24,3 +24,7 @@ Settings:
 - **Adblock Plus 1.8.5**: _EasyList_, _EasyPrivacy_, _ Fanboy’s Social Blocking List‎_, Malware Domains_. _Acceptable ads_ not selected.
 - **Ghostery 5.4.0**: _Blocking all trackers_. Ghostrank not selected. _Alert bubble_ disabled.
 - **Disconnect 5.18.15**: Default settings.
+
+Notes:
+
+I chose to not benchmark AdGuard, because of the privacy issues when enabling _Malware/phishing protection_.
