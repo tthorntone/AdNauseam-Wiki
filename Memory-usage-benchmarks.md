@@ -16,7 +16,7 @@ After:<br>
 ![after](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-20140918-after.png)
 
 Observations during benchmark:
-- AdBlock is *very* CPU intensive. Adblock Plus to a lesser degree.
+- AdBlock is *very* CPU intensive. Adblock Plus to a lesser degree, still more so than the µBlock, Disconnect, Ghostery.
 
 Settings:
 - **µBlock v 0.6.2.1**: _EasyList_, _EasyPrivacy_, _Peter Lowe's_, _ Fanboy’s Social Blocking List‎_, all malware lists (3).
