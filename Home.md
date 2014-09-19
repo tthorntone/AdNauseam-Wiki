@@ -5,7 +5,7 @@
 - [Tricks and tips](https://github.com/gorhill/uBlock/wiki/Tricks-and-tips)
 - [µBlock vs. ABP: efficiency compared](/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
     - [Own memory usage: benchmarks over time](https://github.com/gorhill/uBlock/wiki/Own-memory-usage:-benchmarks-over-time)
-    - [Contributed memory to web pages: benchmarks over time](https://github.com/gorhill/uBlock/wiki/Contributed-memory-to-web-pages:-benchmarks-over-time)
+    - [Contributed memory usage: benchmarks over time](https://github.com/gorhill/uBlock/wiki/Contributed-memory-usage:-benchmarks-over-time)
 - [Counterarguments](https://github.com/gorhill/uBlock/wiki/Counterarguments)
 - [Myth: µBlock consumes over 80MB](https://github.com/gorhill/uBlock/wiki/Myth:-%C2%B5Block-consumes-over-80MB)
 - [µBlock and others: Blocking ads, trackers, malwares](/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares)
