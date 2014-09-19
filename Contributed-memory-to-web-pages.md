@@ -7,7 +7,7 @@ Just a place for me to keep track of contributed memory to web pages over time. 
 - AdBlock 2.7.13
 
 No extension (reference):<br>
-![no extension](https://https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-none.png)
+![no extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-none.png)
 
 Adblock Plus:<br>
 ![Adblock Plus](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-abp.png)
