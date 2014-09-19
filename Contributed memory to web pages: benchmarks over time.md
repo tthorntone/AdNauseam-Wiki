@@ -1,4 +1,4 @@
-Just a place for me to keep track of contributed memory to web pages over time. Using Acid Test 3, a very simple web page, wih embedded `iframes`. Each extension tested alone, with no other extension enabled. Browser left on idle for more than 1 minute to ensure web page memory was garbage collected.
+Just a place for me to keep track of contributed memory to web pages over time. Using [Acid Test 3](http://acid3.acidtests.org/), a very simple web page, with embedded `iframes`. Web page was opened in a new tab for each extension (important). Each extension tested alone, with no other extension enabled.  Browser left on idle for more than 1 minute to ensure web page memory was garbage collected.
 
 ### 19 September 2014
 
