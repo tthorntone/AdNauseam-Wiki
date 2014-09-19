@@ -6,6 +6,11 @@ Just a place for me to keep track of contributed memory to web pages over time. 
 - µBlock v 0.6.2.1
 - Adblock Plus 1.8.5
 
+Summary of results:
+- Reference memory usage for the web page: 22 MB
+- Adblock Plus adds over 32 MB
+- µBlock Plus adds over 9 MB
+
 No extension (reference):<br>
 ![no extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-none.png)
 
