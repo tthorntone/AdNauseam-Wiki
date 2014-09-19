@@ -3,8 +3,8 @@ Just a place for me to keep track of contributed memory to web pages over time. 
 ### 19 September 2014
 
 - Chromium 37.0.2062.94 64-bit (Linux)
-- µBlock v 0.6.2.1
-- Adblock Plus 1.8.5
+- µBlock v 0.6.2.1 (default filter lists)
+- Adblock Plus 1.8.5 (_EasyList_, _EasyPrivacy_, _Malware Protection List_, _"Acceptable ads"_ disabled)
 
 Summary of results:
 - Reference memory usage for the web page: 22 MB
