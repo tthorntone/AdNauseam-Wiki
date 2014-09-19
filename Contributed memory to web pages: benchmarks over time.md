@@ -4,7 +4,7 @@ Just a place for me to keep track of contributed memory to web pages over time. 
 
 - Chromium 37.0.2062.94 64-bit (Linux)
 - µBlock v 0.6.2.1
-- AdBlock 1.8.5
+- Adblock Plus 1.8.5
 
 No extension (reference):<br>
 ![no extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-none.png)
