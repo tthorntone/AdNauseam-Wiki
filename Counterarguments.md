@@ -2,8 +2,7 @@ Just a page to collect my counterarguments when I spot something which I believe
 
 #### Who care about efficiency, I have 8 GB
 
-I heard this argument so often from apologists of bloated software that I decided to give the counterargument its [own page](- [Who care about efficiency, I have 8 GB and/or a quad-core CPU](https://github.com/gorhill/uBlock/wiki/Who-care-about-efficiency,-I-have-8-GB-and%7Cor-a-quad-core-CPU)
-).
+I heard this argument so often from apologists of bloated software that I decided to give the counterargument its [own page](https://github.com/gorhill/uBlock/wiki/Who-care-about-efficiency,-I-have-8-GB-and%7Cor-a-quad-core-CPU).
 
 #### Just use a hosts file
 
