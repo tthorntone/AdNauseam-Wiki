@@ -9,10 +9,10 @@ Just a place for me to keep track of comparative memory usage over time. Screens
 - Ghostery 5.4.0
 - Disconnect 5.18.15
 
-Before:<br>
+Before benchmark started:<br>
 ![before](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-20140918-before.png)
 
-After:<br>
+After benchmark completed:<br>
 ![after](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-20140918-after.png)
 
 Observations during benchmark:
