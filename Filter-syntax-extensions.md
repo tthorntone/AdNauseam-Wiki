@@ -9,7 +9,7 @@
 µBlock extends Adblock Plus filter syntax.
 
 #### Network filters
-**The `important` network filter option:** The important filter option, `important`, means to ignore all _exception_ filters. It applies only to net _block_ filters. The `important` option will allow you to block with 100% certainty specific net requests. Example: `||google-analytics.com^$important,third-party` will block all net requests to `google-analytics.com`, disregarding any existing network _exception_ filters. Another example: `||twitter.com^$important,third-party`. Etc.
+**The `important` network filter option:** The important filter option, `important`, means to ignore all _exception_ filters (those prefixed with `@@`). It applies only to net _block_ filters. The `important` option will allow you to block with 100% certainty specific net requests. Example: `||google-analytics.com^$important,third-party` will block all net requests to `google-analytics.com`, disregarding any existing network _exception_ filters. Another example: `||twitter.com^$important,third-party`. Etc.
 
 **The `inline-script` network filter option:** To specifically disable inline script tags in a main 
 page: `||example.com^$inline-script`.
