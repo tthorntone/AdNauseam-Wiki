@@ -2,6 +2,7 @@
 - [How to whitelist a web site](/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
 - Install from [Chrome store](https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](/gorhill/uBlock/tree/master/dist#install).
 - [Privacy stuff](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)
+- [Filter syntax extensions](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)
 - [Tricks and tips](https://github.com/gorhill/uBlock/wiki/Tricks-and-tips)
 - [µBlock vs. ABP: efficiency compared](/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
     - [Own memory usage: benchmarks over time](https://github.com/gorhill/uBlock/wiki/Own-memory-usage:-benchmarks-over-time)
