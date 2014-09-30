@@ -30,6 +30,8 @@ Net requests: 3,174 / 6,156 <br>
 
 As seen above, a significant amount of connections to third-party ubiquitous CDNs were foiled. This contribute to reducing privacy exposure, without breaking web pages.
 
+![Local mirroring results](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/local-mirroring.png)
+
 Advantages of local mirroring:
 - Reduction of privacy exposure
 - Less bandwidth
