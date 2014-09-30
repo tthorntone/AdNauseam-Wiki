@@ -2,7 +2,7 @@ This page is about the experimental features which you can enable in µBlock. Fe
 
 Experimental features are disabled by default, you can enabled them in the _Settings_ tab in the dashboard.
 
-### Privacy exposure reduction: mirroring locally
+### Privacy exposure reduction: local mirroring
 
 One way users increase their privacy exposure is through [content delivery networks](http://en.wikipedia.org/wiki/Content_delivery_network) ("CDN") and likes. Good examples of CDN are `ajax.googleapis.com`, `cdnjs.cloudflare.com`, `googletagservices.com`, etc. These servers are used to serve resources to countless web sites.
 
