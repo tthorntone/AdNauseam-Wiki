@@ -1,6 +1,6 @@
 [under construction]
 
-### Privacy exposure reduction
+### Privacy exposure reduction: mirroring locally
 
 One way users increase their privacy exposure is through [content delivery networks](http://en.wikipedia.org/wiki/Content_delivery_network) ("CDN") and likes. Good examples of CDN are `ajax.googleapis.com`, `cdnjs.cloudflare.com`, `googletagservices.com`, etc. These servers are used to serve resources to countless web sites.
 
@@ -8,20 +8,30 @@ When a resources is pulled from one of these CDNs, typically the [referrer heade
 
 In the spirit of reducing privacy exposure, local mirroring is introduced as an experimental feature in µBlock. Local mirroring allows µBlock to cache locally resources pulled from known ubiquitous CDN, and future requests for the same resource will be served locally rather than pulling it from the CDN: not pulling a resource from a CDN prevents that CDN from collecting data about your browsing habit.
 
-Where _x_ / _y_ = 3rd party / all.
+A quick benchmark -- using [reference benchmark](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares), with the feature disabled vs. enabled shows the following:
 
-Before: <br>
+**Disabled:** <br>
 URLs visited: 60 <br>
-Domains: **415** / 475 <br>
+**Domains: 415** / 475 <br>
 Hosts: 621 / 842 <br>
 Scripts: 857 / 1264 <br>
 Outbound cookies: 0 / 130 <br>
 Net requests: 3,304 / 6,264 <br>
 
-After: <br>
+**Enabled:** <br>
 URLs visited: 60 <br>
-Domains: **337** / 397 <br>
+**Domains: 337** / 397 <br>
 Hosts: 541 / 759 <br>
 Scripts: 793 / 1214 <br>
 Outbound cookies: 0 / 132 <br>
 Net requests: 3,174 / 6,156 <br>
+
+As seen above, a significant amount of third-party requests to ubiquitous CDNs were foiled. This contribute to reducing privacy exposure, without breaking web pages.
+
+Advantages of local mirroring:
+- Reduction of privacy exposure
+- Less bandwidth
+- Faster page load
+
+Disadvantage of local mirroring:
+- Higher memory consumption (no worry, µBlock will still be largely below other popular blockers)
