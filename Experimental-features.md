@@ -1,4 +1,6 @@
-This page is about the experimental features which you can enable in µBlock.
+This page is about the experimental features which you can enable in µBlock. Features which I think are good for the users but which I consider aren't yet mature in design/implementation are considered experimental.
+
+Experimental features are disabled by default, you can enabled them in the _Settings_ tab in the dashboard.
 
 ### Privacy exposure reduction: mirroring locally
 
