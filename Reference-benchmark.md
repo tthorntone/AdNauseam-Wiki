@@ -3,7 +3,7 @@ New, more comprehensive benchmark
 [Sessbench](https://github.com/gorhill/sessbench) is used to run the below script automatically.
 
 ```
-wait 3
+wait 5
 repeat 3
 clear cache
 clear cookies
