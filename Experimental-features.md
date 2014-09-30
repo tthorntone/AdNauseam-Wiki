@@ -1,4 +1,4 @@
-[under construction]
+This page is about the experimental features which you can enable in µBlock.
 
 ### Privacy exposure reduction: mirroring locally
 
