@@ -36,4 +36,4 @@ Advantages of local mirroring:
 - Faster page load
 
 Disadvantage of local mirroring:
-- Higher memory consumption (no worry, µBlock will still be largely below other popular blockers)
+- Higher memory consumption (no worry, µBlock will still be largely below ABP's footprint)
