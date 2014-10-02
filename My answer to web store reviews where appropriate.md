@@ -2,6 +2,16 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### Павел Базута (Chrome store, 2 October 2014)
+
+> Программа врет ! Даже проверил! Она всегда будет показывать на 2-3 единицы больше заблокированных реклам чем к примеру Adblock Потому что в ней специально так сделано , мол смотрите она лучше проверьте даже сами! в главном меню гугл хрома! Продолжаю дальше пользоваться Adblock - он не заменим!!!!
+
+I have no idea what the topic is, but the first sentence, _"Программа врет !"_, translates into _"The program is lying!"_ (as per Google Translate).
+
+My answer: No I am not.
+
+***
+
 #### David A (Chrome store, 14 September 2014)
 
 > Now I know why the cpu and memory is so low. This crap doesnt even save ad filters permanently. Even the ones you subscribed to. little ads come back when you refresh the page. Refresh a page again and they are gone? Its like its playing hide and go seek. [2-star rating]
