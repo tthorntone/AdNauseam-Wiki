@@ -8,7 +8,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 I have no idea what the topic is (the translation by Google Translate is of no help), but the first sentence, _"Программа врет !"_, translates into _"The program is lying!"_ (as per Google Translate).
 
-My answer: No I am not.
+My answer: No, I am not lying. If I could understand the issue, I am sure I could provide a better answer to counter the unsubstantiated accusation.
 
 ***
 
