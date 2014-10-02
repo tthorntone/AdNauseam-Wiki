@@ -4,7 +4,7 @@ Benchmark URLs updated on October 2, 2014.
 
 ```
 wait 5
-repeat 3
+repeat 2
 clear cache
 clear cookies
 
