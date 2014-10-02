@@ -6,7 +6,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 > Программа врет ! Даже проверил! Она всегда будет показывать на 2-3 единицы больше заблокированных реклам чем к примеру Adblock Потому что в ней специально так сделано , мол смотрите она лучше проверьте даже сами! в главном меню гугл хрома! Продолжаю дальше пользоваться Adblock - он не заменим!!!!
 
-I have no idea what the topic is, but the first sentence, _"Программа врет !"_, translates into _"The program is lying!"_ (as per Google Translate).
+I have no idea what the topic is (the translation by Google Translate is of no help), but the first sentence, _"Программа врет !"_, translates into _"The program is lying!"_ (as per Google Translate).
 
 My answer: No I am not.
 
