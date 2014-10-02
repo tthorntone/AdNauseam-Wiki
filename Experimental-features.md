@@ -1,6 +1,6 @@
 This page is about the experimental features which you can enable in µBlock. Features which I think are good for the users but which I consider aren't yet mature in design/implementation are considered experimental.
 
-Experimental features are disabled by default, you can enabled them in the _Settings_ tab in the dashboard.
+Experimental features are disabled by default, you can enabled them in the _Settings_ tab in the dashboard. As long as a feature is labeled "experimental", I can't guarantee it will work flawlessly.
 
 ### Privacy exposure reduction: local mirroring
 
@@ -40,4 +40,4 @@ Advantages of local mirroring:
 - Faster page load
 
 Disadvantage of local mirroring:
-- Higher memory consumption (no worry, µBlock will still be largely below ABP's footprint)
+- Higher memory consumption
