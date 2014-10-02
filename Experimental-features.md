@@ -12,7 +12,7 @@ In the spirit of reducing privacy exposure, local mirroring is introduced as an 
 
 ![zdnet.com](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/local-mirroring-example-1.png)
 
-The picture above shows that connections to `ajax.googleapis.com`, `www.googletagservices.com`, `twitter.com` were prevented -- hence no print in their server logs), and local copies of the requested resources were served instead -- hence no page breakage. (Surprisingly, the above request to `googletagservices.com` is **not** blocked when using _EasyList_ + _EasyPrivacy_.)
+The picture above shows that connections to `ajax.googleapis.com`, `www.googletagservices.com`, `twitter.com` were prevented -- hence no trace left in their server logs), and local copies of the requested resources were served instead -- hence no page breakage. (Surprisingly, the above request to `googletagservices.com` is **not** blocked when using _EasyList_ + _EasyPrivacy_.)
 
 A quick benchmark -- using [reference benchmark](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares), with the feature disabled vs. enabled shows the following:
 
