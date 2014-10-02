@@ -10,6 +10,10 @@ When a resources is pulled from one of these CDNs, typically the [referrer heade
 
 In the spirit of reducing privacy exposure, local mirroring is introduced as an experimental feature in µBlock. Local mirroring allows µBlock to cache locally resources pulled from known ubiquitous CDN, and future requests for the same resource will be served locally rather than pulling it from the CDN: not pulling a resource from a CDN prevents that CDN from collecting data about your browsing habit.
 
+![zdnet.com](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/local-mirroring-example-1.png)
+
+The picture above shows that connection to `ajax.googleapis.com`, `www.googletagservices.com`, `twitter.com` were prevented -- hence no print in their server logs), and local copies of the requested resources were served instead -- hence no page breakage. (Surprisingly, the above request to `googletagservices.com` is **not** blocked when using _EasyList_ + _EasyPrivacy_.)
+
 A quick benchmark -- using [reference benchmark](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares), with the feature disabled vs. enabled shows the following:
 
 **Disabled:** <br>
