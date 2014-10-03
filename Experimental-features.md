@@ -50,8 +50,6 @@ I ran a new benchmark with uBlock 0.6.6.0-rc.0 and ABP 1.8.5 with the same lists
 
 Here is the resulting diff: https://www.diffchecker.com/5z91i47m
 
-![a](https://cloud.githubusercontent.com/assets/585534/4509165/69889bac-4b1c-11e4-8ee6-3d2f2b2cc6f0.png)
-
 In red what ABP blocked which was not blocked by uBlock.
 In green what uBlock blocked which was not blocked by ABP.
 
