@@ -56,8 +56,8 @@ In green what uBlock blocked which was not blocked by ABP.
 I suspect the only two requests not blocked by uBlock which were blocked by ABP is just the result of the page content changing between the time I benchmarked uBlock and ABP.
 
 Filter lists:
-- ABP: Out of box settings + EasyPrivacy, Malware domains, Fanboy's Social Blocking List, Anti-Facebook + "Acceptable ads" disabled
-- uBlock: Out of box settings + Anti-Facebook + Local mirroring enabled and primed (as it would be through normal use).
+- ABP: Out of box settings + EasyPrivacy, Malware domains, Fanboy's Social Blocking List, Anti-ThirdpartySocial‎ + "Acceptable ads" disabled
+- uBlock: Out of box settings + Anti-ThirdpartySocial‎ + Local mirroring enabled and primed (as it would be through normal use).
 
 What local mirroring accomplished in the above benchmark... Prevented connections to:
 - `2mdn.net`
