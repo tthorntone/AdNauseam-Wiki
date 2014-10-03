@@ -42,7 +42,9 @@ Advantages of local mirroring:
 Disadvantage of local mirroring:
 - Higher memory consumption
 
-**Update:** I ran a new benchmark to highlight better the effects of using local mirroring (cut & pasted [from here](https://github.com/gorhill/uBlock/issues/264#issuecomment-57812998)):
+##### Update
+
+I ran a new benchmark to highlight better the effects of using local mirroring (cut & pasted [from here](https://github.com/gorhill/uBlock/issues/264#issuecomment-57812998)):
 
 I ran a new benchmark with uBlock 0.6.6.0-rc.0 and ABP 1.8.5 with the same lists (except Peter Lowe's because there is no easy convenient way to install it in Adblock Plus -- so I assume users are likely to not bother).
 
