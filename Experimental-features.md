@@ -41,3 +41,33 @@ Advantages of local mirroring:
 
 Disadvantage of local mirroring:
 - Higher memory consumption
+
+**Update:** I ran a new benchmark to highlight better the effects of using local mirroring (cut & pasted [from here](https://github.com/gorhill/uBlock/issues/264#issuecomment-57812998)):
+
+I ran a new benchmark with uBlock 0.6.6.0-rc.0 and ABP 1.8.5 with the same lists (except Peter Lowe's because there is no easy convenient way to install it in Adblock Plus -- so I assume users are likely to not bother).
+
+Here is the resulting diff: https://www.diffchecker.com/5z91i47m
+
+![a](https://cloud.githubusercontent.com/assets/585534/4509165/69889bac-4b1c-11e4-8ee6-3d2f2b2cc6f0.png)
+
+In red what ABP blocked which was not blocked by uBlock.
+In green what uBlock blocked which was not blocked by ABP.
+
+I suspect the only two requests not blocked by uBlock which were blocked by ABP is just the result of the page content changing between the time I benchmarked uBlock and ABP.
+
+Filter lists:
+- ABP: Out of box settings + EasyPrivacy, Malware domains, Fanboy's Social Blocking List, Anti-Facebook + "Acceptable ads" disabled
+- uBlock: Out of box settings + Anti-Facebook + Local mirroring enabled and primed (as it would be through normal use).
+
+What local mirroring accomplished in the above benchmark... Prevented connections to:
+- `2mdn.net`
+- `ajax.googleapis.com`
+- `cloudflare.com`
+- `fonts.googleapis.com`
+- `googletagservices.com`
+- `gstatic.com`
+- `janrain.com`
+- `jquery.com`
+- `twitter.com`
+
+And since the remote resources were available locally, preventing the connection didn't cause page breakage.
