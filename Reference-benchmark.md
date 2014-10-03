@@ -77,7 +77,7 @@ http://www.y8.com/
 http://www.pogo.com/
 http://www.miniclip.com/
 http://www.bigfishgames.com/
-http://www.zynga.com/
+http://www.zyngagames.com/
 http://www.addictinggames.com/
 http://www.games.com/
 http://www.freeonlinegames.com/
