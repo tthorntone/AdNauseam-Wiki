@@ -5,6 +5,8 @@ Here is a quick illustrated comparison of efficiency using various angles. Each 
 - [Added memory footprint to web pages](#added-memory-footprint-to-web-pages)
 - [Added CPU overhead to web pages](#added-cpu-overhead-to-web-pages)
 
+By the way, I need dispel a myth given how often it surfaces: [Adblock Edge uses Adblock Plus filtering engine](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/abp-abe.png), so it is **not** more efficient as ABP.
+
 ### Own memory footprint
 
 These screenshots show the memory footprint of ABP and µBlock _after_ they have gone through this rather [demanding benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark). Once the benchmark was completed, I forced the browser to garbage collect the memory in each extension by clicking the trash icon (in dev console) a couple of times -- this is an _important step_, or else the shown memory footprint is not too reliable.
