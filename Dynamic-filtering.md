@@ -16,6 +16,7 @@ Columns:
 4. to block 1st-party `<iframe>` tags.
 5. to block 3rd-party `<iframe>` tags.
 
+Whether a request is "1st-party" or "3rd-party" to a page (or frame) is derived from the domain names extracted from the URL address of the net request and the URL address of the page (or frame): they have to be the same. So `www.arstechnica.com` is 1st-party to `arstechnica.com`, while `arstechnica.net` is 3rd-party to `arstechnica.com`. Domain names are extracted as per [Mozilla's Public Suffix List](https://publicsuffix.org/).
 ![Figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-2.png)
 
 Color scheme:
