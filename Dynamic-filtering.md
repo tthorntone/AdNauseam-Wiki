@@ -15,3 +15,5 @@ Columns:
 3. to block 3rd-party `<script>` tags.
 4. to block 1st-party `<iframe>` tags.
 5. to block 3rd-party `<iframe>` tags.
+
+The user interface is not terribly self-explanatory, but I really want to keep it as uncluttered as possible. Once you read the doc here, using dynamic filtering to require should require no further documentation.
