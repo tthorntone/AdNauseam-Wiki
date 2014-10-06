@@ -18,9 +18,24 @@ Columns:
 
 ![Figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-2.png)
 
-- Reddish indicates blocking dynamic filter in effect.
-- Gray indicates no blocking dynamic filter in effect.
-- Darker reddish indicates blocking dynamic filter in effect, bypass default setting.
-- Darker gray indicates no blocking dynamic filter in effect, bypass default setting.
+Color scheme:
+
+- Reddish indicates dynamic filtering in effect.
+- Grayish indicates no dynamic filtering in effect.
+- Darker red indicates dynamic filtering in effect, bypass default setting.
+- Darker gray indicates no dynamic filtering in effect, bypass default setting.
+
+So in the illustration above we have:
+
+- Default settings:
+    - Do not block inline `<script>` tags
+    - Do not block 1st-party `<script>` tags
+    - Block 3rd-party `<script>` tags
+    - Do not block 1st-party `<iframe>` tags
+    - Block 3rd-party `<iframe>` tags
+
+- Site-sepcific settings:
+    - Block inline `<script>` tags
+    - Do not block 3rd-party `<script>` tags
 
 The user interface is not terribly self-explanatory, but I really want to keep it as uncluttered as possible. Once you read the doc here, using dynamic filtering should require no further explanation.
