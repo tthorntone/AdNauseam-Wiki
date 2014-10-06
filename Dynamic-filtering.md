@@ -34,7 +34,7 @@ So in the illustration above we have:
     - Do not block 1st-party `<iframe>` tags
     - Block 3rd-party `<iframe>` tags
 
-- Site-sepcific settings:
+- Site-specific settings:
     - Block inline `<script>` tags
     - Do not block 3rd-party `<script>` tags
 
