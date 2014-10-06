@@ -1,6 +1,6 @@
 Dynamic filtering, introduced in version 0.7.0.0, allows a user to filter dynamically certain classes of requests. Currently, `script` and `iframe` objects can be dynamically filtered, i.e. filtered on or off without having to create a custom filter.
 
-Dynamic filtering is a useful feature security-wise. For example, blocking 3rd-party `<iframe>` by default would have protected users in the case of the [jQuery.com malware attack](http://www.riskiq.com/resources/blog/jquerycom-malware-attack-puts-privileged-enterprise-it-accounts-risk).
+Dynamic filtering is a useful feature security-wise. For example, blocking 3rd-party `<iframe>` by default would have protected users in the case of the [jQuery.com malware attack](http://www.riskiq.com/resources/blog/jquerycom-malware-attack-puts-privileged-enterprise-it-accounts-risk). Disabling inline javascript is also often useful to work around anti-blockers behavior on some sites.
 
 Of course, blocking portion of a page may cause page breakage, sometimes benign, sometimes severe. It is up to the user to choose how to make use of this feature.
 
