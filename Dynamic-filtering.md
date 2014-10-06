@@ -16,4 +16,11 @@ Columns:
 4. to block 1st-party `<iframe>` tags.
 5. to block 3rd-party `<iframe>` tags.
 
-The user interface is not terribly self-explanatory, but I really want to keep it as uncluttered as possible. Once you read the doc here, using dynamic filtering to require should require no further documentation.
+![Figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-2.png)
+
+- Reddish indicates blocking dynamic filter in effect.
+- Gray indicates no blocking dynamic filter in effect.
+- Darker reddish indicates blocking dynamic filter in effect, bypass default setting.
+- Darker gray indicates no blocking dynamic filter in effect, bypass default setting.
+
+The user interface is not terribly self-explanatory, but I really want to keep it as uncluttered as possible. Once you read the doc here, using dynamic filtering should require no further explanation.
