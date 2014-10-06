@@ -6,7 +6,7 @@ Of course, blocking portion of a page may cause page breakage, sometimes benign,
 
 ![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-1.png)
 
-The "default" row above refers to the default settings to use for any web site. These default settings will take effect on the site **unless** there are specific settings for the current site, which specific settings appear in the row above.
+The "default" row above refers to the default settings to use for any web site. These default settings will take effect on all sites **unless** there are specific settings for the current site, which specific settings appear in the row above.
 
 Columns:
 
