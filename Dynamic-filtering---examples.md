@@ -12,7 +12,7 @@ URL: <http://techcrunch.com/2014/10/07/yahoo-lays-off-employees-in-india-reporte
 
 The article could be read all fine with dynamic filtering. For many users it's often only what matters for most sites.
 
-Without µBlock enabled at all, 61 hostnames were hit, with the consumed bandwidth at 2,627,068 bytes.
+Without µBlock enabled at all, 61 different hostnames were hit, with the consumed bandwidth at 2,627,068 bytes.
 
 | No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
 |---------------------:|------------------------------------------------------:|
@@ -30,3 +30,24 @@ Without µBlock enabled at all, 61 hostnames were hit, with the consumed bandwid
 | tctechcrunch2011.files.<br>wordpress.com | tctechcrunch2011.files.<br>wordpress.com |
 | techcrunch.com | techcrunch.com |
 | zor.livefyre.com | |
+
+#### Example 2 -- An article on The New Yorker
+
+URL: <http://www.newyorker.com/magazine/2013/03/11/up-all-night-2?currentPage=all>
+
+The article could be read all fine with dynamic filtering.
+
+Without µBlock enabled at all, 24 different hostnames were hit.
+
+| No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
+|---------------------:|------------------------------------------------------:|
+| 1,346,535 | 487,095 |
+| assets.adobedtm.com | |
+| subscribe.condenet.com | subscribe.condenet.com |
+| ajax.googleapis.com | |
+| www.googletagservices.com | |
+| plugin.mediavoice.com | |
+| www.newyorker.com | www.newyorker.com |
+| api.parsely.com | |
+| dff7tx5c2qbxc.cloudfront.net | |
+| use.typekit.net | |
