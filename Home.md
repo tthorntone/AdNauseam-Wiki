@@ -4,7 +4,7 @@
 - [Privacy stuff](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)
 - [Filter syntax extensions](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)
 - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
-    - [Examples](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples)
+    - [Examples of benefits](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples)
 - [Experimental features](https://github.com/gorhill/uBlock/wiki/Experimental-features)
 - [Tricks and tips](https://github.com/gorhill/uBlock/wiki/Tricks-and-tips)
 - [µBlock vs. ABP: efficiency compared](/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
