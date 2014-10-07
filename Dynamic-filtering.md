@@ -48,6 +48,6 @@ Network requests blocked through dynamic filtering will be reported just as any 
 
 ![Figure 3](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-3.png)
 
-Dynamic filters are always deemed important, thus they will show up with the `important` filter option attached to them. When a network request is blocked because of a dynamic filtering default setting, the hostname will be reported as `*`, as seen in the picture above.
+Dynamic filters are always deemed [important](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions#network-filters), thus they will show up with the `important` filter option attached to them. When a network request is blocked because of a dynamic filtering default setting, the hostname will be reported as `*`, as seen in the picture above.
 
 Examples of benefits of using dynamic filtering: [Dynamic-filtering: examples](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples)
