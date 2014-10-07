@@ -82,7 +82,7 @@ Without µBlock enabled at all, 48 different hostnames were hit, with bandwidth 
 
 URL: <http://www.livemint.com/Industry/TM8tDvrv3OfeYjeXkEPXZI/Flipkart-hits-100-million-sales-target-in-10-hours.html>
 
-The article could be read all fine with dynamic filtering, but of course commenting through Disqus was not possible. Of course, if ever you care commenting, turning off whatever dynamic filters is as simple as point-and-click.
+The article could be read all fine with dynamic filtering, though commenting through Disqus was not possible. Of course, if ever you care commenting, turning off whatever dynamic filters is as simple as point-and-click.
 
 Without µBlock enabled at all, 25 different hostnames were hit, with bandwidth consumption at 1,276,894 bytes.
 
