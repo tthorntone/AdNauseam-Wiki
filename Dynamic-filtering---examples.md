@@ -119,3 +119,29 @@ Without µBlock enabled at all, 18 different hostnames were hit, with bandwidth 
 | s.ytimg.com | |
 | www.google.com | |
 | www.youtube.com | |
+
+### Example 6 -- An article on Wired
+
+URL: <http://www.wired.com/2014/10/feds-silk-road-hack-legal/>
+
+The article could be read all fine with dynamic filtering. The Disqus comments were not loaded though -- a nice side-effect IMO.
+
+Without µBlock enabled at all, 46 different hostnames were hit, with bandwidth consumption at 3,459,474 bytes.
+
+| No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
+|---------------------:|------------------------------------------------------:|
+| 2,643,977 | 1,520,884 |
+| a.disquscdn.com | |
+| disqus.com | |
+| fonts.condenast.com | |
+| html1-f.scribdassets.com | |
+| html2-f.scribdassets.com | |
+| images.outbrain.com | |
+| odb.outbrain.com | |
+| plugin.mediavoice.com | |
+| s1-f.scribdassets.com | |
+| s2-f.scribdassets.com | |
+| widgets.outbrain.com | |
+| wired.disqus.com | |
+| www.scribd.com | |
+| www.wired.com | www.wired.com |
