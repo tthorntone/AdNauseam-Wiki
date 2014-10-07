@@ -6,6 +6,8 @@ I didn't report below the comparative results without a blocker, that would be a
 
 I used my [HAR parser](http://raymondhill.net/httpsb/har-parser.html) tool to extract the results.
 
+- [An article on Wired](#example-6----an-article-on-wired)
+
 ### Example 1 -- An article on TechCrunch
 
 URL: <http://techcrunch.com/2014/10/07/yahoo-lays-off-employees-in-india-reportedly-up-to-2000-affected/>
