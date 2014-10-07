@@ -8,6 +8,8 @@ URL: <http://techcrunch.com/2014/10/07/yahoo-lays-off-employees-in-india-reporte
 
 The article could be read all fine with dynamic filtering. For many users it's often only what matters for most sites.
 
+I didn't report below the results without a blocker, that would be a lot of noise detracting from the main topic here, but in summary, without µBlock enabled at all, 61 hostnames were hit, with the consumed bandwidth at 2,627,068. And that was with click-to-play enabled for plug-in (would have been much worst without this).
+
 | No dynamic filtering | Dynamic filtering<br>3rd-party `<script>` and `<iframe>` |
 |---------------------:|------------------------------------------------------:|
 | 0.gravatar.com | | 
@@ -24,5 +26,3 @@ The article could be read all fine with dynamic filtering. For many users it's o
 | techcrunch.com | techcrunch.com |
 | zor.livefyre.com | |
 | 1,144,039 | 418,578 |
-
-I won't report above the results without a blocker because that would be a lot of noise, but in summary, without µBlock enabled at all, 61 hostnames were hit, with the consumed bandwidth at 2,627,068.
