@@ -6,6 +6,11 @@ I didn't report below the comparative results without a blocker, that would be a
 
 I used my [HAR parser](http://raymondhill.net/httpsb/har-parser.html) tool to extract the results.
 
+- [An article on TechCrunch](#example-1----an-article-on-techcrunch)
+- [An article on The New Yorker](#example-2----an-article-on-the-new-yorker)
+- [An article on Bloomberg](#example-3----an-article-on-bloomberg)
+- [An article on Live Mint](#example-4----an-article-on-live-mint)
+- [An article on SecureList](#example-5----an-article-on-securelist)
 - [An article on Wired](#example-6----an-article-on-wired)
 
 ### Example 1 -- An article on TechCrunch
