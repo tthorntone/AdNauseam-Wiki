@@ -4,7 +4,7 @@ Following are some examples of using dynamic filtering vs. not using dynamic fil
 
 I didn't report below the comparative results without a blocker, that would be a lot of noise detracting from the main topic here, but I provide a summary of what would have happened without µBlock with default filter lists. (That is with click-to-play enabled for plugins -- it would be much worst without this.)
 
-I used the <http://raymondhill.net/httpsb/har-parser.html> tool extract the results.
+I used my [HAR parser](http://raymondhill.net/httpsb/har-parser.html) tool to extract the results.
 
 #### Example 1 -- An article on TechCrunch
 
