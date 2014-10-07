@@ -1,6 +1,6 @@
 Dynamic filtering, introduced in version 0.7.0.0, allows a user to filter dynamically certain classes of requests. Currently, `script` and `iframe` objects can be dynamically filtered, i.e. filtered on or off without having to create a custom filter.
 
-This feature is not suited for users who like an install-and-forget blocker. Thus it is tucked away by default, and all dynamic filters are turned off by default. Dynamic filtering is targeted toward users who wish to have that additional bit of control about where their browser is allowed to connect and what it is allowed to execute, see it as a quite simplified yet useful _NoScript_ or _HTTP Switchboard_.
+This feature is not suited for users who like an install-and-forget blocker. Thus it is tucked away by default, and all dynamic filters are turned off by default. Dynamic filtering is targeted toward users who wish to have that additional bit of control about where their browser is allowed to connect and what it is allowed to execute, see it as a _extremely_ simplified (yet useful) _NoScript_ or _HTTP Switchboard_.
 
 Dynamic filtering is a useful feature security-wise. For example, blocking 3rd-party `<iframe>` by default would have protected users in the case of the [jQuery.com malware attack](http://www.riskiq.com/resources/blog/jquerycom-malware-attack-puts-privileged-enterprise-it-accounts-risk). Disabling inline javascript is also often useful to work around anti-blockers on some sites. Using dynamic filtering can help speed up _significantly_ how fast web pages load.
 
