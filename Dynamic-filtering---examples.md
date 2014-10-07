@@ -13,6 +13,7 @@ I used my [HAR parser](http://raymondhill.net/httpsb/har-parser.html) tool to ex
 - [An article on SecureList](#example-5----an-article-on-securelist)
 - [An article on Wired](#example-6----an-article-on-wired)
 - [An article on CNN](#example-7----an-article-on-cnn)
+- [An article on VICE](#example-8----an-article-on-vice)
 
 ### Example 1 -- An article on TechCrunch
 
@@ -183,3 +184,20 @@ Without µBlock enabled at all, 57 different hostnames were hit, with bandwidth 
 | widgets.outbrain.com | widgets.outbrain.com |
 | www.cnn.com | www.cnn.com |
 | z.cdn.turner.com | z.cdn.turner.com |
+
+### Example 8 -- An article on VICE
+
+URL: <http://www.vice.com/read/research-drugs-and-the-grey-market>
+
+The article could be read all fine with dynamic filtering.
+
+Without µBlock enabled at all, 38 different hostnames were hit, with bandwidth consumption at 2,046,372 bytes.
+
+| No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
+|---------------------:|------------------------------------------------------:|
+| 1,509,663 | 1,267,643 |
+| assets.vice.com | assets.vice.com |
+| clients1.google.com | |
+| player.ooyala.com | |
+| www.google.com | |
+| www.vice.com | www.vice.com |
