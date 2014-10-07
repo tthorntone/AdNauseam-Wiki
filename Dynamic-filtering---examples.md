@@ -1,6 +1,6 @@
 Dynamic filtering can be used to block much more aggressively than what would normally happen when relying only on the default filter lists. With dynamic filtering, web pages are definitely more likely to break, but for many users this is acceptable, so long as the content of a web page can still be read.
 
-Following are some examples of using dynamic filtering vs. not using dynamic filtering, with both scenarios using the default filter lists. The last row in each table shows the used bandwidth.
+Following are some examples of using dynamic filtering vs. not using dynamic filtering, with both scenarios using the default filter lists. The top row in each table shows the used bandwidth.
 
 #### Example 1 -- An article on TechCrunch
 
@@ -12,6 +12,7 @@ I didn't report below the results without a blocker, that would be a lot of nois
 
 | No dynamic filtering | Dynamic filtering<br>3rd-party `<script>` and `<iframe>` |
 |---------------------:|------------------------------------------------------:|
+| 1,144,039 | 418,578 |
 | 0.gravatar.com | | 
 | b.grvcdn.com | |
 | i.api.grvcdn.com | |
@@ -25,4 +26,3 @@ I didn't report below the results without a blocker, that would be a lot of nois
 | tctechcrunch2011.files.<br>wordpress.com | tctechcrunch2011.files.<br>wordpress.com |
 | techcrunch.com | techcrunch.com |
 | zor.livefyre.com | |
-| 1,144,039 | 418,578 |
