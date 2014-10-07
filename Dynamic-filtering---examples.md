@@ -51,3 +51,29 @@ Without µBlock enabled at all, 24 different hostnames were hit.
 | api.parsely.com | |
 | dff7tx5c2qbxc.cloudfront.net | |
 | use.typekit.net | |
+
+#### Example 3 -- An article on Bloomberg
+
+URL: <http://www.bloomberg.com/news/2014-10-03/yahoo-said-close-to-investing-in-snapchat-at-10b-value.html>
+
+The article could be read all fine with dynamic filtering, though an interactive widget to display a graph of Yahoo's stock price over time didn't display at all.
+
+Without µBlock enabled at all, 48 different hostnames were hit, with bandwidth consumption at 2,095,142 bytes.
+
+| No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
+|---------------------:|------------------------------------------------------:|
+| 1,615,283 | 141,590 |
+| location.bloomberg.com | |
+| login.bloomberg.com | |
+| personalization.bloomberg.com | |
+| q.bloomberg.com | |
+| www.bloomberg.com | www.bloomberg.com |
+| disqus.com | |
+| bloomberg.disqus.com | |
+| a.disquscdn.com | |
+| cdn.taboola.com | |
+| images.taboola.com | |
+| netstorage.taboola.com | |
+| trc.taboola.com | |
+| cdn.gotraffic.net | cdn.gotraffic.net |
+| fonts.gotraffic.net | |
