@@ -6,7 +6,7 @@ I didn't report below the comparative results without a blocker, that would be a
 
 I used my [HAR parser](http://raymondhill.net/httpsb/har-parser.html) tool to extract the results.
 
-#### Example 1 -- An article on TechCrunch
+### Example 1 -- An article on TechCrunch
 
 URL: <http://techcrunch.com/2014/10/07/yahoo-lays-off-employees-in-india-reportedly-up-to-2000-affected/>
 
@@ -31,7 +31,7 @@ Without µBlock enabled at all, 61 different hostnames were hit, with the consum
 | techcrunch.com | techcrunch.com |
 | zor.livefyre.com | |
 
-#### Example 2 -- An article on The New Yorker
+### Example 2 -- An article on The New Yorker
 
 URL: <http://www.newyorker.com/magazine/2013/03/11/up-all-night-2?currentPage=all>
 
@@ -52,7 +52,7 @@ Without µBlock enabled at all, 24 different hostnames were hit.
 | dff7tx5c2qbxc.cloudfront.net | |
 | use.typekit.net | |
 
-#### Example 3 -- An article on Bloomberg
+### Example 3 -- An article on Bloomberg
 
 URL: <http://www.bloomberg.com/news/2014-10-03/yahoo-said-close-to-investing-in-snapchat-at-10b-value.html>
 
