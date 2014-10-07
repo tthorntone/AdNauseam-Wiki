@@ -12,7 +12,7 @@ The article could be read all fine with dynamic filtering. For many users it's o
 
 Without µBlock enabled at all, 61 hostnames were hit, with the consumed bandwidth at 2,627,068 bytes.
 
-| No dynamic filtering | Dynamic filtering<br>3rd-party `<script>` and `<iframe>` |
+| No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
 |---------------------:|------------------------------------------------------:|
 | 1,144,039 | 418,578 |
 | 0.gravatar.com | | 
