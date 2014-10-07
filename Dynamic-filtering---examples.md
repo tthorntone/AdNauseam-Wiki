@@ -158,7 +158,7 @@ Without µBlock enabled at all, 46 different hostnames were hit, with bandwidth 
 
 URL: <http://www.cnn.com/2014/10/07/opinion/maynard-assisted-suicide-cancer-dignity/index.html?hpt=hp_c2>
 
-The article could be read all fine with dynamic filtering. Disqus comments were not loaded. I noticed the CPU churning and network activity after the page loaded with µBlock disabled. This is not uncommon with bloated pages ridden with tracking et al. javascript code. Re-enabling µBlock with dynamic filtering turned on, the CPU went to rest.
+The article could be read all fine with dynamic filtering. Disqus comments were not loaded. I noticed the CPU churning and network activity after the page loaded with µBlock disabled. This is not uncommon with bloated pages ridden with tracking et al. javascript code. After I re-enabled µBlock with dynamic filtering turned on and forced a reload of the page, the CPU went to rest.
 
 Without µBlock enabled at all, 57 different hostnames were hit, with bandwidth consumption at 2,216,736 bytes.
 
