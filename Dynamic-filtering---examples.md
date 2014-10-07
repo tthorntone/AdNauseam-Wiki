@@ -42,15 +42,15 @@ Without µBlock enabled at all, 24 different hostnames were hit.
 | No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
 |---------------------:|------------------------------------------------------:|
 | 1,346,535 | 487,095 |
-| assets.adobedtm.com | |
-| subscribe.condenet.com | subscribe.condenet.com |
 | ajax.googleapis.com | |
-| www.googletagservices.com | |
-| plugin.mediavoice.com | |
-| www.newyorker.com | www.newyorker.com |
 | api.parsely.com | |
+| assets.adobedtm.com | |
 | dff7tx5c2qbxc.cloudfront.net | |
+| plugin.mediavoice.com | |
+| subscribe.condenet.com | subscribe.condenet.com |
 | use.typekit.net | |
+| www.googletagservices.com | |
+| www.newyorker.com | www.newyorker.com |
 
 ### Example 3 -- An article on Bloomberg
 
@@ -63,20 +63,20 @@ Without µBlock enabled at all, 48 different hostnames were hit, with bandwidth 
 | No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
 |---------------------:|------------------------------------------------------:|
 | 1,615,283 | 141,590 |
+| a.disquscdn.com | |
+| bloomberg.disqus.com | |
+| cdn.gotraffic.net | cdn.gotraffic.net |
+| cdn.taboola.com | |
+| disqus.com | |
+| fonts.gotraffic.net | |
+| images.taboola.com | |
 | location.bloomberg.com | |
 | login.bloomberg.com | |
+| netstorage.taboola.com | |
 | personalization.bloomberg.com | |
 | q.bloomberg.com | |
-| www.bloomberg.com | www.bloomberg.com |
-| disqus.com | |
-| bloomberg.disqus.com | |
-| a.disquscdn.com | |
-| cdn.taboola.com | |
-| images.taboola.com | |
-| netstorage.taboola.com | |
 | trc.taboola.com | |
-| cdn.gotraffic.net | cdn.gotraffic.net |
-| fonts.gotraffic.net | |
+| www.bloomberg.com | www.bloomberg.com |
 
 ### Example 4 -- An article on Live Mint
 
@@ -89,13 +89,33 @@ Without µBlock enabled at all, 25 different hostnames were hit, with bandwidth 
 | No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
 |---------------------:|------------------------------------------------------:|
 | 736,197 | 281,111 |
-| disqus.com | |
-| livemint07.disqus.com | |
 | a.disquscdn.com | |
-| www.livemint.com | www.livemint.com |
-| h.ppjol.com | |
 | cdn.taboola.com | |
+| disqus.com | |
+| h.ppjol.com | |
 | images.taboola.com | |
+| livemint07.disqus.com | |
 | netstorage.taboola.com | |
-| trc.taboola.com | |
 | s.ppjol.net | |
+| trc.taboola.com | |
+| www.livemint.com | www.livemint.com |
+
+### Example 5 -- An article on SecureList
+
+URL: <http://securelist.com/blog/research/66988/tyupkin-manipulating-atm-machines-with-malware/>
+
+The article could be read all fine with dynamic filtering. An embedded Youtube video was reduced to an hyperlink (which is a good thing IMO).
+
+Without µBlock enabled at all, 18 different hostnames were hit, with bandwidth consumption at 1,969,789 bytes.
+
+| No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
+|---------------------:|------------------------------------------------------:|
+| 1,657,834 | 1,131,906 |
+| 25zbkz3k00wn2tp5092n6di7b5k.wpengine.netdna-cdn.com | |
+| i.ytimg.com | |
+| kasperskycontenthub.com | |
+| s0.wp.com | |
+| securelist.com | |
+| s.ytimg.com | |
+| www.google.com | |
+| www.youtube.com | |
