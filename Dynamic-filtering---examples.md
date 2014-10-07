@@ -1,6 +1,4 @@
-Dynamic filtering can be used to block much more aggressively than what would normally happen when relying only on the default filter lists. With dynamic filtering, web pages are definitely more likely to break, but for many users this is acceptable, so long as the content of a web page can still be read.
-
-<img align="right" src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-4.png" />
+<img align="right" src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-4.png" />Dynamic filtering can be used to block much more aggressively than what would normally happen when relying only on the default filter lists. With dynamic filtering, web pages are definitely more likely to break, but for many users this is acceptable, so long as the content of a web page can still be read.
 
 Following are some examples of using dynamic filtering vs. not using dynamic filtering (i.e. relying solely on the static filter lists), with both scenarios using the default filter lists. The top row in each table shows the used bandwidth.
 
