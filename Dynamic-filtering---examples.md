@@ -20,7 +20,7 @@ The article could be read all fine with dynamic filtering. For many users it's o
 | s0.wp.com | s0.wp.com |
 | s2.wp.com | s2.wp.com |
 | s.aolcdn.com | |
-| tctechcrunch2011.files.wordpress.com | tctechcrunch2011.files.wordpress.com |
+| tctechcrunch2011.files.<br>wordpress.com | tctechcrunch2011.files.<br>wordpress.com |
 | techcrunch.com | techcrunch.com |
 | zor.livefyre.com | |
 | 1,144,039 | 418,578 |
