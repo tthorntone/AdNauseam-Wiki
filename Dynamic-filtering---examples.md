@@ -24,3 +24,5 @@ The article could be read all fine with dynamic filtering. For many users it's o
 | techcrunch.com | techcrunch.com |
 | zor.livefyre.com | |
 | 1,144,039 | 418,578 |
+
+I won't report above the results without a blocker because that would be a lot of noise, but in summary, without µBlock enabled at all, 61 hostnames were hit, with the consumed bandwidth at 2,627,068.
