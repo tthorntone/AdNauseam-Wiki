@@ -111,11 +111,11 @@ Without µBlock enabled at all, 18 different hostnames were hit, with bandwidth 
 | No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
 |---------------------:|------------------------------------------------------:|
 | 1,657,834 | 1,131,906 |
-| 25zbkz3k00wn2tp5092n6di7b5k.wpengine.netdna-cdn.com | |
+| 25zbkz3k00wn2tp5092n6di7b5k.<br>wpengine.netdna-cdn.com | 25zbkz3k00wn2tp5092n6di7b5k.<br>wpengine.netdna-cdn.com |
 | i.ytimg.com | |
 | kasperskycontenthub.com | |
 | s0.wp.com | |
-| securelist.com | |
+| securelist.com | securelist.com |
 | s.ytimg.com | |
 | www.google.com | |
 | www.youtube.com | |
