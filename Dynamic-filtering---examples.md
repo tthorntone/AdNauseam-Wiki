@@ -12,6 +12,7 @@ I used my [HAR parser](http://raymondhill.net/httpsb/har-parser.html) tool to ex
 - [An article on Live Mint](#example-4----an-article-on-live-mint)
 - [An article on SecureList](#example-5----an-article-on-securelist)
 - [An article on Wired](#example-6----an-article-on-wired)
+- [An article on CNN](#example-7----an-article-on-cnn)
 
 ### Example 1 -- An article on TechCrunch
 
@@ -152,3 +153,33 @@ Without µBlock enabled at all, 46 different hostnames were hit, with bandwidth 
 | wired.disqus.com | |
 | www.scribd.com | |
 | www.wired.com | www.wired.com |
+
+### Example 7 -- An article on CNN
+
+URL: <http://www.cnn.com/2014/10/07/opinion/maynard-assisted-suicide-cancer-dignity/index.html?hpt=hp_c2>
+
+The article could be read all fine with dynamic filtering. Disqus comments were not loaded.
+
+Without µBlock enabled at all, 57 different hostnames were hit, with bandwidth consumption at 2,216,736 bytes.
+
+| No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
+|---------------------:|------------------------------------------------------:|
+| 1,466,984 | 613,012 |
+| a.disquscdn.com | |
+| cache-02.cleanprint.net | |
+| cdn.flipboard.com | |
+| cnn.disqus.com | |
+| d2jsycj2ly2vqh.cloudfront.net | |
+| disqus.com | disqus.com |
+| flipboard.com | |
+| i2.cdn.turner.com | i2.cdn.turner.com |
+| i.cdn.turner.com | i.cdn.turner.com |
+| images.outbrain.com | |
+| mediacdn.disqus.com | mediacdn.disqus.com |
+| odb.outbrain.com | |
+| s.flipboard.com | |
+| svcs.cnn.com | svcs.cnn.com |
+| trends.cnn.com | |
+| widgets.outbrain.com | widgets.outbrain.com |
+| www.cnn.com | www.cnn.com |
+| z.cdn.turner.com | z.cdn.turner.com |
