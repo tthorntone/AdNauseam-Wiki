@@ -2,7 +2,7 @@ Dynamic filtering can be used to block much more aggressively than what would no
 
 Following are some examples of using dynamic filtering vs. not using dynamic filtering (i.e. relying solely on the static filter lists), with both scenarios using the default filter lists. The top row in each table shows the used bandwidth.
 
-<p align="center"><img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-4.png" /><br><sup>3rd-party scripts and 3rd-party frames blocked.</sup></p>
+<p align="center"><img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-4.png" /><br><sup>3rd-party scripts and 3rd-party frames blocked by default.</sup></p>
 
 I didn't report below the comparative results without a blocker, that would be a lot of noise detracting from the main topic here, but I provide a summary of what would have happened without µBlock with default filter lists. (That is with click-to-play enabled for plugins -- it would be much worst without this.)
 
