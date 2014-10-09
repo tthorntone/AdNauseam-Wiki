@@ -203,3 +203,23 @@ Without µBlock enabled at all, 38 different hostnames were hit, with bandwidth 
 | player.ooyala.com | |
 | www.google.com | |
 | www.vice.com | www.vice.com |
+
+### Example 9 -- An article on Nautilus
+
+URL: <http://nautil.us/issue/18/genius/shakespeares-genius-is-nonsense>
+
+The article could be read all fine with dynamic filtering of 3rd-party scripts and frames. Disqus comment section id not load (fine by me).
+
+Without µBlock enabled at all, 22 different hostnames were hit, with bandwidth consumption at 4,780,294 bytes.
+
+| No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
+|---------------------:|------------------------------------------------------:|
+| 4,629,924 | 4,185,531 |
+| a.disquscdn.com | |
+| connect.facebook.net | |
+| disqus.com | |
+| nautil.us | nautil.us |
+| nautilusmag.disqus.com | |
+| nautilus-prod.s3.<br>amazonaws.com | nautilus-prod.s3.<br>amazonaws.com |
+| static.nautil.us | static.nautil.us |
+| use.typekit.net | |
