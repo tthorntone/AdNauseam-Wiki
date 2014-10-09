@@ -14,4 +14,5 @@ Simply blocking 3rd-party `<iframe>` by default foils such exploit.
 
 In the above case, blocking 3rd-party scripts would have been even better, as the malicious code would have been prevented from creating the malicious `<iframe>` in the first place. But for users with low tolerance to site breakage, blocking 3rd-party `<iframe>` by default (i.e. on all sites by default) is really the best solution.
 
-Ultimately, if a site breaks because it really does need legitimate 3rd-party `<iframe>`, than un-blocking for that specific site is only one click away.
+Ultimately, if a site breaks because it really does need legitimate 3rd-party `<iframe>`, then un-blocking `<iframe>` for a specific site is only one click away:
+
