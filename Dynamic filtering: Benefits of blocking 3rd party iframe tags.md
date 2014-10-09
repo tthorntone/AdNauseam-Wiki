@@ -34,7 +34,7 @@ When you visit <http://www.ibtimes.com/>, the following `<iframe>` is dynamicall
 
     <iframe id="_atssh478" title="AddThis utility frame" src="//ct1.addthis.com/static/r07/sh175.html#iit=1412897324950&amp;tmr=load%3D1412897319899%26core%3D1412897320635%26main%3D1412897324941%26ifr%3D1412897324955&amp;cb=0&amp;cdn=1&amp;chr=UTF-8&amp;kw=headline%20news%2Cdaily%20news%2Cbreaking%20news%2Cbusiness%20news%2Cpolitical%20news%2Csports%20news%2Ccurrent%20news%2Ceurope%20news%2Cworld%20news%2Casian%20news%2Ccomputer%20news%2Cairline%20news%2Cbanking%20news%2Cconsumer%20news%2Chealth%20news&amp;ab=-&amp;dh=www.ibtimes.com&amp;dr=&amp;du=http%3A%2F%2Fwww.ibtimes.com%2F&amp;dt=International%20Business%20Times%20-%20International%20Business%20News%2C%20Financial%20News%2C%20Market%20News%2C%20Politics%2C%20Forex%2C%20Commodities&amp;dbg=0&amp;md=0&amp;cap=tc%3D0%26ab%3D0&amp;inst=1&amp;vcl=1&amp;jsl=143585&amp;prod=undefined&amp;lng=en-GB&amp;ogt=title&amp;pc=flw%2Ctbx&amp;pub=ra-4fd117ff2700b0d1&amp;ssl=0&amp;sid=54371a28bc1109db&amp;srpl=1&amp;srcs=1&amp;srd=1&amp;srf=1&amp;srx=1&amp;ver=300&amp;xck=0&amp;xtr=0&amp;og=title%3DAmerican%2520Horror%2520Story&amp;aa=0&amp;csi=undefined&amp;rev=6.2&amp;ct=1&amp;xld=1&amp;xd=1" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border: 0px; left: 0px; top: 0px;"></iframe>
 
-And within it, the fingerprinting will take place, and report to AddThis servers:
+And within it, the fingerprinting will take place, and result reported to AddThis servers:
 
 - **Request URL:** `http://ct1.addthis.com/static/r07/sh175.html`
 - **Cookie:** `uid=54371180c23c9d63; __atuvc=1%7C41; uit=1; km_ai=543717496fd011.83307994`
