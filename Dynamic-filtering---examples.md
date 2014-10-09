@@ -210,7 +210,7 @@ URL: <http://nautil.us/issue/18/genius/shakespeares-genius-is-nonsense>
 
 The article could be read all fine with dynamic filtering of 3rd-party scripts and frames. Disqus comment section id not load (fine by me).
 
-Without µBlock enabled at all, 22 different hostnames were hit, with bandwidth consumption at 4,780,294 bytes.
+Without µBlock enabled at all, 22 different hostnames were hit with bandwidth consumption at 4,780,294 bytes.
 
 | No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
 |---------------------:|------------------------------------------------------:|
