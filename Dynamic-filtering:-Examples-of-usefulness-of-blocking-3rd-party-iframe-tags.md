@@ -6,7 +6,7 @@ URL: <http://www.riskiq.com/resources/blog/jquerycom-malware-attack-puts-privile
 
 `iframe` are very often used by malware code on compromised web sites. The most recent example of this is [jquery.com](http://blog.jquery.com/2014/09/24/update-on-jquery-com-compromises/).
 
-The web site was compromised, and users of the site were served tainted web pages, which were causing a user's browser to download exploit kit from some remote servers. This was done 1st through a malicious 3rd-party script, which purpose was to dynamically create and embed a 3rd-party-sourced `<iframe>` on the page.
+The web site was compromised, and users of the site were served tainted web pages, which were causing a user's browser to download exploit kit from some remote servers. This was done 1st through a malicious 3rd-party `<script>`, which purpose was to dynamically create and embed a 3rd-party-sourced `<iframe>` on the page.
 
 Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique. Simply blocking 3rd-party `<iframe>` foils to such exploit.
 
