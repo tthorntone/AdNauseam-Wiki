@@ -26,6 +26,8 @@ Remember the article [ProPublica's _"Meet the Online Tracking Device That is Vir
 
 The title is obviously an exaggeration (the tracking _can_ be blocked).
 
-The particular `addthis.com` javascript code which attempts to fingerprint your browser executes from within a 3rd-party `iframe`. Contrary to what Adblock Plus has been claiming on its blog and the media, using _EasyPrivacy_ does **not** prevent AddThis from fingerprinting your browser. This is something I verified and re-verified back then, and unless appropriate filters have been added since last time I checked, it still is the case.
+The particular `addthis.com` javascript code which attempts to fingerprint your browser executes from within a 3rd-party `iframe`.
+
+Contrary to what Adblock Plus has been claiming on its blog and the [media](http://news.yahoo.com/adblock-plus-stop-canvas-fingerprinting-unstoppable-browser-tracking-191541979.html), using _EasyPrivacy_ does **not** prevent AddThis from fingerprinting your browser. This is something I verified and re-verified back then, and unless appropriate filters have been added since last time I checked, it still is the case.
 
 AddThis and countless other 3rd-party which purpose is to data-mine you will be foiled by blocking 3rd-party `<iframe>` tags (even more so if blocking 3rd-party `<script>` tags).
