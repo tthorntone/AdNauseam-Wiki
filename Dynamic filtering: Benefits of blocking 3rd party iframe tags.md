@@ -45,4 +45,4 @@ The above occurred with Adblock Plus with _EasyList_ + _EasyPrivacy_ enabled. No
 
 AddThis and many other 3rd-parties which purpose is to data-mine you will be foiled by blocking 3rd-party `<iframe>` tags (even more so if blocking 3rd-party `<script>` tags).
 
-By blocking 3rd-party `<iframe>` tags, you don't have to [ask them permission to opt-out](http://www.addthis.com/privacy/opt-out) of something you did not opt-in in the first place. ("Opting out" is a joke anyways, [see _"The web never forgets"_](https://securehomes.esat.kuleuven.be/~gacar/persistent/the_web_never_forgets.pdf), section 6.2 (PDF))
+By blocking 3rd-party `<iframe>` tags, you don't have to [ask them permission to opt-out](http://www.addthis.com/privacy/opt-out) of something you did not opt-in in the first place. ("Opting out" is a joke anyways, [see _"The web never forgets"_](https://securehomes.esat.kuleuven.be/~gacar/persistent/the_web_never_forgets.pdf) (PDF), section 6.2)
