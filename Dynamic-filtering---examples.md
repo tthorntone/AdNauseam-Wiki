@@ -17,7 +17,7 @@ I used my [HAR parser](http://raymondhill.net/httpsb/har-parser.html) tool to ex
 - [An article on CNN](#example-7----an-article-on-cnn)
 - [An article on VICE](#example-8----an-article-on-vice)
 - [An article on Nautilus](#example-9----an-article-on-nautilus)
-- [An article on International Business Times](#example-9----an-article-on-international-business-times)
+- [An article on International Business Times](#example-10----an-article-on-international-business-times)
 
 ### Example 1 -- An article on TechCrunch
 
