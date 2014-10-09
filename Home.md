@@ -7,7 +7,7 @@
     - [Examples of benefits of blocking 3rd-party scripts and frames](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples)
     - [Examples of usefulness of blocking inline script tags](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Examples-of-usefulness-of-blocking-inline-script-tags)
     - [Examples of usefulness of blocking 1st-party script tags](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Examples-of-usefulness-of-blocking-1st-party-script-tags)
-    - [Examples of usefulness of blocking 3rd-party iframe tags](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Examples-of-usefulness-of-blocking-3rd-party-iframe-tags)
+    - [Examples of benefits of blocking 3rd-party iframe tags](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Examples-of-benefits-of-blocking-3rd-party-iframe-tags)
 - [Experimental features](https://github.com/gorhill/uBlock/wiki/Experimental-features)
 - [Tricks and tips](https://github.com/gorhill/uBlock/wiki/Tricks-and-tips)
 - [µBlock vs. ABP: efficiency compared](/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
