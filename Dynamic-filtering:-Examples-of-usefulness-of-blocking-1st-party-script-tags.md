@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-5.png" /><br><sup>1st-party scripts blocked for the current site only.</sup></p>
+
 ### Example 1
 
 URL: <http://www.eltiempo.com/>
