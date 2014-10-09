@@ -36,10 +36,10 @@ When you visit <http://www.ibtimes.com/>, the following `<iframe>` is dynamicall
 
 And within it, the fingerprinting will take place, and report to AddThis servers:
 
-**Request URL:** `http://ct1.addthis.com/static/r07/sh175.html`
-**Cookie:** `uid=54371180c23c9d63; __atuvc=1%7C41; uit=1; km_ai=543717496fd011.83307994`
-**Host:** `ct1.addthis.com`
-**Referer:** `http://www.ibtimes.com/`
+- **Request URL:** `http://ct1.addthis.com/static/r07/sh175.html`
+- **Cookie:** `uid=54371180c23c9d63; __atuvc=1%7C41; uit=1; km_ai=543717496fd011.83307994`
+- **Host:** `ct1.addthis.com`
+- **Referer:** `http://www.ibtimes.com/`
 
 The above occurred with Adblock Plus with _EasyList_ + _EasyPrivacy_ enabled. Note that the cookie header which contains the fingerprinting information will be stripped if you have _"Block third-party cookies and site data"_ enabled.
 
