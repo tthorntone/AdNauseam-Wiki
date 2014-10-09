@@ -17,6 +17,7 @@ I used my [HAR parser](http://raymondhill.net/httpsb/har-parser.html) tool to ex
 - [An article on CNN](#example-7----an-article-on-cnn)
 - [An article on VICE](#example-8----an-article-on-vice)
 - [An article on Nautilus](#example-9----an-article-on-nautilus)
+- [An article on International Business Times](#example-9----an-article-on-international-business-times)
 
 ### Example 1 -- An article on TechCrunch
 
@@ -224,3 +225,31 @@ Without µBlock enabled at all, 22 different hostnames were hit with bandwidth c
 | nautilus-prod.s3.<br>amazonaws.com | nautilus-prod.s3.<br>amazonaws.com |
 | static.nautil.us | static.nautil.us |
 | use.typekit.net | |
+
+### Example 10 -- An article on International Business Times
+
+URL: <http://www.ibtimes.com/imgur-unveils-gif-future-better-faster-sharper-1702314>
+
+This six paragraph article could be read all fine with dynamic filtering of 3rd-party scripts and frames.
+
+Without µBlock enabled at all, 93 different hostnames were hit with bandwidth consumption at 2,981,242 bytes.
+
+| No dynamic filtering | Dynamic filtering<br>3rd-party `<script>`<br>3rd-party `<iframe>` |
+|---------------------:|------------------------------------------------------:|
+| 1,197,157 | 936,224 |
+| ajax.googleapis.com | |
+| b.grvcdn.com | |
+| cdn.feeds.ibt.com | |
+| cdn.taboola.com | |
+| connect.facebook.net | |
+| images.taboola.com | |
+| netstorage.taboola.com | |
+| platform.twitter.com | |
+| s1.ibtimes.com | s1.ibtimes.com |
+| s1.tv.ibtimes.com | s1.tv.ibtimes.com |
+| s2.ibtimes.com | s2.ibtimes.com |
+| s3.ibtimes.com | s3.ibtimes.com |
+| s-static.ak.facebook.com | |
+| static.ak.facebook.com | |
+| trc.taboola.com | |
+| www.ibtimes.com | www.ibtimes.com |
