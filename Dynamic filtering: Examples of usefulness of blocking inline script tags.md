@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-6.png" /><br><sup>Inline scripts blocked for the current site only.</sup></p>
+
 ### Example 1
 
 URL: <http://www.wetteronline.de/wetter>
