@@ -4,7 +4,7 @@
 - [Privacy stuff](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)
 - [Filter syntax extensions](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)
 - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
-    - [Examples of benefits of blocking 3rd-party scripts and frames](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples)
+    - [Benefits of blocking 3rd-party scripts and frames](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples)
     - [Examples of usefulness of blocking inline script tags](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Examples-of-usefulness-of-blocking-inline-script-tags)
     - [Examples of usefulness of blocking 1st-party script tags](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Examples-of-usefulness-of-blocking-1st-party-script-tags)
     - [Benefits of blocking 3rd-party iframe tags](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering%3A-Benefits-of-blocking-3rd-party-iframe-tags)
