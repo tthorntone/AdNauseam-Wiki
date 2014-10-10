@@ -1,0 +1,1 @@
+Page moved to URL: <https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Usefulness-of-blocking-3rd-party-iframe-tags>
