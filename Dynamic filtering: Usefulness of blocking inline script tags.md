@@ -14,4 +14,4 @@ URL: <http://www.vox.com/>
 
 If you are using a blocker with _EasyPrivacy_, the above site, bent of having a 3rd-party track your activity on the site, will have all its hyperlinks disabled. Click on a link and nothing happens.
 
-Disabling inline `script` tags will restore hyperlink functionality, though at the cost of the site layout being somewhat broken. To some users, this workaround is more acceptable than having to completely disable µBlock.
+Disabling inline `script` tags will restore hyperlink functionality, though at the cost of the site layout being somewhat untidy. To some users, this workaround is more acceptable than having to completely disable µBlock.
