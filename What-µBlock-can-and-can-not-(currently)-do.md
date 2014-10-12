@@ -26,7 +26,7 @@ No. µBlock currently offers you more:
 - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering), the ability to point-and-click to filter on/off `script` and `iframe` tags, on a 1st- or 3rd-party basis. I consider this to be a [key feature](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples) of µBlock.
 - Element picker is more modern.
 - Let you select most common filter lists out of the box, without the need to import them first.
-- Supports hosts files
+- Supports hosts files (hostnames are translated into the equivalent of `||www.example.com^`).
 - Ability to whitelist single web page, or a whole section of a web site.
 - Ability to not load cosmetic filters (saves lot of memory).
 - A log of the net requests showing allowed/blocked net requests, and which filter, if any, matched each net request.
