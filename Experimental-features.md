@@ -80,4 +80,4 @@ I had to remove a couple of hostnames which were candidate to be mirrored, as in
 
 ##### Update 2014-10-12:
 
-Well there were bug introduced in 0.7.0.0 re local mirroring. These have been fixed. So I put back `googletagservices.com` as local mirror candidate, as the breakage was most certainly caused by the bugs, not the fact that the resources were not immutable (they appear to be).
+Well there were bugs introduced in 0.7.0.0 re local mirroring. These have been fixed. So I put back `googletagservices.com` as local mirror candidate, as the breakage was most certainly caused by the bugs, not the fact that the resources were not immutable (they appear to be).
