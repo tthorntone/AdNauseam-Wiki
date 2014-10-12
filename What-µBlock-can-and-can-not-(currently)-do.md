@@ -19,11 +19,17 @@ Filters with the `$elemhide` option are ignored. At time of writing, I see 50 su
 
 #### "ABP has all the features µBlock has!"
 
-No.
+No. µBlock currently offers you more:
 
-- µBlock [extends the filter syntax](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions).
-- µBlock has [local mirroring](https://github.com/gorhill/uBlock/wiki/Experimental-features#privacy-exposure-reduction-local-mirroring), a currently experimental but promising feature.
-- µBlock has [dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering), the ability to point-and-click to filter on/off `script` and `iframe` tags, on a 1st- or 3rd-party basis.
+- [Extends the filter syntax](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions).
+- [Local mirroring](https://github.com/gorhill/uBlock/wiki/Experimental-features#privacy-exposure-reduction-local-mirroring), a currently experimental but promising feature.
+- [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering), the ability to point-and-click to filter on/off `script` and `iframe` tags, on a 1st- or 3rd-party basis.
+- Element picker is more modern.
+- Let you select most common filter lists out of the box, without the need to import them first.
+- Supports hosts files
+- Ability to whitelist single web page, or a whole section of a web site.
+- Ability to not load cosmetic filters (saves lot of memory).
+- A log of the net requests showing allowed/blocked net requests, and which filter, if any, matched each net request.
 
 #### "µBlock has a smaller memory footprint than Ghostery or Disconnect."
 
