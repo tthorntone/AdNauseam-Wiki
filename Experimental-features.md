@@ -77,3 +77,7 @@ And since the remote resources were available locally, preventing the connection
 ##### Update 2014-10-10:
 
 I had to remove a couple of hostnames which were candidate to be mirrored, as in practice it showed that these could not be safely mirrored: `2mdn.net`, `googletagservices.com`, `janrain.com`. At this point it does look like the local mirroring feature will really have to be strictly reserved for resources which we know for sure are immutable (libs, fonts, things like that).
+
+##### Update 2014-10-12:
+
+Well there were bug introduced in 0.7.0.0 re local mirroring. These have been fixed. So I put back `googletagservices.com` as local mirror candidate, as the breakage was most certainly caused by the bugs, not the fact that the resources were not immutable (they appear to be).
