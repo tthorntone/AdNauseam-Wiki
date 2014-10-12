@@ -11,9 +11,19 @@ memory of [Adblock Plus](https://adblockplus.org/) ("ABP"), which is itself much
 
 #### "µBlock has all the features ABP has!"
 
+µBlock is its own thing, it doesn't try to be Adblock Plus or any other.
+
 Regular expression-based filters are not supported. At time of writing I see three such filters in _EasyList_, and none in _EasyPrivacy_. So rather uncommon. I may support them if there is really a need, but only for those which will have the `domain` filter option set: otherwise it's just impossible to implement efficiently such filters, and µBlock won't encourage their use by supporting these. For all the instances I have seen, it is possible to translate them into more efficient non-regex-based filters.
 
 Filters with the `$elemhide` option are ignored. At time of writing, I see 50 such filters in _EasyList_. The purpose of these filters is to disable cosmetic filters on specific sites.
+
+#### "ABP has all the features µBlock has!"
+
+No.
+
+- µBlock [extends the filter syntax](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions).
+- µBlock has [local mirroring](https://github.com/gorhill/uBlock/wiki/Experimental-features#privacy-exposure-reduction-local-mirroring), a currently experimental but promising feature.
+- µBlock has [dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering), the ability to point-and-click to filter on/off `script` and `iframe` tags, on a 1st- or 3rd-party basis.
 
 #### "µBlock has a smaller memory footprint than Ghostery or Disconnect."
 
