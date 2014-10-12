@@ -43,7 +43,7 @@ And within it, the fingerprinting will take place, and result reported to AddThi
 - **Host:** `ct1.addthis.com`
 - **Referer:** `http://www.ibtimes.com/`
 
-The above occurred with Adblock Plus with _EasyList_ + _EasyPrivacy_ enabled. Note that the cookie header which contains the fingerprinting information will be stripped if you set your browser to block 3rd-party cookies and site data (preventing 3rd-party cookies is what protects you, not ABP + _EasyPrivacy_).
+The above occurred with Adblock Plus with _EasyList_ + _EasyPrivacy_ enabled. Note that the cookie header which contains the fingerprinting information will be stripped if you set your browser to block 3rd-party cookies and site data (preventing 3rd-party cookies is what protects you in this particular case, not ABP + _EasyPrivacy_).
 
 AddThis and many other 3rd-parties which purpose is to data-mine you will be foiled by blocking 3rd-party `<iframe>` tags (even more so if blocking 3rd-party `<script>` tags).
 
