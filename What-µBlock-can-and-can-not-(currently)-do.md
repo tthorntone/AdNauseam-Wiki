@@ -23,7 +23,7 @@ No. µBlock currently offers you more:
 
 - [Extends the filter syntax](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions).
 - [Local mirroring](https://github.com/gorhill/uBlock/wiki/Experimental-features#privacy-exposure-reduction-local-mirroring), a currently experimental but promising feature.
-- [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering), the ability to point-and-click to filter on/off `script` and `iframe` tags, on a 1st- or 3rd-party basis.
+- [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering), the ability to point-and-click to filter on/off `script` and `iframe` tags, on a 1st- or 3rd-party basis. I consider this to be a [key feature](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples) of µBlock.
 - Element picker is more modern.
 - Let you select most common filter lists out of the box, without the need to import them first.
 - Supports hosts files
