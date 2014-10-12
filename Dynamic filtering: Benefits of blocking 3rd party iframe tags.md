@@ -10,6 +10,8 @@ The web site was compromised, and users of the site were served tainted web page
 
 Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique. [Example](http://www.volexity.com/blog/?p=33). [Example](http://arstechnica.com/security/2013/10/hackers-compromise-official-php-website-infect-visitors-with-malware/). [Example](http://www.wired.com/2013/08/freedom-hosting/). [Example](http://blog.armorize.com/2011/07/willysycom-mass-injection-ongoing.html). Etc.
 
+<p align="center"><img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-9.png" /><br><sup><a href="http://www.volexity.com/blog/?p=33">"Compromised Pro-Democratic Hong Kong Websites"</a>, volexity.com</sup></p>
+
 Simply blocking 3rd-party `<iframe>` by default foils such exploit.
 
 In the above case, blocking 3rd-party scripts would have been even better, as the malicious code would have been prevented from creating the malicious `<iframe>` in the first place. But for users with low tolerance to site breakage, blocking 3rd-party `<iframe>` by default (i.e. on all sites by default) is really the best solution.
