@@ -49,4 +49,4 @@ AddThis and many other 3rd-parties which purpose is to data-mine you will be foi
 
 By blocking 3rd-party `<iframe>` tags, you don't have to [ask them permission to opt-out](http://www.addthis.com/privacy/opt-out) of something you did not opt-in in the first place. ("Opting out" is a joke anyways, see [_"The web never forgets"_ (PDF)](https://securehomes.esat.kuleuven.be/~gacar/persistent/the_web_never_forgets.pdf), section 6.2)
 
-In any case, keep in mind that your IP address is as good as fingerprinting if you are assigned a long-lasting one, so blocking 3rd-party `<iframe>` tags (and 3rd-party `<script>` tags even better though more site breakage to expect) goes a long way in foiling trackers out there.
+In any case, keep in mind that your IP address is as good as fingerprinting if you are assigned a long-lasting one, so blocking 3rd-party `<iframe>` tags goes a long way in foiling trackers out there (and 3rd-party `<script>` tags even better though more site breakage to expect).
