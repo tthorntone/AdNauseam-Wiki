@@ -8,7 +8,13 @@ URL: <http://www.riskiq.com/resources/blog/jquerycom-malware-attack-puts-privile
 
 The web site was compromised, and users of the site were served tainted web pages, which could cause a user's browser to download exploit kit from some remote servers. This was done first through a malicious 3rd-party `<script>`, which purpose was to dynamically create and embed a 3rd-party-sourced `<iframe>` on the page.
 
-Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique. [Example](http://www.volexity.com/blog/?p=33). [Example](http://arstechnica.com/security/2013/10/hackers-compromise-official-php-website-infect-visitors-with-malware/). [Example](http://www.wired.com/2013/08/freedom-hosting/). [Example](http://blog.armorize.com/2011/07/willysycom-mass-injection-ongoing.html). Etc.
+Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique: 
+
+- [_"Democracy in Hong Kong Under Attack"_](http://www.volexity.com/blog/?p=33)
+- [_"Hackers compromise official PHP website, infect visitors with malware"_](http://arstechnica.com/security/2013/10/hackers-compromise-official-php-website-infect-visitors-with-malware/).
+- [_"Feds Are Suspects in New Malware That Attacks Tor Anonymity"_](http://www.wired.com/2013/08/freedom-hosting/)
+- [_"willysy.com Mass Injection ongoing, over 8 million infected pages, targets osCommerce sites"_](http://blog.armorize.com/2011/07/willysycom-mass-injection-ongoing.html)
+- And so on.
 
 <p align="center"><img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-9.png" /><br><sub><a href="http://www.volexity.com/blog/?p=33">"Compromised Pro-Democratic Hong Kong Websites"</a>, volexity.com.</sub><br><sup>µBlock shown just as a reminder on how to block 3rd-party &lt;iframe&gt; tags.</sup></p>
 
