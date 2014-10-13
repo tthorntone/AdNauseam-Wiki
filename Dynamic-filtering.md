@@ -4,6 +4,8 @@ This feature is not suited for users who like an install-and-forget blocker. Thu
 
 Dynamic filtering is a useful feature security-wise. For example, blocking 3rd-party `<iframe>` by default would have protected users in the case of the [jQuery.com malware attack](http://www.riskiq.com/resources/blog/jquerycom-malware-attack-puts-privileged-enterprise-it-accounts-risk). Disabling inline javascript is also often useful to work around anti-blockers on some sites. Using dynamic filtering can help speed up _significantly_ how fast web pages load.
 
+See [examples of usefulness/benefits](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples) of using dynamic filtering.
+
 Of course, blocking portion of a page may cause page breakage, sometimes benign, sometimes severe. It is up to the user to choose how to make use of this feature.
 
 ![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-1.png)
@@ -49,5 +51,3 @@ Network requests blocked through dynamic filtering will be reported just as any 
 ![Figure 3](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-3.png)
 
 Dynamic filters are always deemed [important](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions#network-filters), thus they will show up with the `important` filter option attached to them. When a network request is blocked because of a dynamic filtering default setting, the hostname will be reported as `*`, as seen in the picture above.
-
-Examples of benefits of using dynamic filtering: [Dynamic-filtering: examples](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples)
