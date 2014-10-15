@@ -11,6 +11,8 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 I did try specifically [instapaper.com](https://instapaper.com), and it appears it was working just fine. Whatever is not working should be brought as an issue.
 
+I personally use more than the default filter lists, and I barely have to whitelist any site, so I am rather skeptical at the claims of "constantly having to whitelist".
+
 ***
 
 #### Павел Базута (Chrome store, 2 October 2014)
