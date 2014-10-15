@@ -7,7 +7,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 > It filters out too much, so I am constantly having to whitelist things (like instapaper.com?). Great performance, but too twiddly for me. [2-star rating]
 
-µBlock will block according to whatever filter lists are selected. If it blocks too much, remove the filter lists you do not want. If it doesn't block enough, add the filter lists you want. Most filter lists are maintained by 3rd-parties, so if one filter list blocks something which you believe should not be blocked, bring the issue to the maintainer(s).
+µBlock will block according to whatever filter lists are selected. If it blocks too much, remove the filter lists you do not want. If it doesn't block enough, add the filter lists you want. Most filter lists are maintained by 3rd parties, so if one filter list blocks something which you believe should not be blocked, bring the issue to the maintainer(s).
 
 I did try specifically [instapaper.com](https://instapaper.com), and it appears it was working just fine. Whatever is not working should be brought as an issue.
 
