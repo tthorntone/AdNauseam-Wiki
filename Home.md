@@ -1,6 +1,7 @@
 - [Change log](https://github.com/gorhill/uBlock/releases) ([old one](https://github.com/gorhill/uBlock/wiki/Change-log))
 - [How to whitelist a web site](/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
 - Install from [Chrome store](https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](/gorhill/uBlock/tree/master/dist#install).
+    - [My answer to web store reviews where appropriate](/gorhill/uBlock/wiki/My-answer-to-web-store-reviews-where-appropriate)
 - [Privacy stuff](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)
 - [Filter syntax extensions](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)
 - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
@@ -21,5 +22,4 @@
 - [About "This other extension reports more stuff blocked!"](/gorhill/uBlock/wiki/About-%22This-other-extension-reports-more-stuff-blocked!%22)
 - [Various videos showing side by side comparison of the load speed of complex sites](/gorhill/uBlock/wiki/Various-videos-showing-side-by-side-comparison-of-the-load-speed-of-complex-sites)
 - [What µBlock can and can not (currently) do](/gorhill/uBlock/wiki/What-%C2%B5Block-can-and-can-not-(currently)-do)
-- [My answer to web store reviews where appropriate](/gorhill/uBlock/wiki/My-answer-to-web-store-reviews-where-appropriate)
 - [Why don't you accept donations?](/gorhill/uBlock/wiki/Why-don't-you-accept-donations%3F)
