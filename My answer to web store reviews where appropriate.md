@@ -7,7 +7,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 > Fast but overly zealous blocker. Blocks much more than ads, like Google Analytics, Google and Facebook-based single sign-ons, etc.
 > I just want an ad blocker. [2-star rating]
 
-Then just un-select all lists except _EasyList_ from the [_"3rd-party filters"_ in the dashboard](chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm/dashboard.html). This way you will end up with an ad blocker which is even leaner and faster.
+Then just un-select all lists except _EasyList_ from the _"3rd-party filters"_ in the dashboard. This way you will end up with an ad blocker which is even leaner and faster.
 
 ***
 
