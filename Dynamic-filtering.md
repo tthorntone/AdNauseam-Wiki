@@ -2,7 +2,7 @@ Dynamic filtering, introduced in version 0.7.0.0, allows a user to filter dynami
 
 This feature is not suited for users who like an install-and-forget blocker. Thus it is tucked away by default, and all dynamic filters are turned off by default.
 
-**DO NOT USE IF YOU DO NOT UNDERSTAND HOW IT WORKS.**
+**DO NOT USE IF YOU DO NOT UNDERSTAND HOW IT WORKS AND WHAT IT DOES.**
 
 Dynamic filtering is targeted toward users who wish to have that additional bit of control about where their browser is allowed to connect and what it is allowed to execute, see it as a _extremely_ simplified (yet useful) _NoScript_ or _HTTP Switchboard_.
 
