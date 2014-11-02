@@ -2,6 +2,18 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### Joshua Nicholson (Chrome store, 2 November 2014)
+
+> Please remove the default setting of blocking social media, not every techie is anti-social. [4-star rating]
+
+I see this from a different angle.
+
+_"Fanboy's Social Block List"_ is included in order to reduce privacy-exposure. Using that one filter list has nothing to do with being "anti-social", it's useful purpose from µBlock's perspective is of being a privacy-enhancing filter list.
+
+In any case, it's easy to un-select it.
+
+***
+
 #### Etienne Levesque Guitard (Chrome store, 20 October 2014)
 
 > Fast but overly zealous blocker. Blocks much more than ads, like Google Analytics, Google and Facebook-based single sign-ons, etc.
