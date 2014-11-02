@@ -8,7 +8,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 I see this from a different angle.
 
-_"Fanboy's Social Block List"_ is included in order to reduce privacy-exposure. Using that one filter list has nothing to do with being "anti-social", it's useful purpose from µBlock's perspective is of being a privacy-enhancing filter list.
+_"Fanboy's Social Block List"_ is included in order to reduce privacy-exposure. Using that one filter list has nothing to do with being "anti-social", its useful purpose from µBlock's perspective is of being a privacy-enhancing filter list.
 
 In any case, it's easy to un-select it.
 
