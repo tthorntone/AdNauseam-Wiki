@@ -9,3 +9,7 @@ Doing more with less is a virtue in software. For users of µBlock, this means:
 - Free to use more extensions
 
 Memory and CPU cycles are finite resources. A sure way for a developer to **not** be hired when being interviewed is to dismiss efficiency work because "memory is plentiful" or "CPU nowadays are fast enough".
+
+Not convinced yet? Ok, just try this web page: http://watchseries.ag/#. With Adblock Plus + _EasyList_. Refresh many times. Notice the result. Then try with µBlock. Refresh many times.
+
+Do you see a difference?
