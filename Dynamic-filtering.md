@@ -1,4 +1,4 @@
-Dynamic filtering, introduced in version 0.7.0.0, allows a user to filter dynamically certain classes of requests. Currently, `script` and `iframe` objects can be dynamically filtered, i.e. filtered on or off without having to create a custom filter.
+Dynamic filtering, introduced in version 0.7.0.0, allows a user to filter dynamically certain classes of requests on a 1st- and 3rd-party basis. Currently, `script` and `iframe` objects can be dynamically filtered, i.e. filtered on or off without having to create a custom filter.
 
 This feature is not suited for users who like an install-and-forget blocker. Thus it is tucked away by default, and all dynamic filters are turned off by default.
 
