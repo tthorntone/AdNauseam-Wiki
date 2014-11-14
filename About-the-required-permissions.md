@@ -26,7 +26,7 @@ See code:
 
 - To be able to save your filters locally (in the _"Your filters"_ tab in the dashboard)
 - To be able to save your whitelist sites locally (in the _"Whitelist"_ tab in the dashboard)
-- To be able to back up all your data (from the _"About"_ tab, just like in HTTP Switchboard)
+- To be able to back up all your data (from the _"About"_ tab, just like in [µMatrix](https://github.com/gorhill/uMatrix))
 
 See code:
 - <https://github.com/gorhill/uBlock/search?q=%22chrome.downloads%22&type=Code>
