@@ -4,7 +4,7 @@ This feature is not suited for users who like an install-and-forget blocker. Thu
 
 **DO NOT USE IF YOU DO NOT UNDERSTAND HOW IT WORKS AND WHAT IT DOES.**
 
-Dynamic filtering is targeted toward users who wish to have that additional bit of control about where their browser is allowed to connect and what it is allowed to execute, see it as a _extremely_ simplified (yet useful) _NoScript_ or _µMatrix_.
+Dynamic filtering is targeted toward users who wish to have that additional bit of control about where their browser is allowed to connect and what it is allowed to execute, see it as a _extremely_ simplified (yet useful) _NoScript_ or [_µMatrix_](https://github.com/gorhill/uMatrix).
 
 Dynamic filtering is a useful feature security-wise. For example, blocking 3rd-party `<iframe>` by default would have protected users in the case of the [jQuery.com malware attack](http://www.riskiq.com/resources/blog/jquerycom-malware-attack-puts-privileged-enterprise-it-accounts-risk). Disabling inline javascript is also often useful to work around anti-blockers on some sites. Using dynamic filtering can help speed up _significantly_ how fast web pages load.
 
