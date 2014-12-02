@@ -1,5 +1,6 @@
 - [Change log](https://github.com/gorhill/uBlock/releases) ([old one](https://github.com/gorhill/uBlock/wiki/Change-log))
 - [About the required permissions](https://github.com/gorhill/uBlock/wiki/About-the-required-permissions)
+- [About that [href^="http: www.faceporn.net free?"] CSS selector...](https://github.com/gorhill/uBlock/wiki/About-that-%5Bhref%5E=%22http:--www.faceporn.net-free%3F%22%5D-CSS-selector...)
 - [How to whitelist a web site](/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
 - Install from [Chrome store](https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](/gorhill/uBlock/tree/master/dist#install).
     - [My answer to web store reviews where appropriate](/gorhill/uBlock/wiki/My-answer-to-web-store-reviews-where-appropriate)
