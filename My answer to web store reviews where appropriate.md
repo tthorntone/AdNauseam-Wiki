@@ -85,7 +85,7 @@ See [issue #161](https://github.com/gorhill/uBlock/issues/161). The following fi
 
     ##a[href^="http://www.faceporn.net/free?"]
 
-The purpose of this filter is to remove links to `www.faceporn.net` from a web page.
+The purpose of this filter is to **remove** links to `www.faceporn.net` from a web page.
 
 High generic filters are the most challenging to implement performance-wise. µBlock internally classifies high generic filters into three sub-categories, _high-low_, _high-medium_ and _high-high_ generic. The filter above is classified internally by µBlock as a _high-medium_ generic filter.
 
