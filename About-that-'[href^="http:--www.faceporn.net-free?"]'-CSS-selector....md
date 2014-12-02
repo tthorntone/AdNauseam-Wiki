@@ -1,1 +1,1 @@
-Github non-issue #161: [Style injection?](https://github.com/gorhill/uBlock/issues/161)
+Github non-issue #161: [_"Style injection?"_](https://github.com/gorhill/uBlock/issues/161)
