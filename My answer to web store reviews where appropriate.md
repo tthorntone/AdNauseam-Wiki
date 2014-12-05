@@ -2,6 +2,20 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### Robert Utner (Chrome store, 4 December 2014)
+
+> Seiten laden schneller als mit ABP, aber unzuverlässiger und Chrome frisst mehr CPU im leerlauf. [2-star rating]
+
+Google Translate:
+
+> Pages load faster than with ABP, but unreliable and Chrome eats more CPU idle in.
+
+"Unreliable" in what sense? No details. µBlock enforces the filters used by ABP.
+
+µBlock doesn't consume more CPU cycle than ABP on idle. The reviewer should post **real** benchmark data along with methodology, as rigorous as the ones I have been constantly running to develop µBlock. The reviewer's unsubstantiated comment goes counter to the benchmark I've been running.
+
+***
+
 #### Joshua Nicholson (Chrome store, 2 November 2014)
 
 > Please remove the default setting of blocking social media, not every techie is anti-social. [4-star rating]
