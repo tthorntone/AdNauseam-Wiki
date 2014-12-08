@@ -17,6 +17,8 @@ Regular expression-based filters are not supported. At time of writing I see thr
 
 Filters with the `$elemhide` option are ignored. At time of writing, I see 50 such filters in _EasyList_. The purpose of these filters is to disable cosmetic filters on specific sites.
 
+The `$document` filter option is not supported, see [issue #405](https://github.com/gorhill/uBlock/issues/405).
+
 #### "ABP has all the features µBlock has!"
 
 No. µBlock currently offers you more:
