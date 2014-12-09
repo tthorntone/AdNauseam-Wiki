@@ -2,6 +2,16 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### Philip Jordan (Chrome store, 9 December 2014)
+
+> This extension is overkill, it seems to do more harm than good. It is over zealous for what is should do. Had to remove it as it was causing more harm than good to my surfing experience. Going back to ABP or just may remove them all together. [2-star rating]
+
+µBlock parses and enforces the same filter syntax as Adblock Plus. So just un-select whatever filter lists which you think is not needed. You can keep only _EasyList_ if you wish (i.e. Adblock Plus' default), this way µBlock will use even less CPU and memory resource.
+
+Some users prefer blocking more than µBlock's default selection of filter lists, some users prefer blocking less than µBlock's default selection of filter lists. _The only thing left to do for these users is to select/un-select whatever filter lists they want._
+
+***
+
 #### Robert Utner (Chrome store, 4 December 2014)
 
 > Seiten laden schneller als mit ABP, aber unzuverlässiger und Chrome frisst mehr CPU im leerlauf. [2-star rating]
