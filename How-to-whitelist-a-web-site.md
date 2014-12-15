@@ -12,9 +12,11 @@ As of version 0.8.2.0, the whitelist directive syntax is split into two classes:
 - Plain
 - Complex
 
-Plain syntax is when using only hostname label(s), which means only the hostname portion of a URL will be taken into account.
+Plain syntax is when using only hostname label(s), which means only the hostname portion of a URL will be taken into account. With plain syntax, the matching is performed by comparing the right-most portion of the page hostname with the whitelist directive. Wildcards are not allowed when using plain syntax.
 
 Complex syntax occurs if and only if at least one `/` appears in a whitelist directive. Optionally, wildcard `*` can be used with complex directives for more flexibility.
+
+If no `/` appears in a whitelist directive, and if the directive contains characters which are not allowed for plain hostname, then the whitelist directive will be commented out and ignored by µBlock.
 
 #### Plain hostname
 
