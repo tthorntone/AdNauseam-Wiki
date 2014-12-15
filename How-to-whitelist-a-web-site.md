@@ -19,7 +19,7 @@ Complex syntax occurs if and only if at least one `/` appears in a whitelist dir
 
 A comment is a line prefixed with `#`. Comments are ignored by µBlock.
 
-If no `/` appears in a whitelist directive, and if the directive contains characters which are not allowed for plain hostname, then the whitelist directive will be commented out and ignored by µBlock.
+If no `/` appears in a whitelist directive, and if the directive contains characters which are not allowed for plain hostname, then the whitelist directive will be commented out and ignored by µBlock. This allowes you to fix your directive.
 
 #### Plain hostname
 
