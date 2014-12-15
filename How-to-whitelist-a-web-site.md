@@ -38,6 +38,6 @@ If no `/` appears in a whitelist directive, and if the directive contains charac
 #### Specific pattern
 
 - `*reddit.com/r/privacy/*`
-- `*youtube.com/*&user=jacksfilms` (assuming you are using [the user script posted here](https://greasyfork.org/en/scripts/4168-youtube-whitelist-channels-in-adblock-plus)).
+- `*youtube.com/*&user=jacksfilms*` (assuming you are using [the user script posted here](https://greasyfork.org/en/scripts/4168-youtube-whitelist-channels-in-adblock-plus)).
 
 Wildcards can be used at any position.
