@@ -4,8 +4,23 @@ The feature is already available, it is the big power button: it serves to white
 
 ![µBlock's popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
 
-### Tips
+### Detailed syntax
 
-If you press the `Ctrl` key as you click the power button, this will whitelist only the current web page, not the whole site (true since [version 0.3.2.0](https://github.com/gorhill/uBlock/releases/tag/0.3.2.0))
+As of version 0.8.2.0, the whitelisting syntax is as follow:
 
-Also, you can whitelist a section of a web site. This can currently only be done by editing manually your whitelist. If you add an asterisk `*` at the end of a URL, all the pages which **starts** exactly with that URL will be whitelisted.
+#### Plain hostname
+
+- `example.com`: whitelist all pages from `example.com` or above (i.e. `www.example.com`).
+- `www.example.org`: whitelist all pages from `www.example.org` or above (i.e. `forums.www.example.org`).
+- `org`: whitelist all pages from TLD `org` (i.e. `example.org`).
+
+#### Single web page
+
+- `http://www.twitch.tv/letofski`: whitelist only this one page, i.e. when the URL in the address bar **matches exactly** `http://www.twitch.tv/letofski`.
+
+#### Section of a web site
+
+ - `http://www.twitch.tv/letofski*`: whitelist this one page, and everything underneath, i.e. when the URL in the address bar **starts exactly** `http://www.twitch.tv/letofski`.
+
+#### Specific pattern
+
