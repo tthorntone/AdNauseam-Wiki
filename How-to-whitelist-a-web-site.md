@@ -44,4 +44,4 @@ Wildcards can be used at any position.
 
 ### Other details
 
-If you click the whitelist button in µBlock's popup while a whitelist directive you handcrafted is in effect, your handcrafted whitelist directive will simply be commented out, so that you can bring it back to life if ever you un-whitelisted by mistake.
+If you re-enable µBlock by clicking the whitelist button in the popup while a whitelist directive you handcrafted is in effect, your handcrafted whitelist directive will simply be commented out. This way you can bring it back to life if ever you un-whitelisted by mistake.
