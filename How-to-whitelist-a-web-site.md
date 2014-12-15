@@ -40,7 +40,7 @@ If no `/` appears in a whitelist directive, and if the directive contains charac
 - `*reddit.com/r/privacy/*`
 - `*youtube.com/*&user=jacksfilms*` (assuming you are using [the user script posted here](https://greasyfork.org/en/scripts/4168-youtube-whitelist-channels-in-adblock-plus)).
 
-Wildcards can be used at any position.
+Wildcards can be used at any position. However, when a wildcard is used within the hostname portion of a directive, it cannot be at the end of the hostname, and also must be at the boundary of a hostname label.
 
 ### Other details
 
