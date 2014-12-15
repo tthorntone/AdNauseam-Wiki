@@ -18,9 +18,9 @@ Complex syntax occurs if and only if at least one `/` appears in a whitelist dir
 
 #### Plain hostname
 
-- `example.com`: whitelist all pages from `example.com` or above (i.e. `www.example.com`).
-- `www.example.org`: whitelist all pages from `www.example.org` or above (i.e. `forums.www.example.org`).
-- `org`: whitelist all pages from TLD `org` (i.e. `example.org`).
+- `example.com`: whitelist all pages from `example.com` or above (i.e. `example.com`, `www.example.com`).
+- `www.example.org`: whitelist all pages from `www.example.org` or above (i.e. `www.example.org`, `forums.www.example.org`, but not `example.org`).
+- `org`: whitelist all pages from TLD `org` (i.e. `example.org`, `wikipedia.org`).
 
 #### Single web page
 
