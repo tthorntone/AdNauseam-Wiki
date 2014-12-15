@@ -6,7 +6,15 @@ The feature is already available, it is the big power button: it serves to white
 
 ### Detailed syntax
 
-As of version 0.8.2.0, the whitelisting syntax is as follow:
+All whitelist directives are matched against the URL address of web pages.
+
+As of version 0.8.2.0, the whitelist directive syntax is split into two classes:
+- Plain
+- Complex
+
+Plain syntax is when using only hostname label(s), which means only the hostname portion of a URL will be taken into account.
+
+Complex syntax occurs if and only if at least one `/` appears in a whitelist directive. Optionally, wildcard `*` can be used with complex directives for more flexibility.
 
 #### Plain hostname
 
