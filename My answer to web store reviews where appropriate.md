@@ -2,6 +2,18 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### [Brian Flores](https://plus.google.com/+BrianFloresGoesTo11) (Chrome store, 15 December 2014)
+
+> Not as lightweight as claimed. Absolutely jams on certain sites, the block counter spiralling and the browser window virtually locked up. Needlessly blocks icons. [2-star rating]
+
+Yes it is as lightweight as claimed. I run detailed benchmarks. You counter with no data + methodology.
+
+Making such claim as "absolutely jams on certain sites" without caring one bit about substantiating this claim by providing a specific URL with which the issue you report could be investigated is highly dubious.
+
+Given the hundreds of hour of work put into this [libre software](http://en.wikipedia.org/wiki/Free_software) by me and contributors, certainly you could have taken the _few seconds_ necessary to post an actual test case (i.e. a URL) to substantiate your issue, which appears rather specific to you (nothing like this was ever reported before).
+
+And regarding "needlessly blocks icons": µBlock blocks according to the selected third-party filter lists. If you think it blocks too much, disable whatever filter lists you want.
+
 #### Philip Jordan (Chrome store, 9 December 2014)
 
 > This extension is overkill, it seems to do more harm than good. It is over zealous for what is should do. Had to remove it as it was causing more harm than good to my surfing experience. Going back to ABP or just may remove them all together. [2-star rating]
