@@ -41,3 +41,7 @@ If no `/` appears in a whitelist directive, and if the directive contains charac
 - `*youtube.com/*&user=jacksfilms*` (assuming you are using [the user script posted here](https://greasyfork.org/en/scripts/4168-youtube-whitelist-channels-in-adblock-plus)).
 
 Wildcards can be used at any position.
+
+### Other details
+
+If you click the whitelist button in µBlock's popup while a whitelist directive you handcrafted is in effect, your handcrafted whitelist directive will simply be commented out, so that you can bring it back to life if ever you un-whitelisted by mistake.
