@@ -14,7 +14,7 @@ Given the hundreds of hour of work put into this [libre software](http://en.wiki
 
 And regarding "needlessly blocks icons": µBlock blocks according to the selected third-party filter lists. If you think it blocks too much, disable whatever filter lists you want.
 
-#### Philip Jordan (Chrome store, 9 December 2014)
+#### [Philip Jordan](https://plus.google.com/110005867636099468435) (Chrome store, 9 December 2014)
 
 > This extension is overkill, it seems to do more harm than good. It is over zealous for what is should do. Had to remove it as it was causing more harm than good to my surfing experience. Going back to ABP or just may remove them all together. [2-star rating]
 
