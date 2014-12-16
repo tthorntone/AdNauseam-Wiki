@@ -33,7 +33,7 @@ If no `/` appears in a whitelist directive, and if the directive contains charac
 
 #### Section of a web site
 
- - `http://www.twitch.tv/letofski*`: whitelist this one page, and everything underneath, i.e. when the URL in the address bar **starts exactly** `http://www.twitch.tv/letofski`.
+ - `http://www.twitch.tv/letofski*`: whitelist this one page, and everything underneath, i.e. when the URL in the address bar **starts exactly** with `http://www.twitch.tv/letofski`.
 
 #### Specific pattern
 
