@@ -16,7 +16,7 @@
 - [µBlock vs. ABP: efficiency compared](/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
     - [Own memory usage: benchmarks over time](https://github.com/gorhill/uBlock/wiki/Own-memory-usage:-benchmarks-over-time)
     - [Contributed memory usage: benchmarks over time](https://github.com/gorhill/uBlock/wiki/Contributed-memory-usage:-benchmarks-over-time)
-- [Who care about efficiency, I have 8 GB and/or a quad-core CPU](https://github.com/gorhill/uBlock/wiki/Who-care-about-efficiency,-I-have-8-GB-and%7Cor-a-quad-core-CPU)
+- [Who care about efficiency, I have 8 GB and/or a quad-core CPU](https://github.com/gorhill/uBlock/wiki/Who-cares-about-efficiency,-I-have-8-GB-and%7Cor-a-quad-core-CPU)
 - [Counterarguments](https://github.com/gorhill/uBlock/wiki/Counterarguments)
 - [Myth: µBlock consumes over 80MB](https://github.com/gorhill/uBlock/wiki/Myth:-%C2%B5Block-consumes-over-80MB)
 - [µBlock and others: Blocking ads, trackers, malwares](/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares)
