@@ -24,5 +24,6 @@ So my point is that µBlock will perform best efficiency wise if you leave it ti
 
 ***
 
+- Notes: the above is especially true for Chromium-based browser. However with the [early preview of the Firefox version](https://github.com/gorhill/uBlock/issues/27#issuecomment-67308172), the memory churning referred to above seems to result in much smaller memory peak usage.
 - Related: ["Notes on memory benchmarks, selfies"](https://github.com/gorhill/uBlock/wiki/Notes-on-memory-benchmarks,-selfies)
 - Beware: ["Popup UI of extensions causes systematic memory leaks"](https://code.google.com/p/chromium/issues/detail?id=441500)
