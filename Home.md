@@ -1,5 +1,6 @@
 - [Change log](https://github.com/gorhill/uBlock/releases) ([old one](https://github.com/gorhill/uBlock/wiki/Change-log))
 - [About the required permissions](https://github.com/gorhill/uBlock/wiki/About-the-required-permissions)
+- [Memory footprint: what happens inside µBlock after installation](https://github.com/gorhill/uBlock/wiki/Memory-footprint:-what-happens-inside-%C2%B5Block-after-installation)
 - [About that CSS selector with "www.faceporn.net" in it...](https://github.com/gorhill/uBlock/wiki/About-that-CSS-selector-with-%22www.faceporn.net%22-in-it...)
 - [How to whitelist a web site](/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
 - Install from [Chrome store](https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](/gorhill/uBlock/tree/master/dist#install).
