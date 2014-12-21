@@ -5,7 +5,7 @@
 1. If an update is needed, µBlock will flush from memory all filters and reload with the latest version
     - This will causes another round of short-term memory churning, which short-term memory will be garbage-collected eventually
     - Again, all this short term memory churning causes µBlock's baseline memory footprint to grow further
-1. After **seven minutes**, assuming no change in selection of filter lists, or change in the content of selected filter lists, µBlock will snap a selfie
+1. After **seven minutes**, assuming no change in selection of filter lists, or change in the content of selected filter lists, µBlock will make a selfie
     - Generating the selfie also causes short-term memory churning, which short-term memory will be garbage-collected eventually
     - Again, this short term memory churning causes µBlock's baseline memory footprint to grow further
     - Any change in the selection of filter lists, or change in the content of selected filter lists will invalidate µBlock's selfie
