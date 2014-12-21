@@ -18,7 +18,7 @@
 
 Now if you have reached the point where there is a valid µBlock selfie, this is when µBlock will run the most efficiently.
 
-The next time you launch µBlock and there is a valid selfie, the load time will be a fraction of the load time when no selfie is available, and µBlock's baseline memory footprint will be noticeably smaller then when µBlock launches without a selfie available.
+The next time you launch µBlock and there is a valid selfie, the load time will be a fraction of the load time when no selfie is available, and µBlock's baseline memory footprint will be smaller then when µBlock launches without a selfie available.
 
 So my point is that µBlock will perform best efficiency wise if you leave it time to optimize itself after installation: In subsequent launches, µBlock will perform noticeable more efficiently than what you may have observed right after you installed it.
 
