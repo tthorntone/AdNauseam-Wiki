@@ -13,7 +13,7 @@
 1. Even after the growth in memory baseline, µBlock's own memory footprint is still quite smaller than that of Adblock Plus -- once the garbage collector does its job.
 1. µBlock's much smaller contributed memory footprint to web pages is much smaller than that of ABP
     - The contributed footprint to web pages is part of the memory footprint of the web pages themselves 
-    - As opposed to µBlock's own memory footprint, visible using Chromium's _"Task Manager"_, the contributed memory footprint to web pages cannot be easily seen by users
+    - As opposed to an extension's own memory footprint, visible using Chromium's _"Task Manager"_, the contributed memory footprint to web pages cannot be easily seen by users
     - Though this measure is not readily visible, it's where you get the biggest bang for the buck with µBlock relative to ABP -- because µBlock **does not** inject thousands of CSS rules into pages and embedded frames.
 
 Now if you have reach the point where there is a valid µBlock selfie, this is when µBlock will run the most efficiently.
