@@ -16,7 +16,7 @@
     - As opposed to an extension's own memory footprint, visible using Chromium's _"Task Manager"_, the contributed memory footprint to web pages cannot be easily seen by users
     - Though this measure is not readily visible, it's where you get the biggest bang for the buck with µBlock relative to ABP -- because µBlock **does not** inject thousands of CSS rules into pages and embedded frames.
 
-Now if you have reach the point where there is a valid µBlock selfie, this is when µBlock will run the most efficiently.
+Now if you have reached the point where there is a valid µBlock selfie, this is when µBlock will run the most efficiently.
 
 The next time you launch µBlock and there is a valid selfie, the load time will be a fraction of the load time when no selfie is available, and µBlock's baseline memory footprint will be noticeably smaller then when µBlock launches without a selfie available.
 
