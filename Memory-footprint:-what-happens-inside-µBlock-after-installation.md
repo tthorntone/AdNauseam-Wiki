@@ -24,5 +24,5 @@ So my point is that µBlock will perform best efficiency wise if you leave it ti
 
 ***
 
-Related: ["Notes on memory benchmarks, selfies"](https://github.com/gorhill/uBlock/wiki/Notes-on-memory-benchmarks,-selfies)
-Be aware: ["Popup UI of extensions causes systematic memory leaks"](https://code.google.com/p/chromium/issues/detail?id=441500)
+- Related: ["Notes on memory benchmarks, selfies"](https://github.com/gorhill/uBlock/wiki/Notes-on-memory-benchmarks,-selfies)
+- Beware: ["Popup UI of extensions causes systematic memory leaks"](https://code.google.com/p/chromium/issues/detail?id=441500)
