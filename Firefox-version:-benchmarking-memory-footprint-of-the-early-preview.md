@@ -51,6 +51,8 @@ Tested on Firefox 34 64-bit and Chromium 39 64-bit on Linux Mint. No other exten
 
 I chose the _"Explicit Allocations"_  figure because as per Firefox, it is "the single best number to focus on" with regard to memory usage.
 
+You can't compare directly the figures between the browsers, the benchmark is more to compare the figures for various blockers within the same browser.
+
 Without going into details, hardware is i5 quadcore + 8 GB
 
 If other users feel like repeating the tests, it would be nice just to confirm I got everything right.
