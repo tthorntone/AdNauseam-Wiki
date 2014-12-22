@@ -45,13 +45,13 @@ So I did the **exact** above steps for no blocker, ABP, uBlock.
     - **Adblock Plus** 1.8.8: **1,509.05 MB** (reference _plus_ 339.7 MB)
     - **µBlock** 0.8.2.0: **1,042.94 MB** (reference _minus_ 126.41 MB, ABP _minus_ 466.11 MB)
 
+You can't compare directly the figures between the browsers -- they are taken using different methodology from one browser to the other. The benchmarks are more to compare the figures for various blockers within the same browser.
+
 #### Notes
 
 Tested on Firefox 34 64-bit and Chromium 39 64-bit on Linux Mint. No other extensions were present.
 
 I chose the _"Explicit Allocations"_  figure because as per Firefox, it is "the single best number to focus on" with regard to memory usage.
-
-You can't compare directly the figures between the browsers, the benchmark is more to compare the figures for various blockers within the same browser.
 
 Without going into details, hardware is i5 quadcore + 8 GB
 
