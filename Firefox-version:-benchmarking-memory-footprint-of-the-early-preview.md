@@ -1,8 +1,17 @@
-Ok so here is a test.
+#### Setup
+
+1. Ensure click-to-play (or whatever equivalent) is enabled before launching the benchmark
+1. Select the following filter lists in the benchmarked blocker:
+    - EasyList
+    - Peter Lowe's Ad server list
+    - EasyPrivacy
+    - Fanboy's Social Blocking List
+    - Malware domain lists
+    - ABP-specifics: _"Acceptable ads"_ disabled
+    - uBlock-specifics: uBlock's filters enabled (+80 filters), extra malware domains (+1,459 filters)
 
 #### Steps
 
-1. Ensure click-to-play (or whatever equivalent) is enabled before launching the benchmark
 1. Have only the "new tab" opened
 1. Quit Firefox
 1. Launch Firefox
@@ -38,16 +47,7 @@ So I did the **exact** above steps for no blocker, ABP, uBlock.
 
 #### Notes
 
-Tested on Firefox 34 64-bit and Chromium 39 64-bit on Linux Mint. No other extensions were present. The filter lists for ABP and uBlock:
-- EasyList
-- Peter Lowe's Ad server list
-- EasyPrivacy
-- Fanboy's Social Blocking List
-- Malware domain lists
-- ABP-specifics: _"Acceptable ads"_ disabled
-- uBlock-specifics: uBlock's filters enabled (+80 filters), extra malware domains (+1,459 filters)
-
-Click-to-play **enabled** or equivalent in both browsers.
+Tested on Firefox 34 64-bit and Chromium 39 64-bit on Linux Mint. No other extensions were present.
 
 I chose the _"Explicit Allocations"_  figure because as per Firefox, it is "the single best number to focus on" with regard to memory usage.
 
