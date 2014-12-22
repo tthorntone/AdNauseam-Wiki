@@ -15,17 +15,17 @@
 1. Have only the "new tab" opened
 1. Quit Firefox
 1. Launch Firefox
-1. Paste `http://news.yahoo.com/` in address bar, wait for page to finish loading, stops video top right
-1. Open new tab, paste `http://news.google.com/`, wait for page to finish loading
-1. Open new tab, paste `http://www.huffingtonpost.com/`, wait for page to finish loading
-1. Open new tab, paste `http://www.cnn.com/`, wait for page to finish loading
-1. Open new tab, paste `http://www.nytimes.com/`, wait for page to finish loading
-1. Open new tab, paste `http://www.foxnews.com/`, wait for page to finish loading
-1. Open new tab, paste `http://www.nbcnews.com/`, wait for page to finish loading
-1. Open new tab, paste `http://www.dailymail.co.uk/`, wait for page to finish loading
-1. Open new tab, paste `http://www.washingtonpost.com/`, wait for page to finish loading
-1. Open new tab, paste `http://www.theguardian.com/`, wait for page to finish loading
-1. Open new tab, paste `https://news.ycombinator.com/`, wait for page to finish loading
+1. Paste <http://news.yahoo.com/> in address bar, wait for page to finish loading, stops video top right
+1. Open new tab, paste <http://news.google.com/>, wait for page to finish loading
+1. Open new tab, paste <http://www.huffingtonpost.com/>, wait for page to finish loading
+1. Open new tab, paste <http://www.cnn.com/>, wait for page to finish loading
+1. Open new tab, paste <http://www.nytimes.com/>, wait for page to finish loading
+1. Open new tab, paste <http://www.foxnews.com/>, wait for page to finish loading
+1. Open new tab, paste <http://www.nbcnews.com/>, wait for page to finish loading
+1. Open new tab, paste <http://www.dailymail.co.uk/>, wait for page to finish loading
+1. Open new tab, paste <http://www.washingtonpost.com/>, wait for page to finish loading
+1. Open new tab, paste <http://www.theguardian.com/>, wait for page to finish loading
+1. Open new tab, paste <https://news.ycombinator.com/>, wait for page to finish loading
 1. Leave the browser idle for two minutes
 1. Open new tab, paste `about:memory`, wait for page to finish loading
 1. Firefox: Click _GC_ button in _"Free memory"_ section
