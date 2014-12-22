@@ -1,6 +1,6 @@
 The element picker's purpose is to assist the user in the creation of network or cosmetic filters.
 
-If there is an element on a web page you wish to remove forever, open the extension's popup menu, and click the small ["eye-slash" icon](http://fontawesome.io/icon/eye-slash/). You will enter the interactive element picker-mode.
+If there is an element on a web page you wish to remove forever, open the extension's popup menu, and click the small ["eye-dropper" icon](http://fontawesome.io/icon/eyedropper/). You will enter the interactive element picker-mode.
 
 ![Element picker](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/ss-element-picker.png)
 
