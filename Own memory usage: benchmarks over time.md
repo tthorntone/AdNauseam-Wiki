@@ -27,7 +27,7 @@ Settings:
 
 Notes:
 
-Users should mind AdGuard's privacy issues when enabling _Malware/phishing protection_.
+- Users should mind AdGuard's privacy issues when enabling _Malware/phishing protection_.
 
 ### 18 September 2014
 
