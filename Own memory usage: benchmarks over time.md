@@ -15,7 +15,7 @@ After benchmark completed:<br>
 ![after](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-20141223-after.png)
 
 Observations during benchmark:
-- ABP/AdBlock/Adguard are CPU intensive. Whereas µBlock consistently show at most low-single digit CPU usage, other blockers are most often displays double-digit CPU usage, and sometimes in the high double-digit range.
+- ABP/AdBlock/Adguard are CPU intensive. Whereas µBlock consistently show at most low-single digit CPU usage, other blockers are most often showing double-digit CPU usage, and sometimes in the high double-digit range.
 
 Settings:
 - **µBlock 0.8.2.2**: _EasyList_, _EasyPrivacy_, _Peter Lowe's_, _Fanboy’s Social Blocking List‎_, all malware lists (3). Launched with a valid selfie (i.e. less memory churning at launch).
