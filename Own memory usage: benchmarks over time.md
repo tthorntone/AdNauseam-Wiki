@@ -22,6 +22,8 @@ Settings:
 - **AdBlock 2.15**: _AdBlock custom filters_, _EasyList_, _EasyPrivacy_, _Peter Lowe's_, _Fanboy’s Social Blocking List‎_, _Malware protection_.
 - **Adblock Plus 1.8.5**: _EasyList_, _EasyPrivacy_, _Peter Lowe's_, _Fanboy’s Social Blocking List‎_, _Malware Domains_. _Acceptable ads_ disabled.
 - **Adguard AdBlocker 1.0.3.8**: _English filters_, _Spyware filter_, _Peter Lowe's_, _Social media filter‎_, _Phishing and malware protection_. _Allow acceptable ads_ disabled.
+- Browser's _Click-to-play_ enabled
+- Browser's _Block third-party cookies and site data_ checked
 
 Notes:
 
