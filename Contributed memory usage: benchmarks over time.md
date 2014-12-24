@@ -32,6 +32,8 @@ No extension (reference):<br>
 Adblock Plus:<br>
 ![Adblock Plus](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-abp.png)
 
+Observations: Take notes that there are many more filter lists active in µBlock than in ABP.
+
 ### 19 September 2014
 
 - Chromium 37.0.2062.94 64-bit (Linux)
