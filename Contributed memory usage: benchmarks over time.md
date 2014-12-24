@@ -20,8 +20,9 @@ I found this was now necessary as it appears Chromium's garbage collector has be
 
 Summary of results:
 - Reference memory usage for the web page: 23 MB
-- Adblock Plus adds over 33 MB
 - µBlock Plus adds over 10 MB
+- Adblock Plus adds over 33 MB
+- Adblock Plus with same filter lists as µBlock adds over 46 MB
 
 No extension (reference):<br>
 ![no extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-none.png)
@@ -32,7 +33,8 @@ No extension (reference):<br>
 Adblock Plus:<br>
 ![Adblock Plus](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-abp.png)
 
-Observations: Take notes that there are many more filter lists active in µBlock than in ABP.
+Adblock Plus with same filter lists as µBlock:<br>
+![Adblock Plus](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-abp-more.png)
 
 ### 19 September 2014
 
