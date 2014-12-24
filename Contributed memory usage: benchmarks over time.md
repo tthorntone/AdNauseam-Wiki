@@ -46,8 +46,8 @@ Adblock Plus with same filter lists as µBlock:<br>
 
 Summary of results:
 - Reference memory usage for the web page: 22 MB
-- Adblock Plus adds over 32 MB
 - µBlock Plus adds over 9 MB
+- Adblock Plus adds over 32 MB
 
 No extension (reference):<br>
 ![no extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-none.png)
