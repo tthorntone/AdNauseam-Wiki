@@ -17,7 +17,7 @@ I found this was now necessary as it appears Chromium's garbage collector has be
 ### 24 December 2014
 
 - Chromium 39.0.2171.65 64-bit (Linux)
-- µBlock v 0.8.2.2 (default lists: _EasyList_, _Peter Lowe’s Ad server_, _EasyPrivacy_, malware domain lists, _Fanboy’s Social Blocking List‎_)
+- µBlock 0.8.2.2 (default lists: _EasyList_, _Peter Lowe’s Ad server_, _EasyPrivacy_, malware domain lists, _Fanboy’s Social Blocking List‎_)
 - Adblock Plus 1.8.8 (_EasyList_, _EasyPrivacy_, _Malware Protection List_, _"Acceptable ads"_ disabled)
 
 Summary of results:
@@ -41,7 +41,7 @@ Adblock Plus with same filter lists as µBlock:<br>
 ### 19 September 2014
 
 - Chromium 37.0.2062.94 64-bit (Linux)
-- µBlock v 0.6.2.1 (default filter lists)
+- µBlock 0.6.2.1 (default filter lists)
 - Adblock Plus 1.8.5 (_EasyList_, _EasyPrivacy_, _Malware Protection List_, _"Acceptable ads"_ disabled)
 
 Summary of results:
