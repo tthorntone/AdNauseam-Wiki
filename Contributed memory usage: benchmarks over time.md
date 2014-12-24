@@ -1,4 +1,36 @@
-Just a place for me to keep track of contributed memory to web pages over time. Using [Acid Test 3](http://acid3.acidtests.org/), a very simple web page, with embedded `iframes`. Web page was opened in a new tab for each extension (important). Each extension tested alone, with no other extension enabled.  Browser left on idle for more than 1 minute to ensure web page memory was garbage collected.
+Just a place for me to keep track of contributed memory to web pages over time. Using [Acid Test 3](http://acid3.acidtests.org/), a very simple web page, with embedded `iframes`. Web page was opened in a new tab for each extension (important).
+
+Each extension tested alone, with no other extension enabled.  Browser left on idle for more than 1 minute to ensure web page memory was garbage collected.
+
+The following steps were added for benchmarks dated December 2014 and later:
+
+1. Click _"Stats for nerds"_ in _"Task Manager"_: _"About memory"_ opens
+1. Wait a few seconds
+1. Close the _"About memory"_ tab
+1. Wait a few seconds
+1. Repeat all above steps until the memory footprint of the Acid Test tab stops decreasing
+
+I found this was now necessary as it appears Chromium's garbage collector has become rather lazy. The above steps forces it into action.
+
+### 24 December 2014
+
+- Chromium 39.0.2171.65 64-bit (Linux)
+- µBlock v 0.8.2.2 (default lists: _EasyList_, _Peter Lowe’s Ad server_, _EasyPrivacy_, malware domain lists, _Fanboy’s Social Blocking List‎_)
+- Adblock Plus 1.8.8 (_EasyList_, _EasyPrivacy_, _Malware Protection List_, _"Acceptable ads"_ disabled)
+
+Summary of results:
+- Reference memory usage for the web page: 23 MB
+- Adblock Plus adds over 33 MB
+- µBlock Plus adds over 10 MB
+
+No extension (reference):<br>
+![no extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-none.png)
+
+µBlock:<br>
+![µBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-ublock.png)
+
+Adblock Plus:<br>
+![Adblock Plus](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-abp.png)
 
 ### 19 September 2014
 
