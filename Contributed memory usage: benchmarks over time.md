@@ -22,7 +22,7 @@ I found this was now necessary as it appears Chromium's garbage collector has be
 
 Summary of results:
 - Reference memory usage for the web page: 23 MB
-- µBlock Plus adds over 10 MB
+- µBlock adds over 10 MB
 - Adblock Plus adds over 33 MB
 - Adblock Plus with same filter lists as µBlock adds over 46 MB
 
