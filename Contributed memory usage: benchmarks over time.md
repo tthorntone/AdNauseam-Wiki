@@ -25,13 +25,13 @@ Summary of results:
 - Adblock Plus with same filter lists as µBlock adds over 46 MB
 
 No extension (reference):<br>
-![no extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-none.png)
+![no extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20141224-none.png)
 
 µBlock:<br>
-![µBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-ublock.png)
+![µBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20141224-ublock.png)
 
 Adblock Plus:<br>
-![Adblock Plus](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-abp.png)
+![Adblock Plus](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20141224-abp.png)
 
 Adblock Plus with same filter lists as µBlock:<br>
 ![Adblock Plus](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20141224-abp-more.png)
