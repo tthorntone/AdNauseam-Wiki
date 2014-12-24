@@ -1,4 +1,6 @@
-Just a place for me to keep track of contributed memory to web pages over time. Using [Acid Test 3](http://acid3.acidtests.org/), a very simple web page, with embedded `iframes`. Web page was opened in a new tab for each extension (important).
+Just a place for me to keep track of contributed memory to web pages over time.  I consider the contributed memory to web pages to be more important than the own memory footprint. Unfortunately it is not possible for a user to see how much overhead an extension contributes to a web page, without running a benchmark like the one here.
+
+Using [Acid Test 3](http://acid3.acidtests.org/), a rather simple web page, with embedded `iframes`. Web page was opened in a new tab for each extension (important), after a browser restart.
 
 Each extension tested alone, with no other extension enabled.  Browser left on idle for more than 1 minute to ensure web page memory was garbage collected.
 
