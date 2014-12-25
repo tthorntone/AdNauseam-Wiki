@@ -38,7 +38,7 @@ Below are the average time it takes for each extension to handle a net request i
     ABP > onBeforeRequest: 0.283 ms (21472 samples)
 
 ##### µBlock
-<sup>[Note: The overhead was [further minimized](https://github.com/gorhill/uBlock/issues/238) with later version of µBlock]</sup>
+<sup>[Note: The overhead was [further minimized](https://github.com/gorhill/uBlock/issues/238) with subsequent versions of µBlock]</sup>
 
     µBlock > onBeforeRequest: 0.173 ms (18913 samples)
     µBlock > onBeforeRequest: 0.172 ms (19177 samples)
