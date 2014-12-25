@@ -1,7 +1,7 @@
 #### Setup
 
 1. Ensure click-to-play (or whatever equivalent) is enabled before launching the benchmark
-1. Select the following filter lists in the benchmarked blocker:
+1. Select the following filter lists in the benchmarked blockers:
     - EasyList
     - Peter Lowe's Ad server list
     - EasyPrivacy
