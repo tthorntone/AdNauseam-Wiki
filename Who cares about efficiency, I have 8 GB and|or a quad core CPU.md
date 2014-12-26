@@ -11,6 +11,6 @@ Doing more with less is a virtue in software. For users of µBlock, this means:
 
 Memory and CPU cycles are finite resources. A sure way for a developer to **not** be hired when being interviewed is to dismiss efficiency work because "memory is plentiful" or "CPU nowadays are fast enough".
 
-Not convinced yet? Ok, just try this not very complicated web page: http://watchseries.ag/#.
+Not convinced yet? Ok, just try [this online tool](http://www.numion.com/StopWatch/index.html) to compare how fast web pages load when using one blocker compared to another.
 
 First with Adblock Plus. Refresh many times. Notice the result. Then try with µBlock. Refresh many times. **Do you see the difference?**
