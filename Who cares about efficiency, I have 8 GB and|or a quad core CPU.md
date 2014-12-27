@@ -13,4 +13,10 @@ Memory and CPU cycles are finite resources. A sure way for a developer to **not*
 
 Not convinced yet? Try [this online tool](http://www.numion.com/StopWatch/index.html) to compare how fast web pages load when using one blocker compared to another.
 
-First with Adblock Plus. Refresh many times. Notice the result. Then try with µBlock. Refresh many times. **Do you see the difference?**
+If you have a multi-core CPU, and hence plenty of spare CPU cycles, granted, there may not be such a noticeable difference in page load, but other popular blockers will definitely make use of plenty of whatever spare CPU cycles available (see below) to perform the same job as µBlock.
+
+CPU overhead<br>
+![CPU overhead](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/cpu-usage-overall-chart-20141226.png)
+
+Memory overhead<br>
+![Memory overhead](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-20141224.png)
