@@ -15,7 +15,7 @@
 1. Have only the "new tab" opened
 1. Quit Firefox
 1. Launch Firefox
-1. Paste <http://news.yahoo.com/> in address bar, wait for page to finish loading, stops video top right
+1. Paste <http://news.yahoo.com/> in address bar, wait for page to finish loading
 1. Open new tab, paste <http://news.google.com/>, wait for page to finish loading
 1. Open new tab, paste <http://www.huffingtonpost.com/>, wait for page to finish loading
 1. Open new tab, paste <http://www.cnn.com/>, wait for page to finish loading
