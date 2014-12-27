@@ -18,5 +18,5 @@ If you have a multi-core CPU, and hence plenty of spare CPU cycles, granted, the
 CPU overhead<br>
 ![CPU overhead](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/cpu-usage-overall-chart-20141226.png)
 
-Memory overhead<br>
+Memory footprint<br>
 ![Memory overhead](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-overall-chart-20141224.png)
