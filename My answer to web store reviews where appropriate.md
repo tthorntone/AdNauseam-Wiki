@@ -79,8 +79,8 @@ I have no idea what the topic is (the translation by Google Translate is of no h
 
 My answer: No, I am not lying. If I could understand the issue, I am sure I could provide a better answer to counter the unsubstantiated accusation.
 
-(translation for the Russian)
-"The program is lying! I even checked it. It will always show 2-3 extra blocked ads compared to Adblock because it is how it's built, as if saying 'look, it is better, see for yourself!' In the main menu of Google Chrome! I will continue to use Adblock - it cannot be replaced!!!!"
+(translation from Russian)
+> "The program is lying! I even checked it. It will always show 2-3 extra blocked ads compared to Adblock because it is how it's built, as if saying 'look, it is better, see for yourself!' In the main menu of Google Chrome! I will continue to use Adblock - it cannot be replaced!!!!"
 
 ***
 
