@@ -79,8 +79,11 @@ I have no idea what the topic is (the translation by Google Translate is of no h
 
 My answer: No, I am not lying. If I could understand the issue, I am sure I could provide a better answer to counter the unsubstantiated accusation.
 
-(translation from Russian)
+[Translation from Russian by a contributor (thanks):]
+
 > "The program is lying! I even checked it. It will always show 2-3 extra blocked ads compared to Adblock because it is how it's built, as if saying 'look, it is better, see for yourself!' In the main menu of Google Chrome! I will continue to use Adblock - it cannot be replaced!!!!"
+
+With the same filter lists, µBlock and ABP will block the same amount of network requests. However µBlock comes with more filter lists selected out of the box, so as a result it will block more than ABP with default settings. µBlock has definitely more useful blocking potential than ABP: µBlock support hosts files, dynamic filtering, and also local mirroring helps prevent remote connections to various CDNs.
 
 ***
 
