@@ -14,4 +14,4 @@ Another example: `wired.com * image block`, which means "block all images when v
 
 ### Hostname-based rules
 
-Hostname-based rules are used to filter network resources according the their origin, i.e. where they come from. Hostname-based rules have a higher specificity than type-based rules, and thus hostname-based rules always override type-based rules whenever a network request end up matching both a type- and a hostname-based rule.
+Hostname-based rules are used to filter network resources according the their origin, i.e. according to which remote server a resource is pulled. Hostname-based rules have a higher specificity than type-based rules, and thus hostname-based rules always override type-based rules whenever a network request end up matching both a type- and a hostname-based rule.
