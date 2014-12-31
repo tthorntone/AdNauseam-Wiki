@@ -30,4 +30,4 @@ With hostname-based rule, the type is always `*`, meaning the rule will apply to
 
 For example, `* linkedin.com * block` means "globally block all net requests to `linkedin.com`".
 
-Just like type-based rules, a hostname-based rule can apply only when visiting a specific web site, for example: `linkedin.com linkedin.com * allow`, which means "allow net requests to `linkedin.com` when visiting a web page on `linkedin.com`. Since this last rule is more specific than the previous one, it will override the global blocking of `linkedin.com` everywhere.
+Just like type-based rules, a hostname-based rule can apply only when visiting a specific web site, for example: `linkedin.com linkedin.com * allow`, which means "allow net requests to `linkedin.com` when visiting a web page on `linkedin.com`. Since this last rule is more specific than the previous one, it will override the global blocking of `linkedin.com` everywhere. [Changing my mind... 1st-party requests should never be evaluated against hostname-based rules]
