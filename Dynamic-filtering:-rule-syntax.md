@@ -25,3 +25,9 @@ Note that with type-based rules, the destination hostname is **always** `*`, mea
 ### Hostname-based rules
 
 Hostname-based rules are used to filter network resources according the their origin, i.e. according to which remote server a resource is pulled. Hostname-based rules have a higher specificity than type-based rules, and thus hostname-based rules always override type-based rules whenever a network request end up matching both a type- and a hostname-based rule.
+
+With hostname-based rule, the type is always `*`, meaning the rule will apply to any type of request.
+
+For example, `* linkedin.com * block` means "globally block all net requests to an `linkedin.com` server".
+
+Just like type-based rules, a hostname-based rule can apply only when visiting a specific web site, for example: `linkedin.com linkedin.com * allow`, which means "allow net requests to `linkedin.com` when visiting a web page on `linkedin.com`. Since this last rule is more specific than the previous one, it will override the global blocking of `linkedin.com` everywhere.
