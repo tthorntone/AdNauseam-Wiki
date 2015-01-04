@@ -38,6 +38,7 @@ A matching rule can do one of three things:
 
 - `block`: matching net request will be blocked.
     - `block` dynamic filter rules override any existing [static exception filters](https://adblockplus.org/en/filters#whitelist).
+    - Thus you can use them to block with 100% certainty (unless you set another overriding dynamic filter rule).
 - `allow`: matching net request will be allowed.
     - `allow` dynamic filters rules override any existing static and dynamic block filters.
 - `noop`: prevent matching net requests from being subjected to dynamic filtering.
