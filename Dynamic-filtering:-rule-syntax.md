@@ -24,10 +24,20 @@ Note that with type-based rules, the destination hostname is **always** `*`, mea
 
 ### Hostname-based rules
 
-Hostname-based rules are used to filter network resources according the their origin, i.e. according to which remote server a resource is pulled. Hostname-based rules have a higher specificity than type-based rules, and thus hostname-based rules always override type-based rules whenever a network request end up matching both a type- and a hostname-based rule.
+Hostname-based rules are used to filter network resources according to their origin, i.e. according to which remote server a resource is pulled. Hostname-based rules have a higher specificity than type-based rules, and thus hostname-based rules always override type-based rules whenever a network request end up matching both a type- and a hostname-based rule.
 
 With hostname-based rule, the type is always `*`, meaning the rule will apply to any type of request.
 
 For example, `* disqus.com * block` means "globally block all net requests to `disqus.com`".
 
 Just like type-based rules, a hostname-based rule can apply only when visiting a specific web site, for example: `wired.com disqus.com * noop`, which means "do not apply dynamic filtering to net requests to `disqus.com` when visiting a web page on `wired.com`. Since this last rule is more specific than the previous one, it will override the global blocking of `disqus.com` everywhere.
+
+### Actions
+
+A matching rule can do one of three things:
+
+- `block`: matching net request will be blocked.
+    - `block` dynamic filter rules override any existing [static exception filters](https://adblockplus.org/en/filters#whitelist).
+- `allow`: matching net request will be allowed.
+    - `allow` dynamic filters rules override any existing static and dynamic block filters.
+- `noop`: prevent matching net requests from being subjected to dynamic filtering.
