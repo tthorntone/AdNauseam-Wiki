@@ -10,11 +10,11 @@ Source hostname always correspond to the hostname extracted from the URL of the 
 
 Type-based rules are used to filter specific types of request on a web page. There currently exists five types of request which can be dynamically filtered:
 
-- images (`image`)
-- inline scripts (`inline-script`)
-- 1st-party scripts (`1p-script`): scripts which are pulled from the same domain name of the current web page
-- 3rd-party scripts (`3p-script`): scripts which are pulled from a different domain name than that of the current web page
-- 3rd-party frames (`3p-frame`): frames elements which are pulled from a different domain name than that of current web page
+- `image`: images
+- `inline-script`: inline script tags, i.e. scripts embedded in the main document
+- `1p-script`: 1st-party scripts, i.e. scripts which are pulled from the same domain name of the current web page
+- `3p-script`: 3rd-party scripts, i.e. scripts which are pulled from a different domain name than that of the current web page
+- `3p-frame`: 3rd-party frames, i.e. frames elements which are pulled from a different domain name than that of current web page
 
 These rules can apply everywhere, or be specific to a web site. For instance blocking 3rd-party frames is a very good habit security-wise: `* * 3p-frame block`. This rule translates into "block 3rd-party frames of all origins".
 
