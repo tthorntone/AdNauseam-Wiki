@@ -8,4 +8,4 @@ Tool tips are useful for novice users, but can become annoying to advanced users
 
 #### Dynamic filtering
 
-Dynamic filtering will become available to advanced users.
+Dynamic filtering will become available to advanced users. Novice users could easily mess up µBlock's filtering through dynamic filtering, thus it is not available by default.
