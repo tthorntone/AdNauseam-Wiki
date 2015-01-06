@@ -8,4 +8,4 @@ Tool tips are useful for novice users, but can become annoying to advanced users
 
 #### Dynamic filtering
 
-Dynamic filtering will become available if you are an advanced user.
+Dynamic filtering will become available to advanced users.
