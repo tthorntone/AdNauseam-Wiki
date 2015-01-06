@@ -6,7 +6,7 @@ If something doesn't work as expected, I suggest you first disable _"Experimenta
 
 ### Privacy exposure reduction: local mirroring
 
-[**Important note:** local mirroring is currently know to break web fonts of these end up being locally cached: [issue #291](https://github.com/gorhill/uBlock/issues/291).]
+[**Important note:** local mirroring is currently known to break web fonts of these end up being locally cached: [issue #291](https://github.com/gorhill/uBlock/issues/291).]
 
 One way users increase their privacy exposure is through [content delivery networks](http://en.wikipedia.org/wiki/Content_delivery_network) ("CDN") and likes. Good examples of CDN are `ajax.googleapis.com`, `cdnjs.cloudflare.com`, `googletagservices.com`, etc. These servers are used to serve resources to countless web sites.
 
