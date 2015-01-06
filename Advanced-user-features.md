@@ -2,6 +2,8 @@ If you indicate to µBlock that you are an advanced user (from the _Settings_ ta
 
 Below are differences between normal mode and advanced user mode.
 
+Also, advanced users are expected to read the documentation. If you think the documentation need more work, your are very welcomed to contribute (it's a wiki, you can edit without asking permission -- I will just ensure all is technically accurate.)
+
 #### No tool tips
 
 Tool tips are useful for novice users, but can become annoying to advanced users. Tool tips are turned off for advanced users.
