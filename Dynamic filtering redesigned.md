@@ -35,8 +35,8 @@ Also, I threw in the ability to dynamically filters images (regardless of origin
 The dynamic filtering consists mainly of three columns. From left to right, they are:
 
 - The name of what is to be dynamically filtered: can be a type of request, or a specific hostname.
-- The rule to apply everywhere on any site
-- The rule to apply locally on the current site (useful to override a global rule)
+- The rule to apply everywhere on any site -- i.e. a global rule
+- The rule to apply locally on the current site -- useful to override a global rule
 
 Rules color scheme:
 
