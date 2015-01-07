@@ -1,6 +1,13 @@
 <sup>[Screenshots are not necessarily up to date: this is tedious work and I rather not re-take all screenshots when there are only trivial changes]</sup>
 
-In µBlock version 0.9.0.0, dynamic filtering has been completely revamped. For a fresh new install of µBlock, this is how the popup UI looks:
+In µBlock version 0.9.0.0, dynamic filtering has been completely revamped. Summary of what changed:
+
+- An _"advanced user mode"_ setting, disabled by default
+- Expanded dynamic filtering to block/allow on a per hostname basis
+- A new _"My rules"_ tab in the dashboard, where you can see/edit all your dynamic filtering rules
+- A new, more convenient, more efficient network request logger
+
+For a fresh new install of µBlock, this is how the popup UI looks:
 
 ![figure 1](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-01.png)
 
