@@ -19,16 +19,14 @@ For advanced users, µBlock's popup UI will show a little `+` widget aside the p
 
 ![figure 3](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-03.png)
 
-This little widget allows to expand/collapse the new re-designed dynamic filtering pane:
-
-![figure 4](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-04.png)
-
-As seen above, just as with previous versions you can still dynamically filter:
+This little widget allows to expand/collapse the new re-designed dynamic filtering pane. As seen below, just as with previous versions you can still dynamically filter:
 
 - inline scripts
 - 1st-party scripts
 - 3rd-party scripts
 - 3rd-party frames
+
+![figure 4](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-04.png)
 
 However, as per [issue #282](https://github.com/gorhill/uBlock/issues/282), you can't no longer dynamically filter 1st-party frames -- that was pointless.
 
