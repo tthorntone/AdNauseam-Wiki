@@ -8,7 +8,7 @@ First column: what is to be dynamically filtered:
 
 ![figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-02.png)
 
-As you can see, you can create dynamic filtering rule for object types, or hostnames according to their origin.
+As you can see, you can create dynamic filtering rules for object types, or hostnames according to their origin.
 
 Second column: global dynamic filtering rules, i.e. whatever rule appears in this column applies everywhere, on all sites:
 
