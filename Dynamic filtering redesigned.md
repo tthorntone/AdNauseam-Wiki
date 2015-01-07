@@ -60,4 +60,6 @@ An example (below): globally block network requests to ubiquitous `googletagserv
 
 ![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-06.png)
 
+So the dynamic filtering rule above says: block network requests to `googletagservices.com` from anywhere.
+
 Side note: `googletagservices.com` is not blocked by _EasyPrivacy_, but it is blocked by Ghostery, this is one of the reason it fared better in [privacy exposure benchmarks](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares).
