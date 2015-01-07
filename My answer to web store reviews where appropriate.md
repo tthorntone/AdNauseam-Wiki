@@ -6,7 +6,9 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 > I had spend hours upon hours trying to get rid of several adware infections (Obrona, Offers4u, SASA). I tried malware/adware/spyware removers, antivirus scans, uninstall utilities, system resets. This is the only thing that got rid of them for me. A tip: go into the extension options and check off all the filters - there were still a few ad panels that appeared before I did that. [5-star rating]
 
-µBlock's purpose is **not** to remove existing malware/adware/spyware: It can not do this. µBlock's purpose is to block outgoing network requests, and collapse [DOM](http://en.wikipedia.org/wiki/Document_Object_Model) elements according to the selected filter lists.
+µBlock's purpose is **not** to remove existing malware/adware/spyware: It can not do this.
+
+µBlock's purpose is to block outgoing network requests, and collapse [DOM](http://en.wikipedia.org/wiki/Document_Object_Model) elements according to the selected filter lists.
 
 It appears you are merely curing the symptoms, not the disease. I wouldn't want users to get false expectations concerning µBlock.
 
