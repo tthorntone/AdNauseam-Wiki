@@ -1,10 +1,8 @@
-In µBlock v0.9.0.0, dynamic filtering has been completely revamped. For a fresh new install of µBlock, this is how the popup UI looks:
-
-This is the "novice user" interface, which is the default when installing for the first time:
+In µBlock version 0.9.0.0, dynamic filtering has been completely revamped. For a fresh new install of µBlock, this is how the popup UI looks:
 
 ![figure 1](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-01.png)
 
-Notice the difference with the previous version:
+This is the "novice user" interface, which is the default when installing for the first time. Notice the difference with the previous version:
 
 - The dynamic filtering widgets are not accessible
     - This is to prevent novice users to tamper with dynamic filters without really knowing what they do
