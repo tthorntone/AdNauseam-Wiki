@@ -1,0 +1,39 @@
+In µBlock v0.9.0.0, dynamic filtering has been completely revamped. For a fresh new install of µBlock, this is how the popup UI looks:
+
+This is the "novice user" interface, which is the default when installing for the first time:
+
+![figure 1](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-01.png)
+
+Notice the difference with the previous version:
+
+- The dynamic filtering widgets are not accessible
+    - This is to prevent novice users to tamper with dynamic filters without really knowing what they do
+- The network request logger (the _eye_ icon) is now always available
+    - There is no more setting to enable/disable the network request logger, it will be turned on/off automatically when opening/closing the logger page
+
+To access dynamic filtering, you need to indicate to µBlock that you are an advanced user:
+
+![figure 2](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-02.png)
+
+For advanced users, µBlock's popup UI will show a little `+` widget aside the prompt "requests blocked" below:
+
+![figure 3](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-03.png)
+
+This little widget allows to expand/collapse the new re-designed dynamic filtering pane:
+
+![figure 4](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-04.png)
+
+As seen above, just as with previous versions you can still dynamically filter:
+
+- inline scripts
+- 1st-party scripts
+- 3rd-party scripts
+- 3rd-party frames
+
+However, as per issue #282, you can't no longer dynamically filter 1st-party frames (that was pointless).
+
+Also, I threw in the ability to dynamically filters images (regardless of origin), as I saw this sort of feature requested a couple of places. It's useful for users who wish to save bandwidth, or memory resources.
+
+![figure 5](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-05.png)
+
+![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-06.png)
