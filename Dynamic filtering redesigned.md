@@ -54,6 +54,8 @@ Dynamic filtering if very useful to create block/allow rules on the fly, without
 
 As seen above, _EasyPrivacy_ does not completely protect your privacy: your are still connecting to ubiquitous remote servers. Dynamic filtering gives you full control of where your browser connect.
 
-An example (below): globally block network requests to `googletagservices.com`:
+An example (below): globally block network requests to ubiquitous `googletagservices.com`:
 
 ![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-06.png)
+
+Side note: `googletagservices.com` is not blocked by _EasyPrivacy_, but it is blocked by Ghostery, this is one of the reason it fared better in [privacy exposure benchmarks](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares).
