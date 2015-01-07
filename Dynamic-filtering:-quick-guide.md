@@ -4,6 +4,14 @@ Dynamic filtering pane:
 
 ![figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-01.png)
 
+***
+
+#### Important
+
+_Static filtering_ refers to the filters which comes from the filter lists, i.e. _EasyList_, _EasyPrivacy_, hoHosts, etc. _Dynamic filtering_ are those filtering rules which have an air of firewall rules.
+
+***
+
 First column: what is to be dynamically filtered:
 
 ![figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-02.png)
