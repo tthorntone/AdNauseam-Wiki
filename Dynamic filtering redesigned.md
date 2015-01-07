@@ -32,6 +32,22 @@ However, as per [issue #282](https://github.com/gorhill/uBlock/issues/282), you 
 
 Also, I threw in the ability to dynamically filters images (regardless of origin), as I saw this sort of feature requested a couple of places. It's useful for users who wish to save bandwidth, and/or memory resources.
 
+The dynamic filtering consists mainly of three columns. From left to right, they are:
+
+- The name of what is to be dynamically filtered: can be a type of network requests, or a specific hostname.
+- The global rule
+- The local rule
+
+Rules color scheme:
+
+- Pale gray: no rule
+- Dark red: block rule
+    - The requests will be blocked, regardless of whether static exception filters exist
+- Dark green: allow rule
+    - The requests will be allowed, regardless of whether static block filters exist
+- Dark gray: no-op rule
+    - To cancel any dynamic filtering, the requests will still be subject to static filtering
+
 ![figure 5](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-05.png)
 
 ![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-06.png)
