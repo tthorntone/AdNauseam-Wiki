@@ -30,9 +30,9 @@ As seen above, just as with previous versions you can still dynamically filter:
 - 3rd-party scripts
 - 3rd-party frames
 
-However, as per [issue #282](https://github.com/gorhill/uBlock/issues/282), you can't no longer dynamically filter 1st-party frames (that was pointless).
+However, as per [issue #282](https://github.com/gorhill/uBlock/issues/282), you can't no longer dynamically filter 1st-party frames -- that was pointless.
 
-Also, I threw in the ability to dynamically filters images (regardless of origin), as I saw this sort of feature requested a couple of places. It's useful for users who wish to save bandwidth, or memory resources.
+Also, I threw in the ability to dynamically filters images (regardless of origin), as I saw this sort of feature requested a couple of places. It's useful for users who wish to save bandwidth, and/or memory resources.
 
 ![figure 5](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-05.png)
 
