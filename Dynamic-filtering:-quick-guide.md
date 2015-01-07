@@ -13,3 +13,5 @@
 ![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-06.png)
 
 ![figure 7](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-07.png)
+
+![figure 8](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-08.png)
