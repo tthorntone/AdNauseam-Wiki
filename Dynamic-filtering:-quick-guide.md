@@ -99,3 +99,8 @@ Local dynamic filtering rules override global ones.
 More specific dynamic filtering rules override less specific ones. For example, dynamic filtering rules for `youtube.com` (specific) override dynamic filtering rules for `3rd-party frames` (generic).
 
 ***
+
+![figure 10](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-10.png)
+
+
+![figure 11](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-11.png)
