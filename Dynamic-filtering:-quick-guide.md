@@ -90,4 +90,12 @@ It is just a matter of creating a global _noop_ rule for `youtube.com`:
 
 Which means: do not apply any dynamically filtering rule to `youtube.com` by default (i.e. everywhere).
 
-Remember: any global rule can be overridden by a local one.
+***
+
+#### Important
+
+Local dynamic filtering rules override global ones.
+
+More specific dynamic filtering rules override less specific ones. For example, dynamic filtering rules for `youtube.com` override dynamic filtering rules for `3rd-party frames`.
+
+***
