@@ -5,7 +5,7 @@ In µBlock version 0.9.0.0, dynamic filtering has been completely revamped. For 
 This is the "novice user" interface, which is the default when installing for the first time. Notice the difference with the previous version:
 
 - The dynamic filtering widgets are not accessible
-    - This is to prevent novice users from tampering with dynamic filters without really knowing what they do
+    - This is to prevent novice users from tampering with dynamic filters without really understandng what it is all about
 - The network request logger (the _eye_ icon) is now always available
     - There is no more setting to enable/disable the network request logger, it will be turned on/off automatically when opening/closing the logger page
 
