@@ -43,6 +43,13 @@ Sensible security- and privacy-wise: blocking all 3rd-party frames by default ev
 
 ![figure 5](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-05.png)
 
+***
+
+#### Important
+
+__Dynamic filtering rules_ override _static filters_. This means a _block_ dynamic rule will override any existing _allow_ static filters. This means you can block with 100% certainty using dynamic filtering rules. Similarly, an _allow_ dynamic filtering rule will override any existing _block_ static filters, i.e. you can allow with 100% certainty with dynamic filtering (useful to un-break sites broken by some static filters).
+
+***
 All embedded 3rd-party frames were blocked on the page. Good. However it appears there was an embedded Youtube video in the article:
 
 ![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-06.png)
