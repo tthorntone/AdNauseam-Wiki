@@ -100,6 +100,12 @@ More specific dynamic filtering rules override less specific ones. For example, 
 
 ***
 
+We covered the _block_ and _noop_ dynamic filtering rules. What about the _allow_ rule?
+
+The dynamic filtering _allow_ rule is most useful to un-break sites broken by some static filters.
+
+[Someone found out](https://twitter.com/r3volution11/status/549584186320117760) Boldchat site was broken when using µBlock:
+
 ![figure 10](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-10.png)
 
 
