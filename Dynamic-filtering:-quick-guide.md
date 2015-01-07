@@ -108,5 +108,18 @@ The dynamic filtering _allow_ rule is most useful to un-break sites broken by so
 
 ![figure 10](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-10.png)
 
+The content of the dynamic filtering pane makes it clear that there is a static filter somewhere blocking network requests to `boldchat.com`. Turned out there was static filter `boldchat.com` in _"Peter Lowe's Ad Server` list.
+
+Using a local  _allow_ dynamic filtering rule fixes the breakage:
 
 ![figure 11](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-11.png)
+
+It is easier for a user to point-and-click for a quick fix then to actually craft an exception static filter like `@@||boldchat.com$~third-party` and force a reload of all static filters (big memory churning).
+
+***
+
+#### Important
+
+Typically, use only narrow _allow_ dynamic filtering rules, to un-break sites. As these _allow_ rules override any static filtering, this means if you use a too broad _allow_ dynamic filtering rule you could start to allow in ads/trackers/annoyances.
+
+***
