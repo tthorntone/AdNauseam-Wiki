@@ -48,4 +48,4 @@ Create a local _noop_ rule for `youtube.com`:
 
 This will prevent dynamic filtering rules to apply to anything from `youtube.com`.
 
-**Important:** take note that _noop_ rules by pass **only** broader dynamic filtering rules, static filtering is left completely intact, which means you won't see ads in the embedded Youtube videos.
+**Important:** take note that _noop_ rules bypass **only** broader dynamic filtering rules, static filtering is left completely intact, which means you won't see ads in the embedded Youtube videos.
