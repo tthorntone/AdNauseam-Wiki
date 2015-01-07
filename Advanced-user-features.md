@@ -14,4 +14,4 @@ Tool tips are useful for novice users, but can become annoying to advanced users
 
 Dynamic filtering will become available to advanced users. Novice users could easily mess up µBlock's filtering through dynamic filtering, thus it is not available by default.
 
-**Important note:** Dynamic filtering is completely turned off when you un-check the setting _"I am an advanced user"_. Your dynamic filtering rules are kept intact though, in case you re-enable advanced user mode again.
+**Important note:** Dynamic filtering is completely turned off when you un-check the setting _"I am an advanced user"_. Your dynamic filtering rules are kept intact though, in case you re-enable _advanced user_ mode again.
