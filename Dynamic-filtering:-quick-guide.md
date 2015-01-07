@@ -8,7 +8,7 @@ Dynamic filtering pane:
 
 #### Important
 
-_Static filtering_ refers to the filters which comes from the filter lists, i.e. _EasyList_, _EasyPrivacy_, hoHosts, etc. _Dynamic filtering_ are those filtering rules which have an air of firewall rules.
+_Static filtering_ refers to the filters which comes from the filter lists, i.e. _EasyList_, _EasyPrivacy_, hpHosts, etc. _Dynamic filtering_ are those filtering rules which have an air of firewall rules.
 
 ***
 
