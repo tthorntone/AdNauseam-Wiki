@@ -10,6 +10,8 @@ First column: what is to be dynamically filtered:
 
 As you can see, you can create dynamic filtering rules for object types, or hostnames according to their origin.
 
+The color of an entry indicate whether all requests were blocked (reddish), all requests were allowed (greenish), or some were blocked some were allowed (yellowish).
+
 Second column: global dynamic filtering rules, i.e. whatever rule appears in this column applies everywhere, on all sites:
 
 ![figure 3](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-03.png)
