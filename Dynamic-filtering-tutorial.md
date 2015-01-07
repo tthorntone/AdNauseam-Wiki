@@ -15,7 +15,7 @@ To access dynamic filtering, you need to indicate to µBlock that you are an adv
 
 By the way, notice that the _Statistics_ tab (the network request log) is now gone from the dashboard.
 
-For advanced users, µBlock's popup UI will show a little `+` widget aside the prompt "requests blocked" below:
+For advanced users, µBlock's popup UI will show a little `+` widget aside the prompt "requests blocked":
 
 ![figure 3](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-03.png)
 
