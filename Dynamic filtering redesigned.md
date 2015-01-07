@@ -48,6 +48,12 @@ Rules color scheme:
 - Dark gray: no-op rule
     - To cancel any dynamic filtering, the requests will still be subject to static filtering
 
+Dynamic filtering if very useful to create block/allow rules on the fly, without the overhead of which comes with static filtering.
+
 ![figure 5](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-05.png)
+
+As seen above, _EasyPrivacy_ does not completely protect your privacy: your are still connecting to ubiquitous remote servers. Dynamic filtering gives you full control of where your browser connect.
+
+Below: globally block network requests to `www.googletagservices.com`:
 
 ![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-06.png)
