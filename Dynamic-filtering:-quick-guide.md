@@ -96,6 +96,6 @@ Which means: do not apply any dynamically filtering rule to `youtube.com` by def
 
 Local dynamic filtering rules override global ones.
 
-More specific dynamic filtering rules override less specific ones. For example, dynamic filtering rules for `youtube.com` override dynamic filtering rules for `3rd-party frames`.
+More specific dynamic filtering rules override less specific ones. For example, dynamic filtering rules for `youtube.com` (specific) override dynamic filtering rules for `3rd-party frames` (generic).
 
 ***
