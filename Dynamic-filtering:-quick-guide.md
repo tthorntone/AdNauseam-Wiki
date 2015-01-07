@@ -49,3 +49,9 @@ Create a local _noop_ rule for `youtube.com`:
 This will prevent dynamic filtering rules to apply to anything from `youtube.com`.
 
 **Important:** take note that _noop_ rules bypass **only** broader dynamic filtering rules, static filtering is left completely intact, which means you won't see ads in the embedded Youtube videos.
+
+What if you want to block 3rd-party frames everywhere by default, but want whatever embedded Youtube video to not be blocked by default?
+
+It is just a matter of creating a global _noop_ rule for `youtube.com`:
+
+![figure 8](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-09.png)
