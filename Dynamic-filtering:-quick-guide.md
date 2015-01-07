@@ -28,16 +28,24 @@ All embedded 3rd-party frames were blocked on the page. Good. However it appears
 
 ![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-06.png)
 
-If you want to block all 3rd-party frames by default, except for the embedded video on that particular site, two solutions:
+If you want to block all 3rd-party frames by default, except for the embedded video on that particular site, two solutions.
 
-![figure 7](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-07.png)
+##### First solution
 
 Create a local  _noop_ rule for 3rd-party frames:
 
+![figure 7](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-07.png)
+
+It works, the embedded Youtube video can now be played.
+
+However the above rule would result in all 3rd-party frames to be unblocked. Not so good.
+
+##### Second solution
+
+Create a local _noop_ rule for `youtube.com`:
+
 ![figure 8](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-08.png)
 
-However the above rule would result in all 3rd-party frames to be unblocked.
-
-The other better solution: create a local _noop_ rule for `youtube.com`: This will prevent dynamic filtering rules to apply to anything from `youtube.com`.
+This will prevent dynamic filtering rules to apply to anything from `youtube.com`.
 
 **Important:** take note that _noop_ rules by pass **only** broader dynamic filtering rules, static filtering is left completely intact, which means you won't see ads in the embedded Youtube videos.
