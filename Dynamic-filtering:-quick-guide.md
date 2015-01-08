@@ -72,7 +72,7 @@ Create a local _noop_ rule for `youtube.com`:
 
 ![figure 8](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-08.png)
 
-This will prevent dynamic filtering rules to apply to anything from `youtube.com`.
+This will prevent dynamic filtering rules to apply to anything from `youtube.com`, but only on that site.
 
 ***
 
