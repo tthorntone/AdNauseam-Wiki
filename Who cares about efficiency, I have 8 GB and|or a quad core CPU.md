@@ -11,6 +11,14 @@ Doing more with less is a virtue in software. For users of µBlock, this means:
 
 Memory and CPU cycles are finite resources. A sure way for a developer to **not** be hired when being interviewed is to dismiss efficiency work because "memory is plentiful" or "CPU nowadays are fast enough".
 
+***
+
+> "Come on people, we are buying our hardware precisely for this - to be used" [[source](https://news.ycombinator.com/item?id=8803595)]
+
+_Wasting_ is not _using_.
+
+***
+
 Not convinced yet? Try [this online tool](http://www.numion.com/StopWatch/index.html) to compare how fast web pages load when using one blocker compared to another.
 
 If you have a multi-core CPU, and hence plenty of spare CPU cycles, granted, there may not be such a noticeable difference in page load, but other popular blockers will definitely make use of plenty of whatever spare CPU cycles available (see below) to perform the same job as µBlock.
