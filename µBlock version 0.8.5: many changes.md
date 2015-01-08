@@ -1,6 +1,6 @@
 <sup>[Screenshots are not necessarily up to date: this is tedious work and I rather not re-take all screenshots when there are only trivial changes]</sup>
 
-In µBlock version 0.9.0.0, dynamic filtering has been completely revamped. Summary of what changed:
+In µBlock version 0.8.5.0, dynamic filtering has been completely revamped. Summary of what changed:
 
 - An _"advanced user mode"_ setting, disabled by default
 - Expanded dynamic filtering to block/allow on a per hostname basis
