@@ -9,7 +9,7 @@ In µBlock version 0.8.5.0, dynamic filtering has been completely revamped. Summ
 
 For a fresh new install of µBlock, this is how the popup UI looks:
 
-![figure 1](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-01.png)
+![figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-tut-01.png)
 
 This is the "novice user" interface, which is the default when installing for the first time. Notice the difference with the previous version:
 
@@ -20,13 +20,13 @@ This is the "novice user" interface, which is the default when installing for th
 
 To access dynamic filtering, you need to indicate to µBlock that you are an advanced user (mind the ["Required reading"](https://github.com/gorhill/uBlock/wiki/Advanced-user-features) link):
 
-![figure 2](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-02.png)
+![figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-tut-02.png)
 
 By the way, notice that the _Statistics_ tab (the network request log) is now gone from the dashboard.
 
 For advanced users, µBlock's popup UI will show a little `+` widget aside the prompt "requests blocked":
 
-![figure 3](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-03.png)
+![figure 3](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-tut-03.png)
 
 This little widget allows to expand/collapse the new re-designed dynamic filtering pane. As seen below, just as with previous versions you can still dynamically filter:
 
@@ -35,7 +35,7 @@ This little widget allows to expand/collapse the new re-designed dynamic filteri
 - 3rd-party scripts
 - 3rd-party frames
 
-![figure 4](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-04.png)
+![figure 4](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-tut-04.png)
 
 However, as per [issue #282](https://github.com/gorhill/uBlock/issues/282), you can't no longer dynamically filter 1st-party frames -- that was pointless.
 
@@ -59,13 +59,13 @@ Rules color scheme:
 
 Dynamic filtering if very useful to create block/allow rules on the fly, without the overhead of which comes with static filtering.
 
-![figure 5](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-05.png)
+![figure 5](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-tut-05.png)
 
 As seen above, _EasyPrivacy_ does not completely protect your privacy: your are still connecting to ubiquitous remote servers. Dynamic filtering gives you full control of where your browser connect.
 
 An example (below): globally block network requests to ubiquitous `googletagservices.com`:
 
-![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/fix-433/doc/img/df-tut-06.png)
+![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-tut-06.png)
 
 So the dynamic filtering rule above says: block network requests to `googletagservices.com` from anywhere.
 
