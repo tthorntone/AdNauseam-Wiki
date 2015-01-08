@@ -54,7 +54,7 @@ All embedded 3rd-party frames were blocked on the page. Good. However it appears
 
 ![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-06.png)
 
-If you want to block all 3rd-party frames by default, except for the embedded video on that particular site, two solutions.
+If you want to block all 3rd-party frames by default, except for embedded Youtube videos on that particular site, two solutions.
 
 ##### First solution
 
