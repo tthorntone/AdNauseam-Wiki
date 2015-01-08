@@ -1,6 +1,6 @@
 No wall of text, let's cut to the chase.
 
-Dynamic filtering pane:
+Dynamic filtering pane ([available only to advanced users](https://github.com/gorhill/uBlock/wiki/Advanced-user-features)).
 
 ![figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-01.png)
 
