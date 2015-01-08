@@ -20,7 +20,7 @@ As you can see, you can create dynamic filtering rules for object types, or host
 
 The color of an entry indicate whether all requests were blocked (reddish), all requests were allowed (greenish), or some were blocked some were allowed (yellowish).
 
-In bold, domain names. Domains are hostnames, but hostnames are not domains from µBlock's point of view: domains are extracted as per [Mozilla Public Suffix list](https://publicsuffix.org/).
+In bold, domain names. Domain names are hostnames, but hostnames are not necessarily domain names from µBlock's point of view: domain names are extracted as per [Mozilla Public Suffix list](https://publicsuffix.org/).
 
 Second column: global dynamic filtering rules, i.e. whatever rule appears in this column applies everywhere, on all sites:
 
