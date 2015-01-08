@@ -120,7 +120,7 @@ It is easier for a user to point-and-click for a quick fix then to actually craf
 
 #### Important
 
-Typically, use only narrow _allow_ dynamic filtering rules, to un-break sites. As these _allow_ rules override any static filtering, this means if you use a too broad _allow_ dynamic filtering rule you could start to allow in ads/trackers/annoyances.
+Typically, use only narrow _allow_ dynamic filtering rules to un-break sites. As these _allow_ rules override any static filtering, this means if you use a too broad _allow_ dynamic filtering rule you could start to allow in ads/trackers/annoyances.
 
 ***
 
