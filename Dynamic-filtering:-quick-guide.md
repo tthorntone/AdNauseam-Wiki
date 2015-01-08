@@ -35,7 +35,7 @@ The cells in the third column gives an overview of how many requests were blocke
 - `-` or `+` = between 1-9 network requests were blocked or allowed, respectively
 - `--` or `++` = between 10-99 network requests were blocked or allowed, respectively
 - `---` or `+++` = 100 or more network requests were blocked or allowed, respectively
-- blank cell = no network requests occurred for the specific domain
+- blank cell = no network requests occurred for the specific hostname
 
 So there are **global** dynamic filtering rules, and **local** dynamic filtering rules.
 
