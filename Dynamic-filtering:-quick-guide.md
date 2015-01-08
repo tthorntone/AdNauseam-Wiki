@@ -82,7 +82,7 @@ Remember that _noop_ rules bypass **only** broader dynamic filtering rules, stat
 
 ***
 
-What if you want to block 3rd-party frames everywhere by default, but want whatever embedded Youtube video to not be blocked by default?
+What if you want to block 3rd-party frames everywhere by default, but want whatever embedded Youtube video to not be blocked by default on any site?
 
 It is just a matter of creating a global _noop_ rule for `youtube.com`:
 
