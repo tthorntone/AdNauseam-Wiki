@@ -116,6 +116,7 @@ Using a local  _allow_ dynamic filtering rule fixes the breakage:
 
 It is easier for a user to point-and-click for a quick fix then to actually craft an exception static filter like `@@||boldchat.com$~third-party` and force a reload of all static filters (big memory churning).
 
+<sup>[Another example](https://www.youtube.com/watch?v=8bzB6tESynM) of un-breaking a site.</sup>
 ***
 
 #### Important
