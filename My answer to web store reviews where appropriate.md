@@ -2,7 +2,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
-#### David H. Mason (Chrome store, 10 January 2014)
+#### [David H. Mason](https://plus.google.com/118169340317846488874/posts) (Chrome store, 10 January 2014)
 
 > The author says it should operate identically to adblock. However, there are many, many sites which do not work with µBlock that work fine with adblock. For an example (among many),try the map view at https://nomadlist.io/. For me at leas,t it does not work with µBlock, but it's fine without or with adblock. [1-star rating]
 
