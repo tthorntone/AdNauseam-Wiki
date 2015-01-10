@@ -2,6 +2,14 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### David H. Mason (Chrome store, 10 January 2014)
+
+> The author says it should operate identically to adblock. However, there are many, many sites which do not work with µBlock that work fine with adblock. For an example (among many),try the map view at https://nomadlist.io/. For me at leas,t it does not work with µBlock, but it's fine without or with adblock.
+
+The map view also breaks without any blocker, or with Adblock Plus. No thanks for jumping to baseless conclusions.
+
+***
+
 #### Michael Chadwick (Chrome store, 31 December 2014)
 
 > I had spend hours upon hours trying to get rid of several adware infections (Obrona, Offers4u, SASA). I tried malware/adware/spyware removers, antivirus scans, uninstall utilities, system resets. This is the only thing that got rid of them for me. A tip: go into the extension options and check off all the filters - there were still a few ad panels that appeared before I did that. [5-star rating]
