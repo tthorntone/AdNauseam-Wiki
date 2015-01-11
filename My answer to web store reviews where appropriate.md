@@ -2,7 +2,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
-#### [David H. Mason](https://plus.google.com/118169340317846488874/posts) (Chrome store, 10 January 2014)
+#### [David H. Mason](https://plus.google.com/118169340317846488874/posts) (Chrome store, 10 January 2015)
 
 > The author says it should operate identically to adblock. However, there are many, many sites which do not work with µBlock that work fine with adblock. For an example (among many),try the map view at https://nomadlist.io/. For me at leas,t it does not work with µBlock, but it's fine without or with adblock. [1-star rating]
 
@@ -10,7 +10,7 @@ The map view also breaks without any blocker, or with Adblock Plus, and I get it
 
 No thanks for quickly jumping to baseless conclusions.
 
-**Update:** Reviewer modified his review:
+**Update:** Reviewer modified his review on January 11 2015:
 
 > [...] For an example (among many),try http://forum.notebookreview.com/lenovo/613094-x220-max-ram-8gb-16gb.html. For me at least, it does not work with µBlock, but it's fine without or with adblock.
 
