@@ -16,7 +16,7 @@ No thanks for quickly jumping to baseless conclusions.
 
 That site is completely broken, and µBlock has nothing to do with this:
 
-https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/chrome-store-david-h-mason.png
+![figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/chrome-store-david-h-mason.png)
 
 That the same URL, but using Adblock Plus. Same result without any blocker. Same result on Firefox. Etc.
 
