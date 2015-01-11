@@ -10,6 +10,16 @@ The map view also breaks without any blocker, or with Adblock Plus, and I get it
 
 No thanks for quickly jumping to baseless conclusions.
 
+**Update:** Reviewer modified his review:
+
+> [...] For an example (among many),try http://forum.notebookreview.com/lenovo/613094-x220-max-ram-8gb-16gb.html. For me at least, it does not work with µBlock, but it's fine without or with adblock.
+
+That site is completely broken, and µBlock has nothing to do with this:
+
+https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/chrome-store-david-h-mason.png
+
+That the same URL, but using Adblock Plus. Same result without any blocker. Same result on Firefox. Etc.
+
 ***
 
 #### Michael Chadwick (Chrome store, 31 December 2014)
