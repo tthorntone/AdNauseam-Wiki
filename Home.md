@@ -19,10 +19,10 @@
     - [Own memory usage: benchmarks over time](https://github.com/gorhill/uBlock/wiki/Own-memory-usage:-benchmarks-over-time)
     - [Contributed memory usage: benchmarks over time](https://github.com/gorhill/uBlock/wiki/Contributed-memory-usage:-benchmarks-over-time)
 - Myths and counterpoints
-    - [Who care about efficiency, I have 8 GB and/or a quad-core CPU](https://github.com/gorhill/uBlock/wiki/Who-cares-about-efficiency,-I-have-8-GB-and%7Cor-a-quad-core-CPU)
+    - [Counterpoint: Who care about efficiency, I have 8 GB and/or a quad-core CPU](https://github.com/gorhill/uBlock/wiki/Who-cares-about-efficiency,-I-have-8-GB-and%7Cor-a-quad-core-CPU)
     - [Myth: µBlock consumes over 80MB](https://github.com/gorhill/uBlock/wiki/Myth:-%C2%B5Block-consumes-over-80MB)
     - [Myth: µBlock is just slightly less resource intensive than Adblock Plus](https://github.com/gorhill/uBlock/wiki/Myth:-%C2%B5Block-is-just-slightly-less-resource-intensive-than-Adblock-Plus)
-    - [Various counterarguments](https://github.com/gorhill/uBlock/wiki/Counterarguments)
+    - [Counterpoints: unsorted](https://github.com/gorhill/uBlock/wiki/Counterarguments)
 - [µBlock and others: Blocking ads, trackers, malwares](/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares)
 - [Filter lists: gorhill](https://github.com/gorhill/uBlock/wiki/Filter-lists:-gorhill)
 - [About "This other extension reports more stuff blocked!"](/gorhill/uBlock/wiki/About-%22This-other-extension-reports-more-stuff-blocked!%22)
