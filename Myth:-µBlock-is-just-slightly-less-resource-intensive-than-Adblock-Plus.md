@@ -11,3 +11,4 @@ Examples of sloppiness:
 - Using memory footprint figures while option pages for one of the extension are opened
 - Disregarding the [contributed memory footprint to web pages](https://github.com/gorhill/uBlock/wiki/Contributed-memory-usage:-benchmarks-over-time)
 - Comparing memory footprint after extensions have run for a significantly different amount of time
+- Using memory footprint figures after one of the extension has performed a ont-time resource-intensive task (updating filter lists, etc.)
