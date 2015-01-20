@@ -64,7 +64,7 @@ Create a local  _noop_ rule for 3rd-party frames:
 
 It works, the embedded Youtube video can now be played.
 
-However the above rule would result in all 3rd-party frames to be unblocked. Not so good.
+However the above rule would result in all 3rd-party frames on the site to be unblocked. Not so good.
 
 ##### Second solution
 
