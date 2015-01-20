@@ -15,10 +15,13 @@ memory of [Adblock Plus](https://adblockplus.org/) ("ABP"), which is itself much
 
 Regular expression-based filters are not supported. At time of writing I see three such filters in _EasyList_, and none in _EasyPrivacy_. So rather uncommon. I may support them if there is really a need, but only for those which will have the `domain` filter option set: otherwise it's just impossible to implement efficiently such filters, and µBlock won't encourage their use by supporting these. For all the instances I have seen, it is possible to translate them into more efficient non-regex-based filters.
 
+**Read carefully:** Not supporting regex-based filters has absolutely **nothing** to do with µBlock being more efficient than ABP. It's a myth. It's BS. It's pure disinformation. There is no truth to this. If you hear that somewhere, you are being completely dis-informed.
+
 The `$document` filter option is not supported, see [issue #405](https://github.com/gorhill/uBlock/issues/405). At time of writing, I see 10 such filters in _EasyList_.
 
-#### "ABP has all the features µBlock has!"
+**Read carefully:** Not supporting `$document` filter option has absolutely **nothing** to do with µBlock being more efficient than ABP. It's a principle thing: the purpose of the `$document` filter option is to disable a blocker on a specific site. I do not want µBlock to submit itself to 3rd-party filter lists of when it should completely disable it self. 
 
+#### "ABP has all the features µBlock has!"
 No. µBlock currently offers you more:
 
 - [Extends the filter syntax](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions).
