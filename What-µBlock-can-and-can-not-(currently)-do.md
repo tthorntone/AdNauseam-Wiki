@@ -19,7 +19,7 @@ Regular expression-based filters are not supported. At time of writing I see thr
 
 The `$document` filter option is not supported, see [issue #405](https://github.com/gorhill/uBlock/issues/405). At time of writing, I see 10 such filters in _EasyList_.
 
-**Read carefully:** Not supporting `$document` filter option has absolutely **nothing** to do with µBlock being more efficient than ABP. It's a principle thing: the purpose of the `$document` filter option is to disable a blocker on a specific site. I do not want µBlock to submit itself to 3rd-party filter lists of when it should completely disable it self. 
+**Read carefully:** Not supporting `$document` filter option has absolutely **nothing** to do with µBlock being more efficient than ABP. It's a principle thing: the purpose of the `$document` filter option is to disable a blocker on a specific site. I do not want µBlock to submit itself to 3rd-party filter lists for when it should completely disable it self.
 
 #### "ABP has all the features µBlock has!"
 No. µBlock currently offers you more:
