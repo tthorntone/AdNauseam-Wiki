@@ -1,6 +1,6 @@
 If you indicate to µBlock that you are an advanced user (from the _Settings_ tab in µBlock's dashboard), µBlock will behave slightly differently and also will make available features which are more suitable to advanced users.
 
-**Use these advanced features at your own risks.**
+**Use these advanced features at your own risk.**
 
 Below are differences between normal mode and advanced user mode.
 
