@@ -1,4 +1,4 @@
-No wall of text, let's cut to the chase.
+<sup>[Français: un bon survol d'un utilisateur](https://n.survol.fr/n/comment-jai-tout-bloque)</sup>
 
 Dynamic filtering pane ([available only to advanced users](https://github.com/gorhill/uBlock/wiki/Advanced-user-features)):
 
