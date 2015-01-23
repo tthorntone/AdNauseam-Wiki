@@ -13,47 +13,6 @@ memory of [Adblock Plus](https://adblockplus.org/) ("ABP"), which is itself much
 
 µBlock is its own thing, it doesn't try to be Adblock Plus or any other.
 
-Regular expression-based filters are not supported. At time of writing I see three such filters in _EasyList_, and none in _EasyPrivacy_. So rather uncommon. I may support them if there is really a need, but only for those which will have the `domain` filter option set: otherwise it's just impossible to implement efficiently such filters, and µBlock won't encourage their use by supporting these.
-
-For all the instances I have seen, it is possible to translate them into more efficient non-regex-based filters. For example, the following regex-based filters found in _EasyList_:
-
-    /^https?\:\/\/(?!(connect\.facebook\.net|ajax\.cloudflare\.com|www\.google-analytics\.com|ajax\.googleapis\.com|fbstatic-a\.akamaihd\.net)\/)/$script,third-party,xmlhttprequest,domain=firedrive.com
-    /^https?\:\/\/(?!(connect\.facebook\.net|ajax\.cloudflare\.com|www\.google-analytics\.com|ajax\.googleapis\.com|fbstatic-a\.akamaihd\.net|stats\.g\.doubleclick\.net|api-secure\.solvemedia\.com|api\.solvemedia\.com|sb\.scorecardresearch\.com|www\.google\.com)\/)/$script,third-party,xmlhttprequest,domain=mediafire.com
-    /^https?\:\/\/(?!(connect\.facebook\.net|www\.google-analytics\.com|ajax\.googleapis\.com|netdna\.bootstrapcdn\.com|[\w\-]+\.addthis\.com|bp\.yahooapis\.com|b\.scorecardresearch\.com|platform\.twitter\.com)\/)/$script,third-party,xmlhttprequest,domain=promptfile.com
-    /^https?\:\/\/(?!(ct1\.addthis\.com|s7\.addthis\.com|b\.scorecardresearch\.com|www\.google-analytics\.com|ajax\.googleapis\.com|static\.sockshare\.com)\/)/$script,third-party,xmlhttprequest,domain=sockshare.com
-    /^https?\:\/\/(?!(feather\.aviary\.com|api\.aviary\.com|wd-edge\.sharethis\.com|w\.sharethis\.com|edge\.quantserve\.com|tags\.crwdcntrl\.net|static2\.pbsrc\.com|az412349\.vo\.msecnd\.net|printio-geo\.appspot\.com|www\.google-analytics\.com|loadus\.exelator\.com|b\.scorecardresearch\.com)\/)/$script,third-party,xmlhttprequest,domain=photobucket.com|~secure.photobucket.com
-
-Could be replaced with these non-regex-based filters (longer, but more efficient to process):
-
-    |http://$third-party,domain=firedrive.com|mediafire.com|promptfile.com|sockshare.com|photobucket.com|~secure.photobucket.com
-    |https://$third-party,domain=firedrive.com|mediafire.com|promptfile.com|sockshare.com|photobucket.com|~secure.photobucket.com
-    @@||ajax.cloudflare.com^$script,xmlhttprequest,domain=firedrive.com|mediafire.com
-    @@||ajax.googleapis.com^$script,xmlhttprequest,domain=firedrive.com|mediafire.com|promptfile.com|sockshare.com
-    @@||api.aviary.com^$script,xmlhttprequest,domain=photobucket.com
-    @@||api-secure.solvemedia.com^$script,xmlhttprequest,domain=mediafire.com
-    @@||api.solvemedia.com^$script,xmlhttprequest,domain=mediafire.com
-    @@||az412349.vo.msecnd.net^$script,xmlhttprequest,domain=photobucket.com
-    @@||b.scorecardresearch.com^$script,xmlhttprequest,domain=mediafire.com|photobucket.com|promptfile.com|sockshare.com
-    @@||bp.yahooapis.com^$script,xmlhttprequest,domain=promptfile.com
-    @@||connect.facebook.net^$script,xmlhttprequest,domain=firedrive.com|mediafire.com|promptfile.com
-    @@||edge.quantserve.com^$script,xmlhttprequest,domain=photobucket.com
-    @@||fbstatic-a.akamaihd.net^$script,xmlhttprequest,domain=firedrive.com|mediafire.com
-    @@||feather.aviary.com^$script,xmlhttprequest,domain=photobucket.com
-    @@||loadus.exelator.com^$script,xmlhttprequest,domain=photobucket.com
-    @@||netdna.bootstrapcdn.com^$script,xmlhttprequest,domain=promptfile.com
-    @@||platform.twitter.com^$script,xmlhttprequest,domain=promptfile.com
-    @@||printio-geo.appspot.com^$script,xmlhttprequest,domain=photobucket.com
-    @@||static2.pbsrc.com^$script,xmlhttprequest,domain=photobucket.com
-    @@||static.sockshare.com^$script,xmlhttprequest,domain=sockshare.com
-    @@||stats.g.doubleclick.net^$script,xmlhttprequest,domain=mediafire.com
-    @@||tags.crwdcntrl.net^$script,xmlhttprequest,domain=photobucket.com
-    @@||wd-edge.sharethis.com^$script,xmlhttprequest,domain=photobucket.com
-    @@||w.sharethis.com^$script,xmlhttprequest,domain=photobucket.com
-    @@||www.google.com^$script,xmlhttprequest,domain=mediafire.com
-    @@||www.google-analytics.com^$script,xmlhttprequest,domain=firedrive.com|mediafire.com|photobucket.com|promptfile.com|sockshare.com
-
-**Read carefully:** Not supporting regex-based filters has absolutely **nothing** to do with µBlock being more efficient than ABP. It's a myth. There is no truth to this. I insist on this here because I have seen this repeated a number of places.
-
 The `$document` filter option is not supported, see [issue #405](https://github.com/gorhill/uBlock/issues/405). At time of writing, I see 10 such filters in _EasyList_.
 
 **Read carefully:** Not supporting `$document` filter option has absolutely **nothing** to do with µBlock being more efficient than ABP. It's a principle thing: the purpose of the `$document` filter option is to disable a blocker on a specific site. I do not want µBlock to submit itself to 3rd-party filter lists for when it should completely disable it self.
