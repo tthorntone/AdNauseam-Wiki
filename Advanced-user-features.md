@@ -15,3 +15,7 @@ Tool tips are useful for novice users, but can become annoying to advanced users
 Dynamic filtering ([quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)) will become available to advanced users. Novice users could easily mess up µBlock's filtering through dynamic filtering, thus it is not available by default.
 
 **Important note:** Dynamic filtering engine is completely turned off when you un-check the setting _"I am an advanced user"_. Your dynamic filtering rules are kept intact though, in case you re-enable _advanced user_ mode again.
+
+#### Ability to filter behind-the-scene network requests
+
+[...]
