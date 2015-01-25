@@ -21,3 +21,7 @@ Starting with version µBlock 0.8.6.0, you can inspect behind-the-scene network 
 ![c](https://cloud.githubusercontent.com/assets/585534/5888630/0691e7ee-a3d5-11e4-8510-ed0955f39deb.png)
 
 Typically, you will leave the network request logger opened for a long duration in order to catch all and any behind-the-scene network requests.
+
+### How to filter behind-the-scene network requests
+
+**Important:** The blocking of behind-the-scene network requests can cripple important functionality of your browser or installed extensions. **If you decide to filter some behind-the-scene network requests, you are entirely responsible for the consequences.**
