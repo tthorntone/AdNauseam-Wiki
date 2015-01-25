@@ -36,7 +36,7 @@ To access the filtering settings for the behind-the-scene network requests is si
 
 ![Behind-the-scene popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/behind-the-scene-popup.gif)<br><sup>The popup UI will be filled with the data of whatever tab is being currently inspected in the request logger.</sup>
 
-The picture above shows what happen when you browser Github: Github makes use of `navigator.sendBeacon()` to send data to Google Analytics, which results in the firing of behind-the-scene requests in Chromium browser.
+The picture above shows what happen when you navigate through Github: Github makes use of `navigator.sendBeacon()` to send data to Google Analytics, which results in the firing of behind-the-scene requests in Chromium browser.
 
 **Important:** Filter behind-the-scene requests at your own risk. I will close without further comment any reported issue which are a direct consequence of blocking behind-the-scene network requests. Remember that if you block indiscriminately, you could cripple the ability of your browser to update extensions, ability of extensions to work properly, etc. This is why this is deemed an advanced user feature.
  
