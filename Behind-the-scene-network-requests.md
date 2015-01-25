@@ -22,6 +22,8 @@ Starting with version µBlock 0.8.6.0, you can inspect behind-the-scene network 
 
 Typically, you will leave the network request logger opened for a long duration in order to catch all and any behind-the-scene network requests.
 
+The ability to inspect behind-the-scene network requests is available to all users, i.e. you do not need to enable _"advanced user"_ mode.
+
 ### How to filter behind-the-scene network requests
 
 **Important:** The blocking of behind-the-scene network requests can cripple important functionality of your browser or installed extensions. **If you decide to block some behind-the-scene network requests, you are entirely responsible for the consequences.**
