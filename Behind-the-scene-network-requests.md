@@ -8,7 +8,9 @@ All network requests without a specific origin are classified as _behind-the-sce
 
 For the Chromium browser, examples of behind-the-scene network requests:
 
-- Requests made by the browser to update extensions
-- Requests made by the browser because of specific functionality, like the setting _"Use a prediction service to help complete searches and URLs typed in the address bar"_
-- Requests fired by through [`navigator.sendBeacon()`](https://developer.mozilla.org/en-US/docs/Web/API/navigator.sendBeacon)
-- Requests made by installed extensions for good or bad reasons (µBlock makes such requests, to fetch the filter lists when they need to be updated)
+- from the browser to update extensions
+- from the browser because of specific functionality, like the setting _"Use a prediction service to help complete searches and URLs typed in the address bar"_
+- fired by through [`navigator.sendBeacon()`](https://developer.mozilla.org/en-US/docs/Web/API/navigator.sendBeacon), [hyperlink auditing](http://www.wilderssecurity.com/threads/hyperlink-auditing-aka-a-ping-and-beacon-aka-navigator-sendbeacon.364904/), etc.
+- made by installed extensions for good or bad reasons (µBlock makes such requests, to fetch the filter lists when they need to be updated)
+- etc.
+
