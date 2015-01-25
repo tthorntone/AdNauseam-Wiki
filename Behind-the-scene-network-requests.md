@@ -30,4 +30,7 @@ The ability to filter behind-the-scene network requests is only available when _
 
 Also, the _behind-the-scene_ virtual tab is whitelisted by default, i.e. no filtering will occur even after you enable _"advanced user"_ mode.
 
-[... to complete ...]
+To access the filtering settings for the behind-the-scene network requests is simple a matter of opening popup UI in the network request logger while the _"Behind the scene"_ entry is selected:
+
+![Behind-the-scene popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/behind-the-scene-popup.gif)
+
