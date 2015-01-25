@@ -34,7 +34,7 @@ Also, the _behind-the-scene_ virtual tab is whitelisted by default, i.e. no filt
 
 To access the filtering settings for the behind-the-scene network requests is simple a matter of opening popup UI in the network request logger while the _"Behind the scene"_ entry is selected:
 
-![Behind-the-scene popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/behind-the-scene-popup.gif)<br><sup>The popup UI will be filled with the data of whatever tab is being currently inspected in the request logger.</sup>
+![Behind-the-scene popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/behind-the-scene-popup.gif)<br><sup>The popup UI will be filled with the settings/data of whatever tab is being currently inspected in the request logger.</sup>
 
 The picture above shows what happen when you navigate through Github: Github makes use of `navigator.sendBeacon()` to send data to Google Analytics, which results in the firing of behind-the-scene requests in Chromium browser.
 
