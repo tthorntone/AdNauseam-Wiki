@@ -34,3 +34,6 @@ To access the filtering settings for the behind-the-scene network requests is si
 
 ![Behind-the-scene popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/behind-the-scene-popup.gif)
 
+**Important:** Filter behind-the-scene requests at your own risk. I will close without further comment any reported issue which are a direct consequence of blocking behind-the-scene network requests.
+
+To turn off the filtering of behind-the-scene requests is just a matter of whitelisting the _"Behind the scene"_ scope, or to turn off _"advanced user"_ mode.
