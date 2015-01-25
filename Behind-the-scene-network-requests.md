@@ -32,7 +32,7 @@ Also, the _behind-the-scene_ virtual tab is whitelisted by default, i.e. no filt
 
 To access the filtering settings for the behind-the-scene network requests is simple a matter of opening popup UI in the network request logger while the _"Behind the scene"_ entry is selected:
 
-![Behind-the-scene popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/behind-the-scene-popup.gif)
+![Behind-the-scene popup](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/behind-the-scene-popup.gif)<br><sup>The popup UI will be filled with the data of whatever tab is being currently inspected in the request logger.</sup>
 
 **Important:** Filter behind-the-scene requests at your own risk. I will close without further comment any reported issue which are a direct consequence of blocking behind-the-scene network requests.
 
