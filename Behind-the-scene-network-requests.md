@@ -25,3 +25,5 @@ Typically, you will leave the network request logger opened for a long duration 
 ### How to filter behind-the-scene network requests
 
 **Important:** The blocking of behind-the-scene network requests can cripple important functionality of your browser or installed extensions. **If you decide to filter some behind-the-scene network requests, you are entirely responsible for the consequences.**
+
+The ability to filter behind-the-scene network requests is only available when _"advanced user"_ is enabled. Also, the _behind-the-scene_ virtual tab is whitelisted by default, i.e. no filtering will occur even after you enable _"advanced user"_ mode.
