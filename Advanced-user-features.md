@@ -18,4 +18,4 @@ Dynamic filtering ([quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-
 
 #### Ability to filter behind-the-scene network requests
 
-[...]
+See [Behind-the-scene network requests](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests)
