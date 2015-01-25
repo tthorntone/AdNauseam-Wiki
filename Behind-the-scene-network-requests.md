@@ -10,4 +10,5 @@ For the Chromium browser, examples of behind-the-scene network requests:
 
 - Requests made by the browser to update extensions
 - Requests made by the browser because of specific functionality, like the setting _"Use a prediction service to help complete searches and URLs typed in the address bar"_
+- Requests fired by through [`navigator.sendBeacon()`](https://developer.mozilla.org/en-US/docs/Web/API/navigator.sendBeacon)
 - Requests made by installed extensions for good or bad reasons (µBlock makes such requests, to fetch the filter lists when they need to be updated)
