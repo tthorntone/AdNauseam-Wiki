@@ -14,3 +14,6 @@ For the Chromium browser, examples of behind-the-scene network requests:
 - made by installed extensions for good or bad reasons (µBlock makes such requests, to fetch the filter lists when they need to be updated)
 - etc.
 
+Starting with version µBlock 0.8.6.0, you can inspect behind-the-scene network requests using the network request logger:
+
+![c](https://cloud.githubusercontent.com/assets/585534/5888630/0691e7ee-a3d5-11e4-8510-ed0955f39deb.png)
