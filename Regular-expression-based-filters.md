@@ -26,3 +26,5 @@ An example of a regex-based filter found in _EasyList_ which is handled very eff
     /http:.*(?:\+|\@|\=|\;|\_|\-|\!|\?|\&|\%|\#|\^|\:).*\/\//$script,third-party,domain=allenbwest.com
 
 This filter contains all the filter options which makes it very unlikely that the regular expression will have to be executed. The regular expression will execute **only** if the request is of type `script`, originates from `allenbwest.com`, and is 3rd-party to `allenbwest.com`.
+
+If this sounds like basic common sense, it's because it is. However I've seen other big-name blockers out there execute all regex-based filters unconditionally for every request.
