@@ -20,3 +20,9 @@ A most-efficient regex-based filter is one which comes with all the following fi
     - Example: `/\.filenuke\.com/.*\/[a-zA-Z0-9]{4}/$script` will be executed only for request of type `script` (this filter is found in _EasyList_)
 1. `domain=`: The regular expression won't be executed if the hostname of a request does not match the hostnames declared in the `domain` filter option
 1. `third-party`: the regular expression won't be executed if the request does not fulfill the `third-party` option (or it's complement `~third-party`)
+
+An example of a regex-based filter found in _EasyList_ which is handled very efficiently by µBlock:
+
+    /http:.*(?:\+|\@|\=|\;|\_|\-|\!|\?|\&|\%|\#|\^|\:).*\/\//$script,third-party,domain=allenbwest.com
+
+This filter contains all the filter options which makes it very unlikely that the regular expression will have to be executed. The regular expression will execute **only** if the request is of type `script`, originates from `allenbwest.com`, and is 3rd-party to `allenbwest.com`.
