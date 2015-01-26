@@ -1,3 +1,5 @@
+Note: Dynamic filtering is only available [when "advanced users" setting is turned on](https://github.com/gorhill/uBlock/wiki/Advanced-user-features).
+
 ### Rule syntax
 
 A dynamic filtering rule is made of four components: a source hostname, a destination hostname, a request type, and then a keyword which tells what to do with a request which happens to match the three former components.
