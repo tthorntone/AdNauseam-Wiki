@@ -2,7 +2,7 @@
 
 ### What are behind-the-scene network requests
 
-_Behind-the-scene_ network requests are those network requests which µBlock can not associate with a specific tab opened in your browser: these requests come from _somewhere_, but µBlock is missing information to report exactly from here.
+_Behind-the-scene_ network requests are those network requests which µBlock can not associate with a specific tab opened in your browser: these requests come from _somewhere_, but µBlock is missing information to report exactly from where.
 
 All network requests without a specific origin are classified as _behind-the-scene_. Typically, all blockers will ignore and automatically whitelist behind-the-scene network requests.
 
