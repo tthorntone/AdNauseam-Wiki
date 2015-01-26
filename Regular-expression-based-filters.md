@@ -4,7 +4,9 @@ It is not recommended to use regex-based filters, hence why I chose for a long t
 
 However this led to the often-repeated myth that the reason µBlock was efficient memory- and CPU-wise was because it did not support regex-based filters, a completely nonsensical assertion, given that there is a grand total of only 15 such filters in all of _EasyList_ (at time of writing) out of tens of thousands.
 
-It is because of this myth that I finally decided to support regex-based filters with version 0.8.6.0.
+It is because of this myth that I finally decided to support regex-based filters with version 0.8.6.0:
+
+![regex-based filter at work](https://cloud.githubusercontent.com/assets/585534/5883114/606b7838-a31d-11e4-98e5-1e9ea47e3308.png)
 
 Given the way µBlock works internally, the regex-based filters are implemented in a more efficient way than other big-name blockers.
 
