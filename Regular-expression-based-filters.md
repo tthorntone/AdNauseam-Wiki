@@ -18,5 +18,5 @@ A most-efficient regex-based filter is one which comes with all the following fi
 
 1. type: a filter which apply only to a specific request type will be executed only for request which matches the type.
     - Example: `/\.filenuke\.com/.*\/[a-zA-Z0-9]{4}/$script` will be executed only for request of type `script` (this filter is found in _EasyList_)
-1. `domain=`: The regular expression won't be executed if a request
+1. `domain=`: The regular expression won't be executed if the hostname of a request does not match the hostnames declared in the `domain` filter option
 1. `third-party`: the regular expression won't be executed if the request does not fulfill the `third-party` option (or it's complement `~third-party`)
