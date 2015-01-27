@@ -25,6 +25,15 @@ So my point is that µBlock will perform best efficiency wise if you leave it ti
 
 ***
 
+Also, if you want to look at memory figures, aside the above notes regarding garbage collection, keep in mind:
+
+- The [Chromium bug](https://code.google.com/p/chromium/issues/detail?id=441500) which causes systemetically a memory leak when opening an extension popup UI.
+- Currently opened extension option page(s) contribute to increase the extension's memory use
+- Sometimes a browser's garbage collector ("GC") is lazier than others, i.e. it may takes longer to kick in.
+    - In my benchmarks, it has happened I had to force a GC cycle using dev tools.
+
+***
+
 - Notes: the above is especially true for Chromium-based browser. However with the [early preview of the Firefox version](https://github.com/gorhill/uBlock/issues/27#issuecomment-67308172), the memory churning referred to above seems to result in much smaller memory peak usage.
 - Related: ["Notes on memory benchmarks, selfies"](https://github.com/gorhill/uBlock/wiki/Notes-on-memory-benchmarks,-selfies)
 - Beware: ["Popup UI of extensions causes systematic memory leaks"](https://code.google.com/p/chromium/issues/detail?id=441500)
