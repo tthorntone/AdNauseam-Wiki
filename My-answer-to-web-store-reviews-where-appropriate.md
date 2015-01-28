@@ -2,9 +2,9 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
-#### [Connor W.](https://plus.google.com/118169340317846488874/posts) (Chrome store, 27 January 2015)
+#### Connor W. (Chrome store, 27 January 2015)
 
-> It is very lighweight, but it blocked a ton of stuff that wasn't ads. For example, on Google Translate, it blocked all the alternate translations and said it was blocking 225 ads! [3-star rating]
+> It is very lighweight, but it blocked a ton of stuff that wasn't ads. For example, on Google Translate, it blocked all the alternate translations and said it was blocking 225 ads! [2-star rating]
 
 I just tested Google Translate with µBlock + default filter lists, and I could select alternate translations without any problem.
 
