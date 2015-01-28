@@ -10,7 +10,7 @@ I just tested Google Translate with µBlock + default filter lists, and I could 
 
 Trying to reproduce the reported issue, I selected _"Fanboy’s Annoyance List‎"_ and _"Fanboy’s Enhanced Tracking List‎"_, still no issue.
 
-Regarding the high count ("225 ads!"): again, µBlock is not an **"ad"** blocker, it's a **blocker**, so it will also block according to the filters in _EasyPrivacy_, and in the current case a lot of network requests to `translate.google.*` are blocked because of the filter `google.*/gen204?` in _EasyPrivacy_.
+Regarding the high count ("225 ads!"): again, µBlock is not an **"ad"** blocker, it's a **blocker**, so it will also block according to the filters in _EasyPrivacy_, and in the current case a lot of network requests to `translate.google.*` are blocked because of the filter `||google.*/gen204?` in _EasyPrivacy_.
 
 ***
 
