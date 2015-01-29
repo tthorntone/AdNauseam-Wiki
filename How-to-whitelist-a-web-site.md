@@ -47,7 +47,9 @@ Wildcards can be used at any position. However, when a wildcard is used within t
 - Extract the author's name as directed
 - Once you have the author's name:
     - Go to the _Whitelist_ tab in µBlock's dashboard
-    - Add the line `*youtube.com/*&user=[AUTHOR NAME]*` (replace `[AUTHOR NAME]` with the author name you extracted earlier
+    - Add the line `*youtube.com/*&user=[AUTHOR NAME]*`
+    - Replace `[AUTHOR NAME]` with the author name you extracted earlier
+    - Example: `*youtube.com/*&user=jacksfilms*`
 
 That's all.
 
