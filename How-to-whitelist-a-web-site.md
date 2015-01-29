@@ -44,9 +44,12 @@ Wildcards can be used at any position. However, when a wildcard is used within t
 #### A Youtube channel
 
 - Follow step 1 to 4 in ["YouTube - whitelist channels in Adblock Plus"](https://greasyfork.org/en/scripts/4168-youtube-whitelist-channels-in-adblock-plus)
+- Extract the author's name as directed
 - Once you have the author's name:
-    - Go to the _Whitelist_ tab in uBlock's dashboard
+    - Go to the _Whitelist_ tab in µBlock's dashboard
     - Add the line `*youtube.com/*&user=[AUTHOR NAME]*` (replace `[AUTHOR NAME]` with the author name you extracted earlier
+
+That's all.
 
 ### Other details
 
