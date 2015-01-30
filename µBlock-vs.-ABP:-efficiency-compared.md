@@ -53,7 +53,7 @@ Below are the average time it takes for each extension to handle a net request i
 
 ##### Methodology
 
-Note that the results above are the tail end of running the [reference benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark), except `wait` set to 15, and `repeat` set to 1. Both ABP and µBlock set to use _EasyList_, _EasyPrivacy_, _"Peter Lowe’s Ad server list"_, _"Malware domains"_. ABP-specific: _"Acceptable ads"_ disabled.
+Note that the results above are the tail end of running the [reference benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark), except `wait` set to 15, and `repeat` set to 1. Both ABP and µBlock set to use _EasyList_, _EasyPrivacy_, _"Peter Lowe’s Ad server list"_, _"Malware domains"_. ABP-specific: _"Acceptable ads"_ disabled. µBlock-specific: default settings.
 
 ### Added memory footprint to web pages
 
