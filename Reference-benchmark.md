@@ -3,7 +3,7 @@ Benchmark URLs updated on October 2, 2014.
 [Sessbench](https://github.com/gorhill/sessbench) is used to run the below script automatically.
 
 ```
-wait 10
+wait 15
 repeat 2
 clear cache
 clear cookies
