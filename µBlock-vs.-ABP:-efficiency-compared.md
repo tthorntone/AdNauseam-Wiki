@@ -57,6 +57,8 @@ Below are the average time it takes for each extension to handle a net request i
 
 Note that the results above are the tail end of running the [reference benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark), except `wait` set to 15, and `repeat` set to 1. Both ABP and µBlock set to use _EasyList_, _EasyPrivacy_, _"Peter Lowe’s Ad server list"_, _"Malware domains"_. ABP-specific: _"Acceptable ads"_ disabled. µBlock-specific: default settings.
 
+The results depend heavily on the processor: I benchmarked on an i5-3xxxK CPU @ 3.4 GHz x 4.
+
 ### Added memory footprint to web pages
 
 Extensions have their own memory footprint, but they also cause increased memory footprint in web pages. Below you can see the added memory footprint in a very simple web page, [Hacker News](https://news.ycombinator.com/). First screenshot is when no extension at all is used, so consider it as the reference memory footprint for this web page, other screenshots show the increased memory footprint caused by each extension. The browser was left on idle after loading the page in order to allow the garbage collector to kick in.
