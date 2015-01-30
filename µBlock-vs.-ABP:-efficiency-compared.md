@@ -25,36 +25,35 @@ ABP and µBlock need to evaluate the URL of each net request against their dicti
 
 Below are the average time it takes for each extension to handle a net request in their respective `chrome.webRequest.onBeforeRequest` handler, using the same [benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark).
 
-##### Adblock Plus
-    ABP > onBeforeRequest: 0.286 ms (19448 samples)
-    ABP > onBeforeRequest: 0.286 ms (19697 samples)
-    ABP > onBeforeRequest: 0.286 ms (19890 samples)
-    ABP > onBeforeRequest: 0.285 ms (20157 samples)
-    ABP > onBeforeRequest: 0.284 ms (20675 samples)
-    ABP > onBeforeRequest: 0.284 ms (20790 samples)
-    ABP > onBeforeRequest: 0.284 ms (20956 samples)
-    ABP > onBeforeRequest: 0.284 ms (21112 samples)
-    ABP > onBeforeRequest: 0.283 ms (21279 samples)
-    ABP > onBeforeRequest: 0.283 ms (21472 samples)
+##### Adblock Plus 1.8.10
 
-##### µBlock
-<sup>[Note: The overhead was [further minimized](https://github.com/gorhill/uBlock/issues/238) with subsequent versions of µBlock]</sup>
+    ABP> onBeforeRequest: 0.425 ms (9141 samples)
+    ABP> onBeforeRequest: 0.423 ms (9230 samples)
+    ABP> onBeforeRequest: 0.423 ms (9233 samples)
+    ABP> onBeforeRequest: 0.423 ms (9310 samples)
+    ABP> onBeforeRequest: 0.423 ms (9390 samples)
+    ABP> onBeforeRequest: 0.423 ms (9477 samples)
+    ABP> onBeforeRequest: 0.423 ms (9524 samples)
+    ABP> onBeforeRequest: 0.422 ms (9687 samples)
+    ABP> onBeforeRequest: 0.421 ms (9704 samples)
+    ABP> onBeforeRequest: 0.421 ms (9861 samples)
 
-    µBlock > onBeforeRequest: 0.173 ms (18913 samples)
-    µBlock > onBeforeRequest: 0.172 ms (19177 samples)
-    µBlock > onBeforeRequest: 0.172 ms (19354 samples)
-    µBlock > onBeforeRequest: 0.172 ms (19681 samples)
-    µBlock > onBeforeRequest: 0.171 ms (20139 samples)
-    µBlock > onBeforeRequest: 0.171 ms (20311 samples)
-    µBlock > onBeforeRequest: 0.171 ms (20461 samples)
-    µBlock > onBeforeRequest: 0.171 ms (20610 samples)
-    µBlock > onBeforeRequest: 0.171 ms (20756 samples)
-    µBlock > onBeforeRequest: 0.171 ms (20933 samples)
+##### µBlock 0.8.6.0
 
-Note that the results above are the tail end of running the complete benchmark (60 front pages of high traffic web sites, repeated 3 times). 
+    µBlock> onBeforeRequest: 0.111 ms (8884 samples)
+    µBlock> onBeforeRequest: 0.111 ms (8973 samples)
+    µBlock> onBeforeRequest: 0.111 ms (9074 samples)
+    µBlock> onBeforeRequest: 0.111 ms (9151 samples)
+    µBlock> onBeforeRequest: 0.111 ms (9228 samples)
+    µBlock> onBeforeRequest: 0.111 ms (9314 samples)
+    µBlock> onBeforeRequest: 0.111 ms (9360 samples)
+    µBlock> onBeforeRequest: 0.110 ms (9522 samples)
+    µBlock> onBeforeRequest: 0.110 ms (9538 samples)
+    µBlock> onBeforeRequest: 0.110 ms (9696 samples)
 
-Also noteworthy, ABP uses a cache mechanism to possibly avoid having to test a URL by trying to reuse a prior
-result for that same URL, which would cause ABP timing to be quite low (at the expense of memory footprint). It's unclear to me how much this mechanism kicked in with the current benchmark. µBlock doesn't use such mechanism, so whether a web page is visited repeatedly or not doesn't influence timing.
+##### Methodology
+
+Note that the results above are the tail end of running the [reference benchmark](https://github.com/gorhill/uBlock/wiki/Reference-benchmark), except `wait` set to 15, and `repeat` set to 1. Both ABP and µBlock set to use _EasyList_, _EasyPrivacy_, _"Peter Lowe’s Ad server list"_, _"Malware domains"_. ABP-specific: _"Acceptable ads"_ disabled.
 
 ### Added memory footprint to web pages
 
