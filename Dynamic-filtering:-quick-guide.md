@@ -10,7 +10,7 @@ _Static filtering_ refers to the filters which comes from the filter lists, i.e.
 
 ***
 
-First column: what is to be dynamically filtered:
+**First column**: what is to be dynamically filtered:
 
 ![figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-02.png)
 
@@ -20,11 +20,11 @@ The color of an entry indicate whether all requests were blocked (reddish), all 
 
 In bold, domain names. Domain names are hostnames, but hostnames are not necessarily domain names from µBlock's point of view: domain names are extracted as per [Mozilla Public Suffix list](https://publicsuffix.org/).
 
-Second column: global dynamic filtering rules, i.e. whatever rule appears in this column applies everywhere, on all sites:
+**Second column**: **_global_** dynamic filtering rules, i.e. whatever rule appears in this column applies everywhere, on _all_ sites:
 
 ![figure 3](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-03.png)
 
-Third column: local dynamic filtering rules, i.e. whatever rule appears in this column applies to the current site only:
+**Third column**: **_local_** dynamic filtering rules, i.e. whatever rule appears in this column applies to the _current_ site only:
 
 ![figure 4](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-04.png)
 
@@ -45,7 +45,7 @@ Sensible security- and privacy-wise: blocking all 3rd-party frames by default ev
 
 #### Important
 
-_Dynamic filtering_ override _static filtering_. This means a _block_ dynamic rule will override any existing _allow_ static filters. This means you can block with 100% certainty using dynamic filtering rules. Similarly, an _allow_ dynamic filtering rule will override any existing _block_ static filters, i.e. you can allow with 100% certainty with dynamic filtering (useful to un-break sites broken by some static filters).
+**_Dynamic filtering_ overrides _static filtering_**. This means a _block_ dynamic rule will override any existing _allow_ static filters. This means you can block with 100% certainty using dynamic filtering rules. Similarly, an _allow_ dynamic filtering rule will override any existing _block_ static filters, i.e. you can allow with 100% certainty with dynamic filtering (useful to un-break sites broken by some static filters).
 
 ***
 All embedded 3rd-party frames were blocked on the page. Good. However it appears there was an embedded Youtube video in the article:
