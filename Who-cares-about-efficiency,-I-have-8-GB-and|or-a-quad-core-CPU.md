@@ -7,6 +7,7 @@ Doing more with less is a virtue in software. For users of µBlock, this means:
 - Longer battery life: each time unit, however small, in which the CPU is idle rather than churning translates into extended battery life.
 - Free to use a blocker on less powerful devices
     - For instance: [Reddit: _"ABP was a significant burden on my CPU"_](http://www.reddit.com/r/chromeos/comments/298jh1/just_a_tip_try_out_%C2%B5block_for_your_adblocking/)
+- Free to add more useful features
 - Free to use more extensions
 
 Memory and CPU cycles are finite resources. A sure way for a developer to **not** be hired when being interviewed is to dismiss efficiency work because "memory is plentiful" or "CPU nowadays are fast enough".
