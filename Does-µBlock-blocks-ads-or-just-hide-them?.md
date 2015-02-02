@@ -20,7 +20,7 @@ The purpose of network filter is to prevent a network request to be made to a re
 
 #### Cosmetic filters
 
-These filters serve to remove DOM element from a web page. They have no value privacy-wise, it is essentially to make web page look better by removing unwanted content, which usually cannot be blocked using network filters. Just like Adblock Plus, µBlock will hide DOM elements on a web page which match cosmetic filters.
+These filters serve to remove DOM elements from a web page. They have no value privacy-wise, it is essentially to make web page look better by removing unwanted content, which usually cannot be blocked using network filters. Just like Adblock Plus, µBlock will hide DOM elements on a web page which match cosmetic filters.
 
 **Answer:** resources hidden.
 
