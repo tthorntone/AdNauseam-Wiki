@@ -26,6 +26,6 @@ These filters serve to remove DOM elements from a web page. They have no value p
 
 #### Hosts file
 
-µBlock also support the parsing and enforcing of hosts files -- something which ABP does not. All entries in a hosts file are parsed as network filters, i.e. no resource will be fetch from a remote server which appear in a hosts file.
+µBlock also support the parsing and enforcing of hosts files -- something which ABP does not. All entries in a hosts file are parsed as network filters, i.e. no resource will be fetch from a remote server which appear in a hosts file, no connection will even be attempted.
 
 **Answer:** resources blocked.
