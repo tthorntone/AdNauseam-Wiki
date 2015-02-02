@@ -1,6 +1,8 @@
-I've seen so much misrepresentation and disinformation lately regarding µBlock (always from anonymous sources) that I will set the official record here.
+I've seen an increase in misrepresentation and disinformation lately regarding µBlock -- and not surprisingly always from anonymous sources.
 
-First, let's just say µBlock is a real threat to Adblock Plus owner's business model, Eyeo GmbH, and to those [who paid Eyeo GmbH](http://9to5google.com/2015/02/02/google-along-with-amazon-microsoft-reportedly-paying-adblock-to-unblock-ads/) to be part of the "acceptable ads" marketing campaign.
+I will set the official record here.
+
+First, let's just say µBlock is a real threat to Adblock Plus owner's business model, Eyeo GmbH, and to those [who paid Eyeo GmbH](http://9to5google.com/2015/02/02/google-along-with-amazon-microsoft-reportedly-paying-adblock-to-unblock-ads/) to be part of the "acceptable ads" marketing campaign. It is also a threat to other blockers as well.
 
 There seems to be underhanded attempts to discredit µBlock lately in various venues. Here is a typical comment: 
 
