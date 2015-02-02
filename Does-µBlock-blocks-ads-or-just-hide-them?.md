@@ -1,8 +1,12 @@
 I've seen so much misrepresentation and disinformation lately regarding µBlock (always from anonymous sources) that I will set the official record here.
 
-Let's just say µBlock is a real threat to Adblock Plus owner's business model, Eyeo GmbH, and to those [who paid Eyeo GmbH](http://9to5google.com/2015/02/02/google-along-with-amazon-microsoft-reportedly-paying-adblock-to-unblock-ads/) to be part of the "acceptable ads" marketing campaign.
+First, let's just say µBlock is a real threat to Adblock Plus owner's business model, Eyeo GmbH, and to those [who paid Eyeo GmbH](http://9to5google.com/2015/02/02/google-along-with-amazon-microsoft-reportedly-paying-adblock-to-unblock-ads/) to be part of the "acceptable ads" marketing campaign.
 
-### Q. Does µBlock blocks ads or just hide them?
+There seems to be underhanded attempts to discredit µBlock lately in various venues. Here is a typical comment: 
+
+> uBlock who is recently found to not actually "block" ads, but rather hide them after its been displayed. Adblock actually blocks them before they can even display them.
+
+The statement above is plain fear-using-disinformation. That kind of disinformation also happens to be convenient to the incumbent blockers, and also to those who have an interest in people using those incumbent blockers.
 
 There are two kinds of [ABP-compatible filters](https://adblockplus.org/en/filters): network filters and cosmetic filters. _Cosmetic filters_ are referred to as _element hiding_ filters by Adblock Plus ("ABP").
 
