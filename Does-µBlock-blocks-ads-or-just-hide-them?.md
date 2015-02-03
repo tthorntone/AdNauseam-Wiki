@@ -16,7 +16,7 @@ There are two kinds of [ABP-compatible filters](https://adblockplus.org/en/filte
 
 The purpose of network filter is to prevent a network request to be made to a remote server, so as to prevent downloading a remote resource. µBlock will prevent the network request from even being made. This saves bandwidth, decrease privacy exposure -- as the remote server won't be able to log anything if you do not contact it.
 
-**Answer:** resources blocked.
+**Answer:** resources blocked: network requests are cancelled before they leave the browser.
 
 #### Cosmetic filters
 
@@ -28,4 +28,4 @@ These filters serve to remove DOM elements from a web page. They have no value p
 
 µBlock also support the parsing and enforcing of hosts files -- something which ABP does not. All entries in a hosts file are parsed as network filters, i.e. no resource will be fetch from a remote server which appear in a hosts file, no connection will even be attempted.
 
-**Answer:** resources blocked.
+**Answer:** resources blocked: network requests are cancelled before they leave the browser.
