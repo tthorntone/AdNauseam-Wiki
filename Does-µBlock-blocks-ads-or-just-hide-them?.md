@@ -2,7 +2,7 @@ I've seen an increase in misrepresentation and disinformation lately regarding �
 
 I will set the official record here.
 
-First, let's just say µBlock is a real threat to Adblock Plus owner's business model, Eyeo GmbH, and to those [who paid Eyeo GmbH](http://www.theregister.co.uk/2015/02/02/google_amazon_taboola_microsoft_adplock_plus_unblock/) to be part of the "acceptable ads" marketing campaign. It is also a threat to other big-name blockers as well.
+First, let's just say µBlock is a real threat to Adblock Plus owner's business model, Eyeo GmbH, and to those [who paid Eyeo GmbH](http://www.theregister.co.uk/2015/02/02/google_amazon_taboola_microsoft_adplock_plus_unblock/) to be part of the "acceptable ads" marketing campaign. It is also a threat to other big-name blockers as well. Add to this [not everybody](https://forums.lanik.us/viewtopic.php?f=64&t=17842) [is pleased](https://github.com/gorhill/uBlock/issues/564) with µBlock enabling _EasyPrivacy_ by default.
 
 There seems to be underhanded attempts to discredit µBlock lately in various venues. Here is a typical comment: 
 
