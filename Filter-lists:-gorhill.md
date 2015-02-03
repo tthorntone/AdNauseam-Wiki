@@ -1,5 +1,7 @@
 Often people will ask me which filter lists I use. So here is my selection of lists:
 
+**Important:** Use at your own risks, you are on your own. Time is precious and I have none left.
+
 ![Filter lists](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/wiki-hphosts.png)
 
 And following is a comparison of typical results to show what these extra lists accomplish. This is all the hostnames hit by net requests when visiting TechCrunch's article titled [_"Achieving Anonymity Online Remains Difficult Despite Evolving Privacy Tools"_](http://techcrunch.com/2014/08/21/are-you-ever-truly-anonymous-online/). Even with all these lists selected, sites rarely breaks, and result is a fraction of bandwidth, and significant reduction of privacy exposure surface area:
