@@ -1,5 +1,10 @@
 Reminder: the `noop` rule action means that network requests will not be filtered through dynamic filtering, but they will still be filtered through static filtering (_EasyList_, _EasyPrivacy_, etc). 
 
+##### the default-deny rules
+
+    * * 3p block
+    * * 3p-frame block
+
 ##### crowdin.com
 
     crowdin.com d1ztvzf22lmr1j.cloudfront.net * noop
