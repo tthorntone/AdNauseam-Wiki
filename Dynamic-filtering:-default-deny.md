@@ -1,7 +1,7 @@
-Default-deny is an awesome blocking mode for whoever is ready for the task of having to un-break web sites during the first visit, and agrees that most 3rd-party resources from web pages:
+Default-deny is an awesome blocking mode for whoever is ready for the task of having to un-break web sites during the first visit, and agrees that in general most 3rd-party resources from web pages:
 
-- is not really needed
-- increases privacy exposure
+- are not really needed
+- increase privacy exposure
 
 The benefits of using default-deny are plenty:
 
