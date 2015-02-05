@@ -10,10 +10,6 @@ The benefits of using default-deny are plenty:
 - Significant reduction of bandwidth consumption
 - Significant reduction of privacy exposure
 
-[
-working on it.. topic to cover:
-
+> working on it.. topic to cover:
 - no need to use malware domain list since all 3rd-parties are blocked by default = leaner uBlock
 - 
-
-]
