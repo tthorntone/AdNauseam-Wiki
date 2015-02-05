@@ -6,6 +6,14 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # Pick whatever you want, or all
 
+    # Global
+
+    # This one is useful if you want to keep the ability to translate
+    # any web page using the contextual menu in Chromium:
+    * translate.googleapis.com * noop
+
+    # Local
+
     # arstechnica.com
     arstechnica.com arstechnica.net * noop
 
@@ -41,10 +49,6 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # stackoverflow.com
     stackoverflow.com sstatic.net * noop
-
-    # This one is useful if you want to keep the ability to translate
-    # any web page using the contextual menu in Chromium:
-    * translate.googleapis.com * noop
 
     # twitch.tv
     twitch.tv jtvnw.net * noop
