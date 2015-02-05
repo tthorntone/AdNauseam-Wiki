@@ -23,6 +23,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # economist.com
     www.economist.com static-economist.com * noop
 
+    # foxnews.com
+    foxnews.com fncstatic.com * noop
+
     # github.com
     github.com avatars0.githubusercontent.com * noop
     github.com avatars1.githubusercontent.com * noop
