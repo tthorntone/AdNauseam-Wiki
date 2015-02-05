@@ -28,7 +28,7 @@
 1. Open new tab, paste <https://news.ycombinator.com/>, wait for page to finish loading
 1. Leave the browser idle for two minutes
 1. Open new tab, paste `about:memory`, wait for page to finish loading
-1. Firefox: Click _GC_ button in _"Free memory"_ section
+1. Firefox: Click _Minimize memory usage_ button in _"Free memory"_ section
 1. Firefox: Click _Measure_ button in _"Show memory reports"_ section
 1. Firefox: Write down _"Explicit Allocations"_ value (see notes below) / Chromium: Write down _Σ_ value
 
