@@ -7,7 +7,7 @@ The benefits of using default-deny are plenty:
 
 - Significantly faster page load
 - Easier on your browser's memory and CPU footprint
-- Significant reduce bandwidth consumption
+- Significant reduction of bandwidth consumption
 - Significant reduction of privacy exposure
 
 [working on it]
