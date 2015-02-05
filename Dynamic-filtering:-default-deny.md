@@ -13,3 +13,5 @@ The benefits of using default-deny are plenty:
 > working on it.. topic to cover:
 > 
 > no need to use malware domain lists since all 3rd-parties are blocked by default = leaner uBlock
+>
+> ubiquitous servers blocked by default, i.e. no need to pre-emptively block facebook, google, twitter, linkdin, etc.
