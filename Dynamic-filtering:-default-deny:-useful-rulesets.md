@@ -1,5 +1,9 @@
 Reminder: the `noop` rule action means that network requests will not be filtered through dynamic filtering, but they will still be filtered through static filtering (_EasyList_, _EasyPrivacy_, etc). 
 
+##### crowdin.com
+
+    crowdin.com d1ztvzf22lmr1j.cloudfront.net * noop
+
 ##### economist.com
 
     www.economist.com static-economist.com * noop
