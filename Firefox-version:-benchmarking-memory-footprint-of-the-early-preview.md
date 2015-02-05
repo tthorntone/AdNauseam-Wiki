@@ -56,3 +56,7 @@ I chose the _"Explicit Allocations"_  figure because as per Firefox, it is "the 
 Without going into details, hardware is i5 quadcore + 8 GB
 
 If other users feel like repeating the tests, it would be nice just to confirm I got everything right.
+
+#### Raw data
+
+<https://github.com/gorhill/uBlock/blob/master/doc/benchmarks/mem-usage-overall-20141224.ods>
