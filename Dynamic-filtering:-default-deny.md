@@ -5,9 +5,10 @@ Default-deny is an awesome blocking mode for whoever is ready for the task of ha
 
 The benefits of using default-deny are plenty:
 
-- Significantly faster page load
-- Significant reduction of bandwidth consumption
-- Significant reduction of privacy exposure
+- Faster page load
+- Reduction of bandwidth consumption
+- Reduction of privacy exposure
+- Increase browser security
 - Easier on your browser's memory and CPU footprint
 
 > working on it.. topic to cover:
