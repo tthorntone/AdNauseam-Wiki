@@ -54,6 +54,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     twitter.com twimg.com * noop
 
+##### yahoo.com
+
+    yahoo.com yimg.com * noop
+
 ##### youtube.com
 
     youtube.com content.googleapis.com * noop
