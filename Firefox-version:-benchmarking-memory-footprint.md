@@ -51,7 +51,7 @@ You can't compare directly the figures between the browsers -- they are taken us
 
 Tested on Firefox 34 64-bit and Chromium 39 64-bit on Linux Mint. No other extensions were present.
 
-I chose the _"Explicit Allocations"_  figure because as per Firefox, it is "the single best number to focus on" with regard to memory usage.
+For Firefox, I chose the _"Explicit Allocations"_  figure because as per Firefox, it is "the single best number to focus on" with regard to memory usage.
 
 Without going into details, hardware is i5 quadcore + 8 GB
 
