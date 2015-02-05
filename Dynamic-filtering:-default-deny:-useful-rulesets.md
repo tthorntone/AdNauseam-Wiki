@@ -1,3 +1,5 @@
+Reminder: the `noop` rule action means that network requests will not be filtered through dynamic filtering, but they will still be filtered through static filtering (_EasyList_, _EasyPrivacy_, etc). 
+
 ##### economist.com
 
     www.economist.com static-economist.com * noop
@@ -30,6 +32,10 @@
     twitch.tv jtvnw.net * noop
     twitch.tv swiftype.com * noop
     twitch.tv ttvnw.net * noop
+
+##### twitter.com
+
+    twitter.com twimg.com * noop
 
 ##### youtube.com
 
