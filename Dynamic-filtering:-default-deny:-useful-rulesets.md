@@ -42,7 +42,6 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # stackoverflow.com
     stackoverflow.com sstatic.net * noop
 
-    # translate.googleapis.com
     # This one is useful if you want to keep the ability to translate
     # any web page using the contextual menu in Chromium:
     * translate.googleapis.com * noop
