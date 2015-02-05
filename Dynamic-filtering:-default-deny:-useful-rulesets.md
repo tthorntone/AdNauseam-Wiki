@@ -42,3 +42,7 @@
     youtube.com plus.googleapis.com * noop
     youtube.com youtube-nocookie.com * noop
     youtube.com ytimg.com * noop
+
+##### wikipedia.org
+
+    wikipedia.org wikimedia.org * noop
