@@ -5,6 +5,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     * * 3p block
     * * 3p-frame block
 
+##### arstechnica.com
+
+    arstechnica.com arstechnica.net * noop
+
 ##### crowdin.com
 
     crowdin.com d1ztvzf22lmr1j.cloudfront.net * noop
