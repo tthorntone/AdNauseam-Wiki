@@ -31,9 +31,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     mozilla.org mozilla.net * noop
 
-##### www.nytimes.com
+##### nytimes.com
 
-    www.nytimes.com nyt.com * noop
+    nytimes.com nyt.com * noop
 
 ##### reddit.com
 
