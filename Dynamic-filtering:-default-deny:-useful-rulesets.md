@@ -24,6 +24,11 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     github.com raw.githubusercontent.com * noop
     github.com render.githubusercontent.com * noop
 
+    # lifehacker.com
+    lifehacker.com kinja-img.com * noop
+    lifehacker.com kinja-static.com * noop
+    lifehacker.com kinja.com * noop
+
     # mozilla.org
     mozilla.org mozilla.net * noop
 
