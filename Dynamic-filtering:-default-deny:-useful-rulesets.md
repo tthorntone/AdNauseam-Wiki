@@ -58,6 +58,11 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     yahoo.com yimg.com * noop
 
+##### ycombinator.com
+
+    blog.ycombinator.com phaven-prod.s3.amazonaws.com * noop
+    blog.ycombinator.com posthaven-assets.s3.amazonaws.com * noop
+
 ##### youtube.com
 
     youtube.com content.googleapis.com * noop
