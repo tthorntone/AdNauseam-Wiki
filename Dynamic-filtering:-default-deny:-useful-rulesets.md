@@ -4,6 +4,8 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     * * 3p block
     * * 3p-frame block
 
+    # Pick whatever you want, or all
+
     # arstechnica.com
     arstechnica.com arstechnica.net * noop
 
