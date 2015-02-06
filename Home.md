@@ -9,7 +9,7 @@
 - [Privacy stuff](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)
 - [Filter syntax extensions](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)
 - [Dynamic filtering: quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
-- [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
+- [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering) (obsolete)
     - [Benefits of blocking 3rd-party scripts and frames](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Benefits-of-blocking-3rd-party-script-and-iframe-tags)
     - [Usefulness of blocking inline script tags](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Usefulness-of-blocking-inline-script-tags)
     - [Usefulness of blocking 1st-party script tags](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Usefulness-of-blocking-1st-party-script-tags)
