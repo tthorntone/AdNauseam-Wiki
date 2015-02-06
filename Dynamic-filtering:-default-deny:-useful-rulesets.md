@@ -43,6 +43,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     lifehacker.com kinja-static.com * noop
     lifehacker.com kinja.com * noop
 
+    # medium.com
+    medium.com d262ilb51hltx0.cloudfront.net * noop
+    medium.com dnqgz544uhbo8.cloudfront.net * noop
+
     # mozilla.org
     mozilla.org mozilla.net * noop
 
