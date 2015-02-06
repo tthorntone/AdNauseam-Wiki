@@ -40,18 +40,18 @@ Below are the average time it takes for each extension to handle a net request i
     ABP> onBeforeRequest: 0.421 ms (9704 samples)
     ABP> onBeforeRequest: 0.421 ms (9861 samples)
 
-##### µBlock 0.8.6.0
+##### µBlock 0.8.7.0
 
-    µBlock> onBeforeRequest: 0.111 ms (8884 samples)
-    µBlock> onBeforeRequest: 0.111 ms (8973 samples)
-    µBlock> onBeforeRequest: 0.111 ms (9074 samples)
-    µBlock> onBeforeRequest: 0.111 ms (9151 samples)
-    µBlock> onBeforeRequest: 0.111 ms (9228 samples)
-    µBlock> onBeforeRequest: 0.111 ms (9314 samples)
-    µBlock> onBeforeRequest: 0.111 ms (9360 samples)
-    µBlock> onBeforeRequest: 0.110 ms (9522 samples)
-    µBlock> onBeforeRequest: 0.110 ms (9538 samples)
-    µBlock> onBeforeRequest: 0.110 ms (9696 samples)
+    µBlock> onBeforeRequest: 0.131 ms (8664 samples)
+    µBlock> onBeforeRequest: 0.131 ms (8763 samples)
+    µBlock> onBeforeRequest: 0.131 ms (8839 samples)
+    µBlock> onBeforeRequest: 0.130 ms (8914 samples)
+    µBlock> onBeforeRequest: 0.131 ms (8988 samples)
+    µBlock> onBeforeRequest: 0.131 ms (9033 samples)
+    µBlock> onBeforeRequest: 0.130 ms (9192 samples)
+    µBlock> onBeforeRequest: 0.130 ms (9206 samples)
+    µBlock> onBeforeRequest: 0.129 ms (9324 samples)
+    µBlock> onBeforeRequest: 0.129 ms (9329 samples)
 
 ##### Methodology
 
