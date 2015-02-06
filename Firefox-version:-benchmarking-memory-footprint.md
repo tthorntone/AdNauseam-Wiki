@@ -46,7 +46,7 @@ So I did the **exact** above steps for no blocker, ABP, uBlock.
     - **Adblock Plus** 1.8.8: **1,509.05 MB** (reference _plus_ 339.7 MB)
     - **µBlock** 0.8.2.0: **1,042.94 MB** (reference _minus_ 126.41 MB, ABP _minus_ 466.11 MB)
 
-You can't compare directly the figures between the browsers -- they are taken using different methodology from one browser to the other. The benchmarks are more to compare the figures for various blockers within the same browser.
+**Important:** You can't compare directly the figures between the browsers -- they are taken using different methodology from one browser to the other. The benchmarks are more to compare the figures for various blockers within the same browser.
 
 #### Notes
 
