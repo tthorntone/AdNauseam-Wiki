@@ -25,6 +25,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # facebook.com
     facebook.com akamaihd.net * noop
+    facebook.com fbcdn.net * noop
 
     # foxnews.com
     foxnews.com fncstatic.com * noop
