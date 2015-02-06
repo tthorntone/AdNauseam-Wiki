@@ -12,6 +12,7 @@
 
 #### Steps
 
+1. Have the benchmarked blocker enabled and properly setup
 1. Have only the "new tab" opened
 1. Quit Firefox
 1. Launch Firefox
