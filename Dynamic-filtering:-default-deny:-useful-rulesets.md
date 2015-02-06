@@ -32,6 +32,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     github.com avatars2.githubusercontent.com * noop
     github.com avatars3.githubusercontent.com * noop
     github.com camo.githubusercontent.com * noop
+    github.com cloud.githubusercontent.com * noop
     github.com raw.githubusercontent.com * noop
     github.com render.githubusercontent.com * noop
     # This one is needed to allow auto-upload of images through drag-n-drop
