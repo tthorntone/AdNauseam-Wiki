@@ -56,6 +56,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # stackoverflow.com
     stackoverflow.com sstatic.net * noop
 
+    # techcrunch.com
+    techcrunch.com wordpress.com * noop
+    techcrunch.com wp.com * noop
+
     # twitch.tv
     twitch.tv jtvnw.net * noop
     twitch.tv swiftype.com * noop
