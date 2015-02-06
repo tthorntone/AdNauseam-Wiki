@@ -4,4 +4,5 @@ Dynamic filtering is available to [advanced users](https://github.com/gorhill/uB
 - [Dynamic filtering: default-deny](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny)
     - [Default-deny: useful rulesets](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny:-useful-rulesets)
     - [Default-deny users: mind behind-the-scene network requests](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests)
+- [Dynamic filtering: blacklist mode](#)
 - [Dynamic filtering: rule syntax](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax)
