@@ -46,7 +46,7 @@ In general, it must be assumed that each distinct domain is managed by a distinc
 
 So in general, this statistic has to be seen this way: the more distinct domains your browser connects to, the larger the privacy exposure.
 
-In a best-case scenario, the number of distinct domains to which a web page connects should be one only, i.e. that of the remote server from which the web page was fetched.
+In a best-case scenario, the number of distinct domains to which a web page connects should be **only one**, i.e. that of the remote server from which the web page was fetched.
 
 **The higher the number, the higher your are exposing yourself privacy-wise.**
 
