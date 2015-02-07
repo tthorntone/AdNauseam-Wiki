@@ -1,7 +1,10 @@
 Default-deny is an awesome blocking mode for whoever is ready for the task of having to un-break web sites during the first visit, and agrees that in general most 3rd-party resources from web pages:
 
-- are not really needed
+- are not really _all_ required
 - increase privacy exposure
+
+![Default-deny](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-dd-01.png)<br>
+<sup>Default-deny engaged, through the default blocking of 3rd-party network requests.</sup>
 
 The benefits of using default-deny are plenty:
 
