@@ -28,7 +28,7 @@ For more advanced whitelisting control, see ["How to whitelist a web site"](http
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1c.png)
 
-This shows the number of network requests which were blocked on the current page. Also, less useful, but users like this kind of thing, the number of network requests blocked since install.
+This shows the number of network requests which were blocked on the current page. Also, less useful, but people like this kind of thing, the number of network requests blocked since install.
 
 Click the eye-dropper icon to enter [element picker mode](https://github.com/gorhill/uBlock/wiki/Element-picker), which allows to create a filter by interactively picking an element on a page, in order to have the element permanently removed from the page.
 
