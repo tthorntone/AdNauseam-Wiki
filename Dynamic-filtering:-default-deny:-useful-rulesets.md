@@ -72,7 +72,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     reddit.com redditstatic.com * noop
 
     # slashdot.org
-    news.slashdot.org fsdn.com * noop
+    slashdot.org fsdn.com * noop
 
     # stackoverflow.com
     stackoverflow.com sstatic.net * noop
