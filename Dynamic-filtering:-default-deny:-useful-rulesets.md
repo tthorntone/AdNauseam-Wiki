@@ -27,10 +27,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.economist.com static-economist.com * noop
 
     # engadget.com
-    engadget.com 5min.com * noop
-    engadget.com aolcdn.com * noop
-    engadget.com blogcdn.com * noop
-    engadget.com blogsmithmedia.com * noop
+    www.engadget.com 5min.com * noop
+    www.engadget.com aolcdn.com * noop
+    www.engadget.com blogcdn.com * noop
+    www.engadget.com blogsmithmedia.com * noop
 
     # facebook.com
     facebook.com akamaihd.net * noop
@@ -123,3 +123,6 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # wikipedia.org
     wikipedia.org wikimedia.org * noop
+
+    # zdnet.com
+    www.zdnet.com cbsistatic.com * noop
