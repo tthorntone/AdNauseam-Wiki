@@ -5,7 +5,7 @@ Here is a quick illustrated comparison of efficiency using various angles. Each 
 - [Added memory footprint to web pages](#added-memory-footprint-to-web-pages)
 - [Added CPU overhead to web pages](#added-cpu-overhead-to-web-pages)
 
-By the way, I need to dispel a silly myth given how often it surfaces: [Adblock Edge uses Adblock Plus filtering engine](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/abp-abe.png), so it is **not** more efficient as ABP.
+By the way, I need to dispel a silly myth given how often it surfaces: [Adblock Edge uses Adblock Plus filtering engine](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/abp-abe.png), so it is **not** more efficient than ABP.
 
 ### Own memory footprint
 
