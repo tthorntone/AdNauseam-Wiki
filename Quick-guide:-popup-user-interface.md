@@ -42,3 +42,4 @@ In a best-case scenario, the number of distinct domains to which a web page conn
 
 **The higher the number, the higher your are exposing yourself privacy-wise.**
 
+There is also a good correlation between undue page bloat and high domains connected count.
