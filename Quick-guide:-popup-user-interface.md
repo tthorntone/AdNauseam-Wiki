@@ -10,6 +10,8 @@ This is µBlock's popup UI when you click on µBlock's icon in the toolbar:
 
 Click the title bar of the popup to go to µBlock's dashboard.
 
+***
+
 #### The large green button
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1b.png)
@@ -19,6 +21,8 @@ Click the large green button to turn off µBlock for the current site (a.k.a. _w
 Alternatively, you can also <Ctrl>-click to turn off µBlock only for the current page.
 
 For more advanced whitelisting control, see ["How to whitelist a web site"](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site).
+
+***
 
 #### The number of requests blocked
 
