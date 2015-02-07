@@ -45,6 +45,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # This one is needed to allow auto-upload of images through drag-n-drop
     github.com s3.amazonaws.com * noop
 
+    # huffingtonpost.co.uk
+    www.huffingtonpost.co.uk huffpost.com * noop
+
     # lifehacker.com
     lifehacker.com kinja-img.com * noop
     lifehacker.com kinja-static.com * noop
