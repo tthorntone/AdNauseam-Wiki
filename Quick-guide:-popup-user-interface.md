@@ -42,7 +42,7 @@ Click the eye icon to bring up the [network request logger](Quick-guide:-network
 
 The number of distinct domains with which a network connection was established, out of all connections (established + attempted). The domains are derived using the official [Public Suffix List](https://publicsuffix.org/).
 
-In general, it must be assumed that each distinct domain is managed by a distinct administrative authority. In practice, it is common to have a couple distinct domains which are under the same administrative authority (for example: `google.com`, `ajax.googleapis.com`, `gstatic.com`).
+In general, it must be assumed that each distinct domain is managed by a distinct administrative authority. In practice, it is common to have a couple distinct domains which are under the same administrative authority (for example: `google.com`, `ajax.googleapis.com` and `gstatic.com`, or `wikipedia.org` and `wikimedia.org`).
 
 So in general, this statistic has to be seen this way: the more distinct domains your browser connects to, the larger the privacy exposure.
 
