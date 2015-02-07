@@ -44,13 +44,13 @@ The number of distinct domains with which a network connection was established, 
 
 In general, it must be assumed that each distinct domain is managed by a distinct administrative authority. In practice, it is not uncommon to have a couple distinct domains which are under the same administrative authority (for example: `google.com`, `ajax.googleapis.com` and `gstatic.com`, or `wikipedia.org` and `wikimedia.org`).
 
-So in general, this statistic has to be seen this way: the more distinct domains your browser connects to, the larger the privacy exposure.
+In general, this statistic has to be seen this way: the more distinct domains your browser connects to, the larger the privacy exposure.
 
 In a best-case scenario, the number of distinct domains to which a web page connects should be **only one**, i.e. that of the remote server from which the web page was fetched.
 
 **The higher the number, the higher your are exposing yourself privacy-wise.**
 
-There is also a good correlation between _domains connected_ count and: undue page bloat, high privacy exposure, likelihood of being the target of data mining.
+There is a good correlation between _domains connected_ count and: undue page bloat, high privacy exposure, likelihood of being the target of data mining.
 
 Example, a web page on <http://www.ibtimes.com/> (which could be read all fine in all cases by the way):
 
