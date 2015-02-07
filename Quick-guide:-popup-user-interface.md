@@ -52,8 +52,10 @@ In a best-case scenario, the number of distinct domains to which a web page conn
 
 There is also a good correlation between undue page bloat and high domains connected count.
 
-Example, a web page on <http://www.ibtimes.com/>:
+Example, a web page on <http://www.ibtimes.com/>, which could be read all fine in all cases:
 
-µBlock turned off | µBlock with default settings | µBlock in default-deny mode
------------------ | ---------------------------- | ---------------------------
+    | µBlock turned off | µBlock with default settings | µBlock in default-deny mode
+--- | --- | --- | ---
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1e.png) | ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1d.png) | ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1f.png)
+Privacy exposure | very high | medium | very low
+Bloat | very high | medium | very low
