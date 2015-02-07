@@ -57,5 +57,5 @@ Example, a web page on <http://www.ibtimes.com/>, which could be read all fine i
     | µBlock turned off | µBlock with default settings | µBlock in default-deny mode
 --- | --- | --- | ---
 domains connected | ![](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1e.png) | ![](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1d.png) | ![](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1f.png)
-Privacy exposure | very high | medium | very low
-Bloat | very high | medium | very low
+privacy exposure | very high | medium | very low
+bloat | very high | medium | very low
