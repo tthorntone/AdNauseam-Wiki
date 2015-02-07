@@ -99,6 +99,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     techcrunch.com wp.com * noop
     techcrunch.com wpcomwidgets.com * noop
 
+    # techrepublic.com
+    www.techrepublic.com cbsimg.net * noop
+    www.techrepublic.com cbsistatic.com * noop
+
     # theguardian.com
     www.theguardian.com guardianapps.co.uk * noop
     www.theguardian.com guim.co.uk * noop
