@@ -59,3 +59,5 @@ Example, a web page on <http://www.ibtimes.com/> (which could be read all fine i
 domains connected | ![](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1e.png) | ![](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1d.png) | ![](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1f.png)
 privacy exposure | very high | medium | very low
 bloat | ridiculously high | medium | very low
+
+And I had click-to-play enabled in all cases...
