@@ -40,7 +40,7 @@ Click the eye icon to bring up the [network request logger](Quick-guide:-network
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1d.png)
 
-The number of distinct domains with which a network connection was established, out of all connections (established + attempted). The domains are derived using the official [Public Suffix List](https://publicsuffix.org/).
+The number of distinct domains with which a network connection was established, out of all connections (established + blocked). The domains are derived using the official [Public Suffix List](https://publicsuffix.org/).
 
 In general, it must be assumed that each distinct domain is managed by a distinct administrative authority. In practice, it is common to have a couple distinct domains which are under the same administrative authority (for example: `google.com`, `ajax.googleapis.com` and `gstatic.com`, or `wikipedia.org` and `wikimedia.org`).
 
