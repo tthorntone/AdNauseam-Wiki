@@ -4,7 +4,7 @@ This is µBlock's popup UI when you click on µBlock's icon in the toolbar:
 
 #### The title bar
 
-[...]
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1a.png)
 
 Click the title bar of the popup to go to µBlock's dashboard.
 
