@@ -121,6 +121,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     youtube.com youtube-nocookie.com * noop
     youtube.com ytimg.com * noop
 
+    # vox.com
+    www.vox.com ajax.googleapis.com * noop
+    www.vox.com vox-cdn.com * noop
+
     # wikipedia.org
     wikipedia.org wikimedia.org * noop
 
