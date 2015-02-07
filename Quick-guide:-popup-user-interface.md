@@ -34,6 +34,8 @@ Click the eye-dropper icon to enter [element picker mode](https://github.com/gor
 
 Click the eye icon to bring up the [network request logger](Quick-guide:-network-request-logger), which will open in a separate tab. This allows to inspect network traffic on a given page.
 
+***
+
 #### The number of domains connected
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1d.png)
@@ -49,3 +51,9 @@ In a best-case scenario, the number of distinct domains to which a web page conn
 **The higher the number, the higher your are exposing yourself privacy-wise.**
 
 There is also a good correlation between undue page bloat and high domains connected count.
+
+Example, a web page on <http://www.ibtimes.com/>:
+
+µBlock turned off | µBlock with default settings | µBlock in default-deny mode
+----------------- | ---------------------------- | ---------------------------
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1e.png) | ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1d.png) | ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1f.png)
