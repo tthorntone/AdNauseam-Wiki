@@ -1,0 +1,44 @@
+This is µBlock's popup UI when you click on µBlock's icon in the toolbar:
+
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
+
+#### The title bar
+
+[...]
+
+Click the title bar of the popup to go to µBlock's dashboard.
+
+#### The large green button
+
+[...]
+
+Click the large green button to turn off µBlock for the current site (a.k.a. _whitelist_ the current site). This will be remembered the next time you visit the site.
+
+Alternatively, you can also <Ctrl>-click to turn off µBlock only for the current page.
+
+For more advanced whitelisting control, see ["How to whitelist a web site"](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site).
+
+#### The number of requests blocked
+
+[...]
+
+This shows the number of network requests which were blocked on the current page. Also, less useful, but users like this kind of thing, the number of network requests blocked since install.
+
+Click the eye-dropper icon to enter [element picker mode](https://github.com/gorhill/uBlock/wiki/Element-picker), which allows to create a filter by interactively picking an element on a page, in order to have the element permanently removed from the page.
+
+Click the eye icon to bring up the [network request logger](Quick-guide:-network-request-logger), which will open in a separate tab. This allows to inspect network traffic on a given page.
+
+#### The number of domains connected
+
+[...]
+
+The number of distinct domains with which a network connections was established. The domains are derived using the official [Public Suffix List](https://publicsuffix.org/).
+
+It must be assumed that each distinct domain is managed by a distinct administrative authority.
+
+So in general, this statistic has to be seen this way: the more distinct domains your browser connects to, the larger the privacy exposure.
+
+In a best-case scenario, the number of distinct domains to which a web page connects should be one only, i.e. that of the remote server from which the web page was fetched.
+
+**The higher the number, the higher your are exposing yourself privacy-wise.**
+
