@@ -40,7 +40,7 @@ Click the eye icon to bring up the [network request logger](Quick-guide:-network
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1d.png)
 
-The number of distinct domains with which a network connection was established. The domains are derived using the official [Public Suffix List](https://publicsuffix.org/).
+The number of distinct domains with which a network connection was established, out of all connections (established + attempted). The domains are derived using the official [Public Suffix List](https://publicsuffix.org/).
 
 It must be assumed that each distinct domain is managed by a distinct administrative authority.
 
