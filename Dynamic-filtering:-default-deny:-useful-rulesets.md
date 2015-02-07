@@ -26,6 +26,11 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # economist.com
     www.economist.com static-economist.com * noop
 
+    # engadget.com
+    engadget.com aolcdn.com * noop
+    engadget.com blogcdn.com * noop
+    engadget.com blogsmithmedia.com * noop
+
     # facebook.com
     facebook.com akamaihd.net * noop
     facebook.com fbcdn.net * noop
