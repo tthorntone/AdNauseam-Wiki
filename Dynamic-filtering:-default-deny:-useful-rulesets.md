@@ -17,6 +17,11 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # arstechnica.com
     arstechnica.com arstechnica.net * noop
 
+    # buzzfeed.com
+    www.buzzfeed.com akamaihd.net * noop
+    www.buzzfeed.com buzzfed.com * noop
+    www.buzzfeed.com instagram.com * noop
+
     # crowdin.com
     crowdin.com d1ztvzf22lmr1j.cloudfront.net * noop
 
