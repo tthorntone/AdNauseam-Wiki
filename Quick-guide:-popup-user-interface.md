@@ -10,7 +10,7 @@ Click the title bar of the popup to go to µBlock's dashboard.
 
 #### The large green button
 
-[...]
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1b.png)
 
 Click the large green button to turn off µBlock for the current site (a.k.a. _whitelist_ the current site). This will be remembered the next time you visit the site.
 
@@ -20,7 +20,7 @@ For more advanced whitelisting control, see ["How to whitelist a web site"](http
 
 #### The number of requests blocked
 
-[...]
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1c.png)
 
 This shows the number of network requests which were blocked on the current page. Also, less useful, but users like this kind of thing, the number of network requests blocked since install.
 
@@ -30,7 +30,7 @@ Click the eye icon to bring up the [network request logger](Quick-guide:-network
 
 #### The number of domains connected
 
-[...]
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1d.png)
 
 The number of distinct domains with which a network connections was established. The domains are derived using the official [Public Suffix List](https://publicsuffix.org/).
 
