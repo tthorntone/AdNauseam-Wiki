@@ -50,7 +50,7 @@ In a best-case scenario, the number of distinct domains to which a web page conn
 
 **The higher the number, the higher your are exposing yourself privacy-wise.**
 
-There is also a good correlation between undue page bloat and high domains connected count.
+There is also a good correlation between _domains connected_ count and: undue page bloat, high privacy exposure, likelihood of being the target of data mining.
 
 Example, a web page on <http://www.ibtimes.com/> (which could be read all fine in all cases by the way):
 
