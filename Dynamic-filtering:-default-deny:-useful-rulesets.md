@@ -141,6 +141,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.vox.com ajax.googleapis.com * noop
     www.vox.com vox-cdn.com * noop
 
+    # washingtonpost.com
+    www.washingtonpost.com wpdigital.net * noop
+
     # wikipedia.org
     wikipedia.org wikimedia.org * noop
 
