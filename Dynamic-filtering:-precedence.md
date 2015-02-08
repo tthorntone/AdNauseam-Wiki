@@ -1,4 +1,8 @@
 Dynamic `allow`/`block` rules override static filtering rules.
+- Use `allow` to force requests to be allowed regardless of whether they would normally be blocked by static filtering.
+    - Useful to fix sites broken by false positives in _EasyList_, _EasyPrivacy_ (or any other static filter lists).
+- Use `block` to force requests to be blocked even if regardless of whether they would normally be allowed by static filtering.
+    - Useful to block with 100% certainty, to bypass exception filters with which you may disagree in _EasyList_, _EasyPrivacy_ (or any other static filter lists).
 
 There is a precedence logic for dynamic filtering cells:
 
