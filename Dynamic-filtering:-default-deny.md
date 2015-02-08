@@ -14,6 +14,15 @@ The benefits of using default-deny are plenty:
 - Increase browser security
 - Easier on your browser's memory and CPU footprint
 
+[...]
+
+You can disengage default-deny for the current site with one click: set the local "3rd-party" cell to `noop`:
+
+![Default-deny](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-dd-02.png)<br>
+<sup>Default-deny engaged, through the default blocking of 3rd-party network requests.</sup>
+
+This results in default-deny being disengaged for the current site (`theguardian.com` in the picture), **while** keeping engaged static filtering (_EasyList, _EasyPrivacy_, etc.)
+
 > working on it.. topic to cover:
 > 
 > no need to use malware domain lists since all 3rd-parties are blocked by default = leaner uBlock
