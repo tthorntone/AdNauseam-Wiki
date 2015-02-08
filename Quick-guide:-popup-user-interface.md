@@ -44,7 +44,7 @@ The number of distinct domains with which a network connection was established, 
 
 In general, it must be assumed that each distinct domain is managed by a distinct administrative authority. In practice, it is not uncommon to have a couple distinct domains which are under the same administrative authority (for example: `google.com`, `ajax.googleapis.com` and `gstatic.com`, or `wikipedia.org` and `wikimedia.org`).
 
-In general, this statistic has to be seen this way: the more distinct domains your browser connects to, the larger the privacy exposure.
+That said, this statistic has to be seen this way: the more distinct domains your browser connects to, the larger the privacy exposure.
 
 In a best-case scenario, the number of distinct domains to which a web page connects should be **only one**, i.e. that of the remote server from which the web page was fetched.
 
