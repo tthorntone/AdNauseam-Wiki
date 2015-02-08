@@ -33,7 +33,7 @@ This results in default-deny being disengaged for the current site ([The Guardia
 
 ***
 
-This is an important aspect of  µBlock compared to µMatrix, RequestPolicy, Policeman: in µBlock, rules are ternary, not binary.
+This is an important aspect of  µBlock compared to [µMatrix](https://github.com/gorhill/uMatrix), [RequestPolicy](https://addons.mozilla.org/en-us/firefox/addon/requestpolicy/), [Policeman](https://addons.mozilla.org/en-us/firefox/addon/policeman/): in µBlock, rules are ternary, not binary.
 
 ***
 > working on it.. topic to cover:
