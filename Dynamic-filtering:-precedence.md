@@ -14,7 +14,7 @@ The party-specific cells override the type-specific cells.
 - `example.com` override `images`
 
 The more specific the party, the higher the precedence.
-- `example.com` overrides `3rd-party scripts`
+- `example.com` overrides `1rd-party scripts`
 - `www.example.com` overrides `example.com`
 
 Party-specific and type-specific cells override party-specific cells:
