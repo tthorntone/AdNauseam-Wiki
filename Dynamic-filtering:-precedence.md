@@ -3,6 +3,7 @@ Dynamic `allow`/`block` rules override static filtering rules.
 There is a precedence logic for dynamic filtering cells:
 
 Local rules override global rules.
+- Local setting for `example.com` override global setting for `example.com`.
 
 The party-specific cells override the type-specific cells.
 - `3rd-party` override `images`
