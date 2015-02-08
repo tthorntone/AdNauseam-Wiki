@@ -29,4 +29,4 @@ This results in default-deny being disengaged for the current site (`theguardian
 >
 > ubiquitous servers blocked by default, i.e. no need to pre-emptively block facebook, google, twitter, linkdin, etc. to prevent tracking by these
 >
-> provide many real-life examples of how easy it is to un-break websites, including worst case scenario of simply setting the `3rd-party` cell to `noop` to completely disengage default-deny for one specific web site, if it gets too complicated
+> provide many real-life examples of how easy it is to un-break websites
