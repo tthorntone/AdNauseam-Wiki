@@ -18,4 +18,4 @@ Party-specific and type-specific cells override party-specific cells:
 
 All cells override the `all` cells. The local `all` cell overrides the global `all` cell.
 
-The UI is designed in such way that the precedence logic should quickly become obvious.
+The UI is designed in such way that the precedence logic should quickly become obvious with usage.
