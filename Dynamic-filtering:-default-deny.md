@@ -16,7 +16,7 @@ The benefits of using default-deny are plenty:
 
 [...]
 
-You can disengage default-deny for the current site with one click: set the local "3rd-party" cell to `noop`:
+You can disengage default-deny for the current site with one click: set the "3rd-party" local setting to `noop`:
 
 ![Default-deny](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-dd-02.png)<br>
 <sup>Default-deny cancelled locally.</sup>
