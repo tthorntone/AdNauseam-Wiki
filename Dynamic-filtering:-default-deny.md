@@ -27,7 +27,7 @@ Keep in mind that all rules are permanent as soon as they are set (or unset).
 You can disengage default-deny for the current site with one click: set the "3rd-party" local setting to `noop` if you prefer to work this way:
 
 ![Default-deny](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-dd-02.png)<br>
-<sup>Default-deny cancelled locally. Notice that the blocking of 3rd-party frames is still in effect: cells with higher precedence won't have their rules overriden by cell with lower precedence.</sup>
+<sup>Default-deny cancelled locally. Notice that the blocking of 3rd-party frames is still in effect: cells with higher precedence won't have their rules overriden by cells with lower precedence.</sup>
 
 This results in default-deny being disengaged for the current site ([The Guardian](http://www.theguardian.com/) in our example), **while** keeping engaged static filtering (_EasyList_, _EasyPrivacy_, etc.)
 
