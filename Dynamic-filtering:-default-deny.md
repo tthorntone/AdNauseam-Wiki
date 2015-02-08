@@ -31,6 +31,11 @@ You can disengage default-deny for the current site with one click: set the "3rd
 
 This results in default-deny being disengaged for the current site ([The Guardian](http://www.theguardian.com/) in our example), **while** keeping engaged static filtering (_EasyList_, _EasyPrivacy_, etc.)
 
+***
+
+This is an important aspect of  µBlock compared to µMatrix, RequestPolicy, Policeman: in µBlock, rules are ternary, not binary.
+
+***
 > working on it.. topic to cover:
 > 
 > no need to use malware domain lists since all 3rd-parties are blocked by default = leaner uBlock
