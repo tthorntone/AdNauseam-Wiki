@@ -41,3 +41,5 @@ The picture above shows what happen when you navigate through Github: Github mak
 **Important:** Filter behind-the-scene requests at your own risk. I will close without further comment any reported issue which is a direct consequence of blocking behind-the-scene network requests. Remember that if you block indiscriminately, you could cripple the ability of your browser to update extensions, ability of extensions to work properly, etc. This is why this is deemed an advanced user feature.
  
 To turn off the filtering of behind-the-scene requests is just a matter of whitelisting the _"Behind the scene"_ scope, or to turn off _"advanced user"_ mode.
+
+To whitelist the behind-the-scene scope: add `behind-the-scene` as a whitelist directive, in the _Whitelist_ tab of µBlock's dashboard.
