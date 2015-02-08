@@ -22,6 +22,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.buzzfeed.com buzzfed.com * noop
     www.buzzfeed.com instagram.com * noop
 
+    # change.org
+    www.change.org d22r54gnmuhwmk.cloudfront.net * noop
+
     # cnet.com
     www.cnet.com cbsimg.net * noop
     www.cnet.com cbsistatic.com * noop
