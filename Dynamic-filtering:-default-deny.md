@@ -20,7 +20,7 @@ The advantages do not come for free. Often, default-deny will require a bit of w
 
 As seen in the picture above, a few 3rd-party domains related to `theguardian.com` had to be un-blocked for the page to display and behave properly. Notice that `noop` rules (dark gray) were used to un-block the domains.
 
-A `noop` rule is different than an `allow` rule (green): an `allow` rule will cause all block filters from static filtering to be bypassed, while a `noop` rule will just disengage dynamic filtering, while keeping static filtering engaged.
+A `noop` rule is different than an `allow` rule (green): an `allow` rule will cause all block filters from static filtering to be bypassed, while a `noop` rule will just disengage dynamic filtering and keep static filtering engaged.
 
 Keep in mind that all rules are permanent as soon as they are set (or unset).
 
