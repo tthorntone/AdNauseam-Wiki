@@ -17,3 +17,5 @@ Party-specific and type-specific cells override party-specific cells:
 - `3rd-party frames` overrides `3rd-party`
 
 All cells override the `all` cells. The local `all` cell overrides the global `all` cell.
+
+The UI is designed in such way that the precedence logic should quickly become obvious.
