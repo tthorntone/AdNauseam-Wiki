@@ -18,7 +18,11 @@ The advantages do not come for free. Often, default-deny will require a bit of w
 
 ![Default-deny](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-dd-03.png)
 
-As seen in the picture above, a few 3rd-party domains related to `theguardian.com` had to be un-blocked for the page to display and behave properly. Note that all rules are permanent as soon as they are set (or unset).
+As seen in the picture above, a few 3rd-party domains related to `theguardian.com` had to be un-blocked for the page to display and behave properly. Notice that `noop` rule (dark gray) were used to un-block the domains.
+
+A `noop` rule is different than an `allow` rule: an `allow` rule will cause all block filters from static filtering to be bypassed, while a `noop` rule will just disengage dynamic filtering, while keeping static filtering engaged.
+
+Keep in mind that all rules are permanent as soon as they are set (or unset).
 
 You can disengage default-deny for the current site with one click: set the "3rd-party" local setting to `noop` if you prefer to work this way:
 
