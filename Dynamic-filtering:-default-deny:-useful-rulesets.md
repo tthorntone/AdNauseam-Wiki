@@ -97,6 +97,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     reddit.com redditmedia.com * noop
     reddit.com redditstatic.com * noop
 
+    # theregister.co.uk
+    www.theregister.co.uk regmedia.co.uk * noop
+    forums.theregister.co.uk regmedia.co.uk * noop
+
     # slashdot.org
     slashdot.org bootstrapcdn.com * noop
     slashdot.org fsdn.com * noop
