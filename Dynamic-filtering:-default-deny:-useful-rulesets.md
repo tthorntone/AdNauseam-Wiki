@@ -163,5 +163,8 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # wikipedia.org
     wikipedia.org wikimedia.org * noop
 
+    # wsj.com
+    www.wsj.com wsj.net * noop
+
     # zdnet.com
     www.zdnet.com cbsistatic.com * noop
