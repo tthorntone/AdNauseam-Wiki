@@ -1,4 +1,6 @@
-Note: Dynamic filtering is only available [when "advanced users" setting is turned on](https://github.com/gorhill/uBlock/wiki/Advanced-user-features).
+[Back to "Dynamic-filtering"](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
+
+***
 
 ### Rule syntax
 
@@ -12,7 +14,9 @@ Source hostname always correspond to the hostname extracted from the URL of the 
 
 Type-based rules are used to filter specific types of request on a web page. There currently exists five types of request which can be dynamically filtered:
 
+- `*`: any type of request
 - `image`: images
+- `3p`: any request which 3rd-party to the web page
 - `inline-script`: inline script tags, i.e. scripts embedded in the main document
 - `1p-script`: 1st-party scripts, i.e. scripts which are pulled from the same domain name of the current web page
 - `3p-script`: 3rd-party scripts, i.e. scripts which are pulled from a different domain name than that of the current web page
