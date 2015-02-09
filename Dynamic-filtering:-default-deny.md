@@ -10,7 +10,7 @@ Default-deny is an awesome blocking mode for whoever is ready for the task of ha
 ![Default-deny](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-dd-01.png)<br>
 <sup>Default-deny engaged, through the default blocking of 3rd-party network requests.</sup>
 
-The 3rd-party status of a network request is determined as follow: if the domain of the network request does not match the domain of the web page, the network request is deemed 3rd-party. The domain information is extracted as per the official [Public Suffix List](https://publicsuffix.org/).
+The 3rd-party status of a network request is determined as follow: if the domain of a network request does not match the domain of the web page from which it originates, the network request is deemed 3rd-party. The domain information is extracted as per the official [Public Suffix List](https://publicsuffix.org/).
 
 The benefits of using default-deny are plenty:
 
