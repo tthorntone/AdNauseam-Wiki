@@ -26,6 +26,7 @@ Different classes of cosmetic filters are applied differently:
 
 - Specific cosmetic filters: injected before page's root DOM is loaded
 - Generic cosmetic filters: injected after page's root DOM is loaded
+    - These are cacheable
 - Cached generic cosmetic filters: injected before page's root DOM is loaded
 
 **Short answer:** resources hidden -- in various ways depending on the class of cosmetic filters.
