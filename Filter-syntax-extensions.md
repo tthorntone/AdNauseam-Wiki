@@ -1,9 +1,5 @@
 µBlock supports most of [Adblock Plus filter syntax](https://adblockplus.org/en/filter-cheatsheet). However µBlock does not support some very specific case, and also added its own extensions to ABP filter syntax.
 
-### Not supported
-
-**Regular expression-based filters:** may add according to demand, but if ever I add support for regex-based filters, I will support only for regexes which can be tokenized, or which are specific to a hostname, i.e. regexes which can be implemented in an efficient way.
-
 ### Extended syntax
 
 µBlock extends Adblock Plus filter syntax.
