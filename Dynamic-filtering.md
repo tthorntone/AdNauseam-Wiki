@@ -1,3 +1,7 @@
+[Back to Wiki home](https://github.com/gorhill/uBlock/wiki)
+
+***
+
 Dynamic filtering is available to [advanced users](https://github.com/gorhill/uBlock/wiki/Advanced-user-features). As of version 0.8.7.0, dynamic filtering in µBlock can act as a complete replacement of [RequestPolicy](https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/), or similar add-ons.
 
 - [Dynamic filtering: quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
