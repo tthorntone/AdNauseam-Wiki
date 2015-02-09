@@ -1,4 +1,4 @@
-**The filtering of behind-the-scene network request is available to advanced users.**
+The filtering of behind-the-scene network request is available to [advanced users](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests).
 
 ### What are behind-the-scene network requests
 
