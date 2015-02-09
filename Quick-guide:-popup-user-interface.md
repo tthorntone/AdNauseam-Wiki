@@ -1,3 +1,7 @@
+[Back to Wiki home](https://github.com/gorhill/uBlock/wiki)
+
+***
+
 This is µBlock's popup UI when you click on µBlock's icon in the toolbar:
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
