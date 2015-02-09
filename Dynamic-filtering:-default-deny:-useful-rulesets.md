@@ -35,6 +35,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # deviantart.com
     deviantart.com deviantart.net * noop
 
+    # ebay.com
+    www.ebay.com ebayimg.com * noop
+    www.ebay.com ebaystatic.com * noop
+
     # economist.com
     www.economist.com static-economist.com * noop
 
@@ -131,15 +135,15 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     blog.ycombinator.com posthaven-assets.s3.amazonaws.com * noop
 
     # youtube.com
-    youtube.com content.googleapis.com * noop
-    youtube.com ggpht.com * noop
-    youtube.com google.com * noop
-    youtube.com googleusercontent.com * noop
-    youtube.com googlevideo.com * noop
-    youtube.com gstatic.com * noop
-    youtube.com plus.googleapis.com * noop
-    youtube.com youtube-nocookie.com * noop
-    youtube.com ytimg.com * noop
+    www.youtube.com content.googleapis.com * noop
+    www.youtube.com ggpht.com * noop
+    www.youtube.com google.com * noop
+    www.youtube.com googleusercontent.com * noop
+    www.youtube.com googlevideo.com * noop
+    www.youtube.com gstatic.com * noop
+    www.youtube.com plus.googleapis.com * noop
+    www.youtube.com youtube-nocookie.com * noop
+    www.youtube.com ytimg.com * noop
 
     # vox.com
     www.vox.com ajax.googleapis.com * noop
