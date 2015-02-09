@@ -25,6 +25,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # change.org
     www.change.org d22r54gnmuhwmk.cloudfront.net * noop
 
+    # chromium.org
+    www.chromium.org gstatic.com * noop
+
     # cnet.com
     www.cnet.com cbsimg.net * noop
     www.cnet.com cbsistatic.com * noop
