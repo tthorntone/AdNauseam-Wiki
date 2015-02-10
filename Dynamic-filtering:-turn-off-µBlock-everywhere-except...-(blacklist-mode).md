@@ -1,4 +1,4 @@
-[Back to Wiki home](https://github.com/gorhill/uBlock/wiki)
+[Back to "Dynamic-filtering"](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
 
 ***
 
