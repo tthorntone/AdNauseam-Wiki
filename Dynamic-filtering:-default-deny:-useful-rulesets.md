@@ -88,6 +88,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     lifehacker.com kinja-static.com * noop
     lifehacker.com kinja.com * noop
 
+    # linkedin.com
+    www.linkedin.com licdn.com * noop
+
     # marketwatch.com
     www.marketwatch.com mktw.net * noop
     www.marketwatch.com wsj.net * noop
