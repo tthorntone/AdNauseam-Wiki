@@ -4,6 +4,18 @@ Collection of question which has been asked, along with the answer I provided.
 
 Currently, after four days a filter lists is deemed "obsolete".
 
+#### YouTube filtering options à la ABP (Facebook filtering options à la ABP)
+
+These filter lists do not come with a Creative Common license, thus µBlock is not shipping with these lists. But you can add them manually as custom filter lists. Here are the URLs:
+
+- <https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt>
+- <https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt>
+- <https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt>
+- <https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt>
+- <https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt>
+- <https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt>
+- <https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt>
+
 #### How to show the google text ads?
 
 You can create a whitelist directive *only* for Google search page. For example, in my case it would be:
