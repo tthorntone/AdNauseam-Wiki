@@ -135,6 +135,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.theguardian.com guardianapps.co.uk * noop
     www.theguardian.com guim.co.uk * noop
     www.theguardian.com theguardian.tv * noop
+    profile.theguardian.com guardianapis.com * noop
+    profile.theguardian.com guardianapps.co.uk * noop
+    profile.theguardian.com guim.co.uk * noop
 
     # twitch.tv
     twitch.tv jtvnw.net * noop
