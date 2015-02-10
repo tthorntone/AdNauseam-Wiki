@@ -4,7 +4,7 @@ Collection of question which has been asked, along with the answer I provided.
 
 Currently, after four days a filter lists is deemed "obsolete".
 
-#### YouTube filtering options à la ABP (Facebook filtering options à la ABP)
+#### YouTube filtering options à la ABP (or, Facebook filtering options à la ABP)
 
 These filter lists do not come with a Creative Common license, thus µBlock is not shipping with these lists. But you can add them manually as custom filter lists. Here are the URLs:
 
