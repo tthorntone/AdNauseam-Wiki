@@ -8,5 +8,5 @@
     - [Youtube: Remove Comments](https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt)
     - [Youtube: Remove Youtube Suggestions](https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt)
     - [Youtube: Other Annoyances](https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt)
-- ...
+- Miscellaneous
     - [AntiPubWeb](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt)
