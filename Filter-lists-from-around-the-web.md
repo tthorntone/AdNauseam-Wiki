@@ -4,29 +4,39 @@
 
 ### External filter lists of interest
 
-    Fanboy's Anti-thirdparty Fonts:
-        https://www.fanboy.co.nz/fanboy-antifonts.txt
-    
-    Facebook annoyances blocker:
-        https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt
+##### Fanboy's Anti-thirdparty Fonts
 
-    Facebook sidebar blocker:
-        https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt
+    https://www.fanboy.co.nz/fanboy-antifonts.txt
 
-    Facebook news feed annoyances blocker:
-        https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt
+##### Facebook annoyances blocker
 
-    Youtube: Pure Video Experience:
-        https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt
+    https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt
 
-    Youtube: Remove Comments:
-        https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt
+##### Facebook sidebar blocker
 
-    Youtube: Remove Youtube Suggestions:
-        https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt
+    https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt
 
-    Youtube: Other Annoyances:
-        https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt
+##### Facebook news feed annoyances blocker
 
-    AntiPubWeb:
-        http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt
+    https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt
+
+##### Youtube: Pure Video Experience
+
+    https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt
+
+##### Youtube: Remove Comments
+
+    https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt
+
+##### Youtube: Remove Youtube Suggestions
+
+    https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt
+
+##### Youtube: Other Annoyances
+
+    https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt
+
+##### AntiPubWeb
+
+    http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt
+
