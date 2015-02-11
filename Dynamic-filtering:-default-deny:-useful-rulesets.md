@@ -68,6 +68,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # foxnews.com
     foxnews.com fncstatic.com * noop
 
+    # gigaom.com
+    gigaom.com wordpress.com * noop
+    gigaom.com wp.com * noop
+
     # github.com
     github.com avatars0.githubusercontent.com * noop
     github.com avatars1.githubusercontent.com * noop
