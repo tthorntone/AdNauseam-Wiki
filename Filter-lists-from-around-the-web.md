@@ -1,3 +1,9 @@
+### Import external filter lists
+
+![Custom filter lists](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/3rd-party-filters-custom.png)
+
+### External filter lists of interest
+
 - <https://www.fanboy.co.nz/>
     - [Fanboy's Anti-thirdparty Fonts](https://www.fanboy.co.nz/fanboy-antifonts.txt)
 - <https://easylist-downloads.adblockplus.org/>
