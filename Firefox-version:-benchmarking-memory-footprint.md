@@ -1,5 +1,6 @@
 #### Setup
 
+1. Ensure the blocker is the only active extension (to avoid results to be polluted by other extensions)
 1. Ensure click-to-play (or whatever equivalent) is enabled before launching the benchmark
 1. Select the following filter lists in the benchmarked blockers:
     - EasyList
