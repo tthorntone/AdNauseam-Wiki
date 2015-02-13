@@ -16,15 +16,7 @@ Currently, after four days a filter list is deemed "obsolete".
 
 #### YouTube filtering options à la ABP (or, Facebook filtering options à la ABP)
 
-These filter lists do not come with a Creative Common license, thus µBlock is not shipping with these lists. But you can add them manually as custom filter lists. Here are the URLs:
-
-- <https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt>
-- <https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt>
-- <https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt>
-- <https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt>
-- <https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt>
-- <https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt>
-- <https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt>
+These filter lists do not come with a Creative Common license, thus µBlock is not shipping with these lists. But you can add them manually as custom filter lists. You can find URLs to various external lists on this pahe: [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
 
 #### How to show the google text ads?
 
