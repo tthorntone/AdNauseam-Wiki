@@ -24,6 +24,14 @@ In your case, just replace `google.ca` with whatever is your Google search domai
 
 Whitelist directives are those appearing in the _Whitelist_ tab in µBlock's dashboard, and which serves to disable µBlock completely.
 
+#### Web pages appear only as text
+
+You probably have a bad filter entry in your _"My filters"_ pane in the dashboard. You will have to find it and remove it. For example, a filter entry which look like:
+
+    http
+
+Will cause that exact problem.
+
 #### YouTube filtering options à la ABP (or, Facebook filtering options à la ABP)
 
 These filter lists do not come with a Creative Common license, thus µBlock is not shipping with these lists. But you can add them manually as custom filter lists. You can find URLs to various external lists on this pahe: [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
