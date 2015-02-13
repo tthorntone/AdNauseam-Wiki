@@ -1,4 +1,4 @@
-Collection of questions which has been asked, along with the answer I provided.
+Collection of questions which have been asked, along with the answer I provided, or I would have provided.
 
 #### Fails to block google search ads
 
