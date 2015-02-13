@@ -1,3 +1,7 @@
+**Update:** I use [default-deny](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny) now. There is just too many nasties left unblocked by mainstream static filters.
+
+***
+
 Often people will ask me which filter lists I use. So here is my selection of lists:
 
 **Important:** Use at your own risks, you are on your own. Time is precious and I have none left.
