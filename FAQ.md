@@ -16,7 +16,7 @@ Currently, after four days a filter list is deemed "obsolete".
 
 #### How to show the google text ads?
 
-You can create a whitelist directive *only* for Google search page. For example, in my case it would be:
+You can create a whitelist directive *only* for Google Search page. For example, in my case it would be:
 
     www.google.ca/search*
 
