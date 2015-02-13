@@ -26,9 +26,10 @@ Whitelist directives are those appearing in the _Whitelist_ tab in µBlock's das
 
 #### Web pages appear only as text
 
-You probably have a bad filter entry in your _"My filters"_ pane in the dashboard. You will have to find it and remove it. For example, a filter entry which look like:
+You probably have a bad filter entry in your _"My filters"_ pane in the dashboard. You will have to find it and remove it. For examples, filter entries which look like:
 
     http:
+    /
 
 Will cause that exact problem.
 
