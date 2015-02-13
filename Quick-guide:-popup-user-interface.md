@@ -16,11 +16,11 @@ Click the title bar of the popup to go to µBlock's dashboard.
 
 ***
 
-#### The large green button
+#### The large power button
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1b.png)
 
-Click the large green button to turn off µBlock **for the current site** (a.k.a. _whitelist_ the current site). This will be remembered the next time you visit the site.
+Click the large power button to turn off µBlock **for the current site** (a.k.a. _whitelist_ the current site). This will be remembered the next time you visit the site.
 
 Alternatively, you can also `<Ctrl>`-click to turn off µBlock only for the current page.
 
