@@ -12,7 +12,7 @@ Yes.
 
 #### How often are filter lists updated?
 
-Currently, after four days a filter lists is deemed "obsolete".
+Currently, after four days a filter list is deemed "obsolete".
 
 #### YouTube filtering options à la ABP (or, Facebook filtering options à la ABP)
 
