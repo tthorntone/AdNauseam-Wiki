@@ -1,5 +1,9 @@
 Collection of question which has been asked, along with the answer I provided.
 
+#### Is Firefox version considered stable?
+
+Yes.
+
 #### How often are filter lists updated?
 
 Currently, after four days a filter lists is deemed "obsolete".
