@@ -120,6 +120,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # reuters.com
     www.reuters.com reutersmedia.net * noop
 
+    # slate.com
+    www.slate.com cdnslate.com * noop
+
     # theregister.co.uk
     www.theregister.co.uk regmedia.co.uk * noop
     forums.theregister.co.uk regmedia.co.uk * noop
