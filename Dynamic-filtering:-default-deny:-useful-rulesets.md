@@ -170,6 +170,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # twitter.com
     twitter.com twimg.com * noop
 
+    # variety.com
+    variety.com wordpress.com * noop
+    variety.com wp.com * noop
+
     # yahoo.com
     yahoo.com yimg.com * noop
 
