@@ -22,7 +22,7 @@ Click the title bar of the popup to go to µBlock's dashboard.
 
 Click the large power button to turn off µBlock **for the current site** (a.k.a. _whitelist_ the current site). This will be remembered the next time you visit the site.
 
-Alternatively, you can also <kbd>Ctrl</kbd>-click to turn off µBlock only for the current page.
+Alternatively, you can also <kbd>Ctrl</kbd>-click to turn off µBlock only for the current page (<kbd>command ⌘</kbd>-click on Mac).
 
 For more advanced whitelisting control, see ["How to whitelist a web site"](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site).
 
