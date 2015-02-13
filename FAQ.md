@@ -14,10 +14,6 @@ Yes.
 
 Currently, after four days a filter list is deemed "obsolete".
 
-#### YouTube filtering options à la ABP (or, Facebook filtering options à la ABP)
-
-These filter lists do not come with a Creative Common license, thus µBlock is not shipping with these lists. But you can add them manually as custom filter lists. You can find URLs to various external lists on this pahe: [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
-
 #### How to show the google text ads?
 
 You can create a whitelist directive *only* for Google search page. For example, in my case it would be:
@@ -27,3 +23,7 @@ You can create a whitelist directive *only* for Google search page. For example,
 In your case, just replace `google.ca` with whatever is your Google search domain name.
 
 Whitelist directives are those appearing in the _Whitelist_ tab in µBlock's dashboard, and which serves to disable µBlock completely.
+
+#### YouTube filtering options à la ABP (or, Facebook filtering options à la ABP)
+
+These filter lists do not come with a Creative Common license, thus µBlock is not shipping with these lists. But you can add them manually as custom filter lists. You can find URLs to various external lists on this pahe: [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
