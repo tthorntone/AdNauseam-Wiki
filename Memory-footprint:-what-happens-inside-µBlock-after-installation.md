@@ -12,8 +12,8 @@
     - Generating the selfie also causes short-term memory churning, which short-term memory will be garbage-collected eventually
     - Again, this short term memory churning causes µBlock's baseline memory footprint to grow further
     - Any change in the selection of filter lists, or change in the content of selected filter lists will invalidate µBlock's selfie
-1. Even after the growth in memory baseline, µBlock's own memory footprint is still quite smaller than that of Adblock Plus -- once the garbage collector does its job.
-1. µBlock's much smaller contributed memory footprint to web pages is much smaller than that of ABP
+1. Even after the growth in memory baseline, µBlock's _own memory_ footprint is still quite smaller than that of Adblock Plus -- once the garbage collector does its job.
+1. µBlock's much smaller _contributed memory_ footprint to web pages is much smaller than that of ABP
     - The contributed footprint to web pages is part of the memory footprint of the web pages themselves 
     - As opposed to an extension's own memory footprint, visible using Chromium's _"Task Manager"_, the contributed memory footprint to web pages cannot be easily seen by users
     - Though this measure is not readily visible, it's where you get the biggest bang for the buck with µBlock relative to ABP -- because µBlock **does not** inject thousands of CSS rules into pages and embedded frames.
