@@ -174,6 +174,19 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     variety.com wordpress.com * noop
     variety.com wp.com * noop
 
+    # vox.com
+    www.vox.com ajax.googleapis.com * noop
+    www.vox.com vox-cdn.com * noop
+
+    # washingtonpost.com
+    www.washingtonpost.com wpdigital.net * noop
+
+    # wikipedia.org
+    wikipedia.org wikimedia.org * noop
+
+    # wsj.com
+    www.wsj.com wsj.net * noop
+
     # yahoo.com
     yahoo.com yimg.com * noop
 
@@ -191,19 +204,6 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.youtube.com plus.googleapis.com * noop
     www.youtube.com youtube-nocookie.com * noop
     www.youtube.com ytimg.com * noop
-
-    # vox.com
-    www.vox.com ajax.googleapis.com * noop
-    www.vox.com vox-cdn.com * noop
-
-    # washingtonpost.com
-    www.washingtonpost.com wpdigital.net * noop
-
-    # wikipedia.org
-    wikipedia.org wikimedia.org * noop
-
-    # wsj.com
-    www.wsj.com wsj.net * noop
 
     # zdnet.com
     www.zdnet.com cbsistatic.com * noop
