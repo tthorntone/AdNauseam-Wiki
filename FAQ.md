@@ -1,5 +1,11 @@
 Collection of question which has been asked, along with the answer I provided.
 
+#### Fails to block google search ads
+
+If you have EasyList enabled, µBlock will block ads in Google Search results.
+
+If you feed µBlock with an invalid cosmetic filter in the _"My filters"_ pane in the dashboard, this will break cosmetic filtering, and a symptom of this is that ads will not be blocked in Google Search results.
+
 #### Is Firefox version considered stable?
 
 Yes.
