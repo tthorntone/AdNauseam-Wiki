@@ -14,6 +14,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # Local
 
+    # amazon.ca
+    www.amazon.ca images-amazon.com * noop
+    www.amazon.ca ssl-images-amazon.com * noop
+
     # arstechnica.com
     arstechnica.com arstechnica.net * noop
 
