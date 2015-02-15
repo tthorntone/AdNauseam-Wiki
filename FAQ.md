@@ -41,6 +41,10 @@ You probably have a bad filter entry in your _"My filters"_ pane in the dashboar
 
 Will cause that exact problem.
 
+#### I am worried about stability, should I wait for v1.0?
+
+µBlock is considered stable. The version number is just a convenience to differentiate one release from another one. It doesn't have any more meaning than this.
+
 #### YouTube filtering options à la ABP (or, Facebook filtering options à la ABP)
 
 These filter lists do not come with a Creative Common license, thus µBlock is not shipping with these lists. But you can add them manually as custom filter lists. You can find URLs to various external lists on this pahe: [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
