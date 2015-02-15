@@ -14,7 +14,7 @@ If you feed µBlock with an invalid cosmetic filter in the _"My filters"_ pane i
 
 Yes.
 
-#### Is µBlock related to uTorrent?
+#### Is µBlock related to µTorrent?
 
 No.
 
