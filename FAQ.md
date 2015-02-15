@@ -14,6 +14,10 @@ If you feed µBlock with an invalid cosmetic filter in the _"My filters"_ pane i
 
 Yes.
 
+#### Is µBlock related to uTorrent?
+
+No.
+
 #### How often are filter lists updated?
 
 Currently, after four days a filter list is deemed "obsolete".
