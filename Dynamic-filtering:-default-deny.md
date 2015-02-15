@@ -28,7 +28,7 @@ As seen in the picture above, a few 3rd-party domains related to `theguardian.co
 
 A `noop` rule is different than an `allow` rule (green): an `allow` rule will cause all block filters from static filtering to be bypassed, while a `noop` rule will just disengage dynamic filtering and keep static filtering engaged.
 
-Keep in mind that all rules are permanent as soon as they are set (or unset).
+~~Keep in mind that all rules are permanent as soon as they are set (or unset).~~ As of v0.8.8.0, you need to click the padlock to save your rules: all rules are now temporary by default. This allows users to fiddle with rules without worries about polluting their good ruleset. When you want to keep rules for a specific site, click the padlock. The padlock appears if and only if there is at least one temporary rules in the pane.
 
 You can disengage default-deny for the current site with one click: set the "3rd-party" local setting to `noop` if you prefer to work this way:
 
