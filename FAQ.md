@@ -1,5 +1,9 @@
 Collection of questions which have been asked, along with the answer I provided, or I would have provided.
 
+#### Does it block Youtube ads?
+
+If there are filters to block Youtube ads in EasyList, then yes, it will block Youtube ads.
+
 #### Fails to block Google Search ads
 
 If you have EasyList enabled, µBlock will block ads in Google Search results.
