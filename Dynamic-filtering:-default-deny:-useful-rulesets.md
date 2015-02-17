@@ -117,6 +117,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # mozilla.org
     mozilla.org mozilla.net * noop
+    mozilla.org mozillademos.org * noop
 
     # nbcnews.com
     www.nbcnews.com nbcudigitaladops.com * noop
