@@ -4,7 +4,11 @@ If you indicate to µBlock that you are an advanced user (from the _Settings_ ta
 
 Below are differences between normal mode and advanced user mode.
 
-Also, advanced users are expected to read the documentation. If you think the documentation needs more work, you are very welcome to contribute (it's a wiki, you can edit without asking permission -- I will just ensure all is technically accurate.)
+Also, advanced users are expected to read the documentation. If you think the documentation needs more work, you are very welcome to contribute. Use this grey button to edit any wiki page:
+
+![Edit button](https://i.imgur.com/3X1UXrP.png)
+
+If the wiki editor is currently disabled for non-developers and you don't see this button, you can [suggest your edit on the issue tracker](https://github.com/gorhill/uBlock/issues) instead.
 
 #### No tool tips
 
