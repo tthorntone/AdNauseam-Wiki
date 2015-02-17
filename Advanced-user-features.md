@@ -4,7 +4,7 @@ If you indicate to µBlock that you are an advanced user (from the _Settings_ ta
 
 Below are differences between normal mode and advanced user mode.
 
-Also, advanced users are expected to read the documentation. If you think the documentation needs more work, you are very welcome to contribute. Use this grey button to edit any wiki page:
+Also, advanced users are expected to read the documentation. If you think the documentation needs more work, you are very welcome to contribute. Look for the grey button displayed in this illustration to edit any wiki page:
 
 ![Edit button](https://i.imgur.com/3X1UXrP.png)
 
