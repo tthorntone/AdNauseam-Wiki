@@ -182,6 +182,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     variety.com wordpress.com * noop
     variety.com wp.com * noop
 
+    # venturebeat.com
+    venturebeat.com netdna-cdn.com * noop
+
     # vox.com
     www.vox.com ajax.googleapis.com * noop
     www.vox.com vox-cdn.com * noop
