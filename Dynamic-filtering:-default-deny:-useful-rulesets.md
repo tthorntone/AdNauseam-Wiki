@@ -8,12 +8,11 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # Global
 
-    # exception for enabling firefox sync
-    * services.mozilla.com * noop
-
-    # This one is useful if you want to keep the ability to translate
-    # any web page using the contextual menu in Chromium:
+    # To translate any web page using the contextual menu in Chromium
     * translate.googleapis.com * noop
+
+    # Exception for enabling firefox sync
+    * services.mozilla.com * noop
 
     # Local
 
