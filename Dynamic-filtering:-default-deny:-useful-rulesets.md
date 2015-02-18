@@ -183,6 +183,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # venturebeat.com
     venturebeat.com netdna-cdn.com * noop
+    venturebeat.com vbstatic.co * noop
 
     # vox.com
     www.vox.com ajax.googleapis.com * noop
