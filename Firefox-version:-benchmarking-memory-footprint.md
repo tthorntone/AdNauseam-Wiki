@@ -1,3 +1,5 @@
+![Vim test](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)<br><sup>Infamous VIM test: ABP 1,900 MB vs. uBlock 392 MB</sup>
+
 #### Setup
 
 1. Ensure the blocker is the only active extension (to avoid results to be polluted by other extensions)
