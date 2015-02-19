@@ -53,3 +53,9 @@ Will cause that exact problem.
 #### YouTube filtering options à la ABP (or, Facebook filtering options à la ABP)
 
 These filter lists do not come with a Creative Common license, thus µBlock is not shipping with these lists. But you can add them manually as custom filter lists. You can find URLs to various external lists on this page: [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
+
+#### Are you paid to develop µBlock?
+
+No.
+
+I like to code, and the reward is to see the resulting work useful to others, sometimes [in unexpected ways](https://www.youtube.com/watch?v=90NsjKvz9Ns).
