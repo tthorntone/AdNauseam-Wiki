@@ -1,3 +1,7 @@
+<sup>[中文](https://github.com/fang5566/uBlock/wiki/%C2%B5Block-%E5%92%8C-ABP-%E5%9C%A8%E8%BF%90%E8%A1%8C%E6%95%88%E7%8E%87%E6%96%B9%E9%9D%A2%E7%9A%84%E5%AF%B9%E6%AF%94))</sup>
+
+***
+
 Here is a quick illustrated comparison of efficiency using various angles. Each extension were tested alone, as the only extension present. Benchmarking was performed with Chromium on Linux Mint 64-bit.
 
 - [Own memory footprint](#own-memory-footprint)
