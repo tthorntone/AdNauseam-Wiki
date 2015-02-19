@@ -1,4 +1,4 @@
- <sup>[中文](https://github.com/fang5566/uBlock/wiki/FAQ)</sup>
+<sup>[中文](https://github.com/fang5566/uBlock/wiki/FAQ)</sup>
 
 ***
 
