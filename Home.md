@@ -1,3 +1,7 @@
+<sup>[中文](https://github.com/fang5566/uBlock/wiki/Home)</sup>
+
+***
+
 - [Change log](https://github.com/gorhill/uBlock/releases) ([old one](https://github.com/gorhill/uBlock/wiki/Change-log))
 - [Quick guide: popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
