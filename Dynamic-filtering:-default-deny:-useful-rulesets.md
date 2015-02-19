@@ -98,6 +98,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # huffingtonpost.co.uk
     www.huffingtonpost.co.uk huffpost.com * noop
 
+    # lapresse.ca
+    www.lapresse.ca lpcdn.ca * noop
+
     # lifehacker.com
     lifehacker.com kinja-img.com * noop
     lifehacker.com kinja-static.com * noop
