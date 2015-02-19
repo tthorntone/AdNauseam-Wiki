@@ -37,7 +37,7 @@ Different classes of cosmetic filters are applied differently:
     - Since these cosmetic filters are applied after page load, DOM elements **may** be hidden after they are rendered
     - Notice the emphasized "may": generally, you won't see this; and sometimes you will notice **more** flickering with ABP (with same filter lists):
     - Demonstration: [test page](http://raymondhill.net/ublock/tiles1.html)
-        - Chromium + uBlock: minimal flickering
+        - Chromium + uBlock: minimal flickering (sometimes none)
         - Chromium + ABP: noticeable flickering
         - Firefox + uBlock: no flickering
         - Firefox + ABP: no flickering
