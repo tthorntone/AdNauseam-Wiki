@@ -13,7 +13,7 @@
 - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
 - [Experimental features](https://github.com/gorhill/uBlock/wiki/Experimental-features)
 - [Tricks and tips](https://github.com/gorhill/uBlock/wiki/Tricks-and-tips)
-- [µBlock vs. ABP: efficiency compared](/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared) <sub>([中文](https://github.com/fang5566/uBlock/wiki/%C2%B5Block-%E5%92%8C-ABP-%E5%9C%A8%E8%BF%90%E8%A1%8C%E6%95%88%E7%8E%87%E6%96%B9%E9%9D%A2%E7%9A%84%E5%AF%B9%E6%AF%94))</sub>
+- [µBlock vs. ABP: efficiency compared](/gorhill/uBlock/wiki/%C2%B5Block-vs.-ABP:-efficiency-compared)
     - [Own memory usage: benchmarks over time](https://github.com/gorhill/uBlock/wiki/Own-memory-usage:-benchmarks-over-time)
     - [Contributed memory usage: benchmarks over time](https://github.com/gorhill/uBlock/wiki/Contributed-memory-usage:-benchmarks-over-time)
 - Myths and counterpoints
