@@ -6,7 +6,7 @@ If there are filters to block Youtube ads in EasyList, then yes, it will block Y
 
 #### Is [_other blocker placeholder_] still needed with µBlock?
 
-It all depends of the filter lists you use, and whether you use dynamic filtering in µBlock. I ran benchmark regarding blocking efficiency, this may help you decide whether you should keep another blocker to complement µBlock, or whether you should drop it and further configure µBlock to block more: [µBlock and others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares). The [resulting diffs](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares#data-diffs) are particularly useful in making a decision.
+It all depends of the filter lists you use, and whether you use dynamic filtering in µBlock. I run benchmarks regarding blocking efficiency, this may help you decide whether you should keep another blocker to complement µBlock, or whether you should drop it and further configure µBlock to block more: [µBlock and others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares). The [resulting diffs](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares#data-diffs) are particularly useful in making a decision.
 
 
 
