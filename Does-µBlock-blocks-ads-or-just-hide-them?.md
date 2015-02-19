@@ -14,17 +14,19 @@ There are two kinds of [ABP-compatible filters](https://adblockplus.org/en/filte
 
 #### Network filters
 
-The purpose of network filter is to prevent a network request to be made to a remote server, so as to prevent downloading a remote resource. µBlock will prevent the network request from even being made. This saves bandwidth, decrease privacy exposure -- as the remote server won't be able to log anything if you do not contact it.
-
 **Short answer:** resources blocked: network requests are cancelled before they leave the browser.
+
+The purpose of network filter is to prevent a network request to be made to a remote server, so as to prevent downloading a remote resource. µBlock will prevent the network request from even being made. This saves bandwidth, decrease privacy exposure -- as the remote server won't be able to log anything if you do not contact it.
 
 #### Hosts file
 
-µBlock also support the parsing and enforcing of hosts files -- something which ABP does not. All entries in a hosts file are parsed as network filters, i.e. no resource will be fetch from a remote server which appear in a hosts file, no connection will even be attempted.
-
 **Short answer:** resources blocked: network requests are cancelled before they leave the browser.
 
+µBlock also support the parsing and enforcing of hosts files -- something which ABP does not. All entries in a hosts file are parsed as network filters, i.e. no resource will be fetch from a remote server which appear in a hosts file, no connection will even be attempted.
+
 #### Cosmetic filters
+
+**Short answer:** resources hidden -- in various ways depending on the class of cosmetic filters.
 
 These filters serve to remove DOM elements from a web page. They have no value privacy-wise, it is essentially to make web page look better by removing unwanted content, which usually cannot be blocked using network filters. Just like ABP, µBlock will hide DOM elements on a web page which match cosmetic filters. µBlock uses a [different method](https://github.com/gorhill/uBlock/wiki/Cosmetic-filtering-in-%C2%B5Block:-version-0.4.0.0-update) than other big-name blockers to hide the DOM elements though.
 
@@ -43,5 +45,3 @@ Different classes of cosmetic filters are applied differently:
         - Firefox + ABP: no flickering
 - Cached generic cosmetic filters: injected before page's root DOM is loaded
     - No flickering
-
-**Short answer:** resources hidden -- in various ways depending on the class of cosmetic filters.
