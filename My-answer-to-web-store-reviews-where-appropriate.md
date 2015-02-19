@@ -2,6 +2,14 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### kreemoweet ([mozillazine.org](http://forums.mozillazine.org/viewtopic.php?p=14029145#p14029145), 17 February 2015)
+
+> [...] the µBlock developer has been caught making false statements about his app and other adblockers
+
+Vague claim, no specifics. No answer so far when asked to substantiate claim.
+
+***
+
 #### Connor W. (Chrome store, 27 January 2015)
 
 > It is very lighweight, but it blocked a ton of stuff that wasn't ads. For example, on Google Translate, it blocked all the alternate translations and said it was blocking 225 ads! [2-star rating]
