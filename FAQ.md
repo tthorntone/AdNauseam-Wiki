@@ -1,3 +1,7 @@
+ <sup>[中文](https://github.com/fang5566/uBlock/wiki/FAQ)</sup>
+
+***
+
 Collection of questions which have been asked, along with the answer I provided, or I would have provided.
 
 #### Does it block Youtube ads?
