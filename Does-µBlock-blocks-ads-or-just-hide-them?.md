@@ -8,7 +8,7 @@ There seems to be underhanded attempts to discredit µBlock lately in various ve
 
 > uBlock who is recently found to not actually "block" ads, but rather hide them after its been displayed. Adblock actually blocks them before they can even display them.
 
-The statement above is plain fear-using-disinformation. That kind of disinformation also happens to be convenient to the incumbent blockers, and also to those who have an interest in people using those incumbent blockers.
+The statement above is plain fear-using-disinformation. That kind of disinformation happens to be convenient to the incumbent blockers, **or** to those who have an interest in people using those incumbent blockers.
 
 There are two kinds of [ABP-compatible filters](https://adblockplus.org/en/filters): network filters and cosmetic filters. _Cosmetic filters_ are referred to as _element hiding_ filters by Adblock Plus ("ABP").
 
