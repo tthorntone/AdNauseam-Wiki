@@ -107,6 +107,6 @@ Also, the amount of work µBlock does in its content scripts is proportional to 
 
 ### Related wiki pages
 
-- [Counterarguments: Who care about efficiency, I have 8 GB](https://github.com/gorhill/uBlock/wiki/Counterarguments#who-care-about-efficiency-i-have-8-gb)
+- [Counterarguments: Who cares about efficiency, I have 8 GB](https://github.com/gorhill/uBlock/wiki/Counterarguments#who-care-about-efficiency-i-have-8-gb)
 - [Net request filtering efficiency: HTTP Switchboard vs. Adblock Plus](https://github.com/gorhill/httpswitchboard/wiki/Net-request-filtering-efficiency:-HTTP-Switchboard-vs.-Adblock-Plus)
 - [Adblock Plus memory consumption](https://github.com/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption)
