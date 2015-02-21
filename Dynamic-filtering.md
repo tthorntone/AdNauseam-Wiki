@@ -11,5 +11,5 @@ Dynamic filtering is available to [advanced users](https://github.com/gorhill/uB
     - [Default-deny users: mind behind-the-scene network requests](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests)
 - [Dynamic filtering: turn off µBlock everywhere](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-turn-off-%C2%B5Block-everywhere)
 - [Dynamic filtering: turn off µBlock everywhere _except_... (blacklist mode)](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-turn-off-%C2%B5Block-everywhere-except)
-- [Dynamic filtering: allow 1st-party ads](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-allow-first-party-ads)
+- [Dynamic filtering: allow 1st-party ads](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-disabling-cosmetic-filtering-for-the-current-site)
 - [Dynamic filtering: rule syntax](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax)
