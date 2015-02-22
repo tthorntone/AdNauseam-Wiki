@@ -104,6 +104,11 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # lapresse.ca
     www.lapresse.ca lpcdn.ca * noop
 
+    # latimes.com
+    www.latimes.com trbas.com * noop
+    www.latimes.com trbimg.com * noop
+    www.latimes.com tribdss.com * noop
+
     # lifehacker.com
     lifehacker.com kinja-img.com * noop
     lifehacker.com kinja-static.com * noop
