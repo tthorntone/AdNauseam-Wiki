@@ -7,6 +7,6 @@ Someone asked me if it was possible to disable cosmetic filtering for the curren
 This is actually possible using dynamic filtering: a simple local `allow` rule (green) for the current site:
 
 ![Toggling on/off cosmetic filtering](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-turn-off-cosmetic.gif)<br>
-<sup>Only `twitter.com` is whitelisted, `google-analytics.com` still blocked.</sup>
+<sup>Only `twitter.com` is whitelisted, `google-analytics.com` is still blocked.</sup>
 
 Using an `allow` rule for the current site will disable network **and** cosmetic filtering for the 1st-party domain.
