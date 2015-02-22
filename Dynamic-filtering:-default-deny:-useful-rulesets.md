@@ -108,6 +108,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.latimes.com trbas.com * noop
     www.latimes.com trbimg.com * noop
     www.latimes.com tribdss.com * noop
+    www.latimes.com tribune.com * noop
 
     # lifehacker.com
     lifehacker.com kinja-img.com * noop
