@@ -6,7 +6,7 @@ Collection of questions which have been asked, along with the answer I provided,
 
 #### Does it block Youtube ads?
 
-If there are filters to block Youtube ads in EasyList, then yes, it will block Youtube ads.
+Because there are are filters to block YouTube ads in EasyList, yes, it will block YouTube ads.
 
 #### Is [_other blocker placeholder_] still needed with µBlock?
 
