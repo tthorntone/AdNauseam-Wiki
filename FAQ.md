@@ -81,5 +81,5 @@ In as little words as possible, with as little private matters disclosed:
 - Fall 2013
 - I am Firefox/NoScript user
 - Other user is Chromium/ABP
-- Worried about Chromium not being protected against `iframe` loading freely (as opposed to Firefox/NoScript)
+- Worried about Chromium user not being protected against `iframe` loading freely (as opposed to Firefox/NoScript)
 - Looked into Chrome API to just [hack together a quick `iframe` blocker](https://news.ycombinator.com/item?id=6871331)
