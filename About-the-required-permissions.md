@@ -1,7 +1,7 @@
 ### "Access your data on all web sites"
 
 - To be able to inspect all net requests so that they can be cancelled if needed.
-Only on http- and https-based URL addresses.
+    - Only on http- and https-based URL addresses.
 
 See code:
 
