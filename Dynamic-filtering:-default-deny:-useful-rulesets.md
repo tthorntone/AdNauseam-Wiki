@@ -101,6 +101,11 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # huffingtonpost.co.uk
     www.huffingtonpost.co.uk huffpost.com * noop
 
+    # kaspersky.com
+    blog.kaspersky.com kaspersky-cyberstat.com * noop
+    blog.kaspersky.com kasperskycontenthub.com * noop
+    blog.kaspersky.com netdna-cdn.com * noop
+
     # lapresse.ca
     www.lapresse.ca lpcdn.ca * noop
 
