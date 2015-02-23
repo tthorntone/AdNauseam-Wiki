@@ -2,6 +2,7 @@
 
 To be able to inspect all net requests so that they can be cancelled if needed.
 Only on http- and https-based URL addresses.
+
 See code:
 
 - https://github.com/gorhill/uBlock/search?q=%22chrome.webRequest%22&type=Code
