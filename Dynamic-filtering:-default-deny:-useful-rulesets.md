@@ -160,6 +160,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     slashdot.org bootstrapcdn.com * noop
     slashdot.org fsdn.com * noop
 
+    # slideshare.net
+    www.slideshare.net slidesharecdn.com * noop
+
     # stackoverflow.com
     stackoverflow.com sstatic.net * noop
 
