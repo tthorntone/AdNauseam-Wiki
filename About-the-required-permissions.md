@@ -20,5 +20,5 @@ To implement the popup-blocker
 
 See code:
 
-- https://github.com/gorhill/uBlock/search?q=%22chrome.tabs%22&type=Code
-- https://github.com/gorhill/uBlock/search?q=%22chrome.webNavigation%22&type=Code
+- [chrome.tabs](https://github.com/gorhill/uBlock/search?q=%22chrome.tabs%22&type=Code)
+- [chrome.webNavigation](https://github.com/gorhill/uBlock/search?q=%22chrome.webNavigation%22&type=Code)
