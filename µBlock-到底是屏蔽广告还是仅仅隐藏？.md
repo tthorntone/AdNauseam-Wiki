@@ -1,10 +1,10 @@
-I've seen an increase in misrepresentation and disinformation lately regarding µBlock -- and not surprisingly always from anonymous sources.
+我最近听到很多关于 μBlock 的不实消息，这些消息并不意外地都来自匿名渠道。
 
-I will set the official record here.
+我会把它们正式记录在这里。
 
-There seems to be underhanded attempts to discredit µBlock lately in various venues. Here is a typical comment: 
+最近有很多人在各种场合尝试用低劣的手段来抨击 μBlock，比如下面这个典型的说辞： 
 
-> uBlock who is recently found to not actually "block" ads, but rather hide them after its been displayed. Adblock actually blocks them before they can even display them.
+> 最近刚出的 uBlock 实际上没有"屏蔽"广告，只是在显示以后再隐藏，Adblock 才能真正地在显示之前就屏蔽这些广告。
 
 The statement above is plain fear-using-disinformation. That kind of disinformation happens to be convenient to the incumbent blockers, **or** to those who have an interest in people using those incumbent blockers.
 
