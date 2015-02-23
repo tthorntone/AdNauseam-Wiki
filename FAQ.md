@@ -50,6 +50,16 @@ You probably have a bad filter entry in your _"My filters"_ pane in the dashboar
 
 Will cause that exact problem.
 
+#### The badge count is very high, doesn't this slow down µBlock?
+
+- Open a new document in a plain text editor
+- Type "1"
+- Notice the text editor's responsiveness
+- Replace "1" with "1,000,000"
+- Notice the text editor's responsiveness
+
+Sounds absurd? It is. So is the claim that a high badge count slows down µBlock. It's just a _counter_ for the number of blocked network requests.
+
 #### I am worried about stability, should I wait for v1.0?
 
 µBlock is considered stable. The version number is just a convenience to differentiate one release from another one. It doesn't have any more meaning than this.
