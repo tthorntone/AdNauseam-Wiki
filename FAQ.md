@@ -73,3 +73,13 @@ These filter lists do not come with a Creative Common license, thus µBlock is n
 No.
 
 I like to code, and the reward is to see the resulting work useful to others, sometimes [in unexpected ways](https://www.youtube.com/watch?v=90NsjKvz9Ns).
+
+#### Why not Firefox first instead of Chromium?
+
+In as little words as possible, with as little private matters disclosed:
+
+- Fall 2013
+- I am Firefox/NoScript user
+- Other user is Chromium/ABP
+- Worried about Chromium not being protected against `iframe` loading freely (as opposed to Firefox/NoScript)
+- Looked into Chrome API to just [hack together a quick `iframe` blocker](https://news.ycombinator.com/item?id=6871331)
