@@ -106,6 +106,12 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     blog.kaspersky.com kasperskycontenthub.com * noop
     blog.kaspersky.com netdna-cdn.com * noop
 
+    # kickstarter.com
+    www.kickstarter.com d297h9he240fqh.cloudfront.net * noop
+    www.kickstarter.com d2pq0u4uni88oo.cloudfront.net * noop
+    www.kickstarter.com imgix.net * noop
+    www.kickstarter.com kck.st * noop
+
     # lapresse.ca
     www.lapresse.ca lpcdn.ca * noop
 
