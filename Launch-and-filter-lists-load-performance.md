@@ -4,7 +4,7 @@ So this is what has been done in 0.8.9.0. The idea is rather simple: create a co
 
 ![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/setup-performance-internals.png)
 
-The compiled version of a filter list is contains very deterministic content, such that no complicated parsing is required. This improves launch time performance (smaller is better):
+The compiled version of a filter list contains very deterministic content, such that no complicated parsing is required. This improves launch time performance (smaller is better):
 
 ![Figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/setup-performance-0.8.9.0.png)
 
