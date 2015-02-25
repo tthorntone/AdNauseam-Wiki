@@ -1,1 +1,1 @@
-[I will add whatever relevant here as time go]
+[I will add whatever is relevant here as time goes on]
