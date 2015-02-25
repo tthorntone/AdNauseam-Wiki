@@ -1,0 +1,1 @@
+![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/setup-performance-internals.png)
