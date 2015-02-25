@@ -43,7 +43,7 @@ So roughly this is it.
 
 There are nice virtuous side effects with using compiled filter lists. One of them is the very accurate counting of distinct filters, and the ability to _completely_ detect duplicates. Prior to 0.8.9.0, µBlock tried best to detect duplicate, but it wasn't perfect, as it was using the raw representation of a filter to decide whether the filter was already processed.
 
-So this meant that the following duplicated filters would not have been seen as duplicate by µBlock, even though they essentially accomplish the same thing:
+So this meant that the following duplicated filters would not have been seen as duplicates by µBlock, even though they essentially accomplish the same thing:
 
     /advertisers.$image,script
     /advertisers.$script,image
