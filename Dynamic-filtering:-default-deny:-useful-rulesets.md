@@ -198,6 +198,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.theverge.com vox-cdn.com * noop
     www.theverge.com voxmedia.com * noop
 
+    # tomshardware.com
+    www.tomshardware.com bestofmedia.com * noop
+    www.tomshardware.com bestofmicro.com * noop
+
     # twitch.tv
     twitch.tv jtvnw.net * noop
     twitch.tv swiftype.com * noop
