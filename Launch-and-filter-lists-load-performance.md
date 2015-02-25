@@ -12,6 +12,27 @@ And this also improve the performance when filter lists have to be reloaded:
 
 ![Figure 3](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/filters-load-performance-0.8.9.0.png)
 
-A compiled filter lists is made of a sequence of _atomic_ filter, i.e. a filter which is not composite. ABP-compatible filter syntax allows the creation of composite filters, i.e. filter declarations which really represents many filters. For example:
+A compiled filter lists is made of a sequence of _atomic_ filter, i.e. a filter which is not composite. ABP-compatible filter syntax allows the creation of composite filters, i.e. filter declarations which really represents many filters. For example, a raw filter found in _EasyList_:
 
-    
+    /advertisers.$image,script,subdocument
+
+From µBlock's point of view, this is really three separate filters:
+
+    /advertisers.$image
+    /advertisers.$script
+    /advertisers.$subdocument
+
+It can quickly get more complicated (just added the domain filter option for demonstration purpose):
+
+    /advertisers.$image,script,subdocument,domain=example.com|whatever.org
+
+Translate internally into:
+
+    /advertisers.$image,domain=example.com
+    /advertisers.$script,domain=example.com
+    /advertisers.$subdocument,domain=example.com
+    /advertisers.$image,domain=whatever.org
+    /advertisers.$script,domain=whatever.org
+    /advertisers.$subdocument,domain=whatever.org
+
+These are atomic filters, they can't be decomposed into smaller filters.
