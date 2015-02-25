@@ -1,6 +1,6 @@
 Parsing raw filter lists is a CPU and memory intensive task. Adblock Plus-compatible filter syntax is complex, and thus parsing those filters requires a lot of CPU cycles. To add to the parsing complexity, µBlock also supports the parsing of hosts files. Though µBlock could parse filter lists at a satisfying speed, this doesn't mean trying to improve performance in that area should not be attempted.
 
-So this is what has been done in 0.8.9.0. The idea is rather simple: create and cache a compiled version of a filter list, so that next time it needs to be loaded in memory, all the costly parts of the parsing operation has been done already:
+So this is what has been done in 0.8.9.0. The idea is rather simple: create and cache a compiled version of a filter list, so that next time it needs to be loaded in memory, all the costly parts of the parsing operation have been done already:
 
 ![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/setup-performance-internals.png)
 
