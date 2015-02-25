@@ -48,6 +48,6 @@ So this meant that the following duplicated filters would not have been seen as 
     /advertisers.$image,script
     /advertisers.$script,image
 
-In 0.8.9.0, since all filters are normalized into atomic filter representation, µBlock is not able to detect every single duplicate filters which have the same functionality.
+In 0.8.9.0, since all filters are normalized into atomic filter representation, µBlock is now able to detect every duplicated functional filters.
 
 And since µBlock's now report the number of atomic filters, expect the count to go somewhat compared to previous versions. For instance, currently using default filter lists, 0.8.9.0 reports over 58,000 network filters, while previous versions reported around 55,000 network filters.
