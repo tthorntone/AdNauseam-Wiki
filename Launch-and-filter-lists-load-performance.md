@@ -12,7 +12,7 @@ And this also improve the performance when filter lists have to be reloaded:
 
 ![Figure 3](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/filters-load-performance-0.8.9.0.png)
 
-A compiled filter lists is made of a sequence of _atomic_ filters, i.e. a filter which is not composite. ABP-compatible filter syntax allows the creation of composite filters, i.e. filter declarations which really represents many filters. For example, a raw filter found in _EasyList_:
+A compiled filter lists is made of a sequence of _atomic_ filters, i.e. filters which can't be decomposed into smaller functional filters. ABP-compatible filter syntax allows the creation of composite filters, i.e. filter declarations which really represents many filters. For example, a raw filter found in _EasyList_:
 
     /advertisers.$image,script,subdocument
 
