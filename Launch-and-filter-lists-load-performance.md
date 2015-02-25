@@ -36,3 +36,18 @@ Translate internally into:
     /advertisers.$subdocument,domain=whatever.org
 
 These are atomic filters, they can't be decomposed into smaller filters.
+
+Compiling filter lists involves more then just _atomizing_, it also involves pre-computing as much as possible to be as close as possible to the in-memory filter representation, so there is not much left to do when the compiled filter lists is read into memory.
+
+So roughly this is it.
+
+There are nice virtuous side effects with using compiled filter lists. One of them is the very accurate counting of distinct filters, and the ability to _completely_ detect duplicates. Prior to 0.8.9.0, µBlock tried best to detect duplicate, but it wasn't perfect, as it was using the raw representation of a filter to decide whether the filter was already processed.
+
+So this meant that the following duplicated filters would not have been seen as duplicate by µBlock, even though they essentially accomplish the same thing:
+
+    /advertisers.$image,script
+    /advertisers.$script,image
+
+In 0.8.9.0, since all filters are normalized into atomic filter representation, µBlock is not able to detect every single duplicate filters which have the same functionality.
+
+And since µBlock's now report the number of atomic filters, expect the count to go somewhat compared to previous versions. For instance, currently using default filter lists, 0.8.9.0 reports over 58,000 network filters, while previous versions reported around 55,000 network filters.
