@@ -5,7 +5,7 @@
 - [Change log](https://github.com/gorhill/uBlock/releases) ([old one](https://github.com/gorhill/uBlock/wiki/Change-log))
 - [Quick guide: popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
-- [Does µBlock block ads or just hide them?](https://github.com/gorhill/uBlock/wiki/Does-%C2%B5Block-blocks-ads-or-just-hide-them%3F)
+- [Does µBlock block ads or just hide them?](https://github.com/gorhill/uBlock/wiki/Does-%C2%B5Block-block-ads-or-just-hide-them%3F)
 - [About the required permissions](https://github.com/gorhill/uBlock/wiki/About-the-required-permissions)
 - [Memory footprint: what happens inside µBlock after installation](https://github.com/gorhill/uBlock/wiki/Memory-footprint:-what-happens-inside-%C2%B5Block-after-installation)
 - [About that CSS selector with "www.faceporn.net" in it...](https://github.com/gorhill/uBlock/wiki/About-that-CSS-selector-with-%22www.faceporn.net%22-in-it...)
