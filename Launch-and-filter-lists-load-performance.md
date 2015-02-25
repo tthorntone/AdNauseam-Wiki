@@ -37,7 +37,7 @@ Translate internally into:
 
 These are atomic filters, they can't be decomposed into smaller filters.
 
-Compiling filter lists involves more then just _atomizing_, it also involves pre-computing as much as possible so as to be as close as possible to the in-memory filter representations, in order to reduce the amount of work to do when the compiled filter lists into in-memory data.
+Compiling filter lists involves more then just _atomizing_, it also involves pre-computing as much as possible so as to be as close as possible to the in-memory filter representations, in order to reduce the amount of work to do when a compiled filter list is translated into in-memory data.
 
 So roughly this is it.
 
