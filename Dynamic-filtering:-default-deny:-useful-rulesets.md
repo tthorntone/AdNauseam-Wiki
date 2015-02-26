@@ -155,16 +155,15 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # reuters.com
     www.reuters.com reutersmedia.net * noop
 
-    # slate.com
-    www.slate.com cdnslate.com * noop
-
-    # theregister.co.uk
-    www.theregister.co.uk regmedia.co.uk * noop
-    forums.theregister.co.uk regmedia.co.uk * noop
+    # scribd.com
+    www.scribd.com scribdassets.com * noop
 
     # slashdot.org
     slashdot.org bootstrapcdn.com * noop
     slashdot.org fsdn.com * noop
+
+    # slate.com
+    www.slate.com cdnslate.com * noop
 
     # slideshare.net
     www.slideshare.net slidesharecdn.com * noop
@@ -192,6 +191,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # thenextweb.com
     thenextweb.com tnwcdn.com * noop
+
+    # theregister.co.uk
+    www.theregister.co.uk regmedia.co.uk * noop
+    forums.theregister.co.uk regmedia.co.uk * noop
 
     # theverge.com
     www.theverge.com ajax.googleapis.com * noop
