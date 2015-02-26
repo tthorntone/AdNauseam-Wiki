@@ -168,6 +168,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # slideshare.net
     www.slideshare.net slidesharecdn.com * noop
 
+    # smashingmagazine.com
+    www.smashingmagazine.com netdna-cdn.com * noop
+
     # stackoverflow.com
     stackoverflow.com sstatic.net * noop
 
