@@ -35,11 +35,19 @@ Different classes of cosmetic filters are applied differently:
 - Generic cosmetic filters: injected after page's root DOM is loaded
     - These are cacheable
     - Since these cosmetic filters are applied after page load, DOM elements **may** be hidden after they are rendered
-    - Notice the emphasized "may": generally, you won't see this; and sometimes you will notice **more** flickering with ABP (with same filter lists):
-    - Demonstration: [test page](http://raymondhill.net/ublock/tiles1.html)
-        - Chromium + uBlock: minimal flickering (sometimes none)
-        - Chromium + ABP: noticeable flickering
-        - Firefox + uBlock: no flickering
-        - Firefox + ABP: no flickering
+    - Notice the emphasized "may": generally, you won't see this
 - Cached generic cosmetic filters: injected before page's root DOM is loaded
     - No flickering
+
+#### More details regarding network filtering
+
+When a network request is filtered, **both** uBlock and ABP will collapse the DOM counterpart -- if any -- of a blocked network request. They both work the same way in such scenario, in the absence of a cosmetic filter matching DOM counterpart of the blocked network request.
+
+In **both** uBlock and ABP, this occurs **after** the DOM is loaded, so in both cases, users **may** be able to visually notice the placeholder collapsing after the page loads.
+
+Yet, uBlock is at an advantage in such case, because since uBlock does not inject thousands of CSS rules in a page (and frames within that page), this means it makes itself available sooner to handle the task of collapsing the DOM counterpart of network requests. This can be clearly appreciated in the following [test page](http://raymondhill.net/ublock/tiles1.html):
+
+- Chromium + uBlock: minimal flickering (sometimes none)
+- Chromium + ABP: noticeable flickering
+- Firefox + uBlock: no flickering
+- Firefox + ABP: no flickering
