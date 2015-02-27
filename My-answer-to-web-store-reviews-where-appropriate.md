@@ -12,7 +12,7 @@ EasyPrivacy is the filter list which prevents logging in on Capital One 360. The
 
 Adblock Plus + EasyPrivacy also breaks logging into Capital One 360.
 
-I reported the problem to EasyPrivacy to the maintainers: <https://forums.lanik.us/viewtopic.php?f=64&t=21247>, so you will benefit the fix with Adblock Plus as well should you enable EasyPrivacy in it.
+I reported the problem with EasyPrivacy to the maintainers: <https://forums.lanik.us/viewtopic.php?f=64&t=21247>, so you will benefit the fix with Adblock Plus as well should you enable EasyPrivacy in it.
 
 ***
 
