@@ -22,6 +22,8 @@ The purpose of network filter is to prevent a network request to be made to a re
 
 µBlock also support the parsing and enforcing of hosts files -- something which ABP does not. All entries in a hosts file are parsed as network filters, i.e. no resource will be fetch from a remote server which appear in a hosts file, no connection will even be attempted.
 
+![uBlock blocks reliably](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/ublock-blocks.gif)<br><sup>Blocked network requests are nipped in the bud.</sup>
+
 #### Cosmetic filters
 
 **Short answer:** resources hidden -- in various ways depending on the class of cosmetic filters.
