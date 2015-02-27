@@ -52,4 +52,4 @@ Yet, uBlock is at an advantage in such case, because since uBlock does not injec
 - Firefox + uBlock: no flickering
 - Firefox + ABP: no flickering
 
-Another advantage of uBlock here is that these collapsed-DOM-counterparts-of-blocked-network-requests are cached as temporary cosmetic filters internally.
+Another advantage of uBlock here is that these collapsed-DOM-counterpart-of-blocked-network-requests are cached as temporary cosmetic filters internally.
