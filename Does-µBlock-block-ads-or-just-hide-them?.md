@@ -35,7 +35,7 @@ Different classes of cosmetic filters are applied differently:
 - Generic cosmetic filters: injected after page's root DOM is loaded
     - These are cacheable
     - Since these cosmetic filters are applied after page load, DOM elements **may** be hidden after they are rendered
-    - Notice the emphasized "may": generally, you won't see this
+    - Notice the emphasized "may": generally, you won't see this: the slower the computer, the higher the likelihood
 - Cached generic cosmetic filters: injected before page's root DOM is loaded
     - No flickering
 
