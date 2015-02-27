@@ -2,6 +2,18 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### Earl Baugh (Chrome store, 25 February 2015)
+
+> Prevents web sites from working properly, i.e. Capitol One 360, you can't login with this enabled. [...] If I turn off ALL the filters I can get some things to work. **But adding in ANY filters kills things like logging into Capitol One.**
+
+Bolded statement is completely false.
+
+EasyPrivacy is the filter list which prevents logging in on Capital One 360. The normal course of action is to report the problem to [EasyPrivacy maintainers](https://forums.lanik.us/viewforum.php?f=64), or to disable that filter list. Once it is disabled, you can log in on Capitol One 360.
+
+Adblock Plus + EasyPrivacy also breaks logging in in Capital One 360.
+
+***
+
 #### kreemoweet ([mozillazine.org](http://forums.mozillazine.org/viewtopic.php?p=14029145#p14029145), 17 February 2015)
 
 > [...] the µBlock developer has been caught making false statements about his app and other adblockers
