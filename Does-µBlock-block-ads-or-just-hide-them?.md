@@ -41,7 +41,7 @@ Different classes of cosmetic filters are applied differently:
 
 #### More details regarding network filtering
 
-When a network request is filtered, **both** uBlock and ABP will collapse the DOM counterpart -- if any -- of a blocked network request. They both work the same way in such scenario, in the absence of a cosmetic filter matching DOM counterpart of the blocked network request.
+When a network request is filtered, **both** uBlock and ABP will collapse the DOM counterpart -- if any -- of a blocked network request. They both work the same way in such scenario, in the absence of a cosmetic filter matching the DOM counterpart of a blocked network request.
 
 In **both** uBlock and ABP, this occurs **after** the DOM is loaded, so in both cases, users **may** be able to visually notice the placeholder collapsing after the page loads.
 
