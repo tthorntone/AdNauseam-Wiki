@@ -231,7 +231,6 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     variety.com wp.com * noop
 
     # veetle.com
-    veetle.com 2mdn.net * block
     veetle.com ajax.googleapis.com * noop
     veetle.com d3u3s1yur1h76d.cloudfront.net * noop
     # probably you will have to add more if video doesn't play
