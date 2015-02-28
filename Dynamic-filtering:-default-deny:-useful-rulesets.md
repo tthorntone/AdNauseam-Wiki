@@ -230,6 +230,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # washingtonpost.com
     www.washingtonpost.com wpdigital.net * noop
+    # embedded videos
+    www.washingtonpost.com jwpcdn.com * noop
+    www.washingtonpost.com posttv.com * noop
 
     # wikipedia.org
     wikipedia.org wikimedia.org * noop
