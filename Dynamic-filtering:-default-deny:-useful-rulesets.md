@@ -16,6 +16,15 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # Local
 
+    # 9to5mac.com
+    9to5mac.com 9to5mac.files.wordpress.com * noop
+    9to5mac.com i0.wp.com * noop
+    9to5mac.com i1.wp.com * noop
+    9to5mac.com i2.wp.com * noop
+    9to5mac.com s0.wp.com * noop
+    9to5mac.com s1.wp.com * noop
+    9to5mac.com s2.wp.com * noop
+
     # amazon.ca
     www.amazon.ca images-amazon.com * noop
     www.amazon.ca ssl-images-amazon.com * noop
