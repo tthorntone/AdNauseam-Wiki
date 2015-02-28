@@ -230,6 +230,16 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     variety.com wordpress.com * noop
     variety.com wp.com * noop
 
+    # veetle.com
+    veetle.com 2mdn.net * block
+    veetle.com ajax.googleapis.com * noop
+    veetle.com d3u3s1yur1h76d.cloudfront.net * noop
+    # probably you will have to add more if video doesn't play
+    # I plan to add ability to 38.102.* eventually
+    veetle.com 38.102.162.229 * noop
+    veetle.com 38.102.162.242 * noop
+    veetle.com 38.102.162.254 * noop
+
     # venturebeat.com
     venturebeat.com netdna-cdn.com * noop
     venturebeat.com vbstatic.co * noop
