@@ -47,7 +47,7 @@ When a network request is filtered, **both** uBlock and ABP will collapse the DO
 
 In **both** uBlock and ABP, this occurs **after** the DOM is loaded, so in both cases, users **may** be able to visually notice the placeholder collapsing after the page loads.
 
-Yet, uBlock is at an advantage in such case: since it does not inject thousands of CSS rules in a page (and frames within that page), this means it makes itself available sooner to handle the task of collapsing the DOM counterpart of network requests. This can be clearly appreciated in the following [test page](http://raymondhill.net/ublock/tiles1.html):
+Yet, uBlock is at an advantage in such case: since it does not inject thousands of CSS rules in a page (and frames within that page), this means it makes itself available sooner to handle the task of collapsing the DOM counterpart of blocked network requests. This can be clearly appreciated in the following [test page](http://raymondhill.net/ublock/tiles1.html):
 
 - Chromium + uBlock: minimal flickering (sometimes none)
 - Chromium + ABP: noticeable flickering
