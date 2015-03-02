@@ -142,6 +142,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.marketwatch.com mktw.net * noop
     www.marketwatch.com wsj.net * noop
 
+    # mashable.com
+    mashable.com mshcdn.com * noop
+
     # medium.com
     medium.com d262ilb51hltx0.cloudfront.net * noop
     medium.com dnqgz544uhbo8.cloudfront.net * noop
