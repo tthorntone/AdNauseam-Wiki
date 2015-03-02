@@ -83,6 +83,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # foxnews.com
     foxnews.com fncstatic.com * noop
 
+    # usatoday.com
+    www.usatoday.com gannett-cdn.com * noop
+    www.usatoday.com usatoday.net * noop
+
     # gigaom.com
     gigaom.com wordpress.com * noop
     gigaom.com wp.com * noop
