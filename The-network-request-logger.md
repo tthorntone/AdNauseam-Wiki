@@ -66,3 +66,7 @@ The filter expression can be a plain regular expression:
 ![Figure 5](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-05.png)
 
 This is the maximum number of entries allowed in the request logger. When the maxium is reached, the oldest entries at the bottom will be removed to make place to newest entries at the top.
+
+This is useful to be sure the request logger does not unduly consume a huge amount of memory if left open for long period of time. Usually, the most recent entries are the ones of interest. When this value is not set, there is a built-in limit of 25,000 entries.
+
+One could leave the logger opened for long period of time with the _"Benhind the scene"_ selected to find out what the browser and other installed extensions are doing behind the scene.
