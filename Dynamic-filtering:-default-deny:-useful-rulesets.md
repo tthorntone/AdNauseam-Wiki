@@ -275,6 +275,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # yahoo.com
     yahoo.com yimg.com * noop
+    answers.yahoo.com yimg.com * noop
 
     # ycombinator.com
     blog.ycombinator.com phaven-prod.s3.amazonaws.com * noop
