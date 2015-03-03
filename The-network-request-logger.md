@@ -53,7 +53,7 @@ A matching filtering expression is one which matches from left-to-right the text
 
 - `- script`: show all blocked requests of type `script`
 - `+ xhr`: show all force-allowed requests of type `xhr` (XHMHttpRequest)
-- `!-`: show all non-blocked requests
+- `!image`: show entries which do not contain the string "image"
 - `script google`: show all requests containing the strings "script" then "google"
 
 The filter expression can be a plain regular expression:
