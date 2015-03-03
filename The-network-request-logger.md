@@ -20,6 +20,8 @@ You may have multiple network request loggers open at the same time though -- th
 
 The big refresh button aside the tab selector si to refresh the content of the selector. When tabs are added or closed, you need to refresh explicitly the selector so that its content reflects the current tabs.
 
+Note in the figure above the entry named "Behind the scene": selecting this entry allows you to see behind-the-scene network requests, i.e. those network requests which do not originate from a specific tab. [More about this here](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests).
+
 ***
 
 ![Figure 3](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-03.png)
