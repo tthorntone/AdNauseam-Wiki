@@ -48,7 +48,7 @@ If the first character is:
 A matching filtering expression is one which matches from left-to-right the text in an entry. Examples of filtering expression:
 
 - `- script`: show all blocked requests of type `script`
-- `+ object`: show all force-allowed requests of type `xhr` (XHMHttpRequest)
+- `+ xhr`: show all force-allowed requests of type `xhr` (XHMHttpRequest)
 - `!-`: show all non-blocked requests
 - `google`: show all requests containing the string "google"
 
