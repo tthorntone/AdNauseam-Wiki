@@ -22,7 +22,7 @@ Type-based rules are used to filter specific types of request on a web page. The
 - `3p-script`: 3rd-party scripts, i.e. scripts which are pulled from a different domain name than that of the current web page
 - `3p-frame`: 3rd-party frames, i.e. frames elements which are pulled from a different domain name than that of current web page
 
-These rules can apply everywhere, or be specific to a web site. For instance blocking 3rd-party frames is a very good habit security-wise: `* * 3p-frame block`. This rule translates into "block 3rd-party frames of all origins".
+These rules can apply everywhere, or be specific to a web site. For instance blocking 3rd-party frames is a very good habit security-wise: `* * 3p-frame block`. This rule translates into "globally block 3rd-party frames".
 
 Another example: `wired.com * image block`, which means "block images from all origins when visiting a web page on wired.com".
 
