@@ -38,6 +38,25 @@ This is to remove all the logged entries.
 
 This is to filter the entries to display. The entries which are remove from view are not removed from the logger, they are just hidden according to the filter expression.
 
+Some details about how to filter logged entries:
+
+If the first character is:
+- `-`: display only blocked requests
+- `+`: display only allowed-through-exception-filter requests
+- `!`: negate the rest of the expression
+
+A matching filtering expression is one which matches from left-to-right the text in an entry. Examples of filtering expression:
+
+- `- script`: show all blocked requests of type `script`
+- `+ object`: show all force-allowed requests of type `xhr` (XHMHttpRequest)
+- `!-`: show all non-blocked requests
+- `google`: show all requests containing the string "google"
+
+The filter expression can be a plain regular expression:
+
+- `/image|css/`: show all requests which type is `image` or `css`
+- `!/image|css/`: show all requests which type is not `image` neither `css`
+
 ***
 
 ![Figure 5](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-05.png)
