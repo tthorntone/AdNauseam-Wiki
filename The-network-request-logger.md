@@ -8,6 +8,8 @@ The request logger will open in a new tab:
 
 ![Figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-01.png)
 
+Take note that the network request logger in µBlock is a forward-looking logger: this means only future requests can be logged. In the spirit of efficiency, µBlock will log network requests for a tab if and only if there is a logger opened for that tab.
+
 ***
 
 ### Components
