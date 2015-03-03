@@ -2,3 +2,4 @@
 
 To access the network request logger, click on the _eye_ icon of µBlock's popup UI:
 
+![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1c.png)
