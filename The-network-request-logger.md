@@ -8,12 +8,38 @@ The request logger will open in a new tab:
 
 ![Figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-01.png)
 
+***
+
 ### Components
 
-#### Dropdown tab selector
+![Figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-02.png)
 
 The drop-down selector is to choose for which tab network requests should be logged. Each network request logger can log only one tab at a time, in order to identify clearly all the network requests which originate from a specific web page.
 
 You may have multiple network request loggers open at the same time though -- there is no limit.
 
 The big refresh button aside the tab selector si to refresh the content of the selector. When tabs are added or closed, you need to refresh explicitly the selector so that its content reflects the current tabs.
+
+***
+
+![Figure 3](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-03.png)
+
+This is to force a refresh of the tab which is currently being observed.
+
+***
+
+![Figure 4](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-04.png)
+
+This is to remove all the logged entries.
+
+***
+
+![Figure 6](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-06.png)
+
+This is to filter the entries to display. The entries which are remove from view are not removed from the logger, they are just hidden according to the filter expression.
+
+***
+
+![Figure 5](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-05.png)
+
+This is the maximum number of entries allowed in the request logger. When the maxium is reached, the oldest entries at the bottom will be removed to make place to newest entries at the top.
