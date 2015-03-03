@@ -108,6 +108,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     gizmodo.com kinja-static.com * noop
     gizmodo.com kinja.com * noop
 
+    # ign.com
+    www.ign.com ignimgs.com * noop
+
     # mail.google.com
     mail.google.com googleusercontent.com * noop
     mail.google.com gstatic.com * noop
