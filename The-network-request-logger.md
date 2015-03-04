@@ -20,7 +20,7 @@ The drop-down selector is to choose for which tab network requests should be log
 
 You may have multiple network request loggers open at the same time though -- there is no limit.
 
-The big refresh button aside the tab selector si to refresh the content of the selector. When tabs are added or closed, you need to refresh explicitly the selector so that its content reflects the current tabs.
+The big refresh button aside the tab selector is to refresh the content of the selector. When tabs are added or closed, you need to refresh explicitly the selector so that its content reflects the current tabs.
 
 Note in the figure above the entry named "Behind the scene": selecting this entry allows you to see behind-the-scene network requests, i.e. those network requests which do not originate from a specific tab. [More about this here](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests).
 
@@ -65,8 +65,8 @@ The filter expression can be a plain regular expression:
 
 ![Figure 5](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-05.png)
 
-This is the maximum number of entries allowed in the request logger. When the maxium is reached, the oldest entries at the bottom will be removed to make place to newest entries at the top.
+This is the maximum number of entries allowed in the request logger. When the maximum is reached, the oldest entries at the bottom will be removed to make place to newest entries at the top.
 
 This is useful to be sure the request logger does not unduly consume a huge amount of memory if left open for long period of time. Usually, the most recent entries are the ones of interest. When this value is not set, there is a built-in limit of 25,000 entries.
 
-One could leave the logger opened for long period of time with the _"Benhind the scene"_ selected to find out what the browser and other installed extensions are doing behind the scene.
+One could leave the logger opened for long period of time with the _"Behind the scene"_ selected to find out what the browser and other installed extensions are doing behind the scene.
