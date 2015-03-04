@@ -56,6 +56,11 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.cnet.com cbsimg.net * noop
     www.cnet.com cbsistatic.com * noop
 
+    # cnn.com
+    www.cnn.com turner.com * noop
+    # for videos
+    www.cnn.com cnn-f.akamaihd.net * noop
+
     # crowdin.com
     crowdin.com d1ztvzf22lmr1j.cloudfront.net * noop
 
