@@ -198,6 +198,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     stackoverflow.com sstatic.net * noop
     stackoverflow.com ajax.googleapis.com * noop
 
+    # superuser.com
+    superuser.com sstatic.net * noop
+
     # techcrunch.com
     techcrunch.com 5min.com * noop
     techcrunch.com wordpress.com * noop
