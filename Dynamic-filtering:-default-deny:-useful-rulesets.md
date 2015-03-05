@@ -85,6 +85,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     facebook.com akamaihd.net * noop
     facebook.com fbcdn.net * noop
 
+    # fastcompany.com
+    www.fastcompany.com fastcompany.net * noop
+
     # foxnews.com
     foxnews.com fncstatic.com * noop
 
