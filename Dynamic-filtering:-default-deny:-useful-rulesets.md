@@ -94,9 +94,8 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # foxnews.com
     foxnews.com fncstatic.com * noop
 
-    # usatoday.com
-    www.usatoday.com gannett-cdn.com * noop
-    www.usatoday.com usatoday.net * noop
+    # funnyjunk.com
+    www.funnyjunk.com fjcdn.com * noop
 
     # gigaom.com
     gigaom.com wordpress.com * noop
@@ -256,6 +255,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # twitter.com
     twitter.com twimg.com * noop
+
+    # usatoday.com
+    www.usatoday.com gannett-cdn.com * noop
+    www.usatoday.com usatoday.net * noop
 
     # variety.com
     variety.com wordpress.com * noop
