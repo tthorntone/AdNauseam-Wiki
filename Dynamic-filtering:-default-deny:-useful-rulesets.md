@@ -244,6 +244,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.theverge.com vox-cdn.com * noop
     www.theverge.com voxmedia.com * noop
 
+    # netdna-ssl.com
+    threatpost.com netdna-ssl.com * noop
+
     # tomshardware.com
     www.tomshardware.com bestofmedia.com * noop
     www.tomshardware.com bestofmicro.com * noop
