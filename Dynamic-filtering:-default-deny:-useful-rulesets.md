@@ -192,6 +192,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # scribd.com
     www.scribd.com scribdassets.com * noop
 
+    # seekingalpha.com
+    seekingalpha.com cdn-seekingalpha.com * noop
+
     # slashdot.org
     slashdot.org bootstrapcdn.com * noop
     slashdot.org fsdn.com * noop
