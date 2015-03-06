@@ -67,6 +67,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # deviantart.com
     deviantart.com deviantart.net * noop
 
+    # dslreports.com
+    www.dslreports.com dslr.net * noop
+
     # ebay.com
     www.ebay.com ebaydesc.com * noop
     www.ebay.com ebayimg.com * noop
