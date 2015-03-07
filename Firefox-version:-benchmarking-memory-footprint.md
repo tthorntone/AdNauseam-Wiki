@@ -1,4 +1,4 @@
-[![Vim test](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)<br><sup>Infamous VIM test: ABP 1,900 MB vs. uBlock 392 MB. Firefox 35 64-bit. ABP systematically adds nearly 4 MB per page **and per-frame** on a page, when using only _EasyList_.</sup>
+[![Vim test](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)<br><sup>Infamous VIM test: ABP 1,900 MB vs. uBlock 392 MB. Firefox 35 64-bit. ABP systematically adds around 3.5 MB per page **and per-frame** on a page, when using only _EasyList_.</sup>
 
 #### Setup
 
