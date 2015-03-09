@@ -52,6 +52,7 @@ Sensible security- and privacy-wise: blocking all 3rd-party frames by default ev
 **_Dynamic filtering_ overrides _static filtering_**. This means a _block_ dynamic rule will override any existing _allow_ static filters. This means you can block with 100% certainty using dynamic filtering rules. Similarly, an _allow_ dynamic filtering rule will override any existing _block_ static filters, i.e. you can allow with 100% certainty with dynamic filtering (useful to un-break sites broken by some static filters).
 
 ***
+
 All embedded 3rd-party frames were blocked on the page. Good. However it appears there was an embedded Youtube video in the article:
 
 ![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-06.png)
@@ -127,4 +128,11 @@ Typically, use only narrow _allow_ dynamic filtering rules to un-break sites. As
 
 ***
 
+All dynamic rules are temporary by default: Click the padlock if you want to persist the ruleset for a specific web site.
+- The padlock will be visible **if and only if** there is at least one temporary rule in the pane
+- This is really the optimal way to use dynamic filtering, as using this feature is often a matter of trial and error
+- This prevents ruleset pollution: your ruleset will be only those which you will have explicitly persisted
+- If you <kbd>Ctrl</kbd>-click to set/unset a rule, it will be immediately persisted (<kbd>command ⌘</kbd>-click on Mac)
+
+***
 More: [Take control of your privacy in your own hands](https://github.com/gorhill/uBlock/issues/433#issuecomment-68488686) (will move this here eventually, I need a break)
