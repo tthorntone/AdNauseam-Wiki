@@ -200,6 +200,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # seekingalpha.com
     seekingalpha.com cdn-seekingalpha.com * noop
 
+    # si.com
+    www.si.com brightcove.com * noop
+
     # slashdot.org
     slashdot.org bootstrapcdn.com * noop
     slashdot.org fsdn.com * noop
