@@ -202,6 +202,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # si.com
     www.si.com brightcove.com * noop
+    www.si.com timeinc.net * noop
 
     # slashdot.org
     slashdot.org bootstrapcdn.com * noop
