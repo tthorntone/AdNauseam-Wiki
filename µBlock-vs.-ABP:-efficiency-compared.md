@@ -1,0 +1,1 @@
+Moved to [uBlock vs. ABP: efficiency compared](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared).
