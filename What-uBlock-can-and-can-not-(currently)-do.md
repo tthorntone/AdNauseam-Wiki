@@ -40,4 +40,4 @@ Regarding CPU footprint, I don't know, I didn't measure yet (maybe I will), but 
 Keep in mind that uBlock, like ABP, Adguard, and some others allows users to enter their own filters, something not possible with Ghostery or Disconnect.
 
 There are also other differences, or similarities: uBlock, _Disconnect_
-and ABP are licensed under [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License). Also, there is [this](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares).
+and ABP are licensed under [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License). Also, there is [this](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares).
