@@ -1,8 +1,8 @@
 No: it is significantly less resource intensive than Adblock Plus ("ABP").
 
-Sloppy benchmarks can lead to the myth that µBlock is just a tad less resource intensive than ABP.
+Sloppy benchmarks can lead to the myth that uBlock is just a tad less resource intensive than ABP.
 
-Rigorous benchmarks demonstrate that µBlock is significantly more efficient than ABP.
+Rigorous benchmarks demonstrate that uBlock is significantly more efficient than ABP.
 
 Examples of sloppiness:
 
