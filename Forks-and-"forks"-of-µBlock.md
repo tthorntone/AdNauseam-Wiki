@@ -1,4 +1,4 @@
-It's just a matter of time before forks and "forks" of µBlock are spotted. So here is what I have so far:
+It's just a matter of time before forks and "forks" of uBlock are spotted. So here is what I have so far:
 
 - [AdBlock Gold Edition](https://chrome.google.com/webstore/detail/adblock-gold-edition/kmooncpopldajlgigepneepagpcnehgg) (Chrome store)
     - from "Quickrr"
