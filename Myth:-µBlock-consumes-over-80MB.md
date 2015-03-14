@@ -1,0 +1,1 @@
+Moved to [Myth: uBlock consumes over 80MB](https://github.com/gorhill/uBlock/wiki/Myth%3A-uBlock-consumes-over-80MB).
