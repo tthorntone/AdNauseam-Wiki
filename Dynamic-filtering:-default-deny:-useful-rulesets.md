@@ -145,6 +145,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.kickstarter.com imgix.net * noop
     www.kickstarter.com kck.st * noop
 
+    # kijiji.ca
+    www.kijiji.ca classistatic.com * noop
+
     # lapresse.ca
     www.lapresse.ca lpcdn.ca * noop
 
