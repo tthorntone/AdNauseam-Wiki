@@ -147,6 +147,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # kijiji.ca
     www.kijiji.ca classistatic.com * noop
+    www.kijiji.ca ebayimg.com * noop
 
     # lapresse.ca
     www.lapresse.ca lpcdn.ca * noop
