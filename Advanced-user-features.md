@@ -1,4 +1,4 @@
-If you indicate to µBlock that you are an advanced user (from the _Settings_ tab in µBlock's dashboard), µBlock will behave slightly differently and also will make available features which are more suitable to advanced users.
+If you indicate to uBlock that you are an advanced user (from the _Settings_ tab in uBlock's dashboard), uBlock will behave slightly differently and also will make available features which are more suitable to advanced users.
 
 **Use these advanced features at your own risk.**
 
@@ -16,7 +16,7 @@ Tool tips are useful for novice users, but can become annoying to advanced users
 
 #### Dynamic filtering
 
-Dynamic filtering ([quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)) will become available to advanced users. Novice users could easily mess up µBlock's filtering through dynamic filtering, thus it is not available by default.
+Dynamic filtering ([quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)) will become available to advanced users. Novice users could easily mess up uBlock's filtering through dynamic filtering, thus it is not available by default.
 
 **Important note:** Dynamic filtering engine is completely turned off when you un-check the setting _"I am an advanced user"_. Your dynamic filtering rules are kept intact though, in case you re-enable _advanced user_ mode again.
 
