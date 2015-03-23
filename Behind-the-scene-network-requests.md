@@ -45,3 +45,5 @@ Remember that if you block indiscriminately, you could cripple the ability of yo
 To turn off the filtering of behind-the-scene requests is just a matter of whitelisting the _"Behind the scene"_ scope, or to turn off _"advanced user"_ mode.
 
 To whitelist the behind-the-scene scope: add `behind-the-scene` as a whitelist directive, in the _Whitelist_ tab of µBlock's dashboard.
+
+If there are only very specific behind-the-scene network requests you would like to filter, a good approach to minimize potential problems is to use dynamic filtering: set a local rule for the `all` cell to _allow_ (green) (i.e. `behind-the-scene * * allow`). This will ensure nothing is blocked in the behind-the-scene scope, just as if uBlock is disabled for that scope. Then proceed to create _block_ rules for the specific hostnames for which you want to block all network requests.
