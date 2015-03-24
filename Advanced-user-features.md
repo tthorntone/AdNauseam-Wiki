@@ -27,7 +27,11 @@ Tool tips are useful for novice users, but can become annoying to advanced users
 
 ### Dynamic filtering
 
-Dynamic filtering ([quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)) will become available to advanced users. Novice users could easily mess up uBlock's filtering through dynamic filtering, thus it is not available by default.
+Dynamic filtering ([quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)) will become available to advanced users.
+
+Novice users could easily mess up uBlock's filtering through dynamic filtering, thus it is not available by default.
+
+On the other hand, if you are familiar with [RequestPolicy](https://www.requestpolicy.com/), then you should have no problem dealing with dynamic filtering.
 
 **Important note:** Dynamic filtering engine is completely turned off when you un-check the setting _"I am an advanced user"_. Your dynamic filtering rules are kept intact though, in case you re-enable _advanced user_ mode again.
 
