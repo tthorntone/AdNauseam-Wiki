@@ -1,25 +1,36 @@
-If you indicate to uBlock that you are an advanced user (from the _Settings_ tab in uBlock's dashboard), uBlock will behave slightly differently and also will make available features which are more suitable to advanced users.
+Advanced user mode can be enabled from the _Settings_ tab in uBlock's dashboard. **Enable at your own risk.**
 
-**Use these advanced features at your own risk.**
+## Read the docs
+<table><tr><td width="150" align="center">
+<img src="http://i.imgur.com/3kJFgHX.jpg" float="right" width="96" height="96">
+</td><td width="770">
+<p><b>Advanced users are expected to read the documentation. This is very important.</b></p>
 
-Below are differences between normal mode and advanced user mode.
+<p>If you use advanced features without fully understanding them, uBlock:</p>
 
-Also, advanced users are expected to read the documentation. If you think the documentation needs more work, you are very welcome to contribute. Look for the grey button displayed in this illustration to edit any wiki page:
+<ul>
+<li>might</li>
+<li><i>probably <b>will</b></i>
+</ul>
+.. behave in ways unexpected to you.
+</td></tr></table>
 
-![Edit button](https://i.imgur.com/3X1UXrP.png)
+If you think the documentation needs more work, you are more than welcome to contribute. Look for the grey <kbd>Edit</kbd> button on any wiki page — here's what it looks like: ![Edit button](http://i.imgur.com/RElN8kr.png)
 
-If the wiki editor is currently disabled for non-developers and you don't see this button, you can [suggest your edit on the issue tracker](https://github.com/gorhill/uBlock/issues) instead.
+If you don't see this button, you can [suggest your edit on the issue tracker](https://github.com/gorhill/uBlock/issues) instead.
 
-#### No tool tips
+## Differences
+
+### No tool tips
 
 Tool tips are useful for novice users, but can become annoying to advanced users. Tool tips are turned off for advanced users.
 
-#### Dynamic filtering
+### Dynamic filtering
 
 Dynamic filtering ([quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)) will become available to advanced users. Novice users could easily mess up uBlock's filtering through dynamic filtering, thus it is not available by default.
 
 **Important note:** Dynamic filtering engine is completely turned off when you un-check the setting _"I am an advanced user"_. Your dynamic filtering rules are kept intact though, in case you re-enable _advanced user_ mode again.
 
-#### Ability to filter behind-the-scene network requests
+### Ability to filter behind-the-scene network requests
 
 See ["Behind-the-scene network requests"](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests).
