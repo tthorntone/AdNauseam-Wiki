@@ -1,9 +1,9 @@
 Advanced user mode can be enabled from the _Settings_ tab in uBlock's dashboard. **Enable at your own risk.**
 
 ## Read the docs
-<table><tr><td width="150" align="center">
+<table><tr><td width="130" align="center">
 <img src="http://i.imgur.com/3kJFgHX.jpg" float="right" width="96" height="96">
-</td><td width="770">
+</td><td>
 <p><b>Advanced users are expected to read the documentation. This is very important.</b></p>
 
 <p>If you use advanced features without fully understanding them, uBlock:</p>
