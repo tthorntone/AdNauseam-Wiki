@@ -17,43 +17,43 @@ I found this was now necessary as it appears Chromium's garbage collector has be
 ### 24 December 2014
 
 - Chromium 39.0.2171.65 64-bit (Linux)
-- µBlock 0.8.2.2 (default lists: _EasyList_, _Peter Lowe’s Ad server_, _EasyPrivacy_, malware domain lists, _Fanboy’s Social Blocking List‎_)
+- uBlock 0.8.2.2 (default lists: _EasyList_, _Peter Lowe’s Ad server_, _EasyPrivacy_, malware domain lists, _Fanboy’s Social Blocking List‎_)
 - Adblock Plus 1.8.8 (_EasyList_, _EasyPrivacy_, _Malware Protection List_, _"Acceptable ads"_ disabled)
 
 Summary of results:
 - Reference memory usage for the web page: 23 MB
-- µBlock adds over 10 MB
+- uBlock adds over 10 MB
 - Adblock Plus adds over 33 MB
-- Adblock Plus with same filter lists as µBlock adds over 46 MB
+- Adblock Plus with same filter lists as uBlock adds over 46 MB
 
 No extension (reference):<br>
 ![no extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20141224-none.png)
 
-µBlock:<br>
-![µBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20141224-ublock.png)
+uBlock:<br>
+![uBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20141224-ublock.png)
 
 Adblock Plus:<br>
 ![Adblock Plus](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20141224-abp.png)
 
-Adblock Plus with same filter lists as µBlock:<br>
+Adblock Plus with same filter lists as uBlock:<br>
 ![Adblock Plus](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20141224-abp-more.png)
 
 ### 19 September 2014
 
 - Chromium 37.0.2062.94 64-bit (Linux)
-- µBlock 0.6.2.1 (default filter lists)
+- uBlock 0.6.2.1 (default filter lists)
 - Adblock Plus 1.8.5 (_EasyList_, _EasyPrivacy_, _Malware Protection List_, _"Acceptable ads"_ disabled)
 
 Summary of results:
 - Reference memory usage for the web page: 22 MB
-- µBlock Plus adds over 9 MB
+- uBlock Plus adds over 9 MB
 - Adblock Plus adds over 32 MB
 
 No extension (reference):<br>
 ![no extension](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-none.png)
 
-µBlock:<br>
-![µBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-ublock.png)
+uBlock:<br>
+![uBlock](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-ublock.png)
 
 Adblock Plus:<br>
 ![Adblock Plus](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/mem-usage-in-page-20140919-abp.png)
