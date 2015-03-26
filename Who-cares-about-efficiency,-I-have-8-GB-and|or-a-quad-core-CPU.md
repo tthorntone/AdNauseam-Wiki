@@ -1,4 +1,4 @@
-Doing more with less is a virtue in software. For users of µBlock, this means:
+Doing more with less is a virtue in software. For users of uBlock, this means:
 
 - Less CPU churn when loading a web page, which may translate into noticeable faster page load.
 - Higher memory consumption correlates with higher CPU-cycle consumption: whatever extra memory is used is memory which has to be allocated/written to/read from (at least once)/garbage collected.
@@ -22,7 +22,7 @@ _Wasting_ is not _using_.
 
 Not convinced yet? Try [this online tool](http://www.numion.com/StopWatch/index.html) to compare how fast web pages load when using one blocker compared to another.
 
-If you have a multi-core CPU, and hence plenty of spare CPU cycles, granted, there may not be such a noticeable difference in page load, but other popular blockers will definitely make use of plenty of whatever spare CPU cycles available (see below) to perform the same job as µBlock.
+If you have a multi-core CPU, and hence plenty of spare CPU cycles, granted, there may not be such a noticeable difference in page load, but other popular blockers will definitely make use of plenty of whatever spare CPU cycles available (see below) to perform the same job as uBlock.
 
 CPU overhead<br>
 ![CPU overhead](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/cpu-usage-overall-chart-20141226.png)
