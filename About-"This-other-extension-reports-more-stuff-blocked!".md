@@ -2,7 +2,7 @@ TL;DR: Do **not** rely on the number shown over an extension badge to judge bloc
 
 ***
 
-For both Adblock Plus and µBlock (and many other such extensions), the badge on the icon reports the number of net requests blocked by the extension.
+For both Adblock Plus and uBlock (and many other such extensions), the badge on the icon reports the number of net requests blocked by the extension.
 
 Sometimes, for the same page, one extension can report more stuff blocked than the other, while the reality could be the opposite.
 
@@ -14,7 +14,7 @@ If you don't want to run a benchmark, I have this [little online tool](http://ra
 
 Clear the browser cache by right-clicking somewhere in the _Network_ tab console. Force a reload of the web page, then right-click in the _Network_ tab console, and select _"Copy all as HAR"_. Then paste the result in the text area of [this online tool](http://raymondhill.net/httpsb/har-parser.html), and click _Parse_. You will be shown the hostnames which were hit by the browser for the particular page you loaded.
 
-For example, for the front page of <http://www.cnet.com/>, **µBlock shows 10 request blocked**, while **ABP shows 16 request blocked** (both with a lot of filter lists). However here is what really happened internally:
+For example, for the front page of <http://www.cnet.com/>, **uBlock shows 10 request blocked**, while **ABP shows 16 request blocked** (both with a lot of filter lists). However here is what really happened internally:
 
 Remote servers reached:
 
@@ -33,7 +33,7 @@ Adblock Plus
 - dw.cbsimg.net
 - geo.query.yahoo.com
 
-µBlock:
+uBlock:
 - dw.cbsi.com
 - cnet3.cbsistatic.com
 - cnet4.cbsistatic.com
@@ -41,7 +41,7 @@ Adblock Plus
 - urs.cnet.com
 - www.cnet.com
 
-So µBlock caused the browser to hit many less remote servers, meaning it blocked more, and yet its badge displayed a lower number of requests blocked.
+So uBlock caused the browser to hit many less remote servers, meaning it blocked more, and yet its badge displayed a lower number of requests blocked.
 
 So the point is, do not rely on the badge to judge blocking power, i.e. to assess how well your privacy is protected, you would fool yourself big time.
 
