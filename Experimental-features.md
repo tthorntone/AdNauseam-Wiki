@@ -1,4 +1,4 @@
-This page is about the experimental features which you can enable in µBlock. Features which I think are good for the users but which I consider aren't yet mature in design/implementation are considered experimental.
+This page is about the experimental features which you can enable in uBlock. Features which I think are good for the users but which I consider aren't yet mature in design/implementation are considered experimental.
 
 Experimental features are disabled by default, you can enabled them in the _Settings_ tab in the dashboard. As long as a feature is labeled "experimental", I can't guarantee it will work flawlessly.
 
@@ -12,7 +12,7 @@ One way users increase their privacy exposure is through [content delivery netwo
 
 When a resources is pulled from one of these CDNs, typically the [referrer header](http://en.wikipedia.org/wiki/HTTP_referer) is set in the HTTP request, which allows ubiquitous CDNs to collect data about your browsing habits. Not good for privacy.
 
-In the spirit of reducing privacy exposure, local mirroring is introduced as an experimental feature in µBlock. Local mirroring allows µBlock to cache locally resources pulled from known ubiquitous CDN, and future requests for the same resource will be served locally rather than pulling it from the CDN: not pulling a resource from a CDN prevents that CDN from collecting data about your browsing habit.
+In the spirit of reducing privacy exposure, local mirroring is introduced as an experimental feature in uBlock. Local mirroring allows uBlock to cache locally resources pulled from known ubiquitous CDN, and future requests for the same resource will be served locally rather than pulling it from the CDN: not pulling a resource from a CDN prevents that CDN from collecting data about your browsing habit.
 
 ![zdnet.com](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/local-mirroring-example-1.png)
 
