@@ -191,6 +191,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # nytimes.com
     nytimes.com nyt.com * noop
 
+    # pinterest.com
+    www.pinterest.com pinimg.com * noop
+
     # reddit.com
     reddit.com redditmedia.com * noop
     reddit.com redditstatic.com * noop
