@@ -2,7 +2,7 @@
 
 ***
 
-This is µBlock's popup UI when you click on µBlock's icon in the toolbar:
+This is uBlock's popup UI when you click on uBlock's icon in the toolbar:
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
 
@@ -12,7 +12,7 @@ This is µBlock's popup UI when you click on µBlock's icon in the toolbar:
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1a.png)
 
-Click the title bar of the popup to go to µBlock's dashboard.
+Click the title bar of the popup to go to uBlock's dashboard.
 
 ***
 
@@ -20,9 +20,9 @@ Click the title bar of the popup to go to µBlock's dashboard.
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1b.png)
 
-Click the large power button to turn off µBlock **for the current site** (a.k.a. _whitelist_ the current site). This will be remembered the next time you visit the site.
+Click the large power button to turn off uBlock **for the current site** (a.k.a. _whitelist_ the current site). This will be remembered the next time you visit the site.
 
-Alternatively, you can also <kbd>Ctrl</kbd>-click to turn off µBlock only for the current page (<kbd>command ⌘</kbd>-click on Mac).
+Alternatively, you can also <kbd>Ctrl</kbd>-click to turn off uBlock only for the current page (<kbd>command ⌘</kbd>-click on Mac).
 
 For more advanced whitelisting control, see ["How to whitelist a web site"](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site).
 
