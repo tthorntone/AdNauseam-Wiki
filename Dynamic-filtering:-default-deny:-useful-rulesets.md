@@ -128,6 +128,11 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     mail.google.com googleusercontent.com * noop
     mail.google.com gstatic.com * noop
 
+    # mathoverflow.net
+    mathoverflow.net sstatic.net * noop
+    # formatter for mathematical expressions
+    mathoverflow.net mathjax.org * noop
+
     # huffingtonpost.ca
     www.huffingtonpost.ca huffpost.com * noop
 
