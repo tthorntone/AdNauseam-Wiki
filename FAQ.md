@@ -8,25 +8,21 @@ Collection of questions which have been asked, along with the answer I provided,
 
 Because there are are filters to block YouTube ads in EasyList, yes, it will block YouTube ads.
 
-#### Is [_other blocker placeholder_] still needed with µBlock?
+#### Is [_other blocker placeholder_] still needed with uBlock?
 
-It all depends of the filter lists you use, and whether you use dynamic filtering in µBlock. I run benchmarks regarding blocking efficiency, this may help you decide whether you should keep another blocker to complement µBlock, or whether you should drop it and further configure µBlock to block more: [µBlock and others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares). The [resulting diffs](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares#data-diffs) are particularly useful in making a decision.
+It all depends of the filter lists you use, and whether you use dynamic filtering in uBlock. I run benchmarks regarding blocking efficiency, this may help you decide whether you should keep another blocker to complement uBlock, or whether you should drop it and further configure uBlock to block more: [uBlock and others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares). The [resulting diffs](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares#data-diffs) are particularly useful in making a decision.
 
 
 
 #### Fails to block Google Search ads
 
-If you have EasyList enabled, µBlock will block ads in Google Search results.
+If you have EasyList enabled, uBlock will block ads in Google Search results.
 
-If you feed µBlock with an invalid cosmetic filter in the _"My filters"_ pane in the dashboard, this will break cosmetic filtering, and a symptom of this is that ads will not be blocked in Google Search results.
+If you feed uBlock with an invalid cosmetic filter in the _"My filters"_ pane in the dashboard, this will break cosmetic filtering, and a symptom of this is that ads will not be blocked in Google Search results.
 
 #### Is Firefox version considered stable?
 
 Yes.
-
-#### Is µBlock related to µTorrent?
-
-No.
 
 #### How often are filter lists updated?
 
@@ -40,7 +36,7 @@ You can create a whitelist directive *only* for Google Search page. For example,
 
 In your case, just replace `google.ca` with whatever is your Google search domain name.
 
-Whitelist directives are those appearing in the _Whitelist_ tab in µBlock's dashboard, and which serves to disable µBlock completely.
+Whitelist directives are those appearing in the _Whitelist_ tab in uBlock's dashboard, and which serves to disable uBlock completely.
 
 #### Web pages appear only as text
 
@@ -50,7 +46,7 @@ You probably have a bad filter entry in your _"My filters"_ pane in the dashboar
 
 Will cause that exact problem.
 
-#### The badge count is very high, doesn't this slow down µBlock?
+#### The badge count is very high, doesn't this slow down uBlock?
 
 - Open a new document in a plain text editor
 - Type "1"
@@ -58,17 +54,17 @@ Will cause that exact problem.
 - Replace "1" with "1,000,000"
 - Notice the text editor's responsiveness
 
-Sounds absurd? It is. So is the claim that a high badge count slows down µBlock. It's just a _counter_ for the number of blocked network requests.
+Sounds absurd? It is. So is the claim that a high badge count slows down uBlock. It's just a _counter_ for the number of blocked network requests.
 
 #### I am worried about stability, should I wait for v1.0?
 
-µBlock is considered stable. The version number is just a convenience to differentiate one release from another one. It doesn't have any more meaning than this.
+uBlock is considered stable. The version number is just a convenience to differentiate one release from another one. It doesn't have any more meaning than this.
 
 #### YouTube filtering options à la ABP (or, Facebook filtering options à la ABP)
 
-These filter lists do not come with a Creative Common license, thus µBlock is not shipping with these lists. But you can add them manually as custom filter lists. You can find URLs to various external lists on this page: [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
+These filter lists do not come with a Creative Common license, thus uBlock is not shipping with these lists. But you can add them manually as custom filter lists. You can find URLs to various external lists on this page: [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
 
-#### Are you paid to develop µBlock?
+#### Are you paid to develop uBlock?
 
 No.
 
