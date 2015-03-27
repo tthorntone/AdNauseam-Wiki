@@ -103,6 +103,17 @@ In other words: **More specific dynamic filtering rules override less specific o
 
 ***
 
+All dynamic rules are temporary by default: Click the padlock if you want to persist the ruleset for a specific web site.
+
+![figure 12](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-12.png)
+
+- The padlock will be visible **if and only if** there is at least one temporary rule in the pane
+- This is really the optimal way to use dynamic filtering, as using this feature is often a matter of trial and error
+- This prevents ruleset pollution: your ruleset will be only those which you will have explicitly persisted
+- If you <kbd>Ctrl</kbd>-click to set/unset a rule, it will be immediately persisted (<kbd>command ⌘</kbd>-click on Mac)
+
+***
+
 We covered the _block_ and _noop_ dynamic filtering rules. What about the _allow_ rule?
 
 The dynamic filtering _allow_ rule is most useful to un-break sites broken by some static filters.
@@ -128,11 +139,4 @@ Typically, use only narrow _allow_ dynamic filtering rules to un-break sites. As
 
 ***
 
-All dynamic rules are temporary by default: Click the padlock if you want to persist the ruleset for a specific web site.
-- The padlock will be visible **if and only if** there is at least one temporary rule in the pane
-- This is really the optimal way to use dynamic filtering, as using this feature is often a matter of trial and error
-- This prevents ruleset pollution: your ruleset will be only those which you will have explicitly persisted
-- If you <kbd>Ctrl</kbd>-click to set/unset a rule, it will be immediately persisted (<kbd>command ⌘</kbd>-click on Mac)
-
-***
 More: [Take control of your privacy in your own hands](https://github.com/gorhill/uBlock/issues/433#issuecomment-68488686) (will move this here eventually, I need a break)
