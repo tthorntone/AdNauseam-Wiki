@@ -90,6 +90,8 @@ By default popups are allowed unless there is a filter to block them. When this 
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1i.png)<br><sup>No popups for this site: [Try it](http://www.popupcheck.com/advanced-pop-up-test.asp)</sup>
 
+Blocking popups depend on whether the proper filters are present in the selected filter lists, so this feature is most useful for when a site create popups for which there are no filter to take care of them in 3rd-party filter lists.
+
 ***
 
 ##### No strict blocking
@@ -117,3 +119,5 @@ If the user disagree that a web page proper should be blocked (because of a fals
 ... will prevent web pages proper for the site from being blocked by uBlock in the future: the filtering of the site will be done exactly as per ABP-filtering semantic, and just like with uBlock pre-0.9.3.0.
 
 There are many benefits to strict blocking. For example, there is no good reason one should want to connect _at all_ to any of the sites present in any one of the malware domain lists. Strict blocking will prevent this from happening.
+
+I do not expect the need to disable of strict blocking will be common.
