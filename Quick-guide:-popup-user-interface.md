@@ -9,7 +9,7 @@ This is uBlock's popup UI when you click on uBlock's icon in the toolbar:
 - [The title bar](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-title-bar)
 - [The large power button](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button)
 - [The number of requests blocked](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-number-of-requests-blocked)
-- [The number of domains connected]()
+- [The number of domains connected](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-number-of-domains-connected)
 - [The site-based switches](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-site-based-switches)
 
 ***
@@ -81,4 +81,3 @@ And I had click-to-play enabled in all cases, i.e. it could have been worse (exc
 The first (left-most) icon in the above figure is the popup blocker. By default popups are allowed unless there is a filter to block them. When this setting is turned on, **all** popups will be unconditionally blocked for the current site, regardless of filters.
 
 The second icon is to turn off strict blocking for the current site. By default strict blocking is on.
-
