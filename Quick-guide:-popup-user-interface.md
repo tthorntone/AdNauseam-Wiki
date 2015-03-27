@@ -98,4 +98,10 @@ In the end the chosen solution is to now have web page themselves subject to fil
 
 In the figure above, a user will be given the choice to go back or proceed to the web page which was blocked. If the user choose to proceed, web pages from the site will be temporary allowed for a limited time (currently set at 60s).
 
-If the user disagree that a web page should be blocked (because of a false positive for example), then turning off _strict blocking_ for the site will prevent web pages for the site from being blocked by uBlock in the future, i.e. the site will behave as per ABP-filtering semantic, just like with uBlock pre-0.9.3.0.
+If the user disagree that a web page should be blocked (because of a false positive for example), then turning off _strict blocking_ for the site...
+
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1h.png)
+
+... will prevent web pages for the site from being blocked by uBlock in the future, i.e. the site will behave as per ABP-filtering semantic, and just like with uBlock pre-0.9.3.0.
+
+There are many benefits to strict blocking. For example, there is no good reason one should want to connect _at all_ to any of the site present in any one of the malware domain lists. Strict blocking will prevent this from happening.
