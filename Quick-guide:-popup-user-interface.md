@@ -80,7 +80,7 @@ And I had click-to-play enabled in all cases, i.e. it could have been worse (exc
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1g.png)
 
-The first (left-most) icon in the above figure is the popup blocker. By default popups are allowed unless there is a filter to block them. When this setting is turned on, **all** popups will be unconditionally blocked for the current site, regardless of filters.
+The first (left-most) icon in the above figure is the popup blocker. By default popups are allowed unless there is a filter to block them. When this setting is turned on, **all** popups will be unconditionally blocked for the current site, regardless of filters. [Try it](http://raymondhill.net/ublock/popup.html).
 
 The second icon is to turn off strict blocking for the current site. By default strict blocking is on, this is the opposite of Adblock Plus.
 
