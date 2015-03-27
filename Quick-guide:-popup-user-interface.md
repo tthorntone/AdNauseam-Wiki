@@ -65,3 +65,9 @@ privacy exposure | very high | medium | very low
 bloat | ridiculously high | medium | very low
 
 And I had click-to-play enabled in all cases, i.e. it could have been worse (except for default-deny)...
+
+***
+
+#### The site-based tools
+
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1g.png)
