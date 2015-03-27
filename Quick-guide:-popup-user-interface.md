@@ -92,7 +92,7 @@ By default popups are allowed unless there is a filter to block them. When this 
 
 ***
 
-##### No Strict blocking
+##### No strict blocking
 
 The second icon is to turn off strict blocking for the current site. By default strict blocking is on, this is the opposite of Adblock Plus.
 
