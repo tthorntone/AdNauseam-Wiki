@@ -10,7 +10,7 @@ This is uBlock's popup UI when you click on uBlock's icon in the toolbar:
 - [The large power button](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button)
 - [The number of requests blocked](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-number-of-requests-blocked)
 - [The number of domains connected]()
-- [The site-based switches]()
+- [The site-based switches](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-site-based-switches)
 
 ***
 
