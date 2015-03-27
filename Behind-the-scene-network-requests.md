@@ -2,7 +2,7 @@ The filtering of behind-the-scene network request is available to [advanced user
 
 ### What are behind-the-scene network requests
 
-_Behind-the-scene_ network requests are those network requests which µBlock can not associate with a specific tab opened in your browser: these requests come from _somewhere_, but µBlock is missing information to report exactly from where.
+_Behind-the-scene_ network requests are those network requests which uBlock can not associate with a specific tab opened in your browser: these requests come from _somewhere_, but uBlock is missing information to report exactly from where.
 
 All network requests without a specific origin are classified as _behind-the-scene_. Typically, all blockers will ignore and automatically whitelist behind-the-scene network requests.
 
@@ -11,12 +11,12 @@ For the Chromium browser, examples of behind-the-scene network requests:
 - from the browser to update extensions
 - from the browser because of specific functionality, like the setting _"Use a prediction service to help complete searches and URLs typed in the address bar"_
 - as a result of web pages using [`navigator.sendBeacon()`](https://developer.mozilla.org/en-US/docs/Web/API/navigator.sendBeacon), [hyperlink auditing](http://www.wilderssecurity.com/threads/hyperlink-auditing-aka-a-ping-and-beacon-aka-navigator-sendbeacon.364904/), etc.
-- made by installed extensions for good or not so good reasons (µBlock makes such requests, to fetch the filter lists when they need to be updated)
+- made by installed extensions for good or not so good reasons (uBlock makes such requests, to fetch the filter lists when they need to be updated)
 - etc.
 
 ### How to inspect behind-the-scene network requests
 
-Starting with version µBlock 0.8.6.0, you can inspect behind-the-scene network requests using the network request logger. Just select the _"Behind the scene"_ entry in the drop down list.
+Starting with version uBlock 0.8.6.0, you can inspect behind-the-scene network requests using the network request logger. Just select the _"Behind the scene"_ entry in the drop down list.
 
 ![c](https://cloud.githubusercontent.com/assets/585534/5888630/0691e7ee-a3d5-11e4-8510-ed0955f39deb.png)<br><sup>Various extensions installed just to show that that these too make behind-the-scene requests</sup>
 
@@ -44,6 +44,6 @@ Remember that if you block indiscriminately, you could cripple the ability of yo
  
 To turn off the filtering of behind-the-scene requests is just a matter of whitelisting the _"Behind the scene"_ scope, or to turn off _"advanced user"_ mode.
 
-To whitelist the behind-the-scene scope: add `behind-the-scene` as a whitelist directive, in the _Whitelist_ tab of µBlock's dashboard.
+To whitelist the behind-the-scene scope: add `behind-the-scene` as a whitelist directive, in the _Whitelist_ tab of uBlock's dashboard.
 
 If there are only very specific behind-the-scene network requests you would like to filter, a good approach to minimize potential problems is to use dynamic filtering: set a local rule for the `all` cell to _allow_ (green) (i.e. `behind-the-scene * * allow`). This will ensure nothing is blocked in the behind-the-scene scope, just as if uBlock is disabled for that scope. Then proceed to create _block_ rules for the specific hostnames for which you want to block all network requests.
