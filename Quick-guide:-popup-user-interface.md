@@ -91,3 +91,11 @@ So if you were to create a filter such as `||example.com^`, and then navigate to
 uBlock respected that semantic until version 0.9.3.0. With version 0.9.3.0, uBlock will subject web pages themselves to filtering. This means that using the same test case above, uBlock will block the web page served by <https://example.com/> -- as opposed to ABP:
 
 ![Page was fully blocked](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/page-block.png)
+
+Why the change? Because [issue #1013](https://github.com/gorhill/uBlock/issues/1013) brought forth why it is desirable sometimes to block completely a web site, as opposed to what ABP-filtering semantic dictates.
+
+In the end the chosen solution is to now have web page themselves subject to filtering just like all secondary resources.
+
+In the figure above, a user will be given the choice to go back or proceed to the web page which was blocked. If the user choose to proceed, web pages from the site will be temporary allowed for a limited time (currently set at 60s).
+
+If the user disagree that a web page should be blocked (because of a false positive for example), then turning off _strict blocking_ for the site will prevent web pages for the site from being blocked by uBlock in the future, i.e. the site will behave as per ABP-filtering semantic, just like with uBlock pre-0.9.3.0.
