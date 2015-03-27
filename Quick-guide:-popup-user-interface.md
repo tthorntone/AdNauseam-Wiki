@@ -80,4 +80,12 @@ And I had click-to-play enabled in all cases, i.e. it could have been worse (exc
 
 The first (left-most) icon in the above figure is the popup blocker. By default popups are allowed unless there is a filter to block them. When this setting is turned on, **all** popups will be unconditionally blocked for the current site, regardless of filters.
 
-The second icon is to turn off strict blocking for the current site. By default strict blocking is on.
+The second icon is to turn off strict blocking for the current site. By default strict blocking is on, this is the opposite of Adblock Plus.
+
+As per ABP filter semantics, web pages _themselves_ are **never** filtered, only secondary resources are subject to filtering.
+
+So if you were to create a filter such as `||example.com^`, and then navigate to <https://example.com/>, Adblock Plus would not prevent you from connecting and loading the web  page itself served at `https://example.com/`, though it would filter all secondary resources pulled by that web page.
+
+uBlock respected that semantic until version 0.9.3.0. With version 0.9.3.0, uBlock will subject web pages themselves to filtering. This means that using the same test case above, uBlock will block the web page served by <https://example.com/> -- as opposed to ABP:
+
+![Page was fully blocked](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/page-block.png)
