@@ -58,7 +58,7 @@ There is a good correlation between _domains connected_ count and: undue page bl
 
 Example, a web page on <http://www.ibtimes.com/> (which could be read all fine in all cases by the way):
 
- µBlock's mode | turned off | default settings | [default-deny](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
+ uBlock's mode | turned off | default settings | [default-deny](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
 --- | --- | --- | ---
 domains connected | ![](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1e.png) | ![](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1d.png) | ![](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1f.png)
 privacy exposure | very high | medium | very low
