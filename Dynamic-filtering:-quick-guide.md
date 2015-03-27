@@ -22,7 +22,7 @@ As you can see, you can create dynamic filtering rules for object types, or host
 
 The color of an entry indicate whether all requests were blocked (reddish), all requests were allowed (greenish), or some were blocked some were allowed (yellowish).
 
-In bold, domain names. Domain names are hostnames, but hostnames are not necessarily domain names from µBlock's point of view: domain names are extracted as per [Mozilla Public Suffix list](https://publicsuffix.org/).
+In bold, domain names. Domain names are hostnames, but hostnames are not necessarily domain names from uBlock's point of view: domain names are extracted as per [Mozilla Public Suffix list](https://publicsuffix.org/).
 
 **Second column**: **_global_** dynamic filtering rules, i.e. whatever rule appears in this column applies everywhere, on _all_ sites:
 
@@ -107,7 +107,7 @@ We covered the _block_ and _noop_ dynamic filtering rules. What about the _allow
 
 The dynamic filtering _allow_ rule is most useful to un-break sites broken by some static filters.
 
-[Someone found out](https://twitter.com/r3volution11/status/549584186320117760) Boldchat site was broken when using µBlock:
+[Someone found out](https://twitter.com/r3volution11/status/549584186320117760) Boldchat site was broken when using uBlock:
 
 ![figure 10](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-10.png)
 
