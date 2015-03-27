@@ -80,11 +80,19 @@ And I had click-to-play enabled in all cases, i.e. it could have been worse (exc
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1g.png)
 
-The first (left-most) icon in the above figure is the popup blocker. By default popups are allowed unless there is a filter to block them. When this setting is turned on, **all** popups will be unconditionally blocked for the current site, regardless of filters:
-
-![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1h.png)<br><sup>No popups for the site: [Try it](http://www.popupcheck.com/advanced-pop-up-test.asp)</sup>
+The site-based switches allows to control uBlock's behavior on a per-site basis.
 
 ***
+
+##### Block all popups
+
+By default popups are allowed unless there is a filter to block them. When this setting is turned on, **all** popups will be unconditionally blocked for the current site, regardless of filters:
+
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1h.png)<br><sup>No popups for this site: [Try it](http://www.popupcheck.com/advanced-pop-up-test.asp)</sup>
+
+***
+
+##### Strict blocking
 
 The second icon is to turn off strict blocking for the current site. By default strict blocking is on, this is the opposite of Adblock Plus.
 
@@ -104,7 +112,7 @@ In the figure above, a user will be given the choice to go back or proceed to th
 
 If the user disagree that a web page proper should be blocked (because of a false positive for example), then turning off _strict blocking_ for the site...
 
-![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1h.png)<br><sup>No strict blocking for the site.</sup>
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1h.png)<br><sup>No strict blocking for this site.</sup>
 
 ... will prevent web pages proper for the site from being blocked by uBlock in the future: the filtering of the site will be done exactly as per ABP-filtering semantic, and just like with uBlock pre-0.9.3.0.
 
