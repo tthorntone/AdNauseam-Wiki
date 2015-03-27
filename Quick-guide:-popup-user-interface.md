@@ -108,7 +108,7 @@ Why the change? Because [issue #1013](https://github.com/gorhill/uBlock/issues/1
 
 In the end the chosen solution is to now have web page themselves subject to filtering just like all secondary resources.
 
-In the figure above, a user will be given the choice to go back or proceed to the web page which was blocked. If the user choose to proceed, web pages from the site will be temporary allowed for a limited time (currently set at 60s).
+In the figure above, a user will be given the choice to go back or proceed to the web page which was blocked. If the user chooses to proceed, web pages from the site will be temporarily allowed for a limited time (currently set at 60 seconds).
 
 If the user disagree that a web page proper should be blocked (because of a false positive for example), then turning off _strict blocking_ for the site...
 
