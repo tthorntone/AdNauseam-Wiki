@@ -109,7 +109,7 @@ All dynamic rules are temporary by default: Click the padlock if you want to per
 
 - The padlock will be visible **if and only if** there is at least one temporary rule in the pane
 - This is really the optimal way to use dynamic filtering, as using this feature is often a matter of trial and error
-- This prevents ruleset pollution: your ruleset will be only those which you will have explicitly persisted
+- This prevents ruleset pollution: your ruleset will be only those rules which you will have explicitly persisted
 - If you <kbd>Ctrl</kbd>-click to set/unset a rule, it will be immediately persisted (<kbd>command ⌘</kbd>-click on Mac)
 
 ***
