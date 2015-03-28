@@ -124,15 +124,6 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # ign.com
     www.ign.com ignimgs.com * noop
 
-    # mail.google.com
-    mail.google.com googleusercontent.com * noop
-    mail.google.com gstatic.com * noop
-
-    # mathoverflow.net
-    mathoverflow.net sstatic.net * noop
-    # formatter for mathematical expressions
-    mathoverflow.net mathjax.org * noop
-
     # huffingtonpost.ca
     www.huffingtonpost.ca huffpost.com * noop
 
@@ -174,12 +165,21 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # linkedin.com
     www.linkedin.com licdn.com * noop
 
+    # mail.google.com
+    mail.google.com googleusercontent.com * noop
+    mail.google.com gstatic.com * noop
+
     # marketwatch.com
     www.marketwatch.com mktw.net * noop
     www.marketwatch.com wsj.net * noop
 
     # mashable.com
     mashable.com mshcdn.com * noop
+
+    # mathoverflow.net
+    mathoverflow.net sstatic.net * noop
+    # formatter for mathematical expressions
+    mathoverflow.net mathjax.org * noop
 
     # medium.com
     medium.com d262ilb51hltx0.cloudfront.net * noop
