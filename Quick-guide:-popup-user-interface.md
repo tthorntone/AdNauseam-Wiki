@@ -90,7 +90,7 @@ By default popups are allowed unless there is a filter to block them. When this 
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1i.png)<br><sup>No popups for this site: [Try it](http://jessehakanen.net/adblockpluspopupaddon/test.html)</sup>
 
-Blocking popups depend on whether the proper filters are present in the selected filter lists, so this feature is most useful for when a site create popups for which there are no filter to take care of them in 3rd-party filter lists.
+Blocking popups depends on whether the proper filters are present in the selected filter lists, so this feature is most useful for when a site create popups for which there are no filter to take care of them in 3rd-party filter lists.
 
 ***
 
