@@ -6,7 +6,7 @@ This statement has bothered me when I read it, because it misses completely the 
 
 > **your** software
 
-uBlock is licensed GPLv3. If you click the "Fork" button at the top of a project's Github page, this software becomes **yours**.
+uBlock is licensed GPLv3. If you click the "Fork" button at the top of a project's Github page, **this software becomes yours**.
 
 Try it.
 
