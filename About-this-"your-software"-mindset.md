@@ -1,4 +1,4 @@
-This is a response to the "your software" mindset I have seen many times. I will quote a statement from a real occurrence (the context does not matter). My emphasis:
+This is a response to the "your software" mindset I have seen many times here and elsewhere. I will quote a statement from a real occurrence (the context does not matter). My emphasis:
 
 > You should appreciate people using **your** software and **taking the time** to report bugs.
 
