@@ -100,7 +100,7 @@ The second icon is to turn off strict blocking for the current site. By default 
 
 As per ABP filter semantics, [web pages _themselves_ are **never** filtered](https://adblockplus.org/forum/viewtopic.php?t=18774#p85439), only secondary resources are subject to filtering.
 
-So if you were to create a filter such as `||example.com^`, and then navigate to <https://example.com>, Adblock Plus would not prevent you from connecting and loading the web  page itself served at `https://example.com`, though it would filter all secondary resources pulled by that web page.
+So if you were to create a filter such as `||example.com^`, and then navigate to <https://example.com>, Adblock Plus would not prevent you from connecting and loading the web  page itself served at `https://example.com`, though all secondary resources pulled by that web page would be subjected to filtering.
 
 uBlock respected that semantic until version 0.9.3.0. With version 0.9.3.0, uBlock will subject web pages themselves to filtering. This means that using the same test case above, uBlock will block the web page served by <https://example.com> -- as opposed to ABP:
 
