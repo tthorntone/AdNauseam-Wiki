@@ -229,6 +229,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # smashingmagazine.com
     www.smashingmagazine.com netdna-cdn.com * noop
 
+    # softpedia.com
+    www.softpedia.com softpedia-static.com * noop
+
     # stackoverflow.com
     stackoverflow.com sstatic.net * noop
     stackoverflow.com ajax.googleapis.com * noop
