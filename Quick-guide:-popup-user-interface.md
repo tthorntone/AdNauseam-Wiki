@@ -98,7 +98,7 @@ Blocking popups depends on whether the proper filters are present in the selecte
 
 The second icon is to turn off strict blocking for the current site. By default strict blocking is on, this is the opposite of Adblock Plus.
 
-As per ABP filter semantics, web pages _themselves_ are **never** filtered, only secondary resources are subject to filtering.
+As per ABP filter semantics, [web pages _themselves_ are **never** filtered](https://adblockplus.org/forum/viewtopic.php?t=18774#p85439), only secondary resources are subject to filtering.
 
 So if you were to create a filter such as `||example.com^`, and then navigate to <https://example.com/>, Adblock Plus would not prevent you from connecting and loading the web  page itself served at `https://example.com/`, though it would filter all secondary resources pulled by that web page.
 
