@@ -6,7 +6,13 @@ There seems to be underhanded attempts to discredit µBlock lately in various ve
 
 > uBlock who is recently found to not actually "block" ads, but rather hide them after its been displayed. Adblock actually blocks them before they can even display them.
 
-The statement above is plain fear-using-disinformation. That kind of disinformation happens to be convenient to the incumbent blockers, **or** to those who have an interest in people using those incumbent blockers.
+The statement above is plain fear-using-disinformation. That kind of disinformation happens to be convenient to the incumbent blockers, **or** to those who have an interest in people using those incumbent blockers. 
+
+***
+
+Whoever claims that uBlock does not block network requests as expected should open an issue with uBlock along with **all** the details supporting the claim. If the issue is not addressed satisfactorily, the claimant should report its finding + proof to the [PRISM Break project](https://github.com/nylira/prism-break/issues) in order to ensure [uBlock](https://prism-break.org/en/projects/ublock/) is removed from that project.
+
+***
 
 There are two kinds of [ABP-compatible filters](https://adblockplus.org/en/filters): network filters and cosmetic filters. _Cosmetic filters_ are referred to as _element hiding_ filters by Adblock Plus ("ABP").
 
