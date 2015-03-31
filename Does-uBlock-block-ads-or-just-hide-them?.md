@@ -10,7 +10,7 @@ The statement above is plain fear-using-disinformation. That kind of disinformat
 
 ***
 
-Whoever claims that uBlock does not block network requests as expected should open an issue with uBlock along with **all** the details supporting the claim. If the issue is not addressed satisfactorily, the claimant should report its finding + proof to the [PRISM Break project](https://github.com/nylira/prism-break/issues) in order to ensure [uBlock](https://prism-break.org/en/projects/ublock/) is removed from that project.
+Whoever claims that uBlock does not block network requests as expected should open [an issue with uBlock](https://github.com/gorhill/uBlock/issues) along with **all** the details supporting the claim. If the issue is not addressed satisfactorily, the claimant should report its finding + proof to the [PRISM Break project](https://github.com/nylira/prism-break/issues) in order to ensure [uBlock](https://prism-break.org/en/projects/ublock/) is removed from that project.
 
 ***
 
