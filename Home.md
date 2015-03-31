@@ -5,8 +5,8 @@
 - [Change log](https://github.com/gorhill/uBlock/releases) ([old one](https://github.com/gorhill/uBlock/wiki/Change-log))
 - Quick guides:
     - [The popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
-    - [The-network-request-logger](https://github.com/gorhill/uBlock/wiki/The-network-request-logger)
-    - [Dynamic-filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
+    - [The network request logger](https://github.com/gorhill/uBlock/wiki/The-network-request-logger)
+    - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
 - [Does uBlock block ads or just hide them?](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
 - [About the required permissions](https://github.com/gorhill/uBlock/wiki/About-the-required-permissions)
