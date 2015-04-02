@@ -13,7 +13,7 @@
 - [Memory footprint: what happens inside uBlock after installation](https://github.com/chrisaljoudi/uBlock/wiki/Memory-footprint:-what-happens-inside-uBlock-after-installation)
 - [About that CSS selector with "www.faceporn.net" in it...](https://github.com/chrisaljoudi/uBlock/wiki/About-that-CSS-selector-with-%22www.faceporn.net%22-in-it...)
 - [How to whitelist a web site](https://github.com/chrisaljoudi/uBlock/wiki/How-to-whitelist-a-web-site)
-- Install from [Chrome store](https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](https://github.com/chrisaljoudi/uBlock/tree/master/dist#install).
+- Install from [Chrome store](https://chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](https://github.com/chrisaljoudi/uBlock/tree/master/dist#install).
     - [My answer to web store reviews where appropriate](https://github.com/chrisaljoudi/uBlock/wiki/My-answer-to-web-store-reviews-where-appropriate)
 - [Privacy stuff](https://github.com/chrisaljoudi/uBlock/wiki/Privacy-stuff)
 - [Filter syntax extensions](https://github.com/chrisaljoudi/uBlock/wiki/Filter-syntax-extensions)
