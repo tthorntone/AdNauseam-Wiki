@@ -2,7 +2,7 @@
 
 ***
 
-- [Change log](https://github.com/gorhill/uBlock/releases) / [Pre-fork](https://github.com/gorhill/uBlock/releases) / [Even older](https://github.com/gorhill/uBlock/wiki/Change-log))
+- [Change log](https://github.com/gorhill/uBlock/releases) / [Pre-fork](https://github.com/gorhill/uBlock/releases) / [Even older](https://github.com/gorhill/uBlock/wiki/Change-log)
 - Quick guides:
     - [The popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
     - [The network request logger](https://github.com/gorhill/uBlock/wiki/The-network-request-logger)
