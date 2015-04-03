@@ -1,1 +1,1 @@
-[Wiki home](https://github.com/gorhill/uBlock/wiki/)
+[Wiki home](https://github.com/chrisaljoudi/uBlock/wiki/)
