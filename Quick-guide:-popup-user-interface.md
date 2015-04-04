@@ -124,3 +124,5 @@ If the user disagree that a web page proper should be blocked (because of a fals
 There are many benefits to strict blocking. For example, there is no good reason one should want to connect _at all_ to any of the sites present in any one of the malware domain lists. Strict blocking will prevent this from happening.
 
 I expect the need to disable strict blocking to be rather uncommon.
+
+Keep in mind that when the above warning occurs, it doesn't necessarily mean the site is "malicious", it just mean that there is a matching filter in the selected filter lists.
