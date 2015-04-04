@@ -125,4 +125,4 @@ There are many benefits to strict blocking. For example, there is no good reason
 
 I expect the need to disable strict blocking to be rather uncommon.
 
-Keep in mind that when the above warning occurs, it doesn't necessarily mean the site is "malicious", it just mean that there is a matching filter in the selected filter lists.
+Keep in mind that when the above warning occurs, it doesn't necessarily mean the site is "malicious", it just means that there is a matching filter in the selected filter lists.
