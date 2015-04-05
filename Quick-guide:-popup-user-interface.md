@@ -88,7 +88,7 @@ The site-based switches allows to control uBlock's behavior on a per-site basis.
 
 By default popups are allowed unless there is a filter to block them. When this setting is turned on, **all** popups will be unconditionally blocked for the current site, regardless of filters:
 
-![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1i.png)<br><sup>No popups for this site: [Try it](http://jessehakanen.net/adblockpluspopupaddon/test.html)</sup>
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1i.png)<br><sup>No popups for the current site: [Try it](http://jessehakanen.net/adblockpluspopupaddon/test.html)</sup>
 
 Blocking popups depends on whether the proper filters are present in the selected filter lists, so this feature is most useful for when a site creates popups for which there are no filter to take care of them in 3rd-party filter lists.
 
@@ -117,7 +117,7 @@ In the figure above, a user will be given the choice to go back by closing the w
 
 If the user disagree that a web page proper should be blocked (because of a false positive for example), then turning off _strict blocking_ for the site...
 
-![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1h.png)<br><sup>No strict blocking for this site.</sup>
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1h.png)<br><sup>No strict blocking for the current site.</sup>
 
 ... will prevent web pages proper for the site from being blocked by uBlock in the future: the filtering of the site will be done exactly as per ABP-filtering semantic, and just like with uBlock pre-0.9.3.0.
 
