@@ -126,3 +126,15 @@ There are many benefits to strict blocking. For example, there is no good reason
 I expect the need to disable strict blocking to be rather uncommon.
 
 Keep in mind that when the above warning occurs, it doesn't necessarily mean the site is "malicious", it just means that there is a matching filter in the selected filter lists.
+
+***
+
+##### No cosmetic filtering
+
+You can easily toggle on/off cosmetic filtering for a given site:
+
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1j.png)<br><sup>No cosmetic filtering for the current site.</sup>
+
+When present, the badge number indicates the number of elements which have been hidden on the page. If you disable cosmetic filtering while there are hidden elements on the page, these hidden elements will become visible when you toggle off cosmetic filtering.
+
+Cosmetic filtering is always enabled by default.
