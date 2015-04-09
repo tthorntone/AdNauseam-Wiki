@@ -12,4 +12,11 @@ The syntax is as follow:
 
     switch-name: hostname state
 
-The switch name must be followed by a column `:`, a space, the the hostname on which the switch must apply. Use `*` to indicate you want the switch to apply everywhere. Following is the state of the switch, which can be `on` or `off`.
+The switch name must be followed by a column `:`, a space, then the hostname on which the switch must apply. Use `*` to indicate you want the switch to apply everywhere. Following is the state of the switch, which can be `on` or `off`.
+
+When switches share a common hostname ancestor, the most specific wins. For example, if you have:
+
+    no-popups: example.com on
+    no-popups: www.example.com off
+
+and you visit `www.example.com`, the "no popups" switch will be turned off (popup allowed unless blocked by a static filter).
