@@ -106,7 +106,7 @@ uBlock respected that semantic until version 0.9.3.0. With version 0.9.3.0, uBlo
 
 ![Page was fully blocked](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/page-block.png)
 
-Why the change? Because [issue #1013](https://github.com/gorhill/uBlock/issues/1013) brought forth why it is desirable sometimes to block completely a web site, as opposed to what ABP-filtering semantic dictates.
+Why the change? Because [issue #1013](https://github.com/chrisaljoudi/uBlock/issues/1013) brought forth why it is desirable sometimes to block completely a web site, as opposed to what ABP-filtering semantic dictates.
 
 In the end the chosen solution is to now have web page themselves subject to filtering just like all secondary resources.
 
