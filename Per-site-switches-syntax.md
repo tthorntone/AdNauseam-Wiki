@@ -20,3 +20,9 @@ When switches share a common hostname ancestor, the most specific wins. For exam
     no-popups: www.example.com off
 
 and you visit `www.example.com`, the "no popups" switch will be turned off (popup allowed unless blocked by a static filter).
+
+All switches are `off` by default, meaning there is no point in creating an entry such as:
+
+    no-popups: www.example.com off
+
+Unless it is to override a related broader entry for which the switch is `on`
