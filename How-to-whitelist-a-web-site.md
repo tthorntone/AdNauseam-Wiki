@@ -43,7 +43,7 @@ Wildcards can be used at any position. However, when a wildcard is used within t
 
 #### A Youtube channel
 
-- Follow step 1 to 4 in ["YouTube - whitelist channels in uBlock"](https://greasyfork.org/en/scripts/9116-youtube-whitelist-channels-in-ublock)
+- Follow step 1 to 4 in ["YouTube - whitelist channels in uBlock"](https://greasyfork.org/en/scripts/9116-youtube-whitelist-channels-in-ublock) (authored by [SivaMachina](https://github.com/SivaMachina))
 - Extract the author's name as directed
 - Once you have the author's name:
     - Go to the _Whitelist_ tab in uBlock's dashboard
