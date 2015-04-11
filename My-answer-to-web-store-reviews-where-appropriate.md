@@ -15,7 +15,7 @@ Problem with _about:addons-memory_ is that it doesn't show all the memory used b
 
 Still, taking this into account, uBlock has a smaller memory footprint than ABP, even when using many more filter lists (something else to take into account).
 
-But the biggest problem with this user's conclusion is that he doesn't take into account the [contributed memory footprint to web pages](https://github.com/gorhill/uBlock/wiki/Firefox-version:-benchmarking-memory-footprint). This is where ABP suffers the most. ABP will inject 14,000+ CSS rules into every page and into every `iframe` on a page. The count can easily reach  21,000+ CSS rules if using more than just EasyList. On the other hand, uBlock will typically inject from none to a handful of CSS rules. 
+But the biggest problem with this user's conclusion is that he doesn't take into account the [contributed memory footprint to web pages](https://github.com/gorhill/uBlock/wiki/Firefox-version:-benchmarking-memory-footprint). This is where ABP [suffers the most](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c6). ABP will inject 14,000+ CSS rules into every page and into every `iframe` on a page. The count can easily reach  21,000+ CSS rules if using more than just EasyList. On the other hand, uBlock will typically inject from none to a handful of CSS rules. 
 
 ***
 
