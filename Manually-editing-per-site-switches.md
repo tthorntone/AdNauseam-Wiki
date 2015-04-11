@@ -14,7 +14,7 @@ The syntax is as follow:
 
     switch-name: hostname state
 
-The switch name must be followed by a column `:`, a space, then the hostname on which the switch must apply. Use `*` as a hostname placeholder to indicate you want the switch to apply everywhere. Following is the state of the switch, which can be `on` or `off`.
+The switch name must be followed by a column `:`, a space, then the hostname on which the switch must apply. Use `*` as a hostname placeholder to indicate you want the switch to apply everywhere. Following is the state of the switch, which can be `on` or `off` (`true` or `false` are also valid).
 
 When switches share a common hostname ancestor, the most specific wins. For example, if you have:
 
