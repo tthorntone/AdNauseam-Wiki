@@ -2,6 +2,23 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### Kougeru ([AMO](https://addons.mozilla.org/en-US/firefox/addon/ublock/reviews/696982/), 8 April 2015)
+
+> Personal tests show ublock using 1.7 MBs after over 24 hours of my browser running. Adblock Plus was using 15 MBs. That may seem like a big difference, however it is not
+
+This user's findings are flawed, for many reasons.
+
+First, there is no way uBlock consumes only 1.7 MB. I suspect this user used [_about:addons-memory_](https://addons.mozilla.org/en-us/firefox/addon/about-addons-memory/) extension to draw his conclusion.
+
+Problem with _about:addons-memory_ is that it doesn't show all the memory used by an extension. uBlock has two counterparts listed in the `about:memory` results. The smallest figure is listed under 
+`add-ons`. The bigger figure is listed under `window-objects > resource://gre-resources/hiddenWindow.html, id=1)`.
+
+Still, taking this into account, uBlock has a smaller memory footprint than ABP, even when using many more filter lists (something else to take into account).
+
+But the biggest problem with this user's conclusion is that he doesn't take into account the [contributed memory footprint to web pages](https://github.com/gorhill/uBlock/wiki/Firefox-version:-benchmarking-memory-footprint). This is where ABP suffers the most. ABP will inject 14,000+ CSS rules into every page and into every `iframe` on a page. The count can easily reach  21,000+ CSS rules if using more than just EasyList. On the other hand, uBlock will typically inject from none to a handful of CSS rules. 
+
+***
+
 #### Earl Baugh (Chrome store, 25 February 2015)
 
 > Prevents web sites from working properly, i.e. Capitol One 360, you can't login with this enabled. [...] If I turn off ALL the filters I can get some things to work. **But adding in ANY filters kills things like logging into Capitol One.**
