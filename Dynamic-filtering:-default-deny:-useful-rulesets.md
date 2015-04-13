@@ -90,6 +90,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # fastcompany.com
     www.fastcompany.com fastcompany.net * noop
+    www.fastcodesign.com fastcompany.net * noop
 
     # fool.com
     www.fool.com foolcdn.com * noop
