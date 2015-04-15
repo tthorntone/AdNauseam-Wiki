@@ -31,4 +31,4 @@ Unless it is to override a related broader entry for which the switch is `on`.
 
 ### Caveats
 
-- Chromium-based browsers: If you block popups everywhere by default (`no-popups: * true`), this will break "Open link in new tab" in the context menu. This is because of Chrome API limitations.
+- Chromium-based browsers: If you block popups everywhere by default (`no-popups: * true`), this will break _"Open link in new tab"_ in the context menu. This is because of Chrome API limitations.
