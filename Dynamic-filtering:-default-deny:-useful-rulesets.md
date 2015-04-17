@@ -15,9 +15,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     * services.mozilla.com * noop
 
     # Embedded Youtube videos
-    # If you block `youtube.com` by default, NO connections to the following
+    # If you block youtube.com by default, NO connections to the following
     # hostnames will occur when a Youtube video is embedded in web page.
-    # As soon as you allow `youtube.com` on the page, the page will connect
+    # As soon as you allow youtube.com on the page, the page will connect
     # to these hostnames and the embedded video will work right away.
     * ytimg.com * noop
     * googlevideo.com * noop
