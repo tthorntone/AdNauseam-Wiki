@@ -1,8 +1,8 @@
 µBlock comes with a network request logger, which gives the ability to inspect network requests, whether they were blocked or allowed, and which filter, if any, matched a network request.
 
-To access the network request logger, click on the _eye_ icon of µBlock's popup UI:
+To access the network request logger, click on the _list_ icon of µBlock's popup UI:
 
-![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1c.png)
+![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
 
 The request logger will open in a new tab:
 
