@@ -2,7 +2,7 @@
 
 To access the network request logger, click on the _list_ icon of µBlock's popup UI:
 
-![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1.png)
+![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1c-1.png)
 
 The request logger will open in a new tab:
 
