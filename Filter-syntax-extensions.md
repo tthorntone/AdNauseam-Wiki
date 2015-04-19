@@ -31,3 +31,6 @@ To specifically disable inline script tags in a main page: `||example.com^$inlin
 An _entity_ is defined as follow: a formal domain name with the Public Suffix part replaced by a wildcard.
 
 Examples: `google.*`  will apply to all similar Google domain names: `google.com`, `google.com.br`, `google.ca`, `google.co.uk`, etc. Another example: `facebook.*` will apply to all similar Facebook domain names: `facebook.com`, `facebook.net`.
+
+
+Since the base domain name is used to derive the "entity", `google.evil.biz` would **not** match `google.*`.
