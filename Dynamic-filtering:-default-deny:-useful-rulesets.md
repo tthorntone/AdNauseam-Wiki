@@ -50,7 +50,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.bloomberg.com gotraffic.net * noop
 
     # bloombergview.com
+    www.bloombergview.com bloomberg.com * noop
     www.bloombergview.com btrd.net * noop
+    www.bloombergview.com gotraffic.net * noop
 
     # buzzfeed.com
     www.buzzfeed.com akamaihd.net * noop
