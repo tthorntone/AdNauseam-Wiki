@@ -139,4 +139,4 @@ Typically, use only narrow _allow_ dynamic filtering rules to un-break sites. As
 
 ***
 
-More: [Take control of your privacy in your own hands](https://github.com/gorhill/uBlock/issues/433#issuecomment-68488686) (will move this here eventually, I need a break)
+More: [Take control of your privacy in your own hands](https://github.com/chrisaljoudi/uBlock/issues/433#issuecomment-68488686) (will move this here eventually, I need a break)
