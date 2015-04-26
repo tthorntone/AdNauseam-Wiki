@@ -1,4 +1,6 @@
-**Update (2015-04-25)**: issue resolved: https://github.com/gorhill/uBlock/issues/130#issuecomment-96321347
+**Update (2015-04-25)**: issue resolved, see <https://github.com/gorhill/uBlock/issues/130#issuecomment-96321347>:
+
+> The issue has been fixed, and we can all move on. I didn't know @chrisaljoudi was that young, so given this I will assume it was a fumble with no real bad intent.
 
 ***
 
