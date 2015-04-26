@@ -1,3 +1,7 @@
+**Update (2015-04-25)**: issue resolved: https://github.com/gorhill/uBlock/issues/130#issuecomment-96321347
+
+***
+
 On April 1st, when I transferred **maintainership** of uBlock<sup>[1]</sup>, as far as I am concerned, I was transferring to the [The uBlock Development Team](https://github.com/chrisaljoudi/uBlock/commit/50e621d4ee46479b40e36319cbab68985d7527a5). In practice, of course I had to transfer to one of the member of the [The uBlock Development Team](https://github.com/chrisaljoudi/uBlock/commit/50e621d4ee46479b40e36319cbab68985d7527a5), which happened to be @chrisaljoudi.
 
 Things did not turn out as expected. A few days afterward, I learned that @chrisaljoudi had proceeded to _immediately_ misrepresent (and still does as of April 24th) the project on [his home page](https://chrismatic.io/ublock/) with _"made [...] by Chris"_. uBlock is _not_ made by @chrisaljoudi, it is made by [The uBlock Development Team](https://github.com/chrisaljoudi/uBlock/commit/50e621d4ee46479b40e36319cbab68985d7527a5)<sup>[2]</sup>, of which @chrisaljoudi was one of the developers<sup>[3]</sup>. This misrepresentation is made worst by the fact that it was coupled with a plea for donations.<sup>[4]</sup>
