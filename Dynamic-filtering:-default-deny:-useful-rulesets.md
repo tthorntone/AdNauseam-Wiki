@@ -269,6 +269,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.techrepublic.com cbsimg.net * noop
     www.techrepublic.com cbsistatic.com * noop
 
+    # ted.com
+    www.ted.com akamaihd.net * noop
+    www.ted.com tedcdn.com * noop
+
     # theguardian.com
     www.theguardian.com guardianapps.co.uk * noop
     www.theguardian.com guim.co.uk * noop
