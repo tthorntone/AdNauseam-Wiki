@@ -20,7 +20,7 @@ _Static filtering_ refers to the filters which comes from the filter lists, i.e.
 
 As you can see, you can create dynamic filtering rules for object types, or hostnames according to their origin.
 
-The color of an entry indicate whether all requests were blocked (reddish), all requests were allowed (greenish), or some were blocked some were allowed (yellowish).
+The color of an entry indicates whether all requests were blocked (reddish), all requests were allowed (greenish), or some were blocked some were allowed (yellowish).
 
 In bold, domain names. Domain names are hostnames, but hostnames are not necessarily domain names from uBlock's point of view: domain names are extracted as per [Mozilla Public Suffix list](https://publicsuffix.org/).
 
@@ -53,11 +53,11 @@ Sensible security- and privacy-wise: blocking all 3rd-party frames by default ev
 
 ***
 
-All embedded 3rd-party frames were blocked on the page. Good. However it appears there was an embedded Youtube video in the article:
+All embedded 3rd-party frames were blocked on the page. Good. However it appears there was an embedded YouTube video in the article:
 
 ![figure 6](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-06.png)
 
-If you want to block all 3rd-party frames by default, except for embedded Youtube videos on that particular site, two solutions.
+If you want to block all 3rd-party frames by default, except for embedded YouTube videos on that particular site, two solutions.
 
 ##### First solution
 
@@ -65,7 +65,7 @@ Create a local  _noop_ rule for 3rd-party frames:
 
 ![figure 7](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-07.png)
 
-It works, the embedded Youtube video can now be played.
+It works, the embedded YouTube video can now be played.
 
 However the above rule would result in all 3rd-party frames on the site to be unblocked. Not so good.
 
@@ -81,11 +81,11 @@ This will prevent dynamic filtering rules to apply to anything from `youtube.com
 
 #### Important
 
-Remember that _noop_ rules bypass **only** broader dynamic filtering rules, static filtering is left completely intact, which means you won't see ads in the embedded Youtube videos.
+Remember that _noop_ rules bypass **only** broader dynamic filtering rules, static filtering is left completely intact, which means you won't see ads in the embedded YouTube videos.
 
 ***
 
-What if you want to block 3rd-party frames everywhere by default, but want whatever embedded Youtube video to not be blocked by default on any site?
+What if you want to block 3rd-party frames everywhere by default, but want whatever embedded YouTube video to not be blocked by default on any site?
 
 It is just a matter of creating a global _noop_ rule for `youtube.com`:
 
