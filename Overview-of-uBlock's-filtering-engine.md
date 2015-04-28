@@ -1,0 +1,1 @@
+![Overview](https://cdn.rawgit.com/gorhill/uBlock/master/doc/img/filtering-overview-plain.svg)
