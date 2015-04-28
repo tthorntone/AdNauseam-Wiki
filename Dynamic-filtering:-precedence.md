@@ -2,6 +2,9 @@
 
 ***
 
+First: Whitelist directives override both dynamic filtering _and_ static filtering. Whitelist directives appear in the _Whitelist_ pane in the dashboard, and they are used to completely disable filtering. The [big blue button in the popup UI](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) is used to easily whitelist the current site/page.
+
+
 Dynamic `allow`/`block` rules override static filtering rules.
 - Use `allow` to force requests to be allowed regardless of whether they would normally be blocked by static filtering.
     - Useful to fix sites broken by false positives in _EasyList_, _EasyPrivacy_ (or any other static filter lists).
