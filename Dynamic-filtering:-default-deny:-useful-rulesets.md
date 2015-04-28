@@ -219,6 +219,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # pinterest.com
     www.pinterest.com pinimg.com * noop
 
+    # rawstory.com
+    www.rawstory.com netdna-cdn.com * noop
+
     # reddit.com
     reddit.com redditmedia.com * noop
     reddit.com redditstatic.com * noop
