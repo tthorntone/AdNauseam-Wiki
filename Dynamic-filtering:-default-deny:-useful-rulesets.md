@@ -202,6 +202,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     medium.com d262ilb51hltx0.cloudfront.net * noop
     medium.com dnqgz544uhbo8.cloudfront.net * noop
 
+    # metafilter.com
+    ask.metafilter.com d217i264rvtnq0.cloudfront.net * noop
+
     # mozilla.org
     mozilla.org mozilla.net * noop
     mozilla.org mozillademos.org * noop
