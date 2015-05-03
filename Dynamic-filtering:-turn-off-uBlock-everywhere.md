@@ -10,4 +10,4 @@ In any case, the ability to "disable" uBlock everywhere is now available, as a s
 
 ![Allow everything everwhere](https://cloud.githubusercontent.com/assets/585534/6097114/04368716-af7e-11e4-8ca8-49ffdaa49fa6.png)
 
-Though it's more _"allow everything from everywhere"_, it's as good as _"globally turn off uBlock"_.
+Though it's more _"allow everything from everywhere"_, it's as good as _"globally turn off uBlock"_. You can revert it by clicking on the eraser button.
