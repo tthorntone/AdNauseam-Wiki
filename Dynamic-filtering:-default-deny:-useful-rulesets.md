@@ -1,4 +1,4 @@
-Reminder: the `noop` rule action means that network requests will not be filtered through dynamic filtering, but they will still be filtered through static filtering (_EasyList_, _EasyPrivacy_, etc). 
+Reminder: the `noop` rule action means that network requests will not be filtered through dynamic filtering, but they will still be filtered through static filtering (_EasyList_, _EasyPrivacy_, etc).
 
     # the default-deny rules
     * * 3p block
@@ -83,8 +83,15 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # discovery.com
     news.discovery.com ddmcdn.com * noop
 
+    # dropbox.com
+    www.dropbox.com dropboxstatic.com * noop
+
     # dslreports.com
     www.dslreports.com dslr.net * noop
+
+    # duckduckgo.com
+    duckduckgo.com youtube-nocookie.com * noop
+    duckduckgo.com ytimg.com * noop
 
     # ebay.com
     www.ebay.com ebaydesc.com * noop
@@ -107,6 +114,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # fastcompany.com
     www.fastcompany.com fastcompany.net * noop
     www.fastcodesign.com fastcompany.net * noop
+
+    # flickr.com
+    www.flickr.com yimg.com * noop
 
     # fool.com
     www.fool.com foolcdn.com * noop
@@ -146,6 +156,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # huffingtonpost.co.uk
     www.huffingtonpost.co.uk huffpost.com * noop
+
+    # instagram.com
+    instagram.com akamaihd.net * noop
 
     # kaspersky.com
     blog.kaspersky.com kaspersky-cyberstat.com * noop
@@ -221,6 +234,11 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # pinterest.com
     www.pinterest.com pinimg.com * noop
+
+    # play.google.com
+    play.google.com gstatic.com * noop
+    play.google.com youtube.com * noop
+    play.google.com ytimg.com * noop
 
     # rawstory.com
     www.rawstory.com netdna-cdn.com * noop
@@ -335,6 +353,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     venturebeat.com netdna-cdn.com * noop
     venturebeat.com vbstatic.co * noop
 
+    # vimeo.com
+    vimeo.com vimeocdn.com * noop
+
     # vox.com
     www.vox.com ajax.googleapis.com * noop
     www.vox.com vox-cdn.com * noop
@@ -373,4 +394,4 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.youtube.com ytimg.com * noop
 
     # zdnet.com
-    www.zdnet.com cbsistatic.com * noop
+    www.zdnet.com cbsistatic.com * noopg
