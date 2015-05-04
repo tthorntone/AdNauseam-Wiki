@@ -394,4 +394,4 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.youtube.com ytimg.com * noop
 
     # zdnet.com
-    www.zdnet.com cbsistatic.com * noopg
+    www.zdnet.com cbsistatic.com * noop
