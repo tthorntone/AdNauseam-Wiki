@@ -1,8 +1,8 @@
-I've seen an increase in misrepresentation and disinformation lately regarding µBlock -- and not surprisingly always from anonymous sources.
+I've seen an increase in misrepresentation and disinformation lately regarding uBlock -- and not surprisingly always from anonymous sources.
 
 I will set the official record here.
 
-There seems to be underhanded attempts to discredit µBlock lately in various venues. Here is a typical comment:
+There seems to be underhanded attempts to discredit uBlock lately in various venues. Here is a typical comment:
 
 > uBlock who is recently found to not actually "block" ads, but rather hide them after its been displayed. Adblock actually blocks them before they can even display them.
 
