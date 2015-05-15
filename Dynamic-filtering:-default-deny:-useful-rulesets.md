@@ -323,6 +323,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # netdna-ssl.com
     threatpost.com netdna-ssl.com * noop
 
+    # thenextweb.com
+    thenextweb.com tnwcdn.com * noop
+
     # tomshardware.com
     www.tomshardware.com bestofmedia.com * noop
     www.tomshardware.com bestofmicro.com * noop
