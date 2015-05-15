@@ -310,6 +310,8 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # thenextweb.com
     thenextweb.com tnwcdn.com * noop
+    # disabling inline script tags will foil the ridiculously invasive ad
+    thenextweb.com * inline-script block
 
     # theregister.co.uk
     www.theregister.co.uk regmedia.co.uk * noop
