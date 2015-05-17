@@ -51,7 +51,7 @@ Sensible security- and privacy-wise: blocking all 3rd-party frames by default ev
 
 **_Dynamic filtering_ overrides _static filtering_**. This means a _block_ dynamic rule will override any existing _allow_ static filters. This means you can block with 100% certainty using dynamic filtering rules. Similarly, an _allow_ dynamic filtering rule will override any existing _block_ static filters, i.e. you can allow with 100% certainty with dynamic filtering (useful to un-break sites broken by some static filters).
 
-Schema of how static filtering and dynamic filtering interact: [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine).
+This may help understand how static and dynamic filtering interact: [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine).
 
 ***
 
