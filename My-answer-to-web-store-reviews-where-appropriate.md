@@ -6,7 +6,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 > It tries to inject scripts into Twitter. And I can't seem to find out why it does this. It's the only website I've seen it try to do it with. [1-star rating]
 
-Completely false. uBlock **does not** inject `script` tags in web pages, it  only injects `style` tags -- to hide DOM elements according to cosmetic filters.
+Completely false. uBlock **does not** inject `script` tags in web pages, it  only injects `style` tags -- to hide DOM elements as per cosmetic filters.
 
 I also responded to this user [on Twitter](https://twitter.com/gorhill/status/600292965114900480). So far he did not take my offer to investigate his issue by reporting it on GitHub).
 
