@@ -2,6 +2,16 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 ***
 
+#### Kim Visnes (Chrome store, 17 May 2015)
+
+> It tries to inject scripts into Twitter. And I can't seem to find out why it does this. It's the only website I've seen it try to do it with. [1-star rating]
+
+uBlock **does not** inject `script` tags in web pages, it  only injects `style` tags.
+
+I also responded to this user [on Twitter](https://twitter.com/gorhill/status/600292965114900480). So far he did not take my offer to investigate his issue by reporting it on GitHub).
+
+***
+
 #### Kougeru ([AMO](https://addons.mozilla.org/en-US/firefox/addon/ublock/reviews/696982/), 8 April 2015)
 
 > Personal tests show ublock using 1.7 MBs after over 24 hours of my browser running. Adblock Plus was using 15 MBs. That may seem like a big difference, however it is not
