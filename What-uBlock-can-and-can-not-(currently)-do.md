@@ -21,7 +21,7 @@ The `$document` filter option is not supported, see [issue #405](https://github.
 No. uBlock currently offers you more:
 
 - [Extends the filter syntax](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions).
-- ~~[Local mirroring](https://github.com/gorhill/uBlock/wiki/Experimental-features#privacy-exposure-reduction-local-mirroring), a currently experimental but promising feature.~~ (probably best to be spun as a separate extension for now, way too many issues to investigate to find out whether it can be resolved or not).
+- ~~[Local mirroring](https://github.com/gorhill/uBlock/wiki/Experimental-features#privacy-exposure-reduction-local-mirroring), a currently experimental but promising feature.~~ (probably best to be spun as a separate extension for now, way too many issues to investigate to find out whether they can be resolved or not).
 - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering), the ability to point-and-click to filter on/off `script` and `iframe` tags, on a 1st- or 3rd-party basis. I consider this to be a [key feature](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples) of uBlock.
 - Element picker is more modern.
 - Let you select most common filter lists out of the box, without the need to import them first.
