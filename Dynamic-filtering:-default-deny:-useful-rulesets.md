@@ -243,6 +243,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     play.google.com youtube.com * noop
     play.google.com ytimg.com * noop
 
+    # polygon.com
+    www.polygon.com vox-cdn.com * noop
+
     # rawstory.com
     www.rawstory.com netdna-cdn.com * noop
 
