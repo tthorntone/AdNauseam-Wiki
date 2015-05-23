@@ -1,4 +1,4 @@
-µBlock comes with a network request logger, which gives the ability to inspect network requests, whether they were blocked or allowed, and which filter, if any, matched a network request.
+uBlock comes with a network request logger, which gives the ability to inspect network requests, whether they were blocked or allowed, and which filter, if any, matched a network request.
 
 To access the network request logger, click on the _list_ icon of µBlock's popup UI:
 
@@ -8,7 +8,7 @@ The request logger will open in a new tab:
 
 ![Figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-01.png)
 
-Take note that the network request logger in µBlock is a forward-looking logger: this means only future requests can be logged. In the spirit of efficiency, µBlock will log network requests for a tab if and only if there is a logger opened for that tab.
+Take note that the network request logger in uBlock is a forward-looking logger: this means only future requests can be logged. In the spirit of efficiency, uBlock will log network requests for a tab if and only if there is a logger opened for that tab.
 
 ***
 
@@ -40,26 +40,28 @@ This is to remove all the logged entries.
 
 ![Figure 6](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-06.png)
 
-This is to filter the entries to display. The entries which are remove from view are not removed from the logger, they are just hidden according to the filter expression.
+You can filter entries in the logger using filter expressions. Log entries which do not match _all_ filter expressions will be hidden from view. Syntax for a filter expression:
 
-Some details about how to filter logged entries:
+- Enter `foo` to only show entries which have a string `foo`.
+- Enter `|foo` to only show entries which have a field starting with `foo`.
+    - Tip: use `|--` to show only entries which were blocked (`--` may work for the most part, but there could be false positives).
+- Enter `foo|` to only show entries which have a field ending with `foo`.
+- Enter `|foo|` to only show entries which have exactly a field with `foo`.
+- Prefix any expression with `!` to reverse the meaning of the expression.
+    - `!foo` means display only entries which do not have the string `foo` in it.
+    - `!|--` means display only entries which were **not** blocked.
+- When more than one filter expression appear, a logical _and_ between the expressions is implied.
+- You can _or_ multiple expressions together:
+    - `css || image` means display entries which match either `css` or `image`.
+    - `!css || image` means display entries which do not match either `css` or `images` (equivalent to `!css !image` really).
+    - Warning: With _or_'ed expressions, the _not_ (`!`) operator can only apply to the resulting _or_'ed expression.
+- A special keyword can be used to filter behind-the-scene requests: `bts`, or `|bts` for a stricter filtering.
 
-If the first character is:
-- `-`: display only blocked requests
-- `+`: display only allowed-through-exception-filter requests
-- `!`: negate the rest of the expression
+Examples:
 
-A matching filtering expression is one which matches from left-to-right the text in an entry. Examples of filtering expression:
-
-- `- script`: show all blocked requests of type `script`
-- `+ xhr`: show all force-allowed requests of type `xhr`
-- `!image`: show entries which do not contain the string "image"
-- `script google`: show all requests containing the strings "script" then "google"
-
-The filter expression can be a plain regular expression:
-
-- `/image|css/`: show all requests which type is `image` or `css`
-- `!/image|css/`: show all requests which type is not `image` neither `css`
+- `!|-- facebook`: show only non-blocked entries with the string `facebook` in it.
+- `|xhr google`: show only entries of type `XMLHttpRequest` with the work `google` in it.
+- `!|image !|css`: show only entries which are not of type `image`, neither `css`.
 
 ***
 
