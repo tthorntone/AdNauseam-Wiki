@@ -53,7 +53,7 @@ You can filter entries in the logger using filter expressions. Log entries which
 - When more than one filter expression appear, a logical _and_ between the expressions is implied.
 - You can _or_ multiple expressions together:
     - `css || image` means display entries which match either `css` or `image`.
-    - `xhr || |other |http:` means display entries which match either `xhr` or `other` and have a field which starts with `http:`.
+    - `xhr || other |http:` means display entries which match either `xhr` or `other` and have a field which starts with `http:`.
     - `!css || image` means display entries which do not match either `css` or `images` (equivalent to `!css !image` really).
     - Warning: With _or_'ed expressions, the _not_ (`!`) operator can only apply to the resulting _or_'ed expression.
 - A special keyword can be used to filter behind-the-scene requests: `bts`, or `|bts` for a stricter filtering.
