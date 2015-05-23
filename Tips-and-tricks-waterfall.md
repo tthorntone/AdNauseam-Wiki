@@ -4,9 +4,9 @@ Short but very useful tips and tricks.
 
 In response to this [ridiculously over-the-top pure propaganda](http://www.tomsguide.com/us/ad-blocking-is-stealing,news-20962.html) piece, whose purpose is to manipulate you into compliance to the one specific business model they chose for themselves. (Hint to _Tom's Guide_: nobody else but you is responsible for the failure of your chosen business model if it fails).
 
-**Left:** without a blocker (note that I had Flash plug-in disabled, it would have been worse if it had been enabled -- I wasn't ready to go that far to make my point).
+**Left:** without a blocker: 124 domains (note that I had Flash plug-in disabled, it would have been worse if it had been enabled -- I wasn't ready to go that far to make my point).
 
-**Right:** default-deny with whitelisting of site's own domains (`bestofmedia.com`, `bestofmicro.com`).
+**Right:** default-deny with whitelisting of site's own domains (`bestofmedia.com`, `bestofmicro.com`): 3 domains.
 
 [![c](https://cloud.githubusercontent.com/assets/585534/7784786/faefbef2-013f-11e5-95bc-afb5d79fd2c2.png)](https://cloud.githubusercontent.com/assets/585534/7784786/faefbef2-013f-11e5-95bc-afb5d79fd2c2.png)
 
