@@ -2,7 +2,7 @@ Short but very useful tips and tricks.
 
 #### Why using a blocker is **very important**
 
-In response to this [ridiculously over-the-top pure propaganda](http://www.tomsguide.com/us/ad-blocking-is-stealing,news-20962.html) piece, which purpose is to manipulate you into compliance to the one specific business model they chose. (Hint to _Tom's Guide_: nobody else but you is responsible for the failure of your chosen business model when it fails).
+In response to this [ridiculously over-the-top pure propaganda](http://www.tomsguide.com/us/ad-blocking-is-stealing,news-20962.html) piece, which purpose is to manipulate you into compliance to the one specific business model they chose for themselves. (Hint to _Tom's Guide_: nobody else but you is responsible for the failure of your chosen business model when it fails).
 
 **Left:** without a blocker (note that I had Flash plug-in disabled, it would have been worse if it had been enabled -- I wasn't ready to go that far to make my point).
 
