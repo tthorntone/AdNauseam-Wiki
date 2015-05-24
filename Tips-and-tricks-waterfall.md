@@ -8,6 +8,8 @@ In response to this [ridiculously over-the-top pure propaganda](http://www.tomsg
 
 **Right:** default-deny with whitelisting of site's own domains (`bestofmedia.com`, `bestofmicro.com`): 3 domains.
 
+The content of the picture below is not fabricated, it's really what was reported by uBlock.
+
 [![c](https://cloud.githubusercontent.com/assets/585534/7784786/faefbef2-013f-11e5-95bc-afb5d79fd2c2.png)](https://cloud.githubusercontent.com/assets/585534/7784786/faefbef2-013f-11e5-95bc-afb5d79fd2c2.png)
 
 As I often say, ads are only the small visible tip of the iceberg of the insidious privacy-invading data mining of people, without their _fully informed_ consent.
