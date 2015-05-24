@@ -1,4 +1,4 @@
-Short but very useful tips and tricks.
+Short but useful tips and tricks, randomly added.
 
 #### Why using a blocker is **very important**
 
