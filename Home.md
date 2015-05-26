@@ -7,6 +7,7 @@
     - [The popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
     - [The network request logger](https://github.com/gorhill/uBlock/wiki/The-network-request-logger)
     - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
+    - [URL filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-URL-filtering)
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
 - [Does uBlock block ads or just hide them?](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
     - [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
