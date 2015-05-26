@@ -24,7 +24,7 @@ URL filtering uses _rules_, which resemble dynamic filtering rules, except that 
 
 It is very important to understand that URL filtering rules override dynamic filtering rules and static filtering rules. So you could create an `allow` URL filtering rule which override a `block` plain dynamic filtering rule.
 
-Examples of URL filtering usefulness.
+#### Examples of URL filtering usefulness.
 
 Un-break a web site: a real case was reported in [issue #240](https://github.com/gorhill/uBlock/issues/240). The web site required the resource `http://s7.addthis.com/js/300/addthis_widget.js` for the comment section to render properly. However, `s7.addthis.com` is blocked by uBlock's _Privacy_ filter list with an `important` filter, meaning the filter cannot be overriden by an exception filter. [URL filtering to the rescue](https://github.com/gorhill/uBlock/issues/240#issuecomment-105019619), since URL filtering override everything other kind of filtering rules.
 
