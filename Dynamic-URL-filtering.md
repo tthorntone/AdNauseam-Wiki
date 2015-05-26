@@ -1,3 +1,5 @@
+[under construction]
+
 Dynamic URL filtering became available in uBlock Origin version 0.9.8.0.
 
 The primary purpose of dynamic URL filtering ("URL filtering") is as a diagnosis/mitigation tool to fix web page breakage caused by dynamic filtering or static filtering. Secondary purpose of URL filtering is to offer higher granularity than what dynamic filtering can support.
