@@ -40,11 +40,11 @@ For more advanced whitelisting control, see ["How to whitelist a web site"](http
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1c.png)
 
-This shows the number of network requests which were blocked on the current page. Also, less useful, but people like this kind of thing, the number of network requests blocked since install.
+This shows the number of network requests uBlock blocked on the current page. Also, less useful (but people like this kind of thing), the number of network requests uBlock blocked since you installed it.
 
-Click the eye-dropper icon to enter [element picker mode](https://github.com/gorhill/uBlock/wiki/Element-picker), which allows to create a filter by interactively picking an element on a page, in order to have the element permanently removed from the page.
+Click the eye-dropper icon to enter [element picker mode](https://github.com/gorhill/uBlock/wiki/Element-picker), which allows you to create a filter by interactively picking an element on a page, thus permanently removing it from the page.
 
-Click the eye icon to bring up the [network request logger](Quick-guide:-network-request-logger), which will open in a separate tab. This allows to inspect real-time network traffic on a given page.
+Click the eye icon to open the [network request logger](Quick-guide:-network-request-logger) in a separate tab. This allows you to inspect real-time network traffic within the browser.
 
 ***
 
@@ -54,17 +54,17 @@ Click the eye icon to bring up the [network request logger](Quick-guide:-network
 
 The number of distinct domains with which a network connection was established, out of all connections (established + blocked). The domains are derived using the official [Public Suffix List](https://publicsuffix.org/).
 
-In general, it must be assumed that each distinct domain is managed by a distinct administrative authority. In practice, it is not uncommon to have a couple distinct domains which are under the same administrative authority (for example: `google.com`, `ajax.googleapis.com` and `gstatic.com`, or `wikipedia.org` and `wikimedia.org`).
+In general, it must be assumed that each distinct domain is managed by a distinct administrative authority. In practice, it is not uncommon to have a multiple distinct domains which are under the same administrative authority (example 1: `google.com`, `ajax.googleapis.com` and `gstatic.com`, example 2: `wikipedia.org` and `wikimedia.org`).
 
-That said, this statistic has to be seen this way: the more distinct domains your browser connects to, the larger the privacy exposure.
+That said, this statistic may be seen this way: the more distinct domains your browser connects to, the greater the privacy exposure.
 
-In a best-case scenario, the number of distinct domains to which a web page connects should be **only one**, i.e. that of the remote server from which the web page was fetched.
+In a best-case scenario, the number of distinct domains to which a web page connects should be **only one**:  that of the remote server from which the web page was fetched.
 
-**The higher the number, the higher your are exposing yourself privacy-wise.**
+**The higher the number, the higher you are exposing yourself privacy-wise.**
 
-There is a good correlation between _domains connected_ count and: undue page bloat, high privacy exposure, likelihood of being the target of data mining.
+There is a good correlation between the _domains connected_ count and: unneeded page bloat, high privacy exposure, increased likelihood of being the target of data mining.
 
-Example, a web page on <http://www.ibtimes.com/> (which could be read all fine in all cases by the way):
+Example: the web page on <http://www.ibtimes.com/> (which can be read fine in all cases, by the way):
 
  uBlock's mode | turned off | default settings | [default-deny](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
 --- | --- | --- | ---
@@ -72,7 +72,7 @@ domains connected | ![](https://raw.githubusercontent.com/gorhill/uBlock/master/
 privacy exposure | very high | medium | very low
 bloat | ridiculously high | medium | very low
 
-And I had click-to-play enabled in all cases, i.e. it could have been worse (except for default-deny)...
+And I had click-to-play enabled in all cases, so it could have been worse (except for default-deny)...
 
 ***
 
@@ -80,46 +80,46 @@ And I had click-to-play enabled in all cases, i.e. it could have been worse (exc
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1g.png)
 
-The site-based switches allows to control uBlock's behavior on a per-site basis.
+The site-based switches allows you to control uBlock's behavior on a per-site basis.
 
 ***
 
 ##### No popups
 
-By default popups are allowed unless there is a filter to block them. When this setting is turned on, **all** popups will be unconditionally blocked for the current site, regardless of filters:
+By default popups are allowed unless there is a filter to block them. When this setting is enabled, **all** popups will be unconditionally blocked for the current site, regardless of filters:
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1i.png)<br><sup>No popups for the current site: [Try it](http://jessehakanen.net/adblockpluspopupaddon/test.html)</sup>
 
-Blocking popups depends on whether the proper filters are present in the selected filter lists, so this feature is most useful for when a site creates popups for which there are no filter to take care of them in 3rd-party filter lists.
+Blocking popups depends on whether the proper filters are present in the selected filter lists, so this feature is most useful when a site creates popups for which there are no filters to take care of them in 3rd-party filter lists.
 
 ***
 
 ##### No strict blocking
 
-The second icon is to turn off strict blocking for the current site. By default strict blocking is on, this is the opposite of Adblock Plus.
+The second icon is to turn off strict blocking for the current site. By default, strict blocking is enabled in uBlock (this is the opposite of Adblock Plus).
 
-As per ABP filter semantics, [web pages _themselves_ are **never** filtered](https://adblockplus.org/forum/viewtopic.php?t=18774#p85439), only secondary resources are subject to filtering.
+Adblock Plus only blocks secondary resources (see [web pages _themselves_ are **never** filtered](https://adblockplus.org/forum/viewtopic.php?t=18774#p85439)).
 
-So if you were to create a filter such as `||example.com^`, and then navigate to <https://example.com>, Adblock Plus would not prevent you from connecting and loading the web  page itself served at `https://example.com`, though all secondary resources pulled by that web page would be subjected to filtering.
+So if you were to create a filter such as `||example.com^`, and then navigate to <https://example.com>, Adblock Plus would not prevent you from connecting and loading the web page itself served at `https://example.com`, though all secondary resources pulled by that web page would be subject to filtering.
 
-uBlock respected that semantic until version 0.9.3.0. With version 0.9.3.0, uBlock will subject web pages themselves to filtering. This means that using the same test case above, uBlock will block the web page served by <https://example.com> -- as opposed to ABP:
+uBlock respected that semantic until version 0.9.3.0. With version 0.9.3.0, uBlock will subject web pages themselves to filtering. This means that using the same test case above, **uBlock will block the web page** served by <https://example.com> (unlike Adblock Plus):
 
 ![Page was fully blocked](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/page-block.png)
 
-Why the change? Because [issue #1013](https://github.com/chrisaljoudi/uBlock/issues/1013) brought forth why it is desirable sometimes to block completely a web site, as opposed to what ABP-filtering semantic dictates.
+Why the change? Because [issue #1013](https://github.com/chrisaljoudi/uBlock/issues/1013) brought forth why it is desirable sometimes to completely block a web site, as opposed to what the ABP-filtering semantic dictates.
 
-In the end the chosen solution is to now have web page themselves subject to filtering just like all secondary resources.
+In the end, the chosen solution is to now have web page themselves subject to filtering, just like all secondary resources.
 
-In the figure above, a user will be given the choice to go back by closing the window or proceed to the web page by disabling strict blocking by any of the two options:
+In the figure above, the user will be given the choice to go back by closing the window or proceed to the web page by disabling strict blocking by selecting either:
 
 - Temporarily - The site will be temporarily allowed for a limited time (currently set at 60 seconds).
 - Permanently - The site will be permanently allowed.
 
-If the user disagree that a web page proper should be blocked (because of a false positive for example), then turning off _strict blocking_ for the site...
+If the user disagrees that a web page proper should be blocked (because of a false positive for example), then they can turn off _strict blocking_ for that site:
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1h.png)<br><sup>No strict blocking for the current site.</sup>
 
-... will prevent web pages proper for the site from being blocked by uBlock in the future: the filtering of the site will be done exactly as per ABP-filtering semantic, and just like with uBlock pre-0.9.3.0.
+This will prevent the web page proper for the site from being blocked by uBlock in the future: the filtering of the site will be done exactly as per ABP-filtering semantic, and just like with uBlock pre-0.9.3.0.
 
 There are many benefits to strict blocking. For example, there is no good reason one should want to connect _at all_ to any of the sites present in any one of the malware domain lists. Strict blocking will prevent this from happening.
 
@@ -135,8 +135,8 @@ You can easily toggle on/off cosmetic filtering for a given site:
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1j.png)<br><sup>No cosmetic filtering for the current site.</sup>
 
-When present, the badge number indicates the number of elements which have been hidden on the page as a result of cosmetic filtering. If you disable cosmetic filtering while there are hidden elements on the page, these elements will become visible/hidden as you toggle off/on cosmetic filtering.
+When present, the badge number indicates the number of elements hidden on the page by uBlock as a result of cosmetic filtering. If you disable cosmetic filtering while there are hidden elements on the page, these elements will become visible/hidden as you toggle off/on cosmetic filtering.
 
 Cosmetic filtering is always enabled by default.
 
-**Tip:** It is often suggested to use a custom static filter such as `@@||example.com^$elemhide` to prevent "adblock" detection by specific sites ([example](https://adblockplus.org/forum/viewtopic.php?f=2&t=30763#p124225)). You can accomplish the same thing more simply by just using toggling off cosmetic filtering using this switch while on the problematic site.
+**Tip:** Others have suggested adding a custom static filter such as `@@||example.com^$elemhide` to prevent "adblock" detection by specific sites ([example](https://adblockplus.org/forum/viewtopic.php?f=2&t=30763#p124225)). You can accomplish the same goal more simply by just toggling off cosmetic filtering using this switch while on the problematic site.
