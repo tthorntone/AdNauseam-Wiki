@@ -2,7 +2,7 @@ The filtering of behind-the-scene network request is available to [advanced user
 
 ### What are behind-the-scene network requests
 
-_Behind-the-scene_ network requests are network requests which uBlock can not associate with a specific tab in your browser: these requests come from _somewhere_, but uBlock is missing information to report exactly from where.
+_Behind-the-scene_ network requests are network requests which uBlock cannot associate with a specific tab in your browser: these requests come from _somewhere_, but uBlock is missing information to report exactly from where.
 
 All network requests without a specific origin are classified as _behind-the-scene_. Typically, all blockers will ignore and automatically whitelist behind-the-scene network requests.
 
@@ -45,4 +45,4 @@ To turn off the filtering of _behind-the-scene_ requests, whitelist the _"Behind
 
 To whitelist the _behind-the-scene_ scope, add `behind-the-scene` as a whitelist directive in the _Whitelist_ tab of the uBlock dashboard.
 
-If there are only very specific behind-the-scene network requests you would like to filter, a good approach to minimize potential problems is to use dynamic filtering: set a local rule for the `all` cell to _allow_ (green) (i.e. `behind-the-scene * * allow`). This will ensure nothing is blocked in the behind-the-scene scope, just as if uBlock is disabled for that scope. Then create _block_ rules for the specific hostnames for which you want to block all network requests, or `noop` if you want to subject those hostnames to static filtering only.
+If there are only very specific behind-the-scene network requests you would like to filter, a good approach to minimize potential problems is to use dynamic filtering: set a local rule for the `all` cell to _allow_ (green) (i.e. `behind-the-scene * * allow`). This will ensure nothing is blocked in the _behind-the-scene scope_, just as if uBlock is disabled for that scope. Then create _block_ rules for the specific hostnames for which you want to block all network requests, or `noop` if you want to subject those hostnames to static filtering only.
