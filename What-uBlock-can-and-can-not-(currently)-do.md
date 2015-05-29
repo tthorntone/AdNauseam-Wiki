@@ -13,7 +13,7 @@ memory of [Adblock Plus](https://adblockplus.org/) ("ABP"), which is itself much
 
 uBlock is its own thing, it doesn't try to be Adblock Plus or any other.
 
-The `$document` filter option is not supported, see [issue #405](https://github.com/gorhill/uBlock/issues/405). At time of writing, I see 10 such filters in _EasyList_.
+The `$document` filter option is not supported, see [issue #405](https://github.com/chrisaljoudi/uBlock/issues/405). At time of writing, I see 10 such filters in _EasyList_.
 
 **Read carefully:** Not supporting `$document` filter option has absolutely **nothing** to do with uBlock being more efficient than ABP. It's a principle thing: the purpose of the `$document` filter option is to disable a blocker on a specific site. I do not want uBlock to submit itself to 3rd-party filter lists for when it should completely disable it self.
 
