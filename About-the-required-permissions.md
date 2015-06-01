@@ -78,10 +78,6 @@ This is necessary to be able to:
 
 uBlock's primary purpose is to block **network connections**, not just data transfer. Not blocking the connection while just blocking the data transfer would mean uBlock is lying to users. So this permission will stay, and sorry for those who do not understand that it actually allows uBlock to do its intended job more thoroughly<sup>[2]</sup>. A blocker which does not thoroughly prevent connections is not a real blocker.
 
-**Edit:** actually, prefetching is worst than I first thought, I had tested that it was just a connection issue, but [as per Google](https://support.google.com/chrome/answer/1385029):
-
-> If you turn this setting on in Chrome, websites (and any of their embedded resources) that are prerendered or prefetched may set and read their own cookies as if you had visited them before -- even if you don’t visit the prerendered or prefetched pages after all.
-
 **Privacy Badger also requires exactly the same permissions.** I want uBlock to also serve privacy-minded users first.
 
 If _prefetching_ had been disabled by default, this new permission would not be needed, but _prefetching_ is unfortunately enabled by default, and under _Privacy_ heading, which is itself hidden by default under _"advanced settings"_.
@@ -89,6 +85,10 @@ If _prefetching_ had been disabled by default, this new permission would not be 
 ![c](https://cloud.githubusercontent.com/assets/585534/7914528/924b9314-0845-11e5-8012-f67e4b1814cd.png)
 
 Also, the benefits of _prefetching_ are probably marginal, and in the context of a blocker, the benefits could be negative, since a lot of useless connections would be made, just to be discarded after the browser find out the requests won't be made anyway. So do not fall for the _"lost of major performance boost"_ claim I read elsewhere, this is just a silly and baseless claim.
+
+**Edit:** actually, prefetching is worst than I first thought, I had tested that it was just a connection issue, but [as per Google](https://support.google.com/chrome/answer/1385029):
+
+> If you turn this setting on in Chrome, websites (and any of their embedded resources) that are prerendered or prefetched may set and read their own cookies as if you had visited them before -- even if you don’t visit the prerendered or prefetched pages after all.
 
 See code:
 
