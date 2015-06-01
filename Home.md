@@ -3,6 +3,7 @@
 ***
 
 - [Change log](https://github.com/gorhill/uBlock/releases) / [Pre-fork: 0.9.3.0 - 0.2.0.0](https://github.com/chrisaljoudi/uBlock/releases) / [Pre-fork: 0.1.4.8 and less](https://github.com/gorhill/uBlock/wiki/Change-log)
+- [About the required permissions](https://github.com/gorhill/uBlock/wiki/About-the-required-permissions)
 - Quick guides:
     - [The popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
     - [The network request logger](https://github.com/gorhill/uBlock/wiki/The-network-request-logger)
@@ -11,7 +12,6 @@
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
 - [Does uBlock block ads or just hide them?](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
     - [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
-- [About the required permissions](https://github.com/gorhill/uBlock/wiki/About-the-required-permissions)
 - [Memory footprint: what happens inside uBlock after installation](https://github.com/gorhill/uBlock/wiki/Memory-footprint:-what-happens-inside-uBlock-after-installation)
 - [About that CSS selector with "www.faceporn.net" in it...](https://github.com/gorhill/uBlock/wiki/About-that-CSS-selector-with-%22www.faceporn.net%22-in-it...)
 - [How to whitelist a web site](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
