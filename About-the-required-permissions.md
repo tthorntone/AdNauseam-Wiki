@@ -32,4 +32,4 @@ This is is necessary to be able to:
 
 See code:
 
-- https://github.com/AlexVallat/uBlock/commit/839e6772984becb986c0b71ae81285f73577c781
+- [chrome.privacy.network](https://github.com/gorhill/uBlock/commit/e65c2939757f09db646d277b82da8690aaf3adbc)
