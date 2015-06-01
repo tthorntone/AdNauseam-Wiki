@@ -8,7 +8,7 @@ Yes, it is here: <sup>[中文](https://github.com/fang5566/uBlock/wiki/FAQ)</sup
 
 Because there are are filters to block YouTube ads in EasyList, yes, it will block YouTube ads.
 
-#### Is [_other blocker placeholder_] still needed with uBlock?
+#### Is [_other blocker ] still needed with uBlock?
 
 It all depends of the filter lists you use, and whether you use dynamic filtering in uBlock. I run benchmarks regarding blocking efficiency, this may help you decide whether you should keep another blocker to complement uBlock, or whether you should drop it and further configure uBlock to block more: [uBlock and others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares). The [resulting diffs](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares#data-diffs) are particularly useful in making a decision.
 
