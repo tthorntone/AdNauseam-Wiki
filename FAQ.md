@@ -8,7 +8,7 @@ Yes, it is here: <sup>[中文](https://github.com/fang5566/uBlock/wiki/FAQ)</sup
 
 Because there are are filters to block YouTube ads in EasyList, yes, it will block YouTube ads.
 
-#### Is [ other blocker ] still needed with uBlock?
+#### Is [other blocker] still needed with uBlock?
 
 It all depends of the filter lists you use, and whether you use dynamic filtering in uBlock. I run benchmarks regarding blocking efficiency, this may help you decide whether you should keep another blocker to complement uBlock, or whether you should drop it and further configure uBlock to block more: [uBlock and others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares). The [resulting diffs](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares#data-diffs) are particularly useful in making a decision.
 
@@ -20,15 +20,15 @@ If you have EasyList enabled, uBlock will block ads in Google Search results.
 
 If you feed uBlock with an invalid cosmetic filter in the _"My filters"_ pane in the dashboard, this will break cosmetic filtering, and a symptom of this is that ads will not be blocked in Google Search results.
 
-#### Is Firefox version considered stable?
+#### Is the Firefox version considered stable?
 
 Yes.
 
-#### How often are filter lists updated?
+#### How often are filter lists updated within uBlock?
 
 Currently, after four days a filter list is deemed "obsolete".
 
-#### How to show the Google text ads?
+#### How to show Google text ads?
 
 You can create a whitelist directive *only* for Google Search page. For example, in my case it would be:
 
@@ -56,7 +56,7 @@ Will cause that exact problem.
 
 Sounds absurd? It is. So is the claim that a high badge count slows down uBlock. It's just a _counter_ for the number of blocked network requests.
 
-#### I am worried about stability, should I wait for v1.0?
+#### I am concerned about stability, should I wait for v1.0?
 
 uBlock is considered stable. The version number is just a convenience to differentiate one release from another one. It doesn't have any more meaning than this.
 
@@ -70,7 +70,7 @@ No.
 
 I like to code, and the reward is to see the resulting work useful to others, sometimes [in unexpected ways](https://www.youtube.com/watch?v=90NsjKvz9Ns).
 
-#### Why not Firefox first instead of Chromium?
+#### Why did you develop the Chromium version before the Firefox version?
 
 In as few words as possible, with as little private matters disclosed:
 
