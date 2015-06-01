@@ -1,4 +1,4 @@
-### Some insights into uBlock's required (Chromium) permissions
+### uBlock's required (Chromium) permissions
 
 uBlock's required permissions are the same as those of Privacy Badger, except that Privacy Badger requires one extra permission, `cookies`. This is  uBlock's required permissions:
 
