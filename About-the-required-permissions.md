@@ -35,8 +35,8 @@ Since [version 0.9.8.2](https://github.com/gorhill/uBlock/commit/e65c2939757f09d
 This is necessary to be able to:
 
 - Disable _"Prefetch resources to load pages more quickly"_
-    - This will ensure no TCP connection is opened **at all** for blocked requests.
-    - For pages with lots for blocked requests, this will actually _remove_ overhead from page load (if you did not have the setting already disabled)
+    - This will ensure no TCP connection is opened **at all** for blocked requests: **It's for your own protection privacy-wise.**
+    - For pages with lots for blocked requests, this will actually remove overhead from page load (if you did not have the setting already disabled).
 
 ![c](https://cloud.githubusercontent.com/assets/585534/7914528/924b9314-0845-11e5-8012-f67e4b1814cd.png)
 
