@@ -15,6 +15,8 @@ uBlock's required permissions are the same as those of [Privacy Badger](https://
         "https://*/*"
     ],
 
+`"privacy"` is the permission which the only permission added in version 0.9.8.2. All the others were there since when uBlock was first published (except for `"contextMenus"` which was added at some point, to support blocking element from within the context menu).
+
 This is Privacy Badger required permissions:
 
     "permissions": [
