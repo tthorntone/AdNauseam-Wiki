@@ -30,7 +30,7 @@ This is necessary to be able to:
 
 - Disable _"Prefetch resources to load pages more quickly"_
     - This will ensure no TCP connection is opened at all for blocked requests.
-    - For pages with lots for blocked requests, this will actually _remove_ overhead from page load.
+    - For pages with lots for blocked requests, this will actually _remove_ overhead from page load (if you did not have the setting already disabled)
 
 See code:
 
