@@ -32,6 +32,8 @@ This is necessary to be able to:
     - This will ensure no TCP connection is opened **at all** for blocked requests.
     - For pages with lots for blocked requests, this will actually _remove_ overhead from page load (if you did not have the setting already disabled)
 
+![c](https://cloud.githubusercontent.com/assets/585534/7914528/924b9314-0845-11e5-8012-f67e4b1814cd.png)
+
 See code:
 
 - [chrome.privacy.network](https://github.com/gorhill/uBlock/commit/e65c2939757f09db646d277b82da8690aaf3adbc)
