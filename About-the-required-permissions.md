@@ -43,7 +43,7 @@ uBlock's primary purpose is to block **network connections**, not just data tran
 
 **Privacy Badger also requires exactly the same permissions.** I want uBlock to also serve privacy-minded users first.
 
-If _prefetching_ had been disabled by default, this new permission would not be needed, but _prefetching_ is unfortunately enabled by default, and under the hidden-by-default _Privacy_ heading.
+If _prefetching_ had been disabled by default, this new permission would not be needed, but _prefetching_ is unfortunately enabled by default, and under _Privacy_ heading, which is itself hidden by default under _"advanced settings"_.
 
 ![c](https://cloud.githubusercontent.com/assets/585534/7914528/924b9314-0845-11e5-8012-f67e4b1814cd.png)
 
