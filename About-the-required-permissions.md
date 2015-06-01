@@ -1,3 +1,38 @@
+### Some insights into uBlock's required (Chromium) permissions
+
+uBlock's required permissions are the same as those of Privacy Badger, except that Privacy Badger requires one extra permission, `cookies`. This is  uBlock's required permissions:
+
+    "permissions": [
+        "contextMenus",
+        "privacy",
+        "storage",
+        "tabs",
+        "unlimitedStorage",
+        "webNavigation",
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*"
+    ],
+
+This is Privacy Badger required permissions:
+
+    "permissions": [
+        "contextMenus",
+        "cookies",
+        "privacy",
+        "storage",
+        "tabs",
+        "unlimitedStorage",
+        "webNavigation",
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*"
+    ],
+
+It should come as no surprise that privacy-minded extensions require the `privacy` permission.
+
 ### "Access your data on all web sites"
 
 Since [first version](https://github.com/gorhill/uBlock/blob/b5fdac90539b19a0db8f36ea537bd150edb4d9c8/manifest.json).
