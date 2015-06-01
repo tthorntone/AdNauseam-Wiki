@@ -37,6 +37,9 @@ This is necessary to be able to:
 - Disable _"Prefetch resources to load pages more quickly"_
     - This will ensure no TCP connection is opened **at all** for blocked requests: **It's for your own protection privacy-wise.**<sup>[1]</sup>
     - For pages with lots for blocked requests, this will actually remove overhead from page load (if you did not have the setting already disabled).
+    - When uBlock blocks a network request, the expectation is that it blocks **completely** the connection, hence the new permission is necessary for uBlock to do **truthfully** what it says it does.
+
+uBlock's primary purpose is to block **network connections**, not just data transfer. Not blocking the connection while just blocking the data transfer would mean uBlock is lying to users. So this permission will stay, and sorry for those who do not understand that it actually allows uBlock to do its intended job more thoroughly. A blocker which does not thoroughly prevent connections is not a real blocker.
 
 ![c](https://cloud.githubusercontent.com/assets/585534/7914528/924b9314-0845-11e5-8012-f67e4b1814cd.png)
 
