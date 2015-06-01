@@ -5,7 +5,7 @@
 1. If one or more filter lists need to be updated, uBlock will launch a background task which will fetch an updated version of whatever filter list is obsolete
 1. Once all filter lists are brought up to date, uBlock will flush from memory all filters and reload them with the latest version
     - This will cause another round of short-term memory churning; short-term memory will be garbage-collected eventually
-    - Again, all this short term memory churning causes uBlock's baseline memory footprint to grow further
+    - Again, all this short-term memory churning causes uBlock's baseline memory footprint to grow further
     - You can disable auto-update if you want, but it is optimal to let uBlock take care of this, i.e. manually forcing an update is sub-optimal
 1. **A few minutes later**, assuming no change in selection of filter lists, or change in the content of selected filter lists, uBlock will make a selfie
     - A selfie allows uBlock to skip the parsing/sorting of data next time it loads
@@ -16,7 +16,7 @@
 1. uBlock's much smaller _contributed memory_ footprint to web pages is much smaller than that of ABP
     - The contributed footprint to web pages is part of the memory footprint of the web pages themselves 
     - As opposed to an extension's own memory footprint, visible using Chromium's _"Task Manager"_, the contributed memory footprint to web pages cannot be easily seen by users
-    - Though this measure is not readily visible, it's where you get the biggest bang for the buck with uBlock relative to ABP -- because uBlock **does not** inject thousands of CSS rules into pages and embedded frames
+    - Though this measure is not readily visible, it's where you get the biggest bang for the buck with uBlock relative to ABP -- because uBlock **does not** inject thousands of CSS rules into pages and embedded frames (unlike ABP)
 
 Once you have reached the point where there is a valid uBlock selfie, µBlock will run the most efficiently.
 
