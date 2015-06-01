@@ -1,6 +1,6 @@
 Collection of questions which have been asked, along with the answer I provided, or I would have provided.
 
-Chinese translation of Wiki: <sup>[中文](https://github.com/fang5566/uBlock/wiki/FAQ)</sup>
+Chinese translation of this Wiki: <sup>[中文](https://github.com/fang5566/uBlock/wiki/FAQ)</sup>
 
 #### Does it block Youtube ads?
 
