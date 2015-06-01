@@ -1,6 +1,6 @@
 ### "Access your data on all web sites"
 
-Since version 0.1.0.0.
+Since [first version](https://github.com/gorhill/uBlock/blob/b5fdac90539b19a0db8f36ea537bd150edb4d9c8/manifest.json).
 
 - To be able to inspect all net requests so that they can be cancelled if needed.
     - Only on http- and https-based URL addresses.
@@ -11,7 +11,7 @@ See code:
 
 ### "Access your tabs and browsing activity"
 
-Since version 0.1.0.0.
+Since [first version](https://github.com/gorhill/uBlock/blob/b5fdac90539b19a0db8f36ea537bd150edb4d9c8/manifest.json).
 
 This is necessary to be able to:
 
@@ -30,7 +30,7 @@ See code:
 
 ### "Change your privacy-related settings"
 
-Since version 0.9.8.2.
+Since [version 0.9.8.2](https://github.com/gorhill/uBlock/commit/e65c2939757f09db646d277b82da8690aaf3adbc).
 
 This is necessary to be able to:
 
