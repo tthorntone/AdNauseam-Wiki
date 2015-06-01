@@ -30,7 +30,7 @@ See code:
 
 ### "Change your privacy-related settings"
 
-Since [version 0.9.8.2](https://github.com/gorhill/uBlock/commit/e65c2939757f09db646d277b82da8690aaf3adbc).
+Since [version 0.9.8.2](https://github.com/gorhill/uBlock/commit/e65c2939757f09db646d277b82da8690aaf3adbc) ([release notes](https://github.com/gorhill/uBlock/releases/tag/0.9.8.2)).
 
 This is necessary to be able to:
 
