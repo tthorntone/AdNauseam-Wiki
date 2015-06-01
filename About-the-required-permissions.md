@@ -41,6 +41,10 @@ This is necessary to be able to:
 
 uBlock's primary purpose is to block **network connections**, not just data transfer. Not blocking the connection while just blocking the data transfer would mean uBlock is lying to users. So this permission will stay, and sorry for those who do not understand that it actually allows uBlock to do its intended job more thoroughly. A blocker which does not thoroughly prevent connections is not a real blocker.
 
+**Privacy Badger also requires exactly the same permissions.** I want uBlock to also serve privacy-minded users first.
+
+If _prefetching_ had been disabled by default, this new permission would not be needed, but _prefetching_ is unfortunately enabled by default, and under the hidden-by-default _Privacy_ heading.
+
 ![c](https://cloud.githubusercontent.com/assets/585534/7914528/924b9314-0845-11e5-8012-f67e4b1814cd.png)
 
 See code:
