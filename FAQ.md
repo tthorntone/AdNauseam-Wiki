@@ -1,8 +1,6 @@
-<sup>[中文](https://github.com/fang5566/uBlock/wiki/FAQ)</sup>
-
-***
-
 Collection of questions which have been asked, along with the answer I provided, or I would have provided.
+
+Chinese translation of Wiki: <sup>[中文](https://github.com/fang5566/uBlock/wiki/FAQ)</sup>
 
 #### Does it block Youtube ads?
 
@@ -28,7 +26,7 @@ Yes.
 
 Currently, after four days a filter list is deemed "obsolete".
 
-#### How to show the google text ads?
+#### How to show the Google text ads?
 
 You can create a whitelist directive *only* for Google Search page. For example, in my case it would be:
 
@@ -72,7 +70,7 @@ I like to code, and the reward is to see the resulting work useful to others, so
 
 #### Why not Firefox first instead of Chromium?
 
-In as little words as possible, with as little private matters disclosed:
+In as few words as possible, with as little private matters disclosed:
 
 - Fall 2013
 - I am Firefox/NoScript user
