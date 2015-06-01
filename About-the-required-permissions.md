@@ -23,3 +23,13 @@ See code:
 
 - [chrome.tabs](https://github.com/gorhill/uBlock/search?q=%22chrome.tabs%22&type=Code)
 - [chrome.webNavigation](https://github.com/gorhill/uBlock/search?q=%22chrome.webNavigation%22&type=Code)
+
+### "Change your privacy-related settings"
+
+This is is necessary to be able to:
+
+- Disable "Network predictions"
+
+See code:
+
+- https://github.com/AlexVallat/uBlock/commit/839e6772984becb986c0b71ae81285f73577c781
