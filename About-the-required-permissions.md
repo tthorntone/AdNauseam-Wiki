@@ -1,4 +1,4 @@
-### "Access your data on all web sites"
+### "Access your data on all web sites" (since v0.1.0.0)
 
 - To be able to inspect all net requests so that they can be cancelled if needed.
     - Only on http- and https-based URL addresses.
@@ -24,7 +24,7 @@ See code:
 - [chrome.tabs](https://github.com/gorhill/uBlock/search?q=%22chrome.tabs%22&type=Code)
 - [chrome.webNavigation](https://github.com/gorhill/uBlock/search?q=%22chrome.webNavigation%22&type=Code)
 
-### "Change your privacy-related settings"
+### "Change your privacy-related settings" (since v0.9.8.2)
 
 This is necessary to be able to:
 
