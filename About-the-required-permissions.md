@@ -76,7 +76,7 @@ This is necessary to be able to:
     - For pages with lots for blocked requests, this will actually remove overhead from page load (if you did not have the setting already disabled).
     - When uBlock blocks a network request, the expectation is that it blocks **completely** the connection, hence the new permission is necessary for uBlock to do **truthfully** what it says it does.
 
-uBlock's primary purpose is to block **network connections**, not just data transfer. Not blocking the connection while just blocking the data transfer would mean uBlock is lying to users. So this permission will stay, and sorry for those who do not understand that it actually allows uBlock to do its intended job more thoroughly. A blocker which does not thoroughly prevent connections is not a real blocker.
+uBlock's primary purpose is to block **network connections**, not just data transfer. Not blocking the connection while just blocking the data transfer would mean uBlock is lying to users. So this permission will stay, and sorry for those who do not understand that it actually allows uBlock to do its intended job more thoroughly<sup>[2]</sup>. A blocker which does not thoroughly prevent connections is not a real blocker.
 
 **Privacy Badger also requires exactly the same permissions.** I want uBlock to also serve privacy-minded users first.
 
@@ -91,3 +91,6 @@ See code:
 - [chrome.privacy.network](https://github.com/gorhill/uBlock/commit/e65c2939757f09db646d277b82da8690aaf3adbc)
 
 <sub>[1] Merely opening a TCP connection leaks your IP address to the remote server -- this is incompatible with an extension which primary purpose is to **completely** prevent connections to remove server, not just merely prevent the transfer of data.</sub>
+
+<sub>[2] In version 0.9.2.3, there will be [a setting to allow re-enabling prefetching](https://github.com/gorhill/uBlock/issues/274), default will still be  to disable it though.
+</sub>
