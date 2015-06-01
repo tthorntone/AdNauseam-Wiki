@@ -7,7 +7,7 @@ See code:
 
 - [chrome.webRequest](https://github.com/gorhill/uBlock/search?q=%22chrome.webRequest%22&type=Code)
 
-### "Access your tabs and browsing activity"
+### "Access your tabs and browsing activity" (since v0.1.0.0)
 
 This is necessary to be able to:
 
