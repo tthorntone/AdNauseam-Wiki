@@ -47,7 +47,7 @@ If _prefetching_ had been disabled by default, this new permission would not be 
 
 ![c](https://cloud.githubusercontent.com/assets/585534/7914528/924b9314-0845-11e5-8012-f67e4b1814cd.png)
 
-Also, the benefits of _prefetching_ are probably marginal, and in the context of a blocker, the benefits could be negative, since a lot of useless connections would be made, just to be discarded after the browser find out the requests won't be made anyway. So do not fall for the _"lost of major performance boost"_ claim I read elsewhere, this is just an silly and baseless claim.
+Also, the benefits of _prefetching_ are probably marginal, and in the context of a blocker, the benefits could be negative, since a lot of useless connections would be made, just to be discarded after the browser find out the requests won't be made anyway. So do not fall for the _"lost of major performance boost"_ claim I read elsewhere, this is just a silly and baseless claim.
 
 See code:
 
