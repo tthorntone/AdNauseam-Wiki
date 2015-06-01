@@ -26,7 +26,7 @@ See code:
 
 ### "Change your privacy-related settings"
 
-This is is necessary to be able to:
+This is necessary to be able to:
 
 - Disable _"Prefetch resources to load pages more quickly"_
     - This will ensure no TCP connection is opened at all for blocked requests.
