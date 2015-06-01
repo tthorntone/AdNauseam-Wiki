@@ -35,7 +35,7 @@ Since [version 0.9.8.2](https://github.com/gorhill/uBlock/commit/e65c2939757f09d
 This is necessary to be able to:
 
 - Disable _"Prefetch resources to load pages more quickly"_
-    - This will ensure no TCP connection is opened **at all** for blocked requests: **It's for your own protection privacy-wise.**
+    - This will ensure no TCP connection is opened **at all** for blocked requests: **It's for your own protection privacy-wise.**<sup>[1]</sup>
     - For pages with lots for blocked requests, this will actually remove overhead from page load (if you did not have the setting already disabled).
 
 ![c](https://cloud.githubusercontent.com/assets/585534/7914528/924b9314-0845-11e5-8012-f67e4b1814cd.png)
@@ -43,3 +43,5 @@ This is necessary to be able to:
 See code:
 
 - [chrome.privacy.network](https://github.com/gorhill/uBlock/commit/e65c2939757f09db646d277b82da8690aaf3adbc)
+
+<sub>[1] Merely opening a TCP connection leaks your IP address to the remote server -- this is incompatible with an extension which primary purpose is to **completely** prevent connections to remove server, not just merely prevent the transfer of data.</sub>
