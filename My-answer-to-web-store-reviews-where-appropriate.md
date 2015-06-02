@@ -8,7 +8,7 @@ I can't answer to the review in web stores. It's unfortunate as sometimes I coul
 
 Completely false. uBlock **does not** inject `script` tags in web pages, it  only injects *inline* `style` tags -- to hide DOM elements as per cosmetic filters.
 
-I also responded to this user [on Twitter](https://twitter.com/gorhill/status/600292965114900480). So far he did not take my offer to investigate his issue by reporting it on GitHub).
+I also responded to this user [on Twitter](https://twitter.com/gorhill/status/600292965114900480). So far he did not take my offer to investigate his issue by reporting it on GitHub.
 
 ***
 
