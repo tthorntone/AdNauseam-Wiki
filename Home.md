@@ -1,7 +1,4 @@
-<sup>[中文](https://github.com/fang5566/uBlock/wiki/Home)</sup>
-
-***
-
+- [Chinese translation of this Wiki: 中文](https://github.com/fang5566/uBlock/wiki/Home)
 - [Change log](https://github.com/gorhill/uBlock/releases) / [Pre-fork: 0.9.3.0 - 0.2.0.0](https://github.com/chrisaljoudi/uBlock/releases) / [Pre-fork: 0.1.4.8 and less](https://github.com/gorhill/uBlock/wiki/Change-log)
 - [About the required permissions](https://github.com/gorhill/uBlock/wiki/About-the-required-permissions)
 - Quick guides:
@@ -15,7 +12,7 @@
 - [Memory footprint: what happens inside uBlock after installation](https://github.com/gorhill/uBlock/wiki/Memory-footprint:-what-happens-inside-uBlock-after-installation)
 - [About that CSS selector with "www.faceporn.net" in it...](https://github.com/gorhill/uBlock/wiki/About-that-CSS-selector-with-%22www.faceporn.net%22-in-it...)
 - [How to whitelist a web site](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
-- Install from [Chrome store](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](https://github.com/gorhill/uBlock/tree/master/dist#install).
+- Install from [Mozilla Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/), [Chrome store](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](https://github.com/gorhill/uBlock/tree/master/dist#install).
     - [My answer to web store reviews where appropriate](https://github.com/gorhill/uBlock/wiki/My-answer-to-web-store-reviews-where-appropriate)
 - [Privacy stuff](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)
 - [Filter syntax extensions](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)
