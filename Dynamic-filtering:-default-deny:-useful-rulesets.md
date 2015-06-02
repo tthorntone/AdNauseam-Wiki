@@ -233,6 +233,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.nbcnews.com s-nbcnews.com * noop
 
     # news.com.au
+    www.news.com.au newsapi.com.au * noop
     www.news.com.au newscdn.com.au * noop
 
     # nytimes.com
