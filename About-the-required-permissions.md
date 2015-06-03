@@ -17,6 +17,8 @@ uBlock's required permissions are the same as those of [Privacy Badger](https://
 
 "[`privacy`](https://developer.chrome.com/extensions/privacy)" is the only permission added in [version 0.9.8.2](https://github.com/gorhill/uBlock/releases/tag/0.9.8.2). All the others were there since when uBlock was first published (except for `"contextMenus"` which was added at some point, to support blocking element from within the context menu).
 
+The `privacy` permission is needed for uBlock to be able to disable the setting "Prefetch resources to load pages more quickly". This will ensure no connection is opened at all for blocked requests: It's for your own protection privacy-wise.
+
 This is Privacy Badger required permissions:
 
     "permissions": [
@@ -32,8 +34,6 @@ This is Privacy Badger required permissions:
         "http://*/*",
         "https://*/*"
     ],
-
-It should come as no surprise that privacy-minded extensions require the `privacy` permission.
 
 ### "Access your data on all web sites"
 
