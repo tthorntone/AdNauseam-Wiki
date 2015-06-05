@@ -6,7 +6,7 @@ Yes, it is here: <sup>[中文](https://github.com/fang5566/uBlock/wiki/FAQ)</sup
 
 #### Does it block Youtube ads?
 
-Because there are are filters to block YouTube ads in EasyList, yes, it will block YouTube ads.
+Because there are filters to block YouTube ads in EasyList, yes, it will block YouTube ads.
 
 #### Is [other blocker] still needed with uBlock?
 
