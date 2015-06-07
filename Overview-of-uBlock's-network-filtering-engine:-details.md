@@ -33,4 +33,4 @@ Advantages:
 
 Disadvantages:
 - High overhead creating/deleting network/cosmetic filters (high memory churn).
-- In case of 3rd-party filter lists, forced to use all filters, including those which are not wanted.
+- In case of 3rd-party filter lists, forced to use all filters, including those which may not be wanted.
