@@ -24,6 +24,10 @@ Example: `||google-analytics.com^$important,third-party` will block all net requ
 
 To specifically disable inline script tags in a main page: `||example.com^$inline-script`.
 
+`first-party`:
+
+This is equivalent to `~third-party`. Provided strictly for convenience (0.9.9.0).
+
 #### Cosmetic filters
 
 **Entity-based cosmetic filters:** Filters which are to be applied to a specific _entity_.
