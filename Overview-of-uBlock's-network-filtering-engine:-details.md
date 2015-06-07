@@ -27,7 +27,7 @@ Disadvantages:
 #### Static filtering
 
 Advantages:
-- Flexible syntax: from very broad to very narrow targeting.
+- Flexible syntax: from very broad to very narrow targeting, with support of wildcards at any position.
 - Support cosmetic filtering (removal of DOM elements).
 - Can be loaded from a filter list: facilitate community-supported filter lists.
 - Compatibility: can be used in other blockers supporting ABP-compatible filter syntax.
