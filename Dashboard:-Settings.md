@@ -32,7 +32,7 @@ Google's [_"Make webpages load faster"_](https://support.google.com/chrome/answe
 
 ##### Disable hyperlink auditing/beacon
 
-Checking this will prevent hyperlink auditing/beacon. _Hyperlink auditing_ and _Send beacon_ are best summarized as "phone home" feature (or even "phone anywhere"). The details are well explained [here](http://www.wilderssecurity.com/threads/hyperlink-auditing-aka-a-ping-and-beacon-aka-navigator-sendbeacon.364904/).
+Checking this will prevent hyperlink auditing/beacon. _Hyperlink auditing_ and _Send beacon_ are best summarized as "phone home" features (or even "phone anywhere"). The details are well explained [here](http://www.wilderssecurity.com/threads/hyperlink-auditing-aka-a-ping-and-beacon-aka-navigator-sendbeacon.364904/).
 
 ##### Backup/restore section
 
