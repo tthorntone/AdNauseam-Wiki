@@ -3,6 +3,7 @@
 - [About the required permissions in Chromium](https://github.com/gorhill/uBlock/wiki/About-the-required-permissions)
 - Quick guides:
     - [The popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
+    - [Dashboard: Settings](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings)
     - [The network request logger](https://github.com/gorhill/uBlock/wiki/The-network-request-logger)
     - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
     - [URL filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-URL-filtering)
