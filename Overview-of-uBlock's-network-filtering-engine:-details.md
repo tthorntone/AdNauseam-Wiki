@@ -26,7 +26,7 @@ Disadvantages:
 
 Advantages:
 - Flexible syntax: from very broad to very narrow targeting.
-- Support cosmetic filtering.
+- Support cosmetic filtering (removal of DOM elements).
 - Can be loaded from a filter list: facilitate community-supported filter lists.
 - Can be used in other blockers supporting ABP-compatible filter syntax.
     - Except for a few filter syntax extensions specific to uBlock not adopted by other blockers.
