@@ -18,7 +18,7 @@ Unchecking this disable dynamic filtering, and the dynamic filtering pane in the
 
 ##### Disable pre-fetching
 
-Checking this will disable prefetching in your browser. When prefetching is enable, the browser can still establish connections to remote servers even if they are meant to be blocked by uBlock. This prevent the browser from bypassing uBlock's filtering engine.
+Checking this will disable prefetching in your browser. When prefetching is enable, the browser _can_ still establish connections to remote servers even if the resource from these remote servers are meant to be blocked by uBlock. This prevent the browser from bypassing uBlock's filtering engine.
 
 ##### Disable hyperlink auditing/beacon
 
