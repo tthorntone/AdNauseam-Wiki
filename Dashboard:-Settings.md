@@ -16,7 +16,7 @@ If you check this, this will enable [uBlock's dynamic filtering](https://github.
 
 Unchecking this disable dynamic filtering, and the dynamic filtering pane in the popup UI will no longer be available.
 
-Advanced-user mode also enable filtering [behind-the-scene network requests](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests).
+_Advanced user_ mode also enable filtering [behind-the-scene network requests](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests).
 
 ##### Disable pre-fetching
 
