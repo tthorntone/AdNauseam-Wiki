@@ -7,7 +7,7 @@
     - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
     - [URL filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-URL-filtering)
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
-    - [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
+- [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
     - [Overview of uBlock's network filtering engine: details](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details)
     - [Does uBlock block ads or just hide them?](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
 - [Memory footprint: what happens inside uBlock after installation](https://github.com/gorhill/uBlock/wiki/Memory-footprint:-what-happens-inside-uBlock-after-installation)
