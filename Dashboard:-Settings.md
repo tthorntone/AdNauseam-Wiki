@@ -18,7 +18,17 @@ Unchecking this disable dynamic filtering, and the dynamic filtering pane in the
 
 ##### Disable pre-fetching
 
-Checking this will disable prefetching in your browser. When prefetching is enable, the browser _can_ still establish connections to remote servers even if the resource from these remote servers are meant to be blocked by uBlock. This prevent the browser from bypassing uBlock's filtering engine.
+Checking this will disable prefetching in your browser. When prefetching is enable, the browser _can_ still establish connections to remote servers even if the resource from these remote servers are meant to be blocked by uBlock.
+
+This prevent the browser from bypassing uBlock's filtering engine before establishing connections to remote servers.
+
+Mozilla's [_"Link prefetching FAQ"_](https://developer.mozilla.org/docs/Web/HTTP/Link_prefetching_FAQ):
+
+> **Privacy implications** Along with the referral and URL-following implications already mentioned above, prefetching will generally cause the cookies of the prefetched site to be accessed.
+
+Google's [_"Make webpages load faster"_](https://support.google.com/chrome/answer/1385029):
+
+> If you turn this setting on in Chrome, websites (and any of their embedded resources) that are prerendered or prefetched may set and read their own cookies as if you had visited them before -- even if you don’t visit the prerendered or prefetched pages after all.
 
 ##### Disable hyperlink auditing/beacon
 
