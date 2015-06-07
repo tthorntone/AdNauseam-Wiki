@@ -1,3 +1,7 @@
+#### Overview
+
+[Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
+
 #### Dynamic URL filtering rules
 
 Advantages:
