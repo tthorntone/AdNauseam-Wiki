@@ -9,6 +9,7 @@ Advantages:
 - Precedence over both dynamic filtering rules and static filters.
     - Useful to diagnose/fix in a very narrow way web sites broken by either dynamic filtering rules or static filtering.
     - Useful to create override to current dynamic filtering rules or static filtering.
+- A point and click UI for easy management of rules.
 
 Disadvantages:
 - Can only match URLs which "start with".
@@ -19,6 +20,7 @@ Disadvantages:
 Advantages:
 - Little overhead creating/deleting dynamic rules.
 - Precedence over static filters.
+- A point and click UI for easy management of rules.
 
 Disadvantages:
 - Rules are broad: whole sites or class of types.
