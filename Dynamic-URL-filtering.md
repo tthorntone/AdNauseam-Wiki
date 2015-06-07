@@ -22,7 +22,7 @@ URL filtering uses _rules_, which resemble dynamic filtering rules, except that 
 
 `action` tells the URL filtering engine what to do when there is a match. Same as with dynamic filtering rules: `allow`, `noop` or `block`.
 
-It is very important to understand that URL filtering rules override dynamic filtering rules and static filtering rules. So you could create an `allow` URL filtering rule which override a `block` plain dynamic filtering rule.
+It is very important to understand that URL filtering rules override dynamic filtering rules and static filters. So you could create an `allow` URL filtering rule which override a `block` plain dynamic filtering rule.
 
 #### Examples of URL filtering usefulness.
 
