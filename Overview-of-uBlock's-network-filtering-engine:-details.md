@@ -7,6 +7,8 @@
 Advantages:
 - Little overhead creating/deleting dynamic URL rules.
 - Precedence over both dynamic filtering rules and static filters.
+    - Useful to diagnose/fix in a very narrow way web sites broken by either dynamic filtering rules or static filtering.
+    - Useful to create override to current dynamic filtering rules or static filtering.
 
 Disadvantages:
 - Can only match URLs which "start with".
