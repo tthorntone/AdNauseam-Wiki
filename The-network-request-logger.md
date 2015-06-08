@@ -1,6 +1,8 @@
-uBlock comes with a network request logger, which gives the ability to inspect network requests, whether they were blocked or allowed, and which filter, if any, matched a network request.
+uBlock Origin comes with a logger, which gives the ability to inspect network requests, whether they were blocked or allowed, and which filter, if any, matched a network request. This logger is _unified_, meaning it will display _everything_ uBlock sees as it occurs.
 
-To access the network request logger, click on the _list_ icon of µBlock's popup UI:
+The logger is the tool of choice to see, understand, diagnose and fix the functioning of uBlock.
+
+To access the logger, click on the _list_ icon of uBlock Origin's popup UI:
 
 ![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1c-1.png)
 
