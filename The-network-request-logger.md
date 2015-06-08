@@ -78,7 +78,7 @@ Examples:
 - `|xhr google`: show only entries of type `XMLHttpRequest` with the work `google` in it.
 - `!|image !|css`: show only entries which are not of type `image`, neither `css`.
 
-#### 
+#### Maximum number of entries
 
 ![Figure 9](https://cloud.githubusercontent.com/assets/585534/8035568/aecf93d0-0dbf-11e5-8435-75960644c0c9.png)
 
