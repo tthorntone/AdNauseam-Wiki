@@ -50,11 +50,11 @@ The `X` button in the toolbar allows you to remove those void entries from the l
 
 This is to clear the logger, to remove all entries.
 
-***
+#### Filtering
 
-![Figure 6](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-06.png)
+![Figure 8](https://cloud.githubusercontent.com/assets/585534/8035538/66077c8a-0dbf-11e5-9a1a-f2c6204ebbf7.png)
 
-You can filter entries in the logger using filter expressions. Log entries which do not match _all_ filter expressions will be hidden from view. Syntax for a filter expression:
+You can visually filter entries in the logger using filter expressions. Log entries which do not match _all_ filter expressions will be hidden from view. Syntax for a filter expression:
 
 - Enter `foo` to only show entries which have a string `foo`.
 - Enter `|foo` to only show entries which have a field starting with `foo`.
