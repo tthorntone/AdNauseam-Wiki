@@ -108,7 +108,7 @@ Clicking on the 4th cell of a log entry will give you access to the filtering to
 
 Point-and-click to create dynamic URL filtering rules. These rules are temporary by default, you need to click the padlock if you want them to be permanent. Useful to find out which network requests need to be blocked or allowed on a page in order, to fix a broken page, or to further block more useless resources from a page.
 
-See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where dynamic URL filtering fits in the overall uBlock filtering engine.
+See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where dynamic URL filtering fits in the overall filtering engine.
 
 ##### Static filtering
 
@@ -116,4 +116,4 @@ See [_"Overview of uBlock's network filtering engine: details"_](https://github.
 
 This dialog will assist you in creating static filters compatible with [ABP filter syntax](https://adblockplus.org/filter-cheatsheet). Note that creating static filters incur a significant overhead relative to dynamic URL filtering rules.
 
-See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where static filtering fits in the overall uBlock filtering engine.
+See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where static filtering fits in the overall filtering engine.
