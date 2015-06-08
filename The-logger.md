@@ -12,7 +12,7 @@ The request logger will open in a new tab (which was moved to its own window bel
 
 Take note that the network request logger in uBlock is a forward-looking logger: this means only future requests can be logged.
 
-In the spirit of efficiency, uBlock will log entries **IF AND ONLY IF** the logger is opened. Otherwise if the logger is not opened, no resource CPU/memory resources are consumed by uBlock for logging purpose.
+In the spirit of efficiency, uBlock will log entries **IF AND ONLY IF** the logger is opened. Otherwise, if the logger is not opened, no CPU/memory resources are consumed by uBlock for logging purpose.
 
 ***
 
