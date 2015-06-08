@@ -30,9 +30,17 @@ The big reload button aside the page selector is to force a reload of the conten
 
 #### Expand
 
-![Figure 3](![c](https://cloud.githubusercontent.com/assets/585534/8035192/663e6932-0dbc-11e5-9df6-dd3143495bf8.png)
+![Figure 5](![c](https://cloud.githubusercontent.com/assets/585534/8035192/663e6932-0dbc-11e5-9df6-dd3143495bf8.png)
 
 By default log entries in the logger are collapsed so as to take no more than one line. Some log entries however might be truncated as a result. This button is to force all those entries with truncated extraneous information to be fully visible.
+
+#### Void log entries
+
+![Figure 6](https://cloud.githubusercontent.com/assets/585534/8035264/fc8f467c-0dbc-11e5-8832-a2baf889af23.png)
+
+The logger is _unified_, i.e. it display all network requests from all tabs at once. If you close a tab for which there are entries in the logger, these entries will be marked as _void_, i.e. a bold `X` will appear in the second column of these entries, to indicate the tab for these entries does not exist anymore.
+
+The `X` button in the toolbar allows you to remove those void entries from the logger.
 
 ***
 
