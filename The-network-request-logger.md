@@ -24,6 +24,8 @@ Note in the figure above the entry named _"Behind the scene"_: selecting this en
 
 #### Reload
 
+![Figure 4](https://cloud.githubusercontent.com/assets/585534/8035141/f5e4cc80-0dbb-11e5-9bb4-03a33c647c2f.png)
+
 The big reload button aside the page selector is to force a reload of the content of the selected page. This button is enabled only for when a specific page is selected.
 
 ***
