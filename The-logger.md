@@ -92,6 +92,6 @@ This is useful to be sure the logger does not unduly consume a huge amount of me
 
 You can access the popup UI of a specific tab by clicking the second cell in a log entry.
 
-This will cause all entries in the logger which are unrelated to the selected entry to be dimmed.
+This will cause all entries in the logger which are unrelated to the currently opened popup to be dimmed.
 
 #### Filtering wizard
