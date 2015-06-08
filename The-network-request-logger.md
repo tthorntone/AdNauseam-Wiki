@@ -28,11 +28,11 @@ Note in the figure above the entry named _"Behind the scene"_: selecting this en
 
 The big reload button aside the page selector is to force a reload of the content of the selected page. This button is enabled only for when a specific page is selected.
 
-***
+#### Expand
 
-![Figure 4](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-03.png)
+![Figure 3](![c](https://cloud.githubusercontent.com/assets/585534/8035192/663e6932-0dbc-11e5-9df6-dd3143495bf8.png)
 
-This is to force a refresh of the tab which is currently being observed.
+By default log entries in the logger are collapsed so as to take no more than one line. Some log entries however might be truncated as a result. This button is to force all those entries with truncated extraneous information to be fully visible.
 
 ***
 
