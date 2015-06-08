@@ -22,7 +22,7 @@ Take note that the network request logger in uBlock is a forward-looking logger:
 
 The drop-down selector is to display log entries which are related to a specific page. This will hide from view all log entries which are not related to the selected page. By selecting _All_ again, all log entries will be displayed again.
 
-Note in the figure above the entry named _"Behind the scene"_: selecting this entry allows you to see behind-the-scene display network requests which do not originate from any specific tab. [More about this here](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests).
+Note in the figure above the entry named _"Behind the scene"_: selecting this entry allows you to see behind-the-scene display network requests which do not originate from any specific tab. Behind-the-scene log entries are denoted by the _eye-slash_ icon in the second column. (More about [Behind-the-scene network requests}(https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests) here).
 
 #### Reload
 
