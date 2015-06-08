@@ -16,9 +16,7 @@ Take note that the network request logger in uBlock is a forward-looking logger:
 
 ![Figure 3](https://cloud.githubusercontent.com/assets/585534/8034873/fc489536-0db9-11e5-86ab-fb013ed91181.png)
 
-The drop-down selector is to choose for which tab network requests should be logged. Each network request logger can log only one tab at a time, in order to identify clearly all the network requests which originate from a specific web page.
-
-You may have multiple network request loggers open at the same time though -- there is no limit.
+The drop-down selector is to display log entries which are related to a specific tab. This will hide from view all log entries which are not related to the selected tab. By selecting _All_ again, all log entries will be displayed again.
 
 The big refresh button aside the tab selector is to refresh the content of the selector. When tabs are added or closed, you need to refresh explicitly the selector so that its content reflects the current tabs.
 
