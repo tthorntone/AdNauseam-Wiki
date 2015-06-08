@@ -99,3 +99,19 @@ This will cause all entries in the logger which are unrelated to the currently o
 ![Figure 11](https://cloud.githubusercontent.com/assets/585534/8037213/8bac33f8-0dca-11e5-8610-010d0f9ed030.png)
 
 Clicking on the 4th cell of a log entry will give you access to the filtering tools, from where you can easily create dynamic URL filtering rules, or just standard static filters.
+
+##### Dynamic URL filtering
+
+![Figure 12](https://cloud.githubusercontent.com/assets/585534/8037337/31bf8a2e-0dcb-11e5-8a23-aef78f943727.png)
+
+Point-and-click to create dynamic URL filtering rules. These rules are temporary by default, you need to click the padlock if you want them to be permanent. Useful to find out which network requests need to be blocked or allowed on a page in order, to fix a broken page, or to further block more useless resources from a page.
+
+See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where dynamic URL filtering fits in the overall uBlock filtering engine.
+
+##### Static filtering
+
+![Figure 13](https://cloud.githubusercontent.com/assets/585534/8037377/6ed2d4d4-0dcb-11e5-826c-e5109f72b86b.png)
+
+This dialog will assist you in creating static filters compatible with [ABP filter syntax](https://adblockplus.org/filter-cheatsheet). Note that creating static filters incur a significant overhead relative to dynamic URL filtering rules.
+
+See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where static filtering fits in the overall uBlock filtering engine.
