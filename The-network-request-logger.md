@@ -78,12 +78,10 @@ Examples:
 - `|xhr google`: show only entries of type `XMLHttpRequest` with the work `google` in it.
 - `!|image !|css`: show only entries which are not of type `image`, neither `css`.
 
-***
+#### 
 
-![Figure 5](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-05.png)
+![Figure 9](https://cloud.githubusercontent.com/assets/585534/8035568/aecf93d0-0dbf-11e5-8435-75960644c0c9.png)
 
-This is the maximum number of entries allowed in the request logger. When the maximum is reached, the oldest entries at the bottom will be removed to make place to newest entries at the top.
+This is the maximum number of entries allowed in the logger. When the maximum is reached, the oldest entries at the bottom will be removed to make place to newest entries at the top.
 
-This is useful to be sure the request logger does not unduly consume a huge amount of memory if left open for long period of time. Usually, the most recent entries are the ones of interest. When this value is not set, there is a built-in limit of 25,000 entries.
-
-One could leave the logger opened for long period of time with the _"Behind the scene"_ selected to find out what the browser and other installed extensions are doing behind the scene.
+This is useful to be sure the logger does not unduly consume a huge amount of memory if left open for long period of time. Usually, the most recent entries are the ones of interest. When this value is not set, there is a built-in limit of 5,000 entries.
