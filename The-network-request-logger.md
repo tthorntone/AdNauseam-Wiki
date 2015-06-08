@@ -44,11 +44,11 @@ The logger is _unified_, i.e. it display all network requests from all tabs at o
 
 The `X` button in the toolbar allows you to remove those void entries from the logger.
 
-***
+#### Clear
 
-![Figure 5](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-04.png)
+![Figure 7](https://cloud.githubusercontent.com/assets/585534/8035480/1735ce04-0dbf-11e5-91f4-d20be43af4a9.png)
 
-This is to remove all the logged entries.
+This is to clear the logger, to remove all entries.
 
 ***
 
