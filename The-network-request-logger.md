@@ -14,7 +14,7 @@ Take note that the network request logger in uBlock is a forward-looking logger:
 
 ### Components
 
-![Figure 2](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-02.png)
+![Figure 3](https://cloud.githubusercontent.com/assets/585534/8034873/fc489536-0db9-11e5-86ab-fb013ed91181.png)
 
 The drop-down selector is to choose for which tab network requests should be logged. Each network request logger can log only one tab at a time, in order to identify clearly all the network requests which originate from a specific web page.
 
@@ -26,13 +26,13 @@ Note in the figure above the entry named "Behind the scene": selecting this entr
 
 ***
 
-![Figure 3](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-03.png)
+![Figure 4](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-03.png)
 
 This is to force a refresh of the tab which is currently being observed.
 
 ***
 
-![Figure 4](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-04.png)
+![Figure 5](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/rlogger-04.png)
 
 This is to remove all the logged entries.
 
