@@ -85,3 +85,13 @@ Examples:
 This is the maximum number of entries allowed in the logger. When the maximum is reached, the oldest entries at the bottom will be removed to make place to newest entries at the top.
 
 This is useful to be sure the logger does not unduly consume a huge amount of memory if left open for long period of time. Usually, the most recent entries are the ones of interest. When this value is not set, there is a built-in limit of 5,000 entries.
+
+#### Accessing popup UI of a specific page
+
+![Figure 10](https://cloud.githubusercontent.com/assets/585534/8037059/aa2717f4-0dc9-11e5-991e-e6381ef3400c.png)
+
+You can access the popup UI of a specific tab by clicking the second cell in a log entry.
+
+This will cause all entries in the logger which are unrelated to the selected entry to be dimmed.
+
+#### Filtering wizard
