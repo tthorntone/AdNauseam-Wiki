@@ -94,4 +94,8 @@ You can access the popup UI of a specific tab by clicking the second cell in a l
 
 This will cause all entries in the logger which are unrelated to the currently opened popup to be dimmed.
 
-#### Filtering wizard
+#### Filtering tools
+
+![Figure 11](https://cloud.githubusercontent.com/assets/585534/8037213/8bac33f8-0dca-11e5-8610-010d0f9ed030.png)
+
+Clicking on the 4th cell of a log entry will give you access to the filtering tools, from where you can easily create dynamic URL filtering rules, or just standard static filters.
