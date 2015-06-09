@@ -34,11 +34,11 @@ Google's [_"Make webpages load faster"_](https://support.google.com/chrome/answe
 
 #### Disable hyperlink auditing/beacon
 
-Checking this will prevent hyperlink auditing/beacon. _Hyperlink auditing_ and _Send beacon_ are best summarized as "phone home" features (or even "phone anywhere"). The details are well explained [here](http://www.wilderssecurity.com/threads/hyperlink-auditing-aka-a-ping-and-beacon-aka-navigator-sendbeacon.364904/).
+Checking this will prevent hyperlink auditing/beacon<sup[1]</sup>. _Hyperlink auditing_ and _Send beacon_ are best summarized as "phone home" features (or even "phone anywhere"). The details are well explained [here](http://www.wilderssecurity.com/threads/hyperlink-auditing-aka-a-ping-and-beacon-aka-navigator-sendbeacon.364904/).
 
 ![Figure 2](https://cloud.githubusercontent.com/assets/585534/8056381/92121158-0e75-11e5-951d-43424e416959.png)<br><sup>"Send beacon" in action: a behind-the-scene network request sent to 3rd-party `linkedin.com` **after** leaving [this page](http://www.eetimes.com/document.asp?doc_id=1326794) on `eetimes.com`</sup>.
 
-**Important note:** _"Send beacon"_ can not be disabled in Chromium. Advanced users can filter behind-the-scene network requests, where the beacon-related network requests show up.
+**[1] Important note:** _"Send beacon"_ can not be disabled in Chromium. Advanced users can filter behind-the-scene network requests, where the beacon-related network requests show up.
 
 #### Backup/restore section
 
