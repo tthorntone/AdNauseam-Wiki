@@ -38,7 +38,7 @@ Checking this will prevent hyperlink auditing/beacon<sup>[1]</sup>. _Hyperlink a
 
 ![Figure 2](https://cloud.githubusercontent.com/assets/585534/8056381/92121158-0e75-11e5-951d-43424e416959.png)<br><sup>"Send beacon" in action: a behind-the-scene network request sent to 3rd-party `linkedin.com` **after** leaving [this page](http://www.eetimes.com/document.asp?doc_id=1326794) on `eetimes.com`</sup>.
 
-**[1] Important note:** _"Send beacon"_ can not be disabled in Chromium. Advanced users can filter behind-the-scene network requests, where the beacon-related network requests show up.
+<sub>**[1] Important note:** _"Send beacon"_ can not be disabled in Chromium. Advanced users can filter behind-the-scene network requests, where the beacon-related network requests show up.</sub>
 
 #### Backup/restore section
 
