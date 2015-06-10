@@ -14,7 +14,7 @@ Currently mostly useful for users who checked _"I am an advanced user"_ (see bel
 
 If you check this, this will enable [uBlock's dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering), and the dynamic filtering pane will become available from uBlock's popup UI.
 
-Unchecking this disable dynamic filtering, and the dynamic filtering pane in the popup UI will no longer be available.
+Unchecking this disables the dynamic filtering. And the dynamic filtering pane in the popup UI will no longer be available.
 
 _Advanced user_ mode also enables the ability to filter [behind-the-scene network requests](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests).
 
