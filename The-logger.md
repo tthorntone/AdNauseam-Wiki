@@ -114,6 +114,6 @@ See [_"Overview of uBlock's network filtering engine: details"_](https://github.
 
 ![Figure 13](https://cloud.githubusercontent.com/assets/585534/8037377/6ed2d4d4-0dcb-11e5-826c-e5109f72b86b.png)
 
-This dialog will assist you in creating static filters compatible with [ABP filter syntax](https://adblockplus.org/filter-cheatsheet). Note that creating static filters incur a significant overhead relative to dynamic URL filtering rules.
+This dialog will assist you in creating static filters compatible with [ABP filter syntax](https://adblockplus.org/filter-cheatsheet). Note that creating static filters incur a significant overhead relative to dynamic URL filtering rules. Typically, you will first use dynamic URL filtering rules to quickly diagnose which network requests need to be allowed/blocked.
 
 See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where static filtering fits in the overall filtering engine.
