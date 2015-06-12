@@ -2,15 +2,19 @@ Collection of questions which have been asked, along with the answer I provided,
 
 #### Is there a Chinese translation of this Wiki?
 
-Yes, it is here: <sup>[中文](https://github.com/fang5566/uBlock/wiki/FAQ)</sup>
+Yes, it is here: [中文](https://github.com/fang5566/uBlock/wiki/FAQ)
 
-#### Does it block Youtube ads?
+#### Is there an overlay to enhance the UI to increase usability?
 
-Because there are filters to block YouTube ads in EasyList, yes, it will block YouTube ads.
+Yes, it is called [uBlock Deluxe](https://github.com/Gitoffthelawn/uBlock-Deluxe).  It is a pure UI overlay which does not impact the uBlock Origin filtering engine, so there is no harm in trying it.  To use it, install uBlock Origin, and then follow the instructions on the [uBlock Deluxe github repository](https://github.com/Gitoffthelawn/uBlock-Deluxe) to add the UI enhancement overlay.
+
+#### Can uBlock Origin filter Youtube ads?
+
+If the filter lists you enable include filters to block YouTube ads, then yes it will.  EasyList, which is enabled by default, includes filters to block YouTube ads.
 
 #### Is [other blocker] still needed with uBlock?
 
-It all depends of the filter lists you use, and whether you use dynamic filtering in uBlock. I run benchmarks regarding blocking efficiency, this may help you decide whether you should keep another blocker to complement uBlock, or whether you should drop it and further configure uBlock to block more: [uBlock and others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares). The [resulting diffs](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares#data-diffs) are particularly useful in making a decision.
+It all depends of the filter lists you use, and whether you use dynamic filtering in uBlock. I run benchmarks regarding blocking efficiency; these may help you decide whether you should keep another blocker to complement uBlock, or whether you should drop it and configure uBlock to block more: [uBlock and others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares). The [resulting diffs](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares#data-diffs) are particularly useful in making a decision.
 
 
 
@@ -26,17 +30,17 @@ Yes.
 
 #### How often are filter lists updated within uBlock?
 
-Currently, after four days a filter list is deemed "obsolete".
+It depends on the filter list.  Currently, after four to six days a filter list is deemed "obsolete".
 
 #### How to show Google text ads?
 
-You can create a whitelist directive *only* for Google Search page. For example, in my case it would be:
+You can create a whitelist directive *only* for the Google Search page.  For example, in my case it would be:
 
     www.google.ca/search*
 
 In your case, just replace `google.ca` with whatever is your Google search domain name.
 
-Whitelist directives are those appearing in the _Whitelist_ tab in uBlock's dashboard, and which serves to disable uBlock completely.
+Whitelist directives are those appearing in the _Whitelist_ tab in uBlock's dashboard, and which serve to disable uBlock completely for those hosts.
 
 #### Web pages appear only as text
 
@@ -54,15 +58,15 @@ Will cause that exact problem.
 - Replace "1" with "1,000,000"
 - Notice the text editor's responsiveness
 
-Sounds absurd? It is. So is the claim that a high badge count slows down uBlock. It's just a _counter_ for the number of blocked network requests.
+Sounds absurd?  It is.  So is the claim that a high badge count slows down uBlock.  It's just a _counter_ for the number of blocked network requests.
 
 #### I am concerned about stability, should I wait for v1.0?
 
-uBlock is considered stable. The version number is just a convenience to differentiate one release from another one. It doesn't have any more meaning than this.
+uBlock is considered stable.  The version number is just a convenience to differentiate one release from another one.  It doesn't have any more meaning than this.
 
 #### YouTube filtering options à la ABP (or, Facebook filtering options à la ABP)
 
-These filter lists do not come with a Creative Common license, thus uBlock is not shipping with these lists. But you can add them manually as custom filter lists. You can find URLs to various external lists on this page: [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
+These filter lists do not come with a Creative Commons license, thus uBlock is not shipping with these lists. But you can add them manually as custom filter lists. You can find URLs to various external lists on this page: [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
 
 #### Are you paid to develop uBlock?
 
