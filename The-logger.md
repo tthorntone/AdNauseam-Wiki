@@ -21,7 +21,7 @@ In the spirit of efficiency, uBlock will log entries **IF AND ONLY IF** the logg
 - [Expand](#expand)
 - [Void log entries](#void-log-entries)
 - [Clear](#clear)
-- [Filtering](#filtering)
+- [Filtering the logger output](#filtering-the-logger-output)
 - [Maximum number of entries](#maximum-number-of-entries)
 - [Accessing popup UI of a specific page](#accessing-popup-ui-of-a-specific-page)
 - [Creating filters](#creating-filters)
