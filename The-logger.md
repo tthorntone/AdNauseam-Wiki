@@ -24,10 +24,10 @@ In the spirit of efficiency, uBlock will log entries **IF AND ONLY IF** the logg
 - [Filtering the logger output](#filtering-the-logger-output)
 - [Maximum number of entries](#maximum-number-of-entries)
 - [Accessing popup UI of a specific page](#accessing-popup-ui-of-a-specific-page)
+- [Finding from which list(s) a static filter originates](#finding-from-which-lists-a-static-filter-originates)
 - [Creating filters](#creating-filters)
     - [Dynamic URL filtering rules](#dynamic-url-filtering-rules)
     - [Static network filters](#static-network-filters)
-- [Finding from which list(s) a static filter originates](#finding-from-which-lists-a-static-filter-originates)
 
 ***
 
@@ -111,6 +111,15 @@ You can access the popup UI of a specific tab by clicking the second cell in a l
 
 This will cause all entries in the logger which are unrelated to the currently opened popup to be dimmed.
 
+
+#### Finding from which list(s) a static filter originates
+
+You can find out from which filter list(s) a static filter originates, by simply clicking on it:
+
+![c](https://cloud.githubusercontent.com/assets/585534/8145767/e2d4eafe-11e3-11e5-9af3-6692531403fa.png)
+
+![a](https://cloud.githubusercontent.com/assets/585534/8145768/e431716a-11e3-11e5-859c-794d37c7c41e.png)
+
 #### Creating filters
 
 ![Figure 11](https://cloud.githubusercontent.com/assets/585534/8037213/8bac33f8-0dca-11e5-8610-010d0f9ed030.png)
@@ -132,11 +141,3 @@ See [_"Overview of uBlock's network filtering engine: details"_](https://github.
 This dialog will assist you in creating static filters compatible with [ABP filter syntax](https://adblockplus.org/filter-cheatsheet). Note that creating static filters incur a significant overhead relative to dynamic URL filtering rules. Typically, you will first use dynamic URL filtering rules to quickly diagnose which network requests need to be allowed/blocked.
 
 See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where static filtering fits in the overall filtering engine.
-
-#### Finding from which list(s) a static filter originates
-
-You can find out from which filter list(s) a static filter originates, by simply clicking on it:
-
-![c](https://cloud.githubusercontent.com/assets/585534/8145767/e2d4eafe-11e3-11e5-9af3-6692531403fa.png)
-
-![a](https://cloud.githubusercontent.com/assets/585534/8145768/e431716a-11e3-11e5-859c-794d37c7c41e.png)
