@@ -140,3 +140,15 @@ When present, the badge number indicates the number of elements hidden on the pa
 Cosmetic filtering is always enabled by default.
 
 **Tip:** Others have suggested adding a custom static filter such as `@@||example.com^$elemhide` to prevent "adblock" detection by specific sites ([example](https://adblockplus.org/forum/viewtopic.php?f=2&t=30763#p124225)). You can accomplish the same goal more simply by just toggling off cosmetic filtering using this switch while on the problematic site.
+
+##### No remote fonts
+
+You can prevent web fonts from being downloaded for the current site:
+
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1k.png)<br><sup>No remote fonts for the current site.</sup>
+
+Because of security and privacy concerns, many prefer to block all web fonts by default. You can do this by adding the following rule directly in the _"My rules"_ pane in the dashboard:
+
+    no-remote-fonts: * true
+
+This will block all web fonts everywhere by default, and in this case you can toggle off the switch to allow web fonts on a per-site basis.
