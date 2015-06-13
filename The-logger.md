@@ -16,7 +16,6 @@ In the spirit of efficiency, uBlock will log entries **IF AND ONLY IF** the logg
 
 ***
 
-Components
 - [Page selector](#page-selector)
 - [Reload](#reload)
 - [Expand](#expand)
@@ -28,7 +27,7 @@ Components
 - [Creating filters](#creating-filters)
     - [Dynamic URL filtering rules](#dynamic-url-filtering-rules)
     - [Static network filters](#static-network-filters)
-- [Finding from which list(s) a static filter originates]()
+- [Finding from which list(s) a static filter originates](#finding-from-which-lists-a-static-filter-originates)
 
 ***
 
