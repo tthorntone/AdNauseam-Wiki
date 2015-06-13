@@ -117,3 +117,11 @@ See [_"Overview of uBlock's network filtering engine: details"_](https://github.
 This dialog will assist you in creating static filters compatible with [ABP filter syntax](https://adblockplus.org/filter-cheatsheet). Note that creating static filters incur a significant overhead relative to dynamic URL filtering rules. Typically, you will first use dynamic URL filtering rules to quickly diagnose which network requests need to be allowed/blocked.
 
 See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where static filtering fits in the overall filtering engine.
+
+#### Finding the source of a static filter
+
+You can find out from which filter list(s) a static filter originates, by simply clicking on it:
+
+![c](https://cloud.githubusercontent.com/assets/585534/8145767/e2d4eafe-11e3-11e5-9af3-6692531403fa.png)
+
+![a](https://cloud.githubusercontent.com/assets/585534/8145768/e431716a-11e3-11e5-859c-794d37c7c41e.png)
