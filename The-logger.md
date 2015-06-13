@@ -67,7 +67,7 @@ The `X` button in the toolbar allows you to remove those void entries from the l
 
 This is to clear the logger, to remove all entries.
 
-#### Filtering
+#### Filtering the logger output
 
 ![Figure 8](https://cloud.githubusercontent.com/assets/585534/8035538/66077c8a-0dbf-11e5-9a1a-f2c6204ebbf7.png)
 
