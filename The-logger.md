@@ -16,6 +16,22 @@ In the spirit of efficiency, uBlock will log entries **IF AND ONLY IF** the logg
 
 ***
 
+Components
+- [Page selector](#page-selector)
+- [Reload](#reload)
+- [Expand](#expand)
+- [Void log entries](#void-log-entries)
+- [Clear](#clear)
+- [Filtering](#filtering)
+- [Maximum number of entries](#maximum-number-of-entries)
+- [Accessing popup UI of a specific page](#accessing-popup-ui-of-a-specific-page)
+- [Creating filters](#creating-filters)
+    - [Dynamic URL filtering rules](#dynamic-url-filtering-rules)
+    - [Static network filters](#static-network-filters)
+- [Finding from which list(s) a static filter originates]()
+
+***
+
 ### Components
 
 #### Page selector
@@ -96,13 +112,13 @@ You can access the popup UI of a specific tab by clicking the second cell in a l
 
 This will cause all entries in the logger which are unrelated to the currently opened popup to be dimmed.
 
-#### Filtering tools
+#### Creating filters
 
 ![Figure 11](https://cloud.githubusercontent.com/assets/585534/8037213/8bac33f8-0dca-11e5-8610-010d0f9ed030.png)
 
 Clicking on the 4th cell of a log entry will give you access to the filtering tools dialog (modal), from where you can easily create dynamic URL filtering rules or just standard static filters, and launch the element picker.
 
-##### Dynamic URL filtering
+##### Dynamic URL filtering rules
 
 ![Figure 12](https://cloud.githubusercontent.com/assets/585534/8037337/31bf8a2e-0dcb-11e5-8a23-aef78f943727.png)
 
@@ -110,7 +126,7 @@ Point-and-click to create dynamic URL filtering rules. These rules are temporary
 
 See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where dynamic URL filtering fits in the overall filtering engine.
 
-##### Static filtering
+##### Static network filters
 
 ![Figure 13](https://cloud.githubusercontent.com/assets/585534/8037377/6ed2d4d4-0dcb-11e5-826c-e5109f72b86b.png)
 
@@ -118,7 +134,7 @@ This dialog will assist you in creating static filters compatible with [ABP filt
 
 See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where static filtering fits in the overall filtering engine.
 
-#### Finding the source of a static filter
+#### Finding from which list(s) a static filter originates
 
 You can find out from which filter list(s) a static filter originates, by simply clicking on it:
 
