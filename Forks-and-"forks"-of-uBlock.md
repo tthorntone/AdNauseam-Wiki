@@ -12,3 +12,6 @@ It's just a matter of time before forks and "forks" of uBlock are spotted. So he
     - The project mentions: "Used under GPLv3 from uBlock".
     - Logo resembles that of Adblock Plus, except for the letters, "ABF".
     - Named changed from "AdBlock Plus Free" to "adBlock Extension by Goldbar" on April 20, 2015.
+- [Madblock Ad Blocker](https://chrome.google.com/webstore/detail/madblock-ad-blocker/lhbfhcbgmodeoikiccebpomdmkcccaem) (Chrome store)
+    - Mention "based on the open source project uBlock".
+    - Link to `http://madblock.org` which appears to be a stale domain name.
