@@ -141,7 +141,7 @@ When present, the badge number indicates the number of elements hidden on the pa
 
 Cosmetic filtering is always enabled by default.
 
-**Tip:** Others have suggested adding a custom static filter such as `@@||example.com^$elemhide` to prevent "adblock" detection by specific sites ([example](https://adblockplus.org/forum/viewtopic.php?f=2&t=30763#p124225)). You can accomplish the same goal more simply by just toggling off cosmetic filtering using this switch while on the problematic site.
+**Tip:** It is often suggested adding a custom static filter such as `@@||example.com^$elemhide` to prevent "adblock" detection by specific sites ([example](https://adblockplus.org/forum/viewtopic.php?f=2&t=30763#p124225)). You can accomplish the same goal more simply by just toggling off cosmetic filtering using this switch while on the problematic site.
 
 ***
 
