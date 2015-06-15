@@ -33,6 +33,8 @@ In the spirit of efficiency, uBlock will log entries **IF AND ONLY IF** the logg
 
 ### Components
 
+***
+
 #### Page selector
 
 ![Figure 3](https://cloud.githubusercontent.com/assets/585534/8034873/fc489536-0db9-11e5-86ab-fb013ed91181.png)
