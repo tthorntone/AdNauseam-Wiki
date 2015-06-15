@@ -2,13 +2,19 @@
 
 ### Below more details for the non-self-explanatory items
 
+***
+
 #### Make use of context menu where appropriate
 
 If checked, this gives permission for uBlock to add items in the context menu which are meant to improve convenience. Currently, only one item is added to the context menu, _"Block element"_, which purpose is to launch the element picker in order to filter out a specific element on a page.
 
+***
+
 #### Color-blind friendly
 
 Currently mostly useful for users who checked _"I am an advanced user"_ (see below).
+
+***
 
 #### I am an advanced user
 
@@ -17,6 +23,8 @@ If you check this, this will enable [uBlock's dynamic filtering](https://github.
 Unchecking this disables the dynamic filtering. And the dynamic filtering pane in the popup UI will no longer be available.
 
 _Advanced user_ mode also enables the ability to filter [behind-the-scene network requests](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests).
+
+***
 
 #### Disable pre-fetching
 
@@ -32,11 +40,15 @@ Google's [_"Make webpages load faster"_](https://support.google.com/chrome/answe
 
 > If you turn this setting on in Chrome, websites (and any of their embedded resources) that are prerendered or prefetched may set and read their own cookies as if you had visited them before -- even if you don’t visit the prerendered or prefetched pages after all.
 
+***
+
 #### Disable hyperlink auditing/beacon
 
 Checking this will prevent hyperlink auditing/beacon<sup>[1]</sup>. _Hyperlink auditing_ and _Send beacon_ are best summarized as "phone home" features (or even "phone anywhere"). The details are well explained [here](http://www.wilderssecurity.com/threads/hyperlink-auditing-aka-a-ping-and-beacon-aka-navigator-sendbeacon.364904/).
 
 <sub>**[1] Important note:** _"Send beacon"_ can not be disabled in Chromium. Advanced users can filter behind-the-scene network requests, where the beacon-related network requests show up.</sub>
+
+***
 
 #### Backup/restore section
 
