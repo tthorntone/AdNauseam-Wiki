@@ -7,6 +7,10 @@
 - [The number of requests blocked](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-number-of-requests-blocked)
 - [The number of domains connected](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-number-of-domains-connected)
 - [The site-based switches](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-site-based-switches)
+    - [No popups](#no-popups)
+    - [No strict blocking](#no-strict-blocking)
+    - [No cosmetic filtering](#no-cosmetic-filtering)
+    - [No remote fonts](#no-remote-fonts)
 
 ***
 
