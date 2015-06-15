@@ -43,17 +43,23 @@ The drop-down selector is to display log entries which are related to a specific
 
 Note in the figure above the entry named _"Behind the scene"_: selecting this entry allows to show only behind-the-scene network requests. Behind-the-scene network requests are requests which do not originate from any specific tab, and are denoted by the _eye-slash_ icon in the second column. More about [behind-the-scene network requests](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests) here.
 
+***
+
 #### Reload
 
 ![Figure 4](https://cloud.githubusercontent.com/assets/585534/8035141/f5e4cc80-0dbb-11e5-9bb4-03a33c647c2f.png)
 
 The big reload button aside the page selector is to force a reload of the content of the selected page. This button is enabled only for when a specific page is selected.
 
+***
+
 #### Expand
 
 ![Figure 5](https://cloud.githubusercontent.com/assets/585534/8035192/663e6932-0dbc-11e5-9df6-dd3143495bf8.png)
 
 By default log entries in the logger are collapsed so as to take no more than one line. Some log entries however might be truncated as a result. This button is to force all those entries with truncated extraneous information to be fully visible.
+
+***
 
 #### Void log entries
 
@@ -63,11 +69,15 @@ The logger is _unified_, i.e. it display all network requests from all tabs at o
 
 The `X` button in the toolbar allows you to remove those void entries from the logger.
 
+***
+
 #### Clear
 
 ![Figure 7](https://cloud.githubusercontent.com/assets/585534/8035480/1735ce04-0dbf-11e5-91f4-d20be43af4a9.png)
 
 This is to clear the logger, to remove all entries from the selected context (Ars Technica tab in this example).
+
+***
 
 #### Filtering the logger output
 
@@ -97,6 +107,8 @@ Examples:
 - `|xhr google`: show only entries of type `XMLHttpRequest` with the work `google` in it.
 - `!|image !|css`: show only entries which are not of type `image`, neither `css`.
 
+***
+
 #### Maximum number of entries
 
 ![Figure 9](https://cloud.githubusercontent.com/assets/585534/8035568/aecf93d0-0dbf-11e5-8435-75960644c0c9.png)
@@ -104,6 +116,8 @@ Examples:
 This is the maximum number of entries allowed in the logger. When the maximum is reached, the oldest entries at the bottom will be removed to make place to newest entries at the top.
 
 This is useful to be sure the logger does not unduly consume a huge amount of memory if left open for long period of time. Usually, the most recent entries are the ones of interest. When this value is not set, there is a built-in limit of 5,000 entries.
+
+***
 
 #### Accessing popup UI of a specific page
 
@@ -113,6 +127,7 @@ You can access the popup UI of a specific tab by clicking the second cell in a l
 
 This will cause all entries in the logger which are unrelated to the currently opened popup to be dimmed.
 
+***
 
 #### Finding from which list(s) a static filter originates
 
@@ -122,11 +137,15 @@ You can find out from which filter list(s) a static filter originates, by simply
 
 ![a](https://cloud.githubusercontent.com/assets/585534/8145768/e431716a-11e3-11e5-859c-794d37c7c41e.png)
 
+***
+
 #### Creating filters
 
 ![Figure 11](https://cloud.githubusercontent.com/assets/585534/8037213/8bac33f8-0dca-11e5-8610-010d0f9ed030.png)
 
 Clicking on the 4th cell of a log entry will give you access to the filtering tools dialog (modal), from where you can easily create dynamic URL filtering rules or just standard static filters, and launch the element picker.
+
+***
 
 ##### Dynamic URL filtering rules
 
@@ -135,6 +154,8 @@ Clicking on the 4th cell of a log entry will give you access to the filtering to
 Point-and-click to create dynamic URL filtering rules. These rules are temporary by default, you need to click the padlock if you want them to be permanent. Useful to find out which network requests need to be blocked or allowed on a page in order, to fix a broken page, or to further block more useless resources from a page.
 
 See [_"Overview of uBlock's network filtering engine: details"_](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details) for more details about where dynamic URL filtering fits in the overall filtering engine.
+
+***
 
 ##### Static network filters
 
