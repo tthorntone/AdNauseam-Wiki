@@ -106,7 +106,7 @@ So if you were to create a filter such as `||example.com^`, and then navigate to
 
 uBlock respected that semantic until version 0.9.3.0. With version 0.9.3.0, uBlock will subject web pages themselves to filtering. This means that using the same test case above, **uBlock will block the web page** served by <https://example.com> (unlike Adblock Plus):
 
-![Page was fully blocked](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/page-block.png)
+![Page was fully blocked](https://cloud.githubusercontent.com/assets/585534/8160013/14466ca0-133a-11e5-8d3c-28169288f35a.png)
 
 Why the change? Because [issue #1013](https://github.com/chrisaljoudi/uBlock/issues/1013) brought forth why it is desirable sometimes to completely block a web site, as opposed to what the ABP-filtering semantic dictates.
 
