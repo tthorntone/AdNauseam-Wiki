@@ -1,3 +1,7 @@
+I am going to collect here common usage issues users may face.
+
+***
+
 #### Unable to open links in new tab
 
 - Are you using the [no-popups switch](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-popups)?
