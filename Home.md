@@ -7,6 +7,7 @@
     - [The logger](https://github.com/gorhill/uBlock/wiki/The-logger)
     - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
     - [URL filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-URL-filtering)
+- [Troubleshooting](https://github.com/gorhill/uBlock/wiki/Troubleshooting)
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
 - [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
     - [Overview of uBlock's network filtering engine: details](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details)
