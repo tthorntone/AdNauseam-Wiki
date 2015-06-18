@@ -130,6 +130,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # funnyjunk.com
     www.funnyjunk.com fjcdn.com * noop
 
+    # gamefaqs.com
+    www.gamefaqs.com gamefaqs.net * noop
+
     # gigaom.com
     gigaom.com wordpress.com * noop
     gigaom.com wp.com * noop
