@@ -1,4 +1,4 @@
-After I added the `privacy` permission in order to make uBlock Origin  reliable when it comes to blocking network requests, a lot of people questioned uBlock Origin 's trustworthiness.
+After I added the `privacy` permission in order to make uBlock Origin  reliable when it comes to blocking network requests, a lot of people questioned uBlock Origin's trustworthiness.
 
 First, uBlock Origin is completely developed in full public view. All the sources and all the changes to the sources are fully accessible on GitHub.
 
