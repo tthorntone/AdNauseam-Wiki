@@ -1,6 +1,7 @@
 - [Chinese translation of this Wiki: 中文](https://github.com/fang5566/uBlock/wiki/Home)
 - [Change log](https://github.com/gorhill/uBlock/releases) / [Pre-fork: 0.9.3.0 - 0.2.0.0](https://github.com/chrisaljoudi/uBlock/releases) / [Pre-fork: 0.1.4.8 and less](https://github.com/gorhill/uBlock/wiki/Change-log)
 - [About the required permissions in Chromium](https://github.com/gorhill/uBlock/wiki/About-the-required-permissions)
+    - [Can you trust uBlock?](https://github.com/gorhill/uBlock/wiki/Can-you-trust-uBlock%3F)
 - Quick guides:
     - [The popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
     - [Dashboard: Settings](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings)
