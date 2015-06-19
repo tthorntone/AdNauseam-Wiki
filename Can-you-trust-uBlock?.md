@@ -4,6 +4,8 @@ First, uBlock Origin is completely developed in full public view. All the source
 
 Second, uBlock Origin does not have a dedicated server, it can't "phone home" with your browsing data, there is only GitHub, and GitHub is completely unrelated to uBlock Origin.
 
+Third, I have no intent to _ever_ monetize uBlock Origin, it's started as a personal project, and it still is a personal project. So uBlock Origin has absolutely no interest in data mining you.
+
 I think it's time I give examples of how requiring _less_ permissions is **not** a sure sign a higher trustworthiness.
 
 #### Web Protector - Reliable Phishing Protection
