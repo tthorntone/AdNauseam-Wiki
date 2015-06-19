@@ -31,4 +31,3 @@ This is just to demonstrate that the permissions _alone_ do not tell the whole s
     - uBlock Origin's logger allows you to see all behind-the-scene network requests, including its own (to GitHub, for updating filter lists).
 - How is an extension monetizing itself?
     - To best understand how its interests are aligned or at odd with yours.
-    - I have no intent to monetize uBlock Origin, ever.
