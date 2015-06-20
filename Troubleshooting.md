@@ -23,4 +23,4 @@ Because you enabled _"Fanboy’s Social Blocking List"_, or one of the filter li
 
 False positive.
 
-uBlock ships with malware filter lists, and this causes [false positives](https://github.com/chrisaljoudi/uBlock/issues/752) in some antiviruses.
+uBlock ships with malware filter lists, and this causes [false positives](https://github.com/gorhill/uBlock/issues/199) in some antiviruses.
