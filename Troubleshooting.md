@@ -16,3 +16,9 @@ If you answer "yes" to both questions above, this is your problem (from link abo
 #### Links to social networks are blocked
 
 Because you enabled _"Fanboy’s Social Blocking List"_, or one of the filter lists which includes it, like _"Fanboy’s Annoyance List"_ or _"Fanboy+Easylist-Merged Ultimate List"_.
+
+#### My antivirus flags uBlock
+
+False positive.
+
+uBlock ships with malware filter lists, and this causes [false positives](https://github.com/chrisaljoudi/uBlock/issues/763) in some antiviruses.
