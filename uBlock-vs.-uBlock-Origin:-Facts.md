@@ -44,8 +44,8 @@ Summary ([as per Wikipedia](https://en.wikipedia.org/wiki/UBlock)):
 | | [per-site cosmetic filtering switch](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-cosmetic-filtering) |
 | [cosmetic filtering thru Inspector (FF)](https://github.com/chrisaljoudi/uBlock/issues/1211#issuecomment-91652206) | |
 | [elimination of font based icons](https://github.com/chrisaljoudi/uBlock/issues/1181) | |
-| ~~per-site switches~~ | |
-| ~~strict blocking~~ | |
+| [~~per-site switches~~](https://github.com/chrisaljoudi/uBlock/issues/1306) | |
+| [~~strict blocking~~](https://github.com/chrisaljoudi/uBlock/issues/1306) | |
 | | [color-blind mode](https://github.com/chrisaljoudi/uBlock/issues/467#issuecomment-95177219) |
 | | [unified logger](https://github.com/gorhill/uBlock/wiki/The-logger) |
 | | cosmetic filters in request logger |
