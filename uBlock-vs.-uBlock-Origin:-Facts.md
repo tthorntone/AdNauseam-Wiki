@@ -10,7 +10,7 @@ Completely false.
 
 ![a](https://cloud.githubusercontent.com/assets/585534/8421391/cbd59f96-1e9b-11e5-886d-278a00a32792.png)
 
-Before being handed over **maintainership**, he was taking care to further develop the Safari port of uBlock, which was first [brought entirely to life](https://github.com/gorhill/uBlock/commits/master/platform/safari?page=3) by another developer, [Deathamns](https://github.com/Deathamns).
+Before being handed over **maintainership**, he was taking care to further develop the Safari port of uBlock, which was first [brought entirely](https://github.com/gorhill/uBlock/commits/master/platform/safari?page=3) to [life originally](https://github.com/gorhill/uBlock/commits/98464a56fe4fa2a28372018640d648a1f772ea36/meta/safariextz) by another developer, [Deathamns](https://github.com/Deathamns).
 
 Since being handed over the project, his _own_ uBlock work has _mostly_ consisted of [re-skinning uBlock](https://github.com/chrisaljoudi/uBlock/releases).
 
