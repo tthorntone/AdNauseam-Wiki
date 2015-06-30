@@ -16,7 +16,7 @@ Since being handed over the project, his _own_ uBlock work has _mostly_ consiste
 
 So to call him the "creator of uBlock" is a quite low blow to those who actually did all the real hard work to make uBlock what it is today.
 
-#### "Raymond Hill leaved the project only to come back about a week later"
+#### "Raymond Hill [left] the project only to come back about a week later"
 
 Instances: [here](http://ubuntuforums.org/showthread.php?t=2284427).
 
