@@ -10,33 +10,34 @@
 
 ##### Facebook annoyances blocker
 
-`https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt`
+[https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt](https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt&title=facebook annoyances blocker)
 
 ##### Facebook sidebar blocker
 
-`https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt`
+[https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt](https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt&title=facebook sidebar blocker)
 
 ##### Facebook news feed annoyances blocker
 
-`https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt`
+[https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt](https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt&title=facebook news feed annoyances blocker)
 
 ##### Youtube: Pure Video Experience
 
-`https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt`
+[https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt](https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt&title=Youtube: Pure Video Experience)
 
 ##### Youtube: Remove Comments
 
-`https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt`
+[https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt](https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt&title=Youtube: Remove Comments)
 
 ##### Youtube: Remove Youtube Suggestions
 
-`https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt`
+[https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt](https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt&title=Youtube: Remove Youtube Suggestions)
 
 ##### Youtube: Other Annoyances
 
-`https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt`
+[https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt](https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt&title=Youtube: Other Annoyances
+)
 
 ##### AntiPubWeb
 
-`http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt`
+[http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
 
