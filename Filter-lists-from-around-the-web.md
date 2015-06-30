@@ -24,7 +24,7 @@ Feel free to add whatever filter list you  think is worth it. Example of the mar
 
 **Facebook news feed annoyances blocker:** [https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt](https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt&title=facebook news feed annoyances blocker)
 
-**metaphoricgiraffe's tracking filters:** [https://github.com/metaphoricgiraffe/tracking-filters](https://github.com/metaphoricgiraffe/tracking-filters?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters)
+**metaphoricgiraffe's tracking filters:** <https://github.com/metaphoricgiraffe/tracking-filters> [subscribe](https://github.com/metaphoricgiraffe/tracking-filters?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters)
 
 **Youtube: Pure Video Experience:** [https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt](https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt&title=Youtube: Pure Video Experience)
 
