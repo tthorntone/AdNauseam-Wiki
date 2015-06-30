@@ -6,7 +6,7 @@
 
 ##### Fanboy's Anti-thirdparty Fonts
 
-`https://www.fanboy.co.nz/fanboy-antifonts.txt`
+[https://www.fanboy.co.nz/fanboy-antifonts.txt](https://www.fanboy.co.nz/fanboy-antifonts.txt?location=https://www.fanboy.co.nz/fanboy-antifonts.txt&title=Fanboy's Anti-thirdparty Fonts)
 
 ##### Facebook annoyances blocker
 
