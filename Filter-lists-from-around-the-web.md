@@ -4,6 +4,8 @@
 
 ### External filter lists of interest
 
+Click on a filter list to subscribe to it.
+
 Order alphabetically according to filter list title (as it appears inside the list).
 
 **AntiPubWeb:** [http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
