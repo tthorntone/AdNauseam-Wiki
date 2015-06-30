@@ -42,7 +42,7 @@ Instances: [I see this once in a while]
 
 Nonsense.
 
-What makes uBlock efficient is the core filtering engine, which is composed of many parts. The filtering engine was mature at the time of the fork, and aside some refactoring in uBlock Origin to allow the reverse lookup of filter lists, the core filtering engine is essentially the same in both branches, i.e. virtually same performance.
+What makes uBlock efficient is the core filtering engine, which is composed of many parts. The filtering engine was mature at the time of the fork, and aside [some refactoring in uBlock Origin](https://github.com/gorhill/uBlock/commit/2234933b82d1c17af42ba574b6515937c7515029#diff-522a16ddeed280252d7c3a351261b441) to fix [issue #58](https://github.com/gorhill/uBlock/issues/58) and [issue #59](https://github.com/gorhill/uBlock/issues/59), the core filtering engine is essentially the same in both branches, i.e. virtually same performance.
 
 - [uBlock: `static-net-filtering.js`](https://github.com/chrisaljoudi/uBlock/commits/master/src/js/static-net-filtering.js) vs [uBlock Origin `static-net-filtering.js`](https://github.com/gorhill/uBlock/commits/master/src/js/static-net-filtering.js)
 - [uBlock: `cosmetic-filtering.js`](https://github.com/chrisaljoudi/uBlock/commits/master/src/js/cosmetic-filtering.js) vs [uBlock Origin `cosmetic-filtering.js`](https://github.com/gorhill/uBlock/commits/master/src/js/cosmetic-filtering.js)
