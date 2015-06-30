@@ -41,3 +41,6 @@
 
 [http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
 
+##### metaphoricgiraffe's tracking filters
+
+[https://github.com/metaphoricgiraffe/tracking-filters](https://github.com/metaphoricgiraffe/tracking-filters?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters)
