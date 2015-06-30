@@ -17,6 +17,9 @@ Feel free to add whatever filter list you  think is worth it. Example of the mar
 **AntiPubWeb:**<br>
 <http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt>: [**subscribe**](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
 
+**Block-EU-Cookie-Shit-List:**<br>
+<https://github.com/r4vi/block-the-eu-cookie-shit-list>: [**subscribe**](https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt&title=Block-EU-Cookie-Shit-List)
+
 **Fanboy's Anti-thirdparty Fonts:**<br>
 <https://www.fanboy.co.nz/fanboy-antifonts.txt>: [**subscribe**](https://www.fanboy.co.nz/fanboy-antifonts.txt?location=https://www.fanboy.co.nz/fanboy-antifonts.txt&title=Fanboy's Anti-thirdparty Fonts)
 
