@@ -12,6 +12,8 @@ Feel free to add whatever filter list you  think is worth it. Example of the mar
 
     [https://www.fanboy.co.nz/fanboy-antifonts.txt](https://www.fanboy.co.nz/fanboy-antifonts.txt?location=https://www.fanboy.co.nz/fanboy-antifonts.txt&title=Fanboy's Anti-thirdparty Fonts)
 
+***
+
 **AntiPubWeb:** [http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
 
 **Fanboy's Anti-thirdparty Fonts:** [https://www.fanboy.co.nz/fanboy-antifonts.txt](https://www.fanboy.co.nz/fanboy-antifonts.txt?location=https://www.fanboy.co.nz/fanboy-antifonts.txt&title=Fanboy's Anti-thirdparty Fonts)
