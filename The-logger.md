@@ -104,7 +104,7 @@ You can visually filter entries in the logger using filter expressions. Log entr
 Examples:
 
 - `!|-- facebook`: show only non-blocked entries with the string `facebook` in it.
-- `|xhr google`: show only entries of type `XMLHttpRequest` with the work `google` in it.
+- `|xhr google`: show only entries of type `XMLHttpRequest` with the word `google` in it.
 - `!|image !|css`: show only entries which are not of type `image`, neither `css`.
 
 ***
