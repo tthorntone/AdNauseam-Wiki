@@ -8,6 +8,10 @@ Click on a filter list to subscribe to it.
 
 Order alphabetically according to filter list title (as it appears inside the list).
 
+Feel free to add whatever filter list you  think is worth it. Example of the markdown for _"Fanboy's Anti-thirdparty Fonts"_: 
+
+    [https://www.fanboy.co.nz/fanboy-antifonts.txt](https://www.fanboy.co.nz/fanboy-antifonts.txt?location=https://www.fanboy.co.nz/fanboy-antifonts.txt&title=Fanboy's Anti-thirdparty Fonts)
+
 **AntiPubWeb:** [http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
 
 **Fanboy's Anti-thirdparty Fonts:** [https://www.fanboy.co.nz/fanboy-antifonts.txt](https://www.fanboy.co.nz/fanboy-antifonts.txt?location=https://www.fanboy.co.nz/fanboy-antifonts.txt&title=Fanboy's Anti-thirdparty Fonts)
