@@ -8,6 +8,8 @@ Feel free to add whatever filter list you  think is worth it -- order alphabetic
 
     [**subscribe**](https://www.fanboy.co.nz/fanboy-antifonts.txt?location=https://www.fanboy.co.nz/fanboy-antifonts.txt&title=Fanboy's Anti-thirdparty Fonts)
 
+Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.3-dev.2+.
+
 ***
 
 **AntiPubWeb:**<br>
