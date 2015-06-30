@@ -6,7 +6,7 @@ Instances: [here](https://twitter.com/thenickde/status/614503721590898688).
 
 Completely false.
 
-[Chris Aljoudi](https://github.com/chrisaljoudi) was one of the lesser contributor when he was handed over **maintainership** on April 1st:
+[Chris Aljoudi](https://github.com/chrisaljoudi) was [one of the lesser contributors](https://github.com/gorhill/uBlock/graphs/contributors) when he was handed over **maintainership** on April 1st:
 
 ![a](https://cloud.githubusercontent.com/assets/585534/8421391/cbd59f96-1e9b-11e5-886d-278a00a32792.png)
 
