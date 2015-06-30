@@ -38,7 +38,7 @@ Compare release history of both projects:
 
 [TODO: lists the major differences as of now]
 
-#### Gorhill "is more chrome focused"
+#### uBlock Origin "is more chrome focused"
 
 Instances: [here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/reviews/722444/) [I've seen more, will add them]
 
