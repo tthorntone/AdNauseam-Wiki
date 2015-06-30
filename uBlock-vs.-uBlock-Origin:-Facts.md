@@ -36,6 +36,18 @@ Summary ([as per Wikipedia](https://en.wikipedia.org/wiki/UBlock)):
 | | [filter list identification for static filters](https://github.com/gorhill/uBlock/wiki/The-logger#finding-from-which-lists-a-static-filter-originates) |
 | | [toolbar support for legacy Firefox](https://github.com/gorhill/uBlock/issues/264)  |
 
+#### "uBlock Origin is more efficient than uBlock" or "uBlock is more efficient than uBlock Origin"
+
+Instances: [I see this once in a while]
+
+Nonsense.
+
+What makes uBlock efficient is the core filtering engine, which is composed of many parts. The filtering engine was mature at the time of the fork, and aside some refactoring in uBlock Origin to allow the reverse lookup of filter lists, the core filtering engine is essentially the same in both branches, i.e. virtually same performance.
+
+- [uBlock: `static-net-filtering.js`](https://github.com/chrisaljoudi/uBlock/commits/master/src/js/static-net-filtering.js) vs [uBlock Origin `static-net-filtering.js`](https://github.com/gorhill/uBlock/commits/master/src/js/static-net-filtering.js)
+- [uBlock: `cosmetic-filtering.js`](https://github.com/chrisaljoudi/uBlock/commits/master/src/js/cosmetic-filtering.js) vs [uBlock Origin `cosmetic-filtering.js`](https://github.com/gorhill/uBlock/commits/master/src/js/cosmetic-filtering.js)
+- [uBlock: `contentscript-end.js`](https://github.com/chrisaljoudi/uBlock/commits/master/src/js/contentscript-end.js) vs [uBlock Origin `contentscript-end.js`](https://github.com/gorhill/uBlock/commits/master/src/js/contentscript-end.js)
+
 #### Chris Aljoudi is "the creator of uBlock"
 
 Instances: [here](https://twitter.com/thenickde/status/614503721590898688).
