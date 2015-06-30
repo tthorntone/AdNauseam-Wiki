@@ -4,7 +4,7 @@
 
 ### External filter lists of interest
 
-Order alphabetically according to filter list title.
+Order alphabetically according to filter list title (as it appears inside the list).
 
 ##### AntiPubWeb
 
