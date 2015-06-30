@@ -44,4 +44,8 @@ Instances: [here](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/r
 
 Completely false.
 
-[TODO: show why]
+I don't shy away at [working on the Firefox code base](https://github.com/gorhill/uBlock/commits/master/platform/firefox) (including refactoring where needed):
+- [987a8d2b644ea445a0d64e78d7c2ab9c4d5da989](https://github.com/gorhill/uBlock/commit/987a8d2b644ea445a0d64e78d7c2ab9c4d5da989)
+- [b084d796b50a4c5f930e5fbf9217a49322687c9e](https://github.com/gorhill/uBlock/commit/b084d796b50a4c5f930e5fbf9217a49322687c9e), [6470216530548cd3dfecdce7d9aa94816d10d863](https://github.com/gorhill/uBlock/commit/6470216530548cd3dfecdce7d9aa94816d10d863)
+- [53fc1063f9281ebbe6d5c5c50ef6ba37bb22ffe9](https://github.com/gorhill/uBlock/commit/53fc1063f9281ebbe6d5c5c50ef6ba37bb22ffe9), [c285ace7d84115fdcac3e2b6009a481e4dc34b91](https://github.com/gorhill/uBlock/commit/c285ace7d84115fdcac3e2b6009a481e4dc34b91)
+- [d41408ebbc8b14b77effaa40254a280c42390a3e](https://github.com/gorhill/uBlock/commit/d41408ebbc8b14b77effaa40254a280c42390a3e)
