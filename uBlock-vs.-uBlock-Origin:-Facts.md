@@ -36,7 +36,30 @@ Compare release history of both projects:
 - [uBlock](https://github.com/chrisaljoudi/uBlock/releases)
 - [uBlock Origin](https://github.com/gorhill/uBlock/releases)
 
-[TODO: lists the major differences as of now]
+Summary ([as per Wikipedia](https://en.wikipedia.org/wiki/UBlock)):
+
+| uBlock | uBlock Origin |
+|--------|---------------|
+| | manual editing of per-site switches |
+| | [per-site cosmetic filtering switch](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-cosmetic-filtering) |
+| [cosmetic filtering thru Inspector (FF)](https://github.com/chrisaljoudi/uBlock/issues/1211#issuecomment-91652206) | |
+| [elimination of font based icons](https://github.com/chrisaljoudi/uBlock/issues/1181) | |
+| ~~per-site switches~~ | |
+| ~~strict blocking~~ | |
+| | [color-blind mode](https://github.com/chrisaljoudi/uBlock/issues/467#issuecomment-95177219) |
+| | [unified logger](https://github.com/gorhill/uBlock/wiki/The-logger) |
+| | cosmetic filters in request logger |
+| [toolbar support for legacy Firefox](https://github.com/chrisaljoudi/uBlock/pull/1321) | |
+| [inline-script blocking for Safari](https://github.com/chrisaljoudi/uBlock/commit/82118cb075732549289d3accb8cf3ea6d9f9d9fc) | |
+| cosmetic filters in request logger | |
+| | [dynamic URL filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-URL-filtering) |
+| [network filtering thru Inspector (FF)](https://github.com/chrisaljoudi/uBlock/pull/1324) |
+| | [privacy: block browser pre-fetching](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#disable-pre-fetching) |
+| | [privacy: block hyperlink auditing/beacon](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#disable-hyperlink-auditingbeacon) |
+| | [create static filters thru logger](https://github.com/gorhill/uBlock/wiki/The-logger#static-network-filters) |
+| | [per-site switch to disable remote fonts](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-remote-fonts) |
+| | [filter list identification for static filters](https://github.com/gorhill/uBlock/wiki/The-logger#finding-from-which-lists-a-static-filter-originates) |
+| | [toolbar support for legacy Firefox](https://github.com/gorhill/uBlock/issues/264)  |
 
 #### uBlock Origin "is more chrome focused"
 
