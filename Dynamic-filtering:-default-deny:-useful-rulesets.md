@@ -124,6 +124,12 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # fool.com
     www.fool.com foolcdn.com * noop
 
+    # fortune.com
+    fortune.com akamai.net * noop
+    fortune.com wp.com * noop
+    # Optional: embedded videos
+    fortune.com brightcove.com * noop
+
     # foxnews.com
     foxnews.com fncstatic.com * noop
 
