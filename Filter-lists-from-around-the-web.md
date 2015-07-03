@@ -46,3 +46,18 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.3-dev.2+.
 <https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt&title=Youtube: Other Annoyances
 )
 
+**Spam404 - HTTP version (for those, who can't update HTTPS version in newest Chrome on Windows XP):**<br>
+<http://spam404bl.com/spam404scamlist.txt>: [**subscribe**](http://spam404bl.com/spam404scamlist.txt?location=http://spam404bl.com/spam404scamlist.txt&title=Spam404 - HTTP version
+)
+
+**cjxlist filters list for Chinese sites, which was removed in one of earlier uBlock Origin's versions:**<br>
+<http://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](http://cjxlist1.googlecode.com/svn/cjxlist.txt?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=Old cjxlist filters list for Chinese sites
+)
+
+**Block all well known privacy trackers (also removed in one of earlier uBlock Origin's versions):**<br>
+<http://gnuzilla.gnu.org/filters/blacklist.txt>: [**subscribe**](http://gnuzilla.gnu.org/filters/blacklist.txt?location=http://gnuzilla.gnu.org/filters/blacklist.txt&title=Block all well known privacy trackers
+)
+
+**Old filters list for Polish websites (also removed in one of earlier uBlock Origin's versions):**<br>
+<https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt>: [**subscribe**](https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt?location=https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt&title=Adblock Polska
+)
