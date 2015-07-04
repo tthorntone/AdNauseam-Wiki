@@ -58,6 +58,7 @@ Background info: [STUN IP Address requests for WebRTC](https://github.com/diafyg
 
 Test cases:
 - https://diafygi.github.io/webrtc-ips/
+- https://www.privacytools.io/webrtc.html
 - https://ipleak.net/
 
 **Caveat:** For Chromium-based browsers, the feature works only on version 42 and above.
