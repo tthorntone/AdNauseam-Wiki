@@ -50,6 +50,22 @@ Checking this will prevent hyperlink auditing/beacon<sup>[1]</sup>. _Hyperlink a
 
 ***
 
+#### Prevent WebRTC from leaking local IP address
+
+Check this to prevent your local IP address from leaking.
+
+![c](https://cloud.githubusercontent.com/assets/585534/8344622/0ce20cc4-1ab2-11e5-8f46-a0a387c91d63.png)
+
+Background info: [STUN IP Address requests for WebRTC](https://github.com/diafygi/webrtc-ips)
+
+Test cases:
+- https://diafygi.github.io/webrtc-ips/
+- https://ipleak.net/
+
+**Caveat:** For Chromium-based browsers, the feature works only on version 42 and above.
+
+***
+
 #### Backup/restore section
 
 The bottom-most section is for you to easily backup/restore/reset all settings in uBlock.
