@@ -6,30 +6,29 @@ Note the word "risks": not necessarily all downloads on a site may be affected b
 
 uBlock is not an antivirus, the sole purpose is to _remind_ a user of what is ahead, and the feature is more useful to non-technical users, who are more likely to be the target of badware.
 
-Below are sites currently part of the list, or sites being candidate for the list (will be added once there are enough sources to support the _badware risks_ qualifier), and links giving further information as to why. Feel free to add _good_ sources if you find more.
+Below are sites currently part of the list, or sites being candidate for the list (will be added once there are enough sources to support the _badware risks_ qualifier), and links giving further information as to why. Feel free to add _good_ sources if you find more (please respect the chronological order, keep everything neat).
 
-
-#### download.com
-
-- 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
-
-#### filehippo.com
+#### download.com (candidate)
 
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 
-#### freewarefiles.com
+#### filehippo.com (candidate)
 
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 
-#### majorgeeks.com
+#### freewarefiles.com (candidate)
 
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 
-#### nonags.com
+#### majorgeeks.com (candidate)
 
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 
-#### snapfiles.com
+#### nonags.com (candidate)
+
+- 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
+
+#### snapfiles.com (candidate)
 
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 
@@ -41,7 +40,7 @@ Below are sites currently part of the list, or sites being candidate for the lis
 - 2013-04-19: [Softonic Delivers Adware](http://www.esecurityplanet.com/malware/softonic-delivers-adware.html)
 - 2013-04-17: [Softonic Download Site Briefly Delivers Trojan Adware Installer](http://www.intego.com/mac-security-blog/softonic-download-site-briefly-delivers-trojan-adware-installer/)
 
-#### Softpedia
+#### Softpedia (candidate)
 
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 
@@ -54,6 +53,6 @@ Below are sites currently part of the list, or sites being candidate for the lis
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 - 2014-11-25: [SourceForge malware](http://blog.tedd.no/2014/11/25/sourceforge-malware/)
 
-#### tucows.com
+#### tucows.com (candidate)
 
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
