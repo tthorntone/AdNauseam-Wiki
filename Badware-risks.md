@@ -12,6 +12,7 @@ Below are sites currently part of the list, or sites being candidate for the lis
 
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 - 2015-01-11: [Here’s What Happens When You Install the Top 10 Download.com Apps](http://www.howtogeek.com/198622/heres-what-happens-when-you-install-the-top-10-download.com-apps/)
+- 2012-06-27: [Download.com Caught Adding Malware to Nmap & Other Software](http://insecure.org/news/download-com-fiasco.html)
 - 2011-12-07: [CNET Accused of Bundling Software Downloads with Trojans](http://www.tomsguide.com/us/CNET-CBS-Malware-Trojan-Nmap,news-13410.html)
 - 2011-12-06: [Cnet is accused of bundling malware with downloads](http://www.theinquirer.net/inquirer/news/2130382/cnet-accused-bundling-malware-downloads)
 - 2011-08-22: [Download.com wraps downloads in bloatware, lies about motivations](http://www.extremetech.com/computing/93504-download-com-wraps-downloads-in-bloatware-lies-about-motivations)
