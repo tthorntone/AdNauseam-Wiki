@@ -27,7 +27,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.3-dev.2+.
 **Block all well known privacy trackers (also removed in one of earlier uBlock Origin's versions):**<br>
 <http://gnuzilla.gnu.org/filters/blacklist.txt>: [**subscribe**](http://gnuzilla.gnu.org/filters/blacklist.txt?location=http://gnuzilla.gnu.org/filters/blacklist.txt&title=Block all well known privacy trackers)
 
-**cjxlist - Different cjxlist filters list for Chinese sites (also removed in one of earlier uBlock Origin's versions:**<br>
+**cjxlist - Different cjxlist filters list for Chinese sites (also removed in one of earlier uBlock Origin's versions):**<br>
 <http://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](http://cjxlist1.googlecode.com/svn/cjxlist.txt?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=Old cjxlist filters list for Chinese sites)
 
 **Fanboy's Anti-thirdparty Fonts:**<br>
