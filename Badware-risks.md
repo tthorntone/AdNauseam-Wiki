@@ -1,4 +1,4 @@
-The sites below are included in the _"uBlock filters – Badware risks"_. The sites are documented to be [badware](https://en.wikipedia.org/wiki/Malware) risks. To quote Wikipedia:
+The sites below are included in the _"uBlock filters – Badware risks"_ -- or are candidates for inclusion. The sites are documented to be [badware](https://en.wikipedia.org/wiki/Malware) risks. To quote Wikipedia:
 
 > Spyware or other malware is sometimes found embedded in programs supplied officially by companies, e.g., downloadable from websites, that appear useful or attractive, but may have, for example, additional hidden tracking functionality that gathers marketing statistics.
 
