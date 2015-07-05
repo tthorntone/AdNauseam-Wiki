@@ -41,7 +41,12 @@ Below are sites currently part of the list, or sites being candidate for the lis
 
 #### snapfiles.com (candidate)
 
+- 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
+
+#### soft32.com (candidate)
+
+- 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 
 #### softonic.net
 
@@ -51,8 +56,9 @@ Below are sites currently part of the list, or sites being candidate for the lis
 - 2013-04-19: [Softonic Delivers Adware](http://www.esecurityplanet.com/malware/softonic-delivers-adware.html)
 - 2013-04-17: [Softonic Download Site Briefly Delivers Trojan Adware Installer](http://www.intego.com/mac-security-blog/softonic-download-site-briefly-delivers-trojan-adware-installer/)
 
-#### Softpedia (candidate)
+#### softpedia.com (candidate)
 
+- 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 
 #### software.informer.com (candidate)
