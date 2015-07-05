@@ -8,6 +8,31 @@ uBlock is not an antivirus, the sole purpose is to _remind_ a user of what is ah
 
 Below are sites currently part of the list, and links giving further information as to why. Feel free to add _good_ sources if you find more.
 
+
+#### download.com
+
+- 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
+
+#### filehippo.com
+
+- 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
+
+#### freewarefiles.com
+
+- 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
+
+#### majorgeeks.com
+
+- 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
+
+#### nonags.com
+
+- 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
+
+#### snapfiles.com
+
+- 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
+
 #### softonic.net
 
 - 2015-05-17: [AntiAdware Gets Rid of Bundled Crapware on Popular Download Sites](http://lifehacker.com/antiadware-gets-rid-of-bundled-crapware-on-popular-down-1702818594) (Softonic cited as a source of crapware)
@@ -15,6 +40,10 @@ Below are sites currently part of the list, and links giving further information
 - 2013-05-23: [Another Problematic Softonic Installer Brings Adware](http://www.intego.com/mac-security-blog/another-problematic-softonic-installer-brings-adware/)
 - 2013-04-19: [Softonic Delivers Adware](http://www.esecurityplanet.com/malware/softonic-delivers-adware.html)
 - 2013-04-17: [Softonic Download Site Briefly Delivers Trojan Adware Installer](http://www.intego.com/mac-security-blog/softonic-download-site-briefly-delivers-trojan-adware-installer/)
+
+#### Softpedia
+
+- 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 
 #### sourceforge.net
 
@@ -24,3 +53,7 @@ Below are sites currently part of the list, and links giving further information
 - 2015-05-17: [AntiAdware Gets Rid of Bundled Crapware on Popular Download Sites](http://lifehacker.com/antiadware-gets-rid-of-bundled-crapware-on-popular-down-1702818594) (SourceForge cited as a source of crapware)
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 - 2014-11-25: [SourceForge malware](http://blog.tedd.no/2014/11/25/sourceforge-malware/)
+
+#### tucows.com
+
+- 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
