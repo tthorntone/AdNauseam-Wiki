@@ -47,6 +47,7 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.bbc.com bbc.co.uk * noop
     www.bbc.com bbci.co.uk * noop
     www.bbc.com bbcimg.co.uk * noop
+    www.bbc.com bbcverticals.com * noop
 
     # bloomberg.com
     www.bloomberg.com bwbx.io * noop
