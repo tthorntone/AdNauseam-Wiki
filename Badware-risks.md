@@ -10,6 +10,7 @@ Below are sites currently part of the list, or sites being candidate for the lis
 
 #### download.com (candidate)
 
+- 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 - 2015-01-11: [Here’s What Happens When You Install the Top 10 Download.com Apps](http://www.howtogeek.com/198622/heres-what-happens-when-you-install-the-top-10-download.com-apps/)
 - 2012-06-27: [Download.com Caught Adding Malware to Nmap & Other Software](http://insecure.org/news/download-com-fiasco.html)
@@ -19,7 +20,12 @@ Below are sites currently part of the list, or sites being candidate for the lis
 
 #### filehippo.com (candidate)
 
+- 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
+
+#### filehorse.com (candidate)
+
+- 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 
 #### freewarefiles.com (candidate)
 
@@ -40,6 +46,7 @@ Below are sites currently part of the list, or sites being candidate for the lis
 #### softonic.net
 
 - 2015-05-17: [AntiAdware Gets Rid of Bundled Crapware on Popular Download Sites](http://lifehacker.com/antiadware-gets-rid-of-bundled-crapware-on-popular-down-1702818594) (Softonic cited as a source of crapware)
+- 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 - 2013-05-23: [Another Problematic Softonic Installer Brings Adware](http://www.intego.com/mac-security-blog/another-problematic-softonic-installer-brings-adware/)
 - 2013-04-19: [Softonic Delivers Adware](http://www.esecurityplanet.com/malware/softonic-delivers-adware.html)
 - 2013-04-17: [Softonic Download Site Briefly Delivers Trojan Adware Installer](http://www.intego.com/mac-security-blog/softonic-download-site-briefly-delivers-trojan-adware-installer/)
@@ -48,15 +55,21 @@ Below are sites currently part of the list, or sites being candidate for the lis
 
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 
+#### software.informer.com (candidate)
+
+- 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
+
 #### sourceforge.net
 
 - 2015-06-18: [A hotbed of malware: Another blow for SourceForge as Google discovers 588 pages with malicious software](http://www.information-age.com/industry/software/123459675/hotbed-malware-another-blow-sourceforge-google-discovers-588-pages-malicious-software)
 - 2015-06-02: [What happened to Sourceforge?](https://blog.l0cal.com/2015/06/02/what-happened-to-sourceforge/)
 - 2015-05-28: [Anatomy of SourceForge/GIMP controversy](http://libregraphicsworld.org/blog/entry/anatomy-of-sourceforge-gimp-controversy)
 - 2015-05-17: [AntiAdware Gets Rid of Bundled Crapware on Popular Download Sites](http://lifehacker.com/antiadware-gets-rid-of-bundled-crapware-on-popular-down-1702818594) (SourceForge cited as a source of crapware)
+- 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 - 2014-11-25: [SourceForge malware](http://blog.tedd.no/2014/11/25/sourceforge-malware/)
 
 #### tucows.com (candidate)
 
+- 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
