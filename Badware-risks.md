@@ -11,6 +11,7 @@ Below are sites currently part of the list, or sites being candidate for the lis
 #### download.com (candidate)
 
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
+- 2015-01-11: [Here’s What Happens When You Install the Top 10 Download.com Apps](http://www.howtogeek.com/198622/heres-what-happens-when-you-install-the-top-10-download.com-apps/)
 
 #### filehippo.com (candidate)
 
