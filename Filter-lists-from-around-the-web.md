@@ -12,7 +12,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.3-dev.2+.
 
 ***
 
-**Adblock Polska - Old filters list for Polish websites, which was removed in one of earlier uBlock Origin's versions):**<br>
+**Adblock Polska - Old filters list for Polish websites, which was removed in one of earlier uBlock Origin's versions:**<br>
 <https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt>: [**subscribe**](https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt?location=https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt&title=Adblock Polska)
 
 **Adblock polskie reguły - Filters list for Polish websites by Certyficate.it (HTTP version for those, who have problems with installing and/or updating available HTTPS version list in the newest Chrome on Windows XP. For HTTPS version, add "s" letter between "p", and ":"):**<br>
