@@ -43,7 +43,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.3-dev.2+.
 <https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt&title=facebook news feed annoyances blocker)
 
 **metaphoricgiraffe's tracking filters:**<br>
-<https://github.com/metaphoricgiraffe/tracking-filters>: [**subscribe**](https://github.com/metaphoricgiraffe/tracking-filters?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters)
+<https://github.com/metaphoricgiraffe/tracking-filters>: [**subscribe**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters)
 
 **Spam404 - HTTP version (for those, who can't update HTTPS version in the newest Chrome on Windows XP):**<br>
 <http://spam404bl.com/spam404scamlist.txt>: [**subscribe**](http://spam404bl.com/spam404scamlist.txt?location=http://spam404bl.com/spam404scamlist.txt&title=Spam404 - HTTP version)
