@@ -8,7 +8,7 @@ uBlock is not an antivirus, the sole purpose is to _remind_ a user of what is ah
 
 Below are sites currently part of the list, or sites being candidate for the list (will be added once there are enough sources to support the _badware risks_ qualifier), and links giving further information as to why. Feel free to add _good_ sources if you find more (please respect the chronological order, keep everything neat).
 
-#### download.com
+#### download.com / download.cnet.com
 
 - 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 - 2015-02-26: [62% of the Top 50 Download.com applications bundle toolbars and other PUPs](http://blog.emsisoft.com/2015/02/26/62-of-the-top-50-download-com-applications-bundle-toolbars-and-other-pups/)
