@@ -6,7 +6,7 @@ Note the word "risks": not necessarily all downloads on a site may be affected b
 
 uBlock is not an antivirus, the sole purpose is to _remind_ a user of what is ahead, and the feature is more useful to non-technical users, who are more likely to be the target of badware.
 
-Below are sites currently part of the list, and links giving further information as to why. Feel free to add _good_ sources if you find more.
+Below are sites currently part of the list, or sites being candidate for the list (will be added once there are enough sources to support the _badware risks_ qualifier), and links giving further information as to why. Feel free to add _good_ sources if you find more.
 
 
 #### download.com
