@@ -48,7 +48,7 @@ This shows the number of network requests uBlock blocked on the current page. Al
 
 Click the _eye-dropper_ icon to enter [element picker mode](https://github.com/gorhill/uBlock/wiki/Element-picker), which allows you to create a filter by interactively picking an element on a page, thus permanently removing it from the page.
 
-Click the _list_ icon to open the [network request logger](Quick-guide:-network-request-logger) in a separate tab. This allows you to inspect real-time network traffic within the browser.
+Click the _list_ icon to open the [network request logger](https://github.com/gorhill/uBlock/wiki/The-logger) in a separate tab. This allows you to inspect real-time network traffic within the browser.
 
 ***
 
