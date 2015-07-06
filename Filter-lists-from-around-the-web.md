@@ -19,7 +19,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.3-dev.2+.
 <http://certyficate.it/adblock/adblock.txt>: [**subscribe**](http://certyficate.it/adblock/adblock.txt?location=http://certyficate.it/adblock/adblock.txt&title=Adblock polskie reguły)
 
 **Adware filters:**<br>
-<https://easylist-downloads.adblockplus.org/adwarefilters.txt>:[**subscribe**](https://easylist-downloads.adblockplus.org/adwarefilters.txt?location=https://easylist-downloads.adblockplus.org/adwarefilters.txt&title=Adware%20filters)
+<https://easylist-downloads.adblockplus.org/adwarefilters.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/adwarefilters.txt?location=https://easylist-downloads.adblockplus.org/adwarefilters.txt&title=Adware%20filters)
 
 **AntiPubWeb:**<br>
 <http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt>: [**subscribe**](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
