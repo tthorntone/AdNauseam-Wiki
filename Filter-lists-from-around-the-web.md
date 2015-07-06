@@ -12,10 +12,10 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.3-dev.2+.
 
 ***
 
-**Adblock Polska - Old filters list for Polish websites, which was removed in one of earlier uBlock Origin's versions:**<br>
+**Adblock Polska:**<br>
 <https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt>: [**subscribe**](https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt?location=https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt&title=Adblock Polska)
 
-**Adblock polskie reguły - Filters list for Polish websites by Certyficate.it (HTTP version for those, who have problems with installing and/or updating available HTTPS version list in the newest Chrome on Windows XP. For HTTPS version, add "s" letter between "p", and ":"):**<br>
+**Adblock polskie reguły:** (`http` version)<br>
 <http://certyficate.it/adblock/adblock.txt>: [**subscribe**](http://certyficate.it/adblock/adblock.txt?location=http://certyficate.it/adblock/adblock.txt&title=Adblock polskie reguły)
 
 **AntiPubWeb:**<br>
@@ -24,10 +24,10 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.3-dev.2+.
 **Block-EU-Cookie-Shit-List:**<br>
 <https://github.com/r4vi/block-the-eu-cookie-shit-list>: [**subscribe**](https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt&title=Block-EU-Cookie-Shit-List)
 
-**Block all well known privacy trackers (also removed in one of earlier uBlock Origin's versions):**<br>
+**Block all well known privacy trackers:** (high risk of web page breakage)<br>
 <http://gnuzilla.gnu.org/filters/blacklist.txt>: [**subscribe**](http://gnuzilla.gnu.org/filters/blacklist.txt?location=http://gnuzilla.gnu.org/filters/blacklist.txt&title=Block all well known privacy trackers)
 
-**cjxlist - Different cjxlist filters list for Chinese sites (also removed in one of earlier uBlock Origin's versions):**<br>
+**cjxlist:**<br>
 <http://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](http://cjxlist1.googlecode.com/svn/cjxlist.txt?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=Old cjxlist filters list for Chinese sites)
 
 **Fanboy's Anti-thirdparty Fonts:**<br>
@@ -45,7 +45,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.3-dev.2+.
 **metaphoricgiraffe's tracking filters:**<br>
 <https://github.com/metaphoricgiraffe/tracking-filters>: [**subscribe**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy filters)
 
-**Spam404 - HTTP version (for those, who can't update HTTPS version in the newest Chrome on Windows XP):**<br>
+**Spam404:** (`http` version)<br>
 <http://spam404bl.com/spam404scamlist.txt>: [**subscribe**](http://spam404bl.com/spam404scamlist.txt?location=http://spam404bl.com/spam404scamlist.txt&title=Spam404 - HTTP version)
 
 **Youtube: Pure Video Experience:**<br>
