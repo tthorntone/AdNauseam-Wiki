@@ -4,6 +4,8 @@
 
 ### External filter lists of interest
 
+**Use these filter lists at your own risk**: the more filter lists one adds, the higher the probability of breakage. Quality varies. Some filter lists could contains broad filter exceptions which defeat other block filters. The maintainers are responsible for the content of their respective filter list.
+
 Feel free to add whatever filter list you  think is worth it -- order alphabetically according to filter list title (as it appears inside the list). Example of the markdown for _"Fanboy's Anti-thirdparty Fonts"_: 
 
     [**subscribe**](https://www.fanboy.co.nz/fanboy-antifonts.txt?location=https://www.fanboy.co.nz/fanboy-antifonts.txt&title=Fanboy's Anti-thirdparty Fonts)
