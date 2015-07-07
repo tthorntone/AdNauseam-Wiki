@@ -74,6 +74,9 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **hpHosts PSH - Phishing (risk of web page breakage):**<br>
 <http://hosts-file.net/psh.txt>: [**subscribe**](http://hosts-file.net/psh.txt?location=http://hosts-file.net/psh.txt&title=hpHosts%20PSH%20-%20Phishing)
 
+**Malware filter list by Disconnect:**<br>
+<https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt>: [**subscribe**](https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt?location=https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt&title=Malware%20filter%20list%20by%20Disconnect)
+
 **Message "seen" Remover for Facebook:**<br>
 <https://easylist-downloads.adblockplus.org/message_seen_remover_for_facebook.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/message_seen_remover_for_facebook.txt?location=https://easylist-downloads.adblockplus.org/message_seen_remover_for_facebook.txt&title=Message%20"seen"%20Remover%20for%20Facebook)
 
