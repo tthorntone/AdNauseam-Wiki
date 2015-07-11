@@ -400,6 +400,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # wikipedia.org
     wikipedia.org wikimedia.org * noop
 
+    # wired.co.uk
+    www.wired.co.uk d3u12z27ui3vom.cloudfront.net * noop
+
     # wsj.com
     www.wsj.com wsj.net * noop
 
