@@ -104,4 +104,4 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **Youtube: Other Annoyances:** (removes: sharing tab in the description, in-video annotations)<br>
 <https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt&title=Youtube:%20Other%20Annoyances)
 
-**uBlock filters by hant0508:** <https://github.com/hant0508/uBlock-fillters>: [**subscribe**](https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508)
+**uBlock filters by hant0508:** <br> <https://github.com/hant0508/uBlock-fillters>: [**subscribe**](https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508)
