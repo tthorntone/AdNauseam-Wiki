@@ -23,7 +23,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **Adware filters:**<br>
 <https://easylist-downloads.adblockplus.org/adwarefilters.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/adwarefilters.txt?location=https://easylist-downloads.adblockplus.org/adwarefilters.txt&title=Adware%20filters)
 
-**AdAway:**<br>
+**AdAway:** (no longer in active development)<br>
 <https://adaway.org/hosts.txt>: [**subscribe**](https://adaway.org/hosts.txt?location=https://adaway.org/hosts.txt&title=AdAway)
 
 **AntiPubWeb:**<br>
