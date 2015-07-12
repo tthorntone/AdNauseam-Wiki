@@ -38,7 +38,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **bidgewalbelp blocking filters:** (risk of web page breakage)<br>
 <http://bidgewalbelp.neocities.org/blocking/filters.txt>: [**subscribe**](http://bidgewalbelp.neocities.org/blocking/filters.txt?location=http://bidgewalbelp.neocities.org/blocking/filters.txt&title=bidgewalbelp%20blocking%20filters)
 
-**cjxlist:** (only for Chinese Language Websites)<br>
+**cjxlist:** (only for Chinese language websites)<br>
 <http://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](http://cjxlist1.googlecode.com/svn/cjxlist.txt?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=Old%20cjxlist%20filters%20list%20for%20Chinese%20sites)
 
 **Disconnect simple ad filters:**<br>
@@ -92,14 +92,14 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **Spam404:** (`http` version)<br>
 <http://spam404bl.com/spam404scamlist.txt>: [**subscribe**](http://spam404bl.com/spam404scamlist.txt?location=http://spam404bl.com/spam404scamlist.txt&title=Spam404%20-%20HTTP%20version)
 
-**Youtube: Pure Video Experience:**<br>
+**Youtube: Pure Video Experience:** (removes: comments, suggested videos, featured and recommended videos in the endscreen, sharing tab in the description, in-video annotations)<br>
 <https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt&title=Youtube:%20Pure%20Video%20Experience)
 
-**Youtube: Remove Comments:**<br>
+**Youtube: Remove Comments:** (removes: comments on video pages)<br>
 <https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt&title=Youtube:%20Remove%20Comments)
 
-**Youtube: Remove Youtube Suggestions:**<br>
+**Youtube: Remove Youtube Suggestions:** (removes: suggested videos, featured and recommended videos in the endscreen)<br>
 <https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt&title=Youtube:%20Remove%20Youtube%20Suggestions)
 
-**Youtube: Other Annoyances:**<br>
+**Youtube: Other Annoyances:** (removes: sharing tab in the description, in-video annotations)<br>
 <https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt&title=Youtube:%20Other%20Annoyances)
