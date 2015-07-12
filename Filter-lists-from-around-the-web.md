@@ -38,7 +38,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **bidgewalbelp blocking filters:** (risk of web page breakage)<br>
 <http://bidgewalbelp.neocities.org/blocking/filters.txt>: [**subscribe**](http://bidgewalbelp.neocities.org/blocking/filters.txt?location=http://bidgewalbelp.neocities.org/blocking/filters.txt&title=bidgewalbelp%20blocking%20filters)
 
-**cjxlist:**<br>
+**cjxlist:** (only for Chinese Language Websites)<br>
 <http://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](http://cjxlist1.googlecode.com/svn/cjxlist.txt?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=Old%20cjxlist%20filters%20list%20for%20Chinese%20sites)
 
 **Disconnect simple ad filters:**<br>
