@@ -170,6 +170,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # huffingtonpost.co.uk
     www.huffingtonpost.co.uk huffpost.com * noop
 
+    # indiegogo.com
+    www.indiegogo.com iggcdn.com * noop
+
     # instagram.com
     instagram.com akamaihd.net * noop
 
