@@ -16,7 +16,7 @@ uBlock ships with malware filter lists, and this causes [false positives](https:
 
 ***
 
-#### "NETWORK FAILED" error when I try to install uBlock from Chrome store
+#### "NETWORK FAILED" error when I try to install uBlock Origin from Chrome store
 
 Unfortunately, your Chrome browser executable has probably been [tampered by malware](https://code.google.com/p/chromium/issues/detail?id=391552#c153):
 
