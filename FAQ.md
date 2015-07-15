@@ -18,7 +18,7 @@ Yes.
 
 #### How often are filter lists updated within uBlock?
 
-It depends on the filter list.  Currently, after four to six days a filter list is deemed "obsolete".
+Currently, after four to five days a filter list is deemed "obsolete".
 
 #### How to show Google text ads?
 
