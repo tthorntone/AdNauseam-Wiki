@@ -4,10 +4,6 @@ Collection of questions which have been asked, along with the answer I provided,
 
 Yes, it is here: [中文](https://github.com/fang5566/uBlock/wiki/FAQ)
 
-#### Is there an overlay to enhance the UI to increase usability?
-
-Yes, it is called [uBlock Deluxe](https://github.com/Gitoffthelawn/uBlock-Deluxe).  It is a pure UI overlay which does not impact the uBlock Origin filtering engine, so there is no harm in trying it.  To use it, install uBlock Origin, and then follow the instructions on the [uBlock Deluxe github repository](https://github.com/Gitoffthelawn/uBlock-Deluxe) to add the UI enhancement overlay.
-
 #### Can uBlock Origin filter Youtube ads?
 
 If the filter lists you enable include filters to block YouTube ads, then yes it will.  EasyList, which is enabled by default, includes filters to block YouTube ads.
