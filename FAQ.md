@@ -22,7 +22,7 @@ Currently, after four to five days a filter list is deemed "obsolete".
 
 #### How to show Google Search ads without disabling uBlock?
 
-Just toggle off the [cosmetic filtering switch](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-cosmetic-filtering).
+Just toggle off the [cosmetic filtering switch](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-cosmetic-filtering) while on the search page. This will disable cosmetic filtering for the Google Search site.
 
 #### Web pages appear only as text
 
