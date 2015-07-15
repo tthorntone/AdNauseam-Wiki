@@ -20,15 +20,9 @@ Yes.
 
 Currently, after four to five days a filter list is deemed "obsolete".
 
-#### How to show Google text ads?
+#### How to show Google Search ads without disabling uBlock?
 
-You can create a whitelist directive *only* for the Google Search page.  For example, in my case it would be:
-
-    www.google.ca/search*
-
-In your case, just replace `google.ca` with whatever is your Google search domain name.
-
-Whitelist directives are those appearing in the _Whitelist_ tab in uBlock's dashboard, and which serve to disable uBlock completely for those hosts.
+Just toggle off the [cosmetic filtering switch](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-cosmetic-filtering).
 
 #### Web pages appear only as text
 
