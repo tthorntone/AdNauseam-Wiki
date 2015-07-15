@@ -12,14 +12,6 @@ If the filter lists you enable include filters to block YouTube ads, then yes it
 
 It all depends of the filter lists you use, and whether you use dynamic filtering in uBlock. I run benchmarks regarding blocking efficiency; these may help you decide whether you should keep another blocker to complement uBlock, or whether you should drop it and configure uBlock to block more: [uBlock and others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares). The [resulting diffs](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares#data-diffs) are particularly useful in making a decision.
 
-
-
-#### Fails to block Google Search ads
-
-If you have EasyList enabled, uBlock will block ads in Google Search results.
-
-If you feed uBlock with an invalid cosmetic filter in the _"My filters"_ pane in the dashboard, this will break cosmetic filtering, and a symptom of this is that ads will not be blocked in Google Search results.
-
 #### Is the Firefox version considered stable?
 
 Yes.
