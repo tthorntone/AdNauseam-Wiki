@@ -57,7 +57,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 <https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt&title=facebook%20news%20feed%20annoyances%20blocker)
 
 **Frightener+Facekill:**<br>
-<http://adblock.gjtech.net/?format=adblock-plus>: [**subscribe**](location=http%3A%2F%2Fadblock.gjtech.net%2F%3Fformat%3Dadblock-plus&title=Frightener+Facekill)
+<http://adblock.gjtech.net/?format=adblock-plus>: [**subscribe**](http://adblock.gjtech.net/?format=adblock-plus?location=http%3A%2F%2Fadblock.gjtech.net%2F%3Fformat%3Dadblock-plus&title=Frightener+Facekill)
 
 **G+J Technology Unix Hosts:**<br>
 <http://adblock.gjtech.net/?format=unix-hosts>: [**subscribe**](http://adblock.gjtech.net/?format=unix-hosts?location=http%3A%2F%2Fadblock.gjtech.net%2F%3Fformat%3Dunix-hosts&title=G+J%20Technology%20Unix%20Hosts)
