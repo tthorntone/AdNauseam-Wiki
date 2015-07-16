@@ -10,6 +10,6 @@ uBlock Origin will download the resource at `https://raw.githubusercontent.com/g
 
 ... to find out whether some assets used by uBlock Origin need to be updated.
 
-The server(s) behind `githubusercontent.com` are owned by GitHub, Inc., and thus are unrelated to uBlock Origin, so even if I was interested in analytics (which I am not), I have no access to whatever data is logged by `githubusercontent.com`.
+The servers behind `githubusercontent.com` are owned by GitHub, Inc., and thus are unrelated to uBlock Origin, so even if I was interested in analytics (which I am not), I have no access to whatever data is logged by `githubusercontent.com`.
 
 That is all.
