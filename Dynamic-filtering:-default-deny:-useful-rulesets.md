@@ -24,6 +24,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
 
     # Local
 
+    # 9news.com.au
+    www.9news.com.au ninemsn.com.au * noop
+    www.9news.com.au static9.net.au * noop
+
     # 9to5mac.com
     9to5mac.com 9to5mac.files.wordpress.com * noop
     9to5mac.com i0.wp.com * noop
