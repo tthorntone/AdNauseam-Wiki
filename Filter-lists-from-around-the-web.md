@@ -62,9 +62,6 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **G+J Technology Unix Hosts:**<br>
 <http://adblock.gjtech.net/?format=unix-hosts>: [**subscribe**](http://adblock.gjtech.net/?format=unix-hosts&location=http%3A%2F%2Fadblock.gjtech.net%2F%3Fformat%3Dunix-hosts&title=G+J%20Technology%20Unix%20Hosts)
 
-**hpHosts All Lists:**<br>
-<http://hosts-file.net/download/hosts.txt>: [**subscribe**](http://hosts-file.net/download/hosts.txt?location=http://hosts-file.net/download/hosts.txt&title=hpHosts%20All%20Lists)
-
 **[hpHosts](http://hosts-file.net/?s=classifications) EMD - Engaged in Malware Distribution (risk of web page breakage):**<br>
 <http://hosts-file.net/emd.txt>: [**subscribe**](http://hosts-file.net/emd.txt?location=http://hosts-file.net/emd.txt&title=hpHosts%20EMD%20-%20Engaged%20in%20Malware%20Distribution)
 
