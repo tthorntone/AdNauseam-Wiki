@@ -9,3 +9,5 @@ Whereas the element picker is useful to interactively create cosmetic filters th
 
 - To create very specific cosmetic filters by selecting an element directly in the DOM hierarchy.
 - To create exception cosmetic filters.
+
+[TODO: complete]
