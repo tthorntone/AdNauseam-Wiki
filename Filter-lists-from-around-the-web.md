@@ -71,7 +71,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **hpHosts HJK - Hijacking:**<br>
 <http://hosts-file.net/hjk.txt>: [**subscribe**](http://hosts-file.net/hjk.txt?location=http://hosts-file.net/hjk.txt&title=hpHosts%20HJK%20-%20Hijacking)
 
-**hpHosts PSH - Phishing (risk of web page breakage):**<br>
+**hpHosts PSH - Phishing** (risk of web page breakage):<br>
 <http://hosts-file.net/psh.txt>: [**subscribe**](http://hosts-file.net/psh.txt?location=http://hosts-file.net/psh.txt&title=hpHosts%20PSH%20-%20Phishing)
 
 **Malware filter list by Disconnect:**<br>
