@@ -111,11 +111,9 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 
 ***
 
-#### Big Lists and Adult sites**
+#### Big Lists and Adult sites
 
 The following filter lists are too large to subscribe to. If you want to use any of these, it is best to download them onto your local network, and add them manually as custom filter lists. On some browser, a `file://` will also be accepted.
-
-**Block Adult, Sex & Porn:**
 
 - <http://rlwpx.free.fr/WPFF/hsex.7z> (696,180 sites), from <http://rlwpx.free.fr/WPFF/hosts.htm>.
 - <http://rlwpx.free.fr/WPFF/hmis.7z> (521.790 sites), from <http://rlwpx.free.fr/WPFF/hosts.htm>.
