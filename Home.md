@@ -6,9 +6,10 @@
 - Quick guides:
     - [The popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
     - [Dashboard: Settings](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings)
-    - [The logger](https://github.com/gorhill/uBlock/wiki/The-logger)
     - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
+    - [The logger](https://github.com/gorhill/uBlock/wiki/The-logger)
     - [URL filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-URL-filtering)
+    - [DOM inspector](https://github.com/gorhill/uBlock/wiki/DOM-inspector)
 - [Troubleshooting](https://github.com/gorhill/uBlock/wiki/Troubleshooting)
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
 - [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
