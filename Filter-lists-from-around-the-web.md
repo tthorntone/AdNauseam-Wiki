@@ -56,6 +56,9 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **Facebook news feed annoyances blocker:**<br>
 <https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt&title=facebook%20news%20feed%20annoyances%20blocker)
 
+**Fanboy's Spanish/Portuguese:**<br>
+<https://secure.fanboy.co.nz/fanboy-espanol.txt>: [**subscribe**](https://secure.fanboy.co.nz/fanboy-espanol.txt?location=https://secure.fanboy.co.nz/fanboy-espanol.txt&title=Fanboy%20Portuguese%20and%20Spanish)
+
 **Frightener+Facekill:**<br>
 <http://adblock.gjtech.net/?format=adblock-plus>: [**subscribe**](http://adblock.gjtech.net/?format=adblock-plus&location=http%3A%2F%2Fadblock.gjtech.net%2F%3Fformat%3Dadblock-plus&title=Frightener+Facekill)
 
@@ -82,9 +85,6 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 
 **metaphoricgiraffe's tracking filters:**<br>
 <https://github.com/metaphoricgiraffe/tracking-filters>: [**subscribe**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy%20filters)
-
-**Portuguese and Spanish language websites ( Fanboy ):**<br>
-<https://secure.fanboy.co.nz/fanboy-espanol.txt>: [**subscribe**](https://secure.fanboy.co.nz/fanboy-espanol.txt?location=https://secure.fanboy.co.nz/fanboy-espanol.txt&title=Fanboy%20Portuguese%20and%20Spanish)
 
 **Prebake - Filter Obtrusive Cookie Notices:** <br>
 <https://github.com/liamja/Prebake>: [**subscribe**](https://raw.github.com/liamja/Prebake/master/obtrusive.txt?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake%20-%20Filter%20Obtrusive%20Cookie%20Notices)
