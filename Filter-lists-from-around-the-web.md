@@ -111,7 +111,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 
 ***
 
-#### Big Lists and Adult sites
+#### Large lists: too large for remote subscription
 
 The following filter lists are too large to subscribe to. If you want to use any of these, it is best to download them onto your local network, and add them manually as custom filter lists. On some browser, a `file://` will also be accepted.
 
