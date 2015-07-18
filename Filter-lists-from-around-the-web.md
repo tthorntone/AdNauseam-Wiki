@@ -86,6 +86,9 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **metaphoricgiraffe's tracking filters:**<br>
 <https://github.com/metaphoricgiraffe/tracking-filters>: [**subscribe**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy%20filters)
 
+**Portuguese and Spanish language websites ( Fanboy ):**<br>
+<https://secure.fanboy.co.nz/fanboy-espanol.txt>: [**subscribe**](https://secure.fanboy.co.nz/fanboy-espanol.txt?location=https://secure.fanboy.co.nz/fanboy-espanol.txt&title=Fanboy%20Portuguese%20and%20Spanish)
+
 **Prebake - Filter Obtrusive Cookie Notices:** <br>
 <https://github.com/liamja/Prebake>: [**subscribe**](https://raw.github.com/liamja/Prebake/master/obtrusive.txt?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake%20-%20Filter%20Obtrusive%20Cookie%20Notices)
 
