@@ -108,3 +108,22 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 <https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt?location=https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt&title=Youtube:%20Other%20Annoyances)
 
 **uBlock filters by hant0508:** <br> <https://github.com/hant0508/uBlock-fillters>: [**subscribe**](https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508)
+
+**Big Lists and Adult sites**  <br> 
+
+Block Adult, Sex & Porn:   <br> 
+
+Download  http://rlwpx.free.fr/WPFF/hsex.7z        696.180 sites   <br> 
+from http://rlwpx.free.fr/WPFF/hosts.htm  <br> 
+Unpack hsex.7z (I tested in Linux, Mac and W$n)  <br> 
+
+In "3rd-party filters" -> "Custom section" (uBlock) <br> 
+Load "file:///PATH/DIR/hosts.sex" -> parse -> Apply changes  <br> 
+
+Big Lists: <br> 
+http://rlwpx.free.fr/WPFF/hmis.7z            521.790 sites  <br> 
+http://hosts-file.net/download/hosts.txt <br> 
+http://www.montanamenagerie.org/hostsfile/hosts.txt      (mirror) <br> 
+http://hosts-file.malwareteks.com/hosts.txt              (mirror) <br> 
+
+Work in Linux, Mac, W$n and many other O.S.
