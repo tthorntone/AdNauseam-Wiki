@@ -109,21 +109,14 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 
 **uBlock filters by hant0508:** <br> <https://github.com/hant0508/uBlock-fillters>: [**subscribe**](https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt?location=https://raw.githubusercontent.com/hant0508/uBlock-fillters/master/filters.txt&title=Filters%20by%20hant0508)
 
-**Big Lists and Adult sites**  <br> 
+***
 
-Block Adult, Sex & Porn:   <br> 
+#### Big Lists and Adult sites**
 
-Download  http://rlwpx.free.fr/WPFF/hsex.7z        696.180 sites   <br> 
-from http://rlwpx.free.fr/WPFF/hosts.htm  <br> 
-Unpack hsex.7z (I tested in Linux, Mac and W$n)  <br> 
+The following filter lists are too large to subscribe to. If you want to use any of these, it is best to download them onto your local network, and add them manually as custom filter lists. On some browser, a `file://` will also be accepted.
 
-In "3rd-party filters" -> "Custom section" (uBlock) <br> 
-Load "file:///PATH/DIR/hosts.sex" -> parse -> Apply changes  <br> 
+**Block Adult, Sex & Porn:**
 
-Big Lists: <br> 
-http://rlwpx.free.fr/WPFF/hmis.7z            521.790 sites  <br> 
-http://hosts-file.net/download/hosts.txt <br> 
-http://www.montanamenagerie.org/hostsfile/hosts.txt      (mirror) <br> 
-http://hosts-file.malwareteks.com/hosts.txt              (mirror) <br> 
-
-Work in Linux, Mac, W$n and many other O.S.
+- <http://rlwpx.free.fr/WPFF/hsex.7z> (696,180 sites), from <http://rlwpx.free.fr/WPFF/hosts.htm>.
+- <http://rlwpx.free.fr/WPFF/hmis.7z> (521.790 sites), from <http://rlwpx.free.fr/WPFF/hosts.htm>.
+- <http://hosts-file.net/download/hosts.zip>, from <http://hosts-file.net/?s=Download>.
