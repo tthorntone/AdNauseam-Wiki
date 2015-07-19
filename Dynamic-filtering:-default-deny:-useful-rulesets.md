@@ -138,6 +138,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # foxnews.com
     foxnews.com fncstatic.com * noop
 
+    # ft.com
+    www.ft.com ft-static.com * noop
+
     # funnyjunk.com
     www.funnyjunk.com fjcdn.com * noop
 
