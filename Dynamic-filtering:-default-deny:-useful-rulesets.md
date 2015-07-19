@@ -53,6 +53,10 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.bbc.com bbcimg.co.uk * noop
     www.bbc.com bbcverticals.com * noop
 
+    # bitbucket.org
+    bitbucket.org bitbucket-assetroot.s3.amazonaws.com * noop
+    bitbucket.org d3oaxc4q5k2d6q.cloudfront.net * noop
+
     # bloomberg.com
     www.bloomberg.com bwbx.io * noop
     www.bloomberg.com gotraffic.net * noop
