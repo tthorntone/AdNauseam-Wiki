@@ -18,7 +18,7 @@
     - As opposed to an extension's own memory footprint, visible using Chromium's _"Task Manager"_, the contributed memory footprint to web pages cannot be easily seen by users
     - Though this measure is not readily visible, it's where you get the biggest bang for the buck with uBlock relative to ABP -- because uBlock **does not** inject thousands of CSS rules into pages and embedded frames (unlike ABP)
 
-Once you have reached the point where there is a valid uBlock selfie, µBlock will run the most efficiently.
+Once you have reached the point where there is a valid uBlock selfie, uBlock will run the most efficiently.
 
 The next time you launch uBlock and there is a valid selfie, the load time will be a fraction of the load time when no selfie is available <sup>[1]</sup>, and uBlock's baseline memory footprint will be smaller than when uBlock launches without a selfie available.
 
