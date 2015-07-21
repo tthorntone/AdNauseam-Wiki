@@ -41,6 +41,11 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.amazon.ca images-amazon.com * noop
     www.amazon.ca ssl-images-amazon.com * noop
 
+    # arewee10syet.com
+    arewee10syet.com cdnjs.cloudflare.com * noop
+    arewee10syet.com mozilla.org * noop
+    arewee10syet.com spreadsheets.google.com * noop
+
     # arstechnica.com
     arstechnica.com arstechnica.net * noop
 
