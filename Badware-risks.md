@@ -10,7 +10,7 @@ Below are sites currently part of the list, or sites being candidate for the lis
 
 #### baixaki.com.br (candidate)
 - 2015-02-02: [Baixaki Installer Brings Adware] (http://veiadigital.com.br/como-baixar-e-instalar-programas-do-baixaki-sem-o-baidu/)
-- 2013-10-22: [Take care when downloading on Baixaki] (http://www.linhadefensiva.org/2013/03/alerta-da-linha-instalador-baixaki-e-outros-sites-de-download/)
+- 2013-10-22: [Take care when downloading on Baixaki] (http://mcaf.ee/w92g5)
 - 2013-03-25: [Careful Baixaki Installer] (http://www.linhadefensiva.org/2013/03/alerta-da-linha-instalador-baixaki-e-outros-sites-de-download/)
 
 #### download.com / download.cnet.com
