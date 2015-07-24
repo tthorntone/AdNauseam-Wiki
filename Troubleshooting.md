@@ -1,5 +1,7 @@
 I am going to collect here common usage issues users may face.
 
+The best way to troubleshoot uBlock is with uBlock: the [logger](https://github.com/gorhill/uBlock/wiki/The-logger) will tell you what uBlock is doing when you try to load a web page. Using the logger is the first thing you should try when you are trying to find out why a page does not load/display as expected.
+
 ***
 
 #### Links to social networks are blocked
