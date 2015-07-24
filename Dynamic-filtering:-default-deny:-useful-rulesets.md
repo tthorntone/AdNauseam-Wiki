@@ -413,11 +413,14 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     www.washingtonpost.com jwpcdn.com * noop
     www.washingtonpost.com posttv.com * noop
 
-    # wiktionary.org
-    wiktionary.org wikimedia.org * noop
+    # wikia.com
+    www.wikia.com nocookie.net * noop
 
     # wikipedia.org
     wikipedia.org wikimedia.org * noop
+
+    # wiktionary.org
+    wiktionary.org wikimedia.org * noop
 
     # wired.co.uk
     www.wired.co.uk d3u12z27ui3vom.cloudfront.net * noop
