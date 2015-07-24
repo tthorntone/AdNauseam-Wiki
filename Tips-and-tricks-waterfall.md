@@ -6,7 +6,7 @@ In response to this [ridiculously over-the-top pure propaganda](http://www.tomsg
 
 **Left:** without a blocker: 124 domains (note that I had Flash plug-in disabled, it would have been worse if it had been enabled -- I wasn't ready to go that far to make my point).
 
-**Right:** default-deny with whitelisting of site's own domains (`bestofmedia.com`, `bestofmicro.com`): 3 domains.
+**Right:** default-deny with whitelisting of site's own domains (`bestofmedia.com`, `bestofmicro.com`): 3 domains. Page appeared properly rendered.
 
 The content of the picture below is not fabricated, it's really what was reported by uBlock.
 
