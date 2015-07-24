@@ -429,6 +429,9 @@ Reminder: the `noop` rule action means that network requests will not be filtere
     # wired.co.uk
     www.wired.co.uk d3u12z27ui3vom.cloudfront.net * noop
 
+    # worldwildlife.org
+    www.worldwildlife.org rackcdn.com * noop
+
     # wsj.com
     www.wsj.com wsj.net * noop
 
