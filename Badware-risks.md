@@ -79,6 +79,7 @@ Below are sites currently part of the list, or sites being candidate for the lis
 
 #### sourceforge.net
 
+- 2015-07-24: [Downloading from SourceForge? Official links deliver fakes also](http://www.myce.com/news/downloading-from-sourceforge-official-links-deliver-fakes-also-76749/)
 - 2015-06-18: [A hotbed of malware: Another blow for SourceForge as Google discovers 588 pages with malicious software](http://www.information-age.com/industry/software/123459675/hotbed-malware-another-blow-sourceforge-google-discovers-588-pages-malicious-software)
 - 2015-06-02: [What happened to Sourceforge?](https://blog.l0cal.com/2015/06/02/what-happened-to-sourceforge/)
 - 2015-05-28: [Anatomy of SourceForge/GIMP controversy](http://libregraphicsworld.org/blog/entry/anatomy-of-sourceforge-gimp-controversy)
