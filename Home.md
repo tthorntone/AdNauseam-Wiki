@@ -20,7 +20,7 @@
     - Blocking mode
         - [Very easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-very-easy-mode)
         - [Easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode) (default)
-        - Medium mode
+        - [Medium mode](https://github.com/gorhill/uBlock/wiki/Block-mode:-medium-mode)
         - Hard mode
         - Nightmare mode
 - [Troubleshooting](https://github.com/gorhill/uBlock/wiki/Troubleshooting)
