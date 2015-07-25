@@ -7,7 +7,7 @@ This mode is suitable for those who are concerned about reducing their privacy e
 ##### Characteristics
 
 - Low likelihood of web pages being broken.
-- Web pages will typically load faster compared to the [_very easy mode_](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-very-easy-mode).
+- Web pages will typically load slightly faster compared to the [_very easy mode_](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-very-easy-mode).
 
 ##### How to enable this mode
 
