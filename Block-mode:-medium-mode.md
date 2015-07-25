@@ -6,10 +6,10 @@ Using medium mode will improve significantly your browser performance, and simil
 
 ##### Characteristics
 
-- High likelihood of web pages being broken: you have to be ready and willing to fix them when this happen.
-    - Keep in mind though that as you build your ruleset for the sites you usually visit, you will spend less and less time fixing web pages.
 - Web pages will load significantly faster compared to the [_easy mode_](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode).
 - Your privacy exposure will be significantly reduced compared to easy mode.
+- High likelihood of web pages being broken: you have to be ready and willing to fix them when this happen.
+    - Keep in mind though that as you build your ruleset for the sites you usually visit, you will spend less and less time fixing web pages.
 
 ##### How to enable this mode
 
@@ -28,3 +28,7 @@ _3rd-party filters_ pane:
 _My rules_ pane:
 - Add `* * 3p-script block`
 - Add `* * 3p-frame block`
+
+##### Tips
+
+If ever you stumble onto a broken site, and if for whatever reason you do not wish to spend time to un-break this particular site, you can easily point-and-click to toggle dynamic filtering off for that site with only one click: it's just a matter of locally _noop_'ing the _3rd-party scripts_ cell (also the _3rd-party frames_ cell if needed). This will cause the site to be filtered through static filtering only (i.e. _EasyList_, _EasyPrivacy_, etc.)
