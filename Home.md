@@ -7,7 +7,8 @@
     - [The popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
     - [Dashboard: Settings](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings)
     - [The logger](https://github.com/gorhill/uBlock/wiki/The-logger)
-    - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
+    - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
+        - [Quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
         - [Rule precedence](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-precedence)
         - [Default-deny](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny)
             - [Default-deny: useful rulesets](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny:-useful-rulesets)
@@ -27,7 +28,6 @@
     - [My answers to web store reviews where appropriate](https://github.com/gorhill/uBlock/wiki/My-answers-to-web-store-reviews-where-appropriate)
 - [Privacy stuff](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)
 - [Filter syntax extensions](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)
-- [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
 - [Tricks and tips waterfall](https://github.com/gorhill/uBlock/wiki/Tips-and-tricks-waterfall)
 - Various performance/efficiency topics
     - [Memory footprint: what happens inside uBlock after installation](https://github.com/gorhill/uBlock/wiki/Memory-footprint:-what-happens-inside-uBlock-after-installation)
