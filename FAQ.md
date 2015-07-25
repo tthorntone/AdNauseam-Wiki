@@ -32,6 +32,12 @@ You probably have a bad filter entry in your _"My filters"_ pane in the dashboar
 
 Will cause that exact problem.
 
+#### Why is uBlock injecting a CSS selector with "www.faceporn.net" in it...?
+
+About that `[href^="http://www.faceporn.net/free?"]` CSS selector injected in some web pages, see: [Github (non)issue #161, _"Style injection?"_](https://github.com/chrisaljoudi/uBlock/issues/161).
+
+TL;DR: It's by design.
+
 #### The badge count is very high, doesn't this slow down uBlock?
 
 - Open a new document in a plain text editor
