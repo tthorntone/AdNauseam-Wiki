@@ -9,15 +9,15 @@ Default-deny is an awesome blocking mode for whoever agrees that in general most
 
 Strictly speaking, default-deny means to block everything and let the user choose what should not be blocked. This strictest mode of default-deny is impractical though, as this means that most web pages would be broken, and more than likely most users would not make use if it.
 
-With uBlock it is possible to use more relax (and thus practical) versions of default-deny: _3rd-party-deny_ (stricter), and _3rd-party active content-deny_ (for lack of better expression).
+With uBlock it is possible to use more relax (and thus practical) versions of default-deny: _default-deny 3rd-party_ resources (stricter), or _default-deny 3rd-party scripts/frames_ (more relax).
 
-_3rd-party-deny_ will result in more remote resources being blocked, as anything which is 3rd-party to the current site will be blocked by default. This means a higher likelihood that web pages won't render or behave properly:
+_default-deny 3rd-party_ will result in more remote resources being blocked, as anything which is 3rd-party to the current site will be blocked by default. This means a higher likelihood that web pages won't render or behave properly:
 
-![Default-deny anything which is 3rd-party](https://cloud.githubusercontent.com/assets/585534/8889495/c0694db0-32aa-11e5-9c1d-919e89d80c4b.png)<br><sup>Default-deny all 3rd-party: more likely to break, this will need fixing by the user.</sup>
+![Block anything which is 3rd-party](https://cloud.githubusercontent.com/assets/585534/8889495/c0694db0-32aa-11e5-9c1d-919e89d80c4b.png)<br><sup>Default-deny anything 3rd-party: more likely to break, this will need fixing by the user.</sup>
 
-A more friendly approach is to use _3rd-party active content-deny_, which will block only 3rd-party active content, where _active content_ refers to script and frame resources. In such case the likelihood of page breakage is much lower the _3rd-party-deny_, and yet this is where most of the benefits are reaped:
+A more friendly approach is to use default-deny only for 3rd-party scripts/frames. In such case the likelihood of page breakage is much lower than when blocking anything which is 3rd-party, and yet most of the benefits are still felt:
 
-![Default deny only 3rd-party scripts/frames](https://cloud.githubusercontent.com/assets/585534/8889496/c573989c-32aa-11e5-9a40-297ef60a58d0.png)<br><sup>Default-deny 3rd-party active content only: less breakage, yet most 3rd-party resources are blocked.</sup>
+![Block only 3rd-party scripts/frames](https://cloud.githubusercontent.com/assets/585534/8889496/c573989c-32aa-11e5-9a40-297ef60a58d0.png)<br><sup>Default-deny 3rd-party scripts/frames: less breakage, yet most 3rd-party resources are blocked as seen in the picture.</sup>
 
 The 3rd-party status of a network request is determined as follow: if the domain of a network request does not match the domain of the web page from which it originates, the network request is deemed 3rd-party. The domain information is extracted as per the official [Public Suffix List](https://publicsuffix.org/).
 
