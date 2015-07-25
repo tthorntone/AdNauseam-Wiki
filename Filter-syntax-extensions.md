@@ -16,9 +16,9 @@ uBlock extends Adblock Plus filter syntax.
 
 The filter option `important` means to ignore all _exception_ filters (those prefixed with `@@`).
 
-It applies only to net _block_ filters. The `important` option will allow you to block with 100% certainty specific net requests.
+It applies only to network _block_ filters. The `important` option will allow you to block with 100% certainty specific network requests.
 
-Example: `||google-analytics.com^$important,third-party` will block all net requests to `google-analytics.com`, disregarding any existing network _exception_ filters. Another example: `||twitter.com^$important,third-party`. Etc.
+Example: `||google-analytics.com^$important,third-party` will block all network requests to `google-analytics.com`, disregarding any existing network _exception_ filters. Another example: `||twitter.com^$important,third-party`. Etc.
 
 `inline-script`:
 
