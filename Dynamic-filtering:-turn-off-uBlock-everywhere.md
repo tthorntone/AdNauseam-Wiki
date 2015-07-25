@@ -12,4 +12,4 @@ In any case, the ability to "disable" uBlock everywhere is now available, as a s
 
 Though it's more _"allow everything from everywhere"_, it's as good as _"globally turn off uBlock"_. You can revert it by clicking on the eraser button.
 
-Keep in mind dynamic rule precedence, which means that the above will work as expected as long as you do not have existing higher precedence rules which override with the global _allow-all_ rule.
+Keep in mind [dynamic rule precedence logic](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-precedence), which means that the above will work as expected as long as you do not have existing higher precedence rules which override with the global _allow-all_ rule.
