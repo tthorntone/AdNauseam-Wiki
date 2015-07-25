@@ -23,7 +23,7 @@
         - [Easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode) (default)
         - [Medium mode](https://github.com/gorhill/uBlock/wiki/Block-mode:-medium-mode)
         - Hard mode
-        - Nightmare mode
+        - [Nightmare mode](https://github.com/gorhill/uBlock/wiki/Block-mode:-nightmare-mode)
 - [Troubleshooting](https://github.com/gorhill/uBlock/wiki/Troubleshooting)
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
 - [How to whitelist a web site](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
