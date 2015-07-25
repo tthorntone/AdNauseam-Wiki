@@ -22,3 +22,13 @@ _3rd-party filters_ pane:
 - _Malware Domain List‎_: checked
 - _Malware domains_: checked
 - All other filter lists: unchecked
+
+##### Tips
+
+You can augment the blocking power in easy mode by merely enabling more filter lists. If you add more filter lists, keep in mind:
+
+- the more filter lists one uses, the probably of web page breakage augments.
+- not all filter lists are of the same quality:
+    - some may cause too much web page breakage.
+    - some may result in some network requests to unexpectedly become unblocked ([example](https://github.com/gorhill/uBlock/issues/357)).
+
