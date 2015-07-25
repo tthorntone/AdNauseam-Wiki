@@ -14,7 +14,6 @@
             - [Default-deny users: mind behind-the-scene network requests](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests)
         - [Turn off uBlock everywhere](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-turn-off-uBlock-everywhere)
         - [Turn off uBlock everywhere _except_... (blacklist mode)](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-turn-off-uBlock-everywhere-except)
-        - [Disabling cosmetic filtering for the current site](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-disabling-cosmetic-filtering-for-the-current-site)
         - [Rule syntax](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax)
     - [URL filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-URL-filtering)
     - [DOM inspector](https://github.com/gorhill/uBlock/wiki/DOM-inspector)
