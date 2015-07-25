@@ -7,7 +7,7 @@ Using medium mode will improve significantly your browser performance, and simil
 ##### Characteristics
 
 - High likelihood of web pages being broken: you have to be ready and willing to fix them when this happen.
-    - Keep in mind though that as you build your ruleset for the sites you usually visit, you will spend les and less time fixing web pages.
+    - Keep in mind though that as you build your ruleset for the sites you usually visit, you will spend less and less time fixing web pages.
 - Web pages will load significantly much faster compared to the [_easy mode_](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode).
 - Your privacy expsoure will significantly be reduced compare to easy mode.
 
