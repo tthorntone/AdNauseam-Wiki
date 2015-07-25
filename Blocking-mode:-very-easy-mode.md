@@ -5,7 +5,7 @@ Advantages:
 - Web pages will load faster than if using no blocker at all.
 
 Disadvantages:
-- Privacy exposure reduction is only incidental to blocking ads.
+- Privacy exposure reduction is only incidental.
 
 ##### How to enable this mode
 
