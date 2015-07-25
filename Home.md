@@ -22,7 +22,7 @@
 - [Filter syntax extensions](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)
 - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
 - [Tricks and tips waterfall](https://github.com/gorhill/uBlock/wiki/Tips-and-tricks-waterfall)
-- Performance, efficiency topics
+- Various performance/efficiency topics
     - [Memory footprint: what happens inside uBlock after installation](https://github.com/gorhill/uBlock/wiki/Memory-footprint:-what-happens-inside-uBlock-after-installation)
     - [uBlock vs. ABP: efficiency compared](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared)
     - [Own memory usage: benchmarks over time](https://github.com/gorhill/uBlock/wiki/Own-memory-usage:-benchmarks-over-time)
