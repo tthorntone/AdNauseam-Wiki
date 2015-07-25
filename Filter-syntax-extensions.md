@@ -1,4 +1,4 @@
-uBlock supports most of [Adblock Plus filter syntax](https://adblockplus.org/en/filter-cheatsheet). However uBlock does not support some very specific case, and also added its own extensions to ABP filter syntax.
+uBlock supports most of [Adblock Plus filter syntax](https://adblockplus.org/en/filter-cheatsheet). However uBlock does not support some very specific cases, and also added its own extensions to ABP filter syntax.
 
 ### Not supported		
 
