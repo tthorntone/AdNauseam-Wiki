@@ -4,7 +4,8 @@ Ads are blocked through _EasyList_ and _ Peter Lowe’s Ad server list_, and pri
 
 This mode is suitable for those who are concerned about reducing their privacy exposure.
 
-Characteristics:
+##### Characteristics
+
 - Low likelihood of web pages being broken.
 - Web pages will typically load faster compared to the _very easy mode_.
 
