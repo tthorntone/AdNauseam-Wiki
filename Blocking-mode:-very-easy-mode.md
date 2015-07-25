@@ -4,7 +4,7 @@ This mode is more suitable for those who are little concerned about their privac
 
 - Very low likelihood of web pages being broken.
 - Web pages will load faster than if using no blocker at all.
-- Privacy exposure reduction is only incidental.
+- Privacy exposure reduction is rather incidental.
 
 ##### How to enable this mode
 
