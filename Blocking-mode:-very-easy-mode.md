@@ -1,6 +1,7 @@
 This mode is more suitable for those who are little concerned about their privacy. Only advertisements are blocked, as per _EasyList_ filters. This mode is closer to what you get with default Adblock Plus settings (when you disable ABP's _acceptable ads_ filter list).
 
-Characteristics:
+##### Characteristics
+
 - Very low likelihood of web pages being broken.
 - Web pages will load faster than if using no blocker at all.
 - Privacy exposure reduction is only incidental.
