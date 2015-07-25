@@ -19,7 +19,7 @@
         - [Does uBlock block ads or just hide them?](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
     - Blocking mode
         - [Very easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-very-easy-mode)
-        - Easy mode (default)
+        - [Easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode) (default)
         - Medium mode
         - Hard mode
         - Nightmare mode
