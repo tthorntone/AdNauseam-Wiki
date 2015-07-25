@@ -20,6 +20,15 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **Adblock polskie reguły:** (`http` version)<br>
 <http://certyficate.it/adblock/adblock.txt>: [**subscribe**](http://certyficate.it/adblock/adblock.txt?location=http://certyficate.it/adblock/adblock.txt&title=Adblock%20polskie%20reguły)
 
+**Adguard - Mobile Ads Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); some rules will not work since Adguard has a [syntax for CSS/JS injection](http://adguard.com/en/filterrules.html#cssInjection))<br>
+http://adguard.com/en/filter-rules.html?id=11: [**subscribe**](http://adguard.com/en/filter-rules.html?id=11?location=http://adguard.com/en/filter-rules.html?id=11&title=Adguard - Mobile Ads Filter)
+
+**Adguard - Social Media Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); some rules will not work since Adguard has a [syntax for CSS/JS injection](http://adguard.com/en/filterrules.html#cssInjection))<br>
+http://adguard.com/en/filter-rules.html?id=4: [**subscribe**](http://adguard.com/en/filter-rules.html?id=4?location=http://adguard.com/en/filter-rules.html?id=4&title=Adguard - Social Media Filter)
+
+**Adguard - Spyware Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); some rules will not work since Adguard has a [syntax for CSS/JS injection](http://adguard.com/en/filterrules.html#cssInjection))<br>
+http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com/en/filter-rules.html?id=3?location=http://adguard.com/en/filter-rules.html?id=3&title=Adguard - Spyware Filter)
+
 **Adware filters:**<br>
 <https://easylist-downloads.adblockplus.org/adwarefilters.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/adwarefilters.txt?location=https://easylist-downloads.adblockplus.org/adwarefilters.txt&title=Adware%20filters)
 
