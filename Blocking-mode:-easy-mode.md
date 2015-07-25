@@ -27,7 +27,7 @@ _3rd-party filters_ pane:
 
 You can augment the blocking power in easy mode by merely enabling more filter lists. If you add more filter lists, keep in mind:
 
-- the more filter lists one uses, the probably of web page breakage augments.
+- the more filter lists one uses, the higher the probability of web page breakage.
 - not all filter lists are of good quality:
     - some may cause too much web page breakage.
     - some may result in some network requests to unexpectedly become unblocked ([example](https://github.com/gorhill/uBlock/issues/357)).
