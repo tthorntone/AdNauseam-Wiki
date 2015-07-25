@@ -17,7 +17,7 @@ _Settings_ pane:
 _3rd-party filters_ pane:
 - All of uBlock origin's custom filter lists: checked
 - _EasyList_: checked
-- _ Peter Lowe’s Ad server list_: checked
+- _Peter Lowe’s Ad server list_: checked
 - _EasyPrivacy_: checked
 - _Malware Domain List‎_: checked
 - _Malware domains_: checked
