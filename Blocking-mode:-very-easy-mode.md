@@ -2,7 +2,7 @@ This mode is more suitable for those who are little concerned about their privac
 
 Advantages:
 - Very low likelihood of web pages being broken.
-- Web page will load faster than if using no blocker at all.
+- Web pages will load faster than if using no blocker at all.
 
 Disadvantages:
 - Privacy exposure reduction is only incidental to blocking ads.
