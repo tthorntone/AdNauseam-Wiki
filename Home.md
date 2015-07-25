@@ -10,8 +10,6 @@
     - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
         - [Quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
         - [Default-deny](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny)
-            - [Default-deny: useful rulesets](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny:-useful-rulesets)
-            - [Default-deny users: mind behind-the-scene network requests](https://github.com/gorhill/uBlock/wiki/Behind-the-scene-network-requests)
         - [Turn off uBlock everywhere](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-turn-off-uBlock-everywhere)
         - [Turn off uBlock everywhere _except_... (blacklist mode)](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-turn-off-uBlock-everywhere-except)
     - [URL filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-URL-filtering)
