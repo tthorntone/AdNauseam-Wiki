@@ -17,6 +17,12 @@
     - [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
         - [Overview of uBlock's network filtering engine: details](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details)
         - [Does uBlock block ads or just hide them?](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
+    - Blocking mode
+        - Very easy mode
+        - Easy mode (default)
+        - Medium mode
+        - Hard mode
+        - Nightmare mode
 - [Troubleshooting](https://github.com/gorhill/uBlock/wiki/Troubleshooting)
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
 - [How to whitelist a web site](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
