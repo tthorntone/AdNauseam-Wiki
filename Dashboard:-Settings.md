@@ -61,7 +61,11 @@ Test cases:
 - https://www.privacytools.io/webrtc.html
 - https://ipleak.net/
 
-**Caveat:** For Chromium-based browsers, the feature works only on version 42 and above.
+Keep in mind that this feature is to prevent **leakage** of your non-internet-facing IP adresses. The purpose of this feature is not to hide your current internet-facing IP address -- so be cautious to not misinterpret the results of the tests above.
+
+**Caveats:**
+- Chromium-based browsers: the feature works only on version 42 and above.
+- Firefox: WebRTC is required for Firefox Hello to work properly.
 
 ***
 
