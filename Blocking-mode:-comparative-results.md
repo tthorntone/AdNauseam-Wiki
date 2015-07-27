@@ -39,6 +39,8 @@ Notice that in medium mode, most 3rd-parties are actually auxiliary domains whic
 
 Hard mode will actually ensure that profiling by 3rd parties is completely foiled, though at the expense of having to fix most web sites. For privacy-minded users, _medium mode_ seems to be the optimal approach.
 
+Browser was Chromium 64-bit, click-to-play enabled, 3rd-party cookies disallowed.
+
 - [No blocking](#no-blocking)
 - [Very easy mode](#very-easy-mode)
 - [Easy mode](#easy-mode)
