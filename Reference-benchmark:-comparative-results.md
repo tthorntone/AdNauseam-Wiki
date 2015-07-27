@@ -30,7 +30,7 @@
 
 #### Raw data
 
-The `3rd-party domains` section is ordered by 3rd parties. This allows you to assess how much some specific 3rd-parties are able to create a profile of your browsing history.
+The `3rd-party domains` section is _[3rd-party] [1st-party]_, and ordered by 3rd parties. This allows you to assess how much some specific 3rd-parties are able to create a profile of your browsing history.
 
 ##### No blocking
 
