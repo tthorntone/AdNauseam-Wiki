@@ -18,7 +18,7 @@
         - [Overview of uBlock's network filtering engine: details](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details)
         - [Does uBlock block ads or just hide them?](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
     - Blocking mode
-        - [Reference benchmark: comparative results](https://github.com/gorhill/uBlock/wiki/Reference-benchmark:-comparative-results)
+        - [Comparative results](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-comparative-results)
         - [Very easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-very-easy-mode)
         - [Easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode) (default)
         - [Medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode)
