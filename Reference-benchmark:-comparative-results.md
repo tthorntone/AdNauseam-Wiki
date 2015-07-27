@@ -30,7 +30,7 @@
 
 #### Raw data
 
-The `3rd-party domains` section is _[3rd-party] [1st-party]_, and ordered by 3rd parties. This allows you to assess how much some specific 3rd-parties are able to create a profile of your browsing history. Notice that in medium mode, most 3rd-parties are actually auxiliary domains which are related to the 1st-party, which means that 3rd-party profiling has been essentially foiled.
+The `3rd-party domains` section is _[3rd-party] [1st-party]_, and ordered by 3rd parties. This allows you to assess how much some specific 3rd-parties are able to create a profile of your browsing history. Notice that in medium mode, most 3rd-parties are actually auxiliary domains which are related to the 1st-party, which means that actual 3rd-party profiling has been essentially foiled.
 
 - [No blocking](#no-blocking)
 - [Very easy mode](#very-easy-mode)
