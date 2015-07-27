@@ -11,10 +11,12 @@
 **Medium mode**:
 - uBlock's out-of-the-box settings.
 - _I am an advanced user_ = checked.
-- 3rd-party scripts and 3rd-party frames = globally blocked.
+- 3rd-party scripts = globally blocked.
+- 3rd-party frames = globally blocked.
 
 **Hard mode**:
 - uBlock's out-of-the-box settings.
 - _I am an advanced user_ = checked.
-- 3rd-party scripts and 3rd-party frames = globally blocked.
+- 3rd-party scripts = globally blocked.
+- 3rd-party frames = globally blocked.
 - 3rd-party = globally blocked.
