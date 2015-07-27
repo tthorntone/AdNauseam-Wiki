@@ -1,3 +1,7 @@
+[Back to Wiki home](https://github.com/gorhill/uBlock/wiki)
+
+***
+
 This mode is more suitable for those who are little concerned about their privacy. Only advertisements are blocked, as per [_EasyList_ filters](https://easylist.adblockplus.org/en/). This mode is closer to what you get with default Adblock Plus settings (when you disable ABP's _acceptable ads_ filter list).
 
 ##### Characteristics
