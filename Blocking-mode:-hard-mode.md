@@ -40,7 +40,7 @@ _My rules_ pane:
 
 ##### Tips
 
-With few clicks, you can easily fall back into lesser blocking mode, if ever you do not have the willingness to figure the necessary rules for a given site.
+With few clicks, you can easily fall back into lesser blocking modes, if ever you do not have the willingness to figure the necessary rules for a given site.
 
 Fall back into [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode):
 - set a local noop rule for the _3rd-party_ cell.
