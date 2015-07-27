@@ -2,11 +2,16 @@
 ![Number of 3rd-party servers to which the browser connected during benchmark](https://cloud.githubusercontent.com/assets/585534/8906091/b7334ddc-3439-11e5-848b-9e8a58eff876.png)<br><sup>Number of 3rd-party servers to which the browser connected during benchmark: 83 URLs were visited.</sup>
 
 **Very easy mode**:
-- _EasyList_.
 - _uBlock filters_.
+- _EasyList_.
 
-**Easy mode**:
-- uBlock's out-of-the-box settings.
+**Easy mode** (uBlock's default mode):
+- All of uBlock's own filter lists.
+- _EasyList_.
+- _EasyPrivacy_.
+- _Peter Lowe’s Ad server list‎_.
+- _Malware Domain List‎_.
+- _Malware domains_.
 
 **Medium mode**:
 - uBlock's out-of-the-box settings.
