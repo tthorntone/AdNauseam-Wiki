@@ -37,4 +37,8 @@ _My rules_ pane:
 
 ##### Tips
 
-If ever you stumble onto a broken site, and if for whatever reason you do not wish to spend time to un-break this particular site, you can easily point-and-click to toggle dynamic filtering off for that site with only one click: it's just a matter of locally _noop_'ing the _3rd-party scripts_ cell (also the _3rd-party frames_ cell if needed). This will cause the specific site to be filtered through static filtering only (i.e. _EasyList_, _EasyPrivacy_, etc.)
+With one click or two, you can easily fall back into lesser blocking mode, if ever you do not have the willingness to figure the necessary rules for a given site.
+
+Fall back into [easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode): set a 
+- set a local noop rule for the _3rd-party script_ cell.
+- Optionally, set a local noop rule for the _3rd-party frames_ cell.
