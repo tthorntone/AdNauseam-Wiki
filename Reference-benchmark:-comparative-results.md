@@ -32,6 +32,12 @@
 
 The `3rd-party domains` section is _[3rd-party] [1st-party]_, and ordered by 3rd parties. This allows you to assess how much some specific 3rd-parties are able to create a profile of your browsing history.
 
+- [No blocking](#no-blocking)
+- [Very easy mode](#very-easy-mode)
+- [Easy mode](#easy-mode)
+- [Medium-mode](#medium-mode)
+- [Hard mode](#hard-mode)
+
 ##### No blocking
 
     URLs visited:	83
