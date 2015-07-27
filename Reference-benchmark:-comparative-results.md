@@ -18,6 +18,7 @@
 - _I am an advanced user_ = checked.
 - 3rd-party scripts = globally blocked.
 - 3rd-party frames = globally blocked.
+- Minimal set of rules to ensure web pages render properly.
 
 **Hard mode**:
 - uBlock's out-of-the-box settings.
@@ -25,3 +26,4 @@
 - 3rd-party scripts = globally blocked.
 - 3rd-party frames = globally blocked.
 - 3rd-party = globally blocked.
+- Minimal set of rules to ensure web pages render properly.
