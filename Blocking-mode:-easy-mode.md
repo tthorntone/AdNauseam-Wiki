@@ -1,3 +1,7 @@
+[Back to Wiki home](https://github.com/gorhill/uBlock/wiki)
+
+***
+
 This is uBlock Origin's default mode.
 
 Ads are blocked through _EasyList_ and _Peter Lowe’s Ad server list_, and privacy exposure is reduced through the use of _EasyPrivacy_. Some malware filter lists are selected by default. Also, uBlock Origin's own filter lists are selected as complement to the selected 3rd-party filter lists.
