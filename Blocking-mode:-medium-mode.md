@@ -41,6 +41,7 @@ _My rules_ pane:
 
 With one click or two, you can easily fall back into lesser blocking mode, if ever you do not have the willingness to figure the necessary rules for a given site.
 
-Fall back into [easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode): set a 
-- set a local noop rule for the _3rd-party script_ cell.
-- Optionally, set a local noop rule for the _3rd-party frames_ cell.
+To fall back into [easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode):
+- Set a local noop rule for the _3rd-party script_ cell.
+- Set a local noop rule for the _3rd-party frames_ cell.
+    - Optional, as blocking 3rd-frames is less likely to break web sites.
