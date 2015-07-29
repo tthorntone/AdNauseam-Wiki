@@ -2,7 +2,7 @@
 
 ***
 
-Roughly similar to using Adblock Plus with many filter lists + NoScript.
+Roughly similar to using Adblock Plus with many filter lists + NoScript with 1st-party scripts automatically whitelisted.
 
 Blocking-wise, this is one significant leap from [easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode). However, be ready to accept you will have to un-break web sites, though at a lesser rate than [hard mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-hard-mode).
 
