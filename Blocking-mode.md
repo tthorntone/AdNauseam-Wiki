@@ -4,6 +4,8 @@
 
 ![Number of 3rd-party servers to which the browser connected during benchmark](https://cloud.githubusercontent.com/assets/585534/8906091/b7334ddc-3439-11e5-848b-9e8a58eff876.png)<br><sup>Number of 3rd-party servers to which the browser connected during benchmark: 83 URLs of high-traffic sites were visited (on July 24, 2015).</sup>
 
+In the above chart, the difference between two modes translate into faster page load, less memory, less network bandwidth, and reduced privacy exposure.
+
 **Very easy mode** ([details](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-very-easy-mode)):
 - _uBlock filters_.
 - _EasyList_.
