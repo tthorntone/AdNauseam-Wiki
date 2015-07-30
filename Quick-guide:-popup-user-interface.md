@@ -44,7 +44,7 @@ For more advanced whitelisting control, see ["How to whitelist a web site"](http
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1c.png)
 
-This shows the number of network requests uBlock blocked on the current page. Also, less useful (but people like this kind of thing), the number of network requests uBlock blocked since you installed it.
+This shows the number of network requests uBlock blocked on the current page. Also, less useful (but people like this kind of thing), the number of network requests uBlock blocked since you installed it. The percentage figure tells you how many requests were blocked out of all the requests made.
 
 Click the _eye-dropper_ icon to enter [element picker mode](https://github.com/gorhill/uBlock/wiki/Element-picker), which allows you to create a filter by interactively picking an element on a page, thus permanently removing it from the page.
 
@@ -56,7 +56,7 @@ Click the _list_ icon to open the [network request logger](https://github.com/go
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1d.png)
 
-The number of distinct domains with which a network connection was established, out of all connections (established + blocked). The domains are derived using the official [Public Suffix List](https://publicsuffix.org/).
+The number of **distinct** domains with which a network connection was established, out of all connections (established + blocked). The domains are derived using the official [Public Suffix List](https://publicsuffix.org/).
 
 In general, it must be assumed that each distinct domain is managed by a distinct administrative authority. In practice, it is not uncommon to have a multiple distinct domains which are under the same administrative authority (example 1: `google.com`, `ajax.googleapis.com` and `gstatic.com`, example 2: `wikipedia.org` and `wikimedia.org`).
 
