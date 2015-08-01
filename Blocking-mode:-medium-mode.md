@@ -8,6 +8,8 @@ Blocking-wise, this is one significant leap from [easy mode](https://github.com/
 
 This is where you start to use [dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering), a feature available only when you tell uBlock Origin that you are an [advanced user](https://github.com/gorhill/uBlock/wiki/Advanced-user-features). Be sure to read [the guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering) before, it is assumed that you understand well how dynamic filtering works in order to use effectively medium mode.
 
+![3rd-party scripts are blocked by default](https://cloud.githubusercontent.com/assets/585534/9021740/41eac000-3821-11e5-9842-c4c6fea573c3.png)
+
 Using medium mode will improve significantly your browser performance, and similarly reduce significantly your privacy exposure when compared to easy mode.
 
 ##### Characteristics
