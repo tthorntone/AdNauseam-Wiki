@@ -38,3 +38,4 @@ You can augment the blocking power in easy mode by merely enabling more filter l
     - some may cause too much web page breakage.
     - some may result in some network requests to unexpectedly become unblocked ([example](https://github.com/gorhill/uBlock/issues/357)).
 
+Another way to augment blocking power in _easy_ mode is to enable _"I am an advanced user"_ from the _Settings_ pane in the dashboard, and block on a per-3rd-party basis using dynamic filtering -- i.e. using dynamic filtering in default-allow mode, and blocking specific 3rd parties. For example, one could choose to globally block `facebook.com` and `facebook.net` in order to prevent Facebook from being able to track you wherever you go, except on Facebook.
