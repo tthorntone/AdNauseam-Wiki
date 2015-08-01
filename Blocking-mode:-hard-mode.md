@@ -8,6 +8,8 @@ Blocking-wise, this is a small leap from [medium mode](https://github.com/gorhil
 
 This mode will block all 3rd parties by default, so it keeps privacy exposure to 3rd parties to a minimum.
 
+![3rd-party network requests are blocked by default](https://cloud.githubusercontent.com/assets/585534/9021738/3d1e42cc-3821-11e5-82be-f236e5fb8ca3.png)
+
 With a single click, it is possible to toggle the hard mode into the [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode): it's just a matter of assigning a local noop rule to the _3rd-party_ cell.
 
 ##### Characteristics
