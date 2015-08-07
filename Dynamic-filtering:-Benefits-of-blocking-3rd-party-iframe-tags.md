@@ -21,7 +21,7 @@ Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is qui
 - [_"Firefox exploit found in the wild"_](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/)
 - And so on.
 
-<p align="center"><img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-9.png" /><br><sub><a href="http://www.volexity.com/blog/?p=33">"Compromised Pro-Democratic Hong Kong Websites"</a>, volexity.com.</sub><br><sup>uBlock Origin shown just as a reminder on how to block 3rd-party &lt;iframe&gt; tags.</sup></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/585534/9136475/d8ba8bf6-3ce4-11e5-807c-5346e33c971a.png" /><br><sub><a href="http://www.volexity.com/blog/?p=33">"Compromised Pro-Democratic Hong Kong Websites"</a>, volexity.com.</sub><br><sup>uBlock Origin shown just as a reminder on how to block 3rd-party &lt;iframe&gt; tags.</sup></p>
 
 Simply blocking 3rd-party `<iframe>` by default foils such exploit.
 
