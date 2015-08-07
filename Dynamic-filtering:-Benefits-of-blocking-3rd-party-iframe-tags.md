@@ -2,19 +2,18 @@
 
 ### Malware protection
 
-URL: <http://www.riskiq.com/resources/blog/jquerycom-malware-attack-puts-privileged-enterprise-it-accounts-risk>
-
 `iframe` tags are very often used by malware code on compromised web sites. The most recent example of this is ~~[jquery.com](http://blog.jquery.com/2014/09/24/update-on-jquery-com-compromises/)~~ [Firefox's javascript-based PDF reader](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/).
 
 The web site was compromised, and users of the site were served tainted web pages, which could cause a user's browser to download exploit kit from some remote servers. This was done first through a malicious 3rd-party `<script>`, which purpose was to dynamically create and embed a 3rd-party-sourced `<iframe>` on the page.
 
 Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique: 
 
+- [_"Firefox exploit found in the wild"_](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/)
+- [_"jQuery.com Confirms Website Compromise"_](http://www.riskiq.com/blog/business/post/jquerycom-confirms-website-compromise)
 - [_"Democracy in Hong Kong Under Attack"_](http://www.volexity.com/blog/?p=33)
 - [_"Hackers compromise official PHP website, infect visitors with malware"_](http://arstechnica.com/security/2013/10/hackers-compromise-official-php-website-infect-visitors-with-malware/).
 - [_"Feds Are Suspects in New Malware That Attacks Tor Anonymity"_](http://www.wired.com/2013/08/freedom-hosting/)
 - [_"willysy.com Mass Injection ongoing, over 8 million infected pages, targets osCommerce sites"_](http://blog.armorize.com/2011/07/willysycom-mass-injection-ongoing.html)
-- [_"Firefox exploit found in the wild"_](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/)
 - And so on.
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/585534/9136475/d8ba8bf6-3ce4-11e5-807c-5346e33c971a.png" /><br><sub><a href="http://www.volexity.com/blog/?p=33">"Compromised Pro-Democratic Hong Kong Websites"</a>, volexity.com.</sub><br><sup>uBlock Origin shown just as a reminder on how to block 3rd-party &lt;iframe&gt; tags.</sup></p>
@@ -22,6 +21,8 @@ Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is qui
 Simply blocking 3rd-party `<iframe>` by default foils such exploit.
 
 In the above case, blocking 3rd-party scripts would have been even better, as the malicious code would have been prevented from creating the malicious `<iframe>` in the first place. But for users with low tolerance to site breakage, blocking 3rd-party `<iframe>` by default (i.e. on all sites by default) is really the best solution.
+
+Blocking 3rd-party `iframe` tags will typically cause little web page breakage, far less than the more through alternative of blocking 3rd-party javascript, so blocking 3rd-party `iframe` tags is an approach that can work even for less advanced users.
 
 Ultimately, if a site breaks because it really does need legitimate 3rd-party `<iframe>`, then un-blocking `<iframe>` for a specific site is only one click away:
 
