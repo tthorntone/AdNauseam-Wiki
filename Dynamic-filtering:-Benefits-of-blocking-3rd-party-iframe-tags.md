@@ -31,6 +31,8 @@ Ultimately, if a site breaks because it really does need legitimate 3rd-party `<
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/585534/9136522/4455038c-3ce5-11e5-9e91-e8843f15c143.png" /><br><sup>3rd-party &lt;iframe&gt; tags blocked by default for all sites,<br><b>except</b> for the current site (this was for github.com).</sup></p>
 
+But even in this case, the best advice would be to actually find from which specific hostname iframe tags are required, and to create a `noop` rule *only* for this hostname, rather than unblock all 3rd-party `iframe` tags on the site -- though this approach is better suited to advanced users.
+
 ### Tracking protection
 
 URL: <http://www.propublica.org/article/meet-the-online-tracking-device-that-is-virtually-impossible-to-block>
