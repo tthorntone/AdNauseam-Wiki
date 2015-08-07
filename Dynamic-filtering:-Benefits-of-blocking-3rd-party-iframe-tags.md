@@ -4,8 +4,6 @@
 
 `iframe` tags are very often used by malware code on compromised web sites. The most recent example of this is ~~[jquery.com](http://blog.jquery.com/2014/09/24/update-on-jquery-com-compromises/)~~ [Firefox's javascript-based PDF reader](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/).
 
-The web site was compromised, and users of the site were served tainted web pages, which could cause a user's browser to download exploit kit from some remote servers. This was done first through a malicious 3rd-party `<script>`, which purpose was to dynamically create and embed a 3rd-party-sourced `<iframe>` on the page.
-
 Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique: 
 
 - [_"Firefox exploit found in the wild"_](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/)
