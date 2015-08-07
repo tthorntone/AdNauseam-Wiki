@@ -1,4 +1,4 @@
-[sorry, the screenshots are obsolete]
+[sorry, the screenshots are obsolete -- blocking 3rd-party iframes though is still very relevant]
 
 ***
 
