@@ -28,6 +28,8 @@ In the above chart, the difference between two modes translate into differences 
 - _Malware Domain List‎_.
 - _Malware domains_.
 
+You may want to consider "enhanced" Easy mode: [Benefits of blocking 3rd-party `iframe` tags](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Benefits-of-blocking-3rd-party-iframe-tags)
+
 **Medium mode** ([details](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode)):
 - uBlock's out-of-the-box settings.
 - _I am an advanced user_ = checked.
