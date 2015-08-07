@@ -20,7 +20,7 @@
     - [Blocking mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode)
         - [Very easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-very-easy-mode)
         - [Easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode) (default)
-            - [Easy mode + better security](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Benefits-of-blocking-3rd-party-iframe-tags)
+            - [Easy mode + enhanced security/privacy](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Benefits-of-blocking-3rd-party-iframe-tags)
         - [Medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode) (optimal for advanced users)
         - [Hard mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-hard-mode)
         - [Nightmare mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-nightmare-mode)
