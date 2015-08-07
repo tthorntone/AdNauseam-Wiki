@@ -62,7 +62,7 @@ Browser was Chromium 64-bit, click-to-play enabled, 3rd-party cookies disallowed
 - [Hard mode](#hard-mode) ([diff with previous mode](https://www.diffchecker.com/9kq1nlh9))
 - [Sessbench parameters](#sessbench-parameters)
 
-<sub>The _"diff with previous mode"_ link shows which 3rd-party domains have been blocked that were not blocked with the previous blocking mode. The newly blocked domains relative to previous blocking mode will appear in red in the left-hand column: each one of these red lines is represent one foiled 3rd-party's opportunity to profile your browsing history.</sub>
+<sub>The _"diff with previous mode"_ link shows which 3rd-party domains have been blocked that were not blocked with the previous blocking mode. The newly blocked domains relative to previous blocking mode will appear in red in the left-hand column: each one of these red lines represents one foiled 3rd-party's opportunity to profile your browsing history.</sub>
 
 ##### No blocking
 
