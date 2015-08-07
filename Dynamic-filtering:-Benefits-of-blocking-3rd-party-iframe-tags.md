@@ -29,7 +29,7 @@ In the above case, blocking 3rd-party scripts would have been even better, as th
 
 Ultimately, if a site breaks because it really does need legitimate 3rd-party `<iframe>`, then un-blocking `<iframe>` for a specific site is only one click away:
 
-<p align="center"><img src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/dynamic-filtering-8.png" /><br><sup>3rd-party &lt;iframe&gt; tags blocked by default for all sites,<br><b>except</b> for the current site (this was for github.com).</sup></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/585534/9136522/4455038c-3ce5-11e5-9e91-e8843f15c143.png" /><br><sup>3rd-party &lt;iframe&gt; tags blocked by default for all sites,<br><b>except</b> for the current site (this was for github.com).</sup></p>
 
 ### Tracking protection
 
