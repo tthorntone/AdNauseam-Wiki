@@ -11,6 +11,7 @@
 Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique: 
 
 - [_"Firefox exploit found in the wild"_](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/)
+- [_"Malicious advertisements served via Yahoo"_](http://blog.fox-it.com/2014/01/03/malicious-advertisements-served-via-yahoo/)
 - [_"jQuery.com Confirms Website Compromise"_](http://www.riskiq.com/blog/business/post/jquerycom-confirms-website-compromise)
 - [_"Democracy in Hong Kong Under Attack"_](http://www.volexity.com/blog/?p=33)
 - [_"Hackers compromise official PHP website, infect visitors with malware"_](http://arstechnica.com/security/2013/10/hackers-compromise-official-php-website-infect-visitors-with-malware/).
