@@ -56,11 +56,13 @@ Hard mode will actually ensure that profiling by 3rd parties is completely foile
 Browser was Chromium 64-bit, click-to-play enabled, 3rd-party cookies disallowed.
 
 - [No blocking](#no-blocking)
-- [Very easy mode](#very-easy-mode)
-- [Easy mode](#easy-mode)
-- [Medium-mode](#medium-mode)
-- [Hard mode](#hard-mode)
+- [Very easy mode](#very-easy-mode) ([diff with previous mode](https://www.diffchecker.com/ktgyoc5r))
+- [Easy mode](#easy-mode) ([diff with previous mode](https://www.diffchecker.com/gtid3dj9))
+- [Medium-mode](#medium-mode) ([diff with previous mode](https://www.diffchecker.com/h3jjgxgd))
+- [Hard mode](#hard-mode) ([diff with previous mode](https://www.diffchecker.com/9kq1nlh9))
 - [Sessbench parameters](#sessbench-parameters)
+
+<sub>The _"diff with previous mode"_ link shows which 3rd-party domains have been blocked that were not blocked with the previous blocking mode. The newly blocked domains relative to previous blocking mode will appear in red in the left-hand column.</sub>
 
 ##### No blocking
 
