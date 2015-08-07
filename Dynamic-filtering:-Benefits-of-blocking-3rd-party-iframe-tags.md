@@ -1,7 +1,3 @@
-[sorry, the screenshots are obsolete -- blocking 3rd-party iframes though is still very relevant]
-
-***
-
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/585534/9136321/b78c227e-3ce3-11e5-9949-76e87e7e87e8.png" /><br><sup>3rd-party &lt;iframe&gt; tags blocked by default for all sites.</sup></p>
 
 ### Malware protection
