@@ -18,7 +18,7 @@ Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is qui
 
 **Simply blocking 3rd-party `<iframe>` by default foils such exploit.**
 
-In the above case, blocking 3rd-party scripts would have been even better, as the malicious code would have been prevented from creating the malicious `<iframe>` in the first place. But for users with low tolerance to site breakage, blocking 3rd-party `<iframe>` by default (i.e. on all sites by default) is really the best solution.
+Blocking 3rd-party scripts is generally even better, as the malicious code would have been prevented from executing in the first place. But for users with low tolerance to site breakage, blocking 3rd-party `<iframe>` by default (i.e. on all sites by default) is really the best solution.
 
 Blocking 3rd-party `iframe` tags will typically cause little web page breakage, far less than the more thorough alternative of blocking 3rd-party javascript, so blocking 3rd-party `iframe` tags is an approach that can work even for less advanced users.
 
