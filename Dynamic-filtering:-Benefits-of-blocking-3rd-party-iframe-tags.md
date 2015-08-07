@@ -22,7 +22,7 @@ Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is qui
 
 **Simply blocking 3rd-party `<iframe>` by default foils such exploit.**
 
-Blocking 3rd-party scripts is generally even better, as the malicious code would have been prevented from executing in the first place. But for users with low tolerance to site breakage, blocking 3rd-party `<iframe>` by default (i.e. on all sites by default) is really the best solution.
+Blocking 3rd-party scripts is generally even better, as the malicious code would have been prevented from executing in the first place. But for users with low tolerance to site breakage, blocking 3rd-party `<iframe>` tags by default (i.e. on all sites by default) is really the best solution.
 
 Blocking 3rd-party `iframe` tags will typically cause little web page breakage, far less than the more thorough alternative of blocking 3rd-party javascript, so blocking 3rd-party `iframe` tags is an approach that can work even for less advanced users.
 
@@ -33,8 +33,6 @@ Ultimately, if a site breaks because it really does need legitimate 3rd-party `<
 But even in this case, the best advice would be to actually find from which specific hostname `iframe` tags are required, and to create a `noop` rule *only* for this hostname, rather than unblock all 3rd-party `iframe` tags on the site -- though this approach is better suited to advanced users.
 
 ### Tracking protection
-
-URL: <http://www.propublica.org/article/meet-the-online-tracking-device-that-is-virtually-impossible-to-block>
 
 Remember the article [ProPublica's _"Meet the Online Tracking Device That is Virtually Impossible to Block"_](http://www.propublica.org/article/meet-the-online-tracking-device-that-is-virtually-impossible-to-block)?
 
