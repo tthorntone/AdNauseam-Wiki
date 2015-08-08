@@ -19,8 +19,8 @@ Summary ([as per Wikipedia](https://en.wikipedia.org/wiki/UBlock)):
 | [cosmetic filtering thru Inspector (FF)](https://github.com/chrisaljoudi/uBlock/issues/1211#issuecomment-91652206) | |
 | [UI changes](https://github.com/chrisaljoudi/uBlock/releases/tag/0.9.3.5) (reskin) | |
 | [elimination of font based icons](https://github.com/chrisaljoudi/uBlock/issues/1181) | |
-| [~~per-site switches~~](https://github.com/chrisaljoudi/uBlock/issues/1306) (removed) | |
-| [~~strict blocking~~](https://github.com/chrisaljoudi/uBlock/issues/1306) (removed) | |
+| [~~per-site switches~~](https://github.com/chrisaljoudi/uBlock/issues/1306) ([removed](https://github.com/chrisaljoudi/uBlock/commit/fa3666f85d7dddfc274f6f27d20c6787d8bc43b8#diff-305c2fdde2804d752c9bfde050f38df9)) | |
+| [~~strict blocking~~](https://github.com/chrisaljoudi/uBlock/issues/1306) ([removed](https://github.com/chrisaljoudi/uBlock/commit/fa3666f85d7dddfc274f6f27d20c6787d8bc43b8#diff-6e66de32e163ae59682ad852a7ca3762)) | |
 | | [color-blind mode](https://github.com/chrisaljoudi/uBlock/issues/467#issuecomment-95177219) |
 | | [unified logger](https://github.com/gorhill/uBlock/wiki/The-logger) |
 | | cosmetic filters in request logger |
