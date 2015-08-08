@@ -19,8 +19,8 @@ Summary ([as per Wikipedia](https://en.wikipedia.org/wiki/UBlock)):
 | [cosmetic filtering thru Inspector (FF)](https://github.com/chrisaljoudi/uBlock/issues/1211#issuecomment-91652206) | |
 | [UI changes](https://github.com/chrisaljoudi/uBlock/releases/tag/0.9.3.5) (reskin) | |
 | [elimination of font based icons](https://github.com/chrisaljoudi/uBlock/issues/1181) | |
-| [~~per-site switches~~](https://github.com/chrisaljoudi/uBlock/issues/1306) | |
-| [~~strict blocking~~](https://github.com/chrisaljoudi/uBlock/issues/1306) | |
+| [~~per-site switches~~](https://github.com/chrisaljoudi/uBlock/issues/1306) (feature removed) | |
+| [~~strict blocking~~](https://github.com/chrisaljoudi/uBlock/issues/1306) (feature removed) | |
 | | [color-blind mode](https://github.com/chrisaljoudi/uBlock/issues/467#issuecomment-95177219) |
 | | [unified logger](https://github.com/gorhill/uBlock/wiki/The-logger) |
 | | cosmetic filters in request logger |
