@@ -35,7 +35,7 @@ Summary ([as per Wikipedia](https://en.wikipedia.org/wiki/UBlock)):
 | | [per-site switch to disable remote fonts](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-remote-fonts) |
 | | [filter list identification for static filters](https://github.com/gorhill/uBlock/wiki/The-logger#finding-from-which-lists-a-static-filter-originates) |
 | | [toolbar support for legacy Firefox](https://github.com/gorhill/uBlock/issues/264)  |
-| | [privacy: prevent WebRTC's IP address leakage](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#prevent-webrtc-from-leaking-local-ip-address)  |
+| | [privacy: prevent local IP address leak through WebRTC](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#prevent-webrtc-from-leaking-local-ip-address)  |
 | | [DOM inspector](https://github.com/gorhill/uBlock/releases/tag/1.0.0.0)  |
 
 #### "uBlock Origin is more efficient than uBlock" or "uBlock is more efficient than uBlock Origin"
