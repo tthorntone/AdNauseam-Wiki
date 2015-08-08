@@ -108,7 +108,7 @@ Adblock Plus only blocks secondary resources (see [web pages _themselves_ are **
 
 So if you were to create a filter such as `||example.com^`, and then navigate to <https://example.com>, Adblock Plus would not prevent you from connecting and loading the web page itself served at `https://example.com`, though all secondary resources pulled by that web page would be subject to filtering.
 
-uBlock respected that semantic until version 0.9.3.0. With version 0.9.3.0, uBlock will subject web pages themselves to filtering. This means that using the same test case above, **uBlock will block the web page** served by <https://example.com> (unlike Adblock Plus):
+uBlock respected that semantic until version 0.9.3.0. With version 0.9.3.0, uBlock will subject web pages themselves to filtering. This means that using the same test case above, **uBlock will block the web page** served by a server found in one of the malware list (unlike Adblock Plus):
 
 ![Page was fully blocked](https://cloud.githubusercontent.com/assets/585534/8160013/14466ca0-133a-11e5-8d3c-28169288f35a.png)
 
