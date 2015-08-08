@@ -1,3 +1,7 @@
+[Back to Wiki home](https://github.com/gorhill/uBlock/wiki)
+
+***
+
 ![Figure 1](https://cloud.githubusercontent.com/assets/585534/8024482/4c6f01b0-0d03-11e5-942c-64fe9e2a3686.png)
 
 ### Below more details for the non-self-explanatory items
