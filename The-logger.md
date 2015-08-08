@@ -1,3 +1,7 @@
+[Back to Wiki home](https://github.com/gorhill/uBlock/wiki)
+
+***
+
 uBlock Origin comes with a logger, which gives the ability to inspect what uBlock is doing with network requests and DOM elements, whether something is blocked or allowed, and which filter, if any, matched a network request or DOM element. This logger is _unified_, meaning it will display _everything_ uBlock does as it occurs.
 
 The logger is the tool of choice to see, understand, diagnose and fix the functioning of uBlock.
