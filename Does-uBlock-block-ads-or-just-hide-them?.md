@@ -8,6 +8,12 @@ There seems to be underhanded attempts to discredit uBlock lately in various ven
 
 The statement above is plain fear-using-disinformation. That kind of disinformation happens to be convenient to the incumbent blockers, **or** to those who have an interest in people using those incumbent blockers. 
 
+Also another myth: I've seen in [many](https://np.reddit.com/r/AskReddit/comments/35s2je/whats_a_product_that_everybody_uses_but_nobody/cr7h8l6) [places](https://twitter.com/1v1MeInBed/status/611658444244951040) [lately](https://np.reddit.com/r/explainlikeimfive/comments/363569/eli5_how_come_adblockublock_doesnt_let_the_ad/crafo5p?context=3) the following assertion:
+
+> ublock blocks ads just like adblock plus, but triggers the ads API to think it got viewed
+
+Completely false. uBlock Origin does not "trigger" any "ads API" (whatever that is). It prevents network requests from being made according to filter lists (or [dynamic filtering rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)) so that your browser does not connect to remote servers, period.
+
 ***
 
 Whoever claims that uBlock does not block network requests as expected should open [an issue with uBlock](https://github.com/gorhill/uBlock/issues) along with **all** the details supporting the claim. If the issue is not addressed satisfactorily, the claimant should report its finding + proof to the [PRISM Break project](https://github.com/nylira/prism-break/issues) in order to ensure [uBlock](https://prism-break.org/en/projects/ublock-origin/) is removed from that project.
