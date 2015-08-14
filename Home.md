@@ -7,6 +7,10 @@
     - [The popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
     - Dashboard
         - [_Settings_](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings) pane
+        - _3rd-party filters_ pane (TODO)
+        - _My filters_ pane (TODO)
+        - _My rules_ pane (TODO)
+        - _Whitelist_ pane (TODO)
         - [Cloud storage](https://github.com/gorhill/uBlock/wiki/Cloud-storage)
     - [The logger](https://github.com/gorhill/uBlock/wiki/The-logger)
     - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
