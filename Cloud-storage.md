@@ -2,7 +2,7 @@ Support for cloud storage started with uBlock Origin 1.1.0.0.
 
 Cloud storage is also often referred to as _sync_, as in [_Firefox Sync_](https://support.mozilla.org/1/firefox/43.0a1/Linux/en-US/prefs-weave) feature, or [Chrome browser's sync setting through a Google account](https://support.google.com/chrome/answer/165139), i.e. the ability to synchronize browser and extensions settings across multiple devices.
 
-In uBlock Origin, the cloud storage support must be explicitly enabled by the user, from the _Settings_ pane in the dashboard: check the _"Enable cloud storage support"_ checkbox. This will give you access to whatever cloud storage support your browser vendors offer you.
+In uBlock Origin, cloud storage support must be explicitly enabled by the user, from the _Settings_ pane in the dashboard: check the _"Enable cloud storage support"_ checkbox.
 
 Once you enable cloud storage support, a new UI widget will be available in the dashboard for panes which support the export/import of settings to/from cloud storage:
 
@@ -13,6 +13,8 @@ Your uBlock Origin settings are precious, and in order to prevent any automated 
 So essentially, the sync feature in uBlock is implemented as a global clipboard (through cloud storage) to where settings are copied to/pasted from, and only you decide when to export/import.
 
 The granularity of uBlock settings regarding cloud storage support is straightforward: one dashboard pane = one dedicated cloud storage entry. This way it is possible for a user to use cloud storage for specific panes, and not for others. Given that cloud storage is limited by browser vendors, one can choose to not persist one specific pane to the cloud.
+
+The import/export of cloud storage data in a pane works strictly at the UI level, i.e. when you import cloud storage data, it will fill in the pane's UI as if you entered the data yourself: depending on the pane, you will still have to validate/commit the imported data.
 
 If ever an export operation causes the cloud storage capacity limit to be reached, typically the cloud storage providers will refuse the operation, and the data on the cloud storage will be left unchanged. This is what I have observed with Chromium-based browsers.
 
