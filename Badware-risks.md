@@ -21,7 +21,7 @@ Below are sites currently part of the list, or sites being candidate for the lis
 - 2013-03-25: [Careful Baixaki Installer] (http://www.linhadefensiva.org/2013/03/alerta-da-linha-instalador-baixaki-e-outros-sites-de-download/)
 
 #### com.com
-- 2015-08-12: [.COM.COM Used For Malicious Typo Squatting](https://isc.sans.edu/diary/.COM.COM+Used+For+Malicious+Typo+Squatting/20019) (via [SwiftOnSecurity](via https://twitter.com/SwiftOnSecurity/status/631972601460494336))
+- 2015-08-12: [.COM.COM Used For Malicious Typo Squatting](https://isc.sans.edu/diary/.COM.COM+Used+For+Malicious+Typo+Squatting/20019) (via [SwiftOnSecurity](https://twitter.com/SwiftOnSecurity/status/631972601460494336))
 - 2013-12-10: [Why com.com Should Scare You](https://blog.whitehatsec.com/why-com-com-should-scare-you/)
 
 
