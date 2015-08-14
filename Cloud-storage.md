@@ -17,7 +17,7 @@ The granularity of uBlock settings regarding cloud storage support is straightfo
 The import/export of cloud storage data in a pane works strictly at the UI level, i.e. when you import cloud storage data, it will fill in the pane's UI as if you entered the data yourself: depending on the pane, you will still have to validate/commit the imported data.
 
 ***
-Tip: if you hold the <kbd>Shift</kbd> when clicking the _"Import from cloud storage"_, uBlock will import and _merge_ with the existing settings in the pane (as opposed to overwriting the pane settings).
+**Tip:** if you hold the <kbd>Shift</kbd> when clicking the _"Import from cloud storage"_, uBlock will import and _merge_ with the existing settings in the pane (as opposed to overwriting the pane settings).
 ***
 
 If ever an export operation causes the cloud storage capacity limit to be reached, typically the cloud storage providers will refuse the operation, and the data on the cloud storage will be left unchanged. This is what I have observed with Chromium-based browsers.
