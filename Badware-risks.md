@@ -20,6 +20,11 @@ Below are sites currently part of the list, or sites being candidate for the lis
 - 2013-10-22: [Take care when downloading on Baixaki] (http://mcaf.ee/w92g5)
 - 2013-03-25: [Careful Baixaki Installer] (http://www.linhadefensiva.org/2013/03/alerta-da-linha-instalador-baixaki-e-outros-sites-de-download/)
 
+#### com.com
+- 2015-08-12: [.COM.COM Used For Malicious Typo Squatting](https://isc.sans.edu/diary/.COM.COM+Used+For+Malicious+Typo+Squatting/20019) (via [SwiftOnSecurity](via https://twitter.com/SwiftOnSecurity/status/631972601460494336)
+- 2013-12-10: [Why com.com Should Scare You](https://blog.whitehatsec.com/why-com-com-should-scare-you/)
+
+
 #### download.com / download.cnet.com
 
 - 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
