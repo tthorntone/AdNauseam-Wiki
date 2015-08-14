@@ -11,7 +11,7 @@
         - _My filters_ pane (TODO)
         - _My rules_ pane (TODO)
         - _Whitelist_ pane (TODO)
-        - [Cloud storage](https://github.com/gorhill/uBlock/wiki/Cloud-storage)
+        - [Settings: importing from/exporting to cloud storage](https://github.com/gorhill/uBlock/wiki/Cloud-storage)
     - [The logger](https://github.com/gorhill/uBlock/wiki/The-logger)
     - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
         - [Quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
