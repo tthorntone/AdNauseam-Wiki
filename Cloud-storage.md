@@ -26,7 +26,7 @@ Cloud storage services offered by specific browser vendors have their own limita
 - Various limits on the number of operations per unit of time.
 - See [`chrome.storage` API](https://developer.chrome.com/extensions/storage#property-sync) for more technical details.
 
-##### Firefox
+##### Firefox browsers
 
 - I have observed that too large amount of data will cause a warning in the browser console (> 8K).
 - <https://discourse.mozilla-community.org/t/how-to-sync-preferences-of-a-bootstrapped-extension-via-sync/3024>.
