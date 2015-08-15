@@ -34,7 +34,7 @@ If you do not have a syncing account with your browser vendor, I have observed t
 
 ***
 
-> **Important:** Some browsers offer the ability to use a passphrase for their sync feature, in order to enabled end-to-end encryption of the data stored for sync purpose ([example](https://support.google.com/chrome/answer/1181035)). It is strongly suggested to make use of such passphrase.
+> **Important:** Some browsers offer the ability to use a passphrase for their sync feature, in order to enable end-to-end encryption of the data stored for sync purpose ([example](https://support.google.com/chrome/answer/1181035)). It is strongly suggested to make use of such passphrase.
 
 ***
 
