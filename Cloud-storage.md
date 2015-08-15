@@ -54,5 +54,6 @@ Cloud storage services offered by specific browser vendors have their own limita
 - A new installation of uBlock Origin will cause cloud storage data to be blanked.
     - See: <https://discourse.mozilla-community.org/t/how-to-sync-preferences-of-a-bootstrapped-extension-via-sync/3024>.
 - There is not much doc about this for Firefox, so there might be undocumented limitations yet to be found.
+- It appears Firefox for Android can't sync extensions settings (correct me if I am wrong).
 - Other Firefox-related platform:
     - I have no clue whether this new feature will work for other brand of Firefox-based browsers.
