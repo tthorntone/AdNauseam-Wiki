@@ -9,7 +9,9 @@ Once you enable cloud storage support, a new UI widget will be available in the 
 ![screenshot](https://cloud.githubusercontent.com/assets/585534/9213128/5f29f5f2-405d-11e5-92a9-b2d9e8db3d42.png)
 
 ***
-**Important:** Even if cloud storage support is enabled, it will work **if and only if** you actually enable sync support in your browser -- as uBlock itself does not connect to any remote server, your browser does this through its own sync feature, if you enabled such feature.
+
+> **Important:** Even if cloud storage support is enabled, it will work **if and only if** you actually enable sync support in your browser -- as uBlock itself does not connect to any remote server, your browser does this through its own sync feature, if you enabled such feature.
+
 ***
 
 Your uBlock Origin settings are precious, and in order to prevent any automated browser's syncing task to cause precious local data (or cloud data) to be mistakenly overwritten, the chosen solution in uBlock Origin is to _never_ ever export to/import from cloud storage without **the user expressly asking uBlock Origin to do so**.
@@ -21,7 +23,9 @@ The granularity of uBlock settings regarding cloud storage support is straightfo
 The import/export of cloud storage data in a pane works strictly at the UI level, i.e. when you import cloud storage data, it will fill in the pane's UI as if you entered the data yourself: depending on the pane, you will still have to validate/commit the imported data.
 
 ***
-**Tip:** if you hold the <kbd>Shift</kbd> key when clicking the _"Import from cloud storage"_ button, uBlock will import and _merge_ with the current pane settings (as opposed to overwriting the pane current settings).
+
+> **Tip:** if you hold the <kbd>Shift</kbd> key when clicking the _"Import from cloud storage"_ button, uBlock will import and _merge_ with the current pane settings (as opposed to overwriting the pane current settings).
+
 ***
 
 If ever an export operation causes the cloud storage capacity limit to be reached, typically the cloud storage providers will refuse the operation, and the data on the cloud storage will be left unchanged. This is what I have observed with Chromium-based browsers.
@@ -29,7 +33,9 @@ If ever an export operation causes the cloud storage capacity limit to be reache
 If you do not have a syncing account with your browser vendor, I have observed that the cloud storage can still be used as a local clipboard to save a pane settings. Might be convenient sometimes, but please do not use cloud storage as a replacement for [uBlock Origin's backup feature](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#backuprestore-section). It is recommended you back up your settings regularly, this is especially true for those who have extensive custom static filters, custom rules, whitelist directives.
 
 ***
-**Important:** Some browsers offer the ability to use a passphrase for their sync feature, in order to enabled end-to-end encryption of the data stored for sync purpose ([example](https://support.google.com/chrome/answer/1181035)). It is strongly suggested to make use of such passphrase.
+
+> **Important:** Some browsers offer the ability to use a passphrase for their sync feature, in order to enabled end-to-end encryption of the data stored for sync purpose ([example](https://support.google.com/chrome/answer/1181035)). It is strongly suggested to make use of such passphrase.
+
 ***
 
 #### Caveats
