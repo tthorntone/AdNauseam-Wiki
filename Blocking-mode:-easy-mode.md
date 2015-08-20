@@ -31,11 +31,11 @@ _3rd-party filters_ pane:
 
 ##### Tips
 
-You can augment the blocking power in easy mode by merely enabling more filter lists. If you add more filter lists, keep in mind:
+You can significantly augment the blocking power in easy mode by merely enabling more filter lists. If you add more filter lists, keep in mind:
 
 - the more filter lists one uses, the higher the probability of web page breakage.
 - not all filter lists are of good quality:
     - some may cause too much web page breakage.
     - some may result in some network requests to unexpectedly become unblocked ([example](https://github.com/gorhill/uBlock/issues/357)).
 
-Another way to augment blocking power in _easy_ mode is to enable _"I am an advanced user"_ from the _Settings_ pane in the dashboard, and block specific 3rd parties using dynamic filtering -- i.e. essentially using dynamic filtering in default-allow mode. For example, one could choose to globally block `facebook.com` and `facebook.net` in order to prevent Facebook from being able to track you wherever you go, except on Facebook.
+Another even better way to augment blocking power in _easy_ mode is to enable _"I am an advanced user"_ from the _Settings_ pane in the dashboard, and block specific 3rd parties using dynamic filtering -- i.e. essentially using dynamic filtering in default-allow mode. For example, one could choose to globally block `facebook.com` and `facebook.net` in order to prevent Facebook from being able to track you wherever you go, except on Facebook. Glboally blocking ubiquitous hostnames except on their respective web sites is a very easy way to reduce significantly privacy exposure.
