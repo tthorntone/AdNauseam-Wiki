@@ -6,13 +6,9 @@ Dynamic filtering pane ([available only to advanced users](https://github.com/go
 
 ![figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-01.png)
 
-***
-
-#### Important
-
-_Static filtering_ refers to the filters which comes from the filter lists, i.e. _EasyList_, _EasyPrivacy_, hpHosts, etc. _Dynamic filtering_ are those filtering rules which have an air of firewall rules.
-
-***
+> ***
+> **Important:** _Static filtering_ refers to the filters which comes from the filter lists, i.e. _EasyList_, _EasyPrivacy_, hpHosts, etc. _Dynamic filtering_ are those filtering rules which have an air of firewall rules. 
+> ***
 
 **First column**: what is to be dynamically filtered:
 
@@ -45,15 +41,13 @@ Sensible security- and privacy-wise: blocking all 3rd-party frames by default ev
 
 ![figure 5](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/df-qg-05.png)
 
-***
-
-#### Important
-
-**_Dynamic filtering_ overrides _static filtering_**. This means a _block_ dynamic rule will override any existing _allow_ static filters. This means you can block with 100% certainty using dynamic filtering rules. Similarly, an _allow_ dynamic filtering rule will override any existing _block_ static filters, i.e. you can allow with 100% certainty with dynamic filtering (useful to un-break sites broken by some static filters).
-
-This may help understand how static and dynamic filtering interact: [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine).
-
-***
+> ***
+> **Important:** _Dynamic filtering_ overrides _static filtering_.
+> 
+> This means a _block_ dynamic rule will override any existing _allow_ static filters. This means you can block with 100% certainty using dynamic filtering rules. Similarly, an _allow_ dynamic filtering rule will override any existing _block_ static filters, i.e. you can allow with 100% certainty with dynamic filtering (useful to un-break sites broken by some static filters).
+> 
+> This may help understand how static and dynamic filtering interact: [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine).
+> ***
 
 All embedded 3rd-party frames were blocked on the page. Good. However it appears there was an embedded YouTube video in the article:
 
@@ -79,13 +73,9 @@ Create a local _noop_ rule for `youtube.com`:
 
 This will prevent dynamic filtering rules to apply to anything from `youtube.com`, but only on that site.
 
-***
-
-#### Important
-
-Remember that _noop_ rules bypass **only** broader dynamic filtering rules, static filtering is left completely intact, which means you won't see ads in the embedded YouTube videos.
-
-***
+> ***
+> **Important:** Remember that _noop_ rules bypass **only** broader dynamic filtering rules, static filtering is left completely intact, which means you won't see ads in the embedded YouTube videos.
+> ***
 
 What if you want to block 3rd-party frames everywhere by default, but want whatever embedded YouTube video to not be blocked by default on any site?
 
@@ -95,15 +85,11 @@ It is just a matter of creating a global _noop_ rule for `youtube.com`:
 
 Which means: do not apply any dynamically filtering rule to `youtube.com` by default (i.e. everywhere).
 
-***
-
-#### Important
-
-**_Local_ dynamic filtering rules override _global_ ones.**
-
-In other words: **More specific dynamic filtering rules override less specific ones.** For example, dynamic filtering rules for `youtube.com` (specific) override dynamic filtering rules for `3rd-party frames` (generic).
-
-***
+> ***
+> **Important:**  _Local_ dynamic filtering rules override _global_ ones.
+> 
+> In other words: **More specific dynamic filtering rules override less specific ones.** For example, dynamic filtering rules for `youtube.com` (specific) override dynamic filtering rules for `3rd-party frames` (generic).
+> ***
 
 All dynamic rules are temporary by default: Click the padlock if you want to persist the ruleset for a specific web site.
 
@@ -133,12 +119,9 @@ Using a local  _allow_ dynamic filtering rule fixes the breakage:
 It is easier for a user to point-and-click for a quick fix then to actually craft an exception static filter like `@@||boldchat.com$~third-party` and force a reload of all static filters (big memory churning).
 
 <sup>[Another example](https://www.youtube.com/watch?v=8bzB6tESynM) of un-breaking a site.</sup>
-***
 
-#### Important
-
-Typically, use only narrow _allow_ dynamic filtering rules to un-break sites. As these _allow_ rules override any static filtering, this means if you use a too broad _allow_ dynamic filtering rule you could start to allow in ads/trackers/annoyances.
-
-***
+> ***
+> **Important: Typically, use only narrow _allow_ dynamic filtering rules to un-break sites. As these _allow_ rules override any static filtering, this means if you use a too broad _allow_ dynamic filtering rule you could start to allow in ads/trackers/annoyances.
+> ***
 
 More: [Take control of your privacy in your own hands](https://github.com/chrisaljoudi/uBlock/issues/433#issuecomment-68488686) (will move this here eventually, I need a break)
