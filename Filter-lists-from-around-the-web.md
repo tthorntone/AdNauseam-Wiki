@@ -60,7 +60,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 <https://secure.fanboy.co.nz/fanboy-espanol.txt>: [**subscribe**](https://secure.fanboy.co.nz/fanboy-espanol.txt?location=https://secure.fanboy.co.nz/fanboy-espanol.txt&title=Fanboy%20Portuguese%20and%20Spanish)
 
 **Fanboy's Turkish:**<br>
-<https://www.fanboy.co.nz/fanboy-turkish.txt>: [**subscribe**](https://www.fanboy.co.nz/fanboy-turkish.txt?location=hthttps://www.fanboy.co.nz/fanboy-turkish.txt&title=Fanboy's%20Turkish)
+<https://www.fanboy.co.nz/fanboy-turkish.txt>: [**subscribe**](https://www.fanboy.co.nz/fanboy-turkish.txt?location=https://www.fanboy.co.nz/fanboy-turkish.txt&title=Fanboy's%20Turkish)
 
 **Frightener+Facekill:**<br>
 <http://adblock.gjtech.net/?format=adblock-plus>: [**subscribe**](http://adblock.gjtech.net/?format=adblock-plus&location=http%3A%2F%2Fadblock.gjtech.net%2F%3Fformat%3Dadblock-plus&title=Frightener+Facekill)
