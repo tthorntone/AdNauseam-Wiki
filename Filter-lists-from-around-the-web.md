@@ -35,9 +35,6 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **Block all well known privacy trackers:** (high risk of web page breakage)<br>
 <http://gnuzilla.gnu.org/filters/blacklist.txt>: [**subscribe**](http://gnuzilla.gnu.org/filters/blacklist.txt?location=http://gnuzilla.gnu.org/filters/blacklist.txt&title=Block%20all%20well%20known%20privacy%20trackers)
 
-**bidgewalbelp blocking filters:** (risk of web page breakage)<br>
-<http://bidgewalbelp.neocities.org/blocking/filters.txt>: [**subscribe**](http://bidgewalbelp.neocities.org/blocking/filters.txt?location=http://bidgewalbelp.neocities.org/blocking/filters.txt&title=bidgewalbelp%20blocking%20filters)
-
 **cjxlist:** (only for Chinese language websites)<br>
 <http://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](http://cjxlist1.googlecode.com/svn/cjxlist.txt?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=Old%20cjxlist%20filters%20list%20for%20Chinese%20sites)
 
