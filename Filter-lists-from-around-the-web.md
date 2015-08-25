@@ -44,9 +44,6 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **Disconnect simple ad filters:**<br>
 <https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt‎>: [**subscribe**](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt‎?location=https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt‎&title=Disconnect%20simple%20ad%20filters)
 
-**Fanboy's Anti-thirdparty Fonts:**<br>
-<https://www.fanboy.co.nz/fanboy-antifonts.txt>: [**subscribe**](https://www.fanboy.co.nz/fanboy-antifonts.txt?location=https://www.fanboy.co.nz/fanboy-antifonts.txt&title=Fanboy's%20Anti-thirdparty%20Fonts)
-
 **Facebook annoyances blocker:**<br>
 <https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt&title=facebook%20annoyances%20blocker)
 
@@ -56,8 +53,14 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **Facebook news feed annoyances blocker:**<br>
 <https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt&title=facebook%20news%20feed%20annoyances%20blocker)
 
+**Fanboy's Anti-thirdparty Fonts:**<br>
+<https://www.fanboy.co.nz/fanboy-antifonts.txt>: [**subscribe**](https://www.fanboy.co.nz/fanboy-antifonts.txt?location=https://www.fanboy.co.nz/fanboy-antifonts.txt&title=Fanboy's%20Anti-thirdparty%20Fonts)
+
 **Fanboy's Spanish/Portuguese:**<br>
 <https://secure.fanboy.co.nz/fanboy-espanol.txt>: [**subscribe**](https://secure.fanboy.co.nz/fanboy-espanol.txt?location=https://secure.fanboy.co.nz/fanboy-espanol.txt&title=Fanboy%20Portuguese%20and%20Spanish)
+
+**Fanboy's Turkish:**<br>
+<https://www.fanboy.co.nz/fanboy-turkish.txt>: [**subscribe**](https://www.fanboy.co.nz/fanboy-turkish.txt?location=hthttps://www.fanboy.co.nz/fanboy-turkish.txt&title=Fanboy's%20Turkish)
 
 **Frightener+Facekill:**<br>
 <http://adblock.gjtech.net/?format=adblock-plus>: [**subscribe**](http://adblock.gjtech.net/?format=adblock-plus&location=http%3A%2F%2Fadblock.gjtech.net%2F%3Fformat%3Dadblock-plus&title=Frightener+Facekill)
