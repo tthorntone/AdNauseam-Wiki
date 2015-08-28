@@ -1,5 +1,3 @@
-[Under construction]
-
 #### uBlock is the main branch, uBlock Origin is just bug fixes
 
 Completely false.
