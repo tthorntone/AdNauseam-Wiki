@@ -1,5 +1,7 @@
 #### uBlock is the main branch, uBlock Origin is just bug fixes
 
+Instance: _"If you're currently using uBlock Origin, you're welcome to **move over to the main uBlock project**"_ ([ublock.org's FAQ](https://www.ublock.org/faq/)).
+
 Completely false.
 
 Compare release history of both projects:
