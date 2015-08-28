@@ -49,4 +49,4 @@ To fall back into [easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mo
 - Set a local noop rule for the _3rd-party frames_ cell.
     - Optional, as blocking 3rd-frames is less likely to break web sites.
 
-Using local noop rule ensure that the resulting lesser blocking mode applies _only_ to the current site, so that medium mode is still enforced everywhere else.
+Using local noop rules ensure that the resulting lesser blocking mode applies _only_ to the current site, so that medium mode is still enforced everywhere else.
