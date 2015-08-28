@@ -2,8 +2,6 @@
 
 #### uBlock is the main branch, uBlock Origin is just bug fixes
 
-Instances: [so many...]
-
 Completely false.
 
 Compare release history of both projects:
@@ -37,10 +35,17 @@ Summary ([as per Wikipedia](https://en.wikipedia.org/wiki/UBlock)):
 | | [toolbar support for legacy Firefox](https://github.com/gorhill/uBlock/issues/264)  |
 | | [privacy: prevent local IP address leak through WebRTC](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#prevent-webrtc-from-leaking-local-ip-address)  |
 | | [DOM inspector](https://github.com/gorhill/uBlock/releases/tag/1.0.0.0)  |
+| | [cloud storage support](https://github.com/gorhill/uBlock/wiki/Cloud-storage)  |
+
+Bug/issue fixing is as important -- if not more -- as adding useful features.
+
+Reported [issues have been, and continue to fixed in uBlock Origin](https://github.com/gorhill/uBlock/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc).
+
+As of writing (2015-08-28), uBlock development has been essentially stalled for weeks now, and this includes [bug fixing](https://github.com/chrisaljoudi/uBlock/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc) (despite the maintainer's claim that the _"uBlock team works to develop and design uBlock"_ on his [donation page](https://donorbox.org/ublock)).
+
+***
 
 #### "uBlock Origin is more efficient than uBlock" or "uBlock is more efficient than uBlock Origin"
-
-Instances: [I see this once in a while]
 
 Nonsense.
 
@@ -49,6 +54,8 @@ What makes uBlock efficient is the core filtering engine, which is composed of m
 - [uBlock: `static-net-filtering.js`](https://github.com/chrisaljoudi/uBlock/commits/master/src/js/static-net-filtering.js) vs [uBlock Origin `static-net-filtering.js`](https://github.com/gorhill/uBlock/commits/master/src/js/static-net-filtering.js)
 - [uBlock: `cosmetic-filtering.js`](https://github.com/chrisaljoudi/uBlock/commits/master/src/js/cosmetic-filtering.js) vs [uBlock Origin `cosmetic-filtering.js`](https://github.com/gorhill/uBlock/commits/master/src/js/cosmetic-filtering.js)
 - [uBlock: `contentscript-end.js`](https://github.com/chrisaljoudi/uBlock/commits/master/src/js/contentscript-end.js) vs [uBlock Origin `contentscript-end.js`](https://github.com/gorhill/uBlock/commits/master/src/js/contentscript-end.js)
+
+***
 
 #### Chris Aljoudi is "the creator of uBlock"
 
