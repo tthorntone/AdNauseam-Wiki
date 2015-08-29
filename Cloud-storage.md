@@ -53,4 +53,4 @@ Cloud storage services offered by specific browser vendors have their own limita
 - There is not much doc about this for Firefox, so there might be undocumented limitations yet to be found.
 - It appears Firefox for Android can't sync extensions settings (correct me if I am wrong).
 - Other Firefox-related platform:
-    - I have no clue whether this new feature will work for other brand of Firefox-based browsers.
+    - I have no clue whether this new feature will work for other brands of Firefox-based browsers.
