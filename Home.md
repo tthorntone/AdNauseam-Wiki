@@ -20,6 +20,7 @@
         - [Medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode) (optimal for advanced users)
         - [Hard mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-hard-mode)
         - [Nightmare mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-nightmare-mode)
+    - [Element picker](https://github.com/gorhill/uBlock/wiki/Element-picker)
     - [The logger](https://github.com/gorhill/uBlock/wiki/The-logger)
     - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
         - [Quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
