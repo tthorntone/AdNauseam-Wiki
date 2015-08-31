@@ -7,7 +7,7 @@
     - [The popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
     - Dashboard
         - [_Settings_](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings) pane
-        - _3rd-party filters_ pane (TODO)
+        - [_3rd-party filters_](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters) pane
             - [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
         - _My filters_ pane (TODO)
         - _My rules_ pane (TODO)
