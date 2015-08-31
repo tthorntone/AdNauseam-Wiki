@@ -2,7 +2,7 @@
 
 ***
 
-The _3rd-party filters_ pane is where you subscribe to filter lists. The filter lists to which you subscribe will feed the static filtering engine.
+The _3rd-party filters_ pane is where you subscribe to filter lists. The filter lists to which you subscribe will feed uBlock Origin's [static filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details#static-filtering).
 
 ![3rd-party filter pane](https://cloud.githubusercontent.com/assets/585534/9589096/0b6cc212-4ffa-11e5-82f1-d276b71fef91.png)
 
