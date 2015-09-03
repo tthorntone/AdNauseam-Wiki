@@ -89,9 +89,6 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **Prebake - Filter Obtrusive Cookie Notices:** <br>
 <https://github.com/liamja/Prebake>: [**subscribe**](https://raw.github.com/liamja/Prebake/master/obtrusive.txt?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake%20-%20Filter%20Obtrusive%20Cookie%20Notices)
 
-**Rickroll Blacklist:**<br>
-<http://rickrolldb.com/ricklist.txt>: [**subscribe**](http://rickrolldb.com/ricklist.txt?location=http://rickrolldb.com/ricklist.txt&title=Rickroll%20Blacklist)
-
 **Spam404:** (`http` version)<br>
 <http://spam404bl.com/spam404scamlist.txt>: [**subscribe**](http://spam404bl.com/spam404scamlist.txt?location=http://spam404bl.com/spam404scamlist.txt&title=Spam404%20-%20HTTP%20version)
 
