@@ -17,3 +17,13 @@ You may manually edit the selector. However the result needs to be a valid filte
 You may quit the interactive element picker by clicking the _Quit_ button (or press _Esc_). You may close the modal dialog and go pick an element again by clicking the _Pick_ button.
 
 The _Create_ button will be enabled only if a proper filter can be created from the content of the text area. Once you click the _Create_ button, the element picker will add the necessary tokens to ensure the filter apply **only** to the current web site, will add it to your custom list of filters and save it.
+
+#### "The removed element reappear upon reload"
+
+There may be many different reasons for this.
+
+- The URL or selector for the blocked element has a variable part in it, which changes each time a page is loaded.
+- Cosmetic filters are disable for the site. There are many ways to disable cosmetic filtering:
+    - The [per-site cosmetic filtering switch](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-cosmetic-filtering).
+    - The option _"Parse and enforce cosmetic filters"_ is un-checked in the _"3rd-party filters"_ pane in the dashboard.
+    - You use dynamic filtering and there is an [_allow_ rule for the current site](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-disabling-cosmetic-filtering-for-the-current-site).
