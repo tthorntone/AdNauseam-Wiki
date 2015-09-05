@@ -22,7 +22,7 @@ The removed element reappear when you reload the page?
 
 There may be many different reasons for this.
 
-- The URL or selector for the blocked element has a variable part in it, which changes each time a page is loaded.
+- The URL or selector for the blocked element has variable part(s) in it, which changes each time a page is loaded.
     - If this is a network filter, you will have to manually edit the filter to make use of wildcards for the parts of the URL which are variable.
     - If this is a cosmetic filter, you may have to manually craft a better CSS selector. Sometimes this requires observing the surrounding DOM data.
 - Cosmetic filters are disable for the site. There are many ways to disable cosmetic filtering:
