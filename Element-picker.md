@@ -27,5 +27,5 @@ There may be many different reasons for this.
     - If this is a cosmetic filter, you may have to manually craft a better CSS selector. Sometimes this requires observing the surrounding DOM data.
 - Cosmetic filtering is disabled for the site, or globally. There are many ways to disable cosmetic filtering:
     - The [per-site cosmetic filtering switch](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-cosmetic-filtering).
-    - The option _"Parse and enforce cosmetic filters"_ is un-checked in the _"3rd-party filters"_ pane in the dashboard.
+    - The option [_"Parse and enforce cosmetic filters"_](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters#parse-and-enforce-cosmetic-filters) is un-checked in the _"3rd-party filters"_ pane in the dashboard.
     - You use dynamic filtering and there is an [_allow_ rule for the current site](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-disabling-cosmetic-filtering-for-the-current-site).
