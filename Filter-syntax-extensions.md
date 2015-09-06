@@ -16,6 +16,10 @@ uBlock extends Adblock Plus filter syntax.
 
 This will cause web pages which match the filter to be subjected to strict blocking.
 
+`first-party`:
+
+This is equivalent to `~third-party`. Provided strictly for convenience (0.9.9.0).
+
 `important`:
 
 The filter option `important` means to ignore all _exception_ filters (those prefixed with `@@`).
@@ -27,10 +31,6 @@ Example: `||google-analytics.com^$important,third-party` will block all network 
 `inline-script`:
 
 To specifically disable inline script tags in a main page: `||example.com^$inline-script`.
-
-`first-party`:
-
-This is equivalent to `~third-party`. Provided strictly for convenience (0.9.9.0).
 
 #### Cosmetic filters
 
