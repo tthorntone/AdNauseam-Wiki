@@ -2,7 +2,7 @@ uBlock supports most of [Adblock Plus filter syntax](https://adblockplus.org/en/
 
 ### Not supported		
 
-`document` for exception filters (those prefixed with `@@`):
+`document` for _exception_ filters (those prefixed with `@@`):
 
 Not supported. The purpose of the `document` option is to disable uBlock completely. The reason it is not supported is to be sure that users explicitly disable uBlock themselves if they wish (through [whitelisting](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)), not having some external filter list decide for them.
 
