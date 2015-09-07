@@ -15,7 +15,7 @@ uBlock is **uncompromisingly pro-user interests**, and as such its default insta
 
 Such a high amount of filters will cause uBlock to block more than any of the other blockers when used with their default settings.
 
-On the other hand, this will also put uBlock at a disadvantage resource-wise when compared to a blocker which just block ads -- which is how the other blockers in the benchmark were set up, it's their default settings<sup>[2]</sup>. For comparison, in the benchmark, only ~1,000 filters were enforced in Ghostery.
+On the other hand, this will also put uBlock at a disadvantage resource-wise when compared to a blocker which just block ads -- which is how the other blockers in the benchmark were set up, it's their default settings.<sup>[2]</sup> For comparison, in the benchmark, only ~1,000 filters were enforced in Ghostery.
 
 And yet, uBlock was the best or among the best performers CPU- and memory-wise. Had uBlock and the other blockers been set to block roughly equally, the contrast between uBlock's efficiency and other blockers would have been even more pronounced in favor of uBlock, as the CPU- and memory-footprint of the other blockers would have increased if set to block as much as uBlock with its default settings.
 
