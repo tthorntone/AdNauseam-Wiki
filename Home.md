@@ -33,6 +33,7 @@
         - [Overview of uBlock's network filtering engine: details](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details)
         - [Does uBlock block ads or just hide them?](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
 - [Troubleshooting](https://github.com/gorhill/uBlock/wiki/Troubleshooting)
+- [Notes on media coverage of uBlock Origin](https://github.com/gorhill/uBlock/wiki/Notes-on-media-coverage-of-uBlock-Origin)
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
 - [How to whitelist a web site](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
 - Install from [Mozilla Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/), [Chrome store](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](https://github.com/gorhill/uBlock/tree/master/dist#install).
