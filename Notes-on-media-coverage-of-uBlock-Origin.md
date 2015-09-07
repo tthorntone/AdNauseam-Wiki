@@ -15,8 +15,12 @@ uBlock is **uncompromisingly pro-user interests**, and as such its default insta
 
 Such a high amount of filters will cause uBlock to block more than any of the other blockers when used with their default settings.
 
-On the other hand, this will also put uBlock at a disadvantage resource-wise when compared to a blocker which just block ads -- which is how the other blockers in the benchmark were set up (it's their default settings). For comparison, in the benchmark, only ~1,000 filters were enforced in Ghostery.
+On the other hand, this will also put uBlock at a disadvantage resource-wise when compared to a blocker which just block ads -- which is how the other blockers in the benchmark were set up, it's their default settings<sup>[1]</sup>. For comparison, in the benchmark, only ~1,000 filters were enforced in Ghostery.
 
 And yet, uBlock was the best or among the best performers CPU- and memory-wise. Had uBlock and the other blockers been set to block roughly equally, the contrast between uBlock's efficiency and other blockers would have been even more pronounced in favor of uBlock, as the CPU- and memory-footprint of the other blockers would have increased if set to block as much as uBlock with its default settings.
 
 uBlock was written from scratch with efficiency in mind, and whatever new features is added to uBlock is done in a way that never compromise uBlock's efficiency -- being resource-efficient is a primary feature of uBlock, something not to be messed up.
+
+***
+
+[1] Adblock Plus, Adguard will actually prevent many ads from being blocked with default settings, through their "acceptable ads" feature, which is enabled by default. I consider "acceptable ads" to be an anti-user feature, and as such this has no place in uBlock.
