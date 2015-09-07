@@ -25,4 +25,4 @@ uBlock was written from scratch with efficiency in mind, and whatever new featur
 
 [1] What does "uncompromisingly pro-user" mean? Here is [an example](https://github.com/chrisaljoudi/uBlock/issues/564#issuecomment-70843550).
 
-[2] Adblock Plus, Adguard will actually prevent many ads from being blocked with default settings, through their "acceptable ads" feature, which is enabled by default. I consider "acceptable ads" to be an anti-user feature, and as such this has no place in uBlock (see [this](https://github.com/gorhill/uBlock/blob/master/MANIFESTO.md), [this](https://github.com/chrisaljoudi/uBlock/issues/66). [this](https://github.com/gorhill/uBlock/issues/541#issuecomment-126721395)).
+[2] Adblock Plus, Adguard will actually prevent many ads from being blocked with default settings, through their "acceptable ads" feature, which is enabled by default. I consider "acceptable ads" to be an anti-user feature, and as such this has no place in uBlock (see [this](https://github.com/gorhill/uBlock/blob/master/MANIFESTO.md), [this](https://github.com/chrisaljoudi/uBlock/issues/66), [this](https://github.com/gorhill/uBlock/issues/541#issuecomment-126721395)).
