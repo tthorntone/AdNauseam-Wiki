@@ -24,4 +24,4 @@ This will cause the current site to become subjected to static filtering (EasyLi
 
 Dynamic filtering disengaged for current site: "gray" means disengage dynamic filtering, but apply static filtering.
 
-In the screenshots above, 3rd-party frames are blocked to remind this is a good habit in general, and to illustrate that narrower dynamic rules prevails over more generic ones.
+In the screenshots above, 3rd-party frames are blocked to remind this is [a good habit in general](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-Benefits-of-blocking-3rd-party-iframe-tags), and to illustrate that narrower dynamic rules prevails over more generic ones.
