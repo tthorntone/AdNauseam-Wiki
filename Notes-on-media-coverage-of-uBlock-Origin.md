@@ -13,7 +13,7 @@ The fact that default settings were used for all blockers does put uBlock at an 
 
 uBlock is **uncompromisingly pro-user interests**, and as such its default installation is to block ads, trackers, malwares, etc.<sup>[1]</sup> As of writing, uBlock's default installation consists of loading into memory over 46,000 network filters and over 34,000 cosmetic filters.
 
-Such a high amount of filters will cause uBlock to block more than any of the other blockers when used with their default settings.
+Such a high amount of filters will cause uBlock to block more than any of the other blockers when used with their default settings -- and as a result it's more likely web pages will load faster with uBlock. 
 
 On the other hand, this will also put uBlock at a disadvantage resource-wise when compared to a blocker which just block ads -- which is how the other blockers in the benchmark were set up, it's their default settings.<sup>[2]</sup> For comparison, in the benchmark, only ~1,000 filters were enforced in Ghostery.
 
