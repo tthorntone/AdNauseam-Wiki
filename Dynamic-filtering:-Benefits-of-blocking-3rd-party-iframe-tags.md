@@ -6,7 +6,7 @@
 
 ### Malware protection
 
-`iframe` tags are very often used by malware code on compromised web sites. A recent example of this is ~~[jquery.com](http://blog.jquery.com/2014/09/24/update-on-jquery-com-compromises/)~~ [Firefox's javascript-based PDF reader](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/).
+`iframe` tags are very often used by malware code on compromised web sites. A recent example of this is ~~[jquery.com](http://blog.jquery.com/2014/09/24/update-on-jquery-com-compromises/)~~ ~~[Firefox's javascript-based PDF reader](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/)~~ [Malware With Your News? Forbes Website Victim of Malvertising Attack](https://www.fireeye.com/blog/threat-research/2015/09/malvertising_attack.html).
 
 Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique: 
 
