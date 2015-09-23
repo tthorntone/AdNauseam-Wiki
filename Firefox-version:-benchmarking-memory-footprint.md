@@ -1,4 +1,4 @@
-[![Vim test](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)<br><sup>Infamous VIM test: ABP 1,900 MB vs. uBlock 392 MB. Firefox 35 64-bit. ABP systematically adds around 3.5 MB per page **and per-frame** on a page, when using only _EasyList_.</sup>
+[![Vim test](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)<br><sup>Infamous VIM test: ABP 370 MB vs. uBlock 373 MB. Firefox 41 64-bit.</sup>
 
 #### Setup
 
@@ -41,26 +41,22 @@ So I did the **exact** above steps for no blocker, ABP, uBlock.
 #### Results
 
 - **Firefox**
-    - No blocker: **613.55 MB** (reference memory usage)
-    - **Adblock Plus** 2.6.6: **625.05 MB** (reference _plus_ 11.5 MB)
-    - **µBlock** 0.8.2.0: **426.85 MB** (reference _minus_ 186.7 MB, ABP _minus_ 198.2 MB)
+    - No blocker: **751.22 MB** (reference memory usage)
+    - **Adblock Plus** 2.6.10: **639.49 MB** (reference _minus_ 111.7 MB)
+    - **uBlock Origin** 1.1.1: **465.86 MB** (reference _minus_ 285.4 MB, ABP _minus_ 173.6 MB)
 - **Chromium**
-    - No blocker: **1,169.35 MB** (reference memory usage)
-    - **Adblock Plus** 1.8.8: **1,509.05 MB** (reference _plus_ 339.7 MB)
-    - **µBlock** 0.8.2.0: **1,042.94 MB** (reference _minus_ 126.41 MB, ABP _minus_ 466.11 MB)
+    - No blocker: **1,342.87 MB** (reference memory usage)
+    - **Adblock Plus** 1.9.3: **1,525.4 MB** (reference _plus_ 182.5 MB)
+    - **uBlock Origin** 1.1.1: **1,110.02 MB** (reference _minus_ 232.9 MB, ABP _minus_ 415.4 MB)
 
 **Important:** You can't compare directly the figures between the browsers -- they are taken using different methodology from one browser to the other. The benchmarks are more to compare the figures for various blockers within the same browser.
 
 #### Notes
 
-Tested on Firefox 34 64-bit and Chromium 39 64-bit on Linux Mint. No other extensions were present.
+Tested on Firefox 41 64-bit and Chromium 45.0.2454.85 64-bit on Linux Mint. No other extensions were present.
 
 For Firefox, I chose the _"Explicit Allocations"_  figure because as per Firefox, it is "the single best number to focus on" with regard to memory usage.
 
 Without going into details, hardware is i5 quadcore + 8 GB
 
 If other users feel like repeating the tests, it would be nice just to confirm I got everything right.
-
-#### Raw data
-
-<https://github.com/gorhill/uBlock/blob/master/doc/benchmarks/mem-usage-overall-20141224.ods>
