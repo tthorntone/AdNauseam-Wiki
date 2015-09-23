@@ -1,7 +1,3 @@
-**Note:** Results have been updated with latest Firefox 41 and Chromium 45. The page is the same as the old one (Firefox 35/Chromium 39, [archived here](https://github.com/gorhill/uBlock/wiki/Firefox-version:-benchmarking-memory-footprint-(2015-03-07))), except all figures have been updated using latest browser version.
-
-***
-
 [![Vim test](https://raw.githubusercontent.com/gorhill/uBlock/52ed1871b01cfb5edc0ba704cec8418463d648ad/doc/benchmarks/vim-test-abp-vs-ublock.png)](https://raw.githubusercontent.com/gorhill/uBlock/52ed1871b01cfb5edc0ba704cec8418463d648ad/doc/benchmarks/vim-test-abp-vs-ublock.png)<br><sup>Infamous VIM test: ABP 1,900 MB vs. uBlock 392 MB. Firefox 35 64-bit. ABP systematically adds around 3.5 MB per page **and per-frame** on a page, when using only _EasyList_.</sup>
 
 #### Setup
