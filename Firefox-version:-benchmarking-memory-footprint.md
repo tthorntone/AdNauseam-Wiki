@@ -53,7 +53,7 @@ So I did the **exact** above steps for no blocker, ABP, uBlock.
 
 #### Notes
 
-Tested on Firefox 41 64-bit and Chromium 45.0.2454.85 64-bit on Linux Mint. No other extensions were present.
+Tested on Firefox 41.0 64-bit and Chromium 45.0.2454.85 64-bit on Linux Mint. No other extensions were present.
 
 For Firefox, I chose the _"Explicit Allocations"_  figure because as per Firefox, it is "the single best number to focus on" with regard to memory usage.
 
