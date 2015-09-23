@@ -11,7 +11,7 @@
     - Fanboy's Social Blocking List
     - Malware domain lists
     - ABP-specifics: _"Acceptable ads"_ disabled
-    - uBlock-specifics: uBlock's filters enabled (+80 filters), extra malware domains (+1,459 filters)
+    - uBlock-specifics: uBlock's filters enabled (+140 filters), extra malware domains (+1,487 filters)
 
 #### Steps
 
