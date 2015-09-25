@@ -2,7 +2,7 @@
 
 ***
 
-[![Vim test](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)<br><sup>Infamous VIM test: ABP 370 MB vs. uBlock 373 MB. Firefox 41 64-bit. On Chromium-based browsers, ABP still suffers memory footprint issues from injecting huge stylesheet in each page and each embedded frames on a page.</sup>
+[![Vim test](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/benchmarks/vim-test-abp-vs-ublock.png)<br><sup>Infamous VIM test: ABP 370 MB vs. uBlock 373 MB. Firefox 41 64-bit. On Chromium-based browsers, ABP still suffers memory footprint issues from injecting a huge stylesheet in each page and in each embedded frames on a page.</sup>
 
 #### Setup
 
