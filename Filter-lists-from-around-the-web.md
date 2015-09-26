@@ -39,7 +39,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 <http://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](http://cjxlist1.googlecode.com/svn/cjxlist.txt?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=Old%20cjxlist%20filters%20list%20for%20Chinese%20sites)
 
 **Disconnect simple ad filters:**<br>
-<https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt‎>: [**subscribe**](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt‎?location=https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt‎&title=Disconnect%20simple%20ad%20filters)
+<https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt>: [**subscribe**](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt?location=https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt&title=Disconnect%20simple%20ad%20filters)
 
 **Facebook annoyances blocker:**<br>
 <https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt&title=facebook%20annoyances%20blocker)
