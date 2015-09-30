@@ -3,7 +3,11 @@ There are many ways to block script tags from executing in uBlock Origin:
 - Block external script resources.
 - Block all inline script tags<sup>[1]</sup> at once.
 
-uBlock Origin 1.2.0 introduces a way to block **specific** inline script tag in a web page through a new script tag cosmetic filter.
+uBlock Origin 1.2.0 introduces a new way to block **specific** inline script tag in a web page through a new script tag cosmetic filter:
+
+    example.com##script:contains(...)
+
+Where the value inside the parenthesis in `contains(...)` can be a plain string or a literal javascript regular expression (`/.../`).
 
 ***
 
