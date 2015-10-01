@@ -1,33 +1,49 @@
 There are many ways to block script tags from executing in uBlock Origin:
 
 - Block external script resources.
-- Block all inline script tags<sup>[1]</sup> at once.
+- Block all inline script tags embedded in a page at once.<sup>[1]</sup>
 
-uBlock Origin 1.2.0 introduces a new way to block **specific** inline script tag in a web page through a new script tag cosmetic filter:
+Inline script tags are those scripts which are embedded in the main page: they can not be blocked from downloading unless the whole page itself is blocked, which is not very useful. Here is a example of HTML code with two inline script tags:
+
+```html
+<html>
+<head>
+<meta name="referrer" content="origin">
+<link rel="stylesheet" href="main.css" />
+<script type="text/javascript">
+    function usefulCode() {
+        ...
+    }
+    ...
+</script>
+<title>lorem ipsum</title>
+</head>
+<body>
+<h1>lorem ipsum</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<script type="text/javascript">
+    function nuisanceCode() {
+        ...
+    }
+    ...
+</script>
+</body>
+```
+
+In this example, blocking inline script tags wholesale would not be a good solution because both script tags would be blocked and we would lose the `usefulCode` function as well.
+
+uBlock Origin 1.2.0 introduces a new way to block **specific** inline script tag in a web page through the script tag cosmetic filter:
 
     example.com##script:contains(...)
 
 Where the value inside the parenthesis in `contains(...)` can be a plain string or a literal javascript regular expression (`/.../`). A script tag cosmetic filter will prevent the execution of whatever javascript inside a **specific** script tag when there is a match, i.e. when the plain text or the regular expression is found inside the script tag.
 
+So we can use script tag filtering for our above example to specifically disable one of the script tag (assuming the page's URL is `https://foo.example/bar.html`):
+
+    foo.example##script:contains(nuisanceCode)
+
+This filter means: for any web pages from `foo.example`, disable all inline script tags which contains the string `nuisanceCode`.
+
 ***
 
-- [1] Inline script tags are those which are embedded in the main web page. An example using an excerpt from the front page of Hacker News:<br>
-  ```<html op="news"><head><meta name="referrer" content="origin"><link rel="stylesheet" type="text/css" href="news.css?YL5ocwvpNdWX9tuUw2kw"><link rel="shortcut icon" href="favicon.ico"><link rel="alternate" type="application/rss+xml" title="RSS" href="rss"><script type="text/javascript">
-        function hide(id) {
-            var el = document.getElementById(id);
-            if (el) { el.style.visibility = 'hidden'; }
-        }
-        function vote(node) {
-            var v = node.id.split(/_/);
-            var item = v[1];
-            hide('up_'   + item);
-            hide('down_' + item);
-            var ping = new Image();
-            ping.src = node.href;
-            return false;
-          }
-    </script>
-    <title>Hacker News</title>
-    </head>
-    <body>...
-  ```
+- [1] Through the use of the `inline-script` static filter option (`||example.com^$inline-script`), or through the use of a dynamic filtering block rule for _inline scripts_.
