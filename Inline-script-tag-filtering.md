@@ -42,7 +42,7 @@ So we can use script tag filtering for our above example to specifically disable
 
     foo.example##script:contains(nuisanceCode)
 
-This filter means: for any web pages from `foo.example`, disable all inline script tags which contains the string `nuisanceCode`.
+This filter means: for any web pages from the `foo.example` web site, disable all inline script tags which contains the string `nuisanceCode`.
 
 ***
 
