@@ -46,9 +46,11 @@ This filter means: for any web pages from the `foo.example` web site, disable al
 
 In the cat and mouse game between web sites and blockers, the new script tag filter is a welcomed new tool on the user side, to foil attempt by site to work around blockers.
 
-The big advantage of this new filter is that it can fix many of the anti-blocker workarounds web sites use at the _source_.
+The big advantage of this new filter is that it can fix many _at the source_ of the anti-blocker workarounds used by some web sites.
 
-For example, the web site at `http://focus.de/` will resort to deface itself with ridiculous ads when the site detects that the user is using a blocker, and using _EasyList_ + _EasyList Germany_ does not work. Wholesale blocking of inline scripts does prevent the auto-defacing, but possibly at the cost of using useful functionalities. However, a script tag filter to block the specific inline script tag which contains the self-defacement javascript code allows a more targeted approach: prevent the undesirable inlibe javascript code from executing while keeping the desirable inline javascript code intact. At time of writing, this script tag filter worked for that site:
+For example, the web site at `http://focus.de/` will resort to deface itself with ridiculous ads when the site detects that the user is using a blocker, and using _EasyList_ + _EasyList Germany_ does not work, as the images pulled by the page are randomly named defeating pattern-based network filters and easily defeating cosmetic filters as well.
+
+Wholesale blocking of inline script tags does prevent the auto-defacing, but possibly at the cost of using useful functionalities. However, a script tag filter to block the specific inline script tag which contains the self-defacement javascript code allows a more targeted approach: prevent the undesirable inline javascript code from executing while keeping the desirable inline javascript code intact. At time of writing, this script tag filter worked for the site:
 
     www.focus.de##script:contains(uabInject)
 
