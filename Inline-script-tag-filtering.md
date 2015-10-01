@@ -64,6 +64,13 @@ For example, the web site at `http://focus.de/` will resort to deface itself wit
 
 ...
 
+#### Caveats
+
+Script tag filters do not work in all browsers, due to browser API limitations:
+
+- Not supported in Chromium-based browser.
+- Not supported on older version of Firefox.
+
 ***
 
 - [1] Through the use of the `inline-script` static filter option (`||example.com^$inline-script`), or through the use of a dynamic filtering block rule for _inline scripts_.
