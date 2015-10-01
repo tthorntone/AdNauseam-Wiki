@@ -44,6 +44,26 @@ So we can use script tag filtering for our above example to specifically disable
 
 This filter means: for any web pages from the `foo.example` web site, disable all inline script tags which contains the string `nuisanceCode`.
 
+In the cat and mouse game between web sites and blockers, the new script tag filter is a welcomed new tool on the user side, to foil attempt by site to work around blockers.
+
+The big advantage of this new filter is that it can fix many of the anti-blocker workarounds web sites use at the _source_.
+
+For example, the web site at `http://focus.de/` will resort to deface itself with ridiculous ads when the site detects that the user is using a blocker, and using _EasyList_ + _EasyList Germany_ does not work. Wholesale blocking of inline scripts does prevent the auto-defacing, but possibly at the cost of using useful functionalities. However, a script tag filter to block the specific inline script tag which contains the self-defacement javascript code allows a more targeted approach: prevent the undesirable inlibe javascript code from executing while keeping the desirable inline javascript code intact. At time of writing, this script tag filter worked for that site:
+
+    www.focus.de##script:contains(uabInject)
+
+#### Why is the new script tag filter a cosmetic one?
+
+...
+
+#### When to use a script tag filter?
+
+...
+
+#### How to craft a good script tag filter?
+
+...
+
 ***
 
 - [1] Through the use of the `inline-script` static filter option (`||example.com^$inline-script`), or through the use of a dynamic filtering block rule for _inline scripts_.
