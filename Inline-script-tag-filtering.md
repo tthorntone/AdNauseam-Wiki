@@ -48,7 +48,7 @@ This filter means: for any web pages from the `foo.example` web site, disable al
 
 In the cat and mouse game between web sites and blockers, the new script tag filter is a welcomed new tool on the user side, to foil attempt by site to work around blockers.
 
-The big advantage of this new filter is that it can fix many _at the source_ of the anti-blocker workarounds used by some web sites.
+The big advantage of this new filter is that it can fix _at the source_ many of the anti-blocker workarounds used by some web sites.
 
 For example, the web site at `http://focus.de/` will resort to deface itself with ridiculous ads when the site detects that the user is using a blocker, and using _EasyList_ + _EasyList Germany_ does not work, as the images pulled by the page are randomly named defeating pattern-based network filters and easily defeating cosmetic filters as well.
 
