@@ -1,3 +1,5 @@
+[under construction]
+
 There are many ways to block script tags from executing in uBlock Origin:
 
 - Block external script resources.
