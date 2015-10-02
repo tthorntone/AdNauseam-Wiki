@@ -5,7 +5,7 @@ There are many ways to block script tags from executing in uBlock Origin:
 - Block external script resources: these are taken care by network filtering.
 - Block all inline script tags embedded in a page at once.<sup>[1]</sup>
 
-Inline script tags are those scripts which are embedded in the main page: they can not be blocked from downloading unless the whole page itself is blocked, which is not very useful. Here is a example of HTML code with two inline script tags:
+Inline script tags are those blocks of javascript code which are embedded in the main page: they can not be blocked from downloading unless the whole page itself is blocked, which is not very useful. Here is a example of HTML code with two inline script tags:
 
 ```html
 <html>
