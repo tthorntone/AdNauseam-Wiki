@@ -13,3 +13,7 @@ The feature works only on version 42 and above.
 ##### Firefox
 
 WebRTC is required for Firefox Hello to work properly. Thus Firefox Hello won't work if you enable this setting.
+
+#### See also
+
+- [WebRTC WG / Privacy/IPAddresses](https://www.w3.org/wiki/Privacy/IPAddresses)
