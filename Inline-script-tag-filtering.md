@@ -52,7 +52,7 @@ The big advantage of this new filter is that it can fix _at the source_ many of 
 
 For example, the web site at `http://focus.de/` will resort to deface itself with ridiculous ads when the site detects that the user is using a blocker, and using _EasyList_ + _EasyList Germany_ does not work, as the images pulled by the page are randomly named, defeating pattern-based network filters and cosmetic filters as well.
 
-Wholesale blocking of inline script tags does prevent the auto-defacing, but possibly at the cost of using useful functionalities. However, a script tag filter to block the specific inline script tag which contains the self-defacement javascript code allows a more targeted approach: prevent the undesirable inline javascript code from executing while keeping the desirable inline javascript code intact. At time of writing, this script tag filter worked for the site:
+Wholesale blocking of inline script tags does prevent the self-defacing, but possibly at the cost of disabling other possible useful functionalities on the page. However, a script tag filter to block the specific inline script tag which contains the self-defacement javascript code allows a more targeted approach: prevent the undesirable inline javascript code from executing while keeping the desirable inline javascript code intact. At time of writing, this script tag filter worked for the site:
 
     www.focus.de##script:contains(uabInject)
 
