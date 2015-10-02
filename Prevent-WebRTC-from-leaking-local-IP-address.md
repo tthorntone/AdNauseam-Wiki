@@ -8,6 +8,8 @@ For example, if you use a VPN, your internet-facing IP address is that of the VP
 
 It has been reported that Google Hangout and Facebook messenger do not work properly when this setting is enabled (issue [#757](https://github.com/gorhill/uBlock/issues/757), [#681](https://github.com/gorhill/uBlock/issues/681)).
 
+If you are using an extension-based VPN, this setting won't [prevent your ISP IP address from leaking](https://code.google.com/p/chromium/issues/detail?id=457492#c44).
+
 The feature works only on version 42 and above.
 
 ##### Firefox
