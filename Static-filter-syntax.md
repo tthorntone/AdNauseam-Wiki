@@ -1,6 +1,6 @@
 uBlock Origin supports Adblock Plus ("ABP") filter syntax, so you can refer to [existing filter syntax documentation from Adblock Plus web site](https://adblockplus.org/en/filter-cheatsheet).
 
-However uBlock Origin does not support some very specific cases, and also added its own extensions to ABP filter syntax (which at time of writing are not recognized by ABP).
+However uBlock Origin does not support some very specific cases, and also adds its own extensions to ABP filter syntax (which at time of writing are not recognized by ABP).
 
 ### Not supported		
 
