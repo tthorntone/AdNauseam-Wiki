@@ -1,12 +1,14 @@
-uBlock supports most of [Adblock Plus filter syntax](https://adblockplus.org/en/filter-cheatsheet). However uBlock does not support some very specific cases, and also added its own extensions to ABP filter syntax.
+uBlock Origin supports Adblock Plus ("ABP") filter syntax, so you can refer to [existing filter syntax documentation from Adblock Plus web site](https://adblockplus.org/en/filter-cheatsheet).
+
+However uBlock Origin does not support some very specific cases, and also added its own extensions to ABP filter syntax (which at time of writing are not recognized by ABP).
 
 ### Not supported		
 
 `document` for _exception_ filters (those prefixed with `@@`):
 
-Not supported. The purpose of the `document` option when used with an exception filter is to disable uBlock Origin completely.
+Not supported. The purpose of the `document` option when used with an exception filter is to disable uBlock Origin completely. The purpose of the `document` option in static exception filters is mostly for the sake of "acceptable ads" support, which uBlock Origin does not support.
 
-The reason it is not supported is to be sure that users explicitly disable uBlock themselves if they wish (through [whitelisting](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)), not having some external filter list decide for them.
+The reason it is not supported is to be sure that users explicitly disable uBlock Origin themselves if they wish (through [whitelisting](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)), not having some external filter list decide for them.
 
 ### Extended syntax
 
@@ -42,5 +44,4 @@ An _entity_ is defined as follow: a formal domain name with the Public Suffix pa
 
 Examples: `google.*`  will apply to all similar Google domain names: `google.com`, `google.com.br`, `google.ca`, `google.co.uk`, etc. Another example: `facebook.*` will apply to all similar Facebook domain names: `facebook.com`, `facebook.net`.
 
-
-Since the base domain name is used to derive the "entity", `google.evil.biz` would **not** match `google.*`.
+Since the base domain name is used to derive the name of the "entity", `google.evil.biz` would **not** match `google.*`.
