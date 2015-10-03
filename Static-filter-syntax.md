@@ -50,7 +50,9 @@ To specifically disable inline script tags in a main page: `||example.com^$inlin
 
 #### Cosmetic filters
 
-**Entity-based cosmetic filters:** Filters which are to be applied to a specific _entity_.
+**Entity-based cosmetic filters:** Filters which are to be applied to a specific _entity_:
+
+    google.*###tads.c
 
 An _entity_ is defined as follow: a formal domain name with the Public Suffix part replaced by a wildcard.
 
