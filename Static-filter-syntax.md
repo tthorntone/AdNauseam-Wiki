@@ -60,6 +60,8 @@ Examples: `google.*`  will apply to all similar Google domain names: `google.com
 
 Since the base domain name is used to derive the name of the "entity", `google.evil.biz` would **not** match `google.*`.
 
+##### Special cosmetic filters
+
 `script:contains(...)`:
 
 uBlock Origin supports a special cosmetic filter which purpose is to prevent the execution of specific inline script tag in a main HTML document. See [_"Inline script tag filtering"_](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering) for further documentation.
