@@ -16,6 +16,18 @@ uBlock Origin extends Adblock Plus filter syntax.
 
 #### Network filters
 
+uBlock Origin can also parse HOSTS file-like resources. However, this creates an ambiguity with ABP filter syntax, which is pattern-based. For exemple, consider the following filter entry:
+
+    example.com
+
+ABP filter syntax dictates that this is interpreted as "block network requests which URL contains `example.com` at any position". However if the entry comes from a HOSTS file, the interpretation must be "block network requests to the site `example.com`".
+
+So in uBlock Origin, any entry which can be read as a valid hostname, will be assumed to be a HOSTS file entry. If ever you want such filter to be parsed as an ABP filter, just add a wildcard at the end:
+
+    example.com*
+
+##### Network filters options
+
 `document` for _block_ filters:
 
 This will cause web pages which match the filter to be subjected to [strict blocking](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-strict-blocking).
