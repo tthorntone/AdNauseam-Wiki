@@ -58,7 +58,9 @@ Wholesale blocking of inline script tags does prevent the self-defacing, but pos
 
 #### Why is the new script tag filter a cosmetic one?
 
-...
+Because blocking inline script tags is conceptually closer to cosmetic filtering than network filtering: inline script tags are embedded in a web page, so if the web page is downloaded, the inline script tags are downloaded -- there is no way around this.
+
+Whatever can't be blocked using a network request filter can be taken care by a cosmetic filter, which is the removal of DOM elements from a web page. Hence inline script tag filtering is implemented using the cosmetic filter syntax -- the only difference is that when blocked, inline script tags are not removed from view but instead the execution of the javascript code inside the script tag is blocked.
 
 #### When to use a script tag filter?
 
