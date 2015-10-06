@@ -56,6 +56,15 @@ Wholesale blocking of inline script tags does prevent the self-defacing, but pos
 
     www.focus.de##script:contains(uabInject)
 
+#### Concrete examples of usefulness
+
+Try without, then with the respective inline script tag filter:
+
+- <http://dayt.se/forum/activity.php> => `dayt.se##script:contains(adBlockDetected)` (see ["Blocking FuckAdblock"](https://adblockplus.org/forum/viewtopic.php?f=2&t=40895))
+- <http://explosm.net/comics/1525/> => `explosm.net##script:contains(/^__durl=/)`
+- <http://www.focus.de/> => `focus.de.de##script:contains(uabInject)`
+- <http://www.rp-online.de/> => `rp-online.de##script:contains(uabInject)`
+
 #### Why is the new inline script tag filter a cosmetic one?
 
 Because blocking inline script tags is conceptually closer to cosmetic filtering than network filtering: inline script tags are embedded in a web page, so if the web page is downloaded, the inline script tags are downloaded -- there is no way around this.
