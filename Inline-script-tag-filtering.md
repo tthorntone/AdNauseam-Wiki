@@ -64,6 +64,7 @@ Try without, then with the respective inline script tag filter:
 - <http://explosm.net/comics/1525/>: `explosm.net##script:contains(/^__durl=/)`
 - <http://www.focus.de/>: `focus.de.de##script:contains(uabInject)`
 - <http://www.rp-online.de/>: `rp-online.de##script:contains(uabInject)`
+- <http://arstechnica.com/>: `arstechnica.com##script:contains(ars.READY.push)`
 
 #### Why is the new inline script tag filter a cosmetic one?
 
