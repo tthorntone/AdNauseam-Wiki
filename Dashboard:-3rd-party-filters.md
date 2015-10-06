@@ -4,6 +4,8 @@
 
 The _3rd-party filters_ pane is where you subscribe to filter lists. The filter lists to which you subscribe will feed uBlock Origin's [static filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details#static-filtering).
 
+The picture below shows uBlock Origin's default selection of filter lists. You can add more, or remove some of the filter lists already selected by default (for reference, most other blockers have only EasyList selected).
+
 ![3rd-party filter pane](https://cloud.githubusercontent.com/assets/585534/9589096/0b6cc212-4ffa-11e5-82f1-d276b71fef91.png)
 
 ***
