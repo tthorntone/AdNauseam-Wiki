@@ -60,10 +60,10 @@ Wholesale blocking of inline script tags does prevent the self-defacing, but pos
 
 Try without, then with the respective inline script tag filter:
 
-- <http://dayt.se/forum/activity.php> => `dayt.se##script:contains(adBlockDetected)` (see ["Blocking FuckAdblock"](https://adblockplus.org/forum/viewtopic.php?f=2&t=40895))
-- <http://explosm.net/comics/1525/> => `explosm.net##script:contains(/^__durl=/)`
-- <http://www.focus.de/> => `focus.de.de##script:contains(uabInject)`
-- <http://www.rp-online.de/> => `rp-online.de##script:contains(uabInject)`
+- <http://dayt.se/forum/activity.php>: `dayt.se##script:contains(adBlockDetected)` (see ["Blocking FuckAdblock"](https://adblockplus.org/forum/viewtopic.php?f=2&t=40895))
+- <http://explosm.net/comics/1525/>: `explosm.net##script:contains(/^__durl=/)`
+- <http://www.focus.de/>: `focus.de.de##script:contains(uabInject)`
+- <http://www.rp-online.de/>: `rp-online.de##script:contains(uabInject)`
 
 #### Why is the new inline script tag filter a cosmetic one?
 
