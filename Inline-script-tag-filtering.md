@@ -1,4 +1,4 @@
-Back to [Static filter syntax](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering).
+Back to [Static filter syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax).
 
 ***
 
