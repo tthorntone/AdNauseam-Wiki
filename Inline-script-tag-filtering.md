@@ -104,7 +104,7 @@ Script tag filters do not work in all browsers, due to browser API limitations:
 
 - Not supported in Chromium-based browser.
     - Starring the [related Chromium issue](https://code.google.com/p/chromium/issues/detail?id=168175) may help motivate Chromium devs to implement support.
-- Not supported on older version of Firefox.
+- Not supported on older versions of Firefox.
 
 ***
 
