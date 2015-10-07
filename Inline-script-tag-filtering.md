@@ -1,3 +1,13 @@
+Back to [Static filter syntax](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering).
+
+***
+
+- [Compatibility with Adblock Plus](#compatibility-with-adblock-plus)
+- [Concrete examples of usefulness](#concrete-examples-of-usefulness)
+- [Why is the new inline script tag filter a cosmetic one?](#why-is-the-new-inline-script-tag-filter-a-cosmetic-one-)
+
+***
+
 [under construction]
 
 There are many ways to block script tags from executing in uBlock Origin:
