@@ -8,9 +8,9 @@ Back to [Static filter syntax](https://github.com/gorhill/uBlock/wiki/Inline-scr
 - [Why is the new inline script tag filter a cosmetic one?](#why-is-the-new-inline-script-tag-filter-a-cosmetic-one)
 - [Caveats](#caveats)
 
-*** Overview
+***
 
-####
+#### Overview
 
 There are many ways to block script tags from executing in uBlock Origin:
 
