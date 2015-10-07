@@ -56,6 +56,10 @@ Wholesale blocking of inline script tags does prevent the self-defacing, but pos
 
     www.focus.de##script:contains(uabInject)
 
+#### Compatibility with Adblock Plus
+
+It appears inline script tag cosmetic filters can be used in filter lists which are also meant to be used for Adblock Plus ("ABP") -- ABP will ignore the `[...]##script:contains([...])` filters. This makes it possible for maintainer of filter lists to make use of this new filter syntax for the benefit of uBlock Origin users while not causing problem for users of ABP.
+
 #### Concrete examples of usefulness
 
 Try without, then with the respective inline script tag filter:
