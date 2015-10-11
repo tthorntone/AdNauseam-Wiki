@@ -110,4 +110,6 @@ Whatever can't be blocked using a network request filter can be taken care by a 
 
 ...
 
+---
+
 - [1] Through the use of the `inline-script` static filter option (`||example.com^$inline-script`), or through the use of a dynamic filtering block rule for _inline scripts_.
