@@ -2,11 +2,21 @@ Back to [Static filter syntax](https://github.com/gorhill/uBlock/wiki/Static-fil
 
 ***
 
+- [Caveats](#caveats)
 - [Overview](#overview)
 - [Compatibility with Adblock Plus](#compatibility-with-adblock-plus)
 - [Concrete examples of usefulness](#concrete-examples-of-usefulness)
 - [Why is the new inline script tag filter a cosmetic one?](#why-is-the-new-inline-script-tag-filter-a-cosmetic-one)
-- [Caveats](#caveats)
+
+***
+
+#### Caveats
+
+Script tag filters do not work in all browsers, due to browser API limitations:
+
+- Not supported in Chromium-based browser.
+    - Starring the [related Chromium issue](https://code.google.com/p/chromium/issues/detail?id=168175) may help motivate Chromium devs to implement support.
+- Not supported on older versions of Firefox.
 
 ***
 
@@ -97,15 +107,5 @@ Whatever can't be blocked using a network request filter can be taken care by a 
 #### How to craft a good script tag filter?
 
 ...
-
-#### Caveats
-
-Script tag filters do not work in all browsers, due to browser API limitations:
-
-- Not supported in Chromium-based browser.
-    - Starring the [related Chromium issue](https://code.google.com/p/chromium/issues/detail?id=168175) may help motivate Chromium devs to implement support.
-- Not supported on older versions of Firefox.
-
-***
 
 - [1] Through the use of the `inline-script` static filter option (`||example.com^$inline-script`), or through the use of a dynamic filtering block rule for _inline scripts_.
