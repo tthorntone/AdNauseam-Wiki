@@ -86,13 +86,15 @@ The compatibility was verified for the Firefox version of ABP however, I did not
 
 #### Concrete examples of usefulness
 
-Try without, then with the respective inline script tag filter:
+A concrete example of a site which resort to self-defacement when it detects that a blocker is in use -- the front page of [rp-online.de](http://www.rp-online.de/):
 
-- <http://dayt.se/forum/activity.php>: `dayt.se##script:contains(adBlockDetected)` (see ["Blocking FuckAdblock"](https://adblockplus.org/forum/viewtopic.php?f=2&t=40895))
-- <http://explosm.net/comics/1525/>: `explosm.net##script:contains(/^__durl=/)`
-- <http://www.focus.de/>: `focus.de.de##script:contains(uabInject)`
-- <http://www.rp-online.de/>: `rp-online.de##script:contains(uabInject)`
-- <http://arstechnica.com/>: `arstechnica.com##script:contains(ars.READY.push)`
+Without inline script tag filtering:<br>
+![without inline script tag filtering](https://cloud.githubusercontent.com/assets/585534/10417577/ec9bbe80-700e-11e5-8fc1-3f21358b45ee.png)
+
+With an appropriate inline script tag filter:<br>
+![with inline script tag filtering](https://cloud.githubusercontent.com/assets/585534/10417578/eeb27aba-700e-11e5-9c2e-0845cd27b404.png)
+
+The _uBlock filters_ list, which is selected by default, already contains a couple of inline script tag filters to take care of some of these annoyances.
 
 #### Why is the new inline script tag filter a cosmetic one?
 
