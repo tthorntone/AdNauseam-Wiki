@@ -4,6 +4,17 @@ The best way to troubleshoot uBlock is with uBlock: the [logger](https://github.
 
 ***
 
+#### Firefox: uBlock's popup UI is not displaying
+
+You can fix this by following the following steps:
+1.  In the navigation bar (Awesome Bar) enter `about:config`
+2.  Click on the `I'll be careful, I promise!` button
+3.  Search for `ublock0`
+4.  Double click on `extensions.ublock0.forceLegacyToolbarButton` so that the value = `true`
+5.  Restart Firefox
+
+***
+
 #### Links to social networks are blocked
 
 Because you enabled _"Fanboy’s Social Blocking List"_, or one of the filter lists which includes it, like _"Fanboy’s Annoyance List"_ or _"Fanboy+Easylist-Merged Ultimate List"_.
