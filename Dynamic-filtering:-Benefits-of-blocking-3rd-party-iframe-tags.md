@@ -6,11 +6,12 @@
 
 ### Malware protection
 
-`iframe` tags are very often used by malware code on compromised web sites. A recent example of this is ~~[Firefox's javascript-based PDF reader](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/)~~ [Malware With Your News? Forbes Website Victim of Malvertising Attack](https://www.fireeye.com/blog/threat-research/2015/09/malvertising_attack.html).
+`iframe` tags are very often used by malware code on compromised web sites. A recent example of this is ~~[Malware With Your News? Forbes Website Victim of Malvertising Attack](https://www.fireeye.com/blog/threat-research/2015/09/malvertising_attack.html)~~ [Angler Exploit Kit Blasts Daily Mail Visitors Via Malvertising](https://blog.malwarebytes.org/malvertising-2/2015/10/angler-exploit-kit-blasts-daily-mail-visitors-via-malvertising/).
 
 Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique: 
 
-- [_"Malware With Your News? Forbes Website Victim of Malvertising Attack"_](https://www.fireeye.com/blog/threat-research/2015/09/malvertising_attack.html) (newly added)
+- [_"Angler Exploit Kit Blasts Daily Mail Visitors Via Malvertising"_](https://blog.malwarebytes.org/malvertising-2/2015/10/angler-exploit-kit-blasts-daily-mail-visitors-via-malvertising/) (newly added)
+- [_"Malware With Your News? Forbes Website Victim of Malvertising Attack"_](https://www.fireeye.com/blog/threat-research/2015/09/malvertising_attack.html) (recently added)
 - [_"Malvertising Hits Online Dating Site PlentyOfFish"_](https://blog.malwarebytes.org/malvertising-2/2015/08/malvertising-hits-online-dating-site-plentyoffish/)
 - [_"Firefox exploit found in the wild"_](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/)
 - [_"Advert Strikes Out Via Copycat Gaming Site"_](https://blog.malwarebytes.org/malvertising-2/2015/07/advert-strikes-out-via-copycat-gaming-site/)
