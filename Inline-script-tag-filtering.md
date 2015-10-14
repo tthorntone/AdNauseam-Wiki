@@ -86,7 +86,7 @@ The compatibility was verified for the Firefox version of ABP however, I did not
 
 #### Concrete examples of usefulness
 
-A concrete example of a site which resort to self-defacement when it detects that a blocker is in use -- the front page of [rp-online.de](http://www.rp-online.de/):
+A concrete example of a site which resorts to self-defacement when it detects that a blocker is in use -- the front page of [rp-online.de](http://www.rp-online.de/):
 
 Without inline script tag filtering:<br>
 ![without inline script tag filtering](https://cloud.githubusercontent.com/assets/585534/10417577/ec9bbe80-700e-11e5-8fc1-3f21358b45ee.png)
