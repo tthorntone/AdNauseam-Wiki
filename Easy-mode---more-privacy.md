@@ -12,7 +12,7 @@ An obvious example is Facebook: the Facebook widgets to _like_ something are emb
 
 uBlock Origin's [_dynamic filtering_](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering) can help you foil the ability of ubiquitous servers from building a profile of your browsing habits.
 
-Will use Facebook as an example. Facebook will still have the ability to track your browsing habits when using uBlock Origin with its default settings (see benchmark's raw data: notice in the [list of 3rd parties](https://github.com/gorhill/uBlock/wiki/Blocking-mode#easy-mode) how `facebook.net` is ubiquitous).
+Will use Facebook as an example. Facebook will still have the ability to track your browsing habits when using uBlock Origin with its default settings [see benchmark's raw data: notice in the [list of 3rd parties](https://github.com/gorhill/uBlock/wiki/Blocking-mode#easy-mode) how `facebook.net` is ubiquitous].
 
 First, we block Facebook-related hostnames globally, such that network requests to Facebook servers are blocked _by default_:
 
