@@ -54,7 +54,7 @@ What makes uBlock efficient is the core filtering engine, which is composed of m
 
 **Update** (2015-08-28): static filtering engine is further diverging with fix to [_"Suggestion - list which content is blocked"_](https://github.com/gorhill/uBlock/issues/58) and [_"Problem on Yahoo Search Pages"_](https://github.com/gorhill/uBlock/issues/621).
 
-**Update** (2015-10-15): cosmetic filtering engine further diverging with fixes to [_"Logger does not report [style="..."]"_](https://github.com/gorhill/uBlock/issues/435) and [_"Revisit cosmetic filtering's `FilterPlain` implementation"_](https://github.com/gorhill/uBlock/issues/711).
+**Update** (2015-10-15): cosmetic filtering engine further diverging with fixes to [_"Logger does not report [style=...]"_](https://github.com/gorhill/uBlock/issues/435) and [_"Revisit cosmetic filtering's `FilterPlain` implementation"_](https://github.com/gorhill/uBlock/issues/711).
 
 ***
 
