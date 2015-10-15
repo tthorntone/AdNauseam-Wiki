@@ -42,7 +42,7 @@ Bug/issue fixing is as important -- if not more -- as adding useful features, es
 
 Reported [issues have been, and continue to fixed in uBlock Origin](https://github.com/gorhill/uBlock/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc).
 
-As of writing (2015-08-28), uBlock development has been essentially stalled for weeks now, and this includes [bug fixing](https://github.com/chrisaljoudi/uBlock/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc) (despite the maintainer's claim that the _"uBlock team works to develop and design uBlock"_ on his [donation page](https://donorbox.org/ublock)).
+As of writing (2015-08-28), uBlock development has been essentially stalled for months now, and this includes [bug fixing](https://github.com/chrisaljoudi/uBlock/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc) (despite the maintainer's claim that the _"uBlock team works to develop and design uBlock"_ on his [donation page](https://donorbox.org/ublock)).
 
 ***
 
