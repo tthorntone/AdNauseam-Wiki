@@ -113,7 +113,7 @@ Whatever can't be blocked using a network request filter can be taken care by a 
 
 #### Does Adblock Plus support this filter syntax?
 
-No. And apparently, [they won't](https://issues.adblockplus.org/ticket/748#comment:9) ("trev" on Adblock Plus issue tracker):
+No. And apparently, they won't -- [Wladimir Palant ("trev") on Adblock Plus issue tracker](https://issues.adblockplus.org/ticket/748#comment:9):
 
 > Not quite the same thing - he is "blocking" individual scripts (something that inevitably causes a massive performance overhead). Not that it is significantly more useful as a result, anti-adblock messages can easily be combined with required website functionality in the same `<script>` tag. They won't do that for a small extension like uBlock but they will definitely do it if we implement something like that.
 
@@ -131,7 +131,7 @@ Inline script tag filters are something to use as last resort when all else fail
 
 The cat and mouse game between blockers and sites will never stop -- and inline script tag filtering does not pretend to put an end to this: it's one more tool on the end user side. It makes no sense to claim that such filtering ability is pointless because it will be worked around, when sites such as _Bild Online_ are _already_ successfully working around Adblock Plus.
 
-In short, the comment from the ABP developer (I suppose) shows more of the same mindset as [happened in the past](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39).
+In short, this comment from Wladimir Palant shows more of the same mindset as [happened in the past](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39).
 
 ***
 
