@@ -34,6 +34,6 @@ All suggested global `noop` rules for Facebook.
     facebook.com facebook.net * noop
     facebook.com fbcdn.net * noop
 
-This is just an example, the same can be applied to any of the ubiquitous servers out there. The dynamic filtering pane in uBlock Origin's popup UI will keep you informed about all the 3rd-party servers web page connect (or try to), and from there out can simply point-and-click to create global/local block/allow rules.
+This is just an example, the same can be applied to any of the ubiquitous servers out there. The dynamic filtering pane in uBlock Origin's popup UI will keep you informed about all the 3rd-party servers a web page connects (or tries to), and from there one can simply point-and-click to create global/local block/allow rules to foil the ability of 3rd parties to record your browsing history.
 
-Block rules to ubiquitous web sites will easily reduce significantly your privacy exposure.
+`block` rules to ubiquitous web sites will easily reduce _significantly_ your privacy exposure.
