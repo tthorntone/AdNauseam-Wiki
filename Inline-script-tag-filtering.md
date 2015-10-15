@@ -79,11 +79,15 @@ Wholesale blocking of inline script tags does prevent the self-defacing, but pos
 
     www.focus.de##script:contains(uabInject)
 
+***
+
 #### Compatibility with Adblock Plus
 
 It appears inline script tag cosmetic filters can be used in filter lists which are also meant to be used for Adblock Plus ("ABP") -- ABP will ignore the `[...]##script:contains([...])` filters. This makes it possible for maintainers of filter lists to make use of this new filter syntax for the benefit of uBlock Origin users while not causing problem for users of ABP.
 
 The compatibility was verified for the Firefox version of ABP however, I did not check for the Chromium version of ABP. This will need confirmation for whether using the new filter on a Chromium version of ABP has no negative consequences.
+
+***
 
 #### Concrete examples of usefulness
 
@@ -102,6 +106,8 @@ The _uBlock filters_ list, which is selected by default, already contains a coup
 Because blocking inline script tags are conceptually closer to cosmetic filtering than network filtering: inline script tags are embedded in a web page, so if the web page is downloaded, the inline script tags are downloaded -- there is no way around this.
 
 Whatever can't be blocked using a network request filter can be taken care by a cosmetic filter, which is the removal of DOM elements from a web page. Hence inline script tag filtering is implemented using the cosmetic filter syntax -- the only difference is that when blocked, inline script tags are not removed from view (they are already invisible) but instead the execution of the javascript code inside the script tag is blocked.
+
+***
 
 #### Does Adblock Plus support this filter syntax?
 
