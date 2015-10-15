@@ -36,6 +36,7 @@ Summary ([as per Wikipedia](https://en.wikipedia.org/wiki/UBlock)):
 | | [privacy: prevent local IP address leak through WebRTC](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#prevent-webrtc-from-leaking-local-ip-address)  |
 | | [DOM inspector](https://github.com/gorhill/uBlock/releases/tag/1.0.0.0)  |
 | | [cloud storage support](https://github.com/gorhill/uBlock/wiki/Cloud-storage)  |
+| | [inline script tag filtering](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering) |
 
 Bug/issue fixing is as important -- if not more -- as adding useful features, especially for a project which represents itself as being under active development.
 
