@@ -121,11 +121,11 @@ My comment about this post:
 
 > inevitably causes a massive performance overhead
 
-Notice the lack any data/figures for such an authoritative statement. Also by all appearances, whoever wrote this did not look at the code: the event listener which enforces inline script tag filtering is installed **if and only if** there are actual inline script tag filters to enforce on any given page.
+Notice the lack any data/figures for such an authoritative statement. Also by all appearances, he did not look at the code: the event listener which enforces inline script tag filtering is installed **if and only if** there are actual inline script tag filters to enforce on any given page.
 
 Also, when script tag filters are present, it's entirely reasonable to imagine that whatever extra overhead inline script tag filtering _may_ cause, such overhead might likely be offset completely or more by the entire cascade of events **not** happening in the browser as a result of the blocking.
 
-Inline script tag filters are something to use as last resort when all else fail. Without inline script tag filters, when all else fail, the remedy is to disable the blocker -- which is the absolute worst option, which has a much worst effect on performance than the code used to enforce inline script tag filters.
+Inline script tag filters are something to use as last resort when all else fail. Without inline script tag filters, when all else fail, the remedy is to disable the blocker -- which is the absolute worst option, which has a much worst effect on performance than the code used to enforce inline script tag filters. Currently this is what users of Adblock Plus have to do: disable the extension on _Bild_.
 
 > They won't do that for a small extension like uBlock but they will definitely do it if we implement something like that.
 
