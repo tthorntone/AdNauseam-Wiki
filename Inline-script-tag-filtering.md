@@ -87,6 +87,8 @@ It appears inline script tag cosmetic filters can be used in filter lists which 
 
 The compatibility was verified for the Firefox version of ABP however, I did not check for the Chromium version of ABP. This will need confirmation for whether using the new filter on a Chromium version of ABP has no negative consequences.
 
+**Update:** Compatibility was verified with the Chromium version of ABP, and unfortunately this new filter syntax breaks ABP, as it fails to validate and discard invalid CSS selectors.
+
 ***
 
 #### Concrete examples of usefulness
