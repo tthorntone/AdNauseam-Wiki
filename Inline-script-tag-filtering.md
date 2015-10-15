@@ -102,14 +102,6 @@ Because blocking inline script tags are conceptually closer to cosmetic filterin
 
 Whatever can't be blocked using a network request filter can be taken care by a cosmetic filter, which is the removal of DOM elements from a web page. Hence inline script tag filtering is implemented using the cosmetic filter syntax -- the only difference is that when blocked, inline script tags are not removed from view (they are already invisible) but instead the execution of the javascript code inside the script tag is blocked.
 
-#### When to use a script tag filter?
-
-...
-
-#### How to craft a good script tag filter?
-
-...
-
 #### Does Adblock Plus support this filter syntax?
 
 No. And apparently, [they won't](https://issues.adblockplus.org/ticket/748):
