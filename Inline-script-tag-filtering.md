@@ -7,6 +7,7 @@ Back to [Static filter syntax](https://github.com/gorhill/uBlock/wiki/Static-fil
 - [Compatibility with Adblock Plus](#compatibility-with-adblock-plus)
 - [Concrete examples of usefulness](#concrete-examples-of-usefulness)
 - [Why is the new inline script tag filter a cosmetic one?](#why-is-the-new-inline-script-tag-filter-a-cosmetic-one)
+- [Does Adblock Plus support this filter syntax](#does-adblock-plus-support-this-filter-syntax)
 
 ***
 
