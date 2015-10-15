@@ -14,7 +14,7 @@ uBlock Origin's [_dynamic filtering_](https://github.com/gorhill/uBlock/wiki/Dyn
 
 Will use Facebook as an example. Facebook will still have the ability to track your browsing habits when using uBlock Origin with its default settings [see benchmark's raw data for [_Easy Mode_](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-easy-mode): notice in the [list of 3rd parties](https://github.com/gorhill/uBlock/wiki/Blocking-mode#easy-mode) how `facebook.net` is ubiquitous].
 
-First, we block Facebook-related hostnames globally, such that network requests to Facebook servers are blocked _by default_:
+First, we block Facebook-related hostnames globally, such that network requests to Facebook servers are blocked _by default, everwhere_:
 
 ![Block `facebook.net` everywhere](https://cloud.githubusercontent.com/assets/585534/10513149/aa42ac9e-7313-11e5-8b71-42383b58fcd4.png)
 
