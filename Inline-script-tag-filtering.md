@@ -113,7 +113,7 @@ My comment about this post:
 
 > inevitably causes a massive performance overhead
 
-Notice the lack any data/figures for such an authoritative statements. Also by all appearances, whoever wrote this did not look at the code: the event listener which enforce inline script tag filters is installed **if and only if** there are actual inline script tag filters to enforce on any given page.
+Notice the lack any data/figures for such an authoritative statement. Also by all appearances, whoever wrote this did not look at the code: the event listener which enforce inline script tag filters is installed **if and only if** there are actual inline script tag filters to enforce on any given page.
 
 Also, when script tag filters are present, it's entirely reasonable to imagine that whatever extra overhead inline script tag filtering may cause, it's very reasonable to imagine such overhead might likely be offset completely or more by the entire cascade of events **not** happening in the browser as a result of the blocking.
 
