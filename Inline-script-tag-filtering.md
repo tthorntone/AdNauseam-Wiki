@@ -101,6 +101,8 @@ With an appropriate inline script tag filter:<br>
 
 The _uBlock filters_ list, which is selected by default, already contains a couple of inline script tag filters to take care of some of these annoyances.
 
+***
+
 #### Why is the new inline script tag filter a cosmetic one?
 
 Because blocking inline script tags are conceptually closer to cosmetic filtering than network filtering: inline script tags are embedded in a web page, so if the web page is downloaded, the inline script tags are downloaded -- there is no way around this.
