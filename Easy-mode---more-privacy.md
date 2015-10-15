@@ -16,7 +16,7 @@ First, we block Facebook-related hostnames globally, such that network requests 
 
 ![Block `facebook.net` everywhere](https://cloud.githubusercontent.com/assets/585534/10513149/aa42ac9e-7313-11e5-8b71-42383b58fcd4.png)
 
-All suggested global `block` rules for Facebook:
+All suggested global `block` rules for Facebook:<sup>[1]</sup>
 
     * facebook.net * block
     * facebook.com * block
@@ -28,7 +28,7 @@ Blocking Facebook when visiting Facebook is not ideal though, and there is no re
 
 ![Do not block `facebook.com` while visiting Facebook](https://cloud.githubusercontent.com/assets/585534/10513464/b3e0f09c-7315-11e5-8e0b-90d3cc8614f7.png)
 
-All suggested global `noop` rules for Facebook.
+All suggested global `noop` rules for Facebook.<sup>[1]</sup>
 
     facebook.com facebook.com * noop
     facebook.com facebook.net * noop
@@ -37,3 +37,7 @@ All suggested global `noop` rules for Facebook.
 This is just an example, the same can be applied to any of the ubiquitous servers out there. The dynamic filtering pane in uBlock Origin's popup UI will keep you informed about all the 3rd-party servers a web page connects (or tries to), and from there one can simply point-and-click to create global/local block/allow rules to foil the ability of 3rd parties to record your browsing history.
 
 `block` rules to ubiquitous web sites will easily reduce _significantly_ your privacy exposure.
+
+***
+
+<sub>[1] At time of writing. Ubiquitous servers may eventually change their hostnames or add new ones. As a good habit, regularly investigate which 3rd parties are embedded in the web pages you visit.</sub>
