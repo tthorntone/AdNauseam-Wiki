@@ -110,28 +110,6 @@ Whatever can't be blocked using a network request filter can be taken care by a 
 
 ...
 
-#### Does Adblock Plus support this filter syntax?
-
-No. And apparently, [they won't](https://issues.adblockplus.org/ticket/748):
-
-> Not quite the same thing - he is "blocking" individual scripts (something that inevitably causes a massive performance overhead). Not that it is significantly more useful as a result, anti-adblock messages can easily be combined with required website functionality in the same <script> tag. They won't do that for a small extension like uBlock but they will definitely do it if we implement something like that.
-
-My comment about this post:
-
-> inevitably causes a massive performance overhead
-
-Notice the lack any data/figures for such an authoritative statements. Also by all appearances, whoever wrote this did not look at the code: the event listener which enforce inline script tag filters is installed **if and only if** there are actual inline script tag filters to enforce on any given page.
-
-Also, when script tag filters are present, it's entirely reasonable to imagine that whatever extra overhead inline script tag filtering may cause, it's very reasonable to imagine such overhead might likely be offset completely or more by the entire cascade of events **not** happening in the browser as a result of the blocking.
-
-Inline script tag filters are something to use as last resort when all else fail. Without inline script tag filters, when all else fail, the remedy is to disable the blocker -- which is the absolute worst option, which has a much worst effect on performance than the code used to enforce inline script tag filters.
-
-> They won't do that for a small extension like uBlock but they will definitely do it if we implement something like that.
-
-The cat and mouse game between blockers and sites will never stop -- and inline script tag filtering does not pretend to put an end to this: it's one more tool on the end user side. It makes no sense to claim that such filtering ability is pointless because it will be worked around, when sites such as _Bild Online_ are _already_ successfully working around Adblock Plus.
-
-In short, more of the same mindset as [happened in the past](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39).
-
 ***
 
 - [1] Through the use of the `inline-script` static filter option (`||example.com^$inline-script`), or through the use of a dynamic filtering block rule for _inline scripts_.
