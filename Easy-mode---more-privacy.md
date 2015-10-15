@@ -24,7 +24,7 @@ All suggested global `block` rules for Facebook:<sup>[1]</sup>
     * facebook.com * block
     * fbcdn.net * block
 
-These rules will cause Facebook to be blocked everywhere by default, _even_ when visiting Facebook's own site. This is what foils the ability of Facebook to see gather your data about your browsing habits.
+These rules will cause Facebook to be blocked everywhere by default, _even_ when visiting Facebook's own site. This is what foils the ability of Facebook to gather data about your browsing habits.
 
 Blocking Facebook when visiting Facebook is not ideal though, and there is no real benefit for doing so. Thus we will create an exception to the above global rules, but just for when we visit Facebook's own site:
 
