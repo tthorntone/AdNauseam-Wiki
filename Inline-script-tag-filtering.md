@@ -106,8 +106,6 @@ Whatever can't be blocked using a network request filter can be taken care by a 
 
 No. And apparently, [they won't](https://issues.adblockplus.org/ticket/748):
 
-> Not quite the same thing - he is "blocking" individual scripts (something that inevitably causes a massive performance overhead). Not that it is significantly more useful as a result, anti-adblock messages can easily be combined with required website functionality in the same <script> tag. They won't do that for a small extension like uBlock but they will definitely do it if we implement something like that.
-
 My comment about this post:
 
 > inevitably causes a massive performance overhead
