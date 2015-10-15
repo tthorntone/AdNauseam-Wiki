@@ -52,13 +52,9 @@ Nonsense.
 
 What makes uBlock efficient is the core filtering engine, which is composed of many parts. The filtering engine was mature at the time of the fork, and aside [some refactoring in uBlock Origin](https://github.com/gorhill/uBlock/commit/2234933b82d1c17af42ba574b6515937c7515029#diff-522a16ddeed280252d7c3a351261b441) to fix [issue #58](https://github.com/gorhill/uBlock/issues/58) and [issue #59](https://github.com/gorhill/uBlock/issues/59), the core filtering engine is essentially the same in both branches, i.e. virtually same performance.
 
-**Update** (2015-08-28): static filtering engine is further diverging with [fix to uBlock Origin issue #621](https://github.com/gorhill/uBlock/issues/621).
+**Update** (2015-08-28): static filtering engine is further diverging with fix to [_"Suggestion - list which content is blocked"_](https://github.com/gorhill/uBlock/issues/58) and [_"Problem on Yahoo Search Pages"_](https://github.com/gorhill/uBlock/issues/621).
 
 **Update** (2015-10-15): cosmetic filtering engine further diverging with fixes to [_"Logger does not report [style="..."]"_](https://github.com/gorhill/uBlock/issues/435) and [_"Revisit cosmetic filtering's `FilterPlain` implementation"_](https://github.com/gorhill/uBlock/issues/711).
-
-- [uBlock: `static-net-filtering.js`](https://github.com/chrisaljoudi/uBlock/commits/master/src/js/static-net-filtering.js) vs [uBlock Origin `static-net-filtering.js`](https://github.com/gorhill/uBlock/commits/master/src/js/static-net-filtering.js)
-- [uBlock: `cosmetic-filtering.js`](https://github.com/chrisaljoudi/uBlock/commits/master/src/js/cosmetic-filtering.js) vs [uBlock Origin `cosmetic-filtering.js`](https://github.com/gorhill/uBlock/commits/master/src/js/cosmetic-filtering.js)
-- [uBlock: `contentscript-end.js`](https://github.com/chrisaljoudi/uBlock/commits/master/src/js/contentscript-end.js) vs [uBlock Origin `contentscript-end.js`](https://github.com/gorhill/uBlock/commits/master/src/js/contentscript-end.js)
 
 ***
 
