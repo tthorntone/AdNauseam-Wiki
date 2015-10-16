@@ -135,6 +135,12 @@ The cat and mouse game between blockers and sites will never stop -- and inline 
 
 In short, this comment from Wladimir Palant shows more of the same mindset as [happened in the past](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39).
 
+In [another issue](https://issues.adblockplus.org/ticket/3207), another developer comments:
+
+> As outlined on the linked uBlock wiki page, such a filter can only be supported on Firefox for the time being. However, with Gecko-based extensions being phased out I doubt that it's worth adding this functionality at the moment.
+
+The `beorescriptexecute` event is not specific to "Gecko-based extensions", it is part of the [W3C standard](http://www.w3c-test.org/html/semantics/scripting-1/the-script-element/script-before-after-events.html)...
+
 ***
 
 - [1] Through the use of the `inline-script` static filter option (`||example.com^$inline-script`), or through the use of a dynamic filtering block rule for _inline scripts_.
