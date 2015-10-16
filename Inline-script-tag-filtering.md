@@ -139,7 +139,7 @@ In [another issue](https://issues.adblockplus.org/ticket/3207), another develope
 
 > As outlined on the linked uBlock wiki page, such a filter can only be supported on Firefox for the time being. However, with Gecko-based extensions being phased out I doubt that it's worth adding this functionality at the moment.
 
-The `beorescriptexecute` event is not specific to "Gecko-based extensions", it is part of the latest [W3C Working Draft](http://www.w3.org/html/wg/drafts/html/master/semantics.html#scripting-3)...
+The `beforescriptexecute` event is not specific to "Gecko-based extensions", it is part of the latest [W3C Working Draft](http://www.w3.org/html/wg/drafts/html/master/semantics.html#scripting-3)...
 
 ***
 
