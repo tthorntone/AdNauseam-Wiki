@@ -10,7 +10,7 @@
         - [_3rd-party filters_](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters) pane
             - [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
         - _My filters_ pane (TODO)
-            - [Filter syntax extensions](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)
+            - [Static filter syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
         - _My rules_ pane (TODO)
         - _Whitelist_ pane (TODO)
         - [Settings: importing from/exporting to cloud storage](https://github.com/gorhill/uBlock/wiki/Cloud-storage)
