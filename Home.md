@@ -10,6 +10,7 @@
         - [_3rd-party filters_](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters) pane
             - [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
         - _My filters_ pane (TODO)
+            - [Filter syntax extensions](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)
         - _My rules_ pane (TODO)
         - _Whitelist_ pane (TODO)
         - [Settings: importing from/exporting to cloud storage](https://github.com/gorhill/uBlock/wiki/Cloud-storage)
@@ -40,7 +41,6 @@
 - Install from [Mozilla Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/), [Chrome store](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](https://github.com/gorhill/uBlock/tree/master/dist#install).
     - [My answers to web store reviews where appropriate](https://github.com/gorhill/uBlock/wiki/My-answers-to-web-store-reviews-where-appropriate)
 - [Privacy stuff](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)
-- [Filter syntax extensions](https://github.com/gorhill/uBlock/wiki/Filter-syntax-extensions)
 - [Tricks and tips waterfall](https://github.com/gorhill/uBlock/wiki/Tips-and-tricks-waterfall)
 - Various performance/efficiency topics
     - [Memory footprint: what happens inside uBlock after installation](https://github.com/gorhill/uBlock/wiki/Memory-footprint:-what-happens-inside-uBlock-after-installation)
