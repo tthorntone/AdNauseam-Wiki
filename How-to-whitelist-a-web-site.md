@@ -43,13 +43,13 @@ Wildcards can be used at any position. However, when a wildcard is used within t
 
 #### A Youtube channel
 
-- Follow steps 2 to 4 in ["YouTube - whitelist channels in Adblock Plus"](https://greasyfork.org/en/scripts/4168-youtube-whitelist-channels-in-adblock-plus)
-- Extract the author's name as directed
+- Install [this user script](https://greasyfork.org/en/scripts/13226-youtube-whitelist-channels-in-ublock-origin).
+- Locate and copy the author name of the channel.
 - Once you have the author's name:
-    - Go to the _Whitelist_ tab in uBlock's dashboard
-    - Add the line `*youtube.com/*&user=[AUTHOR NAME]*`
-    - Replace `[AUTHOR NAME]` with the author name you extracted earlier
-    - Example: `*youtube.com/*&user=jacksfilms*`
+    - Go to the _Whitelist_ tab in uBlock Origin's dashboard.
+    - Add the line `*youtube.com/*user=[AUTHOR NAME]*`.
+    - Replace `[AUTHOR NAME]` with the author name you extracted earlier.
+    - Example: `*youtube.com/*user=jacksfilms*`.
 
 That's all.
 
