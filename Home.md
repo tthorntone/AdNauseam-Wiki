@@ -13,6 +13,7 @@
             - [Static filter syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
         - _My rules_ pane (TODO)
         - _Whitelist_ pane (TODO)
+            - [How to whitelist a web site](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
         - [Settings: importing from/exporting to cloud storage](https://github.com/gorhill/uBlock/wiki/Cloud-storage)
     - [Blocking mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode)
         - [Very easy mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-very-easy-mode)
@@ -37,7 +38,6 @@
 - [Troubleshooting](https://github.com/gorhill/uBlock/wiki/Troubleshooting)
 - [Notes on media coverage of uBlock Origin](https://github.com/gorhill/uBlock/wiki/Notes-on-media-coverage-of-uBlock-Origin)
 - [FAQ](https://github.com/gorhill/uBlock/wiki/FAQ)
-- [How to whitelist a web site](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
 - Install from [Mozilla Add-ons for Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/), [Chrome store](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Opera store](https://addons.opera.com/en-gb/extensions/details/ublock/), or [manually](https://github.com/gorhill/uBlock/tree/master/dist#install).
     - [My answers to web store reviews where appropriate](https://github.com/gorhill/uBlock/wiki/My-answers-to-web-store-reviews-where-appropriate)
 - [Privacy stuff](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)
