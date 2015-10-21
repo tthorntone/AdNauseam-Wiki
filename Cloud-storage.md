@@ -48,6 +48,7 @@ Cloud storage services offered by specific browser vendors have their own limita
 
 - I have observed that too large amount of per-pane data will cause a warning in the browser console (> 8K).
 - **A new installation of uBlock Origin will cause cloud storage data to be blanked.**
+    - Update: [Reportedly fixed in 43.3](https://bugzilla.mozilla.org/show_bug.cgi?id=753289).
     - See: <https://discourse.mozilla-community.org/t/how-to-sync-preferences-of-a-bootstrapped-extension-via-sync/3024>.
     - But since uBlock Origin won't automatically import settings from the cloud storage, this will not cause any lost of local settings. However, you will have to push again your settings to the cloud storage.
 - There is not much doc about this for Firefox, so there might be undocumented limitations yet to be found.
