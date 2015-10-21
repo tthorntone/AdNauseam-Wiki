@@ -44,15 +44,7 @@ Wildcards can be used at any position. However, when a wildcard is used within t
 #### A Youtube channel
 
 - Install [this user script](https://greasyfork.org/en/scripts/13226-youtube-whitelist-channels-in-ublock-origin).
-- Locate and copy the author name of the channel.
-    - The author's name appears in the URL in the address bar when you visit the author's videos page.
-    - Generic video page URL: `https://www.youtube.com/user/[AUTHOR NAME]/videos`.
-    - Example: `https://www.youtube.com/user/jacksfilms/videos` = author name is `jacksfilms`.
-- Once you have the author's name:
-    - Go to the _Whitelist_ pane in uBlock Origin's dashboard.
-    - Add the line `*youtube.com/*user=[AUTHOR NAME]*`.
-    - Replace `[AUTHOR NAME]` with the author name you extracted earlier.
-    - Example: `*youtube.com/*user=jacksfilms*`.
+- Read the instructions that come with the user script above.
 
 That's all.
 
