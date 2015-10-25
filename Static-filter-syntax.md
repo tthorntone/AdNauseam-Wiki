@@ -26,9 +26,7 @@ So in uBlock Origin, any entry which can be read as a valid hostname, will be as
 
     example.com*
 
-##### "All URLs"
-
-The wildcard character `*` can be used to apply a filter to **all** URLs. This is not recommended though, unless you further narrow the filter using filter option. Examples:
+**"All URLs":** The wildcard character `*` can be used to apply a filter to **all** URLs. This is not recommended though, unless you further narrow the filter using filter option. Examples:
 
 - `*$third-party`: block all 3rd-party network requests.
 - `*$script,domain=example.com`: block all network requests to fetch script resources from `example.com`.
