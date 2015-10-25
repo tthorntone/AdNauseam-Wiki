@@ -16,6 +16,8 @@ uBlock Origin extends Adblock Plus filter syntax.
 
 #### Network filters
 
+##### HOSTS files
+
 uBlock Origin can also parse HOSTS file-like resources. However, this creates an ambiguity with ABP filter syntax, which is pattern-based. For exemple, consider the following filter entry:
 
     example.com
@@ -26,12 +28,15 @@ So in uBlock Origin, any entry which can be read as a valid hostname, will be as
 
     example.com*
 
-**"All URLs":** The wildcard character `*` can be used to apply a filter to **all** URLs. This is not recommended though, unless you further narrow the filter using filter option. Examples:
+##### "All URLs"
+
+The wildcard character `*` can be used to apply a filter to **all** URLs. This is not recommended though, unless you further narrow the filter using filter options. Examples:
 
 - `*$third-party`: block all 3rd-party network requests.
 - `*$script,domain=example.com`: block all network requests to fetch script resources from `example.com`.
 
 Usually, it is far more convenient to use [dynamic filtering rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering) in lieu of such generic static filters.
+
 ##### Network filters options
 
 `document` for _block_ filters:
