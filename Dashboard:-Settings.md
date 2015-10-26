@@ -69,7 +69,8 @@ Keep in mind that this feature is to prevent **leakage** of your non-internet-fa
 
 **Caveats:**
 - Chromium-based browsers: the feature works only on version 42 and above.
-- Firefox: WebRTC is required for Firefox Hello to work properly.
+- Firefox: the only way to prevent local IP address leakage is to disable completely WebRTC.
+    - WebRTC required for Firefox Hello to work properly.
 
 ***
 
