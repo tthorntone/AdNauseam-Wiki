@@ -40,6 +40,14 @@ You will need to clean up whatever malware tampered with your Chrome browser ins
 
 ***
 
+#### uBlock Origin uninstall itself
+
+This has been reported many times.
+
+It has been confirmed [Avira Anti-virus has been uninstalling uBlock Origin](https://github.com/gorhill/uBlock/issues/882).
+
+***
+
 #### Unable to open links in new tab
 
 - Are you using the [no-popups switch](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-popups)?
