@@ -42,7 +42,7 @@ You will need to clean up whatever malware tampered with your Chrome browser ins
 
 #### uBlock Origin uninstall itself
 
-This has been reported many times. This could be caused a false positive from your anti-virus, or a _cleaner_ application.
+This has been reported many times. This could be caused a false positive from your anti-virus application.
 
 Specifically, it has been confirmed [Avira Anti-virus has been uninstalling uBlock Origin](https://github.com/gorhill/uBlock/issues/882).
 
