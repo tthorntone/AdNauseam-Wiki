@@ -12,20 +12,20 @@ Adblock Warning Removal List‎ ||||||X
 Anti-Adblock Killer (Reek‎) |||[CC BY-NC-SA 4.0](https://github.com/reek/anti-adblock-killer/blob/master/LICENSE)|||
 EasyList‎ |X|[GPL3](https://easylist-downloads.adblockplus.org/COPYING)|[CC BY-SA 3.0](https://easylist-downloads.adblockplus.org/COPYING)|||
 EasyList without element hiding rules‎ ||[GPL3](https://easylist-downloads.adblockplus.org/COPYING)|[CC BY-SA 3.0](https://easylist-downloads.adblockplus.org/COPYING)|||
-Peter Lowe's Ad server list‎ |X||||[McRae GPL](http://pgl.yoyo.org/license/)|
+Peter Lowe's Ad server list‎ |X||||[McRae GPL](http://pgl.yoyo.org/license/), non-commercial|
 Basic tracking list by Disconnect‎ ||[GPL3](https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt)||||
 EasyPrivacy‎ |X|[GPL3](https://easylist-downloads.adblockplus.org/COPYING)|[CC BY-SA 3.0](https://easylist-downloads.adblockplus.org/COPYING)|||
 Fanboy's Enhanced Tracking List‎ |||[CC BY 3.0](https://fanboy.co.nz/enhancedstats.txt)|||
 Malvertising filter list by Disconnect‎ ||[GPL3](https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt)||||
-Malware Domain List‎ |X||||[Free for all](http://www.malwaredomainlist.com/)|
-Malware domains‎ |X||||[Non-commercial](http://www.malwaredomains.com/?page_id=1508)|
-Malware domains (long-lived) |||||[Non-commercial](http://www.malwaredomains.com/?page_id=1508)|
+Malware Domain List‎ |X||||Informal license, [free for all](http://www.malwaredomainlist.com/)|
+Malware domains‎ |X||||Informal license, [non-commercial](http://www.malwaredomains.com/?page_id=1508)|
+Malware domains (long-lived) |||||Informal license, [non-commercial](http://www.malwaredomains.com/?page_id=1508)|
 Malware filter list by Disconnect‎ ||[GPL3](https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt)||||
-Spam404‎ ||||||X
+Spam404‎ |||||[Informal license](https://spam404bl.com/spam404scamlist.txt)|
 Anti-ThirdpartySocial ||||||X
 Fanboy's Annoyance List‎ |||[CC BY 3.0](https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt)|||
 Fanboy's Social Blocking List‎ |||[CC BY 3.0](https://easylist-downloads.adblockplus.org/fanboy-social.txt)|||
-Dan Pollock’s hosts file‎ ||||||X
+Dan Pollock’s hosts file‎ |||||Informal license, [attribution, non-commercial](http://someonewhocares.org/hosts/hosts)|
 Fanboy+Easylist-Merged Ultimate List‎ ||[GPL3](https://fanboy.co.nz/r/fanboy-ultimate.txt)|[CC BY-SA 3.0](https://fanboy.co.nz/r/fanboy-ultimate.txt)|||
 hpHosts' Ad and tracking servers‎||||||X
 MVPS HOSTS‎ |||[CC BY-NC-SA 4.0](http://winhelp2002.mvps.org/hosts.txt)|||
