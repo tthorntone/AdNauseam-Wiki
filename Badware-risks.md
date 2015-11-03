@@ -77,6 +77,7 @@ Below are sites currently part of the list, or sites being candidate for the lis
 - 2013-05-23: [Another Problematic Softonic Installer Brings Adware](http://www.intego.com/mac-security-blog/another-problematic-softonic-installer-brings-adware/)
 - 2013-04-19: [Softonic Delivers Adware](http://www.esecurityplanet.com/malware/softonic-delivers-adware.html)
 - 2013-04-17: [Softonic Download Site Briefly Delivers Trojan Adware Installer](http://www.intego.com/mac-security-blog/softonic-download-site-briefly-delivers-trojan-adware-installer/)
+- 2012-02-17: [01Net et Softonic ajoutent aussi un installeur publicitaire](http://neosting.net/logiciels/01net-et-softonic-ajoutent-aussi-un-installeur-publicitaire.html)
 
 #### softpedia.com (candidate)
 
