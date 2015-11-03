@@ -14,6 +14,7 @@ Below are sites currently part of the list, or sites being candidate for the lis
 - 2012-10-31: [Malwares on 01net] (http://www.journaldunet.com/solutions/dsi/des-malwares-sur-telecharger-com-01net-1012.shtml)
 - 2012-10-30: [Download from 01net deeply hurts your PC's health] (http://www.lesnumeriques.com/appli-logiciel/telecharger-depuis-01net-nuit-gravement-a-sante-pc-n26763.html)
 - 2012-06-17: [01net PC Optimizer scam] (http://www.malekal.com/2012/06/17/01net-pc-optimizer-pour-ne-pas-optimiser-son-pc/)
+- 2012-02-17: [01Net et Softonic ajoutent aussi un installeur publicitaire](http://neosting.net/logiciels/01net-et-softonic-ajoutent-aussi-un-installeur-publicitaire.html)
 
 #### baixaki.com.br (candidate)
 - 2015-02-02: [Baixaki Installer Brings Adware] (http://veiadigital.com.br/como-baixar-e-instalar-programas-do-baixaki-sem-o-baidu/)
