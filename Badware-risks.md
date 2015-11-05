@@ -25,6 +25,10 @@ Below are sites currently part of the list, or sites being candidate for the lis
 - 2015-11-02: [Has MacUpdate fallen to the adware plague](https://blog.malwarebytes.org/news/2015/11/has-macupdate-fallen-to-the-adware-plague/)
 - 2014-02-12: [MacUpdate.com served bitcoin stealing malware](http://www.tripwire.com/state-of-security/latest-security-news/download-com-macupdate-com-served-bitcoin-stealing-malware/)
 
+#### chip.de
+- [CHIP-Installer - was ist das?] http://anleitung.trojaner-board.de/chip-installer
+- 2015-05-04: [Downloads von Chip.de über den Chip-Installer vermeiden] (http://www.randombrick.de/downloads-von-chip-de-ueber-den-chip-installer-vermeiden/)
+
 #### com.com
 - 2015-08-12: [.COM.COM Used For Malicious Typo Squatting](https://isc.sans.edu/diary/.COM.COM+Used+For+Malicious+Typo+Squatting/20019) (via [SwiftOnSecurity](https://twitter.com/SwiftOnSecurity/status/631972601460494336))
 - 2013-12-10: [Why com.com Should Scare You](https://blog.whitehatsec.com/why-com-com-should-scare-you/)
