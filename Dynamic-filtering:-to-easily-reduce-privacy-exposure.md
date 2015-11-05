@@ -36,7 +36,7 @@ All suggested global `noop` rules for Facebook.<sup>[1]</sup>
     facebook.com facebook.net * noop
     facebook.com fbcdn.net * noop
 
-The same sort of dynamic filtering rules can be used for whatever sites for which you still would want Facebook widgets to be work:
+The same sort of dynamic filtering rules can be used for whatever sites for which you still would want Facebook widgets to work:
 
     example.com facebook.com * noop
     example.com facebook.net * noop
