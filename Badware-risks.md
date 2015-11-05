@@ -26,9 +26,9 @@ Below are sites currently part of the list, or sites being candidate for the lis
 - 2014-02-12: [MacUpdate.com served bitcoin stealing malware](http://www.tripwire.com/state-of-security/latest-security-news/download-com-macupdate-com-served-bitcoin-stealing-malware/)
 
 #### chip.de
-- [CHIP-Installer - was ist das?] http://anleitung.trojaner-board.de/chip-installer
-- 2015-05-04: [Downloads von Chip.de über den Chip-Installer vermeiden] (http://www.randombrick.de/downloads-von-chip-de-ueber-den-chip-installer-vermeiden/)
-- 2014-12-14: [Chip.de packt unseriöse Werbung in ihren Chip-Installer](http://www.1337core.de/chip-packt-unserioese-werbung-in-ihren-chip-installer/)
+- [CHIP-Installer - was ist das?] http://anleitung.trojaner-board.de/chip-installer [en](https://translate.google.de/translate?sl=de&tl=en&js=y&prev=_t&hl=de&ie=UTF-8&u=http%3A%2F%2Fanleitung.trojaner-board.de%2Fchip-installer&edit-text=&act=url)
+- 2015-05-04: [Downloads von Chip.de über den Chip-Installer vermeiden] (http://www.randombrick.de/downloads-von-chip-de-ueber-den-chip-installer-vermeiden/) [en](https://translate.google.de/translate?hl=de&sl=de&tl=en&u=http%3A%2F%2Fwww.randombrick.de%2Fdownloads-von-chip-de-ueber-den-chip-installer-vermeiden%2F)
+- 2014-12-14: [Chip.de packt unseriöse Werbung in ihren Chip-Installer](http://www.1337core.de/chip-packt-unserioese-werbung-in-ihren-chip-installer/) [en](https://translate.google.de/translate?hl=de&sl=de&tl=en&u=http%3A%2F%2Fwww.randombrick.de%2Fdownloads-von-chip-de-ueber-den-chip-installer-vermeiden%2F)
 
 #### com.com
 - 2015-08-12: [.COM.COM Used For Malicious Typo Squatting](https://isc.sans.edu/diary/.COM.COM+Used+For+Malicious+Typo+Squatting/20019) (via [SwiftOnSecurity](https://twitter.com/SwiftOnSecurity/status/631972601460494336))
