@@ -46,6 +46,9 @@ This is just an example, the same can be applied to any of the ubiquitous server
 
 `block` rules to ubiquitous web sites will easily reduce _significantly_ your privacy exposure.
 
+Using the above example of blocking Facebook everywhere with the [benchmark result for _Easy mode_](https://github.com/gorhill/uBlock/wiki/Blocking-mode#easy-mode) (uBlock Origin's default mode), the count of 3rd parties would have been decreased from 512 to 
+437, an easy way to significantly reduce your privacy exposure with just a few clicks.
+
 ***
 
 <sub>[1] At time of writing. Ubiquitous servers may eventually change their hostnames or add new ones. As a good habit, regularly investigate which 3rd parties are embedded in the web pages you visit.</sub>
