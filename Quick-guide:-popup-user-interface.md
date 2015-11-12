@@ -129,9 +129,9 @@ This will prevent the web page proper for the site from being blocked by uBlock 
 
 There are many benefits to strict blocking. For example, there is no good reason one should want to connect _at all_ to any of the sites present in any one of the malware domain lists. Strict blocking will prevent this from happening.
 
-I expect the need to disable strict blocking to be rather uncommon.
-
 **Important note:** Keep in mind that when the above warning occurs, it doesn't necessarily mean the site is harmful, it just means that there is a matching filter in the selected filter lists. You decide whether the site is safe, and whether disabling strict blocking permanently for the site is appropriate.
+
+Strict blocking is commonly disabled for sites in [Badware risks](https://github.com/gorhill/uBlock/wiki/Badware-risks).
 
 **Tip:** If you wish, you may entirely disable strict blocking everywhere by adding the rule `no-strict-blocking: * true` to the _My rules_ pane in the dashboard (don't forget to click _Commit_ to make the rule stick).
 
