@@ -1,10 +1,10 @@
-The sites below are included in the _"uBlock filters – Badware risks"_ -- or are candidates for inclusion. The sites are documented to be [badware](https://en.wikipedia.org/wiki/Malware) risks. To quote Wikipedia:
+The sites below are included in the _"uBlock filters – Badware risks"_ -- or are candidates for inclusion. The sites are documented to contain [badware](https://en.wikipedia.org/wiki/StopBadware#Defining_.22badware.22) and other programs that have unwanted hidden functionality. Not all downloads on a site may be affected. The block page is there to _remind_ users to be cautious, particularly non-technical users.
 
-> Spyware or other malware is sometimes found embedded in programs supplied officially by companies, e.g., downloadable from websites, that appear useful or attractive, but may have, for example, additional hidden tracking functionality that gathers marketing statistics.
+Users of uBlock are free to disable blocking by selecting either:
+- Temporarily - The site will be temporarily allowed for a limited time (currently set at 60 seconds).
+- Permanently - The site will be permanently allowed.
 
-Note the word "risks": not necessarily all downloads on a site may be affected by badware. The block page is there to _remind_ the user to be cautious, and the user is free to dismiss temporarily or permanently the blocked page for the site ahead.
-
-uBlock is not an antivirus, the sole purpose is to _remind_ a user of what is ahead, and the feature is more useful to non-technical users, who are more likely to be the target of badware.
+Blocking may be re-enabled from the [popup menu](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-strict-blocking).
 
 Below are sites currently part of the list, or sites being candidate for the list (will be added once there are enough sources to support the _badware risks_ qualifier), and links giving further information as to why. Feel free to add _good_ sources if you find more (please respect the chronological order, keep everything neat).
 
