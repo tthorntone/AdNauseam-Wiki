@@ -30,7 +30,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 <http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt>: [**subscribe**](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
 
 **Bidgewalbelp filters**<br>
-<https://bidgewalbelp.neocities.org/filters.txt>: [**subscribe**](https://bidgewalbelp.neocities.org/filters.txt?location=https://bidgewalbelp.neocities.org/filters.txt&title=Bidgewalbelp)
+<https://bidgewalbelp.neocities.org/filters.html>: [**subscribe**](https://bidgewalbelp.neocities.org/filters.txt?location=https://bidgewalbelp.neocities.org/filters.txt&title=Bidgewalbelp)
 
 **Block-EU-Cookie-Shit-List:**<br>
 <https://github.com/r4vi/block-the-eu-cookie-shit-list>: [**subscribe**](https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt&title=Block-EU-Cookie-Shit-List)
