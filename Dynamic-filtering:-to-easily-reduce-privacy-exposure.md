@@ -42,7 +42,7 @@ The same sort of dynamic filtering rules can be used for whatever sites for whic
     example.com facebook.net * noop
     example.com fbcdn.net * noop
 
-This is just an example, the same can be applied to any of the ubiquitous servers out there. The dynamic filtering pane in uBlock Origin's popup UI will keep you informed about all the 3rd-party servers a web page connects (or tries to), and from there one can simply point-and-click to create global/local block/allow rules to foil the ability of 3rd parties to record your browsing history.
+This is just an example, the same can be applied to any of the ubiquitous servers out there. The dynamic filtering pane in uBlock Origin's popup UI will keep you informed about all the 3rd-party servers a web page connects (or tries to), and from there one can simply point-and-click to create global/local block/noop rules to foil the ability of 3rd parties to record your browsing history.
 
 `block` rules to ubiquitous web sites will easily reduce _significantly_ your privacy exposure.
 
