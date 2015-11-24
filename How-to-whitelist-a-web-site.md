@@ -46,8 +46,6 @@ Wildcards can be used at any position. However, when a wildcard is used within t
 - Install [this user script](https://greasyfork.org/en/scripts/13226-youtube-whitelist-channels-in-ublock-origin).
 - Read the instructions that come with the user script above.
 
-That's all.
-
 ### Other details
 
 If you re-enable uBlock by clicking the whitelist button in the popup while a whitelist directive you handcrafted is in effect, your handcrafted whitelist directive will simply be commented out. This way you can bring it back to life if ever you un-whitelist by mistake.
