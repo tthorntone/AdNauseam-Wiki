@@ -43,6 +43,9 @@ Wildcards can be used at any position. However, when a wildcard is used within t
 
 #### A Youtube channel
 
+- Requirements:
+    - Chromium-based browsers: install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) extension.
+    - Firefox-based browsers: install [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/) extension.
 - Install [this user script](https://greasyfork.org/en/scripts/13226-youtube-whitelist-channels-in-ublock-origin).
 - Read the instructions that come with the user script above.
 
