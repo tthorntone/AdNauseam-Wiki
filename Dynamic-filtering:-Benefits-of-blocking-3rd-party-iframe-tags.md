@@ -15,6 +15,7 @@ Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is qui
 - [_"Malvertising Hits Online Dating Site PlentyOfFish"_](https://blog.malwarebytes.org/malvertising-2/2015/08/malvertising-hits-online-dating-site-plentyoffish/)
 - [_"Firefox exploit found in the wild"_](https://blog.mozilla.org/security/2015/08/06/firefox-exploit-found-in-the-wild/)
 - [_"Advert Strikes Out Via Copycat Gaming Site"_](https://blog.malwarebytes.org/malvertising-2/2015/07/advert-strikes-out-via-copycat-gaming-site/)
+- [_"Celebrity chef Jamie Oliver’s website hacked, redirects to exploit kit"_](https://blog.malwarebytes.org/exploits-2/2015/02/celebrity-chef-jamie-olivers-website-hacked-redirects-to-exploit-kit/)
 - [_"Malicious advertisements served via Yahoo"_](http://blog.fox-it.com/2014/01/03/malicious-advertisements-served-via-yahoo/)
 - [_"jQuery.com Confirms Website Compromise"_](http://www.riskiq.com/blog/business/post/jquerycom-confirms-website-compromise)
 - [_"Democracy in Hong Kong Under Attack"_](http://www.volexity.com/blog/?p=33)
