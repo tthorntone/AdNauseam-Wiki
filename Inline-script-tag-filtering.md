@@ -94,6 +94,13 @@ The compatibility was verified for the Firefox version of ABP however, I did not
 
 #### Concrete examples of usefulness
 
+Inline script tag filtering can be used to prevent the google.com/url? click tracking mechanism in Google search results: 
+
+    google.*##script:contains(rwt)
+
+How it works: Google search result links initially contain the real URL of the result as target. But an `onMouseDown` event calls the Javascript function `rwt` ("rewrite"), quickly replacing the target URL by a complicated `google.com/url?...` request, containing – among other information – a unique ID of the search session, and account identification information if the user is logged in to a Google account or has a Google cookie. This tracking mechanism can be prevented using the above inline script tag filter as the rewrite javascript will not be called. (You can test this by clicking with the right mouse button and checking in the status bar which URL is going to be called.) 
+
+
 A concrete example of a site which resorts to self-defacement when it detects that a blocker is in use -- the front page of [rp-online.de](http://www.rp-online.de/):
 
 Without inline script tag filtering:<br>
