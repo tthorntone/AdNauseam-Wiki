@@ -4,3 +4,4 @@ Here is a list of those software which are known to have uninstalled uBlock Orig
 
 - Avira AntiVirus (see https://github.com/gorhill/uBlock/issues/882).
 - Junkware Removal Tool (see https://github.com/gorhill/uBlock/issues/882#issuecomment-154879542).
+- SpyHunter 4 (see https://github.com/gorhill/uBlock/issues/1009).
