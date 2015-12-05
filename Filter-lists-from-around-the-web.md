@@ -29,7 +29,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **AntiPubWeb:**<br>
 <http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt>: [**subscribe**](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
 
-**Bidgewalbelp filters**<br>
+**Bidgewalbelp filters:** (risk of web page breakage)<br>
 <https://bidgewalbelp.neocities.org/filters.html>: [**subscribe**](https://bidgewalbelp.neocities.org/filters.txt?location=https://bidgewalbelp.neocities.org/filters.txt&title=Bidgewalbelp)
 
 **Block-EU-Cookie-Shit-List:**<br>
@@ -37,6 +37,9 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 
 **Block all well known privacy trackers:** (high risk of web page breakage)<br>
 <http://gnuzilla.gnu.org/filters/blacklist.txt>: [**subscribe**](http://gnuzilla.gnu.org/filters/blacklist.txt?location=http://gnuzilla.gnu.org/filters/blacklist.txt&title=Block%20all%20well%20known%20privacy%20trackers)
+
+**Block all third party resources when in private browsing:** (high risk of web page breakage in private browsing mode)</br>
+<http://gnuzilla.gnu.org/filters/third-party.txt>: [**subscribe**](http://gnuzilla.gnu.org/filters/third-party.txt?location=http://gnuzilla.gnu.org/filters/third-party.txt&title=Block%20all%20third%20party%20resources%20when%20in private%20browsing%20mode)
 
 **cjxlist:** (only for Chinese language websites)<br>
 <http://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](http://cjxlist1.googlecode.com/svn/cjxlist.txt?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=Old%20cjxlist%20filters%20list%20for%20Chinese%20sites)
