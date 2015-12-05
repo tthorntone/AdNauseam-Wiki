@@ -37,10 +37,6 @@ The wildcard character `*` can be used to apply a filter to **all** URLs. This i
 
 Usually, it is far more convenient to use [dynamic filtering rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering) in lieu of such generic static filters.
 
-##### Wildcard character `*`
-
-For the Adblock Plus like wildcard character `*`, uBlock Origin uses `/*` instead. This is due to uBlocks ability to read HOSTS files where a filter like `@@*arrow.gif` is a valid hostname. So in this case use `@@/*arrow.gif` instead. The first filter will allow `http://some-arrow.gif` while the second filter will allow `http://anydomain.com/some-arrow.gif` See [#997](https://github.com/gorhill/uBlock/issues/997) for details.
-
 ##### Network filters options
 
 `document` for _block_ filters:
