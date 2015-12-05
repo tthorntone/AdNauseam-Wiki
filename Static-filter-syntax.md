@@ -39,7 +39,7 @@ Usually, it is far more convenient to use [dynamic filtering rules](https://gith
 
 ##### Wildcard character `*`
 
-For the Adblock Plus like wildcard character `*`, uBlock Origin uses `/*` instead. This is due to uBlocks ability to read HOSTS files where a filter like '@@*arrow.gif' is a valid hostname. So in this case use `@@/*arrow.gif` instead. The first filter will allow `http://some-arrow.gif` while the second filter will allow `http://anydomain.com/some-arrow.gif` See #997 for details.
+For the Adblock Plus like wildcard character `*`, uBlock Origin uses `/*` instead. This is due to uBlocks ability to read HOSTS files where a filter like `@@*arrow.gif` is a valid hostname. So in this case use `@@/*arrow.gif` instead. The first filter will allow `http://some-arrow.gif` while the second filter will allow `http://anydomain.com/some-arrow.gif` See #997 for details.
 
 ##### Network filters options
 
