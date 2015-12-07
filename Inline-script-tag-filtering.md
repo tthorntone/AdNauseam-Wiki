@@ -19,6 +19,8 @@ Script tag filters do not work in all browsers, due to browser API limitations:
     - Starring the [related Chromium issue](https://code.google.com/p/chromium/issues/detail?id=168175) may help motivate Chromium devs to implement support.
     - Falling back on wholesale blocking of all inline script tags may work.<sup>[1]</sup>
 
+<sub>[1] Through the use of the `inline-script` static filter option (`||example.com^$inline-script`), or through the use of a dynamic filtering block rule for _inline scripts_.</sub>
+
 ***
 
 #### Overview
@@ -149,7 +151,3 @@ In [another issue](https://issues.adblockplus.org/ticket/3207), another develope
 > As outlined on the linked uBlock wiki page, such a filter can only be supported on Firefox for the time being. However, with Gecko-based extensions being phased out I doubt that it's worth adding this functionality at the moment.
 
 The `beforescriptexecute` event is not specific to "Gecko-based extensions", it is part of the latest [W3C Working Draft](http://www.w3.org/html/wg/drafts/html/master/semantics.html#scripting-3)...
-
-***
-
-- [1] Through the use of the `inline-script` static filter option (`||example.com^$inline-script`), or through the use of a dynamic filtering block rule for _inline scripts_.
