@@ -10,6 +10,7 @@
 
 Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique: 
 
+- [_"Malvertising Hits DailyMotion, Serves Up Angler EK"_](https://blog.malwarebytes.org/malvertising-2/2015/12/malvertising-hits-dailymotion-serves-up-angler-ek/)
 - [_"Angler Exploit Kit Blasts Daily Mail Visitors Via Malvertising"_](https://blog.malwarebytes.org/malvertising-2/2015/10/angler-exploit-kit-blasts-daily-mail-visitors-via-malvertising/) (newly added)
 - [_"Malware With Your News? Forbes Website Victim of Malvertising Attack"_](https://www.fireeye.com/blog/threat-research/2015/09/malvertising_attack.html) (recently added)
 - [_"Malvertising Hits Online Dating Site PlentyOfFish"_](https://blog.malwarebytes.org/malvertising-2/2015/08/malvertising-hits-online-dating-site-plentyoffish/)
