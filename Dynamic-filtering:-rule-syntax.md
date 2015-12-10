@@ -8,7 +8,13 @@ A dynamic filtering rule is made of four components: a source hostname, a destin
 
     source-hostname destination-hostname request-type action
 
-Source hostname always correspond to the hostname extracted from the URL of the web page in the browser. The destination hostname correspond to the hostname extracted from the URL of a remote resource which the web page is fetching (or trying to). The type is the type of the fetched resource. A request can be blocked, allowed, or ignored.
+Source hostname always correspond to the hostname extracted from the URL of the web page in the browser.
+
+The destination hostname correspond to the hostname extracted from the URL of a remote resource which the web page is fetching (or trying to).
+
+The rule always automatically propagate to all subdomains of the source hostname and all subdomains from the destinations hostname -- unless the rule is overriden by a narrower rule in one of the subodmains.
+
+The type is the type of the fetched resource. A request can be blocked, allowed, or ignored.
 
 ***
 
