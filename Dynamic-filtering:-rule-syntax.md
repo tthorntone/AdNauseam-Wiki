@@ -12,7 +12,7 @@ Source hostname always corresponds to the hostname extracted from the URL of the
 
 The destination hostname corresponds to the hostname extracted from the URL of a remote resource which the web page is fetching (or trying to).
 
-The rule always automatically propagates to all subdomains of the source hostname and all subdomains of the destinations hostname -- unless the rule is overriden by a narrower rule in one of the subodmains.
+The rule always automatically propagates to all subdomains of the source hostname and all subdomains of the destination hostname -- unless the rule is overridden by a narrower rule in one of the subodmains.
 
 The type is the type of the fetched resource. A request can be blocked, allowed, or ignored by dynamic filtering.
 
