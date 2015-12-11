@@ -14,7 +14,9 @@ The destination hostname corresponds to the hostname extracted from the URL of a
 
 The rule always automatically propagates to all subdomains of the source hostname and all subdomains of the destination hostname -- unless the rule is overridden by a narrower rule in one of the subodmains.
 
-The type is the type of the fetched resource. A request can be blocked, allowed, or ignored by dynamic filtering.
+The type is the type of the fetched resource.
+
+A request can be blocked, allowed, or ignored by dynamic filtering (using the `noop` action).
 
 ***
 
