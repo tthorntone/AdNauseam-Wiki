@@ -16,7 +16,7 @@ The rule always automatically propagates to all subdomains of the source hostnam
 
 The type is the type of the fetched resource.
 
-A request can be blocked, allowed, or ignored by dynamic filtering (using the `noop` action).
+A request can be blocked (`block`), allowed (`allow`), or ignored (`noop`). A `noop` rule will cause matching network requests to be ignored by the dynamic filtering engine, but those ignored network requests will still be subjected to static filtering.
 
 ***
 
