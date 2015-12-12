@@ -26,6 +26,15 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 **AdAway:** (no longer in active development)<br>
 <https://adaway.org/hosts.txt>: [**subscribe**](https://adaway.org/hosts.txt?location=https://adaway.org/hosts.txt&title=AdAway)
 
+**Adguard - Mobile Ads Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))<br>
+http://adguard.com/en/filter-rules.html?id=11: [**subscribe**](http://adguard.com/en/filter-rules.html?id=11?location=http://adguard.com/en/filter-rules.html?id=11&title=Adguard - Mobile Ads Filter)
+
+**Adguard - Social Media Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))<br>
+http://adguard.com/en/filter-rules.html?id=4: [**subscribe**](http://adguard.com/en/filter-rules.html?id=4?location=http://adguard.com/en/filter-rules.html?id=4&title=Adguard - Social Media Filter)
+
+**Adguard - Spyware Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))<br>
+http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com/en/filter-rules.html?id=3?location=http://adguard.com/en/filter-rules.html?id=3&title=Adguard - Spyware Filter)
+
 **AntiPubWeb:**<br>
 <http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt>: [**subscribe**](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
 
