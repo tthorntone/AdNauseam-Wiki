@@ -149,6 +149,12 @@ Cosmetic filtering is always enabled by default.
 
 **Tip:** It is often suggested adding a custom static filter such as `@@||example.com^$elemhide` to prevent "adblock" detection by specific sites ([example](https://adblockplus.org/forum/viewtopic.php?f=2&t=30763#p124225)). You can accomplish the same goal more simply by just toggling off cosmetic filtering using this switch while on the problematic site.
 
+**Tip:** This switch can help uBO to further lower its CPU-cycle footprint, which might be beneficial on devices with limited CPU-cycle resources -- and thus helping extend battery life and speed up page load times. The idea is to disable cosmetic filtering everywhere by default, and to enable it only for those sites which really benefit from it. To disable cosmetic filtering everywhere by default, enter the following rules in the _"My rules"_ pane in the dashboard:
+
+    no-cosmetic-filtering: * true
+
+Click _Save_, then _Commit_ to make the rule permanent. From then on, cosmetic filtering will be turned off everywhere by default, and to turn it on for a specific site where it is really needed, just enable it using the switch in the uBO's panel.
+
 ***
 
 ##### No remote fonts
