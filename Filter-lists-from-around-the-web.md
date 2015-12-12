@@ -27,13 +27,13 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 <https://adaway.org/hosts.txt>: [**subscribe**](https://adaway.org/hosts.txt?location=https://adaway.org/hosts.txt&title=AdAway)
 
 **Adguard - Mobile Ads Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))<br>
-http://adguard.com/en/filter-rules.html?id=11: [**subscribe**](http://adguard.com/en/filter-rules.html?id=11?location=http%3A%2F%2Fadguard.com%2Fen%2Ffilter-rules.html%3Fid%3D11%26title%3DAdguard%20-%20Mobile%20Ads%20Filter)
+http://adguard.com/en/filter-rules.html?id=11: [**subscribe**](http://adguard.com/en/filter-rules.html?id=11?location=http%3A%2F%2Fadguard.com%2Fen%2Ffilter-rules.html%3Fid%3D11&title%3DAdguard%20-%20Mobile%20Ads%20Filter)
 
 **Adguard - Social Media Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))<br>
-http://adguard.com/en/filter-rules.html?id=4: [**subscribe**](http://adguard.com/en/filter-rules.html?id=4?location=http%3A%2F%2Fadguard.com%2Fen%2Ffilter-rules.html%3Fid%3D4%26title%3DAdguard%20-%20Social%20Media%20Filter)
+http://adguard.com/en/filter-rules.html?id=4: [**subscribe**](http://adguard.com/en/filter-rules.html?id=4?location=http%3A%2F%2Fadguard.com%2Fen%2Ffilter-rules.html%3Fid%3D4&title%3DAdguard%20-%20Social%20Media%20Filter)
 
 **Adguard - Spyware Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))<br>
-http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com/en/filter-rules.html?id=3?location=http%3A%2F%2Fadguard.com%2Fen%2Ffilter-rules.html%3Fid%3D3%26title%3DAdguard%20-%20Spyware%20Filter)
+http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com/en/filter-rules.html?id=3?location=http%3A%2F%2Fadguard.com%2Fen%2Ffilter-rules.html%3Fid%3D3&title%3DAdguard%20-%20Spyware%20Filter)
 
 **AntiPubWeb:**<br>
 <http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt>: [**subscribe**](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
