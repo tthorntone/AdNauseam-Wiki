@@ -27,13 +27,13 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 <https://adaway.org/hosts.txt>: [**subscribe**](https://adaway.org/hosts.txt?location=https://adaway.org/hosts.txt&title=AdAway)
 
 **Adguard - Mobile Ads Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))<br>
-http://adguard.com/en/filter-rules.html?id=11: [**subscribe**](http://adguard.com/en/filter-rules.html?id=11?location=http%3A%2F%2Fadguard.com%2Fen%2Ffilter-rules.html%3Fid%3D11&title%3DAdguard%20-%20Mobile%20Ads%20Filter)
+http://adguard.com/en/filter-rules.html?id=11: [**subscribe**](http://adguard.com/en/filter-rules.html?id=11?location=http://adguard.com/en/filter-rules.html?id=11&title=Adguard - Mobile Ads Filter)
 
 **Adguard - Social Media Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))<br>
-http://adguard.com/en/filter-rules.html?id=4: [**subscribe**](http://adguard.com/en/filter-rules.html?id=4?location=http%3A%2F%2Fadguard.com%2Fen%2Ffilter-rules.html%3Fid%3D4&title%3DAdguard%20-%20Social%20Media%20Filter)
+http://adguard.com/en/filter-rules.html?id=4: [**subscribe**](http://adguard.com/en/filter-rules.html?id=4?location=http://adguard.com/en/filter-rules.html?id=4&title=Adguard - Social Media Filter)
 
 **Adguard - Spyware Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))<br>
-http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com/en/filter-rules.html?id=3?location=http%3A%2F%2Fadguard.com%2Fen%2Ffilter-rules.html%3Fid%3D3&title%3DAdguard%20-%20Spyware%20Filter)
+http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com/en/filter-rules.html?id=3?location=http://adguard.com/en/filter-rules.html?id=3&title=Adguard - Spyware Filter)
 
 **AntiPubWeb:**<br>
 <http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt>: [**subscribe**](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
@@ -42,22 +42,22 @@ http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com
 <https://bidgewalbelp.neocities.org/filters.html>: [**subscribe**](https://bidgewalbelp.neocities.org/filters.txt?location=https://bidgewalbelp.neocities.org/filters.txt&title=Bidgewalbelp)
 
 **Block-EU-Cookie-Shit-List:**<br>
-<https://github.com/r4vi/block-the-eu-cookie-shit-list>: [**subscribe**](https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https%3A%2F%2Fraw.githubusercontent.com%2Fr4vi%2Fblock-the-eu-cookie-shit-list%2Fmaster%2Ffilterlist.txt&title=Block-EU-Cookie-Shit-List)
+<https://github.com/r4vi/block-the-eu-cookie-shit-list>: [**subscribe**](https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt&title=Block-EU-Cookie-Shit-List)
 
 **Block all well known privacy trackers:** (high risk of web page breakage)<br>
-<http://gnuzilla.gnu.org/filters/blacklist.txt>: [**subscribe**](http://gnuzilla.gnu.org/filters/blacklist.txt?location=http%3A%2F%2Fgnuzilla.gnu.org%2Ffilters%2Fblacklist.txt&title=Block%20all%20well%20known%20privacy%20trackers)
+<http://gnuzilla.gnu.org/filters/blacklist.txt>: [**subscribe**](http://gnuzilla.gnu.org/filters/blacklist.txt?location=http://gnuzilla.gnu.org/filters/blacklist.txt&title=Block%20all%20well%20known%20privacy%20trackers)
 
 **Block all third party resources when in private browsing:** (high risk of web page breakage in private browsing mode)<br>
-<http://gnuzilla.gnu.org/filters/third-party.txt>: [**subscribe**](http://gnuzilla.gnu.org/filters/third-party.txt?location=http%3A%2F%2Fgnuzilla.gnu.org%2Ffilters%2Fthird-party.txt&title=Block%20all%20third%20party%20resources%20when%20in private%20browsing%20mode)
+<http://gnuzilla.gnu.org/filters/third-party.txt>: [**subscribe**](http://gnuzilla.gnu.org/filters/third-party.txt?location=http://gnuzilla.gnu.org/filters/third-party.txt&title=Block%20all%20third%20party%20resources%20when%20in private%20browsing%20mode)
 
 **cjxlist:** (only for Chinese language websites)<br>
-<http://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](http://cjxlist1.googlecode.com/svn/cjxlist.txt?location=http%3A%2F%2Fcjxlist1.googlecode.com%2Fsvn%2Fcjxlist.txt&title=Old%20cjxlist%20filters%20list%20for%20Chinese%20sites)
+<http://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](http://cjxlist1.googlecode.com/svn/cjxlist.txt?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=Old%20cjxlist%20filters%20list%20for%20Chinese%20sites)
 
 **Disconnect simple ad filters:**<br>
-<https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt>: [**subscribe**](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt?location=https%3A%2F%2Fs3.amazonaws.com%2Flists.disconnect.me%2Fsimple_ad.txt&title=Disconnect%20simple%20ad%20filters)
+<https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt>: [**subscribe**](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt?location=https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt&title=Disconnect%20simple%20ad%20filters)
 
 **Facebook annoyances blocker:**<br>
-<https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt?location=https%3A%2F%2Feasylist-downloads.adblockplus.org%2Ffb_annoyances_full.txt&title=facebook%20annoyances%20blocker)
+<https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt&title=facebook%20annoyances%20blocker)
 
 **Facebook sidebar blocker:**<br>
 <https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt?location=https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt&title=facebook%20sidebar%20blocker)
