@@ -65,7 +65,7 @@ To block "popunders" windows/tabs. To be used in the same manner as the `popup` 
 
 `redirect`:
 
-To cause a network request to a blocked resource to be redirect to a local "neutered" version of the resource. (more documentation will eventually be made.)
+To cause a blocked network request to be redirect to a local "neutered" version of the resource. (more documentation will eventually be made.)
 
 #### Cosmetic filters
 
