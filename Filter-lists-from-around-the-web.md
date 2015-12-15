@@ -1,6 +1,10 @@
 ### Import external filter lists
 
+You can import external filter lists by pasting the URL address of a filter list into the text area below the _Custom_ entry in the _"3rd-party filters"_ in the dashboard:
+
 ![Custom filter lists](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/3rd-party-filters-custom.png)
+
+Below are an informal list for filter lists which you can import in uBlock Origin. Click the _Subscribe_ link to automate the import process.
 
 ### External filter lists of interest
 
