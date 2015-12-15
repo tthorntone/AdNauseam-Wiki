@@ -104,9 +104,6 @@ http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com
 **metaphoricgiraffe's tracking filters:**<br>
 <https://github.com/metaphoricgiraffe/tracking-filters>: [**subscribe**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy%20filters)
 
-**Prebake - Filter Obtrusive Cookie Notices:** <br>
-<https://github.com/liamja/Prebake>: [**subscribe**](https://raw.github.com/liamja/Prebake/master/obtrusive.txt?location=https://raw.github.com/liamja/Prebake/master/obtrusive.txt&title=Prebake%20-%20Filter%20Obtrusive%20Cookie%20Notices)
-
 **Spam404:** (`http` version)<br>
 <http://spam404bl.com/spam404scamlist.txt>: [**subscribe**](http://spam404bl.com/spam404scamlist.txt?location=http://spam404bl.com/spam404scamlist.txt&title=Spam404%20-%20HTTP%20version)
 
