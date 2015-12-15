@@ -95,9 +95,6 @@ http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com
 **iploggerfilter**:<br>
 <https://github.com/piperun/iploggerfilter>: [**subscribe**](https://github.com/piperun/iploggerfilter?location=https://raw.githubusercontent.com/piperun/iploggerfilter/master/filterlist&title=piperun's%20iplogger%20filter)
 
-**Malware filter list by Disconnect:**<br>
-<https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt>: [**subscribe**](https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt?location=https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt&title=Malware%20filter%20list%20by%20Disconnect)
-
 **Message "seen" Remover for Facebook:**<br>
 <https://easylist-downloads.adblockplus.org/message_seen_remover_for_facebook.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/message_seen_remover_for_facebook.txt?location=https://easylist-downloads.adblockplus.org/message_seen_remover_for_facebook.txt&title=Message%20"seen"%20Remover%20for%20Facebook)
 
