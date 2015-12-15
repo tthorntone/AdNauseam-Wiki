@@ -59,6 +59,14 @@ Example: `||google-analytics.com^$important,third-party` will block all network 
 
 To specifically disable inline script tags in a main page: `||example.com^$inline-script`.
 
+`popunder`:
+
+To block "popunders" windows/tabs. To be used in the same manner as the `popup` filter option, except that it will block popunders.
+
+`redirect`:
+
+To cause a network request to a blocked resource to be redirect to a local "neutered" version of the resource. (more documentation will eventually be made.)
+
 #### Cosmetic filters
 
 **Entity-based cosmetic filters:** Filters which are to be applied to a specific _entity_:
