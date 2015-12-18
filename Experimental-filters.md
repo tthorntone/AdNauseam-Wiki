@@ -7,7 +7,7 @@ If you find web pages broken by one of these filters, please open a [GitHub issu
 There are currently two experimental filters, which are block-then-redirect filters, to block the following resources:
 
 - `googletagservices.com/tag/js/gpt.js`: Normally [not blocked by EasyPrivacy](https://github.com/gorhill/uBlock/wiki/Blocking-mode#easy-mode).
-- `www.google-analytics.com/ga.js`: Normally blocked by uBO, but blocking this resource has sometimes led to page breakage, so exception filters have been required. By forcing a redirect to a neutered version, the goal is to reduce page breakage while avoiding the need to create an exception filter for some sites ([example](https://github.com/gorhill/uBlock/issues/1081#issuecomment-165501960))
+- `www.google-analytics.com/ga.js`: Normally blocked by uBO, but blocking this resource has sometimes led to page breakage, so exception filters have been required. By forcing a redirect to a neutered version, the goal is to reduce page breakage while avoiding the need to create an exception filter for some sites ([example](https://github.com/gorhill/uBlock/issues/1081#issuecomment-165501960)).
 
 Note that these two experimental filters use the `important` filter option, so they will bypass any existing exception filters.
 
