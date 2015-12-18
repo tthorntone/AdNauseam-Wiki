@@ -21,10 +21,6 @@ If you don't see this button, you can [suggest your edit on the issue tracker](h
 
 ## Differences
 
-### No tool tips
-
-Tool tips are useful for novice users, but can become annoying to advanced users. Tool tips are turned off for advanced users.
-
 ### Dynamic filtering
 
 Dynamic filtering ([quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)) will become available to advanced users.
