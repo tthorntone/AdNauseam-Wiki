@@ -1,4 +1,4 @@
-The experimental filters are filters being evaluated for inclusion in uBlock Origin's default set of filters. They are being evaluated to assess whether they cause undue web page breakages.
+The [experimental filters](https://github.com/gorhill/uBlock/blob/master/assets/ublock/experimental.txt) are filters being evaluated for inclusion in uBlock Origin's default set of filters. They are being evaluated to assess whether they cause undue web page breakages.
 
 The _Experimental_ filters are disabled by default, enable only if you want to help evaluate/fine tune these filters.
 
