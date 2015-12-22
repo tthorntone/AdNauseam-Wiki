@@ -15,6 +15,16 @@ You can fix this by following the following steps:
 
 ***
 
+#### Firefox: Missing icons in uBlock's popup UI
+
+You can fix this by following the following steps:
+1.  If you use a Linux system go to Edit - Settings - Content and choose a default font other than "serif". "Liberation" and "Clear" are known to work.
+2.  If the icons are still not showing enter `about:config` in the navigation bar and promise to be careful
+3.  Search for `fonts`
+4.  Check that gfx.downloadable_fonts.enabled is set to true. browser.display.use_document_fonts can be set to 0.
+
+***
+
 #### Links to social networks are blocked
 
 Because you enabled _"Fanboy’s Social Blocking List"_, or one of the filter lists which includes it, like _"Fanboy’s Annoyance List"_ or _"Fanboy+Easylist-Merged Ultimate List"_.
