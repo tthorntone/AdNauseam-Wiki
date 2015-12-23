@@ -8,7 +8,7 @@ The picture below shows uBlock Origin's default selection of filter lists. You c
 
 ![3rd-party filter pane](https://cloud.githubusercontent.com/assets/585534/9589096/0b6cc212-4ffa-11e5-82f1-d276b71fef91.png)
 
-uBlock Origin discards duplicate filters, so the number of filters used within a filter lists depends on how many duplicate filters were detected. The order in which the filter lists are loaded into memory is undefined.
+uBlock Origin discards duplicate filters, so the number of filters used within a filter list depends on how many duplicate filters were detected within that filter list. The order in which the filter lists are loaded into memory is undefined.
 
 ***
 
