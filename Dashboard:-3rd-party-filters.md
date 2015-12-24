@@ -10,6 +10,8 @@ The picture below shows uBlock Origin's default selection of filter lists. You c
 
 uBlock Origin discards duplicate filters, so the number of filters used within a filter list depends on how many duplicate filters were detected within that filter list. The order in which the filter lists are loaded into memory is undefined.
 
+Related: [_"Launch and filter lists load performance"_](https://github.com/gorhill/uBlock/wiki/Launch-and-filter-lists-load-performance).
+
 ***
 
 ##### Auto-update filter lists
