@@ -96,6 +96,9 @@ http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com
 **hpHosts PSH - Phishing** (risk of web page breakage):<br>
 <http://hosts-file.net/psh.txt>: [**subscribe**](http://hosts-file.net/psh.txt?location=http://hosts-file.net/psh.txt&title=hpHosts%20PSH%20-%20Phishing)
 
+**International List**: (cosmetic and tracking filters for English and German websites)<br>
+<https://github.com/betterwebleon/international-list>: [**subscribe**](https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt?location=https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt&title=International%20List)
+
 **iploggerfilter**:<br>
 <https://github.com/piperun/iploggerfilter>: [**subscribe**](https://github.com/piperun/iploggerfilter?location=https://raw.githubusercontent.com/piperun/iploggerfilter/master/filterlist&title=piperun's%20iplogger%20filter)
 
