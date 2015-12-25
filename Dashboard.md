@@ -1,3 +1,7 @@
+[Back to Wiki home](https://github.com/gorhill/uBlock/wiki)
+
+***
+
 You can access uBlock Origin's ("uBO") dashboard by ...
 - [Clicking the title bar](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-title-bar) of uBO's popup panel.
 - Chromium-based browsers:
