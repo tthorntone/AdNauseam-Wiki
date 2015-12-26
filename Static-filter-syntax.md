@@ -84,3 +84,7 @@ Since the base domain name is used to derive the name of the "entity", `google.e
 `script:contains(...)`:
 
 uBlock Origin supports a special cosmetic filter which purpose is to prevent the execution of specific inline script tags in a main HTML document. See [_"Inline script tag filtering"_](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering) for further documentation.
+
+`script:inject(...)`:
+
+This allows the injection of specific javascript code into pages. The `...` part is a token identifying a javascript resource from the [resource library](https://github.com/gorhill/uBlock/blob/master/assets/ublock/resources.txt).
