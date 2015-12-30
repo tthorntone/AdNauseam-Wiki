@@ -42,9 +42,6 @@ http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com
 **AntiPubWeb:**<br>
 <http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt>: [**subscribe**](http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt?location=http://www.antipubfirefox.org/antipub/antipubfirefox-adblocklist-current-expanded.txt&title=AntiPubWeb)
 
-**Bidgewalbelp filters:** (risk of web page breakage)<br>
-<https://bidgewalbelp.neocities.org/filters.html>: [**subscribe**](https://bidgewalbelp.neocities.org/filters.txt?location=https://bidgewalbelp.neocities.org/filters.txt&title=Bidgewalbelp)
-
 **Block-EU-Cookie-Shit-List:**<br>
 <https://github.com/r4vi/block-the-eu-cookie-shit-list>: [**subscribe**](https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt?location=https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt&title=Block-EU-Cookie-Shit-List)
 
