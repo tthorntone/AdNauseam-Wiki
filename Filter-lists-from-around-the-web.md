@@ -96,6 +96,9 @@ http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com
 **hpHosts PSH - Phishing** (risk of web page breakage):<br>
 <http://hosts-file.net/psh.txt>: [**subscribe**](http://hosts-file.net/psh.txt?location=http://hosts-file.net/psh.txt&title=hpHosts%20PSH%20-%20Phishing)
 
+**I don't care about cookies**:<br>
+<http://www.kiboke-studio.hr/i-dont-care-about-cookies/>: [**subscribe**](http://www.kiboke-studio.hr/i-dont-care-about-cookies/?location=http://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/&title=I%20don't care%20about%20cookies)
+
 **International List**: (cosmetic and tracking filters for English and German websites)<br>
 <https://github.com/betterwebleon/international-list>: [**subscribe**](https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt?location=https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt&title=International%20List)
 
