@@ -22,6 +22,8 @@ If you check this option, uBlock Origin will update automatically the currently 
 
 This button is available for use if and only if there is at least one filter list which is deemed outdated. If this condition is fulfilled, you can force an update of all filter lists which are deemed out of date.
 
+When a filter list has been updated using a newer version from its remote location, a button `purge cache` will be available for that filter list. You can force an update of a single filter list by purging the cache of that filter list only -- by clicking its `purge cache` button. This will cause the _"Update now"_ button to become available for use.
+
 ##### Purge all caches
 
 This will remove all locally cached copies of filter the filter lists. Essentially, this will cause all filter lists to become out of date. This can be used to force an update of all filter lists.
