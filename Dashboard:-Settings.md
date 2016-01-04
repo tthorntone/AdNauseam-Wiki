@@ -1,4 +1,5 @@
-[Back to Wiki home](https://github.com/gorhill/uBlock/wiki)
+- Back to [Wiki home](https://github.com/gorhill/uBlock/wiki)
+- Back to [Dashboard](https://github.com/gorhill/uBlock/wiki/Dashboard)
 
 ***
 
