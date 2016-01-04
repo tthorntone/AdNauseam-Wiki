@@ -26,7 +26,7 @@ When a filter list has been updated using a newer version from its remote locati
 
 ##### Purge all caches
 
-This will remove all locally cached copies of filter the filter lists. Essentially, this will cause all filter lists to become out of date. This can be used to force an update of all filter lists.
+This will remove all locally cached copies of filter lists. Essentially, this will cause all filter lists to become out of date. This can be used to force an update of all filter lists.
 
 ##### Parse and enforce cosmetic filters
 
