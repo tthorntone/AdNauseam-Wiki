@@ -31,3 +31,4 @@ There may be many different reasons for this.
     - You use dynamic filtering and there is an [`allow` rule for the current site](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-disabling-cosmetic-filtering-for-the-current-site).
 - You un-checked _My filters_ in the _3rd-party filters_ pane in the dashboard.
 - There is a static filter in one of the 3rd-party filter lists in use which counters your filter.
+    - Exception cosmetic filters (`#@#`) cancel cosmetic filters (`##`).
