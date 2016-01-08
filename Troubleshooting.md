@@ -51,6 +51,14 @@ You will need to clean up whatever malware tampered with your Chrome browser ins
 
 ***
 
+#### uBlock Origin stopped blocking ads
+
+I've seen this happens on a Chromium-based browser. Upon investigation, even though uBO's icon was on the toolbar, I found that the extension was not actually in memory. I believe this problem coincided with uBO having been updated with a new version from the Chrome store. Forcing a restart of uBO fixed the issue (uncheck then check _Enable_ in the _Extensions_ page).
+
+So it does appear the browser's automated update of an extension can go wrong sometimes. Forcing a restart of the extension fixes the issue.
+
+***
+
 #### uBlock Origin uninstall itself
 
 This has been reported many times. This could be caused a false positive from your anti-virus application.
