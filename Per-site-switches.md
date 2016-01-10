@@ -1,8 +1,6 @@
-Some settings can be adjusted on a per-site basis: this is the purpose of the per-site switches.
+The per-site switches allows you to control uBlock's behavior on a per-site basis.
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1g.png)
-
-The site-based switches allows you to control uBlock's behavior on a per-site basis.
 
 ***
 
