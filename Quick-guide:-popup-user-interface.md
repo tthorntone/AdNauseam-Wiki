@@ -82,4 +82,6 @@ And I had click-to-play enabled in all cases, so it could have been worse (excep
 
 #### The site-based switches
 
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1g.png)
+
 The per-site switches allow you to control some settings on a per-site basis. See [detailed documentation about per-site switches](https://github.com/gorhill/uBlock/wiki/Per-site-switches).
