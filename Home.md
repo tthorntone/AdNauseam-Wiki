@@ -5,6 +5,7 @@
 - [Privacy policy](https://github.com/gorhill/uBlock/wiki/Privacy-policy)
 - Quick guides:
     - [The popup user interface](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
+        - [Per-site switches](https://github.com/gorhill/uBlock/wiki/Per-site-switches)
     - [Dashboard](https://github.com/gorhill/uBlock/wiki/Dashboard)
         - [_Settings_](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings) pane
         - [_3rd-party filters_](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters) pane
