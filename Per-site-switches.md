@@ -1,3 +1,7 @@
+Back to [Wiki home](https://github.com/gorhill/uBlock/wiki)
+
+***
+
 The per-site switches allows you to control uBlock's behavior on a per-site basis.
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1g.png)
