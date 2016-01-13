@@ -13,7 +13,7 @@ The per-site switches allows you to control uBlock's behavior on a per-site basi
 
 ***
 
-##### No popups
+#### No popups
 
 By default popups are allowed unless there is a filter to block them. When this setting is enabled, **all** popups will be unconditionally blocked for the current site, regardless of filters:
 
@@ -25,7 +25,7 @@ Blocking popups depends on whether the proper filters are present in the selecte
 
 ***
 
-##### No strict blocking
+#### No strict blocking
 
 The second icon is to turn off strict blocking for the current site. By default, strict blocking is enabled in uBlock (this is the opposite of Adblock Plus).
 
@@ -62,7 +62,7 @@ Strict blocking is commonly disabled for sites in [Badware risks](https://github
 
 ***
 
-##### No cosmetic filtering
+#### No cosmetic filtering
 
 You can easily toggle on/off cosmetic filtering for a given site:
 
@@ -82,7 +82,7 @@ Click _Save_, then _Commit_ to make the rule permanent. From then on, cosmetic f
 
 ***
 
-##### No remote fonts
+#### No remote fonts
 
 You can prevent web fonts from being downloaded for the current site:
 
