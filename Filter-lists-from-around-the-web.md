@@ -96,9 +96,6 @@ http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com
 **I don't care about cookies**:<br>
 <http://www.kiboke-studio.hr/i-dont-care-about-cookies/>: [**subscribe**](http://www.kiboke-studio.hr/i-dont-care-about-cookies/?location=http://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/&title=I%20don't care%20about%20cookies)
 
-**International List**: (cosmetic and tracking filters for English and German websites)<br>
-<https://github.com/betterwebleon/international-list>: [**subscribe**](https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt?location=https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt&title=International%20List)
-
 **iploggerfilter**:<br>
 <https://github.com/piperun/iploggerfilter>: [**subscribe**](https://github.com/piperun/iploggerfilter?location=https://raw.githubusercontent.com/piperun/iploggerfilter/master/filterlist&title=piperun's%20iplogger%20filter)
 
