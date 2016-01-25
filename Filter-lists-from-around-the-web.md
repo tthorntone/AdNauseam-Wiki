@@ -31,7 +31,7 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 <https://adaway.org/hosts.txt>: [**subscribe**](https://adaway.org/hosts.txt?location=https://adaway.org/hosts.txt&title=AdAway)
 
 **Adguard - Mobile Ads Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))<br>
-http://adguard.com/en/filter-rules.html?id=11: [**subscribe**](http://adguard.com/en/filter-rules.html?id=11&location=http://adguard.com/en/filter-rules.html?id=11&title=Adguard - Mobile Ads Filter)
+https://adguard.com/en/filter-rules.html?id=11: [**subscribe**](https://adguard.com/en/filter-rules.html?id=11&location=https://adguard.com/en/filter-rules.html?id=11&title=Adguard - Mobile Ads Filter)
 
 **Adguard - Social Media Filter** (License - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))<br>
 http://adguard.com/en/filter-rules.html?id=4: [**subscribe**](http://adguard.com/en/filter-rules.html?id=4&location=http://adguard.com/en/filter-rules.html?id=4&title=Adguard - Social Media Filter)
@@ -52,7 +52,7 @@ http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com
 <http://gnuzilla.gnu.org/filters/third-party.txt>: [**subscribe**](http://gnuzilla.gnu.org/filters/third-party.txt?location=http://gnuzilla.gnu.org/filters/third-party.txt&title=Block%20all%20third%20party%20resources%20when%20in private%20browsing%20mode)
 
 **cjxlist:** (only for Chinese language websites)<br>
-<http://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](http://cjxlist1.googlecode.com/svn/cjxlist.txt?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=Old%20cjxlist%20filters%20list%20for%20Chinese%20sites)
+<https://cjxlist1.googlecode.com/svn/cjxlist.txt>: [**subscribe**](https://cjxlist1.googlecode.com/svn/cjxlist.txt?location=https://cjxlist1.googlecode.com/svn/cjxlist.txt&title=Old%20cjxlist%20filters%20list%20for%20Chinese%20sites)
 
 **Disconnect simple ad filters:**<br>
 <https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt>: [**subscribe**](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt?location=https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt&title=Disconnect%20simple%20ad%20filters)
@@ -104,6 +104,9 @@ http://adguard.com/en/filter-rules.html?id=3: [**subscribe**](http://adguard.com
 
 **metaphoricgiraffe's tracking filters:**<br>
 <https://github.com/metaphoricgiraffe/tracking-filters>: [**subscribe**](https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt?location=https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt&title=Privacy%20filters)
+
+**RU AdList: Counters:**<br>
+<https://easylist-downloads.adblockplus.org/cntblock.txt>: [**subscribe**](https://easylist-downloads.adblockplus.org/cntblock.txt?location=https://easylist-downloads.adblockplus.org/cntblock.txt&title=RU%20AdList:%20Counters)
 
 **Spam404:** (`http` version)<br>
 <http://spam404bl.com/spam404scamlist.txt>: [**subscribe**](http://spam404bl.com/spam404scamlist.txt?location=http://spam404bl.com/spam404scamlist.txt&title=Spam404%20-%20HTTP%20version)
