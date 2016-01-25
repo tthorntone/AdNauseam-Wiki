@@ -26,6 +26,7 @@
         - [Nightmare mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-nightmare-mode)
     - [Element picker](https://github.com/gorhill/uBlock/wiki/Element-picker)
     - [Strict blocking](https://github.com/gorhill/uBlock/wiki/Strict-blocking)
+        - [Badware risks](https://github.com/gorhill/uBlock/wiki/Badware-risks)
     - [The logger](https://github.com/gorhill/uBlock/wiki/The-logger)
     - [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
         - [Quick guide](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
