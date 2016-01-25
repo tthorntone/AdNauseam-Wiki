@@ -27,9 +27,9 @@ Blocking popups depends on whether the proper filters are present in the selecte
 
 #### No large media elements
 
-The second icon is to toggle on/off the blocking of large media elements for the current site.
+The second icon is to toggle on/off the blocking of large media elements for the current site. The primary purpose of this feature is to save bandwidth. Side effect is to possibly speed up page load.
 
-The primary purpose of this feature is to save bandwidth. Side effect is to possibly speed up page load.
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1h.png)
 
 By default, this setting is disabled. The global default can be enabled in the _Settings_ pane in the dashboard.
 
