@@ -43,10 +43,6 @@ When large media elements have been blocked on a page, you may force a reload of
 
 If you use this feature and large media elements were blocked on a web page, the context menu will contain a new entry: _"Temporarily allow large media elements"_. When you click this entry, uBO will disable temporarily the blocking of large media element for the site, and attempt to load the blocked media elements without re-loading the page. In some cases you may need to force a reload of the page, for example if large media elements were fetched programmatically by the page. The temporary disabling will be removed for a tab as soon as you travel to a new site, or close the tab.
 
-You can set a sticky per-site rule for whether large media elements are blocked by toggling the appropriate switch in the popup panel. When large media elements are blocked on a page, the popup panel will report the number of large media elements that were blocked.
-
-![a](https://cloud.githubusercontent.com/assets/585534/12420615/b65f80f6-be8b-11e5-8d9c-d3cc952b87b4.png)
-
 Blocked large media elements are reported in the logger with the filter `no-large-media: [scope] true`.
 
 Note that this feature has no privacy value: a connection to the remote server must be performed in order to fetch the size of the resource. This of course applies only to resources which were not otherwise blocked by uBO's filtering engine.
