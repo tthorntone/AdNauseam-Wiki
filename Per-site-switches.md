@@ -29,7 +29,7 @@ Blocking popups depends on whether the proper filters are present in the selecte
 
 The second icon is to toggle on/off the blocking of large media elements for the current site. The primary purpose of this feature is to save bandwidth. Side effect is to possibly speed up page load.
 
-![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1h.png)
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1h.png)<br><sup>The badge shows the number of large media elements that have been blocked on the page.</sup>
 
 By default, this setting is disabled. The global default can be enabled in the _Settings_ pane in the dashboard.
 
@@ -71,7 +71,7 @@ Examples of usefulness (let's say you just stumbled onto these pages not knowing
 
 You can easily toggle on/off cosmetic filtering for a given site:
 
-![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1j.png)<br><sup>No cosmetic filtering for the current site.</sup>
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1j.png)<br><sup>The badge shows the number of DOM elements that have been hidden on the page.</sup>
 
 When present, the badge number indicates the number of elements hidden on the page by uBlock as a result of cosmetic filtering. If you disable cosmetic filtering while there are hidden elements on the page, these elements will become visible/hidden as you toggle off/on cosmetic filtering.
 
@@ -91,7 +91,7 @@ Click _Save_, then _Commit_ to make the rule permanent. From then on, cosmetic f
 
 You can prevent web fonts from being downloaded for the current site:
 
-![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1k.png)<br><sup>No remote fonts for the current site.</sup>
+![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1k.png)<br><sup>The badge shows the number of font resources that have been blocked on the page.</sup>
 
 Because of security and privacy concerns, many prefer to block all web fonts by default. You can do this by adding the following rule directly in the _"My rules"_ pane in the dashboard:
 
