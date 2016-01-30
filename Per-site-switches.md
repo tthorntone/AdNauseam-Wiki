@@ -7,8 +7,8 @@ The per-site switches allows you to control uBlock's behavior on a per-site basi
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1g.png)
 
 - [No popups](#no-popups)
-- [No strict blocking](#no-strict-blocking)
 - [No large media elements](#no-large-media-elements)
+- [No cosmetic filtering](#no-cosmetic-filtering)
 - [No remote fonts](#no-remote-fonts)
 
 ***
