@@ -6,10 +6,9 @@
 
 ### Malware protection
 
-`iframe` tags are very often used by malware code on compromised web sites. A recent example of this is ~~[Malware With Your News? Forbes Website Victim of Malvertising Attack](https://www.fireeye.com/blog/threat-research/2015/09/malvertising_attack.html)~~ [Angler Exploit Kit Blasts Daily Mail Visitors Via Malvertising](https://blog.malwarebytes.org/malvertising-2/2015/10/angler-exploit-kit-blasts-daily-mail-visitors-via-malvertising/).
+`iframe` tags are very often used by malware code on compromised web sites -- using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique: 
 
-Using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique: 
-
+- [_"Massive Admedia/Adverting iFrame Infection"_](https://blog.sucuri.net/2016/02/massive-admedia-iframe-javascript-infection.html?utm_campaign=Massive%20Admedia%20Adverting%20iFrame%20Infection%20blogpost&utm_medium=social&utm_source=twitter)
 - [_"MSN Home Page Drops More Malware Via Malvertising"_](https://blog.malwarebytes.org/malvertising-2/2016/01/msn-home-page-drops-more-malware-via-malvertising/)
 - [_"Malvertising Hits DailyMotion, Serves Up Angler EK"_](https://blog.malwarebytes.org/malvertising-2/2015/12/malvertising-hits-dailymotion-serves-up-angler-ek/)
 - [_"Angler Exploit Kit Blasts Daily Mail Visitors Via Malvertising"_](https://blog.malwarebytes.org/malvertising-2/2015/10/angler-exploit-kit-blasts-daily-mail-visitors-via-malvertising/) (newly added)
