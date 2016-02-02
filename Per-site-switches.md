@@ -79,7 +79,7 @@ Cosmetic filtering is always enabled by default.
 
     no-cosmetic-filtering: * true
 
-Click _Save_, then _Commit_ to make the rule permanent. From then on, cosmetic filtering will be turned off everywhere by default, and to turn it on for a specific site where it is really needed, just enable it using the switch in the uBO's panel.
+Click _Save_, then _Commit_ to make the rule permanent. From then on, cosmetic filtering will be turned off everywhere by default, and to turn it on for a specific site where it is really needed, just enable it using the switch in uBO's panel.
 
 ***
 
