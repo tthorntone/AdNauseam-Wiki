@@ -28,7 +28,6 @@ There may be many different reasons for this.
 - Cosmetic filtering is disabled for the site, or globally. There are many ways to disable cosmetic filtering:
     - The [per-site cosmetic filtering switch](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-cosmetic-filtering).
     - The option [_"Parse and enforce cosmetic filters"_](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters#parse-and-enforce-cosmetic-filters) is un-checked in the [_3rd-party filters_](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters) pane in the dashboard.
-    - You use dynamic filtering and there is an [`allow` rule for the current site](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-disabling-cosmetic-filtering-for-the-current-site).
 - You un-checked _My filters_ in the _3rd-party filters_ pane in the dashboard.
 - There is a static filter in one of the 3rd-party filter lists in use which counters your filter.
     - Exception cosmetic filters (`#@#`) cancel cosmetic filters (`##`).
