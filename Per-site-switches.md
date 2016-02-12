@@ -13,7 +13,7 @@ The per-site switches allows you to control uBlock's behavior on a per-site basi
 
 ***
 
-### No popups
+## No popups
 
 By default popups are allowed unless there is a filter to block them. When this setting is enabled, **all** popups will be unconditionally blocked for the current site, regardless of filters:
 
@@ -25,7 +25,7 @@ Blocking popups depends on whether the proper filters are present in the selecte
 
 ***
 
-### No large media elements
+## No large media elements
 
 The second icon is to toggle on/off the blocking of large media elements for the current site. The primary purpose of this feature is to save bandwidth. Side effect is to possibly speed up page load.
 
@@ -63,7 +63,7 @@ Examples of usefulness (let's say you just stumbled onto these pages not knowing
 
 ***
 
-### No cosmetic filtering
+## No cosmetic filtering
 
 "Cosmetic filtering" in uBO is what is known as ["element hiding"](https://adblockplus.org/filters#elemhide) in Adblock Plus.
 
@@ -89,7 +89,7 @@ To disable cosmetic filtering everywhere by default, go to the [_Settings_ pane 
 
 ***
 
-### No remote fonts
+## No remote fonts
 
 You can prevent web fonts from being downloaded for the current site:
 
