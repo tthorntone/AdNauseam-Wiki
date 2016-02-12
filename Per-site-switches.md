@@ -65,6 +65,8 @@ Examples of usefulness (let's say you just stumbled onto these pages not knowing
 
 ### No cosmetic filtering
 
+"Cosmetic filtering" in uBO corresponds to ["element hiding" in Adblock Plus](https://adblockplus.org/filters#elemhide).
+
 You can easily toggle on/off cosmetic filtering for a given site:
 
 ![Popup UI](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1j.png)<br><sup>The badge shows the number of DOM elements that have been hidden on the page.</sup>
