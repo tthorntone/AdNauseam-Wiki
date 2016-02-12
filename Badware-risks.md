@@ -44,6 +44,7 @@ Below are sites currently part of the list, or sites being candidate for the lis
 
 - 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 - 2015-02-26: [62% of the Top 50 Download.com applications bundle toolbars and other PUPs](http://blog.emsisoft.com/2015/02/26/62-of-the-top-50-download-com-applications-bundle-toolbars-and-other-pups/)
+- 2015-02-23: [Download.com and Others Bundle Superfish-Style HTTPS Breaking Adware](http://www.howtogeek.com/210265/download.com-and-others-bundle-superfish-style-https-breaking-adware/)
 - 2015-01-21: [Yes, _Every_ Freeware Download Site is Serving Crapware (Here’s the Proof)](http://www.howtogeek.com/207692/yes-every-freeware-download-site-is-serving-crapware-heres-the-proof/)
 - 2015-01-11: [Here’s What Happens When You Install the Top 10 Download.com Apps](http://www.howtogeek.com/198622/heres-what-happens-when-you-install-the-top-10-download.com-apps/)
 - 2012-06-27: [Download.com Caught Adding Malware to Nmap & Other Software](http://insecure.org/news/download-com-fiasco.html)
