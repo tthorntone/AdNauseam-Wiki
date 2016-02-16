@@ -18,6 +18,14 @@ Note: the _subscribe_ link works properly only for uBlock Origin 0.9.9.4-dev.0+.
 
 ***
 
+#### Lists taking advantage of uBlock Origin-specific filter syntax
+
+**uBlock Filters +:**<br>
+<https://github.com/IDKwhattoputhere/uBlock-Filters-Plus>: [**subscribe**](https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt?location=https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt&title=uBlock%20Filters%20%2B)
+
+***
+
+#### Lists compatible with ABP's filter syntax
 **Adblock Polska:**<br>
 <https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt>: [**subscribe**](https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt?location=https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt&title=Adblock%20Polska)
 
