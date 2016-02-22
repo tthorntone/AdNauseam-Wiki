@@ -20,6 +20,7 @@
 - [_"Malicious advertisements served via Yahoo"_](http://blog.fox-it.com/2014/01/03/malicious-advertisements-served-via-yahoo/)
 - [_"jQuery.com Confirms Website Compromise"_](http://www.riskiq.com/blog/business/post/jquerycom-confirms-website-compromise)
 - [_"Democracy in Hong Kong Under Attack"_](http://www.volexity.com/blog/?p=33)
+- [_"Yet another case of malvertising on The Pirate Bay"_](https://blog.malwarebytes.org/exploits-2/2014/09/malvertising-on-the-pirate-bay/)
 - [_"Hackers compromise official PHP website, infect visitors with malware"_](http://arstechnica.com/security/2013/10/hackers-compromise-official-php-website-infect-visitors-with-malware/).
 - [_"Feds Are Suspects in New Malware That Attacks Tor Anonymity"_](http://www.wired.com/2013/08/freedom-hosting/)
 - [_"willysy.com Mass Injection ongoing, over 8 million infected pages, targets osCommerce sites"_](http://blog.armorize.com/2011/07/willysycom-mass-injection-ongoing.html)
