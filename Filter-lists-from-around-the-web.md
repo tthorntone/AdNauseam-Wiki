@@ -6,4 +6,4 @@ You can import external filter lists by pasting the URL address of a filter list
 
 ### Resources
 
-See [FilterLists](https://filterlists.com/) for a comprehensive list of filter lists from all over the web.
+See [FilterLists](https://filterlists.com/) for a comprehensive list of filter lists from all over the web (click the _Add_ link of a filter list to import that list into uBO).
