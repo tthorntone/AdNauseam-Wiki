@@ -2,7 +2,9 @@ The [experimental filters](https://github.com/gorhill/uBlock/blob/master/assets/
 
 The _Experimental_ filters are disabled by default, enable only if you want to help evaluate/fine tune these filters.
 
-If you find web pages broken by one of these filters, please open a [GitHub issue](https://github.com/gorhill/uBlock/issues) with all the proper details<sup>[1]</sup> **if and only if** you are able to confirm that one of the experimental filter is causing the web page breakage.
+If you find a page not working properly because of uBO, you may try to enable this filter list and see if this makes a difference.
+
+In the unlikelihood you find web pages broken by the _Experimental_ filter list, please open a [GitHub issue](https://github.com/gorhill/uBlock/issues) with all the proper details<sup>[1]</sup> **if and only if** you are able to confirm that one of the experimental filter is causing the web page breakage -- which would be the opposite of its intended purpose.
 
 There are currently two experimental filters, which are block-then-redirect filters, to block the following resources:
 
