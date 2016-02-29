@@ -99,8 +99,9 @@ Below are sites currently part of the list, or sites being candidate for the lis
 
 - 2015-03-11: [Mind the PUP: Top download portals to avoid](http://blog.emsisoft.com/2015/03/11/mind-the-pup-top-download-portals-to-avoid/)
 
-#### sourceforge.net
+#### sourceforge.net (probation)
 
+- 2016-02-10: ["SourceForge Acquisition and Future Plans"](https://sourceforge.net/blog/sourceforge-acquisition-and-future-plans/)
 - 2015-10-16: ["FileZilla binaries from sourceforge ... Malware warn"](https://twitter.com/codinghorror/status/655119643216973825)
 - 2015-07-24: [Downloading from SourceForge? Official links deliver fakes also](http://www.myce.com/news/downloading-from-sourceforge-official-links-deliver-fakes-also-76749/)
 - 2015-06-18: [A hotbed of malware: Another blow for SourceForge as Google discovers 588 pages with malicious software](http://www.information-age.com/industry/software/123459675/hotbed-malware-another-blow-sourceforge-google-discovers-588-pages-malicious-software)
