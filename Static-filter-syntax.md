@@ -26,7 +26,7 @@ ABP filter syntax dictates that this is interpreted as "block network requests w
 
 So in uBO, any entry which can be read as a valid hostname, will be assumed to be a HOSTS file entry. If ever you want such filter to be parsed as an ABP filter, just add a wildcard at the end:
 
-    example.com*
+    example.com/*
 
 ##### "All URLs"
 
@@ -41,7 +41,7 @@ Usually, it is far more convenient to use [dynamic filtering rules](https://gith
 
 `document` for _block_ filters:
 
-This will cause web pages which match the filter to be subjected to [strict blocking](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-strict-blocking).
+This will cause web pages which match the filter to be subjected to [strict blocking](https://github.com/gorhill/uBlock/wiki/Strict-blocking).
 
 `first-party`:
 
