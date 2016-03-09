@@ -1,4 +1,4 @@
-TL;DR: Do **not** rely on the number shown over an extension badge to judge blocking power, i.e. to assess how well your privacy is protected, you would fool yourself big time.
+TL;DR: Do **not** rely on the number shown over an extension badge to judge blocking power, i.e. to assess how well your privacy is protected, you could fool yourself big time.
 
 ***
 
