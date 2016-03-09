@@ -6,9 +6,9 @@ For both Adblock Plus and uBlock (and many other such extensions), the badge on 
 
 Sometimes, for the same page, one extension can report more stuff blocked than the other, while the reality could be the opposite.
 
-The less a blocker blocks, the more there are net requests. The more there are net requests, the more likely some of them will need to be blocked. So sometimes you end up with more request blocked as shown by the badge, while internally more requests were allowed on the web page.
+The less a blocker blocks, the higher the number of network requests. The higher the number of network requests, the more likely some of them will need to be blocked. So sometimes you end up with more network requests blocked as shown by the badge, while internally more network requests were actually allowed for the web page.
 
-Ultimately, for me it's the [benchmarks I run](/gorhill/uBlock/wiki/%C2%B5Block-vs.-others:-Blocking-ads,-trackers,-malwares) to report blocking power which tells the real story. The badge is really not a good way to assess blocking power of an extension, you could well endup concluding the opposite of what is really happening.
+Ultimately, for me it's the [benchmarks I run](/gorhill/uBlock/wiki/%C2%B5Block-vs.-others:-Blocking-ads,-trackers,-malwares) to report blocking power which tells the real story. The badge is really not a good way to assess blocking power of an extension, you could well end up concluding the opposite of what is really happening.
 
 If you don't want to run a benchmark, I have this [little online tool](http://raymondhill.net/httpsb/har-parser.html) with which you can find out the requests which were **not** prevented from leaving your browser. To use it, open the dev console for the page for which you want a report, and go to the _Network_ tab.
 
