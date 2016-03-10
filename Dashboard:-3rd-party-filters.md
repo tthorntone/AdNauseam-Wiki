@@ -11,6 +11,8 @@ The picture below shows uBlock Origin's default selection of filter lists. You c
 
 uBlock Origin discards duplicate filters, so the number of filters used within a filter list depends on how many duplicate filters were detected within that filter list. The order in which the filter lists are loaded into memory is undefined.
 
+The `http` label present for certain filter lists means these filter lists are not downloaded using secure connection -- because their respective servers do not support `https`.
+
 Related: [_"Launch and filter lists load performance"_](https://github.com/gorhill/uBlock/wiki/Launch-and-filter-lists-load-performance).
 
 ***
