@@ -17,6 +17,8 @@ uBlock origin + default settings corresponds to _Easy mode_ in the graph above.
 
 For reference, Adblock Plus + default settings (i.e. with _Acceptable ads_ enabled) will position you somewhere between _No blocking_ and _Very easy mode_ in the graph above.
 
+***
+
 **Very easy mode** ([details](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-very-easy-mode)):
 - _uBlock filters_.
 - _EasyList_.
