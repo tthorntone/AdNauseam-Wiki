@@ -7,13 +7,15 @@ uBlock Origin is not an "ad blocker", it is a wide-spectrum blocker, which happe
 ![Number of 3rd-party servers to which the browser connected during benchmark](https://cloud.githubusercontent.com/assets/585534/8906091/b7334ddc-3439-11e5-848b-9e8a58eff876.png)<br><sup>Number of 3rd-party servers to which the browser connected during benchmark: 83 URLs of high-traffic sites were visited (on July 24, 2015). [TODO: include intermediate mode between _easy_ and _medium_ in next benchmark]</sup>
 
 In the above chart, the difference between two modes translate into differences in:
-- CPU usage<sup>[1]</sup>
+- CPU usage (hence faster page load, better battery usage)
 - Memory usage
 - Network bandwidth usage
 - Privacy exposure
 - Security
 
-<sub>[1] CPU usage itself translates into page load speed, battery usage.</sub>
+uBlock origin + default settings corresponds to _Easy mode_ in the graph above.
+
+For reference, Adblock Plus + default settings (i.e. with _Acceptable ads_ enabled) will position you somewhere between _No blocking_ and _Very easy mode_ in the graph above.
 
 **Very easy mode** ([details](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-very-easy-mode)):
 - _uBlock filters_.
