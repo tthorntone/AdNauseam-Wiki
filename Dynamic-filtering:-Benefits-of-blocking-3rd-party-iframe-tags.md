@@ -8,6 +8,7 @@
 
 `iframe` tags are very often used by malware code on compromised web sites -- using 3rd-party-sourced `<iframe>` to inject exploit on a user's computer is quite a common technique: 
 
+- [_"Big-name sites hit by rash of malicious ads spreading crypto ransomware"_](http://arstechnica.com/security/2016/03/big-name-sites-hit-by-rash-of-malicious-ads-spreading-crypto-ransomware/)
 - [_"Massive Admedia/Adverting iFrame Infection"_](https://blog.sucuri.net/2016/02/massive-admedia-iframe-javascript-infection.html?utm_campaign=Massive%20Admedia%20Adverting%20iFrame%20Infection%20blogpost&utm_medium=social&utm_source=twitter)
 - [_"MSN Home Page Drops More Malware Via Malvertising"_](https://blog.malwarebytes.org/malvertising-2/2016/01/msn-home-page-drops-more-malware-via-malvertising/)
 - [_"Malvertising Hits DailyMotion, Serves Up Angler EK"_](https://blog.malwarebytes.org/malvertising-2/2015/12/malvertising-hits-dailymotion-serves-up-angler-ek/)
