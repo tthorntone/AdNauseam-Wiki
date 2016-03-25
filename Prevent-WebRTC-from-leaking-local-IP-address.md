@@ -12,7 +12,7 @@ It has been reported that Google Hangout and Facebook messenger do not work prop
 
 If you are using an extension-based VPN, this setting won't [prevent your ISP IP address from leaking](https://code.google.com/p/chromium/issues/detail?id=457492#c44).
 
-Also: ["When using a proxy, WebRTC leaks unproxied IP address even with multiple routes disabled"](https://code.google.com/p/chromium/issues/detail?id=497040).
+Also: ["When using a proxy, WebRTC leaks unproxied IP address even with multiple routes disabled"](https://code.google.com/p/chromium/issues/detail?id=497040). ([Reportedly fixed in Chromium 47](https://bugs.chromium.org/p/chromium/issues/detail?id=497040#c25)).
 
 The feature works only on version 42 and above.
 
