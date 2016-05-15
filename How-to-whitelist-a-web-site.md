@@ -41,14 +41,6 @@ If no `/` appears in a whitelist directive, and if the directive contains charac
 
 Wildcards can be used at any position. However, when a wildcard is used within the hostname portion of a directive, it cannot be at the end of the hostname, and also must be at the boundary of a hostname label.
 
-#### A Youtube channel
-
-- Requirements:
-    - Chromium-based browsers: install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) extension.
-    - Firefox-based browsers: install [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/) extension.
-- Install [this user script](https://greasyfork.org/en/scripts/13226-youtube-whitelist-channels-in-ublock-origin).
-- Read the instructions that come with the user script above.
-
 ### Other details
 
 If you re-enable uBlock by clicking the whitelist button in the popup while a whitelist directive you handcrafted is in effect, your handcrafted whitelist directive will simply be commented out. This way you can bring it back to life if ever you un-whitelist by mistake.
