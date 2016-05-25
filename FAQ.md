@@ -36,10 +36,6 @@
 
 2. Click away…
 
-#### How does AdNauseam click on ads? 
-
-AdNauseam loads detected ads in a sandboxed, invisible tab of the browser (via the [page-worker API](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-worker) in FireFox). By default, the outgoing request is stripped of all cookies and the 'referer' header is removed (these defaults can be adjusted in the 'Settings' menu). Though the returned page is loaded, it is restricted in a number of ways. Popups, scripts (including JavaScript), Flash and other plugins are all disallowed, and all incoming cookies are ignored. The page does not show up in the browser's history or otherwise affect the browsing session.
-
 #### Are you also tracking my clicks on your own servers?
 No, we do not collect any information on users whatsoever.
 
