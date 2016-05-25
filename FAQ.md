@@ -4,7 +4,7 @@
 
 * [How do I install AdNauseam in Firefox?](#how-do-i-install-adnauseam-in-firefox)
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
-* [Does AdNauseam respect the browser's "private-browsing mode"?](#does-adnauseam-respect-the-browsers-private-browsing-mode)
+* [Does AdNauseam respect Firefox's private-browsing mode"?](#does-adnauseam-respect-the-browsers-private-browsing-mode)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
 * [Who can tell that I’m using AdNauseam?](#who-can-tell-that-im-using-adnauseam)
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
@@ -39,7 +39,7 @@
 #### Are you also tracking my clicks on your own servers?
 No, we do not collect any information on users whatsoever.
 
-#### Does AdNauseam respect the browser's "[private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) mode"? 
+#### Does AdNauseam respect the Firefox's "[private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) mode"? 
 Yes, AdNauseam does not detect, visit, or log any ads that occur on pages loaded in private-browsing windows.
 
 #### Does AdNauseam block ads or just hide them?
