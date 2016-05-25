@@ -1,73 +1,125 @@
-Collection of questions which have been asked, along with the answer I provided, or I would have provided.
+# Frequently Asked Questions
 
-#### Is there a Chinese translation of this Wiki?
+####How?
 
-Yes, it is here: [中文](https://github.com/fang5566/uBlock/wiki/FAQ)
+* [How do I install AdNauseam in Firefox?](#how-do-i-install-adnauseam-in-firefox)
+* [How does AdNauseam click on ads?](#how-does-adnauseam-click-on-ads)
+* [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
+* [Does AdNauseam respect the browser's "private-browsing mode"?](#does-adnauseam-respect-the-browsers-private-browsing-mode)
+* [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
+* [Using other Ad Blockers with AdNauseam](#using-other-ad-blockers-with-adnauseam)
+* [Who can tell that I’m using AdNauseam?](#who-can-tell-that-im-using-adnauseam)
+* [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
+* [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 
-#### Can uBlock Origin filter Youtube ads?
+####Why?
 
-If the filter lists you enable include filters to block YouTube ads, then yes it will.  EasyList, which is enabled by default, includes filters to block YouTube ads.
+* [Do you oppose all advertising?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
+* [What must advertisers do to win the trust of Internet users?](#what-must-advertisers-do-to-win-the-trust-of-internet-users)
+* [What made you choose data obfuscation as the strategy here?](#what-made-you-choose-data-obfuscation-as-the-strategy-here)
+* [Do you know of other similar obfuscation initiatives along these lines?](#this-is-interesting-do-you-know-of-other-similar-obfuscation-initiatives-along-these-lines)
+* [How does AdNauseam's clicking differ from 'click-fraud'?](#how-does-what-the-adnauseams-clicking-differ-from-click-fraud)
+* [But what about "good" sites who don't track their users -- doesn't AdNauseam also block their ads?](#but-what-about-good-sites-who-dont-track-their-users----doesnt-adnauseam-also-block-their-ads)
+* [What is the "end goal" of AdNauseam?](#what-is-the-end-goal-of-adnauseam-confusing-data-so-it-becomes-useless-for-advertisers-and-forces-them-to-react)
+* [Is there a business model behind AdNauseam?](#is-there-a-business-model-behind-adnauseam-do-you-consider-yourself-a-business-or-is-it-solely-to-make-some-kind-of-a-statement-about-the-state-of-web-advertising)
+* [What about "Native Advertising?"](#are-you-concerned-that-ad-blocking-technology-is-part-of-the-reason-companies-like-facebook-are-so-keen-to-deploy-native-advertising----ads-that-masquerade-as-editorial-content)
 
-#### Is [other blocker] still needed with uBlock?
+####Who?
 
-It all depends of the filter lists you use, and whether you use dynamic filtering in uBlock. I run benchmarks regarding blocking efficiency; these may help you decide whether you should keep another blocker to complement uBlock, or whether you should drop it and configure uBlock to block more: [uBlock and others: Blocking ads, trackers, malwares](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares). The [resulting diffs](https://github.com/gorhill/uBlock/wiki/%C2%B5Block-and-others:-Blocking-ads,-trackers,-malwares#data-diffs) are particularly useful in making a decision.
+* [Daniel C Howe](#daniel-c-howe)
+* [Helen Nissenbaum](#helen-nissenbaum)
+* [Mushon Zer-Aviv](#mushon-zer-aviv)
 
-#### Is the Firefox version considered stable?
+##How?
 
-Yes.
+#### How do I install AdNauseam in Firefox?
 
-#### How often are filter lists updated within uBlock?
+1. First, make sure you have [AdBlock Edge](https://addons.mozilla.org/en-us/firefox/addon/adblock-edge) installed
 
-Currently, after four to five days a filter list is deemed "obsolete".
+2. Next, install <a href="https://addons.mozilla.org/firefox/downloads/latest/585454/platform:3/addon-585454-latest.xpi?src=dp-btn-primary">AdNauseam</a>
 
-#### How to show Google Search ads without disabling uBlock?
+3. Click away…
 
-Just toggle off the [cosmetic filtering switch](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#no-cosmetic-filtering) while on the search page. This will disable cosmetic filtering for the Google Search site.
+#### Using other Ad Blockers with AdNauseam
 
-#### Web pages appear only as text
+Please note that changes in **AdBlock Plus** after version 2.6.11 make it incompatible with AdNauseam. We're looking into this issue, but in the meantime we encourage you to either use [earlier Adblock Plus versions](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/versions/2.6.11) or the latest version of [AdBlock Edge](https://addons.mozilla.org/en-us/firefox/addon/adblock-edge).
 
-You probably have a bad filter entry in your _"My filters"_ pane in the dashboard. You will have to find it and remove it. For examples, filter entries which look like:
+We're also working to find ways of making **uBlock** and other popular Adblockers compatible with AdNauseam as we move toward the release of AdNauseam for Chrome.
 
-    http:
+#### How does AdNauseam click on ads? 
 
-Will cause that exact problem.
+AdNauseam loads detected ads in a sandboxed, invisible tab of the browser (via the [page-worker API](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-worker) in FireFox). By default, the outgoing request is stripped of all cookies and the 'referer' header is removed (these defaults can be adjusted in the 'Settings' menu). Though the returned page is loaded, it is restricted in a number of ways. Popups, scripts (including JavaScript), Flash and other plugins are all disallowed, and all incoming cookies are ignored. The page does not show up in the browser's history or otherwise affect the browsing session.
 
-#### Why is uBlock injecting a CSS selector with "www.faceporn.net" in it...?
+#### Are you also tracking my clicks on your own servers?
+No, we do not collect any information on users whatsoever.
 
-About that `[href^="http://www.faceporn.net/free?"]` CSS selector injected in some web pages, see: [Github (non)issue #161, _"Style injection?"_](https://github.com/chrisaljoudi/uBlock/issues/161).
+#### Does AdNauseam respect the browser's "[private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) mode"? 
+Yes, AdNauseam does not detect, visit, or log any ads that occur on pages loaded in private-browsing windows.
 
-TL;DR: it's a element hiding filter from _EasyList_.
+#### Does AdNauseam block ads or just hide them?
+Most adblockers (including AdBlock-Plus, AdBlock-Edge, uBlock, etc.) work via a combination of blocking and hiding strategies. Requests for some ads are blocked outright, while other ads (text-ads are a common example) are first downloaded, then made invisible on the page. This is also how AdNauseam works. In a small number of cases, however, in order to access the properties of the ad and display it to the user, AdNauseam must hide elements that the adblocker would otherwise block.  
 
-#### The badge count is very high, doesn't this slow down uBlock?
+#### Who can tell that I’m using AdNauseam?
 
-- Open a new document in a plain text editor
-- Type "1"
-- Notice the text editor's responsiveness
-- Replace "1" with "1,000,000"
-- Notice the text editor's responsiveness
+Various parties may be able to detect AdNauseam, including websites (with ads) that you visit, advertisers, and and ad-networks (there may be additional parties behind the scenes of which we are not aware.) If they detect enough users, we hope they will get the message. AdNauseam and systems like it allow users to communicate their dissatisfaction directly, unmediated by vested interests who might claim to speak on our behalf.
 
-Sounds absurd?  It is.  So is the claim that a high badge count slows down uBlock.  It's just a _counter_ for the number of blocked network requests.
+#### Does AdNauseam's automatic ad clicking create billable events for advertisers?
 
-#### I am concerned about stability, should I wait for v1.0?
+It depends on the advertising business model and the degree of effort they are willing to filter Some might, others would not.
 
-uBlock is considered stable.  The version number is just a convenience to differentiate one release from another one.  It doesn't have any more meaning than this.
+#### Sometimes it appears that there are multiples of the same ad in the advault?
 
-#### YouTube filtering options à la ABP (or, Facebook filtering options à la ABP)
+This sometimes happens. AdNauseam tests for ad uniqueness of image-ads by comparing the URLs of the displayed image. However, some ad networks use different URLs in different ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/192).
 
-These filter lists do not come with a Creative Commons license, thus uBlock is not shipping with these lists. But you can add them manually as custom filter lists. You can find URLs to various external lists on this page: [Filter lists from around the web](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
 
-#### Are you paid to develop uBlock?
+##Why?
 
-No.
+#### Do you oppose all advertising or only advertising you believe is abusive (e.g., tracking)?
 
-I like to code, and the reward is to see the resulting work useful to others, sometimes [in unexpected ways](https://www.youtube.com/watch?v=90NsjKvz9Ns).
+We do not oppose online advertising categorically. We are bringing to light a system that has taken over the web, whereby ads are just the tip of the iceberg and serve as a delivery system for the massive back-end surveillance architecture that tracks us from site to site. To reiterate, it is not advertising we are protesting, but advertising insofar as it represents a dominant means of tracking.
 
-#### Why did you develop the Chromium version before the Firefox version?
+####  What must advertisers do to win the trust of Internet users?
+There are various ways the status quo could be improved without damaging the Web ecosystem, e.g.: contextual advertising, genuine adoption of a meaningful Do Not Track standard (i.e. not merely Do Not Target), and client-side ad profiling (see Adnostic: http://crypto.stanford.edu/adnostic/). 
 
-In as few words as possible, with as little private matters disclosed:
+#### What made you choose data obfuscation as the strategy here?
 
-- Fall 2013
-- I am Firefox/NoScript user
-- Other user is Chromium/ABP
-- Worried about Chromium user not being protected against `iframe` loading freely (as opposed to Firefox/NoScript)
-- Looked into Chrome API to just quickly [hack together](https://news.ycombinator.com/item?id=6871331) a homespun `iframe` blocker
+We believe obfuscation is an important form of resistance to data tyranny. It can frustrate surveillance, help users to express their discontent, and act as a communal, rather than merely individual, practice.  (For further discussion, see References [coming soon])
+
+#### This is interesting, do you know of other similar obfuscation initiatives along these lines?
+There are many such instance, both in digital media and beyond. Please see the following papers ([1](http://firstmonday.org/article/view/3493/2955), [2](http://www.aprja.net/?p=2510)) for a range of examples. 
+
+#### How does AdNauseam's clicking differ from 'click-fraud'?
+
+We understand what click-fraud is and do not believe we are engaging in it (nor do the lawyers we have consulted). Turning the tables, we would like to hear why someone holds that AdNauseam _does_ commit click fraud. Would they say the same of anyone who clicks on an ad in which they are not really interested?
+
+Click-Fraud:  "The practice of repeatedly clicking on an advertisement hosted on a website with the intention of generating revenue for the host site or draining revenue from the advertiser." (from http://clickfraud.org)
+
+#### But what about "good" sites who don't track their users -- doesn't AdNauseam also block their ads?
+
+Actually, blocking is controlled completely by the adblocker, not by AdNauseam. We very much agree that users should be allowed to 'whitelist' whatever sites they want to support, and thus we will not configure AdNauseam to work with any adblockers that don't provide this functionality. To learn how to add a site to your whitelist (for AdBlock Plus or Edge), see this [page](http://www.peroro.net/2015/01/add-site-adblock-plus-whitelist.html).
+
+#### What is the "end goal" of AdNauseam? Confusing data so it becomes useless for advertisers and forces them to react?
+
+Yes, one goal of AdNauseam is protecting users from privacy violations and other harms that might follow directly or indirectly from tracking to which they have not consented. Another goal is to provide a means for users to let advertisers know that they don’t think such a system is ok. So yes, we would love to advertisers to respond with constructive alternatives which respect the values and preferences of users, but we are not holding our breath -- it may be that very different ways of supporting online content will need to be developed. But the real end goal of AdNauseam is to make software like AdNauseam unnecessary.
+
+#### Is there a business model behind AdNauseam? Do you consider yourself a business, or is it solely to make some kind of a statement about the state of web advertising?
+
+There is no business model behind AdNauseam. It is simply an attempt by concerned individuals to address abuses against users by powerful corporate entities. The software is and will remain free and open-source and will never surreptitiously collect data on users.
+
+#### Are you concerned that ad-blocking technology is part of the reason companies like Facebook are so keen to deploy "native advertising" -- ads that masquerade as editorial content?
+
+We can't answer for Facebook's decisions to insert advertising material inadvertently into other content, Media companies have utilized this approach before and will likely continue to attempt to confuse individuals into paying attention with new techniques, once resistance has developed to entrenched methods. In print media, some governments have found the practice sufficiently unethical to require publishers clearly to distinguish advertising from editorial content.
+
+##Who?
+
+####Daniel C Howe
+
+Daniel is an artist, researcher and critical technologist based in Hong Kong. He leads the development on AdNauseam. You can contact him on Twitter at [@danielchowe](http://twitter.com/danielchowe) or by email at daniel [@] rednoise.org
+
+####Helen Nissenbaum
+
+Helen is a leading scholar working on themes of digital privacy at NYU. She initiated the project and even wrote [a book inspired by it](https://mitpress.mit.edu/books/obfuscation). You can contact her at helen.nissenbaum [@] nyu.edu
+
+####Mushon Zer-Aviv
+
+Mushon is a designer, educator and media activist based in Tel Aviv. Mushon leads the design on AdNauseam. You can contact him on Twitter at [@mushon](http://twitter.com/mushon) or by email at mushon [@] shual.com
