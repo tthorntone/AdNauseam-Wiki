@@ -100,11 +100,11 @@ We can't answer for Facebook's decisions to insert advertising material inadvert
 
 ####Daniel C Howe
 
-Daniel is an artist, researcher and critical technologist based in Hong Kong. He leads the development on AdNauseam. You can contact him on Twitter at [@danielchowe](http://twitter.com/danielchowe) or by email at daniel [@] rednoise.org
+Daniel is an artist, researcher and critical technologist based in New York and Hong Kong. He leads all development on the project. You can contact him on Twitter at [@danielchowe](http://twitter.com/danielchowe) or by email at daniel [@] rednoise.org
 
 ####Helen Nissenbaum
 
-Helen is a leading scholar working on themes of digital privacy at Nwe York University. She is an advisor on the project and even wrote [a book inspired by it](https://mitpress.mit.edu/books/obfuscation). You can contact her at helen.nissenbaum [@] nyu.edu
+Helen is a leading scholar working on themes of digital privacy at New York University. She is an advisor on the project and even wrote [a book inspired by it](https://mitpress.mit.edu/books/obfuscation). You can contact her at helen.nissenbaum [@] nyu.edu
 
 ####Mushon Zer-Aviv
 
