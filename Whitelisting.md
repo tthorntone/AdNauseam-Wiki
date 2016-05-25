@@ -1,1 +1,1 @@
-Whitelisting sites with AdNauseam
+Whitelisting sites with AdNauseam (coming soon)
