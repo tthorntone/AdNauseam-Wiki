@@ -7,7 +7,6 @@
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
 * [Does AdNauseam respect the browser's "private-browsing mode"?](#does-adnauseam-respect-the-browsers-private-browsing-mode)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
-* [Using other Ad Blockers with AdNauseam](#using-other-ad-blockers-with-adnauseam)
 * [Who can tell that I’m using AdNauseam?](#who-can-tell-that-im-using-adnauseam)
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
@@ -34,17 +33,9 @@
 
 #### How do I install AdNauseam in Firefox?
 
-1. First, make sure you have [AdBlock Edge](https://addons.mozilla.org/en-us/firefox/addon/adblock-edge) installed
+1. On Firefox, install <a href="https://addons.mozilla.org/firefox/downloads/latest/585454/platform:3/addon-585454-latest.xpi?src=dp-btn-primary">AdNauseam</a>
 
-2. Next, install <a href="https://addons.mozilla.org/firefox/downloads/latest/585454/platform:3/addon-585454-latest.xpi?src=dp-btn-primary">AdNauseam</a>
-
-3. Click away…
-
-#### Using other Ad Blockers with AdNauseam
-
-Please note that changes in **AdBlock Plus** after version 2.6.11 make it incompatible with AdNauseam. We're looking into this issue, but in the meantime we encourage you to either use [earlier Adblock Plus versions](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/versions/2.6.11) or the latest version of [AdBlock Edge](https://addons.mozilla.org/en-us/firefox/addon/adblock-edge).
-
-We're also working to find ways of making **uBlock** and other popular Adblockers compatible with AdNauseam as we move toward the release of AdNauseam for Chrome.
+2. Click away…
 
 #### How does AdNauseam click on ads? 
 
@@ -57,7 +48,7 @@ No, we do not collect any information on users whatsoever.
 Yes, AdNauseam does not detect, visit, or log any ads that occur on pages loaded in private-browsing windows.
 
 #### Does AdNauseam block ads or just hide them?
-Most adblockers (including AdBlock-Plus, AdBlock-Edge, uBlock, etc.) work via a combination of blocking and hiding strategies. Requests for some ads are blocked outright, while other ads (text-ads are a common example) are first downloaded, then made invisible on the page. This is also how AdNauseam works. In a small number of cases, however, in order to access the properties of the ad and display it to the user, AdNauseam must hide elements that the adblocker would otherwise block.  
+Most adblockers (including uBlock, AdBlock-Plus, etc.) work via a combination of blocking and hiding strategies. Requests for some ads are blocked outright, while other ads (text-ads are a common example) are first downloaded, then made invisible on the page. This is also how AdNauseam works. In a small number of cases, in order to access the properties of the ad and display it to the user, AdNauseam must hide elements that an adblocker might otherwise block.  
 
 #### Who can tell that I’m using AdNauseam?
 
