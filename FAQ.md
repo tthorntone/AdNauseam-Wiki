@@ -3,7 +3,6 @@
 ####How?
 
 * [How do I install AdNauseam in Firefox?](#how-do-i-install-adnauseam-in-firefox)
-* [How does AdNauseam click on ads?](#how-does-adnauseam-click-on-ads)
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
 * [Does AdNauseam respect the browser's "private-browsing mode"?](#does-adnauseam-respect-the-browsers-private-browsing-mode)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
@@ -109,7 +108,7 @@ Daniel is an artist, researcher and critical technologist based in Hong Kong. He
 
 ####Helen Nissenbaum
 
-Helen is a leading scholar working on themes of digital privacy at NYU. She initiated the project and even wrote [a book inspired by it](https://mitpress.mit.edu/books/obfuscation). You can contact her at helen.nissenbaum [@] nyu.edu
+Helen is a leading scholar working on themes of digital privacy at Nwe York University. She is an advisor on the project and even wrote [a book inspired by it](https://mitpress.mit.edu/books/obfuscation). You can contact her at helen.nissenbaum [@] nyu.edu
 
 ####Mushon Zer-Aviv
 
