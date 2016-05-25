@@ -82,7 +82,7 @@ Click-Fraud:  "The practice of repeatedly clicking on an advertisement hosted on
 
 #### But what about "good" sites who don't track their users -- doesn't AdNauseam also block their ads?
 
-Actually, blocking is controlled completely by the adblocker (uBlock in version 2.x or greater), not by AdNauseam. We very much agree that users should be allowed to 'whitelist' whatever sites they want to support, and thus we will not configure AdNauseam to work with any adblockers that don't provide this functionality. To learn how to add a site to your whitelist, see this [page](#whitelisting).
+Actually, blocking is controlled completely by the adblocker (uBlock in version 2.x or greater), not by AdNauseam. We very much agree that users should be allowed to 'whitelist' whatever sites they want to support, and thus we will not configure AdNauseam to work with any adblockers that don't provide this functionality. To learn how to add a site to your whitelist, see this [page](https://github.com/dhowe/AdNauseam/wiki/Whitelisting).
 
 #### What is the "end goal" of AdNauseam? Confusing data so it becomes useless for advertisers and forces them to react?
 
