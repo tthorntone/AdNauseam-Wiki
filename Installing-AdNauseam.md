@@ -7,4 +7,4 @@ Note: Please disable other adblockers or they will affect the functionality of A
 
 ### Chromium-based browsers (including Google Chrome and Opera)
 1. Download and unzip adnauseam.*.zip from [AdNauseam Release page](https://github.com/dhowe/AdNauseam/releases)
-2. Drag the unzipped content to ``chrome://extensions/`` page in Chromium browsers
+2. Drag the unzipped content to ``chrome://extensions/`` page in Chromium-based browsers
