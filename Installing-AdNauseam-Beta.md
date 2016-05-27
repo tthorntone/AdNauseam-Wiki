@@ -1,4 +1,4 @@
-Note: Please disable other adblockers or they will affect the functionality of AdNauseam
+Note: Please disable other adblockers as they will affect the functionality of AdNauseam
 
 ### Firefox
 1. Set ``xpinstall.signatures.required`` to false in ``about:config`` page in Firefox
