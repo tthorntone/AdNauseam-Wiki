@@ -1,3 +1,5 @@
+## For dev/beta versions of AdNauseam
+
 Note: Please disable other adblockers as they will affect the functionality of AdNauseam
 
 ### Firefox
