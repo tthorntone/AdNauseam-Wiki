@@ -40,7 +40,7 @@
 No, we do not collect any information on users whatsoever.
 
 #### Does AdNauseam block ads or just hide them?
-Most adblockers (including uBlock, AdBlock-Plus, etc.) work via a combination of blocking and hiding strategies. Requests for some ads are blocked outright, while other ads (text-ads are a common example) are first downloaded, then made invisible on the page. This is also how AdNauseam works. In a small number of cases, in order to access the properties of the ad and display it to the user, AdNauseam must hide elements that an adblocker might otherwise block.  
+Most adblockers (including uBlock, AdBlock-Plus, etc.) work via a combination of blocking and hiding strategies. Requests for some ads are blocked outright, while other ads (text-ads are a common example) are first downloaded, then made invisible on the page. This is also how AdNauseam works. In some cases, in order to access the properties of the ad and display it to the user, AdNauseam must hide elements that an adblocker might otherwise block.  
 
 #### Who can tell that I’m using AdNauseam?
 
@@ -50,8 +50,8 @@ Various parties may be able to detect AdNauseam, including websites (with ads) t
 
 It depends on the advertising business model and the degree of effort they are willing to filter Some might, others would not.
 
-#### Does AdNauseam respect the browser's "[private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history)/[incognito](https://support.google.com/chromebook/answer/95464?hl=en) modes"? 
-Yes, AdNauseam does not detect any ads that occur on pages loaded in private-browsing or incognito windows.
+#### Does AdNauseam respect the browser's private-browsing/incognito modes? 
+Yes, AdNauseam does not detect ads that occur on pages loaded in [private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) or [incognito](https://support.google.com/chromebook/answer/95464?hl=en) windows.
 
 #### Sometimes it appears that there are multiples of the same ad in the advault?
 
