@@ -7,6 +7,7 @@
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
 * [Who can tell that I’m using AdNauseam?](#who-can-tell-that-im-using-adnauseam)
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
+* [Does AdNauseam respect the browser's private-browsing/incognito modes"?](#does-adnauseam-respect-the-browsers-private-browsing-mode)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 
 ####Why?
@@ -48,6 +49,9 @@ Various parties may be able to detect AdNauseam, including websites (with ads) t
 #### Does AdNauseam's automatic ad clicking create billable events for advertisers?
 
 It depends on the advertising business model and the degree of effort they are willing to filter Some might, others would not.
+
+#### Does AdNauseam respect the browser's "[private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history)/[incognito](https://support.google.com/chromebook/answer/95464?hl=en) modes"? 
+Yes, AdNauseam does not detect any ads that occur on pages loaded in private-browsing or incognito windows.
 
 #### Sometimes it appears that there are multiples of the same ad in the advault?
 
