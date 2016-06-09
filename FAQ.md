@@ -2,7 +2,7 @@
 
 ####How?
 
-* [How do I install AdNauseam in Firefox?](#how-do-i-install-adnauseam-in-firefox)
+* [How do I install AdNauseam?](#how-do-i-install-adnauseam)
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
 * [Who can tell that I’m using AdNauseam?](#who-can-tell-that-im-using-adnauseam)
@@ -30,11 +30,11 @@
 
 ##How?
 
-#### How do I install AdNauseam in Firefox?
+#### How do I install AdNauseam?
 
-1. On Firefox, install <a href="https://addons.mozilla.org/firefox/downloads/latest/585454/platform:3/addon-585454-latest.xpi?src=dp-btn-primary">AdNauseam</a>
+- On Firefox, install <a href="https://addons.mozilla.org/firefox/downloads/latest/585454/platform:3/addon-585454-latest.xpi?src=dp-btn-primary">AdNauseam</a>... then click away!
 
-2. Click away…
+- For Chrome, see these [instructions](https://github.com/dhowe/AdNauseam/wiki/Installing-AdNauseam)
 
 #### Are you also tracking my clicks on your own servers?
 No, we do not collect any information on users whatsoever.
