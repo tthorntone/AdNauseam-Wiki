@@ -10,6 +10,7 @@
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
 * [Does AdNauseam respect the browser's private-browsing/incognito modes?](#does-adnauseam-respect-the-browsers-private-browsingincognito-modes)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
+* Can I combine AdNauseam and [TrackMeNot](https://cs.nyu.edu/trackmenot/)?
 
 ####Why?
 
@@ -60,6 +61,9 @@ Yes, AdNauseam does not detect ads that occur on pages loaded in [private-browsi
 
 This sometimes happens. AdNauseam tests for ad uniqueness of image-ads by comparing the URLs of the displayed image. However, some ad networks use different URLs in different ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/192).
 
+#### Can I combine AdNauseam and [TrackMeNot](https://cs.nyu.edu/trackmenot/)?
+
+Absolutely -- these two extensions should work happily together...
 
 ##Why?
 
