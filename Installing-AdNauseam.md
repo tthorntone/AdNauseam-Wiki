@@ -4,7 +4,7 @@ Note: Please disable other adblockers as they will affect the functionality of A
 
 #### Chromium-based browsers (including Google Chrome and Opera)
 1. Download and unzip ``adnauseam.chromium.zip`` from [AdNauseam Release page](https://github.com/dhowe/AdNauseam/releases)
-2. Drag the unzipped ``adnauseam.chromium`` folder to ``chrome://extensions`` page in Chromium-based browsers
+2. Drag the unzipped ``adnauseam.chromium`` folder to the ``chrome://extensions`` page
 
 #### Firefox
 1. Set ``xpinstall.signatures.required`` to ``false`` in ``about:config`` page in Firefox
