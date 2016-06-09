@@ -1,6 +1,6 @@
 ### For dev/beta versions of AdNauseam 2.x
 
-Note: Please disable other adblockers as they may adversely affect the functionality of AdNauseam
+_Please disable other adblockers as they may adversely affect the functionality of AdNauseam_
 
 #### Chromium-based browsers (including Google Chrome and Opera)
 1. Download and unzip ``adnauseam.chromium.zip`` from [AdNauseam Release page](https://github.com/dhowe/AdNauseam/releases)
