@@ -10,7 +10,7 @@
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
 * [Does AdNauseam respect the browser's private-browsing/incognito modes?](#does-adnauseam-respect-the-browsers-private-browsingincognito-modes)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
-* Can I combine AdNauseam and [TrackMeNot](https://cs.nyu.edu/trackmenot/)?
+* [Can I combine AdNauseam and [TrackMeNot](https://cs.nyu.edu/trackmenot/)?](#can-i-combine-adnauseam-and-trackmenot)
 
 ####Why?
 
