@@ -48,7 +48,7 @@ Various parties may be able to detect AdNauseam, including websites (with ads) t
 
 #### Does AdNauseam's automatic ad clicking create billable events for advertisers?
 
-It depends on the advertising business model and the degree of effort they are willing to filter Some might, others would not.
+It depends on the advertising business model and the degree of effort they are willing to put into filtering. Some might, others would not.
 
 #### Does AdNauseam respect the browser's private-browsing/incognito modes? 
 Yes, AdNauseam does not detect ads that occur on pages loaded in [private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) or [incognito](https://support.google.com/chromebook/answer/95464?hl=en) windows.
@@ -72,7 +72,7 @@ There are various ways the status quo could be improved without damaging the Web
 We believe obfuscation is an important form of resistance to data tyranny. It can frustrate surveillance, help users to express their discontent, and act as a communal, rather than merely individual, practice.  (For further discussion, see References [coming soon])
 
 #### This is interesting, do you know of other similar obfuscation initiatives along these lines?
-There are many such instance, both in digital media and beyond. Please see the following papers ([1](http://firstmonday.org/article/view/3493/2955), [2](http://www.aprja.net/?p=2510)) for a range of examples. 
+There are many such instance, both in digital media and beyond. Please see the following articles ([1](http://firstmonday.org/article/view/3493/2955), [2](http://www.aprja.net/?p=2510)) for a range of examples. 
 
 #### How does AdNauseam's clicking differ from 'click-fraud'?
 
@@ -82,7 +82,7 @@ Click-Fraud:  "The practice of repeatedly clicking on an advertisement hosted on
 
 #### But what about "good" sites who don't track their users -- doesn't AdNauseam also block their ads?
 
-Actually, blocking is controlled completely by the adblocker (uBlock in version 2.x or greater), not by AdNauseam. We very much agree that users should be allowed to 'whitelist' whatever sites they want to support, and thus we will not configure AdNauseam to work with any adblockers that don't provide this functionality. To learn how to add a site to your whitelist, see this [page](https://github.com/dhowe/AdNauseam/wiki/Whitelisting).
+Actually, blocking is controlled completely by the adblocker (uBlock-origin in version 2.x or greater), not by AdNauseam. We very much agree that users should be allowed to 'whitelist' whatever sites they want to support, and thus we will not configure AdNauseam to work with any adblockers that don't provide this functionality. To learn how to add a site to your whitelist, see this [page](https://github.com/dhowe/AdNauseam/wiki/Whitelisting).
 
 #### What is the "end goal" of AdNauseam? Confusing data so it becomes useless for advertisers and forces them to react?
 
