@@ -3,7 +3,7 @@
 ####How?
 
 * [How do I install AdNauseam?](#how-do-i-install-adnauseam)
-* [Can I use AdNauseam with my current adblocker?](#can-I-use-adnauseam-with-my-current-adblocker)
+* [Can I use AdNauseam with my current adblocker?](#can-i-use-adnauseam-with-my-current-adblocker)
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
 * [Who can tell that I’m using AdNauseam?](#who-can-tell-that-im-using-adnauseam)
