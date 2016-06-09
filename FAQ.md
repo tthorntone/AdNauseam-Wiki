@@ -43,7 +43,7 @@ It is possible, but since your adblocker will likely block some, or all, of the 
 No, we do not collect any information on users whatsoever.
 
 #### Does AdNauseam block ads or just hide them?
-Most adblockers (including uBlock, AdBlock-Plus, etc.) work via a combination of blocking and hiding strategies. Requests for some ads are blocked outright, while other ads (text-ads are a common example) are first downloaded, then made invisible on the page. This is also how AdNauseam works. In some cases, in order to access the properties of the ad and display it to the user, AdNauseam must hide elements that an adblocker might otherwise block.  
+Most adblockers (including uBlock, AdBlock-Plus, etc.) work via a combination of blocking and hiding strategies. Requests for some ads are blocked outright, while other ads (text-only ads, Google Search is one common example) are first downloaded, then made invisible on the page. This is also how AdNauseam works. We simply treat image-ads as if they were text-only ads. And like other adblockers, AdNauseam _does_ block malware and non-visual trackers.
 
 #### Who can tell that I’m using AdNauseam?
 
