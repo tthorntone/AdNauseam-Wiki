@@ -1,4 +1,4 @@
-### For dev/beta versions of AdNauseam
+### For dev/beta versions of AdNauseam 2.x
 
 Note: Please disable other adblockers as they will affect the functionality of AdNauseam
 
