@@ -23,9 +23,9 @@ Plain syntax is when using only hostname label(s), which means only the hostname
 
 Complex syntax occurs if and only if at least one / appears in a whitelist directive. Optionally, the wildcard * can be used with complex directives for more flexibility.
 
-A comment is a line prefixed with #. Comments are ignored by uBlock.
+A comment is a line prefixed with #. Comments are ignored by AdNauseam/uBlock.
 
-If no / appears in a whitelist directive, and if the directive contains characters which are not allowed for a plain hostname, then the whitelist directive will be commented out and ignored by uBlock. This allows you to fix your directive.
+If no / appears in a whitelist directive, and if the directive contains characters which are not allowed for a plain hostname, then the whitelist directive will be commented out and ignored by AdNauseam/uBlock. This allows you to fix your directive.
 
 
 #### Plain hostname
