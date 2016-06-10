@@ -1,4 +1,4 @@
-### Whitelisting pages and sites with AdNauseam 
+### Whitelisting with AdNauseam 
 
 You can permanently whitelist a website by clicking on the 'PAUSE ADNAUSEAM' button in the AdNauseam menu (as shown below). To whitelist only that specific page, you can click on that button with the control key (or command key on a mac) pressed. This decision will be remembered next time you visit the site.
 
@@ -49,7 +49,8 @@ Wildcards can be used at any position. However, when a wildcard is used within t
 
 ### Other details
 
-If you re-enable uBlock by clicking the whitelist button in the popup while a whitelist directive you handcrafted is in effect, your handcrafted whitelist directive will simply be commented out. This way you can bring it back to life if ever you un-whitelist by mistake.
+If you re-enable AdNauseam by clicking on the 'RESUME ADNAUSEAM' button in the menu after you have whitelisted a page, your handcrafted whitelist directive will simply be commented out. This way you can bring it back to life if ever you un-whitelist by mistake.
 
+&nbsp;
 
 Adapted from https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site
