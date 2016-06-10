@@ -16,7 +16,7 @@
 ####Why?
 
 * [Do you oppose all advertising?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
-* [Isn't it safer just to use an adblocker?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
+* [Isn't it safer just to use an adblocker? Why engage with ad-networks at all?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
 * [What must advertisers do to win the trust of Internet users?](#what-must-advertisers-do-to-win-the-trust-of-internet-users)
 * [What made you choose data obfuscation as the strategy here?](#what-made-you-choose-data-obfuscation-as-the-strategy-here)
 * [Do you know of other similar obfuscation initiatives along these lines?](#this-is-interesting-do-you-know-of-other-similar-obfuscation-initiatives-along-these-lines)
@@ -78,7 +78,7 @@ This sometimes happens. AdNauseam tests for ad uniqueness of image-ads by compar
 
 We do not oppose online advertising categorically. We are bringing to light a system that has taken over the web, whereby ads are just the tip of the iceberg and serve as a delivery system for the massive back-end surveillance architecture that tracks us from site to site. To reiterate, it is not advertising we are protesting, but advertising insofar as it represents a dominant means of tracking.
 
-####Isn't it safer just to use an adblocker?
+####Isn't it safer just to use an adblocker? Why engage with ad-networks at all?
 
 Indeed it is safer for one to simply use an adblocker and protect themselves. Just like it is safer to stay at home rather than to attend a protest. But using an adblocker doesn't do anything to change the status quo (especially not for those users who don't have the time or resources to install one, and so remain at risk). AdNauseam (and the obfuscation strategy) represents one possible avenue for collective resistance; but if your goal is self-protection, it may not be for you.
 
