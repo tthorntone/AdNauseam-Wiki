@@ -16,7 +16,7 @@
 ####Why?
 
 * [Do you oppose all advertising?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
-* [Isn't it safer just to use an adblocker? Why engage with ad-networks at all?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
+* [Isn't it safer just to use an adblocker? Why engage with ad-networks at all?](#isnt-it-safer-just-to-use-an-adblocker-why-engage-with-ad-networks-at-all)
 * [What must advertisers do to win the trust of Internet users?](#what-must-advertisers-do-to-win-the-trust-of-internet-users)
 * [What made you choose data obfuscation as the strategy here?](#what-made-you-choose-data-obfuscation-as-the-strategy-here)
 * [Do you know of other similar obfuscation initiatives along these lines?](#this-is-interesting-do-you-know-of-other-similar-obfuscation-initiatives-along-these-lines)
