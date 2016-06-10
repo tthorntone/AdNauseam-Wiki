@@ -1,6 +1,6 @@
 ### Whitelisting pages and sites with AdNauseam 
 
-You can use the 'PAUSE ADNAUSEAM' button in the AdNauseam menu (as shown below) to permanently whitelist a page or a site. This will be remembered next time you visit the web site.
+You can permanently whitelist a website by clicking on the 'PAUSE ADNAUSEAM' button in the AdNauseam menu (as shown below). To whitelist only that specific page, you can click on that button with the control key (or command key on a mac) pressed. This decision will be remembered next time you visit the site.
 
 &nbsp;
 
