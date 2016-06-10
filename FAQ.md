@@ -10,12 +10,13 @@
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
 * [Who can tell that I’m using AdNauseam?](#who-can-tell-that-im-using-adnauseam)
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
-* [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
+* [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 
 ####Why?
 
 * [Do you oppose all advertising?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
+* [Isn't it safer just to use an adblocker?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
 * [What must advertisers do to win the trust of Internet users?](#what-must-advertisers-do-to-win-the-trust-of-internet-users)
 * [What made you choose data obfuscation as the strategy here?](#what-made-you-choose-data-obfuscation-as-the-strategy-here)
 * [Do you know of other similar obfuscation initiatives along these lines?](#this-is-interesting-do-you-know-of-other-similar-obfuscation-initiatives-along-these-lines)
@@ -42,7 +43,7 @@
 It is possible, but since your adblocker will likely block some, or all, of the ads AdNauseam is collecting, this is not recommended. For the best experience, you should disable other adblockers while using AdNauseam.
 
 #### What is AdNauseam's performance like? Will it speed up or slow down my browsing?
-Benchmarks are in progress, however it is safe to say that AdNauseam will be slower than a high-quality adblocker like uBlock, as it must allow certain requests (in order to collect ads) that an adblocker could block. However, AdNauseam will be significantly faster (and safer) than browsing the web without an adblocker. While it depends on the types of pages  visited, in our subjective experience, the difference between browsing with AdNauseam vs. uBlock is minimal. 
+Benchmarks are in progress, however it is safe to say that AdNauseam will be slower than a high-quality adblocker like uBlock, as it must allow certain requests (in order to collect ads) that an adblocker could block. However, AdNauseam will be significantly faster (and safer) than browsing the web without an adblocker. While it depends on the types of pages  visited, in our subjective experience, the difference between browsing with AdNauseam vs. uBlock is minimal.
 
 #### Are you also tracking my clicks on your own servers?
 No, we do not collect any information on users whatsoever.
@@ -58,16 +59,18 @@ Various parties may be able to detect AdNauseam, including websites (with ads) t
 
 It depends on the advertising business model and the degree of effort they are willing to put into filtering. Some might, others would not.
 
-#### Does AdNauseam respect the browser's private-browsing/incognito modes? 
+#### Does AdNauseam respect the browser's private-browsing/incognito modes?
 Yes, AdNauseam does not detect ads that occur on pages loaded in [private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) or [incognito](https://support.google.com/chromebook/answer/95464?hl=en) windows.
+
+#### Can I combine AdNauseam and [TrackMeNot](https://cs.nyu.edu/trackmenot/)?
+
+Absolutely -- these two extensions should work happily together...
+
 
 #### Sometimes it appears that there are multiples of the same ad in the advault?
 
 This sometimes happens. AdNauseam tests for ad uniqueness of image-ads by comparing the URLs of the displayed image. However, some ad networks use different URLs in different ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/192).
 
-#### Can I combine AdNauseam and [TrackMeNot](https://cs.nyu.edu/trackmenot/)?
-
-Absolutely -- these two extensions should work happily together...
 
 ##Why?
 
@@ -75,15 +78,20 @@ Absolutely -- these two extensions should work happily together...
 
 We do not oppose online advertising categorically. We are bringing to light a system that has taken over the web, whereby ads are just the tip of the iceberg and serve as a delivery system for the massive back-end surveillance architecture that tracks us from site to site. To reiterate, it is not advertising we are protesting, but advertising insofar as it represents a dominant means of tracking.
 
+####Isn't it safer just to use an adblocker?
+
+Indeed it is safer for one to simply use an adblocker and protect themselves. Just like it is safer to stay at home rather than to attend a protest. But using an adblocker doesn't do anything to change the status quo (especially not for those users who don't have the time or resources to install one, and so remain at risk). AdNauseam (and the obfuscation strategy) represents one possible avenue for collective resistance; but if your goal is self-protection, it may not be for you.
+
 ####  What must advertisers do to win the trust of Internet users?
-There are various ways the status quo could be improved without damaging the Web ecosystem, e.g.: contextual advertising, genuine adoption of a meaningful Do Not Track standard (i.e. not merely Do Not Target), and client-side ad profiling (see Adnostic: http://crypto.stanford.edu/adnostic/). 
+
+There are various ways the status quo could be improved without damaging the Web ecosystem, e.g.: contextual advertising, genuine adoption of a meaningful Do Not Track standard (i.e. not merely Do Not Target), and client-side ad profiling (see Adnostic: http://crypto.stanford.edu/adnostic/).
 
 #### What made you choose data obfuscation as the strategy here?
 
 We believe obfuscation is an important form of resistance to data tyranny. It can frustrate surveillance, help users to express their discontent, and act as a communal, rather than merely individual, practice.  (For further discussion, see References [coming soon])
 
 #### This is interesting, do you know of other similar obfuscation initiatives along these lines?
-There are many such instance, both in digital media and beyond. Please see the following articles ([1](http://firstmonday.org/article/view/3493/2955), [2](http://www.aprja.net/?p=2510)) for a range of examples. 
+There are many such instance, both in digital media and beyond. Please see the following articles ([1](http://firstmonday.org/article/view/3493/2955), [2](http://www.aprja.net/?p=2510)) for a range of examples.
 
 #### How does AdNauseam's clicking differ from 'click-fraud'?
 
