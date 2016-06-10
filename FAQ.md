@@ -4,11 +4,12 @@
 
 * [How do I install AdNauseam?](#how-do-i-install-adnauseam)
 * [Can I use AdNauseam with my current adblocker?](#can-i-use-adnauseam-with-my-current-adblocker)
-* [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
+* [Does AdNauseam respect the browser's private-browsing/incognito modes?](#does-adnauseam-respect-the-browsers-private-browsingincognito-modes)
+* What is AdNauseam's performance like? Will it speed up or slow down my browsing?
+* [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
 * [Who can tell that I’m using AdNauseam?](#who-can-tell-that-im-using-adnauseam)
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
-* [Does AdNauseam respect the browser's private-browsing/incognito modes?](#does-adnauseam-respect-the-browsers-private-browsingincognito-modes)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
 
@@ -39,6 +40,9 @@
 
 #### Can I use AdNauseam with my current adblocker?
 It is possible, but since your adblocker will likely block some, or all, of the ads AdNauseam is collecting, this is not recommended. For the best experience, you should disable other adblockers while using AdNauseam.
+
+#### What is AdNauseam's performance like? Will it speed up or slow down my browsing?
+Benchmarks are in progress, however it is safe to say that AdNauseam will be slower than a high-quality adblocker like uBlock, as it must allow certain requests (in order to collect ads) that an adblocker could block. However, AdNauseam will be significantly faster (and safer) than browsing the web without an adblocker. While it depends on the types of pages  visited, in our subjective experience, the difference between browsing with AdNauseam vs. uBlock is minimal. 
 
 #### Are you also tracking my clicks on your own servers?
 No, we do not collect any information on users whatsoever.
