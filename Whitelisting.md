@@ -4,7 +4,7 @@ You can permanently whitelist a website by clicking on the 'PAUSE ADNAUSEAM' but
 
 &nbsp;
 
-    ![menu](https://raw.githubusercontent.com/dhowe/AdNauseam/gh-pages/img/pause-adnauseam.png)
+    * ![menu](https://raw.githubusercontent.com/dhowe/AdNauseam/gh-pages/img/pause-adnauseam.png)
 
 &nbsp;
 
