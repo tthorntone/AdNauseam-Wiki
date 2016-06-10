@@ -80,7 +80,7 @@ We do not oppose online advertising categorically. We are bringing to light a sy
 
 ####Isn't it safer just to use an adblocker? Why engage with ad-networks at all?
 
-Indeed it is safer for one to simply use an adblocker and protect themselves. Just like it is safer to stay at home rather than to attend a protest. But using an adblocker doesn't do anything to change the status quo (especially not for those users who don't have the time or resources to install one, and so remain at risk). AdNauseam (and the obfuscation strategy) represents one possible avenue for collective resistance; but if your goal is self-protection, it may not be for you.
+Indeed it is safer for one to simply use an adblocker and protect themselves. Just like it is safer to stay at home rather than to attend a protest. But using an adblocker doesn't do anything to change the status quo (especially not for those users who don't have the time or resources to install one, and so remain at risk). AdNauseam, and the obfuscation strategy in general, represent a possible avenue for collective resistance; but if your goal is self-protection, it may not be for you.
 
 ####  What must advertisers do to win the trust of Internet users?
 
