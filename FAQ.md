@@ -21,7 +21,7 @@
 * [What made you choose data obfuscation as the strategy here?](#what-made-you-choose-data-obfuscation-as-the-strategy-here)
 * [Do you know of other similar obfuscation initiatives along these lines?](#this-is-interesting-do-you-know-of-other-similar-obfuscation-initiatives-along-these-lines)
 * [How does AdNauseam's clicking differ from 'click-fraud'?](#how-does-what-the-adnauseams-clicking-differ-from-click-fraud)
-* [But what about "good" sites who don't track their users -- doesn't AdNauseam also block their ads?](#but-what-about-good-sites-who-dont-track-their-users----doesnt-adnauseam-also-block-their-ads)
+* [But what about "good" sites who don't track -- doesn't AdNauseam also block their ads?](#but-what-about-good-sites-who-dont-track----doesnt-adnauseam-also-block-their-ads)
 * [What is the "end goal" of AdNauseam?](#what-is-the-end-goal-of-adnauseam-confusing-data-so-it-becomes-useless-for-advertisers-and-forces-them-to-react)
 * [Is there a business model behind AdNauseam?](#is-there-a-business-model-behind-adnauseam-do-you-consider-yourself-a-business-or-is-it-solely-to-make-some-kind-of-a-statement-about-the-state-of-web-advertising)
 * [What about "Native Advertising?"](#are-you-concerned-that-ad-blocking-technology-is-part-of-the-reason-companies-like-facebook-are-so-keen-to-deploy-native-advertising----ads-that-masquerade-as-editorial-content)
@@ -99,7 +99,7 @@ We understand what click-fraud is and do not believe we are engaging in it (nor 
 
 Click-Fraud:  "The practice of repeatedly clicking on an advertisement hosted on a website with the intention of generating revenue for the host site or draining revenue from the advertiser." (from http://clickfraud.org)
 
-#### But what about "good" sites who don't track their users -- doesn't AdNauseam also block their ads?
+#### But what about "good" sites who don't track -- doesn't AdNauseam also block their ads?
 
 Actually, blocking is controlled completely by the adblocker (uBlock-origin in version 2.x or greater), not by AdNauseam. We very much agree that users should be allowed to 'whitelist' whatever sites they want to support, and thus we will not configure AdNauseam to work with any adblockers that don't provide this functionality. To learn how to add a site to your whitelist, see this [page](https://github.com/dhowe/AdNauseam/wiki/Whitelisting).
 
