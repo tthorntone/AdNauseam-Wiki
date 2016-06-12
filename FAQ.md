@@ -84,7 +84,7 @@ Indeed it is safer for one to simply use an adblocker and protect themselves. Ju
 
 ####  What must advertisers do to win the trust of Internet users?
 
-There are various ways the status quo could be improved without damaging the Web ecosystem, e.g.: contextual advertising, genuine adoption of a meaningful Do Not Track standard, or client-side ad profiling (see Adnostic: http://crypto.stanford.edu/adnostic/). Alternatively, web-sites and publishers might switch to ad-networks that don't violate the privacy of users ([Deck](http://decknetwork.net/privacy/) is one example we are aware of).
+There are various ways the status quo could be improved without damaging the Web ecosystem, e.g.: contextual advertising, genuine adoption of a meaningful Do Not Track standard, or client-side ad profiling (see [Adnostic](http://crypto.stanford.edu/adnostic/)). Alternatively, web-sites and publishers might switch to ad-networks that don't violate the privacy of users ([Deck](http://decknetwork.net/privacy/) appears to be one such example).
 
 #### What made you choose data obfuscation as the strategy here?
 
