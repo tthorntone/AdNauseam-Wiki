@@ -8,4 +8,4 @@ Here we document and refine additional details like:
 - [How to get involved and support AdNauseam](https://github.com/dhowe/AdNauseam/wiki/Help)
 - [Frequently Asked Questions](https://github.com/dhowe/AdNauseam/wiki/FAQ)
 - [A bit more about AdNauseam](https://github.com/dhowe/AdNauseam/wiki/About-AdNauseum)
-- [Help develop AdNauseam]https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers)
+- [Help develop AdNauseam](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
