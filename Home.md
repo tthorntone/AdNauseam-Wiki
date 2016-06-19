@@ -8,5 +8,5 @@ Here we document and refine additional details like:
 - [Frequently Asked Questions](https://github.com/dhowe/AdNauseam/wiki/FAQ)
 - [A bit more about AdNauseam](https://github.com/dhowe/AdNauseam/wiki/About-AdNauseum)
 - [How to manually install AdNauseam](https://github.com/dhowe/AdNauseam/wiki/Installing-AdNauseam)
-- [Help us develop AdNauseam](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
+- [Help us AdNauseam Beta-versions](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 - [Found a problem? Create a ticket...](https://github.com/dhowe/AdNauseam/issues)
