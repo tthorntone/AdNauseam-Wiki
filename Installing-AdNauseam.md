@@ -10,4 +10,4 @@ _Please disable other adblockers as they may adversely affect the functionality 
 #### Firefox
 1. Set ``xpinstall.signatures.required`` to ``false`` in ``about:config`` page in Firefox
 2. Download ``adnauseam.firefox.xpi`` from the [AdNauseam Releases](https://github.com/dhowe/AdNauseam/releases) page
-3. Drag into ``about:addons`` page in Firefox to install
+and drag into ``about:addons`` page
