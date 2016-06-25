@@ -35,7 +35,7 @@
 ##How?
 
 #### How do I install AdNauseam?
-- You can find AdNauseam for <a href="https://chrome.google.com/webstore/detail/adnauseam/hgfacieeomogkcchookiodlpppbcolha" target="new">Chrome</a>,  <a href="https://addons.mozilla.org/firefox/downloads/latest/585454/platform:3/addon-585454-latest.xpi?src=dp-btn-primary">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="new">Opera</a>. Just click 'install'...
+- You can find AdNauseam for <a href="https://chrome.google.com/webstore/detail/adnauseam/hgfacieeomogkcchookiodlpppbcolha" target="new">Chrome</a>,  <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="new">Opera</a>. Just click 'install'...
 
 #### Can I use AdNauseam with my current adblocker?
 It is possible, but since your adblocker will likely block some, or all, of the ads AdNauseam is collecting, this is not recommended. For the best experience, you should disable other adblockers while using AdNauseam.
