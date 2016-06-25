@@ -121,7 +121,7 @@ Daniel is an artist, researcher and critical technologist based in New York and 
 
 ####Helen Nissenbaum
 
-Helen is a leading scholar working on themes of digital privacy at New York University. She is an advisor on the project and even wrote [a book inspired by it](https://mitpress.mit.edu/books/obfuscation). You can contact her at helen.nissenbaum [@] nyu.edu
+Helen is a leading scholar of digital privacy at New York University. She is an advisor on the project and even wrote [a book inspired by it](https://mitpress.mit.edu/books/obfuscation). You can contact her at helen.nissenbaum [@] nyu.edu
 
 ####Mushon Zer-Aviv
 
