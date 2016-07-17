@@ -1,6 +1,4 @@
 Try our AdNauseam beta for Chrome:
 
-1. download and unzip [this file](https://github.com/dhowe/AdNauseam/releases/download/v2.2.0/adnauseam.chromium.zip)
-2. drag the adnauseam.chrome folder into the ``chrome://extensions/`` page (do not include META-INF)
-
-Then give it a spin, and if it does anything weird, let us know by [opening an issue here](https://github.com/dhowe/AdNauseam2/issues)
+1. Install from [here](https://chrome.google.com/webstore/detail/adnauseam/hgfacieeomogkcchookiodlpppbcolha)
+2. Give it a spin, and if it does anything weird, let us know by [opening an issue here](https://github.com/dhowe/AdNauseam2/issues)
