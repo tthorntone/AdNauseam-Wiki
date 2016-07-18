@@ -1,16 +1,16 @@
 ##### Setup (OS X), 
 
-1. First install `jq` if you don't have it (https://stedolan.github.io/jq/)
-2. Then, open the terminal and do the following:
+First install `jq` if you don't have it (https://stedolan.github.io/jq/)
+Then do the following from the terminal:
 ```
-git clone https://github.com/dhowe/AdNauseam.git
-git clone https://github.com/dhowe/uAssets.git
-cd AdNauseam
+$ git clone https://github.com/dhowe/AdNauseam.git
+$ git clone https://github.com/dhowe/uAssets.git
+$ cd AdNauseam
 ```
 
 ##### On Chromium / Opera (Mac OS X):
 
-1. Build the extension in Terminal
+1. Build the extension (via the terminal)
 ```$ tools/make-chromium.sh```
 or 
 ```$ tools/make-opera.sh```
