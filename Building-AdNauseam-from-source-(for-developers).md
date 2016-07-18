@@ -1,10 +1,10 @@
 ##### Setup (OS X)
 
 ```
-1. git clone https://github.com/dhowe/AdNauseam.git
-2. git clone https://github.com/dhowe/uAssets.git
+1. $ git clone https://github.com/dhowe/AdNauseam.git
+2. $ git clone https://github.com/dhowe/uAssets.git
 3. Install `jq` if you don't have it (https://stedolan.github.io/jq/)
-4. cd AdNauseam
+4. $ cd AdNauseam
 ```
 
 ##### On Chromium / Opera (Mac OS X):
