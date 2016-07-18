@@ -1,7 +1,7 @@
 ##### Setup (OS X), 
 
-* First install `jq` if you don't have it (https://stedolan.github.io/jq/)
-* Then do the following in the terminal:
+* First install [jq](https://stedolan.github.io/jq/) if you don't have it 
+* Then do the following from the terminal:
 ```
 $ git clone https://github.com/dhowe/AdNauseam.git
 $ git clone https://github.com/dhowe/uAssets.git
