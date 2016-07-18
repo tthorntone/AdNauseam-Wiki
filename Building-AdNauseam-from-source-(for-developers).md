@@ -8,7 +8,7 @@ $ git clone https://github.com/dhowe/uAssets.git
 $ cd AdNauseam
 ```
 
-##### On Chromium / Opera (Mac OS X):
+##### For Chromium / Opera:
 
 1. Build the extension (via the terminal)
 ```$ tools/make-chromium.sh```
@@ -18,7 +18,7 @@ or
 2. Open the browser and go to settings, with URL ```chrome://extensions/```
 3. Enable Developer mode in the settings page and load extension from ```/bin/build/adnauseam.chromium``` or ```/bin/build/adnauseam.opera```
 
-##### On Firefox (Mac OS X):
+##### For Firefox:
 
 1. Open Firefox and go to ```about:config```, then set ```xpinstall.signatures.required``` to false
 2. Make sure you have [jpm](https://www.npmjs.com/package/jpm) installed
