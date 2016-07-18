@@ -1,6 +1,6 @@
 ##### Setup (OS X), 
 
-* First install [jq](https://stedolan.github.io/jq/) if you don't have it 
+* First, install [jq](https://stedolan.github.io/jq/) if you don't have it 
 * Then do the following from the terminal:
 ```
 $ git clone https://github.com/dhowe/AdNauseam.git
