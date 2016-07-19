@@ -35,10 +35,10 @@
 ##How?
 
 #### How do I install AdNauseam?
-- You can find AdNauseam for <a href="https://chrome.google.com/webstore/detail/adnauseam/hgfacieeomogkcchookiodlpppbcolha" target="_new">Chrome</a>,  <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' and get started...
+- You can find AdNauseam for <a href="https://chrome.google.com/webstore/detail/adnauseam/hgfacieeomogkcchookiodlpppbcolha" target="_new">Chrome</a>,  <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' and get started... Note: it is recommended to disable any other adblockers while using AdNauseam.
 
 #### Can I use AdNauseam with my current adblocker?
-It is possible, but since your adblocker will likely block some, or all, of the ads AdNauseam is collecting, this is not recommended. For the best experience, you should disable other adblockers while using AdNauseam.
+It is possible, but since your adblocker will likely block some, or all, of the ads AdNauseam is collecting, this is NOT recommended. For the best experience, you should disable other adblockers while using AdNauseam.
 
 #### What is AdNauseam's performance like? Will it speed up or slow down my browsing?
 Benchmarks are in progress, however it is safe to say that AdNauseam will be slower than a high-quality adblocker like uBlock, as it must allow certain requests (in order to collect ads) that an adblocker could block. However, AdNauseam will be significantly faster (and safer) than browsing the web without an adblocker. While it depends on the types of pages  visited, in our subjective experience, the difference between browsing with AdNauseam vs. uBlock is minimal.
