@@ -12,6 +12,7 @@
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
+* [I found a bug! What do I do now?](#)
 
 ####Why?
 
@@ -71,6 +72,11 @@ Absolutely -- these two extensions should work happily together...
 
 This sometimes happens. AdNauseam tests for ad uniqueness of image-ads by comparing the URLs of the displayed image. However, some ad networks use different URLs in different ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/192).
 
+#### I found a bug! What do I do now?
+
+First, please make sure the bug hasn't already been reported by checking the current [bug list](https://github.com/dhowe/AdNauseam/issues).  If the bug hasn't yet been reported you can report it there. If you don't have a GitHub account, please create one so that we can communicate with you about the bug and fix it more quickly.
+
+If you're not comfortable creating or don't want to create a GitHub account, you can also report the bug to adnauseam@rednoise.org.
 
 ##Why?
 
