@@ -75,7 +75,7 @@ This sometimes happens. AdNauseam tests for ad uniqueness of image-ads by compar
 
 #### What is user tracking? How does tracking work?
 
-When you visit a webpage parts of the page may come from domains and servers other than the one you asked to visit. This is an essential feature of hypertext, but it has also come to be a serious privacy problem. On the modern Web, embedded images and code often use cookies and other methods to track your browsing habits — often to display advertisements. The domains that do this are called "third party trackers", and you can read more about how they work on EFF's page [here](https://www.eff.org/deeplinks/2009/09/online-trackers-and-social-networks).
+When you visit a webpage, parts of the page may come from domains and servers other than the one you asked to visit. This is an essential feature of the web, but it has also come to be a _serious_ privacy problem. Nowadays embedded images and code often use cookies, fingerprinting, and other methods to track your browsing habits — often in order to display targetted advertisements. The domains that do this are called "third party trackers".You can read more about how they work on the excellent [EFF page](https://www.eff.org/deeplinks/2009/09/online-trackers-and-social-networks).
 
 #### I found a bug! What do I do now?
 
