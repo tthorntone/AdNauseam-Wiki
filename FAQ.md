@@ -82,15 +82,15 @@ If you're not comfortable creating or don't want to create a GitHub account, you
 
 #### Do you oppose all advertising or only advertising you believe is abusive (e.g., tracking)?
 
-We do not oppose online advertising categorically. We are bringing to light a system that has taken over the web, whereby ads are just the tip of the iceberg and serve as a delivery system for the massive back-end surveillance architecture that tracks us from site to site. To reiterate, it is not advertising we are protesting, but advertising insofar as it represents a dominant means of tracking.
+We do not oppose online advertising categorically. We are attempting to bring to light a system that has taken over the web, whereby ads are just the tip of the iceberg and serve as a delivery system for a massive back-end surveillance architecture that tracks us from site to site. It is not advertising we are protesting, but advertising insofar as it represents a dominant means of tracking users without their consent.
 
 ####Isn't it safer just to use an adblocker? Why engage with ad-networks at all?
 
-Indeed it is safer for one to simply use an adblocker and protect themselves. Just like it is safer to stay at home rather than to attend a protest. But using an adblocker doesn't do anything to change the status quo (especially not for those users who don't have the time or resources to install one, and so remain at risk). AdNauseam, and the obfuscation strategy in general, represent a possible avenue for collective resistance; but if your goal is self-protection, it may not be for you.
+Indeed it is marginally safer for one to simply use a strong adblocker and protect themselves. And it is also safer to stay at home rather than to attend a protest. But safety is not the only concern. Using an adblocker does little to change the status quo (especially not for those users without the resources to install/configure one, and so remain at risk). AdNauseam, and the obfuscation strategy in general, instead presents a possible avenue for collective resistance; a means of questioning and perhaps, eventually, changing the system. But this is not for everyone. If your goal is primarily self-protection, it may not be for you...
 
 ####  What must advertisers do to win the trust of Internet users?
 
-There are various ways the status quo could be improved without damaging the Web ecosystem, e.g.: contextual advertising, genuine adoption of a meaningful Do Not Track standard, or client-side ad profiling (see [Adnostic](http://crypto.stanford.edu/adnostic/)). Alternatively, web-sites and publishers might switch to ad-networks that don't violate the privacy of users ([Deck](http://decknetwork.net/privacy/) appears to be one such example).
+There are various ways the status quo could be improved without damaging the Web ecosystem, e.g. contextual advertising, genuine adoption of a [meaningful Do Not Track standard](https://www.eff.org/dnt-policy), or client-side ad profiling (see [Adnostic](http://crypto.stanford.edu/adnostic/)). Alternatively, web-sites and publishers might switch to ad-networks that don't violate the privacy of users ([Deck](http://decknetwork.net/privacy/) appears to be one such example).
 
 #### What made you choose data obfuscation as the strategy here?
 
