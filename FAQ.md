@@ -12,6 +12,7 @@
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
+* [What is user tracking? How does tracking work?]()
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
 
 ####Why?
@@ -71,6 +72,10 @@ Absolutely -- these two extensions should work happily together...
 #### Sometimes it appears that there are multiples of the same ad in the advault?
 
 This sometimes happens. AdNauseam tests for ad uniqueness of image-ads by comparing the URLs of the displayed image. However, some ad networks use different URLs in different ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/192).
+
+#### What is user tracking? How does tracking work?
+
+When you visit a webpage parts of the page may come from domains and servers other than the one you asked to visit. This is an essential feature of hypertext, but it has also come to be a serious privacy problem. On the modern Web, embedded images and code often use cookies and other methods to track your browsing habits — often to display advertisements. The domains that do this are called "third party trackers", and you can read more about how they work on EFF's page [here](https://www.eff.org/deeplinks/2009/09/online-trackers-and-social-networks).
 
 #### I found a bug! What do I do now?
 
