@@ -26,4 +26,4 @@ or
 
   (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to run-ff.sh:
 
-````    $ tools/run-ff.sh /path/to/profile```` 
+   ````$ tools/run-ff.sh /path/to/profile```` 
