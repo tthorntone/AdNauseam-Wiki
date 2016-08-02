@@ -14,6 +14,7 @@
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
+* [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 
 ####Why?
 
