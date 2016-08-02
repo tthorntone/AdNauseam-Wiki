@@ -23,7 +23,6 @@ or
 1. Open Firefox and go to ```about:config```, then set ```xpinstall.signatures.required``` to false
 2. Make sure you have [jpm](https://www.npmjs.com/package/jpm) installed
 3. In terminal:` $ tools/run-ff.sh`
+4. (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to run-ff.sh:
 
-  (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to run-ff.sh:
-
-   ````$ tools/run-ff.sh /path/to/profile```` 
+    ````$ tools/run-ff.sh /path/to/profile```` 
