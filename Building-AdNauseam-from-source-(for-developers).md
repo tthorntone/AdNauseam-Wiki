@@ -16,7 +16,10 @@ or
 ```$ tools/make-opera.sh```
 
 2. Open the browser and go to settings, with URL ```chrome://extensions/```
+
 3. Enable Developer mode in the settings page and load extension from ```/bin/build/adnauseam.chromium``` or ```/bin/build/adnauseam.opera```
+
+4. To view console messages, go to ```chrome://extensions/```, and select 'background.html' under the AdNauseam entry
 
 ##### For Firefox:
 
@@ -29,3 +32,5 @@ or
 4. (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to _run-ff.sh_:
 
     ````$ tools/run-ff.sh /path/to/profile```` 
+
+5. To view console messages, select the ```Tools->Web Developer->Browser Console``` menu option
