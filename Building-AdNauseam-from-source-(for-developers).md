@@ -23,7 +23,9 @@ or
 
 ##### For Firefox:
 
-1. Open Firefox and go to ```about:config```, then set ```xpinstall.signatures.required``` to false
+_Note: as of Firefox 48, [Developer](https://www.mozilla.org/en-US/firefox/developer/) or [Nightly](https://nightly.mozilla.org/) builds are required for development_
+
+1. Open Firefox with the profile you intend to use, then go to ```about:config```, then set ```xpinstall.signatures.required``` to false
 
 2. Make sure you have [jpm](https://www.npmjs.com/package/jpm) installed
 
