@@ -13,4 +13,7 @@ Here we document additional details like:
 
 &nbsp;
 
-- [Developers: how-to build AdNauseam from source](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
+- [How-to build AdNauseam from source (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
+
+&nbsp;
+
