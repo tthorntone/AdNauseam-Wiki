@@ -2,6 +2,8 @@
 
 [Adnauseam.io](http://adnauseam.io) is the main site for the project.
 
+&nbsp;
+
 Here we document additional details like:
 
 - [How to install AdNauseam](https://github.com/dhowe/AdNauseam/wiki/FAQ#how-do-i-install-adnauseam)
