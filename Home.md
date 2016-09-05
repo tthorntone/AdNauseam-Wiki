@@ -10,3 +10,5 @@ Here we document additional details like:
 - [Help us develop AdNauseam](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 - [How to install Beta releases](https://github.com/dhowe/AdNauseam/wiki/Installing-AdNauseam)
 - [Found a problem? Create a ticket...](https://github.com/dhowe/AdNauseam/issues)
+
+- [Building AdNauseam from source](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
