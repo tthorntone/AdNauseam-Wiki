@@ -23,7 +23,7 @@ or
 
 ##### For Firefox:
 
-_Note: as of Firefox 48, [Developer](https://www.mozilla.org/en-US/firefox/developer/) or [Nightly](https://nightly.mozilla.org/) builds are required for development_
+  _Note: as of Firefox 48, [Developer](https://www.mozilla.org/en-US/firefox/developer/) or [Nightly](https://nightly.mozilla.org/) builds are required for development_
 
 1. Open Firefox with the profile you intend to use, then go to ```about:config```, then set ```xpinstall.signatures.required``` to false
 
