@@ -1,4 +1,4 @@
-## Frequently Asked Questions for Developers
+## Frequently Asked Questions for Developers    
 
 * [How do I debug an ad that is appearing on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
 * [How do I debug a video ad that is appearing on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
