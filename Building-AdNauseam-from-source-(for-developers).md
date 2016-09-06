@@ -36,3 +36,10 @@ or
     ````$ tools/run-ff.sh /path/to/profile```` 
 
 5. To view console messages, select the ```Tools->Web Developer->Browser Console``` menu option
+
+
+##### Next
+
+- Visit the [The Developer FAQ](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ)
+
+
