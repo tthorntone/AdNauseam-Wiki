@@ -2,14 +2,15 @@
 
 ## Frequently Asked Questions for Developers  (in progress)
 
-* [What is the relationship between blocking and hiding rules in uBlock and ADN?]()
-* [How do I use the logger, and what are the different types of entries I see?]()
+* [How-to build AdNauseam from source](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))...
+* [What is the relationship between blocking and hiding rules in uBlock and ADN?]()-pending
+* [How do I use the logger, and what are the different types of entries I see?]()-pending
 * [How do I debug an ad that is appearing on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
 * [How do I debug a video ad that is appearing on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
 * [How do I debug an image ad that is being hidden, but not found?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
 * [How do I debug a text ad that is being hidden, but not found?](#how-do-i-debug-a-text-ad-that-is-being-hidden-but-not-found)
-* [What is the difference between JS code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?]()
-* [How should I setup my browser profiles for developing?]()
+* [What is the difference between JS code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?]()-pending
+* [How should I setup my browser profiles for developing?]()-pending
 
 &nbsp;     
 &nbsp;    
