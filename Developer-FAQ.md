@@ -1,9 +1,11 @@
 # Frequently Asked Questions for Developers
 
-* [How do I debug an ad that appearing on a page?]
-* [How do I debug a video ad that is appearing on a page?]
-* [How do I debug an ad that is being hidden, but not collected?]
+* [How do I debug an ad that appearing on a page?]()
+* [How do I debug a video ad that is appearing on a page?]()
+* [How do I debug an ad that is being hidden, but not collected?]()
 
+&nbsp; 
+&nbsp;
 
 * [How do I debug an ad that appearing on a page?]
 
