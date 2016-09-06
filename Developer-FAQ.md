@@ -7,6 +7,7 @@
 * [How do I debug an image ad that is being hidden, but not found?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
 * [How do I debug a text ad that is being hidden, but not found?](#how-do-i-debug-a-text-ad-that-is-being-hidden-but-not-found)
 * [What is the difference between JS code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?]()
+* [How should I setup my browser profiles for developing?]()
 
 &nbsp;     
 &nbsp;    
