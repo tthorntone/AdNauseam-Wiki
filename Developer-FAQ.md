@@ -29,7 +29,7 @@ This process is similar to the [above](#how-do-i-debug-an-ad-that-is-appearing-o
 
 #### How do I debug an image-ad that is being hidden, but not found?
 
-In this case, we need to debug the parsing code (/src/js/adn/parser.js) to figure out where it is failing. (pending)
+In this case, we need to debug the parsing code (/src/js/adn/parser.js) to figure out where it is failing. You can use the debugger to do this, but it may also be useful to turn on the vAPI.debugAdParsing flag for parsing on whichever platform you are using (either in platform/chromium/vapi-client.js OR platform/firefox/vapi-client.js). 
 
 #### How do I debug a text-ad that is being hidden, but not found?
 
