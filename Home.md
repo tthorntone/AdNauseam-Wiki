@@ -18,7 +18,7 @@ Here we document additional details like:
 And, for developers:
 
 - [How-to build AdNauseam from source (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))...
-- Visit the [The Developer FAQ](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ)
+- [The Developer FAQ](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ)
 
 &nbsp;
 
