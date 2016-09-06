@@ -1,7 +1,9 @@
 &nbsp;   
 
-## Frequently Asked Questions for Developers    
+## Frequently Asked Questions for Developers  (in progress)
 
+* [What is the relationship between blocking and hiding rules in uBlock and ADN?]()
+* [How do I use the logger, and what are the different types of entries I see?]()
 * [How do I debug an ad that is appearing on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
 * [How do I debug a video ad that is appearing on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
 * [How do I debug an image ad that is being hidden, but not found?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
