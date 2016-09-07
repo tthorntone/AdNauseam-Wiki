@@ -1,7 +1,7 @@
 ## Frequently Asked Questions for Developers  (in progress)
 
 ### Getting Started
-* [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers)
+* [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 * [What is the usual workflow for developers?]()
 * [What is the relationship between blocking and hiding rules in uBlock and ADN?]()-pending
 * [How do I use the logger, and what are the different types of entries I see?]()-pending
