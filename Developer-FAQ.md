@@ -2,7 +2,7 @@
 
 ### Getting Started
 * [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
-* [What is the usual workflow for developers?]()
+* [What is the usual workflow for developers?](#what-is-the-usual-workflow-for-developers)
 * [What is the relationship between blocking and hiding rules in uBlock and ADN?]()-pending
 
 * [What is the difference between JS code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?]()-pending
