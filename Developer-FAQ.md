@@ -50,7 +50,7 @@ Chrome
 1. Now a new chrome window is opened with your new profile
 
 In the same way you can add another profile for uBlock. 
-To switch among different profiles, right click on the right top corner. You will see a dropdown menu showing all the profiles you have created.
+To switch among different profiles, right click on the right top corner of chrome browser. You will see a dropdown menu showing all the profiles you have created.
 
 Firefox
 (pending)
