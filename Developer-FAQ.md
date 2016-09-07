@@ -3,13 +3,13 @@
 ### Getting Started
 * [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 * [What is the usual workflow for developers?](#what-is-the-usual-workflow-for-developers)
-* [What is the relationship between blocking and hiding rules in uBlock and ADN?]()-pending
-* [What is the difference between JS code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?]()-pending
+* [What is the relationship between blocking and hiding rules in uBlock and ADN?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
+* [What is the difference between JS code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-difference-between-js-code-in-srcjs-in-srcjsadn-and-in-platformchromium-or-platformfirefox)
 * [How should I setup my browser profiles for developing?](#how-should-i-setup-my-browser-profiles-for-developing)
 * [How can I get the first-run page to show up when developing?](#how-can-i-get-the-first-run-page-to-show-up-when-developing)
 
 ### Common Tasks
-* [How do I use the logger, and what are the different types of entries it shows?]() pending
+* [How do I use the logger, and what are the different types of entries it shows?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-use-the-logger-and-what-are-the-different-types-of-entries-it-shows)
 * [How do I view the extensions storage entries?](#how-do-i-view-the-extensions-storage-entries) 
 * [How do I debug an ad that is appearing on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
 * [How do I debug a video ad that is appearing on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
