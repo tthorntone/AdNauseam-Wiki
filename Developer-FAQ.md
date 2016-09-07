@@ -5,8 +5,8 @@
 * [What is the usual workflow for developers?](#what-is-the-usual-workflow-for-developers)
 * [What is the relationship between blocking and hiding rules in uBlock and ADN?]()-pending
 * [What is the difference between JS code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?]()-pending
-* [How should I setup my browser profiles for developing?]()
-* [How can I get the first-run page to show up when developing?]()
+* [How should I setup my browser profiles for developing?](#how-should-i-setup-my-browser-profiles-for-developing)
+* [How can I get the first-run page to show up when developing?](#how-can-i-get-the-first-run-page-to-show-up-when-developing)
 
 ### Common Tasks
 * [How do I use the logger, and what are the different types of entries it shows?]() pending
@@ -89,3 +89,6 @@ Go to chrome://extensions, then open the background.html page, then open the con
 
 First remove the ADN extension in chrome://extensions (using the trash icon), then reload
 
+#### What is the difference between JS code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?
+
+(pending)
