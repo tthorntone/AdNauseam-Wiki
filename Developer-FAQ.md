@@ -7,6 +7,7 @@
 * [What is the difference between JS code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-difference-between-js-code-in-srcjs-in-srcjsadn-and-in-platformchromium-or-platformfirefox)
 * [How should I setup my browser profiles for developing?](#how-should-i-setup-my-browser-profiles-for-developing)
 * [How can I get the first-run page to show up when developing?](#how-can-i-get-the-first-run-page-to-show-up-when-developing)
+* [How do I update different locale files?](#)
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
@@ -121,5 +122,7 @@ With that said, this code implements the vAPI interface for each browser. This i
 
 (pending)
 
-
+####How do I update different locale files
     
+(pending)
+
