@@ -4,7 +4,7 @@
 * [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 * [What is the usual workflow for developers?](#what-is-the-usual-workflow-for-developers)
 * [What is the relationship between blocking and hiding rules in uBlock and ADN?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
-* [What is the difference between JS code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-difference-between-js-code-in-srcjs-in-srcjsadn-and-in-platformchromium-or-platformfirefox)
+* [What is the difference between JS code in src and in platform?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-difference-between-js-code-in-src-and-in-platform)
 * [How should I setup my browser profiles for developing?](#how-should-i-setup-my-browser-profiles-for-developing)
 * [How can I get the first-run page to show up when developing?](#how-can-i-get-the-first-run-page-to-show-up-when-developing)
 * [How do I update different locale files?](#)
@@ -111,7 +111,7 @@ Go to chrome://extensions, then open the background.html page, then open the con
 
 First remove the ADN extension in chrome://extensions (using the trash icon), then reload
 
-#### What is the difference between JavaScript code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?
+#### What is the difference between JS code in src and in platform?
 
 Code in 'src/js' is cross-browser code that originates in uBlock, though it may have been modified in ADN's fork. Code in 'src/js/adn' is cross-browser code specific to ADN. Code in subdirectories of 'platform/' is code specific to a browser. You should not mess with this code unless you are an expert dev, _and_ have discussed the necessity of changes with the other devs.
 
