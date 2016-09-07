@@ -39,3 +39,19 @@ In this case, we need to debug the parsing code (/src/js/adn/parser.js) to figur
 
 In this case, we need to first determine whether we have a filter for this type of text-ad (these filters are in /src/js/adn/textads.js). If not, we may or may not want to add a filter, depending on how popular a site the text-ads are found on, so simply mark the ticket with this question. If we do, then we need to debug why it is not working correctly. (pending)
 
+#### How should I setup my browser profiles for developing?
+
+To prevent messing things up with your own profile,it is better to setup new browser profiles for developing usage. It is also useful to have AdNauseam and uBlock extensions installed in two separate profiles, so that your testing result won't be influenced by the cookies.
+
+Chrome
+1.Go to chrome://settings/
+2.People-->Add Person
+3.Choose a picture and give your new profile a name. Ex: AdNauseamDev
+4.Click Add
+5.Now a new chrome window is opened with your new profile
+
+In the same way you can add another profile for uBlock. 
+To switch among different profiles, right click on the right top corner. You will see a dropdown menu showing all the profiles you have created.
+
+Firefox
+(pending)
