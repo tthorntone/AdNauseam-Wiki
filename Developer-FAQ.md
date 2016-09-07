@@ -44,11 +44,11 @@ In this case, we need to first determine whether we have a filter for this type 
 To prevent messing things up with your own profile,it is better to setup new browser profiles for developing usage. It is also useful to have AdNauseam and uBlock extensions installed in two separate profiles, so that your testing result won't be influenced by the cookies.
 
 Chrome
-1.Go to chrome://settings/
-2.People-->Add Person
-3.Choose a picture and give your new profile a name. Ex: AdNauseamDev
-4.Click Add
-5.Now a new chrome window is opened with your new profile
+1. Go to chrome://settings/
+2. People-->Add Person
+3. Choose a picture and give your new profile a name. Ex: AdNauseamDev
+4. Click Add
+5. Now a new chrome window is opened with your new profile
 
 In the same way you can add another profile for uBlock. 
 To switch among different profiles, right click on the right top corner. You will see a dropdown menu showing all the profiles you have created.
