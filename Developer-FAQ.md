@@ -10,7 +10,8 @@
 
 ### Common Tasks
 * [How do I use the logger, and what are the different types of entries it shows?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-use-the-logger-and-what-are-the-different-types-of-entries-it-shows)
-* [How do I view the extensions storage entries?](#how-do-i-view-the-extensions-storage-entries) 
+* [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
+* [How do I view the extensions storage entries?](#how-do-i-view-the-extensions-storage-entries)
 * [How do I debug an ad that is appearing on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
 * [How do I debug a video ad that is appearing on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
 * [How do I debug an image ad that is being hidden, but not found?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
@@ -27,6 +28,10 @@
 #### What is the usual workflow for developers?
 
 New developers should begin by reading the [FAQ](https://github.com/dhowe/AdNauseam/wiki/FAQ) and [Developer FAQ](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ) and making sure that they can [build the extension](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers) in Chrome, Firefox, or both. They should then start work on a ticket (either by selecting one, perhaps marked with the _Good Volunteer Task_ label, or by being assigned one). It is generally good practice to start a new git branch for the feature/ticket you are working on. Ask questions as you go (in the ticket itself, and/or via email), and when ready, submit a pull-request so that your branch can be merged in.
+
+If multiple tickets are assigned to you, work on the one with highest priority, unless otherwise specified.
+
+Sometimes you may be assigned a ticket with the label _Needs-verification_. In such cases, you should simply verify that the fix works as expected. If so, then the ticket can usually be closed. If not, document as specifically as possible how/why the fix fails.
 
 #### How do I debug an ad that is appearing on a page?
 
@@ -73,13 +78,28 @@ To switch among different profiles, right click on the right top corner of chrom
 
 #### What is the relationship between blocking and hiding rules in uBlock and ADN?
 
-(pending)
+Blocking rules block the requested element, no matter its type, from being fetched by the browser. Hiding rules (also called 'Cosmetic filters') cause the element to be downloaded and added to the DOM as usual, but then hidden via CSS. Filter lists are combinations of blocking and hiding rules. The only difference between uBlock and ADN in this regard is that ADN cannot block elements which are part of, or generate, visual advertising. These elements must instead be hidden, which may be done by an existing hiding rule (in one of the filter-lists), or via a new hiding rule specific to ADN (generally placed in the built-in adnauseam.txt filter list).
+
+For completeness, there are also 2 other kinds of rules: exception rules, which are similar to blocking rules, except that they define which requests should be allowed even if other matching blocking rules exist; and Dynamic-filtering rules, available only in iBlock's 'advanced mode', which are explained [here](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax).
 
 #### How do I use the logger, and what are the different types of entries it shows?
 
-(pending)
+Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on the logger icon. Choose the tab you are interested in, then click the refresh icon. This will refresh the tab with the logger activated, and you will see each request made by the browser, categorized according to the type of the request and the way it is handled by the extension (either blocked, allowed, or hidden).
 
-#### How do I view the extension's storage entries?
+(part2: pending)
+
+#### How do I view extension messages in the console?
+
+This depends on the browsre and the code you are interested in.
+
+##### In Chrome
+ For messages from the extension core, use the console from background.html in chrome://extensions. For messages from interface-pages and content-scripts use the console from the page in question. For messages from the extension menu, right-click _inspect_, then use the console in the window that appears
+
+##### In Firefox
+
+Menu->Tools->Web Developer->Browser Console  (pending)
+
+#### How do I view the extensions storage entries?
 
 Go to chrome://extensions, then open the background.html page, then open the console and enter:
 
@@ -89,6 +109,8 @@ Go to chrome://extensions, then open the background.html page, then open the con
 
 First remove the ADN extension in chrome://extensions (using the trash icon), then reload
 
-#### What is the difference between JS code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?
+#### What is the difference between JavaScript code in src/js, in src/js/adn, and in platform/chromium, or platform/firefox?
 
-(pending)
+Code in 'src/js' is cross-browser code that originates in uBlock, though it may have been modified in ADN's fork. Code in 'src/js/adn' is cross-browser code specific to ADN. Code in subdirectories of 'platform/' is code specific to a browser. You should not mess with this code unless you are an expert dev, _and_ have discussed the necessity of changes with the other devs.
+
+With that said, this code implements the vAPI interface for each browser. This interface, which has a large version for the extension core, and a minimal version for content-scripts, abstracts away all browser specific details and exposes a common API for cross-platform code to use. Therefore, no browser specific code should ever be put within 'src/js' or 'src/js/adn'. Instead, the code must be placed within a vAPI function (which means changing the interface, and should be considered a big deal) and then implemented ånd tested for each of the browser platforms.
