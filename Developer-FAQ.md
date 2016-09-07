@@ -86,9 +86,8 @@ For completeness, there are also 2 other kinds of rules: exception rules, which 
 
 #### How do I use the logger, and what are the different types of entries it shows?
 
-Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on the logger icon. Choose the tab you are interested in, then click the refresh icon. This will refresh the tab with the logger activated, and you will see each request made by the browser, categorized according to the type of the request and the way it is handled by the extension (either blocked, allowed, or hidden).
+Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on the logger icon. Choose the tab you are interested in, then click the refresh icon. This will refresh the tab with the logger activated, and you will see each request made by the browser (whether blocked, allowed, or hidden). For info on the different types of entries, see this [page](https://github.com/gorhill/uBlock/wiki/The-logger).
 
-(part2: pending)
 
 #### How do I view extension messages in the console?
 
