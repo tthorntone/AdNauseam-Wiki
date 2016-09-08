@@ -21,6 +21,7 @@
 
 ### Useful References
 
+* [The git/github fork-and-pull workflow](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
 * [Adblock Plus rule syntax](https://adblockplus.org/filter-cheatsheet)
 * [What are Dynamic Filtering Rules?](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax)
 
