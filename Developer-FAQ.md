@@ -36,6 +36,8 @@ If multiple tickets are assigned to you, work on the one with highest priority, 
 
 Sometimes you may be assigned a ticket with the label _Needs-verification_. In such cases, you should simply verify that the fix works as expected. If so, then the ticket can usually be closed. If not, document as specifically as possible how/why the fix fails.
 
+The project uses the git fork-and-pull workflow, described [here](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/).
+
 #### How do I debug an ad that is appearing on a page?
 
 First check whether the ad is appearing in uBlock. If it is, then this is not an ADN-specific problem (though we may want to fix it anyway). If the ad _does_ not show in uBlock, then it is likely the case that it is being blocked in uBlock, but not in ADN (remember that we don't want to block ads, only hide them). So then we need to add a cosmetic filter (in AdNauseam filters) to replace the blocking filter that uBlock uses. All devs should learn how to do this (either by using the inspector, or the 'block-element' content-menu):
