@@ -25,7 +25,8 @@ or
 
   _Note: as of Firefox 48, [Developer](https://www.mozilla.org/en-US/firefox/developer/) or [Nightly](https://nightly.mozilla.org/) builds are required for development_
 
-1. Open Firefox with the profile you intend to use, then go to ```about:config```, then set ```xpinstall.signatures.required``` to false  (Make sure that you open the profile manually rather than open it through $ tools/run-ff.sh. Nothing is saved in profiles opened through jpm. )
+1. Open Firefox with the profile you intend to use, then go to ```about:config```, then set ```xpinstall.signatures.required``` to false 
+(Make sure that you open the profile manually rather than open it through $ tools/run-ff.sh. Nothing is saved in profiles opened through jpm. )
 
 2. Make sure you have [jpm](https://www.npmjs.com/package/jpm) installed
 
