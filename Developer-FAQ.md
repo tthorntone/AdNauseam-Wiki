@@ -7,7 +7,6 @@
 * [What is the difference between JS code in src and in platform?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-difference-between-js-code-in-src-and-in-platform)
 * [How should I setup my browser profiles for developing?](#how-should-i-setup-my-browser-profiles-for-developing)
 * [How can I get the first-run page to show up when developing?](#how-can-i-get-the-first-run-page-to-show-up-when-developing)
-* [How do I update different locale files?](#)
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
@@ -18,6 +17,7 @@
 * [How do I debug an image ad that is being hidden, but not found?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
 * [How do I debug a text ad that is being hidden, but not found?](#how-do-i-debug-a-text-ad-that-is-being-hidden-but-not-found)
 * [How do I view the extensions storage entries?](#how-do-i-view-the-extensions-storage-entries)
+* [How are locales/languages/translations handled?](#)
 
 ### Useful References
 
@@ -124,7 +124,7 @@ With that said, this code implements the vAPI interface for each browser. This i
 
 (pending)
 
-####How do I update different locale files
+####How are locales/languages/translations handled?
     
 (pending)
 
