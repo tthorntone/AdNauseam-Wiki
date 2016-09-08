@@ -21,7 +21,7 @@
 
 ### Useful References
 
-* [The git/github fork-and-pull workflow](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
+* [The git fork-and-branch workflow](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
 * [Adblock Plus rule syntax](https://adblockplus.org/filter-cheatsheet)
 * [What are Dynamic Filtering Rules?](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax)
 
@@ -36,7 +36,7 @@ If multiple tickets are assigned to you, work on the one with highest priority, 
 
 Sometimes you may be assigned a ticket with the label _Needs-verification_. In such cases, you should simply verify that the fix works as expected. If so, then the ticket can usually be closed. If not, document as specifically as possible how/why the fix fails.
 
-The project uses the git fork-and-pull workflow, described [here](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/).
+The project uses the git fork-and-branch workflow, described nicely [here](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/).
 
 #### How do I debug an ad that is appearing on a page?
 
@@ -94,7 +94,7 @@ Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on
 
 #### How do I view extension messages in the console?
 
-This depends on the browsre and the code you are interested in.
+This depends on the browser and the code you are interested in.
 
 ##### In Chrome
  For messages from the extension core, use the console from background.html in chrome://extensions. For messages from interface-pages and content-scripts use the console from the page in question. For messages from the extension menu, right-click _inspect_, then use the console in the window that appears
