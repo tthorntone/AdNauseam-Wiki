@@ -100,10 +100,10 @@ Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on
 
 This depends on the browser and the code you are interested in.
 
-##### In Chrome
+### In Chrome
  For messages from the extension core, use the console from background.html in chrome://extensions. For messages from interface-pages and content-scripts use the console from the page in question. For messages from the extension menu, right-click _inspect_, then use the console in the window that appears
 
-##### In Firefox
+### In Firefox
 
 Menu->Tools->Web Developer->Browser Console  (pending)
 
