@@ -126,5 +126,9 @@ With that said, this code implements the vAPI interface for each browser. This i
 
 ####How are locales/languages/translations handled?
     
-(pending)
+Locale files are generated during the build process. The baseline English file is generated when `_locales/en/messages.json` and `_locales/en/adnauseam.json` are merged (via jq, called from tools/make-locales.sh). Though automatically triggered when building, you can also run this script on its own as follows:
+
+`$ tools/make-locales.sh [/path/to/output/files]`
+
+The English file generated (en/messages.json) is the file that should be used for translations (and uploaded to our [crowdin project](https://crowdin.com/project/adnauseam)).
 
