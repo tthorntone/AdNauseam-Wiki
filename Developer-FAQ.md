@@ -17,7 +17,7 @@
 * [How do I debug an image ad that is being hidden, but not found?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
 * [How do I debug a text ad that is being hidden, but not found?](#how-do-i-debug-a-text-ad-that-is-being-hidden-but-not-found)
 * [How do I view the extensions storage entries?](#how-do-i-view-the-extensions-storage-entries)
-* [How are locales/languages/translations handled?](#)
+* [How are locales/languages/translations handled?](#how-are-localeslanguagestranslations-handled)
 
 ### Useful References
 
