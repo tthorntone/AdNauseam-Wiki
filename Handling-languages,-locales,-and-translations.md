@@ -8,7 +8,7 @@ Locale files for each platform are generated during the build process. The final
 
 We sometimes manually update the locale file `_locales/en/adnauseam.json` in Github. When this happens we also need to update all our translations to include these edits or additions, which we do through [Crowdin](https://crowdin.com/project/adnauseam). 
 
-_Note: the English version of 'adnauseam.json' is the ONLY locale file that should ever be edited directly in the repo!_
+_Note: the English version of_ adnauseam.json _is the ONLY locale file that should ever be edited directly in the repo!_
 
 The English 'adnauseam.json' file can then be uploaded as the source on Crowdin for public translations (step 1 below)
 
