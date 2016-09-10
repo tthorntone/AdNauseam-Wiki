@@ -15,15 +15,15 @@ The English 'adnauseam.json' file can then be uploaded as the source on Crowdin 
 Our workflow for updating translations is as follows (assumes Crowdin Manager permission):
 
 1. Sync the English version of 'adnauseam.json' on Crowdin with the one from the repo (see image below)
-2. Make and approve contributed translations on Crowdin 
+2. Approve new and updated translations found on Crowdin 
 3. Build the Crowdin project so that it contains only the latest approved translated strings (???)
-4. Download and unpack the latest Crowdin zip archive (to ~/Downloads/adnauseam)
+4. Download and unpack the latest Crowdin zip archive (to `~/Downloads/adnauseam` by default)
 5. Run the following command from root of ADN to update the (non-english) locale files in our source.
 
   `$ tools/import-adn-crowdin.sh`
 
 6. Check one or more translated languages (e.g., `_locales/zh_CN/adnauseam.json`) to verify that they contain the latest updates
-7. At this point, building for any platform will now merge the updated 'adnauseam.json' with the existing 'messages.json' into a single file, for each language/locale, in the generated extension.
+7. At this point, building for any platform will merge each updated 'adnauseam.json' file with the existing 'messages.json' into a single file for each locale in the generated extension.
 
 **_Screenshot for updating source `adnauseam.json`_**:
 ![1](https://cloud.githubusercontent.com/assets/2461812/18377999/cdc54c16-769c-11e6-89df-b432a28c1bda.PNG)
