@@ -25,6 +25,8 @@ Our workflow for updating translations is as follows (assumes Crowdin Manager pe
 6. Check one or more translated languages (e.g., `_locales/zh_CN/adnauseam.json`) to verify that they contain the latest updates
 7. At this point, building for any platform will merge each updated 'adnauseam.json' file with the existing 'messages.json' into a single file for each locale in the generated extension.
 
+&nbsp;
+
 **_Screenshot for updating source `adnauseam.json`_**:
 ![1](https://cloud.githubusercontent.com/assets/2461812/18377999/cdc54c16-769c-11e6-89df-b432a28c1bda.PNG)
 
