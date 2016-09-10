@@ -17,7 +17,7 @@
 * [How do I debug an image ad that is being hidden, but not found?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
 * [How do I debug a text ad that is being hidden, but not found?](#how-do-i-debug-a-text-ad-that-is-being-hidden-but-not-found)
 * [How do I view the extensions storage entries?](#how-do-i-view-the-extensions-storage-entries)
-* [How are locales/languages/translations handled?](#how-are-localeslanguagestranslations-handled)
+* [How are locales/languages/translations handled?](https://github.com/dhowe/AdNauseam/wiki/Handling-languages,-locales,-and-translations)
 
 ### Useful References
 
@@ -127,12 +127,4 @@ With that said, this code implements the vAPI interface for each browser. This i
 ####How do I run the browser's debugger on different parts of the extension?
 
 (pending)
-
-####How are locales/languages/translations handled?
-    
-Locale files are generated during the build process. The baseline English file is generated when `_locales/en/messages.json` and `_locales/en/adnauseam.json` are merged (via jq, called from tools/make-locales.sh). Though automatically triggered when building, you can also run this script on its own as follows:
-
-`$ tools/make-locales.sh [/path/to/output/files]`
-
-The English file generated (en/messages.json) is the file that should be used for translations (and uploaded to our [crowdin project](https://crowdin.com/project/adnauseam)).
 
