@@ -79,11 +79,10 @@ To switch among different profiles, right click on the right top corner of chrom
 
 ##### In Firefox
 
-Please check the following mozilla support page for detailed explaination and steps:
+Please see the following mozilla support page for detailed explanation and steps:
 https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles
 
-you can also use the profile switcher add-on to switch among profiles.
- https://addons.mozilla.org/en-US/firefox/addon/profileswitcher/
+You can also use the profile switcher [add-on](https://addons.mozilla.org/en-US/firefox/addon/profileswitcher/) to switch among profiles.
 
 #### What is the relationship between blocking and hiding rules in uBlock and ADN?
 
