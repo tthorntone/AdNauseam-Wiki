@@ -23,7 +23,7 @@ or
 
 ##### For Firefox:
 
-  _Note: as of Firefox 48, [Developer](https://www.mozilla.org/en-US/firefox/developer/) or [Nightly](https://nightly.mozilla.org/) builds are required for development_
+  _Note: Going forth [Developer](https://www.mozilla.org/en-US/firefox/developer/) builds are required for development_
 
 1. Open Firefox with the profile you intend to use, then go to ```about:config```, then set ```xpinstall.signatures.required``` to false     
 (Make sure that you open the profile manually rather than open it through $ tools/run-ff.sh. Nothing is saved in profiles opened through jpm)
@@ -31,6 +31,8 @@ or
 2. Make sure you have [jpm](https://www.npmjs.com/package/jpm) installed
 
 3. In terminal:` $ tools/run-ff.sh`
+
+  _Note: If your Firefox dev version is not in the usual spot, you will need to adjust FIREFOX_BIN var at the top of 'tools/run-ff.sh'
 
 4. (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to _run-ff.sh_:
 
