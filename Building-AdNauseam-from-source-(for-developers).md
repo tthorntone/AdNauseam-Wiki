@@ -32,7 +32,7 @@ or
 
 3. In terminal:` $ tools/run-ff.sh`
 
-  _Note: If your Firefox dev version is not in the usual spot, you will need to adjust FIREFOX_BIN var at the top of 'tools/run-ff.sh'_
+  _Note: If your Firefox dev version is not in the usual location, you will need to change FIREFOX_BIN in 'tools/run-ff.sh'_
 
 4. (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to _run-ff.sh_:
 
