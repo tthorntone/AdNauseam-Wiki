@@ -2,7 +2,7 @@
   
 ### Interface
 
-* FirstRun (remove and reinstall adn)
+* First-run &nbsp; (remove and reinstall AdNauseam to trigger)
   - Test selection of various options (click-ads, block-malware, hide-ads, DNT)
   - Test that DNT is only visible when clicking OR hiding is enabled
 
@@ -45,10 +45,14 @@
    1. Go to cookie options in Chrome:Settings and check that "Block third-party cookies" is marked as controlled by AdNauseam. Then click the disable button.   
    2. Make sure the `logBlocks` flag in core.js is set to true to view blocking data in the console
    2. Visit sites where one ore more _3rd-party_ requests are ALLOWed and note their domains
-   3. Verify that no cookies are accepted from these domains, using one of the [tools]() listed below
+   3. Verify that no cookies are accepted from these domains, using one of the [tools](#tools) listed below
 
-(Pending)
 
+&nbsp;
+
+(More to come)
+
+&nbsp;
 
 ### Tools
   * [Live HTTP Headers in Chrome](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)    
