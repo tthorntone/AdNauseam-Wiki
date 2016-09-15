@@ -18,11 +18,11 @@ Steps to test a new release candidate on Firefox, Chrome, Opera:
   
 
 ###Functions Testing
-* Check general function of menu and vault  
-   Menu(the popup window triggered by clicking AdNauseam logo from browser toolbar )
+* Check general function of Menu 
+   (the popup window triggered by clicking AdNauseam logo from browser toolbar )
    - Check all the buttons and information
-   - Hover the ad images in the menu, check whether the zooming function works properly   
-   Vault  
+   - Hover the ad images in the menu, check whether the zooming function works properly
+* Check general function of Vault
    - Zooming in and out using mouse wheel and the buttons in the top-left corner 
    - Clicking collected images and text ads to see if the information and layout are correct   
    - Check the date filter slider at the bottom of the vault
@@ -31,10 +31,15 @@ Steps to test a new release candidate on Firefox, Chrome, Opera:
 * Test the content, buttons, check boxes and links in Settings
 
 ### AdNauseam-advanced
+Tools to use:   
+[Live HTTP Headers in Chrome](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)
+[Live HTTP Headers in Firefox](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)
+[Charles: a crossplatform application for web debugging](https://www.charlesproxy.com/latest-release/download.do) 
+
 *  test the header-options (cookies, referer, user-agent )
 *  test that the DNT header is being sent correctly when enabled
 *  test that no cookies are accepted from [ALLOW]ed requests
 
-(Pending)
+
 
 
