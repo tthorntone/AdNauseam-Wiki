@@ -1,13 +1,4 @@
 ## Testing builds and releases on Firefox, Chrome, Opera:
-
-### Hiding/Parsing
-* Test a set of pages, and make sure that ads are being captured and visited   
-  * ImageAds: visit Facebook/Youtube/Amazon... and verify ads are hidden and appear in menu
-  * TextAds: visit Google/Ask/Yahoo/Bing/DuckDuckGo to search for keywords such as "credit card" or "loan"
-*  Test Ad-parsing from within dynamically-created iframes [here](http://rednoise.org/adntest/dynamic_iframe.html)                       
-*  Test that no Ads are collected in incognito/private-browsing windows    
-   * In Chrome/Opera, go to the extension page and check "Allow in incognito" for AdNauseam, then hit command+shift+N to start testing
-   * In Firefox, use command+shift+P to open a private window
   
 ### Interface
 
@@ -28,6 +19,15 @@
    - Check correct calculation of ad cost
    - Test import/export/clear functions
 
+### Ad Hiding/Parsing
+* Test a set of pages, and make sure that ads are being captured and visited   
+  * ImageAds: visit Facebook/Youtube/Amazon... and verify ads are hidden and appear in menu
+  * TextAds: visit Google/Ask/Yahoo/Bing/DuckDuckGo to search for keywords such as "credit card" or "loan"
+*  Test Ad-parsing from within dynamically-created iframes [here](http://rednoise.org/adntest/dynamic_iframe.html)                       
+*  Test that no Ads are collected in incognito/private-browsing windows    
+   * In Chrome/Opera, go to the extension page and check "Allow in incognito" for AdNauseam, then hit command+shift+N to start testing
+   * In Firefox, use command+shift+P to open a private window
+
 ### Settings
 * Check version number in 'About' page
 * Check layout of buttons, check-boxes, and links in each tab
@@ -47,6 +47,10 @@
 
 ### DoNotTrack (DNT)
 *  Test that ads from [DNT-respecting sites](https://www.eff.org/files/effdntlist.txt) are not hidden or clicked, when each of the 2 DNT settings is enabled, and that they ARE hidden and clicked when each setting is disabled
+
+### Cookies 
+* Test that the browser's 'no 3rd-party cookies' option is enabled after install
+* Test that the browser's 'no 3rd-party cookies' can be disabled
 
 (Pending)
 
