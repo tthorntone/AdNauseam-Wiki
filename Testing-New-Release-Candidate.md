@@ -30,7 +30,7 @@ Steps to test a new release candidate on Firefox, Chrome, Opera:
 * Test import/export/clear ads functions(Both in Vault and in Settings)
 * Test the content, buttons, check boxes and links in Settings
 
-### AdNauseam-advanced
+### AdNauseam-advanced (in Setting)
 Tools to use:   
 [Live HTTP Headers in Chrome](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)    
 [Live HTTP Headers in Firefox](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)   
@@ -39,9 +39,9 @@ Tools to use:
 *  test the header-options (cookies, referer, user-agent )
 *  test that the DNT header is being sent correctly when enabled
 *  test that no cookies are accepted from [ALLOW]ed requests   
-   Go to Chrome:Settings and search for Cookies, Open the Cookies Setting and you will find an extension icon besides the choice "Block third-party cookies". When you Click that icon, it will tell you that this setting is controlled by AdNauseam. Click the disable button.   
+   Go to Chrome:Settings and search for Cookies, Open the Cookies Setting and you will find an extension icon next to the choice "Block third-party cookies". When you Click that icon, it will tell you that this setting is controlled by AdNauseam. Click the disable button.   
 
-   Then, Test in websites where AdNauseam is allowing anything that are not allowed by uBlock. (Ex:Youtube, New York Times) and make sure that there is no cookies accepted by using any tools suggested above.
+   Then, Test in websites where AdNauseam is allowing anything that is not allowed by uBlock. (Ex:Youtube, New York Times) Make sure no cookies is accepted by using any tools suggested above.
 
 
 
