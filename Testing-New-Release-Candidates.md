@@ -58,6 +58,6 @@ _Note: perform each test on Chrome, Firefox, and Opera_
 &nbsp;
 
 ### Tools
-  * [Live HTTP Headers in Chrome](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)    
-  * [Live HTTP Headers in Firefox](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)   
-  * [Charles: a cross-platform application for web debugging](https://www.charlesproxy.com/latest-release/download.do) 
+  * [Live HTTP Headers (Chrome)](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)    
+  * [Live HTTP Headers (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)   
+  * [Charles (cross-platform)](https://www.charlesproxy.com/latest-release/download.do) 
