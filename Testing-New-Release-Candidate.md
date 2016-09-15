@@ -14,7 +14,8 @@ Steps to test a new release candidate on Firefox, Chrome, Opera:
   - Go to Google/Ask/Yahoo/Bing/Duckduckgo to search for keyword such as "credit card" or "loan"
 *  Test that ads from DNT-respecting sites (https://www.eff.org/files/effdntlist.txt) are not hidden or clicked
 *  Test ad parsing from within dynamically-created iframes (New York Times, Pirate Bay)                       
-*  Test that no ads are collected in incognito/private-browsing windows
+*  Test that no ads are collected in incognito/private-browsing windows    
+   *In Chrome, first go to chrome://extensions and check "Allow in incognito" for AdNauseam
   
 
 ###Functions Testing
@@ -44,5 +45,5 @@ Tools to use:
      Make sure no cookies is accepted by using any tools suggested above.
 
 
-
+(Pending)
 
