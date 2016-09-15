@@ -2,17 +2,17 @@ _Note: perform each test on Chrome, Firefox, and Opera_
 
 ### Interface
 
-* First-run &nbsp; (remove and reinstall AdNauseam to trigger)
-  - Test selection of various options (click-ads, block-malware, hide-ads, DNT)
-  - Test that the DNT option is visible _only_ when clicking OR hiding is enabled
-  - Test that toggling the DNT options changes both DNT options in Settings
+#### First-run &nbsp; (remove and reinstall AdNauseam to trigger)
+- Test selection of various options (click-ads, block-malware, hide-ads, DNT)
+- Test that the DNT option is visible _only_ when clicking OR hiding is enabled
+- Test that toggling the DNT options changes both DNT options in Settings
 
-* Menu 
+#### Menu 
    - Check all buttons and information (including number of ads and $$ cost)
    - Hover over ad images and check zooming
    - Check the uBlock version number
 
-* Vault
+#### Vault
    - Zoom in/out using mouse wheel and buttons in top-left corner 
    - Check function/layout of inspector (for both image and text ads)
    - Check correct function date filter slider at bottom of page
@@ -43,10 +43,10 @@ _Note: perform each test on Chrome, Firefox, and Opera_
 * Test that the browser's 'no 3rd-party cookies' option is enabled after install
 * Test that the browser's 'no 3rd-party cookies' can be disabled
 * Test that no cookies are accepted from ALLOWed requests:  
-1. Go to cookie options in Chrome:Settings and check that "Block third-party cookies" is marked as controlled by AdNauseam. Then click the disable button.   
-1. Make sure the `logBlocks` flag in core.js is set to true to view blocking data in the   
-1. Visit sites where one ore more _3rd-party_ requests are ALLOWed and note their domains
-1. Verify that no cookies are accepted from these domains, using one of the [tools](#tools) listed below
+  - Go to cookie options in Chrome:Settings and check that "Block third-party cookies" is marked as controlled by AdNauseam. Then click the disable button.   
+  - Make sure the `logBlocks` flag in core.js is set to true to view blocking data in the   
+  - Visit sites where one ore more _3rd-party_ requests are ALLOWed and note their domains
+  - Verify that no cookies are accepted from these domains, using one of the [tools](#tools) listed below
 
 
 &nbsp;
