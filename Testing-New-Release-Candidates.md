@@ -1,5 +1,5 @@
-## Testing builds and releases on Firefox, Chrome, Opera:
-  
+_Note: perform each test on Chrome, Firefox, and Opera_
+
 ### Interface
 
 * First-run &nbsp; (remove and reinstall AdNauseam to trigger)
@@ -41,11 +41,11 @@
 ### Cookies 
 * Test that the browser's 'no 3rd-party cookies' option is enabled after install
 * Test that the browser's 'no 3rd-party cookies' can be disabled
-* Test that no cookies are accepted from ALLOWed requests   
-   1. Go to cookie options in Chrome:Settings and check that "Block third-party cookies" is marked as controlled by AdNauseam. Then click the disable button.   
-   2. Make sure the `logBlocks` flag in core.js is set to true to view blocking data in the console
-   2. Visit sites where one ore more _3rd-party_ requests are ALLOWed and note their domains
-   3. Verify that no cookies are accepted from these domains, using one of the [tools](#tools) listed below
+* Test that no cookies are accepted from ALLOWed requests:  
+  1. Go to cookie options in Chrome:Settings and check that "Block third-party cookies" is marked as controlled by AdNauseam. Then click the disable button.   
+  1. Make sure the `logBlocks` flag in core.js is set to true to view blocking data in the   
+  1. Visit sites where one ore more _3rd-party_ requests are ALLOWed and note their domains
+  1. Verify that no cookies are accepted from these domains, using one of the [tools](#tools) listed below
 
 
 &nbsp;
