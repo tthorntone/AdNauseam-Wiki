@@ -15,7 +15,8 @@ Steps to test a new release candidate on Firefox, Chrome, Opera:
 *  Test that ads from DNT-respecting sites (https://www.eff.org/files/effdntlist.txt) are not hidden or clicked
 *  Test ad parsing from within dynamically-created iframes (New York Times, Pirate Bay)                       
 *  Test that no ads are collected in incognito/private-browsing windows    
-   *In Chrome, first go to chrome://extensions and check "Allow in incognito" for AdNauseam
+   *In Chrome and Opera, first go to the extension page and check "Allow in incognito"/"Allow in private mode" for AdNauseam, then hit command+shift+N to start testing.   
+   *In Firefox, use command+shift+P to open the private window.
   
 
 ###Functions Testing
