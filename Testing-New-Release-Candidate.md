@@ -21,12 +21,12 @@ Steps to test a new release candidate on Firefox, Chrome, Opera:
 * Check general function of menu and vault  
    Menu(the popup window triggered by clicking AdNauseam logo from browser toolbar )
    - Check all the buttons and information
-   - Hover the ad images in the menu, check whether the zooming function works properly
+   - Hover the ad images in the menu, check whether the zooming function works properly   
    Vault  
-   -Zooming in and out using mouse wheel and the buttons in the top-left corner 
-   -Clicking collected images and text ads to see if the information and layout are correct   
-   -Check the date filter slider at the bottom of the vault
-   -Check if the AdNauseam logo in the bottom-right corner links correctly to the AdNauseam homepage  
+   - Zooming in and out using mouse wheel and the buttons in the top-left corner 
+   - Clicking collected images and text ads to see if the information and layout are correct   
+   - Check the date filter slider at the bottom of the vault
+   - Check if the AdNauseam logo in the bottom-right corner links correctly to the AdNauseam homepage  
 * Test import/export/clear ads functions(Both in Vault and in Settings)
 * Test the content, buttons, check boxes and links in Settings
 
