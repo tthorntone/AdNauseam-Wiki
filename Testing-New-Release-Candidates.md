@@ -33,24 +33,24 @@
 * Check layout of buttons, check-boxes, and links in each tab
 * Test that all (i)nfo buttons lead to correct FAQ pages in each tab
 * Test import/export/clear ads functions
-* Test advanced settings:
-  * For advanced setting, use the following tools:
-    * [Live HTTP Headers in Chrome](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)    
-    * [Live HTTP Headers in Firefox](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)   
-    * [Charles: a cross-platform application for web debugging](https://www.charlesproxy.com/latest-release/download.do) 
-  *  Test each header-option, enabled and disabled (outgoing cookies, referer, & user-agent, and incoming cookies)
-  *  Test that the DNT header is being sent correctly when enabled
-  *  Test that no cookies are accepted from [ALLOW]ed requests   
-   1. Go to Chrome:Settings and search for Cookies, Open the Cookies Setting and you will find an extension icon next to the choice "Block third-party cookies". When you Click that icon, it will tell you that this setting is controlled by AdNauseam. Click the disable button.   
-   2. Then, Test in websites where AdNauseam is allowing anything that is not allowed by uBlock.(Ex:Youtube, New York Times)   
-     Make sure no cookies is accepted by using any tools suggested above.
 
 ### DoNotTrack (DNT)
-*  Test that ads from [DNT-respecting sites](https://www.eff.org/files/effdntlist.txt) are not hidden or clicked, when each of the 2 DNT settings is enabled, and that they ARE hidden and clicked when each setting is disabled
+*  Test that the DNT header is being sent correctly when enabled (and vice versa)
+*  Test that ads from [DNT-respecting sites](https://www.eff.org/files/effdntlist.txt) are not hidden and/or clicked, when each of the 2 DNT settings is enabled, and that they ARE hidden and/or clicked when each setting is disabled
 
 ### Cookies 
 * Test that the browser's 'no 3rd-party cookies' option is enabled after install
 * Test that the browser's 'no 3rd-party cookies' can be disabled
+* Test that no cookies are accepted from ALLOWed requests   
+   1. Go to cookie options in Chrome:Settings and check that "Block third-party cookies" is marked as controlled by AdNauseam. Then click the disable button.   
+   2. Make sure the `logBlocks` flag in core.js is set to true to view blocking data in the console
+   2. Visit sites where one ore more _3rd-party_ requests are ALLOWed and note their domains
+   3. Verify that no cookies are accepted from these domains, using one of the [tools]() listed below
 
 (Pending)
 
+
+### Tools
+  * [Live HTTP Headers in Chrome](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)    
+  * [Live HTTP Headers in Firefox](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)   
+  * [Charles: a cross-platform application for web debugging](https://www.charlesproxy.com/latest-release/download.do) 
