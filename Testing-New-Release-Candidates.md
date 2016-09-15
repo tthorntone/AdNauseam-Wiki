@@ -1,9 +1,11 @@
-### Steps to test a new build or release candidate on Firefox, Chrome, Opera:
+## Testing builds and releases on Firefox, Chrome, Opera:
+
+### Basics
 
 * Check the AdNauseam and uBlock version numbers in the interface (on the settings page, and on the uBlock menu page)
 * Test various options on the first-run page (click-ads, block-malware, hide-ads, DNT)
 
-### Ad Testing
+### Hiding/Parsing
 * Test a set of pages, and make sure that ads are being captured and visited   
   * Image-ads: visit Facebook/Youtube/Amazon... and verify ads are hidden and appear in menu
   * Text-ads: visit Google/Ask/Yahoo/Bing/Duckduckgo to search for keywords such as "credit card" or "loan"
@@ -13,7 +15,7 @@
    * In Chrome/Opera, go to the extension page and check "Allow in incognito" for AdNauseam, then hit command+shift+N to start testing.   
    * In Firefox, use command+shift+P to open a private window.
   
-### Interface Testing
+### Interface
 * Menu 
    - Check all buttons and information (including number of ads and $$ cost)
    - Hover of ad images and check zooming
@@ -23,11 +25,12 @@
    - Check date filter slider at bottom of page
    - Check that AdNauseam logo in the bottom-right corner links correctly to homepage  
    - Check correct calculation of ad cost
-* Test import/export/clear functions (in both Vault and Settings)
+   - Test import/export/clear functions
 
-### Testing Settings
+### Settings
 * Check layout of buttons, check-boxes, and links in each tab
-* Check Advanced settings
+* Test import/export/clear functions
+* Test advanced settings
   * For advanced setting, use the following tools:
     * [Live HTTP Headers in Chrome](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)    
     * [Live HTTP Headers in Firefox](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)   
