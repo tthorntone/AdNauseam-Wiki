@@ -36,9 +36,9 @@ Tools to use:
 [Live HTTP Headers in Firefox](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)   
 [Charles: a crossplatform application for web debugging](https://www.charlesproxy.com/latest-release/download.do) 
 
-*  test the header-options (cookies, referer, user-agent )
-*  test that the DNT header is being sent correctly when enabled
-*  test that no cookies are accepted from [ALLOW]ed requests   
+*  Test the header-options (cookies, referer, user-agent )
+*  Test that the DNT header is being sent correctly when enabled
+*  Test that no cookies are accepted from [ALLOW]ed requests   
    1.Go to Chrome:Settings and search for Cookies, Open the Cookies Setting and you will find an extension icon next to the choice "Block third-party cookies". When you Click that icon, it will tell you that this setting is controlled by AdNauseam. Click the disable button.   
    2.Then, Test in websites where AdNauseam is allowing anything that is not allowed by uBlock.(Ex:Youtube, New York Times)   
      Make sure no cookies is accepted by using any tools suggested above.
