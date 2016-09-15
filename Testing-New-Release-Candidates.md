@@ -5,8 +5,8 @@
 
 ### Ad Testing
 * Test a set of pages, and make sure that ads are being captured and visited   
-  ** Image-ads: visit Facebook/Youtube/Amazon... and verify ads are hidden and appear in menu
-  ** Text-ads: visit Google/Ask/Yahoo/Bing/Duckduckgo to search for keywords such as "credit card" or "loan"
+  * Image-ads: visit Facebook/Youtube/Amazon... and verify ads are hidden and appear in menu
+  * Text-ads: visit Google/Ask/Yahoo/Bing/Duckduckgo to search for keywords such as "credit card" or "loan"
 *  Test that ads from [DNT-respecting sites](https://www.eff.org/files/effdntlist.txt) are not hidden or clicked, when each DNT setting is enabled, and that they are hidden and clicked when disabled
 *  Test ad-parsing from within dynamically-created iframes [here](http://rednoise.org/adntest/dynamic_iframe.html)                       
 *  Test that no ads are collected in incognito/private-browsing windows    
