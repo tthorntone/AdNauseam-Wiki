@@ -32,8 +32,8 @@ Steps to test a new release candidate on Firefox, Chrome, Opera:
 
 ### AdNauseam-advanced
 Tools to use:   
-[Live HTTP Headers in Chrome](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)
-[Live HTTP Headers in Firefox](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)
+[Live HTTP Headers in Chrome](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)    
+[Live HTTP Headers in Firefox](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)   
 [Charles: a crossplatform application for web debugging](https://www.charlesproxy.com/latest-release/download.do) 
 
 *  test the header-options (cookies, referer, user-agent )
