@@ -2,21 +2,23 @@ _Note: perform each test on Chrome, Firefox, and Opera_
 
 ### Interface
 
-#### First-run &nbsp; (remove and reinstall AdNauseam to trigger)
+#### First-Run &nbsp;
+- Remove and reinstall AdNauseam to trigger this page 
 - Test selection of various options (click-ads, block-malware, hide-ads, DNT)
-- Test that the DNT option is visible _only_ when clicking OR hiding is enabled
-- Test that toggling the DNT options changes both DNT options in Settings
+- Verify that the DNT option is visible _only_ when clicking OR hiding is enabled
+- Test that toggling the DNT option changes _both_ DNT options in Settings
 
 #### Menu 
-   - Check all buttons and information (including number of ads and $$ cost)
-   - Hover over ad images and check zooming
-   - Check the uBlock version number
+- Check all buttons and information (including number of Ads and $$ cost)
+- Hover over Ad images and check zooming
+- Check the uBlock version number
 
 #### Vault
-   - Zoom in/out using mouse wheel and buttons in top-left corner 
-   - Check function/layout of inspector (for both image and text ads)
-   - Check correct function date filter slider at bottom of page
-   - Check that AdNauseam logo in the bottom-right corner links correctly to homepage  
+- Verify loading animation, and centering/scaling of Ads on load
+- Zoom in/out using mouse wheel and buttons in top-left corner 
+- Check function/layout of inspector (for both image and text ads)
+- Check correct function date filter slider at bottom of page
+- Check that AdNauseam logo in the bottom-right corner links correctly to homepage  
    - Check correct calculation of ad cost (and updates according to date-filter)
    - Test import/export/clear functions
 
