@@ -1,5 +1,4 @@
-Steps to test a new build or release candidate on Firefox, Chrome, Opera:
-
+### Steps to test a new build or release candidate on Firefox, Chrome, Opera:
 
 * Check the AdNauseam and uBlock version numbers in the interface (on the adn settings page, and on the ublock menu page)
 
