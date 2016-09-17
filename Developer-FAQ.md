@@ -128,6 +128,11 @@ Code in 'src/js' is cross-browser code that originates in uBlock, though it may 
 With that said, this code implements the vAPI interface for each browser. This interface, which has a large version for the extension core, and a minimal version for content-scripts, abstracts away all browser specific details and exposes a common API for cross-platform code to use. Therefore, no browser specific code should ever be put within 'src/js' or 'src/js/adn'. Instead, the code must be placed within a vAPI function (which means changing the interface, and should be considered a big deal) and then implemented ånd tested for each of the browser platforms.
 
 
+####How do I run the browser's debugger on different parts of the extension?
+
+(pending)
+
+
 ####What is uDom?
 uDom, written by Raymond Hill for uBlock, is a minimalist DOM framework that provides the core functionality of something like jQuery, without the size. Thus you should not mix jQuery with uDom, as they provide the same basic functionality. In fact, you should not use jQuery at all in AdNauseam. The one (temporary) exception to this is the vault, pending its rewrite. A list of uDom functions follows below (in progress).
 
@@ -142,13 +147,11 @@ uDom, written by Raymond Hill for uBlock, is a minimalist DOM framework that pro
 - nodeFromId()
 - nodeFromSelector()
 - appendTo()
-- addClass
-- removeClass
-- toggleClass
-
-####How do I run the browser's debugger on different parts of the extension?
+- addClass()
+- removeClass()
+- toggleClass()
 
 
+&nbsp;
 
-(pending)
-
+ 
