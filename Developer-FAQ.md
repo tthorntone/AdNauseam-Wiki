@@ -134,11 +134,10 @@ With that said, this code implements the vAPI interface for each browser. This i
 
 
 ####What is uDom?
-uDom, written by Raymond Hill for uBlock, is a minimalist DOM framework that provides the core functionality of something like jQuery, without the size. Thus you should not mix jQuery with uDom, as they provide the same basic functionality. In fact, you should not use jQuery at all in AdNauseam. The one (temporary) exception to this is the vault, pending its rewrite. A list of uDom functions follows below (in progress).
+uDom, written by Raymond Hill for uBlock, is a minimalist DOM framework that provides the core functionality of something like jQuery, without the size. Thus you should not mix jQuery with uDom, as they provide the same basic functionality. In fact, you should not use jQuery at all in AdNauseam. The one (temporary) exception to this is the vault, pending its rewrite. A list of commonly used uDom functions follows below (in progress), or you may consult the [source](https://github.com/dhowe/AdNauseam/blob/master/src/js/udom.js).
 
 - on()
 - attr()
-- prop()
 - css()
 - val()
 - html()
