@@ -24,6 +24,7 @@
 * [The git fork-and-branch workflow](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
 * [Adblock Plus rule syntax](https://adblockplus.org/filter-cheatsheet)
 * [What are Dynamic Filtering Rules?](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax)
+* [What is uDom?](#what-is-uDom)
 
 &nbsp;     
 &nbsp;    
@@ -127,7 +128,12 @@ Code in 'src/js' is cross-browser code that originates in uBlock, though it may 
 With that said, this code implements the vAPI interface for each browser. This interface, which has a large version for the extension core, and a minimal version for content-scripts, abstracts away all browser specific details and exposes a common API for cross-platform code to use. Therefore, no browser specific code should ever be put within 'src/js' or 'src/js/adn'. Instead, the code must be placed within a vAPI function (which means changing the interface, and should be considered a big deal) and then implemented ånd tested for each of the browser platforms.
 
 
+####What is uDom?
+uDom is a lightweight alternative js library which provides the core functionality of something like jQuery. Thus you should not mix jQuery with uDom, as they provide the same types of functionality. In fact, you should not use jQuery at all in AdNauseam. The one (temporary) exception to this is the vault, pending its rewrite. A list of uDom functions follows below (pending).
+
 ####How do I run the browser's debugger on different parts of the extension?
+
+
 
 (pending)
 
