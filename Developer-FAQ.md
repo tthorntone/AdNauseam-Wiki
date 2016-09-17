@@ -24,7 +24,7 @@
 * [The git fork-and-branch workflow](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
 * [Adblock Plus rule syntax](https://adblockplus.org/filter-cheatsheet)
 * [What are Dynamic Filtering Rules?](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax)
-* [What is uDom?](#what-is-uDom)
+* [What is uDom?](##what-is-udom)
 
 &nbsp;     
 &nbsp;    
@@ -129,7 +129,10 @@ With that said, this code implements the vAPI interface for each browser. This i
 
 
 ####What is uDom?
-uDom is a lightweight alternative js library which provides the core functionality of something like jQuery. Thus you should not mix jQuery with uDom, as they provide the same types of functionality. In fact, you should not use jQuery at all in AdNauseam. The one (temporary) exception to this is the vault, pending its rewrite. A list of uDom functions follows below (pending).
+uDom, written by Raymond Hill for uBlock, is a minimalist DOM framework that provides the core functionality of something like jQuery, without the size. Thus you should not mix jQuery with uDom, as they provide the same basic functionality. In fact, you should not use jQuery at all in AdNauseam. The one (temporary) exception to this is the vault, pending its rewrite. A list of uDom functions follows below (in progress).
+- onLoad
+- nodeFromId
+- nodeFromSelector
 
 ####How do I run the browser's debugger on different parts of the extension?
 
