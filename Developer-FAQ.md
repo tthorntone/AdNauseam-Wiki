@@ -12,6 +12,7 @@
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
 * [How do I run the browser's debugger on different parts of the extension?](#)
 * [How do I use the logger, and what are the different types of entries it shows?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-use-the-logger-and-what-are-the-different-types-of-entries-it-shows)
+* [How do I view AdNauseam network events (blocks, allows, cookies, headers, etc.) in the addon console?
 * [How do I debug an ad that is appearing on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
 * [How do I debug a video ad that is appearing on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
 * [How do I debug an image ad that is being hidden, but not found?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
@@ -127,6 +128,8 @@ Code in 'src/js' is cross-browser code that originates in uBlock, though it may 
 
 With that said, this code implements the vAPI interface for each browser. This interface, which has a large version for the extension core, and a minimal version for content-scripts, abstracts away all browser specific details and exposes a common API for cross-platform code to use. Therefore, no browser specific code should ever be put within 'src/js' or 'src/js/adn'. Instead, the code must be placed within a vAPI function (which means changing the interface, and should be considered a big deal) and then implemented ånd tested for each of the browser platforms.
 
+
+####[How do I view AdNauseam network events (blocks, allows, cookies, headers, etc.) in the addon console?
 
 ####How do I run the browser's debugger on different parts of the extension?
 
