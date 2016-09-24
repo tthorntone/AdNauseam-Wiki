@@ -3,7 +3,7 @@
 ### Getting Started
 * [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 * [What is the usual workflow for developers?](#what-is-the-usual-workflow-for-developers)
-* [What is the relationship between blocking and hiding rules in uBlock and ADN?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
+* [What is the relationship between blocking and hiding rules in uBlock and AdNauseam?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
 * [What is the difference between JS code in src and in platform?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-difference-between-js-code-in-src-and-in-platform)
 * [How should I setup my browser profiles for developing?](#how-should-i-setup-my-browser-profiles-for-developing)
 * [How can I get the first-run page to show up when developing?](#how-can-i-get-the-first-run-page-to-show-up-when-developing)
