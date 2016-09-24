@@ -12,7 +12,7 @@
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
 * [How do I run the browser's debugger on different parts of the extension?](#)
 * [How do I use the logger, and what are the different types of entries it shows?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-use-the-logger-and-what-are-the-different-types-of-entries-it-shows)
-* [How do I view AdNauseam network events (blocks, allows, cookies, headers, etc.) in the addon console?
+* [How do I view AdNauseam network events (blocks, allows, cookies, headers, etc.) in the addon console?]()
 * [How do I debug an ad that is appearing on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
 * [How do I debug a video ad that is appearing on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
 * [How do I debug an image ad that is being hidden, but not found?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
