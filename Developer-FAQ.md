@@ -1,12 +1,18 @@
 ## Frequently Asked Questions for Developers  (in progress)
 
+
 ### Getting Started
 * [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 * [What is the usual workflow for developers?](#what-is-the-usual-workflow-for-developers)
-* [What is the relationship between blocking and hiding rules in uBlock and AdNauseam?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
-* [What is the difference between JS code in src and in platform?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-difference-between-js-code-in-src-and-in-platform)
 * [How should I setup my browser profiles for developing?](#how-should-i-setup-my-browser-profiles-for-developing)
 * [How can I get the first-run page to show up when developing?](#how-can-i-get-the-first-run-page-to-show-up-when-developing)
+
+
+### How Things Work
+* [What is the relationship between blocking and hiding rules in uBlock and AdNauseam?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
+* [How does AdNauseam handle visual resources that link to the same domain?](#)
+* [What is the difference between JS code in src and in platform?](#what-is-the-difference-between-js-code-in-src-and-in-platform)
+
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
@@ -20,8 +26,8 @@
 * [How do I view the extensions storage entries?](#how-do-i-view-the-extensions-storage-entries)
 * [How are locales/languages/translations handled?](https://github.com/dhowe/AdNauseam/wiki/Handling-languages,-locales,-and-translations)
 
-### Useful References
 
+### Useful References
 * [The git fork-and-branch workflow](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
 * [Adblock Plus rule syntax](https://adblockplus.org/filter-cheatsheet)
 * [What are Dynamic Filtering Rules?](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax)
@@ -100,6 +106,8 @@ For completeness, there are also 2 other kinds of rules: exception rules, which 
 
 Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on the logger icon. Choose the tab you are interested in, then click the refresh icon. This will refresh the tab with the logger activated, and you will see each request made by the browser (whether blocked, allowed, or hidden). For info on the different types of entries, see this [page](https://github.com/gorhill/uBlock/wiki/The-logger).
 
+####How does AdNauseam handle visual resources that link to the same domain?
+Generally AdNauseam do not allow ads with internal target URLs. So an ad found on xyz.com which links to a URL on xyz.com (or www.xyz.com) is ignored. However, some sites use this mechanism (generally with a redirect) for serving real ads. These are sometimes text ads and sometimes so-called 'native ads'. One classic example is Google where all ads on search pages go first to a Google URL, and are then redirected. To accommodate these exceptions, AdNauseam maintains an array of domains  called `internalLinkDomains` (see core.js). Adding a domain to this list will cause AdNauseam to no longer reject internal ads from that domain.
 
 #### How do I view extension messages in the console?
 
