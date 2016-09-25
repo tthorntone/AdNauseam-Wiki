@@ -65,12 +65,14 @@ This process is similar to the [above](#how-do-i-debug-an-ad-that-is-appearing-o
 
 #### How do I debug an image-ad that is being hidden, but not found?
 
-First we need to check if the Ad is being correctly detected by the parser.js content-script. We can check do this by looking at the browser console for the page to see if the Ad was detected there (there will be an "IMG-AD" if so). If not, there may be warning messages that will give you a clue as to what went wrong (skip to Case 2 below). 
+First we need to check if the Ad is being correctly detected by the parser.js content-script. We can check do this by looking at the browser console for the page to see if the Ad was detected there (there will be an "IMG-AD" if so). If not, there may be warning messages that will give you a clue as to what went wrong (skip to _Case 2_ below). 
 
-**Case 1**
+_Case 1_
+
 The Ad was correctly detected by the content-script. Here we need to look for messages in the addon console (chrome://extensions->AdNauseam->background.html->console) to see if it was rejected there (perhaps as a duplicate or because it has an internal targetURL). If the Ad is a duplicate, we just need to clear our ads and test again. If the ad has an internal link but IS a valid ad, then we need to add the domain to 'internalLinkDomains' in core.js.
 
-**Case 2**
+_Case 2_
+
 The Ad was NOT detected by the content-script. Here we need to debug the parsing code (/src/js/adn/parser.js) to figure out where it is failing. You can use the debugger to do this, but it may also be useful to turn on the vAPI.debugAdParsing flag on whichever platform you are using (either in platform/chromium/vapi-client.js OR platform/firefox/vapi-client.js).
 
 #### How do I debug a text-ad that is being hidden, but not found?
