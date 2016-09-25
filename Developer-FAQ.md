@@ -9,8 +9,9 @@
 
 
 ### How Things Work
+* [How does AdNauseam detect ads?](#)
 * [What is the relationship between blocking and hiding rules in uBlock and AdNauseam?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
-* [How does AdNauseam handle visual resources that link to the same domain?](#)
+* [How does AdNauseam handle visual resources that link to the same domain?](#how-does-adnauseam-handle-visual-resources-that-link-to-the-same-domain)
 * [What is the difference between JS code in src and in platform?](#what-is-the-difference-between-js-code-in-src-and-in-platform)
 
 
@@ -96,11 +97,14 @@ https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-p
 
 You can also use the profile switcher [add-on](https://addons.mozilla.org/en-US/firefox/addon/profileswitcher/) to switch among profiles.
 
+#### How does AdNauseam detect ads?
+Ads are detected via standard cosmetic, or 'hiding', filters found in whatever lists are currently enabled ([EasyList](https://easylist.to/) currently has the best rules for this, and thus the user is warned when it is disabled). Once a DOM element is detected by a cosmetic filter in one of uBlock's content-scripts, it is passed to AdNauseam's parser component where the ad's information (viewable by clicking an ad in the _vault_ to _inspect_ it) is extracted. This info includes timestamp, size, content-url, target-url, page-detected-on, etc. Text-only ads, as often found on search engine, are a bit different as they are generally served inline along, with page content, rather than requested separately. In thesecases, several additional fields are parsed (title, description, tagline) and there is no content-url linking to an external resource. To enable text-ad extraction, AdNauseam includes a custom set of CSS selectors (in textads.js) for common providers (Google, Ask, Bing, etc), which link to specific hand-written parsing routines. These run only on those domains for which such filters have been written.
+
 #### What is the relationship between blocking and hiding rules in uBlock and ADN?
 
-Blocking rules block the requested element, no matter its type, from being fetched by the browser. Hiding rules (also called 'Cosmetic filters') cause the element to be downloaded and added to the DOM as usual, but then hidden via CSS. Filter lists are combinations of blocking and hiding rules. The only difference between uBlock and ADN in this regard is that ADN cannot block elements which are part of, or generate, visual advertising. These elements must instead be hidden, which may be done by an existing hiding rule (in one of the filter-lists), or via a new hiding rule specific to ADN (generally placed in the built-in adnauseam.txt filter list).
+Blocking rules block the requested element, no matter its type, from being fetched by the browser. Hiding rules (also called 'Cosmetic filters') cause the element to be downloaded and added to the DOM as usual, but then hidden via CSS. Filter lists are combinations of blocking and hiding rules. The only difference between uBlock and ADN in this regard is that ADN cannot block elements which are part of, or generate, visual advertising. These elements must instead be hidden, which may be done via an existing hiding rule (in one of the filter-lists), or via a new hiding rule specific to ADN (generally placed in the adnauseam.txt filter list).
 
-For completeness, there are also 2 other kinds of rules: exception rules, which are similar to blocking rules, except that they define which requests should be allowed even if other matching blocking rules exist; and Dynamic-filtering rules, available only in iBlock's 'advanced mode', which are explained [here](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax).
+For completeness, there are also 2 other kinds of rules: exception rules, which are similar to blocking rules, except that they define which requests should be allowed even when other matching blocking rules exist; and Dynamic-filtering rules, available only in iBlock's 'advanced mode', which are explained [here](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax).
 
 #### How do I use the logger, and what are the different types of entries it shows?
 
