@@ -9,7 +9,7 @@
 
 
 ### How Things Work
-* [How does AdNauseam detect ads?](#)
+* [How does AdNauseam detect ads?](#how-does-adnauseam-detect-ads)
 * [What is the relationship between blocking and hiding rules in uBlock and AdNauseam?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
 * [How does AdNauseam handle visual resources that link to the same domain?](#how-does-adnauseam-handle-visual-resources-that-link-to-the-same-domain)
 * [What is the difference between JS code in src and in platform?](#what-is-the-difference-between-js-code-in-src-and-in-platform)
