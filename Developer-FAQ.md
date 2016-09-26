@@ -13,7 +13,7 @@
 * [What is the relationship between blocking and hiding rules in uBlock and AdNauseam?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
 * [How does AdNauseam handle visual resources that link to the same domain?](#how-does-adnauseam-handle-visual-resources-that-link-to-the-same-domain)
 * [What is the difference between JS code in src and in platform?](#what-is-the-difference-between-js-code-in-src-and-in-platform)
-* [How does parser.js work?](#how-does-parserjs-work)
+* [How does Ad parsing work?](#how-does-ad-parsing-work)
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
@@ -139,15 +139,19 @@ Go to chrome://extensions, then open the background.html page, then open the con
 
 First remove the ADN extension in chrome://extensions (using the trash icon), then reload
 
+--------------------
+
 #### What is the difference between JS code in src and in platform?
 
 Code in 'src/js' is cross-browser code that originates in uBlock, though it may have been modified in ADN's fork. Code in 'src/js/adn' is cross-browser code specific to ADN. Code in subdirectories of 'platform/' is code specific to a browser. You should not mess with this code unless you are an expert dev, _and_ have discussed the necessity of changes with the other devs.
 
 With that said, this code implements the vAPI interface for each browser. This interface, which has a large version for the extension core, and a minimal version for content-scripts, abstracts away all browser specific details and exposes a common API for cross-platform code to use. Therefore, no browser specific code should ever be put within 'src/js' or 'src/js/adn'. Instead, the code must be placed within a vAPI function (which means changing the interface, and should be considered a big deal) and then implemented ånd tested for each of the browser platforms.
 
-####How does parser.js work
+--------------------
+
+####How does Ad parsing work?
   
-**Process()**  
+_the process() function_
 If the selector finds a matching element in the web page, the process function would be triggered.Then you will see a process message in the console in the following format.
 "process+elem.tagName+elem"
 There are mainly three cases for the process function(Iframe,IMG,otherTag)   
