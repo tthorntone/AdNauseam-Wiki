@@ -37,6 +37,7 @@
 &nbsp;     
 &nbsp;    
 
+-----------
 #### What is the usual workflow for developers?
 
 New developers should begin by reading the [FAQ](https://github.com/dhowe/AdNauseam/wiki/FAQ) and [Developer FAQ](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ) and making sure that they can [build the extension](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers) in Chrome, Firefox, or both. They should then start work on a ticket (either by selecting one, perhaps marked with the _Good Volunteer Task_ label, or by being assigned one). It is generally good practice to start a new git branch for the feature/ticket you are working on. Ask questions as you go (in the ticket itself, and/or via email), and when ready, submit a pull-request so that your branch can be merged in.
@@ -47,6 +48,7 @@ Sometimes you may be assigned a ticket with the label _Needs-verification_. In s
 
 The project uses the git fork-and-branch workflow, described nicely [here](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/).
 
+-----------
 #### How do I debug an ad that is appearing on a page?
 
 First check whether the ad is appearing in uBlock. If it is, then this is not an ADN-specific problem (though we may want to fix it anyway). If the ad _does_ not show in uBlock, then it is likely the case that it is being blocked in uBlock, but not in ADN (remember that we don't want to block ads, only hide them). So then we need to add a cosmetic filter (in AdNauseam filters) to replace the blocking filter that uBlock uses. All devs should learn how to do this (either by using the browser inspector, or the [block-element tool](https://github.com/gorhill/ublock/wiki/element-picker)):
@@ -59,10 +61,12 @@ First check whether the ad is appearing in uBlock. If it is, then this is not an
 1.  You should now see the # of 'AdNauseam filters' increase to include your new rule
 1.  Test by visiting the page in question to verify the ad is now hidden
 
+-----------
 #### How do I debug a video ad that is appearing on a page?
 
 This process is similar to the [above](#how-do-i-debug-an-ad-that-is-appearing-on-a-page), except that because ADN is not collecting video ads (at least for now), we need to add a block filter (for blocking), rather than a cosmetic filter (for hiding).
 
+-----------
 #### How do I debug an image-ad that is being hidden, but not found?
 
 First we need to check if the Ad is being correctly detected by the parser.js content-script. We can check do this by looking at the browser console for the page to see if the Ad was detected there (there will be an "IMG-AD" if so). If not, there may be warning messages that will give you a clue as to what went wrong (skip to _Case 2_ below). 
@@ -76,14 +80,17 @@ _Case 2_
 The Ad was NOT detected by the content-script. Here we need to debug the parsing code (/src/js/adn/parser.js) to figure out where it is failing. You can use the debugger to do this, but it may also be useful to turn on the vAPI.debugAdParsing flag on whichever platform you are using (either in platform/chromium/vapi-client.js OR platform/firefox/vapi-client.js).
 For more details about how parser works, and a guideline of what the log messages mean, please check: [#how-does-parserjs-work).
 
+-----------
 #### How do I debug a text-ad that is being hidden, but not found?
 
 In this case, we need to first determine whether we have a filter for this type of text-ad (these filters are in /src/js/adn/textads.js). If not, we may or may not want to add a filter, depending on how popular a site the text-ads are found on, so simply mark the ticket with this question. If we do, then we need to debug why it is not working correctly. (pending)
 
+-----------
 #### How should I setup my browser profiles for developing?
 
 It is highly recommended to setup separate browser profiles for development (at very least you should have one for AdNauseam and one for uBlock). This enables you to compare results between AdNAuseam and uBlock, and also to prevent tests being influenced by cookies and other shared state. Remember also to modify your Firefox (development or nightly build) profiles according to [these steps](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers). In Chrome, you can simply enable developer mode.
 
+-----------
 ##### In Chrome
 
 1. Go to chrome://settings/
@@ -95,6 +102,7 @@ It is highly recommended to setup separate browser profiles for development (at 
 In the same way you can add another profile for uBlock.
 To switch among different profiles, right click on the right top corner of chrome browser. You will see a dropdown menu showing all the profiles you have created.
 
+-----------
 ##### In Firefox
 
 Please see the following mozilla support page for detailed explanation and steps:
@@ -102,15 +110,18 @@ https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-p
 
 You can also use the profile switcher [add-on](https://addons.mozilla.org/en-US/firefox/addon/profileswitcher/) to switch among profiles.
 
+-----------
 #### How does AdNauseam detect ads?
 Ads are detected via standard cosmetic, or 'hiding', filters found in whatever lists are currently enabled ([EasyList](https://easylist.to/) currently has the best rules for this, and thus the user is warned when it is disabled). Once a DOM element is detected by a cosmetic filter in one of uBlock's content-scripts, it is passed to AdNauseam's parser component where the ad's information (viewable by clicking an ad in the _vault_ to _inspect_ it) is extracted. This info includes timestamp, size, content-url, target-url, page-detected-on, etc. Text-only ads, as often found on search engine, are a bit different as they are generally served inline along, with page content, rather than requested separately. In thesecases, several additional fields are parsed (title, description, tagline) and there is no content-url linking to an external resource. To enable text-ad extraction, AdNauseam includes a custom set of CSS selectors (in textads.js) for common providers (Google, Ask, Bing, etc), which link to specific hand-written parsing routines. These run only on those domains for which such filters have been written.
 
+-----------
 #### What is the relationship between blocking and hiding rules in uBlock and ADN?
 
 Blocking rules block the requested element, no matter its type, from being fetched by the browser. Hiding rules (also called 'Cosmetic filters') cause the element to be downloaded and added to the DOM as usual, but then hidden via CSS. Filter lists are combinations of blocking and hiding rules. The only difference between uBlock and ADN in this regard is that ADN cannot block elements which are part of, or generate, visual advertising. These elements must instead be hidden, which may be done via an existing hiding rule (in one of the filter-lists), or via a new hiding rule specific to ADN (generally placed in the adnauseam.txt filter list).
 
 For completeness, there are also 2 other kinds of rules: exception rules, which are similar to blocking rules, except that they define which requests should be allowed even when other matching blocking rules exist; and Dynamic-filtering rules, available only in iBlock's 'advanced mode', which are explained [here](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax).
 
+-----------
 #### How do I use the logger, and what are the different types of entries it shows?
 
 Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on the logger icon. Choose the tab you are interested in, then click the refresh icon. This will refresh the tab with the logger activated, and you will see each request made by the browser (whether blocked, allowed, or hidden). For info on the different types of entries, see this [page](https://github.com/gorhill/uBlock/wiki/The-logger).
@@ -118,6 +129,7 @@ Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on
 ####How does AdNauseam handle visual resources that link to the same domain?
 Generally AdNauseam do not allow ads with internal target URLs. So an ad found on xyz.com which links to a URL on xyz.com (or www.xyz.com) is ignored. However, some sites use this mechanism (generally with a redirect) for serving real ads. These are sometimes text ads and sometimes so-called 'native ads'. One classic example is Google where all ads on search pages go first to a Google URL, and are then redirected. To accommodate these exceptions, AdNauseam maintains an array of domains  called `internalLinkDomains` (see core.js). Adding a domain to this list will cause AdNauseam to no longer reject internal ads from that domain.
 
+-----------
 #### How do I view extension messages in the console?
 
 This depends on the browser and the code you are interested in.
@@ -129,17 +141,19 @@ This depends on the browser and the code you are interested in.
 
 Menu->Tools->Web Developer->Browser Console  (pending)
 
+-----------
 #### How do I view the extensions storage entries?
 
 Go to chrome://extensions, then open the background.html page, then open the console and enter:
 
     chrome.storage.local.get(function(result){console.log(result)});
 
+-----------
 #### How can I get the first-run page to show up when developing?
 
 First remove the ADN extension in chrome://extensions (using the trash icon), then reload
 
---------------------
+-----------
 
 #### What is the difference between JS code in src and in platform?
 
@@ -186,16 +200,17 @@ After all these done, process() will finally check whether it is an TextAd by us
 4.**textAdParser**   
 (Coming soon)
 
-
+-----------
 ####How do I view AdNauseam-specific network events in the addon console?
 
 To view such events (blocks, allows, cookies, headers, etc.), enable the `netLogging` flag in core.js, then open the addon console as usual
 
+-----------
 ####How do I run the browser's debugger on different parts of the extension?
 
 (pending)
 
-
+-----------
 ####What is uDom?
 uDom, written by Raymond Hill for uBlock, is a minimalist DOM framework that provides the core functionality of something like jQuery, without the size. Thus you should not mix jQuery with uDom, as they provide the same basic functionality. In fact, you should not use jQuery at all in AdNauseam. The one (temporary) exception to this is the vault, pending its rewrite. A list of commonly used uDom functions follows below (in progress), or you may consult the [source](https://github.com/dhowe/AdNauseam/blob/master/src/js/udom.js).
 
