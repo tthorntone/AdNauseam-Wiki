@@ -90,7 +90,6 @@ In this case, we need to first determine whether we have a filter for this type 
 
 It is highly recommended to setup separate browser profiles for development (at very least you should have one for AdNauseam and one for uBlock). This enables you to compare results between AdNAuseam and uBlock, and also to prevent tests being influenced by cookies and other shared state. Remember also to modify your Firefox (development or nightly build) profiles according to [these steps](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers). In Chrome, you can simply enable developer mode.
 
------------
 ##### In Chrome
 
 1. Go to chrome://settings/
@@ -102,7 +101,6 @@ It is highly recommended to setup separate browser profiles for development (at 
 In the same way you can add another profile for uBlock.
 To switch among different profiles, right click on the right top corner of chrome browser. You will see a dropdown menu showing all the profiles you have created.
 
------------
 ##### In Firefox
 
 Please see the following mozilla support page for detailed explanation and steps:
@@ -166,6 +164,7 @@ With that said, this code implements the vAPI interface for each browser. This i
 ####How does Ad parsing work?
   
 _the process() function_
+
 If the selector finds a matching element in the web page, the process function would be triggered.Then you will see a process message in the console in the following format.
 "process+elem.tagName+elem"
 There are mainly three cases for the process function(Iframe,IMG,otherTag)   
@@ -173,7 +172,7 @@ There are mainly three cases for the process function(Iframe,IMG,otherTag)
 2.IFrame  
 3.OtherTag --> check child imgs  --> 4.textAdParser
 
-We can start with IMG.
+We can start with images:
 
 1.**IMG**  
 The main workflow to create an ad in AdNauseam after an IMG tag is detected by the process function is:
