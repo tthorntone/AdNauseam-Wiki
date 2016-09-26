@@ -22,6 +22,11 @@ _Note: perform each test on Chrome, Firefox, and Opera_
    - Check correct calculation of ad cost (and updates according to date-filter)
    - Test import/export/clear functions
 
+### Notifications
+Check that disabling hiding,clicking, or blocking on both the first-run and the settings page generate a notification warning at the top of the settings, menu, and vault page. Also check that the vault (if open) is updated when notifications change.
+
+------------------
+
 ## Ad Hiding/Parsing
 * Test a set of pages, and make sure that ads are being captured and visited   
   * ImageAds: visit Facebook/Youtube/Amazon... and verify ads are hidden and appear in menu
