@@ -23,7 +23,9 @@ _Note: perform each test on Chrome, Firefox, and Opera_
    - Test import/export/clear functions
 
 ### Notifications
-Check that disabling hiding,clicking, or blocking on both the first-run and the settings page generate a notification warning at the top of the settings, menu, and vault page. Also check that the vault (if open) is updated when notifications change.
+- Check that disabling hiding, clicking, or blocking on the first-run generates a notification warning at the top of the settings, menu, and vault page. 
+- Check that disabling hiding, clicking, or blocking on the settings/options page generates a notification warning at the top of the settings, menu, and vault page. 
+- Check that the vault (if open) is updated when notifications change
 
 ------------------
 
@@ -31,10 +33,13 @@ Check that disabling hiding,clicking, or blocking on both the first-run and the 
 * Test a set of pages, and make sure that ads are being captured and visited   
   * ImageAds: visit Facebook/Youtube/Amazon... and verify ads are hidden and appear in menu
   * TextAds: visit Google/Ask/Yahoo/Bing/DuckDuckGo to search for keywords such as "credit card" or "loan"
-*  Test Ad-parsing from within dynamically-created iframes [here](http://rednoise.org/adntest/dynamic_iframe.html)                       
+*  Test Ad-parsing from within dynamically-created iframes [here](http://rednoise.org/adntest/dynamic_iframe.html)
+*  Test Ad-parsing from cosmetically filtered iframes (without cosmetic filters for any contained elements)  [here](http://rednoise.org/adntest/iframe-cosm.html)                       
 *  Test that no Ads are collected in incognito/private-browsing windows    
    * In Chrome/Opera, go to the extension page and check "Allow in incognito" for AdNauseam, then hit command+shift+N to start testing
    * In Firefox, use command+shift+P to open a private window
+
+------------------
 
 ## Settings
 * Check version number in 'About' page
@@ -42,23 +47,39 @@ Check that disabling hiding,clicking, or blocking on both the first-run and the 
 * Test that all (i)nfo buttons lead to correct FAQ pages in each tab
 * Test import/export/clear ads functions
 
+------------------
+
 ## DoNotTrack (DNT)
-*  Test that the DNT header is being sent correctly when enabled (and vice versa)
-*  Test that ads from [DNT-respecting sites](https://www.eff.org/files/effdntlist.txt) are not hidden and/or clicked, when each of the 2 DNT settings is enabled, and that they ARE hidden and/or clicked when each setting is disabled
+-  Test that the EFF's DNT list on settings/whitelist.html is disabled whenever both disableClickingForDNT and disableHidingForDNT are disabled, and is otherwise enabled
+-  Test that the DNT header is being sent correctly for all requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa)
+-  Test that ads from [DNT-respecting sites](https://www.eff.org/files/effdntlist.txt) are not hidden and/or clicked, when each of the 2 DNT settings is enabled, and that they ARE hidden and/or clicked when each setting is disabled
+
+------------------
 
 ## Cookies 
 * Test that the browser's 'no 3rd-party cookies' option is enabled after install
 * Test that the browser's 'no 3rd-party cookies' can be disabled
 * Test that no cookies are accepted from ALLOWed requests:  
   - Go to cookie options in Chrome:Settings and check that "Block third-party cookies" is marked as controlled by AdNauseam. Then click the disable button.   
-  - Make sure the `netLogging` flag in core.js is set to true to view blocking data in the console   
+  - Make sure the `netLogging` flag in core.js is set to true to view log info in the console   
   - Visit sites where one or more _3rd-party_ requests are ALLOWed and note their domains
-  - Verify that no cookies are accepted from these domains, using one of the [tools](#tools) listed below
+  - Verify that no cookies are accepted from these domains, using one of the [tools](#tools) listed below, or by checking cookies before/after
 
+------------------
+
+## Ad Visits 
+- Test that the correct 'referer' header is sent on Ad visits depending on the setting (ad.pageUrl when disabled, or none when enabled) 
+- Test that the correct 'user-agent' header is sent on Ad visits depending on the setting (the usual user-agent when disabled, or none when enabled)  
+- Test that outgoing cookies are sent on Ad visits depending on the setting (the usual cookies when disabled, or none when enabled)  
+- Test that incoming cookies are never allowed from responses to Ad visits, using one of the [tools](#tools) listed below, or by checking cookies before/after
+
+------------------
 
 &nbsp;
 
 (More to come)
+
+--------------------
 
 &nbsp;
 
