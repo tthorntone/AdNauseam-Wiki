@@ -27,6 +27,8 @@ _Note: perform each test on Chrome, Firefox, and Opera_
 - Check that disabling hiding, clicking, or blocking on the settings/options page generates a notification warning at the top of the settings, menu, and vault page. 
 - Check that the vault (if open) is updated when notifications change
 
+&nbsp;
+
 ------------------
 
 ## Ad Hiding/Parsing
