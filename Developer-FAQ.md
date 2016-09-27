@@ -117,7 +117,7 @@ Ads are detected via standard cosmetic, or 'hiding', filters found in whatever l
 
 Blocking rules block the requested element, no matter its type, from being fetched by the browser. Hiding rules (also called 'Cosmetic filters') cause the element to be downloaded and added to the DOM as usual, but then hidden via CSS. Filter lists are combinations of blocking and hiding rules. The only difference between uBlock and ADN in this regard is that ADN cannot block elements which are part of, or generate, visual advertising. These elements must instead be hidden, which may be done via an existing hiding rule (in one of the filter-lists), or via a new hiding rule specific to ADN (generally placed in the adnauseam.txt filter list).
 
-For completeness, there are also 2 other kinds of rules: exception rules, which are similar to blocking rules, except that they define which requests should be allowed even when other matching blocking rules exist; and Dynamic-filtering rules, available only in iBlock's 'advanced mode', which are explained [here](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax).
+For completeness, there are also two other kinds of rules: exception rules, which are similar to blocking rules, except that they define which requests should be allowed even when other matching blocking rules exist; and dynamic-filtering rules, available only in AdNauseam or iBlock's 'advanced mode' which are explained [here](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax).
 
 -----------
 #### How do I use the logger, and what are the different types of entries it shows?
@@ -133,7 +133,7 @@ Generally AdNauseam do not allow ads with internal target URLs. So an ad found o
 This depends on the browser and the code you are interested in.
 
 ##### In Chrome
- For messages from the extension core, use the console from background.html in chrome://extensions. For messages from interface-pages and content-scripts use the console from the page in question. For messages from the extension menu, right-click _inspect_, then use the console in the window that appears
+ For messages from the extension core, use the console from background.html in `chrome://extensions`. For messages from interface-pages and content-scripts use the console from the page in question. For messages from the extension menu, right-click _inspect_, then use the console in the window that appears
 
 ##### In Firefox
 
@@ -163,18 +163,18 @@ With that said, this code implements the vAPI interface for each browser. This i
 
 ####How does Ad parsing work?
 
-When a cosmetic rule fires for an element on the page, the element is passed to the process() function. With the vAPI.debugAdParsing flag enabled, you will see a message in the console in the following format: `process(tagName)...`,
-There are three main cases inside the process() function: image, iframe, and other.
+When a cosmetic rule fires for an element on the page, the element is passed to the `process()` function. With the `vAPI.debugAdParsing` flag enabled, you will see a message in the console in the following format: `process(tagName)...`.
+There are three main cases handled by the `process()` function: image, iframe, and other.
 
-1. Images —> findImageAds() —> processImage()  
-2. IFrames  —> processIFrame —> check inside for image elements —> processImage()  
-3. Other —> check inside for image elements —> processImage(), then check for text-ads
+`1. Images —> findImageAds() —> processImage()  `
+`2. IFrames  —> processIFrame —> check inside for image elements —> processImage()  `
+`3. Other —> check inside for image elements —> processImage(), then check for text-ads`
 
 **1. Images**
 
 With the exception of text-ads, the parser's main role is to detect clickable Ad images. If all goes well after an image is matched by a cosmetic filter, then you will see a message in the page console saying 'IMG-AD' and the Ad will be viewable in both the menu and vault. 
 
-If this message shows in the page console, but the Ad does not appear in the menu or vault, then the Ad was rejected by the addon itself. This generally happens because the detected ad is a duplicate ([EXISTS] will show in the addon console), or, because its target (where it leads when clicked) is internal (in the same domain as the page on which it was found). In this case, [INTERN] will show in the addon console and the Ad will be rejected, unless it is listed in `internalLinkDomains` in core.js.
+If this message shows in the page console, but the Ad does not appear in the menu or vault, then the Ad was rejected by the addon core. This generally happens because the detected ad is a duplicate ([EXISTS] will show in the addon console), or, because its target (where it leads when clicked) is internal (in the same domain as the page on which it was found). In this case, [INTERN] will show in the addon console and the Ad will be rejected, unless it is listed in `internalLinkDomains` in core.js.
 
 If no IMG-AD message appears in the console, then one of several things may have happened:
 
@@ -182,8 +182,9 @@ If no IMG-AD message appears in the console, then one of several things may have
 2. No clickable parent could be found for the image (a "No clickable parent" message will show in the page console)
 3. Some other error occurred (some other message will show in the page console)
 
-**2. IFrames  **
-If the iframe matches a cosmetic selector and has a valid src attribute, processIFrame() will be called. If the iFrame src and parent page have the same origin, processIFrame() will try to find images within the iFrame and handle them as above. If the iFrame is cross-domain, however, we cannot access the contents of the iFrame due to the "Same Origin" security restriction. In this case, we may need to manually create a new cosmetic filter for the element of interest _inside_ the  the iFrame (and add it to adnauseam.txt).
+**2. IFrames**
+
+If the iframe matches a cosmetic selector and has a valid src attribute, `processIFrame()` will be called. If the iFrame src and parent page have the same origin, `processIFrame()` will try to find images within the iFrame and handle them as above. If the iFrame is cross-domain, however, we cannot access the contents of the iFrame due to "Same Origin" security restrictions. In this case, we may need to manually create a new cosmetic filter for the element of interest _inside_ the  the iFrame (and add it to adnauseam.txt).
  
 If an iFrame is dynamically-generated, the `primeLocalIFrame()` function will attempt to inject the usual contentscripts into the iFrame. If the injection is successful, you will see a console message in the addon console as follows:
   
@@ -192,7 +193,7 @@ If an iFrame is dynamically-generated, the `primeLocalIFrame()` function will at
 You can print out the pageStore object to find more information about the iFrame. For more details about the pageStore object, please refer to pageStore.js.  
 
 #####3. Other
-If an element matches a cosmetic filter but is NOT an image or IFrame, process() will search inside it for child elements of type image. If any images are found, they will be processed in the usual manner. After all these steps have completed, process() will finally check whether the element matches any text-ad filters (more info on text-ad parsing coming soon).
+If an element matches a cosmetic filter but is NOT an image or IFrame, `process()` will search inside it for child elements of type image. If any images are found, they will be processed in the usual manner. After all these steps have completed, `process()` will finally check whether the element matches any text-ad filters (more info on text-ad parsing coming soon).
 
 
 -----------
