@@ -185,12 +185,18 @@ findImageAds()—> processImage
 Please refer to [case 1](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found) 
 
 2.**IFrame**   
-In most of the cases, if an image ad within an iframe is hidden but not collected, it is because the outer div of the iframe has been processed but not the iframe itself.
-Then what you need to do is to add a selector in the adnauseam.txt to select the corresponding iframe.  
+-case 1 handleIframe() in parser.js    
+It the iframe has a valid src attribute, handleIframe() in parser.js will be called.  
+If the iframe src and the webpage are from the same origin, handleIframe() will try to find images within the iframe and collect them.  
+However, if the iframe is cross-domain, we can’t get the content of the iframe due to "Same Origin" security policy.In this case, when you need to debug ad collecting issue within these cross-domain iframes,  you have to manually find out a selector within the iframe and add it to adnauseam.txt.
 
-If you want to debug more about Iframe, please see the console messages in background.html.
-It is handled by the injectContentScripts() function in core.js, you can print the pageStore object to find more details.  
-More about how uBlock injects Content Script into iframes, please refers to frameStore in pageStore.js
+-case2 primeLocalIFrame() in contentscript.js   
+If an iframe is dynamically-generated, the primeLocalFrame() function will try to inject the contentscripts into the iframe.   
+If the injection is successful, you will see a console message printed by injectContentScripts in background.html in the following format.  
+'[INJECT] Dynamic-iFrame: ' + request.parentUrl, request, tabId + '/' + frameId    
+
+You can print out the pageStore object to find more information about the Iframe.
+For more details about the pageStore object, please refer to pageStore.js.  
 
 3.**OtherTag**   
 If the Tag is not IMG nor IFrame, the first thing process() will do is to check whether there is any child element inside that is an image. If there is any image, the same process with IMG Tag will be gone through.  
