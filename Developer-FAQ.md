@@ -164,11 +164,14 @@ With that said, this code implements the vAPI interface for each browser. This i
 ####How does Ad parsing work?
 
 When a cosmetic rule fires for an element on the page, the element is passed to the `process()` function. With the `vAPI.debugAdParsing` flag enabled, you will see a message in the console in the following format: `process(tagName)...`.
-There are three main cases handled by the `process()` function: image, iframe, and other.
+There are three main cases handled by the `process()` function: images, iFrames, and other.
 
 `1. Images —> findImageAds() —> processImage()  `
+
 `2. IFrames  —> processIFrame —> check inside for image elements —> processImage()  `
+
 `3. Other —> check inside for image elements —> processImage(), then check for text-ads`
+
 
 **1. Images**
 
