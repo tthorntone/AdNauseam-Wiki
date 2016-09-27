@@ -185,12 +185,12 @@ findImageAds()—> processImage
 Please refer to [case 1](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found) 
 
 2.**IFrame**   
--case 1 handleIframe() in parser.js    
+- handleIframe() in parser.js    
 It the iframe has a valid src attribute, handleIframe() in parser.js will be called.  
 If the iframe src and the webpage are from the same origin, handleIframe() will try to find images within the iframe and collect them.  
 However, if the iframe is cross-domain, we can’t get the content of the iframe due to "Same Origin" security policy.In this case, when you need to debug ad collecting issue within these cross-domain iframes,  you have to manually find out a selector within the iframe and add it to adnauseam.txt.
 
--case2 primeLocalIFrame() in contentscript.js   
+- primeLocalIFrame() in contentscript.js   
 If an iframe is dynamically-generated, the primeLocalFrame() function will try to inject the contentscripts into the iframe.   
 If the injection is successful, you will see a console message printed by injectContentScripts in background.html in the following format.  
 '[INJECT] Dynamic-iFrame: ' + request.parentUrl, request, tabId + '/' + frameId    
