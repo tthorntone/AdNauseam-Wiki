@@ -165,16 +165,14 @@ With that said, this code implements the vAPI interface for each browser. This i
   
 _the process() function_
 
-If the selector finds a matching element in the web page, the process function would be triggered.Then you will see a process message in the console in the following format.
-"process+elem.tagName+elem"
-There are mainly three cases for the process function(Iframe,IMG,otherTag)   
-1.IMG --> findImageAds()—> processImage  
-2.IFrame  
-3.OtherTag --> check child imgs  --> 4.textAdParser
+When a cosmetic rule fires for an element on the page, the element is passed to the process() function. With the vAPI.debugAdParsing flag enabled, you will see a message in the console in the following format: `process(tagName)...`,
+There are three main cases inside the process() function: image, iframe, and other.
 
-We can start with images:
+1. Images —> findImageAds() —> processImage()  
+2. IFrames  —> handleIFrame —> check inside for image elements —> processImage()  
+3. Other —> check inside for image elements —> processImage(), then check for text-ads
 
-1.**IMG**  
+#####1. Images
 The main workflow to create an ad in AdNauseam after an IMG tag is detected by the process function is:
 findImageAds()—> processImage
 
@@ -184,7 +182,7 @@ findImageAds()—> processImage
 -If you can see this message but it is not in the vault. Then this ad might be refused in core.js.
 Please refer to [case 1](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found) 
 
-2.**IFrame**   
+#####2. IFrames  
 - handleIframe() in parser.js    
 It the iframe has a valid src attribute, handleIframe() in parser.js will be called.  
 If the iframe src and the webpage are from the same origin, handleIframe() will try to find images within the iframe and collect them.  
@@ -198,7 +196,7 @@ If the injection is successful, you will see a console message printed by inject
 You can print out the pageStore object to find more information about the Iframe.
 For more details about the pageStore object, please refer to pageStore.js.  
 
-3.**OtherTag**   
+#####3. Other
 If the Tag is not IMG nor IFrame, the first thing process() will do is to check whether there is any child element inside that is an image. If there is any image, the same process with IMG Tag will be gone through.  
 After all these done, process() will finally check whether it is an TextAd by using textAdParser.
 
