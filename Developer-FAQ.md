@@ -167,10 +167,11 @@ When a cosmetic rule fires for an element on the page, the element is passed to 
 There are three main cases inside the process() function: image, iframe, and other.
 
 1. Images —> findImageAds() —> processImage()  
-2. IFrames  —> handleIFrame —> check inside for image elements —> processImage()  
+2. IFrames  —> processIFrame —> check inside for image elements —> processImage()  
 3. Other —> check inside for image elements —> processImage(), then check for text-ads
 
-#####1. Images
+**1. Images**
+
 With the exception of text-ads, the parser's main role is to detect clickable Ad images. If all goes well after an image is matched by a cosmetic filter, then you will see a message in the page console saying 'IMG-AD' and the Ad will be viewable in both the menu and vault. 
 
 If this message shows in the page console, but the Ad does not appear in the menu or vault, then the Ad was rejected by the addon itself. This generally happens because the detected ad is a duplicate ([EXISTS] will show in the addon console), or, because its target (where it leads when clicked) is internal (in the same domain as the page on which it was found). In this case, [INTERN] will show in the addon console and the Ad will be rejected, unless it is listed in `internalLinkDomains` in core.js.
@@ -181,26 +182,18 @@ If no IMG-AD message appears in the console, then one of several things may have
 2. No clickable parent could be found for the image (a "No clickable parent" message will show in the page console)
 3. Some other error occurred (some other message will show in the page console)
 
-#####2. IFrames  
-- handleIframe() in parser.js    
-It the iframe has a valid src attribute, handleIframe() in parser.js will be called.  
-If the iframe src and the webpage are from the same origin, handleIframe() will try to find images within the iframe and collect them.  
-However, if the iframe is cross-domain, we can’t get the content of the iframe due to "Same Origin" security policy.In this case, when you need to debug ad collecting issue within these cross-domain iframes,  you have to manually find out a selector within the iframe and add it to adnauseam.txt.
+**2. IFrames  **
+If the iframe matches a cosmetic selector and has a valid src attribute, processIFrame() will be called. If the iFrame src and parent page have the same origin, processIFrame() will try to find images within the iFrame and handle them as above. If the iFrame is cross-domain, however, we cannot access the contents of the iFrame due to the "Same Origin" security restriction. In this case, we may need to manually create a new cosmetic filter for the element of interest _inside_ the  the iFrame (and add it to adnauseam.txt).
+ 
+If an iFrame is dynamically-generated, the `primeLocalIFrame()` function will attempt to inject the usual contentscripts into the iFrame. If the injection is successful, you will see a console message in the addon console as follows:
+  
+  '[INJECT] Dynamic-iFrame: ' + request.parentUrl, request, tabId + '/' + frameId    
 
-- primeLocalIFrame() in contentscript.js   
-If an iframe is dynamically-generated, the primeLocalFrame() function will try to inject the contentscripts into the iframe.   
-If the injection is successful, you will see a console message printed by injectContentScripts in background.html in the following format.  
-'[INJECT] Dynamic-iFrame: ' + request.parentUrl, request, tabId + '/' + frameId    
-
-You can print out the pageStore object to find more information about the Iframe.
-For more details about the pageStore object, please refer to pageStore.js.  
+You can print out the pageStore object to find more information about the iFrame. For more details about the pageStore object, please refer to pageStore.js.  
 
 #####3. Other
-If the Tag is not IMG nor IFrame, the first thing process() will do is to check whether there is any child element inside that is an image. If there is any image, the same process with IMG Tag will be gone through.  
-After all these done, process() will finally check whether it is an TextAd by using textAdParser.
+If an element matches a cosmetic filter but is NOT an image or IFrame, process() will search inside it for child elements of type image. If any images are found, they will be processed in the usual manner. After all these steps have completed, process() will finally check whether the element matches any text-ad filters (more info on text-ad parsing coming soon).
 
-4.**textAdParser**   
-(Coming soon)
 
 -----------
 ####How do I view AdNauseam-specific network events in the addon console?
