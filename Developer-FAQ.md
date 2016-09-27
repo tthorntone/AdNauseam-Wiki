@@ -162,8 +162,6 @@ With that said, this code implements the vAPI interface for each browser. This i
 --------------------
 
 ####How does Ad parsing work?
-  
-_the process() function_
 
 When a cosmetic rule fires for an element on the page, the element is passed to the process() function. With the vAPI.debugAdParsing flag enabled, you will see a message in the console in the following format: `process(tagName)...`,
 There are three main cases inside the process() function: image, iframe, and other.
@@ -173,14 +171,15 @@ There are three main cases inside the process() function: image, iframe, and oth
 3. Other —> check inside for image elements —> processImage(), then check for text-ads
 
 #####1. Images
-The main workflow to create an ad in AdNauseam after an IMG tag is detected by the process function is:
-findImageAds()—> processImage
+With the exception of text-ads, the parser's main role is to detect clickable Ad images. If all goes well after an image is matched by a cosmetic filter, then you will see a message in the page console saying 'IMG-AD' and the Ad will be viewable in both the menu and vault. 
 
--If you see a "No ImgSrc” message, then it is something goes wrong in findImageAds().  
--If you see any message starting with “Bail:”, then you can check the processImage() function. In the message you can see what is exactly going wrong there.  
--If everything works in the parser, an Ad element will be created and you will see an "IMG-AD” message in the console.  
--If you can see this message but it is not in the vault. Then this ad might be refused in core.js.
-Please refer to [case 1](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found) 
+If this message shows in the page console, but the Ad does not appear in the menu or vault, then the Ad was rejected by the addon itself. This generally happens because the detected ad is a duplicate ([EXISTS] will show in the addon console), or, because its target (where it leads when clicked) is internal (in the same domain as the page on which it was found). In this case, [INTERN] will show in the addon console and the Ad will be rejected, unless it is listed in `internalLinkDomains` in core.js.
+
+If no IMG-AD message appears in the console, then one of several things may have happened:
+
+1. No valid src attribute could be found for the image (a "No ImgSrc" message will show in the page console)
+2. No clickable parent could be found for the image (a "No clickable parent" message will show in the page console)
+3. Some other error occurred (some other message will show in the page console)
 
 #####2. IFrames  
 - handleIframe() in parser.js    
