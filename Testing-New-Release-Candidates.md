@@ -19,8 +19,8 @@ _Note: perform each test on Chrome, Firefox, and Opera_
 - Check function/layout of inspector (for both image and text ads)
 - Check correct function date filter slider at bottom of page
 - Check that AdNauseam logo in the bottom-right corner links correctly to homepage  
-   - Check correct calculation of ad cost (and updates according to date-filter)
-   - Test import/export/clear functions
+- Check correct calculation of ad cost (and updates according to date-filter)
+- Test import/export/clear functions
 
 ### Notifications
 - Check that disabling hiding, clicking, or blocking on the first-run generates a notification warning at the top of the settings, menu, and vault page. 
