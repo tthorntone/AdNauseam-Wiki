@@ -196,8 +196,13 @@ If an iFrame is dynamically-generated, the `primeLocalIFrame()` function will at
 You can print out the pageStore object to find more information about the iFrame. For more details about the pageStore object, please refer to pageStore.js.  
 
 #####3. Other
-If an element matches a cosmetic filter but is NOT an image or IFrame, `process()` will search inside it for child elements of type image. If any images are found, they will be processed in the usual manner. After all these steps have completed, `process()` will finally check whether the element matches any text-ad filters (more info on text-ad parsing coming soon).
+If an element matches a cosmetic filter but is NOT an image or IFrame, `process()` will search inside it for child elements of type image. If any images are found, they will be processed in the usual manner. After all these steps have completed, `process()` will finally check whether the element matches any text-ad filters
 
+#####4. Text-ad parsing
+`textAdParser.process() —> checkFilters() —> corresponding text handler`
+
+You can find everything about text-ad parsing in the file textads.js.  
+If domain of the current page matches the adnauseam’s domain list(google, ask, aol, ddg, yahoo, bing), `checkFilters` will use the corresponding Text handler(domain specific) to process the text ad. Then in each handler, information of the title, text and site of the text-ad would be collected according to specific class name, and finally create an Ad in adnauseam. If anything fails in the process, you shall be able to see a failing message in the page console.
 
 -----------
 ####How do I view AdNauseam-specific network events in the addon console?
