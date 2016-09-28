@@ -11,7 +11,7 @@ _Note: perform each test on Chrome, Firefox, and Opera_
 ### Menu 
 - Check all buttons and information (including number of Ads and $$ cost)
 - Hover over Ad images and check zooming
-- Check the uBlock version number
+- Check the uBlock version number(in uBlock menu)
 
 ### Vault
 - Verify loading animation, and centering/scaling of Ads on load
