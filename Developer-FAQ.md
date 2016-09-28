@@ -30,7 +30,7 @@
 
 ### Useful References
 * [The git fork-and-branch workflow](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
-* [Adblock Plus rule syntax](https://adblockplus.org/filter-cheatsheet)
+* [Adblock Plus rule syntax(brief)](https://adblockplus.org/filter-cheatsheet)|[Writing Adblock Plus filters(details)](https://adblockplus.org/filters)
 * [What are Dynamic Filtering Rules?](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax)
 * [What is uDom?](#what-is-udom)
 
