@@ -26,7 +26,7 @@
 * [How do I debug a text ad that is being hidden, but not found?](#how-do-i-debug-a-text-ad-that-is-being-hidden-but-not-found)
 * [How do I view the extensions storage entries?](#how-do-i-view-the-extensions-storage-entries)
 * [How are locales/languages/translations handled?](https://github.com/dhowe/AdNauseam/wiki/Handling-languages,-locales,-and-translations)
-* [How do I test functionality of a new release candidate?](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates)
+* [How do I test functionality of a commit or release?](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates)
 
 
 ### Useful References
