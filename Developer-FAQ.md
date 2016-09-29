@@ -163,7 +163,8 @@ With that said, this code implements the vAPI interface for each browser. This i
 
 ####How does Ad parsing work?
 
-When a cosmetic rule fires for an element on the page, the element is passed to the `process()` function. With the `vAPI.debugAdParsing` flag enabled, you will see a message in the console in the following format: `process(tagName)...`.
+When a cosmetic rule fires for an element on the page, the element is passed to the `process()` function in [parser.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/parser.js). With the `vAPI.debugAdParsing` flag enabled, related messages will appear in the console in the following format: `process(tagName)...`.
+
 There are three main cases handled by the `process()` function: images, iFrames, and other.
 
 `1. Images —> findImageAds() —> processImage()  `
@@ -177,7 +178,7 @@ There are three main cases handled by the `process()` function: images, iFrames,
 
 With the exception of text-ads, the parser's main role is to detect clickable Ad images. If all goes well after an image is matched by a cosmetic filter, then you will see a message in the page console saying 'IMG-AD' and the Ad will be viewable in both the menu and vault. 
 
-If this message shows in the page console, but the Ad does not appear in the menu or vault, then the Ad was rejected by the addon core. This generally happens because the detected ad is a duplicate ([EXISTS] will show in the addon console), or, because its target (where it leads when clicked) is internal (in the same domain as the page on which it was found). In this case, [INTERN] will show in the addon console and the Ad will be rejected, unless it is listed in `internalLinkDomains` in core.js.
+If this message shows in the page console, but the Ad does not appear in the menu or vault, then the Ad was rejected by the addon core. This generally happens because the detected ad is a duplicate ([EXISTS] will show in the addon console), or, because its target (where it leads when clicked) is internal (in the same domain as the page on which it was found). In this case, [INTERN] will show in the addon console and the Ad will be rejected, unless it is listed in `internalLinkDomains` in [core.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/core.js).
 
 If no IMG-AD message appears in the console, then one of several things may have happened:
 
@@ -187,22 +188,22 @@ If no IMG-AD message appears in the console, then one of several things may have
 
 **2. IFrames**
 
-If the iframe matches a cosmetic selector and has a valid src attribute, `processIFrame()` will be called. If the iFrame src and parent page have the same origin, `processIFrame()` will try to find images within the iFrame and handle them as above. If the iFrame is cross-domain, however, we cannot access the contents of the iFrame due to "Same Origin" security restrictions. In this case, we may need to manually create a new cosmetic filter for the element of interest _inside_ the  the iFrame (and add it to adnauseam.txt).
+If an iFrame matches a cosmetic selector and has a valid 'src' attribute, `processIFrame()` is called. If the iFrame's 'src' and parent page have the same origin, `processIFrame()` selects all images within the iFrame and handles them as above. If the iFrame is cross-domain, however, we will not be able to access its contents due to "Same Origin" security restrictions. In this case, we may need to manually create a new cosmetic filter for the element of interest _inside_ the  the iFrame (and add it to adnauseam.txt).
  
-If an iFrame is dynamically-generated, the `primeLocalIFrame()` function will attempt to inject the usual contentscripts into the iFrame. If the injection is successful, you will see a console message in the addon console as follows:
+If, on Chromium-based browsers, an iFrame is dynamically-generated, the `primeLocalIFrame()` function attempts to inject the usual contentscripts into the iFrame (this will happen automatically on Firefox).  If the injection is successful, a console message in the addon console will read as follows:
   
   '[INJECT] Dynamic-iFrame: ' + request.parentUrl, request, tabId + '/' + frameId    
 
-You can print out the pageStore object to find more information about the iFrame. For more details about the pageStore object, please refer to pageStore.js.  
+You may inspect the pageStore object to find more information about the iFrame. For more details about the pageStore object, please refer to [pageStore.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/pagestore.js).
 
-#####3. Other
+**3. Other**
 If an element matches a cosmetic filter but is NOT an image or IFrame, `process()` will search inside it for child elements of type image. If any images are found, they will be processed in the usual manner. After all these steps have completed, `process()` will finally check whether the element matches any text-ad filters
 
-#####4. Text-ad parsing
+**Text-ad parsing**
+
 `textAdParser.process() —> checkFilters() —> corresponding text handler`
 
-You can find everything about text-ad parsing in the file textads.js.  
-If domain of the current page matches the adnauseam’s domain list(google, ask, aol, ddg, yahoo, bing), `checkFilters` will use the corresponding Text handler(domain specific) to process the text ad. Then in each handler, information of the title, text and site of the text-ad would be collected according to specific class name, and finally create an Ad in adnauseam. If anything fails in the process, you shall be able to see a failing message in the page console.
+All actions related to text-ad parsing occur within [textads.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/textads.js). If domain of the current page matches the AdNauseam's domain list (including Google, Ask, AOL, DuckDuckGo, Yahoo, Bing, etc.), `checkFilters` will invoke the corresponding handler function to process the text-ad. In each handler function, information including title, text and site of the Ad is collected according to specific selectors. Finally, if all is successful, an Ad will be created and passed to the addon core as usual. If anything fails in the process, an error message should appear in the page console.
 
 -----------
 ####How do I view AdNauseam-specific network events in the addon console?
