@@ -25,7 +25,11 @@ _Note: perform each test on Chrome, Firefox, and Opera_
 ### Notifications
 - Check that disabling hiding, clicking, or blocking on the first-run generates a notification warning at the top of the settings, menu, and vault page. 
 - Check that disabling hiding, clicking, or blocking on the settings/options page generates a notification warning at the top of the settings, menu, and vault page. 
+- Check that clicking 'reactivate' on a notification warning at the top of the settings, first-run, menu, or vault pages causes the visual state to change correctly, and the setting in question to be updated correctly. 
 - Check that the vault (if open) is updated when notifications change
+- Check that the dashboard (if open) is updated when notifications change
+- Dashboard::Settings (options.html) Check that page refreshes correctly when a notification is 'reactivated'
+- Dashboard::3rd-Party (3p-filters.html) Check that page refreshes correctly when a list-notification is 'reactivated'
 
 &nbsp;
 
@@ -43,11 +47,12 @@ _Note: perform each test on Chrome, Firefox, and Opera_
 
 ------------------
 
-## Settings
-* Check version number in 'About' page
-* Check layout of buttons, check-boxes, and links in each tab
-* Test that all (i)nfo buttons lead to correct FAQ pages in each tab
-* Test import/export/clear ads functions
+## Dashboard
+- Check 2 version numbers in 'About' page (links.html)
+- Check layout of buttons, check-boxes, and links in each tab
+- Test that all (i)nfo buttons lead to correct FAQ pages in each tab
+- On settings tab (options.html) check that when clicking or hiding are disabled, then all of their sub-items are also disabled
+- Test import/export/clear ads functions
 
 ------------------
 
