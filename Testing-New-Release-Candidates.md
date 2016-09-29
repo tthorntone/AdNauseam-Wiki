@@ -1,4 +1,5 @@
-_Note: make sure that you are working with the correct commit (check the hash) or installed release, then perform each test on Chrome, Firefox, and Opera_
+
+_First make sure that you are working with the correct commit (check the hash) or installed release, then perform each test on Chrome, Firefox, and Opera_
 
 ## Interface
 
