@@ -192,16 +192,16 @@ If an iFrame matches a cosmetic selector and has a valid 'src' attribute, `proce
  
 If, on Chromium-based browsers, an iFrame is dynamically-generated, the `primeLocalIFrame()` function attempts to inject the usual contentscripts into the iFrame (this will happen automatically on Firefox).  If the injection is successful, a console message in the addon console will read as follows:
   
-  '[INJECT] Dynamic-iFrame: ' + request.parentUrl, request, tabId + '/' + frameId    
+`'[INJECT] Dynamic-iFrame: ' + request.parentUrl, request, tabId + '/' + frameId    `
 
-You may inspect the pageStore object to find more information about the iFrame. For more details about the pageStore object, please refer to [pageStore.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/pagestore.js).
+You may inspect the [pageStore object](https://github.com/dhowe/AdNauseam/blob/master/src/js/pagestore.js)to find more information about the iFrame.
 
 **3. Other**
 If an element matches a cosmetic filter but is NOT an image or IFrame, `process()` will search inside it for child elements of type image. If any images are found, they will be processed in the usual manner. After all these steps have completed, `process()` will finally check whether the element matches any text-ad filters
 
 **Text-ad parsing**
 
-`textAdParser.process() —> checkFilters() —> corresponding text handler`
+`textAdParser.process() —> checkFilters() —> corresponding handler function`
 
 All actions related to text-ad parsing occur within [textads.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/textads.js). If domain of the current page matches the AdNauseam's domain list (including Google, Ask, AOL, DuckDuckGo, Yahoo, Bing, etc.), `checkFilters` will invoke the corresponding handler function to process the text-ad. In each handler function, information including title, text and site of the Ad is collected according to specific selectors. Finally, if all is successful, an Ad will be created and passed to the addon core as usual. If anything fails in the process, an error message should appear in the page console.
 
