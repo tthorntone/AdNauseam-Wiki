@@ -59,6 +59,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 ------------------
 
 ## DoNotTrack (DNT)
+To check headers for ad visits, please go to chrome developer tools -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#Tools) below.
 -  Test that the EFF's DNT list on settings/whitelist.html is disabled whenever both disableClickingForDNT and disableHidingForDNT are disabled, and is otherwise enabled
 -  Test that the DNT header is being sent correctly for all requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa)
 -  Test that ads from [DNT-respecting sites](https://www.eff.org/files/effdntlist.txt) are not hidden and/or clicked, when each of the 2 DNT settings is enabled, and that they ARE hidden and/or clicked when each setting is disabled
@@ -77,10 +78,11 @@ _First make sure that you are working with the correct commit (check the hash) o
 ------------------
 
 ## Ad Visits 
+To check headers for ad visits, please go to chrome developer tools -> Network -> click on a request -> select 'Headers'. You can also click on 'XHR' type to filter the requests.
 - Test that the correct 'referer' header is sent on Ad visits depending on the setting (ad.pageUrl when disabled, or none when enabled) 
 - Test that the correct 'user-agent' header is sent on Ad visits depending on the setting (the usual user-agent when disabled, or none when enabled)  
 - Test that outgoing cookies are sent on Ad visits depending on the setting (the usual cookies when disabled, or none when enabled)  
-- Test that incoming cookies are never allowed from responses to Ad visits, using one of the [tools](#tools) listed below, or by checking cookies before/after
+- Test that incoming cookies are never allowed from responses to Ad visits, by checking cookies before/after
 
 ------------------
 
@@ -95,4 +97,3 @@ _First make sure that you are working with the correct commit (check the hash) o
 ## Tools
   * [Live HTTP Headers (Chrome)](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)    
   * [Live HTTP Headers (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)   
-  * [Charles (cross-platform)](https://www.charlesproxy.com/latest-release/download.do) 
