@@ -59,7 +59,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 ------------------
 
 ## DoNotTrack (DNT)
-To check headers for ad visits, please go to chrome developer tools -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#Tools) below.
+To check headers for ad visits, please go to chrome developer tools -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
 -  Test that the EFF's DNT list on settings/whitelist.html is disabled whenever both disableClickingForDNT and disableHidingForDNT are disabled, and is otherwise enabled
 -  Test that the DNT header is being sent correctly for all requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa)
 -  Test that ads from [DNT-respecting sites](https://www.eff.org/files/effdntlist.txt) are not hidden and/or clicked, when each of the 2 DNT settings is enabled, and that they ARE hidden and/or clicked when each setting is disabled
