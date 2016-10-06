@@ -68,7 +68,6 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 ## Cookies 
 * Test that no cookies are accepted from ALLOWed requests:  
-  - Go to cookie options in Chrome:Settings and check that "Block third-party cookies" is marked as controlled by AdNauseam. Then click the disable button.   
   - Make sure the `netLogging` flag in core.js is set to true to view log info in the console   
   - Visit sites where one or more _3rd-party_ requests are ALLOWed and note their domains
   - Verify that no cookies are accepted from these domains, using one of the [tools](#tools) listed below, or by checking cookies before/after
