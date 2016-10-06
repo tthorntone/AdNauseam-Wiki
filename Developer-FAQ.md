@@ -19,7 +19,7 @@
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
 * [How do I run the browser's debugger on different parts of the extension?](#how-does-adnauseam-detect-ads)
 * [How do I use the logger, and what are the different types of entries it shows?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-use-the-logger-and-what-are-the-different-types-of-entries-it-shows)
-* [How do I view all the metadata for an ad?]
+* [How do I view the metadata for an ad?](#how-do-i-view-the-metadata-for-an-ad)
 * [How do I view AdNauseam-specific network events in the addon console?](#how-do-i-view-adnauseam-specific-network-events-in-the-addon-console)
 * [How do I debug an ad that is appearing on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
 * [How do I debug a video ad that is appearing on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
@@ -150,10 +150,11 @@ Go to chrome://extensions, then open the background.html page, then open the con
 
 -----------
 
-#### How do I view all the metadata for an ad?
-To view data for all ads, simply export your ad file (as JSON) from the settings page.
-To view the metadata for a single ad, you can lightbox (or inspect) the ad in the vault. 
-Then hit the 'd' on the keyboard to dump this info to both the addon and vault consoles.
+#### How do I view the metadata for an ad?
+- To see basic data for a single ad, simply click on the ad in the vault to inspect it.
+- To view the full metadata for a single ad, click on the ad in the vault inspector,
+then hit the 'd' on the keyboard to dump this data to both the addon and vault consoles.
+- To view JSON data for all ads, simply export your ad file from the settings interface.
 
 -----------
 #### How can I get the first-run page to show up when developing?
