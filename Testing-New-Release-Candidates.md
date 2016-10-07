@@ -85,12 +85,6 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 &nbsp;
 
-(More to come)
-
---------------------
-
-&nbsp;
-
 ## Tools
   * [Live HTTP Headers (Chrome)](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)    
   * [Live HTTP Headers (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)   
