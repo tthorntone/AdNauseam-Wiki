@@ -63,6 +63,10 @@ Various parties may be able to detect AdNauseam, including websites (with ads) t
 
 It depends on the advertising business model and the degree of effort they are willing to put into filtering. Some might, others would not.
 
+#### How does AdNauseam estimate the click cost it shows in the menu and vault?
+
+(pending)
+
 #### Does AdNauseam respect the browser's private-browsing/incognito modes?
 Yes, AdNauseam does not detect ads that occur on pages loaded in [private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) or [incognito](https://support.google.com/chromebook/answer/95464?hl=en) windows.
 
