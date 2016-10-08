@@ -17,7 +17,7 @@
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
-* [How do I run the browser's debugger on different parts of the extension?](#how-does-adnauseam-detect-ads)
+* [How do I run the browser's debugger on different parts of the extension?](#)
 * [How do I use the logger, and what are the different types of entries it shows?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-use-the-logger-and-what-are-the-different-types-of-entries-it-shows)
 * [How do I view the metadata for an ad?](#how-do-i-view-the-metadata-for-an-ad)
 * [How do I view AdNauseam-specific network events in the addon console?](#how-do-i-view-adnauseam-specific-network-events-in-the-addon-console)
