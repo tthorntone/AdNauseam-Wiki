@@ -17,16 +17,18 @@
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
-* [How do I run the browser's debugger on different parts of the extension?](#)
+* [How do I run the browser's debugger on different parts of the extension?](#how-do-i-run-the-browsers-debugger-on-different-parts-of-the-extension)
 * [How do I use the logger, and what are the different types of entries it shows?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-use-the-logger-and-what-are-the-different-types-of-entries-it-shows)
 * [How do I view the metadata for an ad?](#how-do-i-view-the-metadata-for-an-ad)
 * [How do I view AdNauseam-specific network events in the addon console?](#how-do-i-view-adnauseam-specific-network-events-in-the-addon-console)
-* [How do I debug an ad that is appearing on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
-* [How do I debug a video ad that is appearing on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
-* [How do I debug an image ad that is being hidden, but not found?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
-* [How do I debug a text ad that is being hidden, but not found?](#how-do-i-debug-a-text-ad-that-is-being-hidden-but-not-found)
 * [How do I view the extensions storage entries?](#how-do-i-view-the-extensions-storage-entries)
 * [How are locales/languages/translations handled?](https://github.com/dhowe/AdNauseam/wiki/Handling-languages,-locales,-and-translations)
+
+### Debugging / Testing
+* [How do I debug an ad that is visible on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
+* [How do I debug a video ad that is visible on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
+* [How do I debug an image ad that is being hidden, but not collected?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
+* [How do I debug a text ad that is being hidden, but not collected?](#how-do-i-debug-a-text-ad-that-is-being-hidden-but-not-found)
 * [How do I test functionality of a commit or release?](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates)
 
 
