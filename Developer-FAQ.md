@@ -36,7 +36,7 @@
 * [The git fork-and-branch workflow](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
 * [Adblock Plus rule syntax(brief)](https://adblockplus.org/filter-cheatsheet) | [Writing Adblock Plus filters(details)](https://adblockplus.org/filters)
 * [What are Dynamic Filtering Rules?](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax)
-* [What is uDom?](#what-is-udom)
+* [What is the uDom?](#what-is-the-udom)
 * [Chrome Extension Overview](https://developer.chrome.com/extensions/overview) 
 &nbsp;     
 &nbsp;    
@@ -229,8 +229,8 @@ To view such events (blocks, allows, cookies, headers, etc.), enable the `netLog
 (pending)
 
 -----------
-####What is uDom?
-uDom, written by Raymond Hill for uBlock, is a minimalist DOM framework that provides the core functionality of something like jQuery, without the size. Thus you should not mix jQuery with uDom, as they provide the same basic functionality. In fact, you should not use jQuery at all in AdNauseam. The one (temporary) exception to this is the vault, pending its rewrite. A list of commonly used uDom functions follows below (in progress), or you may consult the [source](https://github.com/dhowe/AdNauseam/blob/master/src/js/udom.js).
+####What is the uDom?
+The uDom library, written by Raymond Hill for uBlock, is a minimalist DOM framework that provides the core functionality of something like jQuery, without the size. Thus you should not mix jQuery with uDom, as they provide the same basic functionality. In fact, you should not use jQuery at all in AdNauseam. The one (temporary) exception to this is the vault, pending its rewrite. A list of commonly used uDom functions follows below (in progress), or you may consult the [source](https://github.com/dhowe/AdNauseam/blob/master/src/js/udom.js).
 
 - on()
 - attr()
