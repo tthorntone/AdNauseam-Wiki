@@ -81,8 +81,7 @@ The Ad was correctly detected by the content-script. Here we need to look for me
 
 _Case 2_
 
-The Ad was NOT detected by the content-script. Here we need to debug the parsing code (/src/js/adn/parser.js) to figure out where it is failing. You can use the debugger to do this, but it may also be useful to turn on the vAPI.debugAdParsing flag on whichever platform you are using (either in platform/chromium/vapi-client.js OR platform/firefox/vapi-client.js).
-For more details about how parser works, and a guideline of what the log messages mean, please check: [#how-does-parserjs-work).
+The Ad was NOT detected by the content-script. Here we need to debug the parsing code (/src/js/adn/parser.js) to figure out where it is failing. You can use the debugger to do this, but it may also be useful to turn on the 'netLogging' flag in core.js. For more details about how parser works, and a guideline of what the log messages mean, please check: [#how-does-parserjs-work).
 
 -----------
 #### How do I debug a text-ad that is being hidden, but not found?
@@ -175,7 +174,7 @@ With that said, this code implements the vAPI interface for each browser. This i
 
 ####How does Ad parsing work?
 
-When a cosmetic rule fires for an element on the page, the element is passed to the `process()` function in [parser.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/parser.js). With the `vAPI.debugAdParsing` flag enabled, related messages will appear in the console in the following format: `process(tagName)...`.
+When a cosmetic rule fires for an element on the page, the element is passed to the `process()` function in [parser.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/parser.js). With the 'netLogging' flag enabled on core.js, related messages will appear in the console in the following format: `process(tagName)...`.
 
 There are three main cases handled by the `process()` function: images, iFrames, and other.
 
