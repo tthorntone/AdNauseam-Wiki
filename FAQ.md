@@ -49,13 +49,27 @@ _Note: you should always disable other adblockers while using AdNauseam_
 You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
 To install, follow the instructions for your browser of choice below: 
 
-(coming soon)
-- Chrome
- 1. Download a "Chromium" release. Older ones come as .zip directories (unzip after downloading), the latest release is a .crx file. 
+- **Chrome**
+ 1. Download a ["Chromium" release](https://github.com/dhowe/AdNauseam/releases/). Older ones come as .zip directories (unzip after downloading), the latest release is a .crx file. 
  2. In your Chrome Browser navigate to Chrome > Preferences. In the side bar select "Extensions".
- 3. Drag the file you downloaded in i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Hit "Add extension". Done. 
+ 3. Drag the file you downloaded in i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Hit "Add extension". 
 
-- Firefox
+- **Firefox**
+
+ Note: Dev releases of AdNauseam will only run on the Developer Edition of Firefox ([download](https://www.mozilla.org/en-US/firefox/developer/)). 
+
+ Prepare Firefox:
+  
+  1. Open you Firefox Developer Edition and type "about:config" into the url bar. When asked, choose to accept the risks.
+  2. In the config panel, search for "xpinstall.signatures.required". Make sure the value is set to "false".   
+ 
+ Install AdNauseam:
+
+  1. Download a ["Firefox" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .xpi. 
+  1. In the browser navigate to Tools > Add-ons. In the side bar select "Extensions.
+  1. Drag the file you downloaded in step i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Click "Install". 
+
+
 - Opera
 
 _Note: you should always disable other adblockers while using AdNauseam_
