@@ -3,6 +3,7 @@
 ####How?
 
 * [How do I install AdNauseam?](#how-do-i-install-adnauseam)
+* [How do I install a development release of AdNauseam?](#how-do-i-install-a-development-release-of-adnauseam)
 * [Can I use AdNauseam with my current adblocker?](#can-i-use-adnauseam-with-my-current-adblocker)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
 * [How does AdNauseam estimate the click cost it shows in the menu and vault?](#how-does-adnauseam-estimate-the-click-cost-it-shows-in-the-menu-and-vault)
@@ -30,6 +31,7 @@
 * [Is there a business model behind AdNauseam?](#is-there-a-business-model-behind-adnauseam-do-you-consider-yourself-a-business-or-is-it-solely-to-make-some-kind-of-a-statement-about-the-state-of-web-advertising)
 * [What about "Native Advertising?"](#are-you-concerned-that-ad-blocking-technology-is-part-of-the-reason-companies-like-facebook-are-so-keen-to-deploy-native-advertising----ads-that-masquerade-as-editorial-content)
 
+
 ####Who?
 
 * [Daniel C Howe](#daniel-c-howe)
@@ -41,7 +43,18 @@
 #### How do I install AdNauseam?
 You can find AdNauseam for <a href="https://chrome.google.com/webstore/detail/adnauseam/hgfacieeomogkcchookiodlpppbcolha" target="_new">Chrome</a>,  <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' and get started... 
 
-_Note: you should disable other adblockers while using AdNauseam_
+_Note: you should always disable other adblockers while using AdNauseam_
+
+#### How do I install a development release of AdNauseam?
+You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
+To install, follow the instructions for your browser of choice below: 
+
+(coming soon)
+- Chrome
+- Firefox
+- Opera
+
+_Note: you should always disable other adblockers while using AdNauseam_
 
 #### Can I use AdNauseam with my current adblocker?
 It is possible, but since your adblocker will likely block some, or all, of the ads AdNauseam is collecting, this is NOT recommended. For the best experience, you should disable other adblockers while using AdNauseam.
