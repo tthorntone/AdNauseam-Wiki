@@ -60,8 +60,8 @@ To install, follow the instructions for your browser of choice below:
 
  Prepare Firefox:
   
-  1. Open you Firefox Developer Edition and type "about:config" into the url bar. When asked, choose to accept the risks.
-  2. In the config panel, search for "xpinstall.signatures.required". Make sure the value is set to "false".   
+  1. Open you Firefox Developer Edition and type `about:config` into the url bar. When asked, choose to accept the risks.
+  2. In the config panel, search for `xpinstall.signatures.required`. Make sure the value is set to `false`.   
  
  Install AdNauseam:
 
@@ -70,7 +70,10 @@ To install, follow the instructions for your browser of choice below:
   1. Drag the file you downloaded in step i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Click "Install". 
 
 
-- Opera
+- **Opera**
+ 1. Download a ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
+ 2. In your Opera Browser navigate to Opera > Preferences. In the side bar select the *puzzle piece* symbol/"Extensions".
+ 3. Drag the file you downloaded in i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Click "Install". 
 
 _Note: you should always disable other adblockers while using AdNauseam_
 
