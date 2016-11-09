@@ -23,7 +23,7 @@
 * [How do I view AdNauseam-specific network events in the addon console?](#how-do-i-view-adnauseam-specific-network-events-in-the-addon-console)
 * [How do I view the extensions storage entries?](#how-do-i-view-the-extensions-storage-entries)
 * [How are locales/languages/translations handled?](https://github.com/dhowe/AdNauseam/wiki/Handling-languages,-locales,-and-translations)
-* [How do I inspect the requests/visits made by AdNauseam to collected Ads?](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ/_edit#how-do-i-inspect-the-requestsvisits-made-by-adnauseam-to-collected-ads)
+* [How do I inspect the requests/visits made by AdNauseam to collected Ads?](#how-do-i-inspect-the-requestsvisits-made-by-adnauseam-to-collected-ads)
 
 ### Debugging / Testing
 * [How do I debug an ad that is visible on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
