@@ -89,6 +89,13 @@ The Ad was NOT detected by the content-script. Here we need to debug the parsing
 In this case, we need to first determine whether we have a filter for this type of text-ad (these filters are in /src/js/adn/textads.js). If not, we may or may not want to add a filter, depending on how popular a site the text-ads are found on, so simply mark the ticket with this question. If we do, then we need to debug why it is not working correctly. (pending)
 
 -----------
+#### How do I inspect the requests/visits made by AdNauseam to collected Ads?
+
+After detecting and parsing Ads on a given site, AdNauseam processes found Ads and 'visits' them via XMLHttpRequests. Those requests are not initiated on the actual site the Ads are found on, but from *behind-the-scenes*, namely on/around line 488 of core.js. 
+Every Ad has a targetUrl which is the actual href of the html element that has been detected. AdN will make a request to that targetUrl. This can be seen in the AdN console (background.html) as a `[TRYING] Ad#2(img) http........` line that shows the same url that is stored as targetUrl in the `[FOUND] Ad#2(img)...` object which is also printed on the AdN console. 
+In the background.html Developer Tool's Network tab, the actual request can be seen (Header, Response etc.) as well as all the (frequent) redirect requests (Status 302) that follow it until they finally reach the actual advertisers (Status 200, type: xhr). The last url visited in that chain is the resolvedTargetUrl in the "[FOUND]..." Ad object.   
+
+-----------
 #### How should I setup my browser profiles for developing?
 
 It is highly recommended to setup separate browser profiles for development (at very least you should have one for AdNauseam and one for uBlock). This enables you to compare results between AdNAuseam and uBlock, and also to prevent tests being influenced by cookies and other shared state. Remember also to modify your Firefox (development or nightly build) profiles according to [these steps](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers). In Chrome, you can simply enable developer mode.
