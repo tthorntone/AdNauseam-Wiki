@@ -83,14 +83,14 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 ------------------
 
-## Check Ad Blockers (only for chrome and opera for now)
+## Check Ad Blockers
 - Install uBlock
-- Remove and reinstall AdNauseam to trigger this page 
+- Remove and reinstall AdNauseam to trigger the first-run page 
 - check if there is a warning about other ad blockers on first-run page,menu and vault
 - click 'disable' button on the warning message, it should lead to the extension page
 - disable uBlock and check whether the message is gone in vault and menu.(If the page was opened, it need to be refreshed)
 
-Test this for only Ad Block Plus installed, uBlock and Ad Block Plus both installed.
+Test this for only Ad Block Plus installed, uBlock/uBlock Origin and Ad Block Plus both installed.
 ------------------
 &nbsp;
 
