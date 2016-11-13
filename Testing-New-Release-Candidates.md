@@ -77,7 +77,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 ## Ad Visits 
 To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. You can also click on 'XHR' type to filter the requests.
 - Test that the correct 'referer' header is sent on Ad visits depending on the setting (ad.pageUrl when disabled, or none when enabled) 
-- Test that the correct 'user-agent' header is sent on Ad visits depending on the setting (the usual user-agent when disabled, or none when enabled)  
+- Test that the correct 'user-agent' header is sent on Ad visits depending on the setting (the usual user-agent when disabled, or default when enabled)  
 - Test that outgoing cookies are sent on Ad visits depending on the setting (the usual cookies when disabled, or none when enabled)  
 - Test that incoming cookies are never allowed from responses to Ad visits, by checking cookies before/after
 
