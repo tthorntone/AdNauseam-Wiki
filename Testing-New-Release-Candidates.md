@@ -70,7 +70,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 * Test that no cookies are accepted from ALLOWed requests:  
   - Make sure ‘Activate debugging mode’ is set to true to view log info in the console   
   - Visit sites where one or more _3rd-party_ requests are ALLOWed and note their domains
-  - Verify that no cookies are accepted from these domains, using one of the [tools](#tools) listed below, or by checking cookies before/after
+  - Verify that no cookies are accepted from these domains: first by checking cookies before/after in the browser, then verify using one of the [tools](#tools) listed below('set-cookies' in response Header)
 
 ------------------
 
