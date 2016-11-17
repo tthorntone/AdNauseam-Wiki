@@ -94,6 +94,5 @@ Test this for only Ad Block Plus installed, uBlock/uBlock Origin and Ad Block Pl
 ------------------
 &nbsp;
 
-## Tools
-  * [Live HTTP Headers (Chrome)](https://chrome.google.com/webstore/detail/live-http-headers/iaiioopjkcekapmldfgbebdclcnpgnlo?hl=en)    
+## Tools 
   * [Live HTTP Headers (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/)   
