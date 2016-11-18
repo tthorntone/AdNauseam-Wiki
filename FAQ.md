@@ -28,11 +28,11 @@
 * [What must advertisers do to win the trust of Internet users?](#what-must-advertisers-do-to-win-the-trust-of-internet-users)
 * [What made you choose data obfuscation as the strategy here?](#what-made-you-choose-data-obfuscation-as-the-strategy-here)
 * [Do you know of other similar obfuscation initiatives along these lines?](#this-is-interesting-do-you-know-of-other-similar-obfuscation-initiatives-along-these-lines)
-* [How does AdNauseam's clicking differ from 'click-fraud'?](#how-does-what-the-adnauseams-clicking-differ-from-click-fraud)
+* [How does AdNauseam's clicking differ from 'click-fraud'?](#how-does-adnauseams-clicking-differ-from-click-fraud)
 * [But what about "good" sites who don't track -- doesn't AdNauseam also block their Ads?](#but-what-about-good-sites-who-dont-track----doesnt-adnauseam-also-block-their-ads)
 * [What is the "end goal" of AdNauseam?](#what-is-the-end-goal-of-adnauseam-confusing-data-so-it-becomes-useless-for-advertisers-and-forces-them-to-react)
 * [Is there a business model behind AdNauseam?](#is-there-a-business-model-behind-adnauseam-do-you-consider-yourself-a-business-or-is-it-solely-to-make-some-kind-of-a-statement-about-the-state-of-web-advertising)
-* [What about "Native Advertising?"](#are-you-concerned-that-ad-blocking-technology-is-part-of-the-reason-companies-like-facebook-are-so-keen-to-deploy-native-advertising----ads-that-masquerade-as-editorial-content)
+* [What about "Native Advertising?"](#are-you-concerned-that-adblocking-technology-is-part-of-the-reason-companies-like-facebook-are-so-keen-to-deploy-native-advertising----ads-that-masquerade-as-editorial-content)
 
 
 ####Who?
