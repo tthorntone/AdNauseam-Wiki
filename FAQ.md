@@ -7,9 +7,9 @@
 * [Can I use AdNauseam with my current adblocker?](#can-i-use-adnauseam-with-my-current-adblocker)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
 * [How does AdNauseam estimate the click cost it shows in the menu and vault?](#how-does-adnauseam-estimate-the-click-cost-it-shows-in-the-menu-and-vault)
-* [How does AdNauseam "hide Ads"?]
-* [How does AdNauseam "click Ads"?]
-* [How does AdNauseam "block malware"?]
+* [How does AdNauseam "hide Ads"?](#how-does-adnauseam-hide-ads)
+* [How does AdNauseam "click Ads"?](#how-does-adnauseam-click-ads)
+* [How does AdNauseam "block malware"?](#how-does-adnauseam-block-malware)
 * [Does AdNauseam respect the browser's private-browsing/incognito modes?](#does-adnauseam-respect-the-browsers-private-browsingincognito-modes)
 * [What is AdNauseam's performance like? Will it speed up or slow down my browsing?](#what-is-adnauseams-performance-like-will-it-speed-up-or-slow-down-my-browsing)
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
