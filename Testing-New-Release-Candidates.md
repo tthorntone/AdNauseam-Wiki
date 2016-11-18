@@ -8,6 +8,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Test selection of various options (click-ads, block-malware, hide-ads, DNT)
 - Verify that the DNT option is visible _only_ when clicking OR hiding is enabled
 - Test that toggling the DNT option changes _both_ DNT options in Settings
+- Check the links on first-run page
 
 ### Menu 
 - Check all buttons and information (including number of Ads and $$ cost)
