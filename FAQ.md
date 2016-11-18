@@ -5,10 +5,10 @@
 * [How do I install AdNauseam?](#how-do-i-install-adnauseam)
 * [How do I install a development release of AdNauseam?](#how-do-i-install-a-development-release-of-adnauseam)
 * [Can I use AdNauseam with my current adblocker?](#can-i-use-adnauseam-with-my-current-adblocker)
+* [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
 * [How does AdNauseam "hide Ads"?](#how-does-adnauseam-hide-ads)
 * [How does AdNauseam "click Ads"?](#how-does-adnauseam-click-ads)
 * [How does AdNauseam "block malware"?](#how-does-adnauseam-block-malware)
-* [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
 * [How does AdNauseam estimate the click cost it shows in the menu and vault?](#how-does-adnauseam-estimate-the-click-cost-it-shows-in-the-menu-and-vault)
 * [Does AdNauseam respect the browser's private-browsing/incognito modes?](#does-adnauseam-respect-the-browsers-private-browsingincognito-modes)
 * [What is AdNauseam's performance like? Will it speed up or slow down my browsing?](#what-is-adnauseams-performance-like-will-it-speed-up-or-slow-down-my-browsing)
@@ -29,7 +29,7 @@
 * [What made you choose data obfuscation as the strategy here?](#what-made-you-choose-data-obfuscation-as-the-strategy-here)
 * [Do you know of other similar obfuscation initiatives along these lines?](#this-is-interesting-do-you-know-of-other-similar-obfuscation-initiatives-along-these-lines)
 * [How does AdNauseam's clicking differ from 'click-fraud'?](#how-does-what-the-adnauseams-clicking-differ-from-click-fraud)
-* [But what about "good" sites who don't track -- doesn't AdNauseam also block their ads?](#but-what-about-good-sites-who-dont-track----doesnt-adnauseam-also-block-their-ads)
+* [But what about "good" sites who don't track -- doesn't AdNauseam also block their Ads?](#but-what-about-good-sites-who-dont-track----doesnt-adnauseam-also-block-their-ads)
 * [What is the "end goal" of AdNauseam?](#what-is-the-end-goal-of-adnauseam-confusing-data-so-it-becomes-useless-for-advertisers-and-forces-them-to-react)
 * [Is there a business model behind AdNauseam?](#is-there-a-business-model-behind-adnauseam-do-you-consider-yourself-a-business-or-is-it-solely-to-make-some-kind-of-a-statement-about-the-state-of-web-advertising)
 * [What about "Native Advertising?"](#are-you-concerned-that-ad-blocking-technology-is-part-of-the-reason-companies-like-facebook-are-so-keen-to-deploy-native-advertising----ads-that-masquerade-as-editorial-content)
@@ -81,56 +81,61 @@ To install, follow the instructions for your browser of choice below:
 _Note: you should always disable other adblockers while using AdNauseam_
 
 #### Can I use AdNauseam with my current adblocker?
-It is possible, but since your adblocker will likely block some, or all, of the ads AdNauseam is collecting, this is NOT recommended. For the best experience, you should disable other adblockers while using AdNauseam.
+It is possible, but since your adblocker will likely block some, or all, of the Ads AdNauseam is collecting, this is NOT recommended. For the best experience, you should disable other adblockers while using AdNauseam.
 
 #### What is AdNauseam's performance like? Will it speed up or slow down my browsing?
-Benchmarks are in progress, however it is safe to say that AdNauseam is faster and safer than using either Adblock Plus (and its variants), or using no blocker at all. On the other hand, it is slower than a high-quality adblocker like uBlock, as it must allow certain requests (in order to collect ads) that uBlock is able to block. While it depends on the types of pages visited, in our subjective experience, the difference between browsing with AdNauseam and uBlock is minimal.
+Benchmarks are in progress, however it is safe to say that AdNauseam is faster and safer than using either Adblock Plus (and its variants), or using no blocker at all. On the other hand, it is slower than a high-quality adblocker like uBlock, as it must allow certain requests (in order to collect Ads) that uBlock is able to block. While it depends on the types of pages visited, in our subjective experience, the difference between browsing with AdNauseam and uBlock is minimal.
 
 #### Are you also tracking my clicks on your own servers?
 No, we do not collect any information on users whatsoever.
 
 #### Does AdNauseam block ads or just hide them?
-Most adblockers (including uBlock, AdBlock-Plus, etc.) work via a combination of blocking and hiding strategies. Requests for some ads are blocked outright, while other ads (text-only ads,like those found on Google Search, are one common example) are first downloaded, then made invisible on the page. This is also how AdNauseam works. We simply treat image-ads as if they were text-only ads. And just like other adblockers, AdNauseam _does_ block malware and non-visual trackers.
+Most adblockers (including uBlock, AdBlock-Plus, etc.) work via a combination of blocking and hiding strategies. Requests for some ads are blocked outright, while other Ads (text-only Ads,like those found on Google Search, are one common example) are first downloaded, then made invisible on the page. This is also how AdNauseam works. We simply treat image-Ads as if they were text-only Ads. And just like other adblockers, AdNauseam _does_ block malware and non-visual trackers.
 
 #### Who can tell that I’m using AdNauseam?
 
-Various parties may be able to detect AdNauseam, including websites (with ads) that you visit, advertisers, and and ad-networks (there may be additional parties behind the scenes of which we are not aware.) If they detect enough users, we hope they will get the message. AdNauseam and systems like it allow users to communicate their dissatisfaction directly, unmediated by vested interests who might claim to speak on our behalf.
+Various parties may be able to detect AdNauseam, including websites (with Ads) that you visit, advertisers, and and Ad-networks (there may be additional parties behind the scenes of which we are not aware.) If they detect enough users, we hope they will get the message. AdNauseam and systems like it allow users to communicate their dissatisfaction directly, unmediated by vested interests who might claim to speak on our behalf.
 
-#### Does AdNauseam's automatic ad clicking create billable events for advertisers?
+#### Does AdNauseam's automatic Ad-clicking create billable events for advertisers?
 
 It depends on the advertising business model and the degree of effort they are willing to put into filtering. Some might, others would not.
 
 #### How does AdNauseam estimate the click cost it shows in the menu and vault?
-[Pay-per-Click (PPC)](https://en.wikipedia.org/wiki/Pay_per_click) is a common internet advertising model in which advertisers pay for individual clicks on Ads.  The cost involved varies widely depending on a number of factors. One important factor is the type of website the Ad appears on; whether a normal 'display' website, or a 'search' website where the Ads shown are based on the user's query. The latter is generally more effective, with prices commonly calculated on the spot through a real-time bidding system. Display ads may use fixed prices or other pricing models to determine click cost. Depending on these and other factors, costs per click range from below 1$ to over $50.  As the precise cost generated by clicks is not visible to the client, AdNauseam calculates an estimate using an average value of $1.58 for each clicked Ad. This value is taken from [this analysis](https://www.hochmanconsultants.com/cost-of-ppc-advertising/), in which various advertising models and platforms are taken into account.  
+[Pay-per-Click (PPC)](https://en.wikipedia.org/wiki/Pay_per_click) is a common internet advertising model in which advertisers pay for individual clicks on Ads.  The cost involved varies widely depending on a number of factors. One important factor is the type of website the Ad appears on; whether a normal 'display' website, or a 'search' website where the Ads shown are based on the user's query. The latter is generally more effective, with prices commonly calculated on the spot through a real-time bidding system. Display Ads may use fixed prices or other pricing models to determine click cost. Depending on these and other factors, costs per click range from below 1$ to over $50.  As the precise cost generated by clicks is not visible to the client, AdNauseam calculates an estimate using an average value of $1.58 for each clicked Ad. This value is taken from [this analysis](https://www.hochmanconsultants.com/cost-of-ppc-advertising/), in which various advertising models and platforms are taken into account.  
 
 - [Additional info on the cost of Google's Adwords](http://www.wordstream.com/blog/ws/2015/05/21/how-much-does-adwords-cost)
 - [Visualisation of _other_ costs imposed by targeted advertising](http://www.nytimes.com/interactive/2015/10/01/business/100000003949287.mobile.html) 
 
 #### How does AdNauseam "hide Ads"?
 
-In contrast to other blockers, AdNauseam does not block conventional, visual ads, but hides them instead (when configured by the user to do so). This does not prevent such resources from being downloaded, but only impacts the way the page is rendered in your browser.  This is done as safely as possible, with cookies, and other identifiers disabled (by default) for all Ad requests. 
+In contrast to other blockers, AdNauseam does not block conventional, visual Ads, but hides them instead (when configured by the user to do so). This does not prevent such resources from being downloaded, but only impacts the way the page is rendered in your browser.  This is done as safely as possible, with cookies, and other identifiers disabled (by default) for all Ad requests. 
 
 Once an Ad has been detected, CSS is used to render it invisible and to collapse the surrounding DOM if necessary. The rules for Ad detection are stored in a wide range of community-sourced and managed filter lists, each of which may be  enabled or disabled in the 3rd-party-filters panel. Additionally, hiding itself may be disabled, either globally, for a site, or for a page, via the settings panels.
 
 #### How does AdNauseam "click Ads"?
 
+AdNauseam 'clicks' Ads by issuing an HTTP request to the URL to which they lead. In current versions the is done via an XMLHttpRequest (or AJAX request) issued in a background process. This lightweight request signals a 'click' on the server responsible for the Ad, but does so without opening any additional windows or pages on your computer. Further it allows AdNauseam to safely receive and discard the resulting response data, rather than executing it in the browser, thus preventing a range of potential security problems (rogue Javascript or Flash code, XSS-attacks, etc.) caused by malfunctioning or malicious Ads. AdNauseam's clicking behaviour can be de-/activated in the settings panel.
+
+
 #### How does AdNauseam "block malware"?
 
+While visual Ads are not usually blocked by AdNauseam, non-visual trackers as well as potentially malicious content, can be blocked altogether. The detection of domains known to deliver such content is managed in the same set of user-configurable filter lists used to detect visual Ads. Additionally, AdNauseam's blocking behavior can be de-/activated in the settings panel, either for a site, a page, or globally (though this last option is strongly discouraged).
+
 #### Does AdNauseam respect the browser's private-browsing/incognito modes?
-Yes, AdNauseam does not detect ads that occur on pages loaded in [private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) or [incognito](https://support.google.com/chromebook/answer/95464?hl=en) windows.
+Yes, AdNauseam does not detect Ads that occur on pages loaded in [private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) or [incognito](https://support.google.com/chromebook/answer/95464?hl=en) windows.
 
 #### Can I combine AdNauseam and [TrackMeNot](https://cs.nyu.edu/trackmenot/)?
 
 Absolutely -- these two extensions should work happily together...
 
-
-#### Sometimes it appears that there are multiples of the same ad in the advault?
-
-This sometimes happens. AdNauseam tests for ad uniqueness of image-ads by comparing the URLs of the displayed image. However, some ad networks use different URLs in different ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/192).
-
 #### What is user tracking? How does tracking work?
 
 When you visit a webpage, parts of the page may come from domains and servers other than the one you asked to visit. This is an essential feature of the web, but it has also come to be a _serious_ privacy problem. Nowadays embedded images and code often use cookies, fingerprinting, and other methods to track your browsing habits — often in order to display targetted advertisements. The domains that do this are called "third party trackers".You can read more about how they work on the excellent [EFF page](https://www.eff.org/deeplinks/2009/09/online-trackers-and-social-networks).
+
+
+#### Sometimes it appears that there are multiples of the same Ad in the AdVault?
+
+This sometimes happens. AdNauseam tests for Ad uniqueness of image-Ads by comparing the URLs of the displayed image. However, some Ad networks use different URLs in different Ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/631).
 
 #### I found a bug! What do I do now?
 
@@ -142,7 +147,7 @@ If you're not comfortable creating or don't want to create a GitHub account, you
 
 #### Do you oppose all advertising or only advertising you believe is abusive (e.g., tracking)?
 
-We do not oppose online advertising categorically. We are attempting to bring to light a system that has taken over the web, whereby ads are just the tip of the iceberg and serve as a delivery system for a massive back-end surveillance architecture that tracks us from site to site. It is not advertising we are protesting, but advertising insofar as it represents a dominant means of tracking users without their consent.
+We do not oppose online advertising categorically. We are attempting to bring to light a system that has taken over the web, whereby Ads are just the tip of the iceberg and serve as a delivery system for a massive back-end surveillance architecture that tracks us from site to site. It is not advertising we are protesting, but advertising insofar as it represents a dominant means of tracking users without their consent.
 
 ####Isn't it safer just to use an adblocker? Why engage with ad-networks at all?
 
@@ -161,7 +166,7 @@ There are many such instance, both in digital media and beyond. Please see the f
 
 #### How does AdNauseam's clicking differ from 'click-fraud'?
 
-We understand what click-fraud is and do not believe we are engaging in it (nor do the lawyers we have consulted). Turning the tables, we would like to hear why someone holds that AdNauseam _does_ commit click fraud. Would they say the same of anyone who clicks on an ad in which they are not really interested?
+We understand what click-fraud is and do not believe we are engaging in it (nor do the lawyers we have consulted). Turning the tables, we would like to hear why someone holds that AdNauseam _does_ commit click fraud. Would they say the same of anyone who clicks on an Ad in which they are not really interested?
 
 Click-Fraud:  "The practice of repeatedly clicking on an advertisement hosted on a website with the intention of generating revenue for the host site or draining revenue from the advertiser." (from http://clickfraud.org)
 
@@ -177,7 +182,7 @@ Yes, one goal of AdNauseam is protecting users from privacy violations and other
 
 There is no business model behind AdNauseam. It is simply an attempt by concerned individuals to address abuses against users by powerful corporate entities. The software is and will remain free and open-source and will never surreptitiously collect data on users.
 
-#### Are you concerned that ad-blocking technology is part of the reason companies like Facebook are so keen to deploy "native advertising" -- ads that masquerade as editorial content?
+#### Are you concerned that adblocking technology is part of the reason companies like Facebook are so keen to deploy "native advertising" -- Ads that masquerade as editorial content?
 
 We can't answer for Facebook's decisions to insert advertising material inadvertently into other content, Media companies have utilized this approach before and will likely continue to attempt to confuse individuals into paying attention with new techniques, once resistance has developed to entrenched methods. In print media, some governments have found the practice sufficiently unethical to require publishers clearly to distinguish advertising from editorial content.
 
