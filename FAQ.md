@@ -7,6 +7,9 @@
 * [Can I use AdNauseam with my current adblocker?](#can-i-use-adnauseam-with-my-current-adblocker)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
 * [How does AdNauseam estimate the click cost it shows in the menu and vault?](#how-does-adnauseam-estimate-the-click-cost-it-shows-in-the-menu-and-vault)
+* [How does AdNauseam "hide Ads"?]
+* [How does AdNauseam "click Ads"?]
+* [How does AdNauseam "block malware"?]
 * [Does AdNauseam respect the browser's private-browsing/incognito modes?](#does-adnauseam-respect-the-browsers-private-browsingincognito-modes)
 * [What is AdNauseam's performance like? Will it speed up or slow down my browsing?](#what-is-adnauseams-performance-like-will-it-speed-up-or-slow-down-my-browsing)
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
@@ -102,6 +105,16 @@ It depends on the advertising business model and the degree of effort they are w
 
 - [Additional info on the cost of Google's Adwords](http://www.wordstream.com/blog/ws/2015/05/21/how-much-does-adwords-cost)
 - [Visualisation of _other_ costs imposed by targeted advertising](http://www.nytimes.com/interactive/2015/10/01/business/100000003949287.mobile.html) 
+
+#### How does AdNauseam "hide Ads"?
+
+In contrast to other blockers, AdNauseam does not block conventional, visual ads, but hides them instead (when configured by the user to do so). This does not prevent such resources from being downloaded, but only impacts the way the page is rendered in your browser.  This is done as safely as possible, with cookies, and other identifiers disabled (by default) for all Ad requests. 
+
+Once an Ad has been detected, CSS is used to render it invisible and to collapse the surrounding DOM if necessary. The rules for Ad detection are stored in a wide range of community-sourced and managed filter lists, each of which may be  enabled or disabled in the 3rd-party-filters panel. Additionally, hiding itself may be disabled, either globally, for a site, or for a page, via the settings panels.
+
+#### How does AdNauseam "click Ads"?
+
+#### How does AdNauseam "block malware"?
 
 #### Does AdNauseam respect the browser's private-browsing/incognito modes?
 Yes, AdNauseam does not detect ads that occur on pages loaded in [private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) or [incognito](https://support.google.com/chromebook/answer/95464?hl=en) windows.
