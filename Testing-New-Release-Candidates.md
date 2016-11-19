@@ -81,7 +81,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 - Test that the correct 'user-agent' header is sent on Ad visits depending on the setting (the usual user-agent when disabled, or default when enabled)  
 - Test that outgoing cookies are sent on Ad visits depending on the setting (the usual cookies when disabled, or none when enabled)  
 - Test that incoming cookies are never allowed from responses to Ad visits, by checking cookies before/after
-
+(Currently only Channel ID cookies are allowed, it is ok)
 ------------------
 
 ## Check Ad Blockers
