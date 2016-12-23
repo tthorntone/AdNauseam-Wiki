@@ -13,7 +13,7 @@
 * [What is the relationship between blocking and hiding rules in uBlock and AdNauseam?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
 * [How does AdNauseam handle visual resources that link to the same domain?](#how-does-adnauseam-handle-visual-resources-that-link-to-the-same-domain)
 * [What is the difference between JS code in src and in platform?](#what-is-the-difference-between-js-code-in-src-and-in-platform)
-* [How are messages passed to AdNauseam core functions?](#)
+* [How are messages passed to AdNauseam core functions?](#how-are-messages-passed-to-adnauseam-core-functions)
 * [How does Ad parsing work?](#how-does-ad-parsing-work)
 
 ### Common Tasks
@@ -189,7 +189,7 @@ With that said, this code implements the vAPI interface for each browser. This i
 
 Messages from page-scripts (menu.js, vault.js, etc) and content-scripts (parser.js, textads.js, etc) are _automatically_ invoked on functions exported from the AdNauseam object. For example, in menu.js, a message is created and sent as follows:
 
-  vAPI.messaging.send('adnauseam', { what: 'adsForPage', tabId: popupData.tabId } ...);
+`  vAPI.messaging.send('adnauseam', { what: 'adsForPage', tabId: popupData.tabId } ...);`
 
 In this case the adnauseam.adsForPage() function is directly invoked when the message is received in the addon core.
 
