@@ -13,6 +13,7 @@
 * [What is the relationship between blocking and hiding rules in uBlock and AdNauseam?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
 * [How does AdNauseam handle visual resources that link to the same domain?](#how-does-adnauseam-handle-visual-resources-that-link-to-the-same-domain)
 * [What is the difference between JS code in src and in platform?](#what-is-the-difference-between-js-code-in-src-and-in-platform)
+* [How are messages passed to AdNauseam core functions?](#)
 * [How does Ad parsing work?](#how-does-ad-parsing-work)
 
 ### Common Tasks
@@ -181,6 +182,16 @@ First remove the ADN extension in chrome://extensions (using the trash icon), th
 Code in 'src/js' is cross-browser code that originates in uBlock, though it may have been modified in ADN's fork. Code in 'src/js/adn' is cross-browser code specific to ADN. Code in subdirectories of 'platform/' is code specific to a browser. You should not mess with this code unless you are an expert dev, _and_ have discussed the necessity of changes with the other devs.
 
 With that said, this code implements the vAPI interface for each browser. This interface, which has a large version for the extension core, and a minimal version for content-scripts, abstracts away all browser specific details and exposes a common API for cross-platform code to use. Therefore, no browser specific code should ever be put within 'src/js' or 'src/js/adn'. Instead, the code must be placed within a vAPI function (which means changing the interface, and should be considered a big deal) and then implemented ånd tested for each of the browser platforms.
+
+--------------------
+
+#### How are messages passed to AdNauseam core functions?
+
+Messages from page-scripts (menu.js, vault.js, etc) and content-scripts (parser.js, textads.js, etc) are _automatically_ invoked on functions exported from the AdNauseam object. For example, in menu.js, a message is created and sent as follows:
+
+  vAPI.messaging.send('adnauseam', { what: 'adsForPage', tabId: popupData.tabId } ...);
+
+In this case the adnauseam.adsForPage() function is directly invoked when the message is received in the addon core.
 
 --------------------
 
