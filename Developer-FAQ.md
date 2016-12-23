@@ -191,7 +191,7 @@ Messages from page-scripts (menu.js, vault.js, etc) and content-scripts (parser.
 
 `  vAPI.messaging.send('adnauseam', { what: 'adsForPage', tabId: popupData.tabId } ...);`
 
-In this case the adnauseam.adsForPage() function is directly invoked when the message is received in the addon core.
+When this message is received in the addon core, `adnauseam.adsForPage(request, pageStore, tabId, frameId)` function is automatically invoked with the arguments as shown.
 
 --------------------
 
