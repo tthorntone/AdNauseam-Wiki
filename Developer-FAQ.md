@@ -15,6 +15,9 @@
 * [What is the difference between JS code in src and in platform?](#what-is-the-difference-between-js-code-in-src-and-in-platform)
 * [How are messages passed to AdNauseam core functions?](#how-are-messages-passed-to-adnauseam-core-functions)
 * [How does Ad parsing work?](#how-does-ad-parsing-work)
+* [What does it mean for AdNauseam to appear as 'paused' in the menu?](#)
+* [What does it mean when 'DoNotTrack' is enabled?](#)
+
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
@@ -241,6 +244,19 @@ If an element matches a cosmetic filter but is NOT an image or IFrame, `process(
 All actions related to text-ad parsing occur within [textads.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/textads.js). If domain of the current page matches the AdNauseam's domain list (including Google, Ask, AOL, Yahoo, Bing, Baidu, etc.), `checkFilters()` will invoke the corresponding handler function (e.g., `googleText()`) to process the text-ad. In each handler function, information including title, text and site of the Ad is collected according to specific selectors. Finally, if all is successful, an Ad is created and passed to the addon core. If anything fails during the process, an error message should appear in the page console.
 
 -----------
+
+#### What does it mean for AdNauseam to appear as 'paused' in the menu?
+
+Pending
+
+-----------
+
+#### What does it mean when 'DoNotTrack' is enabled?
+
+Pending
+
+-----------
+
 ####How do I view AdNauseam-specific network events in the addon console?
 
 To view such events (blocks, allows, cookies, headers, etc.), enable the `netLogging` flag in core.js, then open the addon console as usual
