@@ -14,7 +14,7 @@
 * [How does AdNauseam handle visual resources that link to the same domain?](#how-does-adnauseam-handle-visual-resources-that-link-to-the-same-domain)
 * [What is the difference between JS code in src and in platform?](#what-is-the-difference-between-js-code-in-src-and-in-platform)
 * [How are messages passed to AdNauseam core functions?](#how-are-messages-passed-to-adnauseam-core-functions)
-* [How does Ad parsing work?](#how-does-ad-parsing-work)
+* [How does the Ad-parsing mechanism work?](#how-does-ad-parsing-work)
 * [What does it mean for AdNauseam to appear as 'paused' in the menu?](#what-does-it-mean-for-adnauseam-to-appear-as-paused-in-the-menu)
 * [What does it mean when 'DoNotTrack' is enabled?](#what-does-it-mean-when-donottrack-is-enabled)
 * [What is the data format for Ad imports/exports?](#what-is-the-data-format-for-ad-importsexports)
