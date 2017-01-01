@@ -54,7 +54,7 @@ To install, follow the instructions for your browser of choice below:
 
 - **Chrome**
  1. Download a ["Chromium" release](https://github.com/dhowe/AdNauseam/releases/). Older ones come as .zip directories (unzip after downloading), the latest release is a .crx file. 
- 2. In your Chrome Browser navigate to the Settings page chrome. Select "Extensions" at the top-left of the page.
+ 2. In your Chrome Browser navigate to the Settings page. Select "Extensions" at the top-left of the page.
  3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.
 
 - **Firefox**
@@ -69,9 +69,8 @@ To install, follow the instructions for your browser of choice below:
  Install AdNauseam:
 
   1. Download a ["Firefox" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .xpi. 
-  1. In the browser navigate to Tools > Add-ons. In the side bar select "Extensions.
-  1. Drag the file you downloaded in step i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Click "Install". 
-
+  2. In the browser navigate to Tools > Add-ons. In the side bar select "Extensions.
+  3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.
 
 - **Opera**
  1. Download a ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
