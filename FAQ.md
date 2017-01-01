@@ -129,7 +129,7 @@ Absolutely -- these two extensions should work happily together...
 
 #### What is user tracking? How does tracking work?
 
-When you visit a webpage, parts of the page may come from domains and servers other than the one you asked to visit. This is an essential feature of the web, but it has also come to be a _serious_ privacy problem. Nowadays embedded images and code often use cookies, fingerprinting, and other methods to track your browsing habits — often in order to display targetted advertisements. The domains that do this are called "third party trackers".You can read more about how they work on the excellent [EFF page](https://www.eff.org/deeplinks/2009/09/online-trackers-and-social-networks).
+When you visit a webpage, parts of the page may come from domains and servers other than the one you asked to visit. This is an essential feature of the web, but it has also come to be a _serious_ privacy problem. Nowadays embedded images and code often use cookies, fingerprinting, and other methods to track your browsing habits — often in order to display targeted advertisements. The domains that do this are called "third party trackers".You can read more about how they work on the excellent [EFF page](https://www.eff.org/deeplinks/2009/09/online-trackers-and-social-networks).
 
 
 #### Sometimes it appears that there are multiples of the same Ad in the AdVault?
