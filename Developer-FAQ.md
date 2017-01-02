@@ -9,7 +9,7 @@
 
 
 ### How Things Work
-* [How does AdNauseam detect ads?](#how-does-adnauseam-detect-ads)
+* [How does AdNauseam detect Ads?](#how-does-adnauseam-detect-ads)
 * [What is the relationship between blocking and hiding rules in uBlock and AdNauseam?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
 * [How does AdNauseam handle visual resources that link to the same domain?](#how-does-adnauseam-handle-visual-resources-that-link-to-the-same-domain)
 * [What is the difference between JS code in src and in platform?](#what-is-the-difference-between-js-code-in-src-and-in-platform)
@@ -62,7 +62,7 @@ The project uses the git fork-and-branch workflow, described nicely [here](http:
 -----------
 #### How do I debug an ad that is appearing on a page?
 
-First check whether the ad is appearing in uBlock. If it is, then this is not an ADN-specific problem (though we may want to fix it anyway). If the ad _does_ not show in uBlock, then it is likely the case that it is being blocked in uBlock, but not in ADN (remember that we don't want to block ads, only hide them). So then we need to add a cosmetic filter (in AdNauseam filters) to replace the blocking filter that uBlock uses. All devs should learn how to do this (either by using the browser inspector, or the [block-element tool](https://github.com/gorhill/ublock/wiki/element-picker)):
+First check whether the ad is appearing in uBlock. If it is, then this is not an ADN-specific problem (though we may want to fix it anyway). If the ad _does_ not show in uBlock, then it is likely the case that it is being blocked in uBlock, but not in ADN (remember that we don't want to block Ads, only hide them). So then we need to add a cosmetic filter (in AdNauseam filters) to replace the blocking filter that uBlock uses. All devs should learn how to do this (either by using the browser inspector, or the [block-element tool](https://github.com/gorhill/ublock/wiki/element-picker)):
 
 1.  Select/create the cosmetic rule you want to use to block the ad
 1.  Test it by adding it to Options->Dashboard->My Filters->Apply-changes
@@ -75,7 +75,7 @@ First check whether the ad is appearing in uBlock. If it is, then this is not an
 -----------
 #### How do I debug a video ad that is appearing on a page?
 
-This process is similar to the [above](#how-do-i-debug-an-ad-that-is-appearing-on-a-page), except that because ADN is not collecting video ads (at least for now), we need to add a block filter (for blocking), rather than a cosmetic filter (for hiding).
+This process is similar to the [above](#how-do-i-debug-an-ad-that-is-appearing-on-a-page), except that because ADN is not collecting video Ads (at least for now), we need to add a block filter (for blocking), rather than a cosmetic filter (for hiding).
 
 -----------
 #### How do I debug an image-ad that is being hidden, but not found?
@@ -84,7 +84,7 @@ First we need to check if the Ad is being correctly detected by the parser.js co
 
 _Case 1_
 
-The Ad was correctly detected by the content-script. Here we need to look for messages in the addon console (chrome://extensions->AdNauseam->background.html->console) to see if it was rejected there (perhaps as a duplicate or because it has an internal targetURL). If the Ad is a duplicate, we just need to clear our ads and test again. If the ad has an internal link but IS a valid ad, then we need to add the domain to 'internalLinkDomains' in core.js.
+The Ad was correctly detected by the content-script. Here we need to look for messages in the addon console (chrome://extensions->AdNauseam->background.html->console) to see if it was rejected there (perhaps as a duplicate or because it has an internal targetURL). If the Ad is a duplicate, we just need to clear our Ads and test again. If the ad has an internal link but IS a valid ad, then we need to add the domain to 'internalLinkDomains' in core.js.
 
 _Case 2_
 
@@ -93,7 +93,7 @@ The Ad was NOT detected by the content-script. Here we need to debug the parsing
 -----------
 #### How do I debug a text-ad that is being hidden, but not found?
 
-In this case, we need to first determine whether we have a filter for this type of text-ad (these filters are in /src/js/adn/textads.js). If not, we may or may not want to add a filter, depending on how popular a site the text-ads are found on, so simply mark the ticket with this question. If we do, then we need to debug why it is not working correctly. (pending)
+In this case, we need to first determine whether we have a filter for this type of text-ad (these filters are in /src/js/adn/textads.js). If not, we may or may not want to add a filter, depending on how popular a site the text Ads are found on, so simply mark the ticket with this question. If we do, then we need to debug why it is not working correctly. (pending)
 
 -----------
 #### How do I test/verify functionality of a commit?
@@ -125,8 +125,8 @@ https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-p
 You can also use the profile switcher [add-on](https://addons.mozilla.org/en-US/firefox/addon/profileswitcher/) to switch among profiles.
 
 -----------
-#### How does AdNauseam detect ads?
-Ads are detected via standard cosmetic, or 'hiding', filters found in whatever lists are currently enabled ([EasyList](https://easylist.to/) currently has the best rules for this, and thus the user is warned when it is disabled). Once a DOM element is detected by a cosmetic filter in one of uBlock's content-scripts, it is passed to AdNauseam's parser component where the ad's information (viewable by clicking an ad in the _vault_ to _inspect_ it) is extracted. This info includes timestamp, size, content-url, target-url, page-detected-on, etc. Text-only ads, as often found on search engine, are a bit different as they are generally served inline along, with page content, rather than requested separately. In thesecases, several additional fields are parsed (title, description, tagline) and there is no content-url linking to an external resource. To enable text-ad extraction, AdNauseam includes a custom set of CSS selectors (in textads.js) for common providers (Google, Ask, Bing, etc), which link to specific hand-written parsing routines. These run only on those domains for which such filters have been written.
+#### How does AdNauseam detect Ads?
+Ads are detected via standard cosmetic, or 'hiding', filters found in whatever lists are currently enabled ([EasyList](https://easylist.to/) currently has the best rules for this, and thus the user is warned when it is disabled). Once a DOM element is detected by a cosmetic filter in one of uBlock's content-scripts, it is passed to AdNauseam's parser component where the ad's information (viewable by clicking an ad in the _vault_ to _inspect_ it) is extracted. This info includes timestamp, size, content-url, target-url, page-detected-on, etc. Text-only Ads, as often found on search engine, are a bit different as they are generally served inline along, with page content, rather than requested separately. In thesecases, several additional fields are parsed (title, description, tagline) and there is no content-url linking to an external resource. To enable text-ad extraction, AdNauseam includes a custom set of CSS selectors (in textads.js) for common providers (Google, Ask, Bing, etc), which link to specific hand-written parsing routines. These run only on those domains for which such filters have been written.
 
 -----------
 #### What is the relationship between blocking and hiding rules in uBlock and ADN?
@@ -143,7 +143,7 @@ For completeness, there are also two other kinds of rules: exception rules, whic
 Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on the logger icon. Choose the tab you are interested in, then click the refresh icon. This will refresh the tab with the logger activated, and you will see each request made by the browser (whether blocked, allowed, or hidden). For info on the different types of entries, see this [page](https://github.com/gorhill/uBlock/wiki/The-logger).
 
 ####How does AdNauseam handle visual resources that link to the same domain?
-Generally AdNauseam do not allow ads with internal target URLs. So an ad found on xyz.com which links to a URL on xyz.com (or www.xyz.com) is ignored. However, some sites use this mechanism (generally with a redirect) for serving real ads. These are sometimes text ads and sometimes so-called 'native ads'. One classic example is Google where all ads on search pages go first to a Google URL, and are then redirected. To accommodate these exceptions, AdNauseam maintains an array of domains  called `internalLinkDomains` (see core.js). Adding a domain to this list will cause AdNauseam to no longer reject internal ads from that domain.
+Generally AdNauseam does not recognize Ads with internal target URLs. So an Ad found on xyz.com which links to a URL on xyz.com (or www.xyz.com) is ignored. However, some sites use this mechanism (generally with a redirect) for serving real Ads. These are sometimes text Ads and sometimes so-called 'native Ads'. One classic example is Google, where all Ads on search pages go first to a Google URL, and are then redirected. To accommodate these exceptions, AdNauseam maintains an array of domains called `internalLinkDomains` (see core.js). Adding a domain to this list will cause AdNauseam to no longer ignore internal Ads from that domain.
 
 -----------
 #### How do I view extension messages in the console?
@@ -179,7 +179,7 @@ In the addon console, the actual request data can be seen (headers, response, et
 - To see basic data for a single ad, simply click on the ad in the vault to inspect it.
 - To view the full metadata for a single ad, click on the ad in the vault inspector,
 then hit the 'd' on the keyboard to dump this data to both the addon and vault consoles.
-- To view JSON data for all ads, simply export your ad file from the settings interface.
+- To view JSON data for all Ads, simply export your ad file from the settings interface.
 
 -----------
 #### How can I get the first-run page to show up when developing?
@@ -216,12 +216,12 @@ There are three main cases handled by the `process()` function: images, iFrames,
 
 `2. IFrames  —> processIFrame —> check inside for image elements —> processImage()  `
 
-`3. Other —> check inside for image elements —> processImage(), then check for text-ads`
+`3. Other —> check inside for image elements —> processImage(), then check for text Ads`
 
 
 **1. Images**
 
-With the exception of text-ads, the parser's main role is to detect clickable Ad images. If all goes well after an image is matched by a cosmetic filter, then you will see a message in the page console saying 'IMG-AD' and the Ad will be viewable in both the menu and vault. 
+With the exception of text Ads, the parser's main role is to detect clickable Ad images. If all goes well after an image is matched by a cosmetic filter, then you will see a message in the page console saying 'IMG-AD' and the Ad will be viewable in both the menu and vault. 
 
 If this message shows in the page console, but the Ad does not appear in the menu or vault, then the Ad was rejected by the addon core. This generally happens because the detected ad is a duplicate ([EXISTS] will show in the addon console), or, because its target (where it leads when clicked) is internal (in the same domain as the page on which it was found). In this case, [INTERN] will show in the addon console and the Ad will be rejected, unless it is listed in `internalLinkDomains` in [core.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/core.js).
 
@@ -264,12 +264,12 @@ If AdNauseam is paused, there could be several scenarios:
 
 #### What does it mean when 'DoNotTrack' is enabled?
 
-When you first install AdNauseam, you will see "Make exceptions for non-tracking Ads" automatically checked for you.This applies to [sites](https://www.eff.org/files/effdntlist.txt) that follow the [Do Not Track Standard](https://www.eff.org/dnt-policy). Having 'DoNotTrack' enabled, AdNauseam will allow requests from DNT sites, showing ads displayed on DNT sites or ads from DNT domains and disable the clicking feature of AdNauseam for those ads as well.
+When you first install AdNauseam, you will see "Make exceptions for non-tracking Ads" automatically checked for you.This applies to [sites](https://www.eff.org/files/effdntlist.txt) that follow the [Do Not Track Standard](https://www.eff.org/dnt-policy). Having 'DoNotTrack' enabled, AdNauseam will allow requests from DNT sites, showing Ads displayed on DNT sites or Ads from DNT domains and disable the clicking feature of AdNauseam for those Ads as well.
 
 You can further modify this in settings page. 
 -"Don't hide non-tracking Ads"(Under "Hiding Ads")
 -"Don't click non-tracking Ads"(Under "Clicking Ads"). 
-For example, you can still hide the ads from DNT sites to enjoy ads free browsing, while disable clicking for them to respect those sites.
+For example, you can still hide the Ads from DNT sites to enjoy Ads free browsing, while disable clicking for them to respect those sites.
 
 When you are browsing DNT sites, the adnauseam icon in the toolbar will turn green and you will receive DNT notifications in your menu according to your DNT settings.
 
