@@ -133,9 +133,9 @@ Ads are detected via standard cosmetic, or 'hiding', filters found in whatever l
 
 Blocking rules block the requested element, no matter its type, from being fetched by the browser. Hiding rules (also called 'Cosmetic filters') cause the element to be downloaded and added to the DOM as usual, but then hidden via CSS. Filter lists are combinations of blocking and hiding rules. The only difference between uBlock and ADN in this regard is that ADN cannot block 3rd-party requests which are part of, or generate, visual advertising. These request must be allowed and the requested elements then hidden, which may be done via an existing hiding rule (in one of the filter-lists), or via a new hiding rule specific to ADN (generally placed in the _adnauseam.txt_ filter list).
 
-An important point to note is that these 3rd-party requests, for which an active blocking rule exists, but which are _allowed_ by AdNauseam (because blocking would make collection of the Ad impossible), are marked and treated differently than those which are simply hidden (for example, all cookies from such requests are blocked)...
+An important point to note is that these 3rd-party requests, for which an active blocking rule exists, but which are _allowed_ by AdNauseam (because blocking would make collection of the Ad impossible), are marked and treated differently than those which are simply hidden (for example, all cookies from such requests are blocked, assuming they are not on a DNT list)...
 
-For completeness, there are also two other kinds of rules: exception rules, which are similar to blocking rules, except that they define which requests should be allowed even when other matching blocking rules exist; and dynamic-filtering rules, available only in AdNauseam or iBlock's 'advanced mode' which are explained [here](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax).
+For completeness, there are also two other kinds of rules: exception rules, which are similar to blocking rules, except that they define which requests should be allowed even when other matching blocking rules exist; and dynamic-filtering rules, which are explained [here](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax).
 
 -----------
 #### How do I use the logger, and what are the different types of entries it shows?
