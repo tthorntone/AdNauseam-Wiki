@@ -35,7 +35,8 @@
 * [How do I debug a video ad that is visible on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
 * [How do I debug an image ad that is being hidden, but not collected?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-found)
 * [How do I debug a text ad that is being hidden, but not collected?](#how-do-i-debug-a-text-ad-that-is-being-hidden-but-not-found)
-* [How do I test functionality of a commit or release?](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates)
+* [How do I test/verify functionality of a commit?](#how-do-i-verify-functionality-of-a-commit)
+* [How do I test a new release?](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates)
 
 
 ### Useful References
@@ -93,6 +94,12 @@ The Ad was NOT detected by the content-script. Here we need to debug the parsing
 #### How do I debug a text-ad that is being hidden, but not found?
 
 In this case, we need to first determine whether we have a filter for this type of text-ad (these filters are in /src/js/adn/textads.js). If not, we may or may not want to add a filter, depending on how popular a site the text-ads are found on, so simply mark the ticket with this question. If we do, then we need to debug why it is not working correctly. (pending)
+
+-----------
+#### How do I test/verify functionality of a commit?
+
+Please always delete the addon and reinstall it whenever you are testing a commit or trying to go back to a previous version.
+This can clear the stored preferences and avoid possible conflicts between the new and old version.
 
 -----------
 #### How should I setup my browser profiles for developing?
