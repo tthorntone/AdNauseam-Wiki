@@ -255,13 +255,23 @@ All actions related to text-ad parsing occur within [textads.js](https://github.
 
 #### What does it mean for AdNauseam to appear as 'paused' in the menu?
 
-Pending
+If AdNauseam is paused, there could be several scenarios:
+1.You are on browser pages or pages for browser extensions.
+2.You have paused AdNauseam for this specific page. You can resume AdNauseam by clicking the "Resume AdNauseam" button in the menu.
+3.You have paused AdNauseam for the whole site. In this case, you can delete the site entry from your whitelist in settings.
 
 -----------
 
 #### What does it mean when 'DoNotTrack' is enabled?
 
-Pending
+When you first install AdNauseam, you will see "Make exceptions for non-tracking Ads" automatically checked for you.This applies to [sites](https://www.eff.org/files/effdntlist.txt) that follow the [Do Not Track Standard](https://www.eff.org/dnt-policy). Having 'DoNotTrack' enabled, AdNauseam will allow requests from DNT sites, showing ads displayed on DNT sites or ads from DNT domains and disable the clicking feature of AdNauseam for those ads as well.
+
+You can further modify this in settings page. 
+-"Don't hide non-tracking Ads"(Under "Hiding Ads")
+-"Don't click non-tracking Ads"(Under "Clicking Ads"). 
+For example, you can still hide the ads from DNT sites to enjoy ads free browsing, while disable clicking for them to respect those sites.
+
+When you are browsing DNT sites, the adnauseam icon in the toolbar will turn green and you will receive DNT notifications in your menu according to your DNT settings.
 
 -----------
 
