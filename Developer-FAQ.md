@@ -90,6 +90,9 @@ _Case 2_
 
 The Ad was NOT detected by the content-script. Here we need to debug the parsing code (/src/js/adn/parser.js) to figure out where it is failing. You can use the debugger to do this, but it may also be useful to turn on the 'netLogging' flag in core.js. For more details about how parser works, and a guideline of what the log messages mean, please check: [#how-does-parserjs-work).
 
+_Case 3_ In rare cases, a dynamically-generated Ad appears to be hidden (and not collected), when in actuality the code to generate the Ad (usually JS code) was either blocked or redirected and thus never executed. You can recognize such cases because the Ad is not even present in the DOM.  Further, in the logger you will find a JS resource being blocked or redirected. To address such cases it is necessary to use an exception rule so that the JS is allowed to run. IF the ad then either appears or is not collected, you may continue debugging those cases as described above.
+
+
 -----------
 #### How do I debug a text-ad that is being hidden, but not found?
 
