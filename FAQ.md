@@ -16,6 +16,8 @@
 * [Who can tell that I’m using AdNauseam?](#who-can-tell-that-im-using-adnauseam)
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
 * [How and why does AdNauseam make exceptions for non-tracking ads?](#how-and-why-does-adnauseam-make-exceptions-for-non-tracking-ads)
+* [What is the EFF's 'Do Not Track' standard and how it is supported in AdNauseam?](#what-is-the-effs-do-not-track-standard-and-how-it-is-supported-in-adnauseam)
+* [What does it mean when the AdNauseam icon turns green?]()
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
