@@ -17,7 +17,7 @@
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
 * [How and why does AdNauseam make exceptions for non-tracking ads?](#how-and-why-does-adnauseam-make-exceptions-for-non-tracking-ads)
 * [What is the EFF's 'Do Not Track' standard and how it is supported in AdNauseam?](#what-is-the-effs-do-not-track-standard-and-how-it-is-supported-in-adnauseam)
-* [What does it mean when the AdNauseam icon turns green?]()
+* [What does it mean when the AdNauseam icon turns green?](#what-does-it-mean-when-the-adnauseam-icon-turns-green)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
@@ -102,11 +102,11 @@ Various parties may be able to detect AdNauseam, including websites (with Ads) t
 
 It depends on the advertising business model and the degree of effort they are willing to put into filtering. Some might, others would not.
 
-### How and why does AdNauseam make exceptions for non-tracking ads?
+#### How and why does AdNauseam make exceptions for non-tracking ads?
 
-The Electronic Frontier Foundation ([eff.org](https://eff.org)) has created an emerging standard (called ['Do Not Track'](https://www.eff.org/pages/understanding-effs-do-not-track-policy-universal-opt-out-tracking)) for sites pledging to provide a surveillance-free experience for their users. We collaborated with the EFF to deploy this [a dynamic whitelist](https://www.eff.org/files/effdntlist.txt) for non-tracking sites (updated regularly by the EFF) in AdNauseam. We see this as an important feature in because the project does not categorically oppose online advertising, but rather only the intrusive, surveillance-based advertising model which currently dominates. Hence this exception is enabled by default, but users who do not want to join us in supporting this non-tracking model can change their settings accordingly. For more details, see [this entry]().
+The Electronic Frontier Foundation ([eff.org](https://eff.org)) has created an emerging standard (called ['Do Not Track'](https://www.eff.org/pages/understanding-effs-do-not-track-policy-universal-opt-out-tracking)) for sites pledging to provide a surveillance-free experience for their users. We collaborated with the EFF to deploy this [a dynamic whitelist](https://www.eff.org/files/effdntlist.txt) for non-tracking sites (updated regularly by the EFF) in AdNauseam. We see this as an important feature in because the project does not categorically oppose online advertising, but rather only the intrusive, surveillance-based advertising model which currently dominates. Hence this exception is enabled by default, but users who do not want to join us in supporting this non-tracking model can change their settings accordingly. For more details, see [this entry](#what-is-the-effs-do-not-track-standard-and-how-it-is-supported-in-adnauseam).
 
-### What is the EFF's 'Do Not Track' standard and how it is supported in AdNauseam?
+#### What is the EFF's 'Do Not Track' standard and how it is supported in AdNauseam?
 
 When you first install AdNauseam, you will see "Make exceptions for non-tracking Ads" checked for you by default. This option applies to [sites](https://www.eff.org/files/effdntlist.txt) that follow the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard. With 'Do Not Track (DNT)' enabled, AdNauseam will send the DNT header and then allow requests from sites who have pledged to respect this emerging standard. This means that Ads may be visible on these sites (they will still be collected by AdNauseam), and clicks on these Ads will be disabled.
 
@@ -119,9 +119,9 @@ For example, you can still hide the Ads from DNT sites, in order to enjoy Ad-fre
 
 When you are browsing DNT sites, the AdNauseam icon in the toolbar will turn green and you will receive DNT info in the AdNauseam menu.
 
-### What does it mean when the AdNauseam icon turns green?
+#### What does it mean when the AdNauseam icon turns green?
 
-This means that the current page is served from a site that has committed to abide by the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard and thus  does not engage in user-tracking. For details on the AdNauseam options for 'Do Not Track sites', see [this entry]().
+This means that the current page is served from a site that has committed to the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard and thus does not engage in user-tracking (nor do any of its 3rd-party affiliates). For details on the AdNauseam options for 'Do Not Track sites', see [this entry](#what-is-the-effs-do-not-track-standard-and-how-it-is-supported-in-adnauseam).
 
 
 #### How does AdNauseam estimate the click cost it shows in the menu and vault?
