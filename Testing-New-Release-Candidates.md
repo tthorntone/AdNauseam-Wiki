@@ -68,16 +68,20 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 - That DNT domains are removed from whitelist entries when when neither DNT option is checked 
 - DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa)  
 
+&nbsp;
 
 - Ads are visible when domain is 1st-party iff disableHidingForDNT is checked
 - Requests are not blocked when domain is 1st-party iff disableHidingForDNT is checked
 - Requests are not blocked when domain is 3rd-party iff disableHidingForDNT is checked
+
+&nbsp;
 
 
 - No clicking when ad domain is on list iff disableClickingForDNT is checked (especially for 3rd-party)
 - Enabling/disabling of DNT firewall on all permutations of first-run page options 
 - If both DNT options are disabled, then hiding, blocking, visiting occur again as usual
 
+&nbsp;
 
 - DNT Cookie handling (v3.1 and later)
 
