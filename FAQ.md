@@ -15,7 +15,7 @@
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
 * [Who can tell that I’m using AdNauseam?](#who-can-tell-that-im-using-adnauseam)
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
-* [How and why does AdNauseam make exception for non-tracking ads?](#how-and-why-does-adnauseam-make-exception-for-non-tracking-ads)
+* [How and why does AdNauseam make exceptions for non-tracking ads?](#how-and-why-does-adnauseam-make-exceptions-for-non-tracking-ads)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
