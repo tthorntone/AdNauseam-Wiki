@@ -63,10 +63,11 @@ _First make sure that you are working with the correct commit (check the hash) o
 ## DoNotTrack (DNT)
 To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
 
+- DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
 - That DNT list at top of whitelist.html is checked when either DNT option is checked
 - That DNT domains appear in whitelist.html entries when either DNT option is checked
 - That DNT domains are removed from whitelist entries when when neither DNT option is checked 
-- DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa)  
+ 
 
 &nbsp;
 
@@ -76,13 +77,9 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 &nbsp;
 
-
 - No clicking when ad domain is on list iff disableClickingForDNT is checked (especially for 3rd-party)
 - Enabling/disabling of DNT firewall on all permutations of first-run page options 
 - If both DNT options are disabled, then hiding, blocking, visiting occur again as usual
-
-&nbsp;
-
 - DNT Cookie handling (v3.1 and later)
 
 ------------------
