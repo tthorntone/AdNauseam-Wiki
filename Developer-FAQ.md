@@ -16,7 +16,7 @@
 * [How does the Ad-parsing mechanism work?](#how-does-ad-parsing-work)
 * [How are messages passed to AdNauseam core functions?](#how-are-messages-passed-to-adnauseam-core-functions)
 * [What does it mean for AdNauseam to appear as 'paused' in the menu?](#what-does-it-mean-for-adnauseam-to-appear-as-paused-in-the-menu)
-* [What does it mean when when 'Do Not Track (DNT)' is enabled?](#what-does-it-mean-when-donottrack-is-enabled)
+* [What does it mean when 'Do Not Track (DNT)' is enabled?](#what-does-it-mean-when-donottrack-is-enabled)
 * [What is the data format for Ad imports/exports?](#what-is-the-data-format-for-ad-importsexports)
 
 
@@ -128,7 +128,7 @@ You can also use the profile switcher [add-on](https://addons.mozilla.org/en-US/
 
 -----------
 #### How does AdNauseam detect Ads?
-Ads are detected via standard cosmetic, or 'hiding', filters found in whatever lists are currently enabled ([EasyList](https://easylist.to/) currently has the best rules for this, and thus the user is warned when it is disabled). Once a DOM element is detected by a cosmetic filter in one of uBlock's content-scripts, it is passed to AdNauseam's parser component where the ad's information (viewable by clicking an ad in the _vault_ to _inspect_ it) is extracted. This info includes timestamp, size, content-url, target-url, page-detected-on, etc. Text-only Ads, as often found on search engine, are a bit different as they are generally served inline along, with page content, rather than requested separately. In thesecases, several additional fields are parsed (title, description, tagline) and there is no content-url linking to an external resource. To enable text-ad extraction, AdNauseam includes a custom set of CSS selectors (in textads.js) for common providers (Google, Ask, Bing, etc), which link to specific hand-written parsing routines. These run only on those domains for which such filters have been written.
+Ads are detected via standard cosmetic, or 'hiding', filters found in whatever lists are currently enabled ([EasyList](https://easylist.to/) currently has the best rules for this, and thus the user is warned when it is disabled). Once a DOM element is detected by a cosmetic filter in one of uBlock's content-scripts, it is passed to AdNauseam's parser component where the ad's information (viewable by clicking an ad in the _vault_ to _inspect_ it) is extracted. This info includes timestamp, size, content-url, target-url, page-detected-on, etc. Text-only Ads, as often found on search engine, are a bit different as they are generally served inline along, with page content, rather than requested separately. In these cases, several additional fields are parsed (title, description, tagline) and there is no content-url linking to an external resource. To enable text-ad extraction, AdNauseam includes a custom set of CSS selectors (in textads.js) for common providers (Google, Ask, Bing, etc), which link to specific hand-written parsing routines. These run only on those domains for which such filters have been written.
 
 -----------
 #### What is the relationship between blocking and hiding rules in uBlock and ADN?
@@ -260,20 +260,34 @@ All actions related to text-ad parsing occur within [textads.js](https://github.
 If AdNauseam is paused, there could be several scenarios:
 1.You are on browser pages or pages for browser extensions.
 2.You have paused AdNauseam for this specific page. You can resume AdNauseam by clicking the "Resume AdNauseam" button in the menu.
-3.You have paused AdNauseam for the whole site. In this case, you can delete the site entry from your whitelist in settings.
+3.You have paused AdNauseam for the whole site. In this case, you can delete the site entry from the whitelist page in settings.
 
 -----------
 
-#### What does it mean (under the hood) when 'Do Not Track (DNT)' is enabled?
+#### What does it mean when 'Do Not Track (DNT)' is enabled?
 
-This setting applies to [sites](https://www.eff.org/files/effdntlist.txt) that follow the [EFF](ttps://www.eff.org)'s [Do Not Track Standard](https://www.eff.org/dnt-policy). With 'Do Not Track (DNT)' enabled, AdNauseam will send the DNT header and then allow requests from sites who have pledged to respect this emerging standard. Furthermore, Ads will be visible on these sites (they will still be collected by AdNauseam), and clicks on these Ads will be disabled.
+This setting applies for [sites](https://www.eff.org/files/effdntlist.txt) that follow the [EFF](ttps://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard. With 'Do Not Track (DNT)' enabled, AdNauseam will send the DNT header and then allow requests from sites who have committed to respecting DNT.
 
-The following specific changes occur when one or both of the DNT-exception options are disabled:
+Technically, the following changes occur when one (or both) of AdNauseam's DNT-exception options are disabled:
 
-When AdNauseam is not hiding ads for DNT sites (hidingAds=true, disableHidingForDNT=false)
-        disableClickingForDNT: false,)
+<b>When AdNauseam is not hiding ads for DNT sites (hidingAds=true, disableHidingForDNT=false)</b>
 
-When AdNauseam is not clicking ads for DNT sites (clickingAds=true, disableClickingForDNT=false)
+* Ads will be collected, but NOT hidden on DNT sites
+* pending 2
+* pending 3
+
+<b>When AdNauseam is not clicking ads for DNT sites (clickingAds=true, disableClickingForDNT=false)</b>
+
+* Ads will be collected, but NOT clicked for DNT sites
+* pending 2
+* pending 3
+
+<b>Either of the above</b>
+
+* The DNT header will be sent for ALL outgoing requests
+* pending 2
+* pending 3
+
 
 -----------
 
