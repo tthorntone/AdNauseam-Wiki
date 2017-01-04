@@ -99,6 +99,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 - Test that outgoing cookies are sent on Ad visits depending on the setting (the usual cookies when disabled, or none when enabled)  
 - Test that incoming cookies are never allowed from responses to Ad visits, by checking cookies before/after
 (Currently if only Channel ID cookies are allowed, it is ok)
+
 ------------------
 
 ## Check Ad Blockers
