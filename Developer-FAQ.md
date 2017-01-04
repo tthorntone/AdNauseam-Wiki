@@ -270,19 +270,19 @@ This setting applies for [sites](https://www.eff.org/files/effdntlist.txt) that 
 
 Technically, the following changes occur when one (or both) of AdNauseam's DNT-exception options are disabled:
 
-*<b>When AdNauseam is not hiding ads for DNT sites (hidingAds=true, disableHidingForDNT=false)</b>
+* <b>When AdNauseam is not hiding ads for DNT sites (hidingAds=true, disableHidingForDNT=false)</b>
 
   * Ads will be collected, but NOT hidden on DNT sites
   * pending 2
   * pending 3
 
-*<b>When AdNauseam is not clicking ads for DNT sites (clickingAds=true, disableClickingForDNT=false)</b>
+* <b>When AdNauseam is not clicking ads for DNT sites (clickingAds=true, disableClickingForDNT=false)</b>
 
   * Ads will be collected, but NOT clicked for DNT sites
   * pending 2
   * pending 3
 
-*<b>Either of the above</b>
+* <b>Either of the above</b>
 
   * The DNT header will be sent for ALL outgoing requests
   * pending 2
