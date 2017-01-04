@@ -16,7 +16,7 @@
 * [How does the Ad-parsing mechanism work?](#how-does-ad-parsing-work)
 * [How are messages passed to AdNauseam core functions?](#how-are-messages-passed-to-adnauseam-core-functions)
 * [What does it mean for AdNauseam to appear as 'paused' in the menu?](#what-does-it-mean-for-adnauseam-to-appear-as-paused-in-the-menu)
-* [What does it mean when 'DoNotTrack' is enabled?](#what-does-it-mean-when-donottrack-is-enabled)
+* [What does it mean when (under the hood) 'Do Not Track (DNT)' is enabled?](#what-does-it-mean-when-donottrack-is-enabled)
 * [What is the data format for Ad imports/exports?](#what-is-the-data-format-for-ad-importsexports)
 
 
@@ -78,7 +78,7 @@ First check whether the ad is appearing in uBlock. If it is, then this is not an
 This process is similar to the [above](#how-do-i-debug-an-ad-that-is-appearing-on-a-page), except that because ADN is not collecting video Ads (at least for now), we need to add a block filter (for blocking), rather than a cosmetic filter (for hiding).
 
 -----------
-#### How do I debug an image-ad that is being hidden, but not found?
+#### How do I debug an image-ad that is being hidden, but not collected?
 
 First we need to check if the Ad is being correctly detected by the parser.js content-script. We can check do this by looking at the browser console for the page to see if the Ad was detected there (there will be an "IMG-AD" if so). If not, there may be warning messages that will give you a clue as to what went wrong (skip to _Case 2_ below).
 
@@ -93,7 +93,7 @@ The Ad was NOT detected by the content-script. Here we need to debug the parsing
 _Case 3_ In rare cases, a dynamically-generated Ad appears to be hidden (and not collected), when in actuality the code to generate the Ad (usually JS code) was either blocked or redirected, and thus never executed. You can recognize such cases because the Ad will not be present in the DOM.  Further, in the logger you will find a JS resource being blocked or redirected. To address such cases it is generally necessary to create an exception rule (see the entry for Google's gpt.js script [here](https://github.com/dhowe/uAssets/blob/master/filters/adnauseam.txt#L225)) so that the JS is allowed to run. Once the rule is in effect, the logger entry should disappear and the Ad should be visible in the DOM. Then you can then evaluate whether it is being hidden and/or collected correctly, and if not, continue to debug as described above.
 
 -----------
-#### How do I debug a text-ad that is being hidden, but not found?
+#### How do I debug a text-ad that is being hidden, but not collected?
 
 In this case, we need to first determine whether we have a filter for this type of text-ad (these filters are in /src/js/adn/textads.js). If not, we may or may not want to add a filter, depending on how popular a site the text Ads are found on, so simply mark the ticket with this question. If we do, then we need to debug why it is not working correctly. (pending)
 
@@ -264,18 +264,16 @@ If AdNauseam is paused, there could be several scenarios:
 
 -----------
 
-#### What does it mean when 'DoNotTrack' is enabled?
+#### What does it mean (under the hood) when 'Do Not Track (DNT)' is enabled?
 
-When you first install AdNauseam, you will see "Make exceptions for non-tracking Ads" checked for you by default. This applies to [sites](https://www.eff.org/files/effdntlist.txt) that follow the [EFF](ttps://www.eff.org)'s [Do Not Track Standard](https://www.eff.org/dnt-policy). With 'Do Not Track (DNT)' enabled, AdNauseam will send the DNT header and then allow requests from sites who have pledged to respect this emerging standard. Furthermore, Ads will be visible on these sites (they will still be collected by AdNauseam), and clicks on these Ads will be disabled.
+This setting applies to [sites](https://www.eff.org/files/effdntlist.txt) that follow the [EFF](ttps://www.eff.org)'s [Do Not Track Standard](https://www.eff.org/dnt-policy). With 'Do Not Track (DNT)' enabled, AdNauseam will send the DNT header and then allow requests from sites who have pledged to respect this emerging standard. Furthermore, Ads will be visible on these sites (they will still be collected by AdNauseam), and clicks on these Ads will be disabled.
 
-Of course you can change any these behaviors by visiting the AdNauseam settings page and checking either:
+The following specific changes occur when one or both of the DNT-exception options are disabled:
 
-- "Don't hide non-tracking Ads"(Under "Hiding Ads")
-- "Don't click non-tracking Ads"(Under "Clicking Ads")
+When AdNauseam is not hiding ads for DNT sites (hidingAds=true, disableHidingForDNT=false)
+        disableClickingForDNT: false,)
 
-For example, you can still hide the Ads from DNT sites, in order to enjoy Ad-free browsing, while leaving clicking disabled, so as to still respect those sites trying to behave ethically.
-
-When you are browsing DNT sites, the AdNauseam icon in the toolbar will turn green and you will receive DNT info in the AdNauseam menu.
+When AdNauseam is not clicking ads for DNT sites (clickingAds=true, disableClickingForDNT=false)
 
 -----------
 

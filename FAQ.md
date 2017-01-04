@@ -45,38 +45,38 @@
 ##How?
 
 #### How do I install AdNauseam?
-You can find AdNauseam for <a href="https://chrome.google.com/webstore/detail/adnauseam/hgfacieeomogkcchookiodlpppbcolha" target="_new">Chrome</a>,  <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' and get started... 
+You can find AdNauseam for <a href="https://chrome.google.com/webstore/detail/adnauseam/hgfacieeomogkcchookiodlpppbcolha" target="_new">Chrome</a>,  <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' and get started...
 
 _Note: you should always disable other adblockers while using AdNauseam_
 
 #### How do I install a development release of AdNauseam?
 You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
-To install, follow the instructions for your browser of choice below: 
+To install, follow the instructions for your browser of choice below:
 
 - **Chrome**
- 1. Download a ["Chromium" release](https://github.com/dhowe/AdNauseam/releases/). Older ones come as .zip directories (unzip after downloading), the latest release is a .crx file. 
+ 1. Download a ["Chromium" release](https://github.com/dhowe/AdNauseam/releases/). Older ones come as .zip directories (unzip after downloading), the latest release is a .crx file.
  2. In your Chrome Browser navigate to the Settings page. Select "Extensions" at the top-left of the page.
  3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.
 
 - **Firefox**
 
- Note: Dev releases of AdNauseam will only run on the Developer Edition of Firefox ([download](https://www.mozilla.org/en-US/firefox/developer/)). 
+ Note: Dev releases of AdNauseam will only run on the Developer Edition of Firefox ([download](https://www.mozilla.org/en-US/firefox/developer/)).
 
  Prepare Firefox:
-  
+
   1. Open you Firefox Developer Edition and type `about:config` into the url bar. When asked, choose to accept the risks.
   2. In the config panel, search for `xpinstall.signatures.required`. Make sure the value is set to `false`.   
- 
+
  Install AdNauseam:
 
-  1. Download a ["Firefox" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .xpi. 
+  1. Download a ["Firefox" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .xpi.
   2. In the browser navigate to Tools > Add-ons. In the side bar select "Extensions.
   3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.
 
 - **Opera**
  1. Download a ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
  2. In your Opera Browser navigate to Opera > Preferences. In the side bar select the *puzzle piece* symbol/"Extensions".
- 3. Drag the file you downloaded in i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Click "Install". 
+ 3. Drag the file you downloaded in i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Click "Install".
 
 _Note: you should always disable other adblockers while using AdNauseam_
 
@@ -100,19 +100,37 @@ Various parties may be able to detect AdNauseam, including websites (with Ads) t
 
 It depends on the advertising business model and the degree of effort they are willing to put into filtering. Some might, others would not.
 
-### How and why does AdNauseam make exception for non-tracking ads?
+### How and why does AdNauseam make exceptions for non-tracking ads?
 
-The Electronic Frontier Foundation ([eff.org](https://eff.org)) have developed [Privacy Badger](https://www.eff.org/privacybadger), a browser extension that algorithmically identifies spying and invisible trackers and distinguishes them from non-tracking third-party content including non-tracking ads. We collaborated with the EFF to deploy [a dynamic whitelist](https://www.eff.org/files/effdntlist.txt) for non-tracking content which is updated regularly by the EFF. We see this as an important feature in AdNauseam as we do not blindly oppose all online advertising, but rather want to protect from and advocate against the intrusive surveillance advertising model which is dominating the web. Hence this exception is turned on by default, but users who do not want to join us in emphasizing and rewarding the non-tracking model can change the settings accordingly.
+The Electronic Frontier Foundation ([eff.org](https://eff.org)) has created an emerging standard (called ['Do Not Track'](https://www.eff.org/pages/understanding-effs-do-not-track-policy-universal-opt-out-tracking)) for sites pledging to provide a surveillance-free experience for their users. We collaborated with the EFF to deploy this [a dynamic whitelist](https://www.eff.org/files/effdntlist.txt) for non-tracking sites (updated regularly by the EFF) in AdNauseam. We see this as an important feature in because the project does not categorically oppose online advertising, but rather only the intrusive, surveillance-based advertising model which currently dominates. Hence this exception is enabled by default, but users who do not want to join us in supporting this non-tracking model can change their settings accordingly. For more details, see [this entry]().
+
+### What is the EFF's 'Do Not Track' standard and how it is supported in AdNauseam?
+
+When you first install AdNauseam, you will see "Make exceptions for non-tracking Ads" checked for you by default. This option applies to [sites](https://www.eff.org/files/effdntlist.txt) that follow the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard. With 'Do Not Track (DNT)' enabled, AdNauseam will send the DNT header and then allow requests from sites who have pledged to respect this emerging standard. This means that Ads may be visible on these sites (they will still be collected by AdNauseam), and clicks on these Ads will be disabled.
+
+Of course you can change any these behaviors by visiting the AdNauseam settings page and checking either:
+
+- "Don't hide non-tracking Ads"(Under "Hiding Ads")
+- "Don't click non-tracking Ads"(Under "Clicking Ads")
+
+For example, you can still hide the Ads from DNT sites, in order to enjoy Ad-free browsing, while leaving clicking disabled, so as to still respect those sites which have pledged to behave ethically.
+
+When you are browsing DNT sites, the AdNauseam icon in the toolbar will turn green and you will receive DNT info in the AdNauseam menu.
+
+### What does it mean when the AdNauseam icon turns green?
+
+This means that the current page is served from a site that has committed to abide by the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard and thus  does not engage in user-tracking. For details on the AdNauseam options for 'Do Not Track sites', see [this entry]().
+
 
 #### How does AdNauseam estimate the click cost it shows in the menu and vault?
 [Pay-per-Click (PPC)](https://en.wikipedia.org/wiki/Pay_per_click) is a common internet advertising model in which advertisers pay for individual clicks on Ads.  The cost involved varies widely depending on a number of factors. One important factor is the type of website the Ad appears on; whether a normal 'display' website, or a 'search' website where the Ads shown are based on the user's query. The latter is generally more effective, with prices commonly calculated on the spot through a real-time bidding system. Display Ads may use fixed prices or other pricing models to determine click cost. Depending on these and other factors, costs per click range from below 1$ to over $50.  As the precise cost generated by clicks is not visible to the client, AdNauseam calculates an estimate using an average value of $1.58 for each clicked Ad. This value is taken from [this analysis](https://www.hochmanconsultants.com/cost-of-ppc-advertising/), in which various advertising models and platforms are taken into account.  
 
 - [Additional info on the cost of Google's Adwords](http://www.wordstream.com/blog/ws/2015/05/21/how-much-does-adwords-cost)
-- [Visualisation of _other_ costs imposed by targeted advertising](http://www.nytimes.com/interactive/2015/10/01/business/100000003949287.mobile.html) 
+- [Visualisation of _other_ costs imposed by targeted advertising](http://www.nytimes.com/interactive/2015/10/01/business/100000003949287.mobile.html)
 
 #### How does AdNauseam "hide Ads"?
 
-In contrast to other blockers, AdNauseam does not block conventional, visual Ads, but hides them instead (when configured by the user to do so). This does not prevent such resources from being downloaded, but only impacts the way the page is rendered in your browser.  This is done as safely as possible, with cookies, and other identifiers disabled (by default) for all Ad requests. 
+In contrast to other blockers, AdNauseam does not block conventional, visual Ads, but hides them instead (when configured by the user to do so). This does not prevent such resources from being downloaded, but only impacts the way the page is rendered in your browser.  This is done as safely as possible, with cookies, and other identifiers disabled (by default) for all Ad requests.
 
 Once an Ad has been detected, CSS is used to render it invisible and to collapse the surrounding DOM if necessary. The rules for Ad detection are stored in a wide range of community-sourced and managed filter lists, each of which may be  enabled or disabled in the 3rd-party-filters panel. Additionally, hiding itself may be disabled, either globally, for a site, or for a page, via the settings panels.
 
