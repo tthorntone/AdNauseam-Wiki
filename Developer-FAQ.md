@@ -44,7 +44,7 @@
 * [Adblock Plus rule syntax (overview)](https://adblockplus.org/filter-cheatsheet) | [Writing Adblock Plus filters (detailed)](https://adblockplus.org/filters)
 * [What are Dynamic Filtering Rules?](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax)
 * [What is the uDom?](#what-is-the-udom)
-* [Chrome Extension Overview](https://developer.chrome.com/extensions/overview) 
+* [Chrome Extension Overview](https://developer.chrome.com/extensions/overview)
 &nbsp;     
 &nbsp;    
 
@@ -80,7 +80,7 @@ This process is similar to the [above](#how-do-i-debug-an-ad-that-is-appearing-o
 -----------
 #### How do I debug an image-ad that is being hidden, but not found?
 
-First we need to check if the Ad is being correctly detected by the parser.js content-script. We can check do this by looking at the browser console for the page to see if the Ad was detected there (there will be an "IMG-AD" if so). If not, there may be warning messages that will give you a clue as to what went wrong (skip to _Case 2_ below). 
+First we need to check if the Ad is being correctly detected by the parser.js content-script. We can check do this by looking at the browser console for the page to see if the Ad was detected there (there will be an "IMG-AD" if so). If not, there may be warning messages that will give you a clue as to what went wrong (skip to _Case 2_ below).
 
 _Case 1_
 
@@ -223,7 +223,7 @@ There are three main cases handled by the `process()` function: images, iFrames,
 
 **1. Images**
 
-With the exception of text Ads, the parser's main role is to detect clickable Ad images. If all goes well after an image is matched by a cosmetic filter, then you will see a message in the page console saying 'IMG-AD' and the Ad will be viewable in both the menu and vault. 
+With the exception of text Ads, the parser's main role is to detect clickable Ad images. If all goes well after an image is matched by a cosmetic filter, then you will see a message in the page console saying 'IMG-AD' and the Ad will be viewable in both the menu and vault.
 
 If this message shows in the page console, but the Ad does not appear in the menu or vault, then the Ad was rejected by the addon core. This generally happens because the detected ad is a duplicate ([EXISTS] will show in the addon console), or, because its target (where it leads when clicked) is internal (in the same domain as the page on which it was found). In this case, [INTERN] will show in the addon console and the Ad will be rejected, unless it is listed in `internalLinkDomains` in [core.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/core.js).
 
@@ -236,9 +236,9 @@ If no IMG-AD message appears in the console, then one of several things may have
 **2. IFrames**
 
 If an iFrame matches a cosmetic selector and has a valid 'src' attribute, `processIFrame()` is called. If the iFrame's 'src' and parent page have the same origin, `processIFrame()` selects all images within the iFrame and handles them as above. If the iFrame is cross-domain, however, we will not be able to access its contents due to "Same Origin" security restrictions. In this case, we may need to manually create a new cosmetic filter for the element of interest _inside_ the  the iFrame (and add it to adnauseam.txt).
- 
+
 If, on Chromium-based browsers, an iFrame is dynamically-generated, the `primeLocalIFrame()` function attempts to inject the usual contentscripts into the iFrame (this will happen automatically on Firefox).  If the injection is successful, a console message in the addon console will read as follows:
-  
+
 `[INJECT] Dynamic-iFrame...`
 
 You may inspect the [pageStore object](https://github.com/dhowe/AdNauseam/blob/master/src/js/pagestore.js) to find more information about the iFrame.
@@ -266,20 +266,22 @@ If AdNauseam is paused, there could be several scenarios:
 
 #### What does it mean when 'DoNotTrack' is enabled?
 
-When you first install AdNauseam, you will see "Make exceptions for non-tracking Ads" automatically checked for you.This applies to [sites](https://www.eff.org/files/effdntlist.txt) that follow the [Do Not Track Standard](https://www.eff.org/dnt-policy). Having 'DoNotTrack' enabled, AdNauseam will allow requests from DNT sites, showing Ads displayed on DNT sites or Ads from DNT domains and disable the clicking feature of AdNauseam for those Ads as well.
+When you first install AdNauseam, you will see "Make exceptions for non-tracking Ads" checked for you by default. This applies to [sites](https://www.eff.org/files/effdntlist.txt) that follow the [EFF](ttps://www.eff.org)'s [Do Not Track Standard](https://www.eff.org/dnt-policy). With 'Do Not Track (DNT)' enabled, AdNauseam will send the DNT header and then allow requests from sites who have pledged to respect this emerging standard. Furthermore, Ads will be visible on these sites (they will still be collected by AdNauseam), and clicks on these Ads will be disabled.
 
-You can further modify this in settings page. 
--"Don't hide non-tracking Ads"(Under "Hiding Ads")
--"Don't click non-tracking Ads"(Under "Clicking Ads"). 
-For example, you can still hide the Ads from DNT sites to enjoy Ads free browsing, while disable clicking for them to respect those sites.
+Of course you can change any these behaviors by visiting the AdNauseam settings page and checking either:
 
-When you are browsing DNT sites, the adnauseam icon in the toolbar will turn green and you will receive DNT notifications in your menu according to your DNT settings.
+- "Don't hide non-tracking Ads"(Under "Hiding Ads")
+- "Don't click non-tracking Ads"(Under "Clicking Ads")
+
+For example, you can still hide the Ads from DNT sites, in order to enjoy Ad-free browsing, while leaving clicking disabled, so as to still respect those sites trying to behave ethically.
+
+When you are browsing DNT sites, the AdNauseam icon in the toolbar will turn green and you will receive DNT info in the AdNauseam menu.
 
 -----------
 
 #### What is the data format for Ad imports/exports
 
-Pending
+(pending)
 
 -----------
 
@@ -312,5 +314,3 @@ The uDom library, written by Raymond Hill for uBlock, is a minimalist DOM framew
 
 
 &nbsp;
-
- 
