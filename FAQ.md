@@ -165,7 +165,7 @@ This sometimes happens. AdNauseam tests for Ad uniqueness of image-Ads by compar
 
 First, please make sure the bug hasn't already been reported by checking the current [bug list](https://github.com/dhowe/AdNauseam/issues).  If the bug hasn't yet been reported you can report it there. If you don't have a GitHub account, please create one so that we can communicate with you about the bug and fix it more quickly.
 
-If you're not comfortable creating or don't want to create a GitHub account, you can also report the bug to adnauseam@rednoise.org.
+If you're not comfortable creating a ticket (or don't want to create a GitHub account), you can also report the bug via email to adnauseam-issues [@] rednoise.org.
 
 ##Why?
 
