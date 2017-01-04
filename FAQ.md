@@ -171,7 +171,7 @@ If you're not comfortable creating or don't want to create a GitHub account, you
 
 #### Do you oppose all advertising or only advertising you believe is abusive (e.g., tracking)?
 
-We do not oppose online advertising categorically. We are attempting to bring to light a system that has taken over the web, whereby Ads are just the tip of the iceberg and serve as a delivery system for a massive back-end surveillance architecture that tracks us from site to site. It is not advertising we are protesting, but advertising insofar as it represents a dominant means of tracking users without their consent.
+We do not oppose online advertising categorically. We are attempting to bring to light a system that has taken over the web, whereby Ads are just the tip of the iceberg and serve as a delivery system for a massive back-end surveillance architecture that tracks us from site to site. It is not advertising we are protesting, but advertising insofar as it represents a dominant means of tracking users without their consent. In fact, for sites who wish respectfully serve ads to their users, we recommend adopting the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard (and, incidentally, you will no longer be blocked by default in tools like AdNauseam or [PrivacyBadger](https://www.eff.org/privacybadger)).
 
 ####Isn't it safer just to use an adblocker? Why engage with ad-networks at all?
 
@@ -179,7 +179,9 @@ Indeed it is marginally safer for one to simply use a strong adblocker and prote
 
 ####  What must advertisers do to win the trust of Internet users?
 
-There are various ways the status quo could be improved without damaging the Web ecosystem, e.g. contextual advertising, genuine adoption of a [meaningful Do Not Track standard](https://www.eff.org/dnt-policy), or client-side ad profiling (see [Adnostic](http://crypto.stanford.edu/adnostic/)). Alternatively, web-sites and publishers might switch to ad-networks that don't violate the privacy of users ([Deck](http://decknetwork.net/privacy/) appears to be one such example).
+One good option is to advertise on sites that respect the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard (and, incidentally, you will no longer be blocked by default in tools like AdNauseam or [PrivacyBadger](https://www.eff.org/privacybadger)). 
+
+But there are many other ways that the status quo can be improved without damaging the Web ecosystem, e.g. non-tracking ads,  contextual advertising, and client-side ad profiling (see [Adnostic](http://crypto.stanford.edu/adnostic/)). Alternatively, web-sites and publishers might switch to advertising networks that don't violate the privacy of users ([Deck](http://decknetwork.net/privacy/) appears to be one such example).
 
 #### What made you choose data obfuscation as the strategy here?
 
