@@ -108,7 +108,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 - click 'disable' button on the warning message, it should lead to the extension page
 - disable uBlock and check whether the message is gone in vault and menu.(If the page was opened, it need to be refreshed)
 
-  _Test this for only Ad Block Plus installed, uBlock/uBlock Origin and Ad Block Plus both installed_
+  _Test this for only AdBlock Plus installed, only uBlock/uBlock Origin, and both installed_
 
 ------------------
 &nbsp;
