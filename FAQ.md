@@ -6,9 +6,9 @@
 * [How do I install a development release of AdNauseam?](#how-do-i-install-a-development-release-of-adnauseam)
 * [Can I use AdNauseam with my current adblocker?](#can-i-use-adnauseam-with-my-current-adblocker)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
-* [How does AdNauseam "hide Ads"?](#how-does-adnauseam-hide-ads)
-* [How does AdNauseam "click Ads"?](#how-does-adnauseam-click-ads)
-* [How does AdNauseam "block malware"?](#how-does-adnauseam-block-malware)
+* [How does AdNauseam "Hide Ads"?](#how-does-adnauseam-hide-ads)
+* [How does AdNauseam "Click Ads"?](#how-does-adnauseam-click-ads)
+* [How does AdNauseam "Block Malicious Ads"?](#how-does-adnauseam-block-malicious-ads)
 * [How does AdNauseam estimate the click cost it shows in the menu and vault?](#how-does-adnauseam-estimate-the-click-cost-it-shows-in-the-menu-and-vault)
 * [Does AdNauseam respect the browser's private-browsing/incognito modes?](#does-adnauseam-respect-the-browsers-private-browsingincognito-modes)
 * [What is AdNauseam's performance like? Will it speed up or slow down my browsing?](#what-is-adnauseams-performance-like-will-it-speed-up-or-slow-down-my-browsing)
@@ -116,7 +116,7 @@ Once an Ad has been detected, CSS is used to render it invisible and to collapse
 AdNauseam 'clicks' Ads by issuing an HTTP request to the URL to which they lead. In current versions the is done via an XMLHttpRequest (or AJAX request) issued in a background process. This lightweight request signals a 'click' on the server responsible for the Ad, but does so without opening any additional windows or pages on your computer. Further it allows AdNauseam to safely receive and discard the resulting response data, rather than executing it in the browser, thus preventing a range of potential security problems (rogue Javascript or Flash code, XSS-attacks, etc.) caused by malfunctioning or malicious Ads. AdNauseam's clicking behaviour can be de-/activated in the settings panel.
 
 
-#### How does AdNauseam "block malware"?
+#### How does AdNauseam "Block Malicious Ads"?
 
 While visual Ads are not usually blocked by AdNauseam, non-visual trackers as well as potentially malicious content, can be blocked altogether. The detection of domains known to deliver such content is managed in the same set of user-configurable filter lists used to detect visual Ads. Additionally, AdNauseam's blocking behavior can be de-/activated in the settings panel, either for a site, a page, or globally (though this last option is strongly discouraged).
 
