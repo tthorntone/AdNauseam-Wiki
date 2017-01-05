@@ -82,6 +82,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 - If both DNT options are disabled, then hiding, blocking, visiting occur again as usual
 - DNT Cookie handling (v3.1 and later)
 
+Testpage for DNT 3rd party: http://chenqianxun.com/testcases/effTestPage.html
 ------------------
 
 ## Cookies 
