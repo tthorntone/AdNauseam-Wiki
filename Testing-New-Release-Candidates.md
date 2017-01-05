@@ -12,17 +12,18 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check the version number at left-bottom corner
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Menu</b>
-- Check all buttons and information (including number of Ads and $$ cost)
+- Check all buttons and information (including number of Ads and $$ cost, hidden if no ads)
 - Hover over Ad images and check zooming
+- Check there is no text overlap in the menu for text ads
 - Check the uBlock version number(in uBlock menu)
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Vault</b>
 - Verify loading animation, and centering/scaling of Ads on load
 - Zoom in/out using mouse wheel and buttons in top-left corner 
-- Check function/layout of inspector (for both image and text ads)
-- Check correct function date filter slider at bottom of page
+- Check function/layout of Inspector (for both image and text ads)
+- Check correct function of date-filter slider at bottom
 - Check that AdNauseam logo in the bottom-right corner links correctly to homepage  
-- Check correct calculation of ad cost (and updates according to date-filter)
+- Check correct calculation of ad cost (and $$$ updates according to date-filter, hidden if no ads)
 - Test import/export/clear functions
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Dashboard</b>
@@ -32,11 +33,11 @@ _First make sure that you are working with the correct commit (check the hash) o
 - On settings tab (options.html) check that when clicking or hiding are disabled, then all of their sub-items are also disabled
 - Test import/export/clear ads functions
 
-&nbsp;&nbsp;&nbsp;&nbsp;<b>Icon in the toolbar</b>
-- Check that the icon in the toolbar is in green when on DNT pages.
-- Check that the icon in the toolbar is in grey when adnauseam is disabled.
-- Check that the icon in the toolbar is in purple when adnauseam is active. 
-- Click effect(v3.1 and later)
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Toolbar Icon</b>
+- Check that the icon in the toolbar is in purple when AdNauseam is active
+- Check that the icon in the toolbar is in grey when AdNauseam is disabled
+- Check that the icon in the toolbar is in green when on DNT pages
+- Icon should animate each time an Ad is clicked (>= v3.1)
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Notifications</b>
 - Check that disabling hiding, clicking, or blocking on the first-run generates a notification warning at the top of the dashboard (all tabs), menu, and vault page (after first-run is closed or 'ok' is clicked). 
@@ -54,9 +55,9 @@ _First make sure that you are working with the correct commit (check the hash) o
 * Test a set of pages, and make sure that ads are being captured and visited   
   * ImageAds: visit Facebook/Youtube/Amazon... and verify ads are hidden and appear in menu
   * TextAds: visit Google/Ask/Yahoo/Bing/DuckDuckGo to search for keywords such as "credit card" or "loan"
-*  Test Ad-parsing from within dynamically-created iframes [here](http://rednoise.org/adntest/dynamic_iframe.html)
-*  Test Ad-parsing from cosmetically filtered iframes (without cosmetic filters for any contained elements)  [here](http://rednoise.org/adntest/iframe-cosm.html)                       
-*  Test that no Ads are collected in incognito/private-browsing windows    
+*  Test Ad-parsing from within dynamically-created iFrames [here](http://rednoise.org/adntest/dynamic_iframe.html)
+*  Test Ad-parsing from cosmetically filtered iFrames (without cosmetic filters for any contained elements)  [here](http://rednoise.org/adntest/iframe-cosm.html)                       
+*  Test that no Ads are collected in incognito/private-browsing windows:    
    * In Chrome/Opera, go to the extension page and check "Allow in incognito" for AdNauseam, then hit command+shift+N to start testing
    * In Firefox, use command+shift+P to open a private window
 
@@ -81,7 +82,6 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Interface</b>
 - DNT list at top of whitelist.html is checked when either DNT option is checked, otherwise unchecked
-- Enabling/disabling of DNT option for all permutations of clciking/hiding/blocking options on first-run page 
 - Check that changing the two DNT settings will triggger DNT notifications with corresponding messages to the menu  
 - Check the layout of each DNT notification("?" should be in the middle, 'settings' button appears on hover)  
 
@@ -90,10 +90,10 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 ------------------
 
 ## Cookies 
-* Test that no cookies are accepted from ALLOWed requests:  
+* Test that no cookies are accepted from adn-ALLOWed requests:  
   - Make sure ‘Activate debugging mode’ is set to true to view log info in the console   
-  - Visit sites where one or more _3rd-party_ requests are ALLOWed and note their domains
-  - Verify that no cookies are accepted from these domains: first by checking cookies before/after in the browser, then verify using one of the [tools](#tools) listed below('set-cookies' in response Header)
+  - Visit sites where one or more _3rd-party_ requests are adn-ALLOWed and note their domains
+  - Verify that no cookies are accepted from these domains: first by checking cookies before/after in the browser, then verify using one of the [tools](#tools) listed below (look for 'set-cookies' in response Header)
 
 ------------------
 
@@ -102,8 +102,8 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 - Test that the correct 'referer' header is sent on Ad visits depending on the setting (ad.pageUrl when disabled, or none when enabled) 
 - Test that the correct 'user-agent' header is sent on Ad visits depending on the setting (the usual user-agent when disabled, or default when enabled)  
 - Test that outgoing cookies are sent on Ad visits depending on the setting (the usual cookies when disabled, or none when enabled)  
-- Test that incoming cookies are never allowed from responses to Ad visits, by checking cookies before/after
-(Currently if only Channel ID cookies are allowed, it is ok)
+- Test that incoming cookies are not allowed from responses to Ad visits, by checking cookies before/after
+(if only Channel ID cookies are allowed, it is ok for now)
 
 ------------------
 
