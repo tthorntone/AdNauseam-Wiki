@@ -66,6 +66,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 - DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items
 
 &nbsp;
+
 ###Notifications
 - Check that changing the two DNT settings is going to bring DNT notifications with corresponding messages to the menu.  
 - Check the layout of each DNT notification("?" in the middle)  
