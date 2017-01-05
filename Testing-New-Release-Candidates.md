@@ -83,6 +83,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 - DNT Cookie handling (v3.1 and later)
 
 -[Test Page for DNT 3rd-party](http://chenqianxun.com/testcases/effTestPage.html)
+
 ------------------
 
 ## Cookies 
