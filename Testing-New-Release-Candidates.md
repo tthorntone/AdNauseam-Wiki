@@ -65,9 +65,6 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 - DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
 - That DNT list at top of whitelist.html is checked when either DNT option is checked
-- That DNT domains appear in whitelist.html entries when either DNT option is checked
-- That DNT domains are removed from whitelist entries when when neither DNT option is checked 
- 
 
 &nbsp;
 
