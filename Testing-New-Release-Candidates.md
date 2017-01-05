@@ -67,7 +67,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 
 &nbsp;
 
-###Notifications
+  ###Notifications
 - Check that changing the two DNT settings is going to bring DNT notifications with corresponding messages to the menu.  
 - Check the layout of each DNT notification("?" in the middle)  
 - Check that 'settings' button is going to slide in from right when a DNT notification is on hover. 
