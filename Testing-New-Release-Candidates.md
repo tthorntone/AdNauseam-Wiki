@@ -25,6 +25,19 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check correct calculation of ad cost (and updates according to date-filter)
 - Test import/export/clear functions
 
+### Dashboard
+- Check 2 version numbers in 'About' page (links.html)
+- Check layout of buttons, check-boxes, and links in each tab
+- Test that all (i)nfo buttons lead to correct FAQ pages in each tab
+- On settings tab (options.html) check that when clicking or hiding are disabled, then all of their sub-items are also disabled
+- Test import/export/clear ads functions
+
+### Icon in the toolbar
+- Check that the icon in the toolbar is in green when on DNT pages.
+- Check that the icon in the toolbar is in grey when adnauseam is disabled.
+- Check that the icon in the toolbar is in purple when adnauseam is active. 
+- Click effect(v3.1 and later)
+
 ### Notifications
 - Check that disabling hiding, clicking, or blocking on the first-run generates a notification warning at the top of the dashboard (all tabs), menu, and vault page (after first-run is closed or 'ok' is clicked). 
 - Check that disabling hiding, clicking, or blocking on the dashboard/options page generates a notification warning at the top of the dashboard(all tabs), menu, and vault page. 
@@ -49,33 +62,18 @@ _First make sure that you are working with the correct commit (check the hash) o
 
 ------------------
 
-## Dashboard
-- Check 2 version numbers in 'About' page (links.html)
-- Check layout of buttons, check-boxes, and links in each tab
-- Test that all (i)nfo buttons lead to correct FAQ pages in each tab
-- On settings tab (options.html) check that when clicking or hiding are disabled, then all of their sub-items are also disabled
-- Test import/export/clear ads functions
-
-## Icon in the toolbar
-- Check that the icon in the toolbar is in green when on DNT pages.
-- Check that the icon in the toolbar is in grey when adnauseam is disabled.
-- Check that the icon in the toolbar is in purple when adnauseam is active. 
-- Click effect(v3.1 and later)
-
-------------------
-
 ## DoNotTrack (DNT)
 - DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items
 
 &nbsp;
-Notifications
+###Notifications
 - Check that changing the two DNT settings is going to bring DNT notifications with corresponding messages to the menu.  
 - Check the layout of each DNT notification("?" in the middle)  
 - Check that 'settings' button is going to slide in from right when a DNT notification is on hover. 
 
 &nbsp; 
 
-Headers   
+###Headers   
 &nbsp;
 To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
 
