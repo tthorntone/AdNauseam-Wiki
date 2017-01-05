@@ -3,7 +3,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 
 ## Interface
 
-### First-Run &nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<b>First-Run</b>
 - Remove and reinstall AdNauseam to trigger this page 
 - Test selection of various options (click-ads, block-malware, hide-ads, DNT)
 - Verify that the DNT option is visible _only_ when clicking OR hiding is enabled
@@ -11,12 +11,12 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check the links on first-run page
 - Check the version number at left-bottom corner
 
-### Menu 
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Menu</b>
 - Check all buttons and information (including number of Ads and $$ cost)
 - Hover over Ad images and check zooming
 - Check the uBlock version number(in uBlock menu)
 
-### Vault
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Vault</b>
 - Verify loading animation, and centering/scaling of Ads on load
 - Zoom in/out using mouse wheel and buttons in top-left corner 
 - Check function/layout of inspector (for both image and text ads)
@@ -25,20 +25,20 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check correct calculation of ad cost (and updates according to date-filter)
 - Test import/export/clear functions
 
-### Dashboard
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Dashboard</b>
 - Check 2 version numbers in 'About' page (links.html)
 - Check layout of buttons, check-boxes, and links in each tab
 - Test that all (i)nfo buttons lead to correct FAQ pages in each tab
 - On settings tab (options.html) check that when clicking or hiding are disabled, then all of their sub-items are also disabled
 - Test import/export/clear ads functions
 
-### Icon in the toolbar
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Icon in the toolbar</b>
 - Check that the icon in the toolbar is in green when on DNT pages.
 - Check that the icon in the toolbar is in grey when adnauseam is disabled.
 - Check that the icon in the toolbar is in purple when adnauseam is active. 
 - Click effect(v3.1 and later)
 
-### Notifications
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Notifications</b>
 - Check that disabling hiding, clicking, or blocking on the first-run generates a notification warning at the top of the dashboard (all tabs), menu, and vault page (after first-run is closed or 'ok' is clicked). 
 - Check that disabling hiding, clicking, or blocking on the dashboard/options page generates a notification warning at the top of the dashboard(all tabs), menu, and vault page. 
 - Check that disabling EasyList on the dashboard/3p-filters page generates a notification warning at the top of the dashboard(all tabs), menu, and vault page. 
