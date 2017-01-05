@@ -34,11 +34,6 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check that the dashboard (if open) is updated when notifications change
 - Dashboard::settings (options.html) Check that page refreshes correctly when a notification is 'reactivated'
 - Dashboard::3rd-Party (3p-filters.html) Check that page refreshes correctly when a list-notification is 'reactivated'
-- DNT: Go to a DNT page (Ex: duckduckgo.com) 
-   Check that changing the two DNT settings is going to bring DNT notifications with corresponding messages to the menu. 
-   Check the layout of each DNT notification("?" in the middle) 
-   Check that 'settings' button is going to slide in from right when a DNT notification is on hover. 
-&nbsp;
 
 ------------------
 
@@ -61,9 +56,25 @@ _First make sure that you are working with the correct commit (check the hash) o
 - On settings tab (options.html) check that when clicking or hiding are disabled, then all of their sub-items are also disabled
 - Test import/export/clear ads functions
 
+## Icon in the toolbar
+- Check that the icon in the toolbar is in green when on DNT pages.
+- Check that the icon in the toolbar is in grey when adnauseam is disabled.
+- Check that the icon in the toolbar is in purple when adnauseam is active.
+- click effect(v3.1 and later)
 ------------------
 
 ## DoNotTrack (DNT)
+- DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items
+
+&nbsp;
+Notifications
+- Check that changing the two DNT settings is going to bring DNT notifications with corresponding messages to the menu.  
+- Check the layout of each DNT notification("?" in the middle)  
+- Check that 'settings' button is going to slide in from right when a DNT notification is on hover. 
+
+&nbsp; 
+
+Headers
 To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
 
 - DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
