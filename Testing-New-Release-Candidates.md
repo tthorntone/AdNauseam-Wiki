@@ -74,12 +74,12 @@ _First make sure that you are working with the correct commit (check the hash) o
 
 &nbsp; 
 
-###Headers   
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Headers</b>
 &nbsp;
-To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
+&nbsp;&nbsp;&nbsp;&nbsp;To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
 
-- DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
-- That DNT list at top of whitelist.html is checked when either DNT option is checked
+  - DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
+  - That DNT list at top of whitelist.html is checked when either DNT option is checked
 
 &nbsp;
 
