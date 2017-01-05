@@ -8,7 +8,7 @@ Google has banned AdNauseam from its web store and have left users with no acces
 2. Click the ``SETTINGS`` button at the bottom of the menu
 3. Scroll down to the bottom of the page and click ``EXPORT ADS``
 
-### Manual Install
+### Manual Install in Developer Mode
 
 1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release for chrome](https://github.com/dhowe/AdNauseam/releases/latest).
 1. Extract the zip file.
