@@ -17,7 +17,8 @@ Google has banned AdNauseam from its web store and have left users with no acces
 1. Click the ``Load Unpacked Extension`` button (see image) and navigate to the file you downloaded in step 1 (in most cases it will be in the downloads folder).
 ![image](https://cloud.githubusercontent.com/assets/27123/21674694/83a8a8ba-d337-11e6-8837-7a56f507e8d7.png)
 
-*Note that every time you restart Chrome you will be prompted about your use of "unauthorized extensions". Feel free to ignore it.
+*Note that every time you restart Chrome you will be prompted about your use of ``Disable Developer Mode Extension``. Feel free to ignore it and hit ``cancel``.
+![image](https://cloud.githubusercontent.com/assets/27123/21674871/5041d6c6-d338-11e6-9112-9dcebb5553e6.png)
 
 ### Retrieving your backup
 
