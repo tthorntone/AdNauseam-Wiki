@@ -63,9 +63,27 @@ _First make sure that you are working with the correct commit (check the hash) o
 ------------------
 
 ## DoNotTrack (DNT)
-DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items
+DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 
-&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Headers/Cookies</b>
+
+&nbsp;&nbsp;&nbsp;&nbsp;To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
+
+- DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
+- DNT Cookie handling (v3.1 and later)
+
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Hiding/Clicking</b>
+
+- That DNT list at top of whitelist.html is checked when either DNT option is checked
+- Ads are visible when domain is 1st-party iff disableHidingForDNT is checked
+- Requests are not blocked when domain is 1st-party iff disableHidingForDNT is checked
+- Requests are not blocked when domain is 3rd-party iff disableHidingForDNT is checked
+- No clicking when ad domain is on list iff disableClickingForDNT is checked (especially for 3rd-party)
+- If both DNT options are disabled, then hiding, blocking, visiting occur again as usual
+
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Interface</b>
+
+- Enabling/disabling of DNT options on all permutations of first-run page options 
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Notifications</b>
 - Check that changing the two DNT settings is going to bring DNT notifications with corresponding messages to the menu.  
@@ -74,28 +92,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items
 
 &nbsp; 
 
-&nbsp;&nbsp;&nbsp;&nbsp;<b>Headers</b>
-
-&nbsp;&nbsp;&nbsp;&nbsp;To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
-
-  - DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
-
-&nbsp;&nbsp;&nbsp;&nbsp;<b>Other</b>
-
-&nbsp;
-- That DNT list at top of whitelist.html is checked when either DNT option is checked
-- Ads are visible when domain is 1st-party iff disableHidingForDNT is checked
-- Requests are not blocked when domain is 1st-party iff disableHidingForDNT is checked
-- Requests are not blocked when domain is 3rd-party iff disableHidingForDNT is checked
-
-&nbsp;
-
-- No clicking when ad domain is on list iff disableClickingForDNT is checked (especially for 3rd-party)
-- Enabling/disabling of DNT firewall on all permutations of first-run page options 
-- If both DNT options are disabled, then hiding, blocking, visiting occur again as usual
-- DNT Cookie handling (v3.1 and later)
-
-- [Test Page for DNT 3rd-party](http://chenqianxun.com/testcases/effTestPage.html)
+&nbsp;&nbsp;&nbsp;&nbsp;<i>[Test Page for 3rd-party DNT](http://chenqianxun.com/testcases/effTestPage.html)</i>
 
 ------------------
 
