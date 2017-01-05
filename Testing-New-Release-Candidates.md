@@ -67,14 +67,12 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Headers/Cookies</b>
 
-&nbsp;&nbsp;&nbsp;&nbsp;To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
+&nbsp;&nbsp;&nbsp;&nbsp;To check ad visits headers, click on request in browser's network panel, select 'Headers'
 
 - DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
 - DNT Cookie handling (v3.1 and later)
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Hiding/Clicking</b>
-
-- That DNT list at top of whitelist.html is checked when either DNT option is checked
 - Ads are visible when domain is 1st-party iff disableHidingForDNT is checked
 - Requests are not blocked when domain is 1st-party iff disableHidingForDNT is checked
 - Requests are not blocked when domain is 3rd-party iff disableHidingForDNT is checked
@@ -82,15 +80,10 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 - If both DNT options are disabled, then hiding, blocking, visiting occur again as usual
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Interface</b>
-
-- Enabling/disabling of DNT options on all permutations of first-run page options 
-
-&nbsp;&nbsp;&nbsp;&nbsp;<b>Notifications</b>
-- Check that changing the two DNT settings is going to bring DNT notifications with corresponding messages to the menu.  
-- Check the layout of each DNT notification("?" in the middle)  
-- Check that 'settings' button is going to slide in from right when a DNT notification is on hover. 
-
-&nbsp; 
+- DNT list at top of whitelist.html is checked when either DNT option is checked, otherwise unchecked
+- Enabling/disabling of DNT option for all permutations of clciking/hiding/blocking options on first-run page 
+- Check that changing the two DNT settings will triggger DNT notifications with corresponding messages to the menu  
+- Check the layout of each DNT notification("?" should be in the middle, 'settings' button appears on hover)  
 
 &nbsp;&nbsp;&nbsp;&nbsp;<i>[Test Page for 3rd-party DNT](http://chenqianxun.com/testcases/effTestPage.html)</i>
 
