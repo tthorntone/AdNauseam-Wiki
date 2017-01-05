@@ -60,7 +60,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check that the icon in the toolbar is in green when on DNT pages.
 - Check that the icon in the toolbar is in grey when adnauseam is disabled.
 - Check that the icon in the toolbar is in purple when adnauseam is active.
-- click effect(v3.1 and later)
+- Click effect(v3.1 and later)
 ------------------
 
 ## DoNotTrack (DNT)
@@ -74,7 +74,8 @@ Notifications
 
 &nbsp; 
 
-Headers
+Headers 
+&nbsp;
 To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
 
 - DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
