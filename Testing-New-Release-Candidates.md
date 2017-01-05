@@ -63,11 +63,11 @@ _First make sure that you are working with the correct commit (check the hash) o
 ------------------
 
 ## DoNotTrack (DNT)
-- DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items
+DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items
 
 &nbsp;
 
-  ###Notifications
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Notifications</b>
 - Check that changing the two DNT settings is going to bring DNT notifications with corresponding messages to the menu.  
 - Check the layout of each DNT notification("?" in the middle)  
 - Check that 'settings' button is going to slide in from right when a DNT notification is on hover. 
@@ -75,14 +75,15 @@ _First make sure that you are working with the correct commit (check the hash) o
 &nbsp; 
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Headers</b>
-&nbsp;
+
 &nbsp;&nbsp;&nbsp;&nbsp;To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
 
   - DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
-  - That DNT list at top of whitelist.html is checked when either DNT option is checked
+
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Other</b>
 
 &nbsp;
-
+- That DNT list at top of whitelist.html is checked when either DNT option is checked
 - Ads are visible when domain is 1st-party iff disableHidingForDNT is checked
 - Requests are not blocked when domain is 1st-party iff disableHidingForDNT is checked
 - Requests are not blocked when domain is 3rd-party iff disableHidingForDNT is checked
