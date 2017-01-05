@@ -75,7 +75,7 @@ Notifications
 
 &nbsp; 
 
-Headers 
+Headers   
 &nbsp;
 To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. Or you can try Live HTTP Headers in [tools](#tools) below.
 
