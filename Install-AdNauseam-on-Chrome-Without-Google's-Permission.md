@@ -13,12 +13,14 @@ Google has banned AdNauseam from its web store and have left users with no acces
 1. Download the ZIP file from the [latest release for chrome](https://github.com/dhowe/AdNauseam/releases/latest).
 1. Extract the zip file.
 1. In your Chrome Browser menu, click Windows>Extensions.
-1. Check the ``Developer Mode`` checkbox (see image)
-1. Click the ``Load Unpacked Extension`` button (see image) and navigate to the file you downloaded in step 1 (in most cases it will be in the downloads folder).
+1. Check the ``Developer mode`` checkbox (see image)
+1. Click the ``Load unpacked extension`` button (see image) and navigate to the file you downloaded in step 1 (in most cases it will be in the downloads folder).
 ![image](https://cloud.githubusercontent.com/assets/27123/21674694/83a8a8ba-d337-11e6-8837-7a56f507e8d7.png)
 
-*Note that every time you restart Chrome you will be prompted about your use of ``Disable Developer Mode Extension``. Feel free to ignore it and hit ``cancel``.
+*Note that every time you restart Chrome you will be prompted about your use of ``Disable Developer Mode Extension``. Feel free to ignore it and hit ``Cancel``.
 ![image](https://cloud.githubusercontent.com/assets/27123/21674871/5041d6c6-d338-11e6-9112-9dcebb5553e6.png)
+
+**This is slightly annoying, we know. But hopefully we'll be back on the Google Web Store soon and this will no longer be required.
 
 ### Retrieving your backup
 
