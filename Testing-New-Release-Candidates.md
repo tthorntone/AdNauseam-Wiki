@@ -34,7 +34,10 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check that the dashboard (if open) is updated when notifications change
 - Dashboard::settings (options.html) Check that page refreshes correctly when a notification is 'reactivated'
 - Dashboard::3rd-Party (3p-filters.html) Check that page refreshes correctly when a list-notification is 'reactivated'
-
+- DNT: Go to a DNT page (Ex: duckduckgo.com)
+   Check that changing the two DNT settings is going to bring DNT notifications with corresponding messages to the menu.
+   Check the layout of each DNT notification("?" in the middle)
+   Check that 'settings' button is going to slide in from right when a DNT notification is on hover.
 &nbsp;
 
 ------------------
