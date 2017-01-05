@@ -59,8 +59,9 @@ _First make sure that you are working with the correct commit (check the hash) o
 ## Icon in the toolbar
 - Check that the icon in the toolbar is in green when on DNT pages.
 - Check that the icon in the toolbar is in grey when adnauseam is disabled.
-- Check that the icon in the toolbar is in purple when adnauseam is active.
+- Check that the icon in the toolbar is in purple when adnauseam is active. 
 - Click effect(v3.1 and later)
+
 ------------------
 
 ## DoNotTrack (DNT)
