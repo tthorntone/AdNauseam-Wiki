@@ -266,28 +266,24 @@ If AdNauseam is paused, there could be several scenarios:
 
 #### What does it mean when 'Do Not Track (DNT)' is enabled?
 
-This setting applies for [sites](https://www.eff.org/files/effdntlist.txt) that follow the [EFF](ttps://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard. With 'Do Not Track (DNT)' enabled, AdNauseam will send the DNT header and then allow requests from sites who have committed to respecting DNT.
+This setting applies for [sites](https://www.eff.org/files/effdntlist.txt) that follow the [EFF](ttps://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard. 
+
+With both 'Do Not Track (DNT)' settings enabled, AdNauseam will send the DNT header and then allow all the requests from sites who have committed to respecting DNT.
 
 Technically, the following changes occur when one (or both) of AdNauseam's DNT-exception options are disabled:
 
-* <b>When AdNauseam is not hiding ads for DNT sites (hidingAds=true, disableHidingForDNT=false)</b>
+* <b>When "Don't hide non-tracking Ads" is checked (hidingAds=true, disableHidingForDNT=true)</b>
 
-  * Ads will be collected, but NOT hidden on DNT sites
-  * pending 2
-  * pending 3
+  * Ads will be collected, but NOT hidden on DNT sites (first party).
 
-* <b>When AdNauseam is not clicking ads for DNT sites (clickingAds=true, disableClickingForDNT=false)</b>
+* <b>When "Don't click non-tracking Ads" is checked (clickingAds=true, disableClickingForDNT=true)</b>
 
-  * Ads will be collected, but NOT clicked for DNT sites
-  * pending 2
-  * pending 3
+  * Ads will be collected, but NOT clicked for DNT sites (both first party and third party).
 
-* <b>Either of the above</b>
+* <b>When either of the above is checked</b>
 
-  * The DNT header will be sent for ALL outgoing requests
-  * pending 2
-  * pending 3
-
+  * The DNT header will be sent for ALL outgoing requests (traffic.js)
+  * first party incoming cookies from DNT sites are allowed (core.js)
 
 -----------
 
