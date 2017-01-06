@@ -272,11 +272,11 @@ With both 'Do Not Track (DNT)' settings enabled, AdNauseam will send the DNT hea
 
 Technically, the following changes occur when one (or both) of AdNauseam's DNT-exception options are disabled:
 
-* <b>When "Don't hide non-tracking Ads" is checked (hidingAds=true, disableHidingForDNT=true)</b>
+* <b>When "Don't hide non-tracking Ads" is checked </b> (hidingAds=true, disableHidingForDNT=true)
 
   * Ads will be collected, but NOT hidden on DNT sites (first party).
 
-* <b>When "Don't click non-tracking Ads" is checked (clickingAds=true, disableClickingForDNT=true)</b>
+* <b>When "Don't click non-tracking Ads" is checked </b> (clickingAds=true, disableClickingForDNT=true)
 
   * Ads will be collected, but NOT clicked for DNT sites (both first party and third party).
 
