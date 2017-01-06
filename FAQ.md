@@ -18,6 +18,7 @@
 * [How and why does AdNauseam make exceptions for non-tracking ads?](#how-and-why-does-adnauseam-make-exceptions-for-non-tracking-ads)
 * [What is the EFF's 'Do Not Track' standard and how it is supported in AdNauseam?](#what-is-the-effs-do-not-track-standard-and-how-it-is-supported-in-adnauseam)
 * [What does it mean when the AdNauseam icon turns green?](#what-does-it-mean-when-the-adnauseam-icon-turns-green)
+* [Can I combine AdNauseam with another blocker?](#can-i-combine-adnauseam-with-another-blocker)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
@@ -147,6 +148,10 @@ While visual Ads are not usually blocked by AdNauseam, non-visual trackers as we
 
 #### Does AdNauseam respect the browser's private-browsing/incognito modes?
 Yes, AdNauseam does not collect or click Ads that occur on pages loaded in [private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) or [incognito](https://support.google.com/chromebook/answer/95464?hl=en) windows.
+
+#### Can I combine AdNauseam with another blocker?
+
+This is generally not a good idea, as other blockers (uBlock, Privacy Badger, AdBlock Plus, etc.) may conflict with AdNauseam, and/or each other, and are unlikely to give added protection even in cases where they do not directly conflict.
 
 #### Can I combine AdNauseam and [TrackMeNot](https://cs.nyu.edu/trackmenot/)?
 
