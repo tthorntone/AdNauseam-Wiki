@@ -199,7 +199,7 @@ There are many such instance, both in digital media and beyond. Please see the f
 
 We understand what click-fraud is and do not believe we are engaging in it (nor do the lawyers we have consulted). Turning the tables, we would like to hear why someone holds that AdNauseam _does_ commit click fraud. Would they say the same of anyone who clicks on an Ad in which they are not really interested?
 
-Click-Fraud:  "The practice of repeatedly clicking on an advertisement hosted on a website with the intention of generating revenue for the host site or draining revenue from the advertiser." (from http://clickfraud.org)
+"Click Fraud is the practice of falsely clicking on advertiser’s sponsored links to gain credit for the publisher while charging fraudulent, invalid clicks to the advertiser." (from http://clickfraud.org)
 
 #### But what about "good" sites who don't track -- doesn't AdNauseam also block their ads?
 
