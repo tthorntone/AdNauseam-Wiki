@@ -69,7 +69,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Headers/Cookies</b>
 
 &nbsp;&nbsp;&nbsp;&nbsp;To check ad visits headers, click on request in browser's network panel, select 'Headers'
-&nbsp;&nbsp;&nbsp;&nbsp;s(For a more detailed network logging, you can check Chrome Net-Internals of the [tools](#tools) listed below.)
+&nbsp;&nbsp;&nbsp;&nbsp;(For a more detailed network logging, you can check Chrome Net-Internals of the [tools](#tools) listed below.)
 - DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
 - DNT Cookie handling (v3.1 and later)
 
