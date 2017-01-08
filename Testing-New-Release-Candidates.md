@@ -69,7 +69,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Headers/Cookies</b>
 
 &nbsp;&nbsp;&nbsp;&nbsp;To check ad visits headers, click on request in browser's network panel, select 'Headers'
-
+(For a more detailed network logging, you can check Chrome Net-Internals of the [tools](#tools) listed below.)
 - DNT-header is being sent correctly for ALL requests (including Ad visits) if either disableClickingForDNT and disableHidingForDNT are enabled (and vice versa) 
 - DNT Cookie handling (v3.1 and later)
 
@@ -99,6 +99,8 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 
 ## Ad Visits 
 To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. You can also click on 'XHR' type to filter the requests.
+(For a more detailed network logging, you can check Chrome Net-Internals of the [tools](#tools) listed below.)
+
 - Test that the correct 'referer' header is sent on Ad visits depending on the setting (ad.pageUrl when disabled, or none when enabled) 
 - Test that the correct 'user-agent' header is sent on Ad visits depending on the setting (the usual user-agent when disabled, or default when enabled)  
 - Test that outgoing cookies are sent on Ad visits depending on the setting (the usual cookies when disabled, or none when enabled)  
