@@ -2,7 +2,7 @@
 
 ### Back up your data
 
-(if you're a new AdNauseam user jump to [Manual Install](#manual-install))
+(if you're a new AdNauseam user jump to [Manual Install](#manual-install-in-developer-mode))
 
 1. Click on the AdNauseam icon to open the AdNauseam menu
 2. Click the ``SETTINGS`` button at the bottom of the menu
