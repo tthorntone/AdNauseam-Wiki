@@ -1,4 +1,4 @@
-##### Setup (on OS X)
+##### Setup (on OS X  only, linux instructions pending)
 
 * First, install [jq](https://stedolan.github.io/jq/) if you don't have it 
 * Then do the following from the terminal:
