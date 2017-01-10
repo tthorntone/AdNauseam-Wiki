@@ -122,7 +122,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 ## Check Blocking
 - Check that the request from the following test page is blocked by adnauseam by using the uBlock logger. 
-http://chenqianxun.com/testcases/block.html
+[here](http://chenqianxun.com/testcases/block.html)
 
 ------------------
 &nbsp;
