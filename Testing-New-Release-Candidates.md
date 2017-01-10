@@ -119,6 +119,12 @@ To check headers for ad visits, please go to developer tools of the browser -> N
   _Test this for only AdBlock Plus installed, only uBlock/uBlock Origin, and both installed_
 
 ------------------
+
+## Check Blocking
+- Check that the request from the following test page is blocked by adnauseam by using the uBlock logger. 
+http://chenqianxun.com/testcases/block.html
+
+------------------
 &nbsp;
 
 ## Tools 
