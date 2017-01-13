@@ -87,7 +87,7 @@ _Note: you should always disable other adblockers while using AdNauseam_
 It is possible, but since your adblocker will likely block some, or all, of the Ads AdNauseam is collecting, this is NOT recommended. For the best experience, you should disable other adblockers while using AdNauseam.
 
 #### What is AdNauseam's performance like? Will it speed up or slow down my browsing?
-AdNauseam is faster and safer than using either Adblock Plus (and its variants), or using no blocker at all. On the other hand, it is slower than a high-quality adblocker like uBlock, as it must allow certain requests (in order to collect Ads) that uBlock is able to block. While it depends on the types of pages visited, in our subjective experience, the difference between browsing with AdNauseam and uBlock is minimal.
+AdNauseam is faster and safer than using either Adblock Plus (and its variants), or using no blocker at all. On the other hand, it is slower than a high-quality adblocker (uBlock, for example) as it must allow certain requests (in order to collect Ads) that these are able to block. 
 
 ![Benchmark](https://raw.githubusercontent.com/cqx931/AdNauseam/images/wikiImage/20160111.png)  
 
