@@ -89,7 +89,7 @@ It is possible, but since your adblocker will likely block some, or all, of the 
 #### What is AdNauseam's performance like? Will it speed up or slow down my browsing?
 AdNauseam is faster and safer than using either Adblock Plus (and its variants), or using no blocker at all. On the other hand, it is slower than a high-quality adblocker (uBlock, for example) as it must allow certain requests (in order to collect Ads) that these are able to block outright. 
 
-![Benchmark](https://raw.githubusercontent.com/cqx931/AdNauseam/images/wikiImage/20160111.png)  
+![Benchmark](https://raw.githubusercontent.com/cqx931/AdNauseam/images/wikiImage/20160113.png)  
 
 Tested on the [top 15 most popular news sites](http://www.ebizmba.com/articles/news-websites), Jan 11, 2017<br/>
 AdNauseam v3.1.20, Adblock Plus v1.12.4  
