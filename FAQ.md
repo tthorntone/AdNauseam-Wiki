@@ -87,7 +87,7 @@ _Note: you should always disable other adblockers while using AdNauseam_
 It is possible, but since your adblocker will likely block some, or all, of the Ads AdNauseam is collecting, this is NOT recommended. For the best experience, you should disable other adblockers while using AdNauseam.
 
 #### What is AdNauseam's performance like? Will it speed up or slow down my browsing?
-AdNauseam is faster and safer than using either Adblock Plus (and its variants), or using no blocker at all. On the other hand, it is slower than a high-quality adblocker (uBlock, for example) as it must allow certain requests (in order to collect Ads) that these are able to block. 
+AdNauseam is faster and safer than using either Adblock Plus (and its variants), or using no blocker at all. On the other hand, it is slower than a high-quality adblocker (uBlock, for example) as it must allow certain requests (in order to collect Ads) that these are able to block outright. 
 
 ![Benchmark](https://raw.githubusercontent.com/cqx931/AdNauseam/images/wikiImage/20160111.png)  
 
@@ -146,12 +146,12 @@ Once an Ad has been detected, CSS is used to render it invisible and to collapse
 
 #### How does AdNauseam "click Ads"?
 
-AdNauseam 'clicks' Ads by issuing an HTTP request to the URL to which they lead. In current versions the is done via an XMLHttpRequest (or AJAX request) issued in a background process. This lightweight request signals a 'click' on the server responsible for the Ad, but does so without opening any additional windows or pages on your computer. Further it allows AdNauseam to safely receive and discard the resulting response data, rather than executing it in the browser, thus preventing a range of potential security problems (rogue Javascript or Flash code, XSS-attacks, etc.) caused by malfunctioning or malicious Ads. AdNauseam's clicking behaviour can be de-/activated in the settings panel.
+AdNauseam 'clicks' Ads by issuing an HTTP request to the URL to which they lead. In current versions the is done via an XMLHttpRequest (or AJAX request) issued in a background process. This lightweight request signals a 'click' on the server responsible for the Ad, but does so without opening any additional windows or pages on your computer. Further it allows AdNauseam to safely receive and discard the resulting response data, rather than executing it in the browser, thus preventing a range of potential security problems (ransomware, rogue Javascript or Flash code, XSS-attacks, etc.) caused by malfunctioning or malicious Ads. Although it is completely safe, AdNauseam's clicking behaviour can be de-activated in the settings panel.
 
 
 #### How does AdNauseam "Block Malicious Ads"?
 
-While visual Ads are not usually blocked by AdNauseam, non-visual trackers as well as potentially malicious content, can be blocked altogether. The detection of domains known to deliver such content is managed in the same set of user-configurable filter lists used to detect visual Ads. Additionally, AdNauseam's blocking behavior can be de-/activated in the settings panel, either for a site, a page, or globally (though this last option is strongly discouraged).
+While visual Ads are not usually blocked by AdNauseam, beacons, non-visual trackers, and other potentially malicious content can be blocked altogether. The detection of domains known to deliver such content is managed via the same set of user-configurable filter lists used to detect visual Ads. Additionally, AdNauseam's blocking behavior can be de-/activated in the settings panel, either for a site, a page, or globally (though this last option is strongly discouraged).
 
 #### Does AdNauseam respect the browser's private-browsing/incognito modes?
 Yes, AdNauseam does not collect or click Ads that occur on pages loaded in [private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) or [incognito](https://support.google.com/chromebook/answer/95464?hl=en) windows.
