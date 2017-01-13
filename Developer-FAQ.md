@@ -72,6 +72,7 @@ First check whether the ad is appearing in uBlock. If it is, then this is not an
 1.  You should now see the # of 'AdNauseam filters' increase to include your new rule
 1.  Test by visiting the page in question to verify the ad is now hidden
 1.  Before you commit the changes, please run tools/update-ublock.sh to generate a new checksum for adnauseam.txt
+(The checksum always matches with the content in the file, so please generate the checksum with the latest content and then commit the changes)
 1.  Now you should see that both adnauseam.txt and ublock0.txt have changed
 
 -----------
