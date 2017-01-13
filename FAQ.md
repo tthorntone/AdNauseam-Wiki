@@ -91,8 +91,10 @@ AdNauseam is faster and safer than using either Adblock Plus (and its variants),
 
 ![Benchmark](https://raw.githubusercontent.com/cqx931/AdNauseam/images/wikiImage/20160111.png)  
 
-Test: [Top 15 most popular news sites](http://www.ebizmba.com/articles/news-websites), Jan 11, 2017
-AdNauseam version: 3.1.20, Adblock Plus version: 1.12.4  
+Test: [Top 15 most popular news sites](http://www.ebizmba.com/articles/news-websites), Jan 11, 2017<br/>
+AdNauseam v3.1.20, Adblock Plus v1.12.4  
+
+&nbsp;
 
 #### Are you also tracking my clicks on your own servers?
 No, we do not collect any information on users whatsoever.
