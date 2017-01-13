@@ -91,8 +91,8 @@ AdNauseam is faster and safer than using either Adblock Plus (and its variants),
 
 ![Benchmark](https://raw.githubusercontent.com/cqx931/AdNauseam/images/wikiImage/20160113.png)  
 
-Tested on the [top 15 most popular news sites](http://www.ebizmba.com/articles/news-websites), Jan 11, 2017<br/>
-AdNauseam v3.1.20, Adblock Plus v1.12.4  
+Tested on the [top 15 most popular news sites](http://www.ebizmba.com/articles/news-websites), Jan 13, 2017<br/>
+AdNauseam v3.1.20, Adblock Plus v1.12.4, AdBlock v3.8.4
 
 &nbsp;
 
