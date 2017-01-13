@@ -9,9 +9,10 @@
 * [How does AdNauseam "Hide Ads"?](#how-does-adnauseam-hide-ads)
 * [How does AdNauseam "Click Ads"?](#how-does-adnauseam-click-ads)
 * [How does AdNauseam "Block Malicious Ads"?](#how-does-adnauseam-block-malicious-ads)
+* [What is AdNauseam's performance like? Will it speed up or slow down my browsing?](#what-is-adnauseams-performance-like-will-it-speed-up-or-slow-down-my-browsing)
+* [Does AdNauseam's clicking put me at risk for malicious Ads or ransomware?](#does-adnauseams-clicking-put-me-at-risk-for-malicious-ads-or-ransomware?)
 * [How does AdNauseam estimate the click cost it shows in the menu and vault?](#how-does-adnauseam-estimate-the-click-cost-it-shows-in-the-menu-and-vault)
 * [Does AdNauseam respect the browser's private-browsing/incognito modes?](#does-adnauseam-respect-the-browsers-private-browsingincognito-modes)
-* [What is AdNauseam's performance like? Will it speed up or slow down my browsing?](#what-is-adnauseams-performance-like-will-it-speed-up-or-slow-down-my-browsing)
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
 * [Who can tell that I’m using AdNauseam?](#who-can-tell-that-im-using-adnauseam)
 * [Does AdNauseam's automatic ad clicking create billable events for advertisers?](#does-adnauseams-automatic-ad-clicking-create-billable-events-for-advertisers)
@@ -95,6 +96,9 @@ Tested on the [top 15 most popular news sites](http://www.ebizmba.com/articles/n
 AdNauseam v3.1.2, Adblock Plus v1.12.4, AdBlock v3.8.4
 
 &nbsp;
+
+####Does AdNauseam's clicking put me at risk for malicious Ads or ransomware?
+Absolutely not. AdNauseam simulates clicks on Ads by issuing an AJAX request to the adserver in a background process. This request is made without opening any additional windows or pages on your computer. The text-only request is safely discarded by AdNauseam before it has a chance to execute in the browser (no DOM is constructed and no code is ever allowed to run). Further, all cookies from AdNauseam's visits are automatically blocked before they reach the browser's local storage.
 
 #### Are you also tracking my clicks on your own servers?
 No, we do not collect any information on users whatsoever.
