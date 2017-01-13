@@ -214,7 +214,7 @@ We understand what click-fraud is and do not believe we are engaging in it (nor 
 
 #### But what about "good" sites who don't track -- doesn't AdNauseam also block their ads?
 
-We very much agree that users should be allowed to 'whitelist' whatever sites they want to support. In fact, this is why we provide built-in support for the [EFF's Do Not Track](#how-and-why-does-adnauseam-make-exceptions-for-non-tracking-ads) mechanism to support sites that pledge to respect user privacy. But you can also whitelist any site, whether or not they are on the EFF's list. To learn how to add a site to your whitelist, see this [page](https://github.com/dhowe/AdNauseam/wiki/Whitelisting). 
+We very much believe that users should be allowed to 'whitelist' any and all sites they want to support. In fact, this is why we provide built-in support for the [EFF's Do Not Track](#how-and-why-does-adnauseam-make-exceptions-for-non-tracking-ads) mechanism to support sites that pledge to respect user privacy. But you can also whitelist any site, whether or not they are on the EFF's list. To learn how to add a site to your whitelist, see this [page](https://github.com/dhowe/AdNauseam/wiki/Whitelisting). 
 
 #### What is the "end goal" of AdNauseam? Confusing data so it becomes useless for advertisers and forces them to react?
 
