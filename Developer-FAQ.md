@@ -18,7 +18,7 @@
 * [What does it mean for AdNauseam to appear as 'paused' in the menu?](#what-does-it-mean-for-adnauseam-to-appear-as-paused-in-the-menu)
 * [What does it mean when 'Do Not Track (DNT)' is enabled?](#what-does-it-mean-when-do-not-track-dnt-is-enabled)
 * [What is the data format for Ad imports/exports?](#what-is-the-data-format-for-ad-importsexports)
-
+* [What is uAsset and how does it work?]
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
@@ -296,6 +296,11 @@ Technically, the following changes occur when one (or both) of AdNauseam's DNT-e
 
 -----------
 
+#### What is uAsset and how does it work?
+
+(pending)
+
+-----------
 ####How do I view AdNauseam-specific network events in the addon console?
 
 To view such events (blocks, allows, cookies, headers, etc.), enable the `netLogging` flag in core.js, then open the addon console as usual
