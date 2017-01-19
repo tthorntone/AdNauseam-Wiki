@@ -292,7 +292,17 @@ Technically, the following changes occur when one (or both) of AdNauseam's DNT-e
 
 #### What is the data format for Ad imports/exports
 
-(pending)
+AdNauseam uses JSON format to store the exported ads. The basic structure of the file is as following:
+->Unique hash for the page where the following ads are found
+   -> Unique ad-hash
+      -> Ad Content
+   ->Unique ad-hash
+      -> Ad Content
+
+**attemptedTs**:a temporary timestamp when an ad visit is attempted. It will be reset to 0 when the visit progress ends. 
+**visitedTs**: the timestamp for an ad-visit in milliseconds; is either 0 (the initial-value), a positive-timestamp on a successful visit, or a negative timestamp on failure. 
+**foundTs**: the timestamp for when the ad was initially found 
+**requestID**: a unique ID generated from URI string of the web request 
 
 -----------
 
