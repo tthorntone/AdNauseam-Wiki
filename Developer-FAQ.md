@@ -299,9 +299,9 @@ AdNauseam uses JSON format to store the exported ads. The basic structure of the
  * Unique ad-hash  
    * Ad Content  
 
+**foundTs**: the timestamp for when the ad was initially found  
 **attemptedTs**:a temporary timestamp when an ad visit is attempted. It will be reset to 0 when the visit progress ends.   
 **visitedTs**: the timestamp for an ad-visit in milliseconds; is either 0 (the initial-value), a positive-timestamp on a successful visit, or a negative timestamp on failure.   
-**foundTs**: the timestamp for when the ad was initially found   
 **requestID**: a unique ID generated from URI string of the web request   
 
 -----------
