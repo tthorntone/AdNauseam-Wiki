@@ -32,6 +32,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Test that all (i)nfo buttons lead to correct FAQ pages in each tab
 - On settings tab (options.html) check that when clicking or hiding are disabled, then all of their sub-items are also disabled
 - Test import/export/clear ads functions
+- Test whitelist
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Toolbar Icon</b>
 - Check that the icon in the toolbar is in purple when AdNauseam is active
