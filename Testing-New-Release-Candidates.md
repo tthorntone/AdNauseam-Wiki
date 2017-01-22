@@ -43,7 +43,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Notifications</b>
 - Check that disabling hiding, clicking, or blocking on the first-run generates a notification warning at the top of the dashboard (all tabs), menu, and vault page (after first-run is closed or 'ok' is clicked). 
 - Check that disabling hiding, clicking, or blocking on the dashboard/options page generates a notification warning at the top of the dashboard(all tabs), menu, and vault page. 
-- Check that disabling EasyList on the dashboard/3p-filters page generates a notification warning at the top of the dashboard(all tabs), menu, and vault page. 
+- Check that disabling EasyList/AdNauseam filters on the dashboard/3p-filters page generates a notification warning at the top of the dashboard(all tabs), menu, and vault page. 
 - Check that clicking 'reactivate' on a notification warning at the top of the dashboard, menu, or vault pages causes the visual state to change correctly, and the setting in question to be updated correctly. 
 - Check that the vault (if open) is updated when notifications change
 - Check that the dashboard (if open) is updated when notifications change
