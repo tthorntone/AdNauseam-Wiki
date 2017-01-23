@@ -290,16 +290,18 @@ Technically, the following changes occur when one (or both) of AdNauseam's DNT-e
 
 -----------
 
-#### What is the data format for Ad imports/exports
+#### What is the data format for Ad imports/exports?
 
-AdNauseam uses JSON format to store the exported ads. The basic structure of the file is as follows:  
+AdNauseam uses JSON format to store the exported ads. 
+The basic structure of the file is as follows:  
 * Unique hash for the page where the following ads are found  
  * Unique hash for the Ad itself
    * Ad Content  
  * Unique hash for the Ad itself
    * Ad Content  
 
-The fields of an Ad include:
+The fields of each Ad include:
+* **id**: a non-persistent sequential identifier
 * **contentType**: the type of Ad, either 'img' or 'text'
 * **contentData**: the 'data', src/width/height for image Ads, site/text/title for text Ads
 * **title**: the title of the page the Ad leads to
