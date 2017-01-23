@@ -292,26 +292,25 @@ Technically, the following changes occur when one (or both) of AdNauseam's DNT-e
 
 #### What is the data format for Ad imports/exports
 
-AdNauseam uses JSON format to store the exported ads. The basic structure of the file is as following  
-{
+AdNauseam uses JSON format to store the exported ads. The basic structure of the file is as follows:  
+
 * Unique hash for the page where the following ads are found  
  * Unique hash for the Ad itself
    * Ad Content  
  * Unique hash for the Ad itself
    * Ad Content  
-}
 
-**contentType**: the type of Ad, either 'img' or 'text'
-**contentData**: the Ad's 'data', src/width/height for an image Ad, or site/text/title for a text Ad
-**title**: the title of the page the Ad resolves to
-**targetUrl**: the link for the Ad (the URL loaded if the ad was to be clicked)
-**resolvedTargetUrl**: the final link for the Ad (after however many redirects)
-**pageUrl**: the url of the page the Ad was found on
-**pageTitle**: the title of the page the Ad was found on
-**foundTs**: the timestamp for when the Ad was initially found  
-**attemptedTs**:a timestamp when the last attempt to visit the Ad was made
-**visitedTs**: the timestamp for an visit in ms; either 0 (before it has been attempted), a positive-timestamp for a successful visit, or a negative timestamp on failure   
-**version**: the version of AdNauseam that created the Ad
+* **contentType**: the type of Ad, either 'img' or 'text'
+* **contentData**: the Ad's 'data', src/width/height for an image Ad, or site/text/title for a text Ad
+* **title**: the title of the page the Ad resolves to
+* **targetUrl**: the link for the Ad (the URL loaded if the ad was to be clicked)
+* **resolvedTargetUrl**: the final link for the Ad (after however many redirects)
+* **pageUrl**: the url of the page the Ad was found on
+* **pageTitle**: the title of the page the Ad was found on
+* **foundTs**: the timestamp for when the Ad was initially found  
+* **attemptedTs**:a timestamp when the last attempt to visit the Ad was made
+* **visitedTs**: the timestamp for an visit in ms; either 0 (before it has been attempted), a positive-timestamp for a successful visit, or a negative timestamp on failure   
+* **version**: the version of AdNauseam that created the Ad
 
 -----------
 
