@@ -18,7 +18,7 @@
 * [What does it mean for AdNauseam to appear as 'paused' in the menu?](#what-does-it-mean-for-adnauseam-to-appear-as-paused-in-the-menu)
 * [What does it mean when 'Do Not Track (DNT)' is enabled?](#what-does-it-mean-when-do-not-track-dnt-is-enabled)
 * [What is the data format for Ad imports/exports?](#what-is-the-data-format-for-ad-importsexports)
-* [What is uAsset and how does it work?](#what-is-uasset-and-how-does-it-work)
+* [What is uAssets and how does it work?](#what-is-uassets-and-how-does-it-work)
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
@@ -292,21 +292,30 @@ Technically, the following changes occur when one (or both) of AdNauseam's DNT-e
 
 #### What is the data format for Ad imports/exports
 
-AdNauseam uses JSON format to store the exported ads. The basic structure of the file is as following:  
+AdNauseam uses JSON format to store the exported ads. The basic structure of the file is as following  
+{
 * Unique hash for the page where the following ads are found  
- * Unique ad-hash  
+ * Unique hash for the Ad itself
    * Ad Content  
- * Unique ad-hash  
+ * Unique hash for the Ad itself
    * Ad Content  
+}
 
-**foundTs**: the timestamp for when the ad was initially found  
-**attemptedTs**:a temporary timestamp when an ad visit is attempted. It will be reset to 0 when the visit progress ends.   
-**visitedTs**: the timestamp for an ad-visit in milliseconds; is either 0 (the initial-value), a positive-timestamp on a successful visit, or a negative timestamp on failure.   
-**requestID**: a unique ID generated from URI string of the web request   
+**contentType**: the type of Ad, either 'img' or 'text'
+**contentData**: the Ad's 'data', src/width/height for an image Ad, or site/text/title for a text Ad
+**title**: the title of the page the Ad resolves to
+**targetUrl**: the link for the Ad (the URL loaded if the ad was to be clicked)
+**resolvedTargetUrl**: the final link for the Ad (after however many redirects)
+**pageUrl**: the url of the page the Ad was found on
+**pageTitle**: the title of the page the Ad was found on
+**foundTs**: the timestamp for when the Ad was initially found  
+**attemptedTs**:a timestamp when the last attempt to visit the Ad was made
+**visitedTs**: the timestamp for an visit in ms; either 0 (before it has been attempted), a positive-timestamp for a successful visit, or a negative timestamp on failure   
+**version**: the version of AdNauseam that created the Ad
 
 -----------
 
-#### What is uAsset and how does it work?
+#### What is uAssets and how does it work?
 
 (pending)
 
