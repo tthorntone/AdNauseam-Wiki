@@ -25,6 +25,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check that AdNauseam logo in the bottom-right corner links correctly to homepage  
 - Check correct calculation of ad cost (and $$$ updates according to date-filter, hidden if no ads)
 - Test import/export/clear functions
+- Right click on an ad and delete it. Refresh the page and check that it is successfully deleted
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Dashboard</b>
 - Check 2 version numbers in 'About' page (links.html)
