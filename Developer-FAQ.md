@@ -293,16 +293,16 @@ Technically, the following changes occur when one (or both) of AdNauseam's DNT-e
 #### What is the data format for Ad imports/exports
 
 AdNauseam uses JSON format to store the exported ads. The basic structure of the file is as follows:  
-
 * Unique hash for the page where the following ads are found  
  * Unique hash for the Ad itself
    * Ad Content  
  * Unique hash for the Ad itself
    * Ad Content  
 
+The fields of an Ad include:
 * **contentType**: the type of Ad, either 'img' or 'text'
-* **contentData**: the Ad's 'data', src/width/height for an image Ad, or site/text/title for a text Ad
-* **title**: the title of the page the Ad resolves to
+* **contentData**: the 'data', src/width/height for image Ads, site/text/title for text Ads
+* **title**: the title of the page the Ad leads to
 * **targetUrl**: the link for the Ad (the URL loaded if the ad was to be clicked)
 * **resolvedTargetUrl**: the final link for the Ad (after however many redirects)
 * **pageUrl**: the url of the page the Ad was found on
