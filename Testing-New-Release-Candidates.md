@@ -131,6 +131,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 ## Test Update
 - Test Manual Update
+ - Check that adnauseam.txt will get updated(rules count changed after update) and the new rules are functioning
 - Test Auto Update
 
 ------------------
