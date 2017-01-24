@@ -80,7 +80,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 - Requests are not blocked when domain is 1st-party iff disableHidingForDNT is checked
 - Requests are not blocked when domain is 3rd-party iff disableHidingForDNT is checked
 - No clicking when ad domain is on list iff disableClickingForDNT is checked (especially for 3rd-party)
-- If both DNT options are disabled, then hiding, blocking, visiting occur again as usual
+- If both DNT options are disabled, then hiding, blocking, visiting occur again as usual(both first pary and 3-rd party)
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Interface</b>
 - DNT list at top of whitelist.html is checked when either DNT option is checked, otherwise unchecked
