@@ -128,6 +128,12 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 [here](http://chenqianxun.com/testcases/block.html)
 
 ------------------
+
+## Test Update
+- Test Manual Update
+- Test Auto Update
+
+------------------
 &nbsp;
 
 ## Tools 
