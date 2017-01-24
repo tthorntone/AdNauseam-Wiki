@@ -40,6 +40,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check that the icon in the toolbar is in grey when AdNauseam is disabled
 - Check that the icon in the toolbar is in green when on DNT pages
 - Icon should animate each time an Ad is clicked (>= v3.1)
+- double check that the badge number is correctly updated
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Notifications</b>
 - Check that disabling hiding, clicking, or blocking on the first-run generates a notification warning at the top of the dashboard (all tabs), menu, and vault page (after first-run is closed or 'ok' is clicked). 
