@@ -16,6 +16,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Hover over Ad images and check zooming
 - Check there is no text overlap in the menu for text ads
 - Check the uBlock version number(in uBlock menu)
+- Menu shows "AdNauseam is paused on current pages" when AdNauseam is paused, and make sure that the layout is correct.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Vault</b>
 - Verify loading animation, and centering/scaling of Ads on load
@@ -130,7 +131,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 ------------------
 
 ## Test Update
-- Test Manual Update
+- Test Manual Update by clicking "Update Now" in settings page
  - Check that adnauseam.txt will get updated(rules count changed after update) and the new rules are functioning
 - Test Auto Update
 
