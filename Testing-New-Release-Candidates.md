@@ -141,7 +141,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 - Test Auto Update
  Check the same thing above with a different procedure:
  1.  Go to assets.js and change two variables in assetUpdater:   
-      autoUpdateDaemonTimerPeriod   = 2 * 1000; // 2 seconds
+      autoUpdateDaemonTimerPeriod   = 2 * 1000; // 2 seconds  
       updateCycleFirstPeriod  =  30 * 1000; //  30 seconds
  1.  Rebuild AdNauseam
  1.  Delete and reinstall AdNauseam
