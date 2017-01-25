@@ -139,7 +139,15 @@ To check headers for ad visits, please go to developer tools of the browser -> N
     - The total rules of adnauseam has been updated
     - The rules are functioning when test on webpage.
 - Test Auto Update
-
+ Check the same thing above with a different procedure:
+ 1.  Go to assets.js and change two variables in assetUpdater:   
+      autoUpdateDaemonTimerPeriod   = 2 * 1000; // 2 seconds
+      updateCycleFirstPeriod  =  30 * 1000; //  30 seconds
+ 1.  Rebuild AdNauseam
+ 1.  Delete and reinstall AdNauseam
+ 1.  Activate debugging mode and open the background.html page to observe the console
+ 1.  Wait till the autoUpdate triggers and check whether there is any error message in the console
+ 1.  Check the same things as above.
 ------------------
 &nbsp;
 
