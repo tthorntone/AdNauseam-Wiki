@@ -132,7 +132,12 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 ## Test Update
 - Test Manual Update by clicking "Update Now" in settings page
- - Check that adnauseam.txt will get updated(rules count changed after update) and the new rules are functioning
+ 1.Change the local uAsset and run tools/update-ublock0.sh to generate a new checksum
+ 1.rebuild AdNauseam
+ 1.Click "Update Now" in Settings Page and check 
+   - A request has been made to fetch adnauseam.txt from github
+   - The total rules of adnauseam has been updated
+   - The rules are functioning when test on webpage.
 - Test Auto Update
 
 ------------------
