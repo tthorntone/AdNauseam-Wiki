@@ -23,6 +23,8 @@ or
 
 4. To view console messages, go to ```chrome://extensions/```, and select 'background.html' under the AdNauseam entry
 
+<br>
+
 ##### For Firefox:
 
   _Note: [Developer](https://www.mozilla.org/en-US/firefox/developer/) builds are now required for development_
@@ -42,12 +44,25 @@ or
 
 5. To view console messages, select the ```Tools->Web Developer->Browser Console``` menu option
 
+<br>
 
 ##### For Firefox (with WebExtensions - _experimental_):
 
 1. Install the 'web-ext' tool: 
 
      ````$ npm install --global web-ext```` 
+
+2. Make sure you have [jpm](https://www.npmjs.com/package/jpm) installed
+
+3. In terminal:` $ tools/run-webext-ff.sh`
+
+4. (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to _run-ff.sh_:
+
+    ````$ tools/run-webext-ff.sh /path/to/profile```` 
+
+5. To view console messages, select the ```Tools->Web Developer->Browser Console``` menu option
+
+<br>
 
 ##### Next
 
