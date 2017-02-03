@@ -48,7 +48,7 @@ or
 
 <br>
 
-##### For Firefox (with WebExtensions - _experimental_):
+##### For Firefox with WebExtensions (_experimental_):
 
 1. Make sure to have the [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext) tool installed. 
 
