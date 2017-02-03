@@ -8,6 +8,8 @@ $ git clone https://github.com/dhowe/uAssets.git
 $ cd AdNauseam
 ```
 
+<br>
+
 ##### For Chromium / Opera:
 
 1. Build the extension (via the terminal)
@@ -42,6 +44,10 @@ or
 
 
 ##### For Firefox (with WebExtensions - _experimental_):
+
+1. Install the 'web-ext' tool: 
+
+     ````$ npm install --global web-ext```` 
 
 ##### Next
 
