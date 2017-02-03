@@ -125,8 +125,13 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 ------------------
 
 ## Check Blocking
-- Check that the request from the following test page is blocked by adnauseam by using the uBlock logger. 
+- Check that the request from the following test page is blocked by adnauseam by using the uBlock logger 
 [here](http://chenqianxun.com/testcases/block.html)
+
+------------------
+
+## Check Element-picker tool
+- Go to some web page with a visible ad, then right-click, select 'Block element', create a rule to hide the element
 
 ------------------
 
