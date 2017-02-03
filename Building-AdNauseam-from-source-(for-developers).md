@@ -41,6 +41,8 @@ or
 5. To view console messages, select the ```Tools->Web Developer->Browser Console``` menu option
 
 
+##### For Firefox (with WebExtensions - _experimental_):
+
 ##### Next
 
 - Visit the [The Developer FAQ](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ)
