@@ -130,7 +130,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 ------------------
 
-## Check Element-picker tool
+## Check Element-picker Tool
 - Go to some web page with a visible ad, then right-click, select 'Block element', create a rule to hide the element
 
 ------------------
