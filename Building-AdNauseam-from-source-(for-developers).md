@@ -50,19 +50,15 @@ or
 
 ##### For Firefox (with WebExtensions - _experimental_):
 
-1. Install the 'web-ext' tool: 
+1. Make sure to have the [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext) tool installed. 
 
-     ````$ npm install --global web-ext```` 
+2. In terminal:` $ tools/run-webext-ff.sh`
 
-2. Make sure you have [jpm](https://www.npmjs.com/package/jpm) installed
-
-3. In terminal:` $ tools/run-webext-ff.sh`
-
-4. (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to _run-ff.sh_:
+3. (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to _run-ff.sh_:
 
     ````$ tools/run-webext-ff.sh /path/to/profile```` 
 
-5. To view console messages, select the ```Tools->Web Developer->Browser Console``` menu option
+4. To view console messages, select the ```Tools->Web Developer->Browser Console``` menu option
 
 <br>
 
