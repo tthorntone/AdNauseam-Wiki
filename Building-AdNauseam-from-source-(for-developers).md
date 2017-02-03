@@ -52,11 +52,11 @@ or
 
 1. Make sure to have the [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext) tool installed. 
 
-2. In terminal:` $ tools/run-webext-ff.sh`
+2. In terminal:` $ tools/run-webext.sh`
 
 3. (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to _run-ff.sh_:
 
-    ````$ tools/run-webext-ff.sh /path/to/profile```` 
+    ````$ tools/run-webext.sh /path/to/profile```` 
 
 4. To view console messages, select the ```Tools->Web Developer->Browser Console``` menu option
 
