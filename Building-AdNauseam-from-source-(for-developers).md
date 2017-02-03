@@ -1,3 +1,5 @@
+<br>
+
 ##### Setup (on OS X  only, linux instructions pending)
 
 * First, install [jq](https://stedolan.github.io/jq/) if you don't have it 
@@ -64,7 +66,7 @@ or
 
 <br>
 
-##### Next
+##### Next...
 
 - Visit the [The Developer FAQ](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ)
 
