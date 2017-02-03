@@ -21,7 +21,7 @@ or
 
 2. Open the browser and go to settings, with URL ```chrome://extensions/```
 
-3. Enable Developer mode in the settings page and load extension from ```/bin/build/adnauseam.chromium``` or ```/bin/build/adnauseam.opera```
+3. Enable Developer mode in the settings page and load extension from ```/dist/build/adnauseam.chromium``` or ```/dist/build/adnauseam.opera```
 
 4. To view console messages, go to ```chrome://extensions/```, and select 'background.html' under the AdNauseam entry
 
