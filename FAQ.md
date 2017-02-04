@@ -37,6 +37,7 @@
 * [But what about "good" sites who don't track -- doesn't AdNauseam also block their Ads?](#but-what-about-good-sites-who-dont-track----doesnt-adnauseam-also-block-their-ads)
 * [What is the "end goal" of AdNauseam?](#what-is-the-end-goal-of-adnauseam-confusing-data-so-it-becomes-useless-for-advertisers-and-forces-them-to-react)
 * [Is there a business model behind AdNauseam?](#is-there-a-business-model-behind-adnauseam-do-you-consider-yourself-a-business-or-is-it-solely-to-make-some-kind-of-a-statement-about-the-state-of-web-advertising)
+* [Donations / is that your REAL business model?](#donations-is-that-your-real-business-model)
 * [What about "Native Advertising?"](#are-you-concerned-that-adblocking-technology-is-part-of-the-reason-companies-like-facebook-are-so-keen-to-deploy-native-advertising----ads-that-masquerade-as-editorial-content)
 
 
@@ -223,6 +224,16 @@ Yes, one goal of AdNauseam is protecting users from privacy violations and other
 #### Is there a business model behind AdNauseam? Do you consider yourself a business, or is it solely to make some kind of a statement about the state of web advertising?
 
 There is no business model behind AdNauseam. It is simply an attempt by concerned individuals to address abuses against users by powerful corporate entities. The software is and will remain free and open-source and will never surreptitiously collect data on users.
+
+#### Donations / is that your REAL business model?
+
+So you're thinking of donating to AdNauseam. First of all, thanks. We really appreciate it. If you can write JavaScript code, this is [our favorite donation currency](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers)).
+
+Otherwise, we are very happy with Bitcoin donations. Why Bitcoin? Because it's anonymous and comes with no strings attached. AdNauseam is a purely volunteer research effort and **we have no business model** whatsoever. Donations will help us pay for swag like stickers, t-shirts, or an occasional beer to drink (responsibly) next to the laptop, stuff that could help advance the project. Donations will never be mission critical and will _never_ dictate if, when, or how a feature is developed or a decision is made.
+
+If this sounds fair to you and you still want to show your support through a donation, please use the following Bitcoin address: 1NiwkdL8Dm9DiTxp7uxNVDnxESAotg6En2
+
+And again, thank you. 
 
 #### Are you concerned that adblocking technology is part of the reason companies like Facebook are so keen to deploy "native advertising" -- Ads that masquerade as editorial content?
 
