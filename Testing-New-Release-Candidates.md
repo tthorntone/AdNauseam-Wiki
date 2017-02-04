@@ -59,8 +59,8 @@ _First make sure that you are working with the correct commit (check the hash) o
 * Test a set of pages, and make sure that ads are being captured and visited   
   * ImageAds: visit Facebook/Youtube/Amazon... and verify ads are hidden and appear in menu
   * TextAds: visit Google/Ask/Yahoo/Bing/DuckDuckGo to search for keywords such as "credit card" or "loan"
-*  Test Ad-parsing from within dynamically-created iFrames [here](http://rednoise.org/adntest/dynamic_iframe.html)
-*  Test Ad-parsing from cosmetically filtered iFrames (without cosmetic filters for any contained elements)  [here](http://rednoise.org/adntest/iframe-cosm.html)                       
+*  Test Ad-parsing from within dynamically-created iFrames [here](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe.html)
+*  Test Ad-parsing from cosmetically-filtered iFrames (without cosmetic filters for any contained elements)  [here](http://lab-lamp.scm.cityu.edu.hk/adntest/iframe-cosm.html)                       
 *  Test that no Ads are collected in incognito/private-browsing windows:    
    * In Chrome/Opera, go to the extension page and check "Allow in incognito" for AdNauseam, then hit command+shift+N to start testing
    * In Firefox, use command+shift+P to open a private window
