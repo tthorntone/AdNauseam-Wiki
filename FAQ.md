@@ -21,6 +21,7 @@
 * [What does it mean when the AdNauseam icon turns green?](#what-does-it-mean-when-the-adnauseam-icon-turns-green)
 * [Can I combine AdNauseam with another blocker?](#can-i-combine-adnauseam-with-another-blocker)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
+* [What is the AdNauseam filter list?](#what-is-the-adnauseam-filter-list)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
@@ -173,6 +174,9 @@ Absolutely -- these two extensions should work happily together...
 
 When you visit a webpage, parts of the page may come from domains and servers other than the one you asked to visit. This is an essential feature of the web, but it has also come to be a _serious_ privacy problem. Nowadays embedded images and code often use cookies, fingerprinting, and other methods to track your browsing habits — often in order to display targeted advertisements. The domains that do this are called "third party trackers".You can read more about how they work on the excellent [EFF page](https://www.eff.org/deeplinks/2009/09/online-trackers-and-social-networks).
 
+#### What is the AdNauseam filter list?
+
+The AdNauseam filter list, shown at the top of the 3RD-PARTY-FILTERS page in SETTINGS, is a set of hand-crafted rules that come included with the extension. Most are cosmetic rules that allow us to collect (rather than block) specific types of Ads you are likely to encounter. AdNauseam will still function with this filter disabled, but far fewer Ads will be collected. Thus we recommend keeping this filter enabled at all times (and notify you with a warning when it is not).
 
 #### Sometimes it appears that there are multiples of the same Ad in the AdVault?
 
