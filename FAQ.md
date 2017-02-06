@@ -22,7 +22,7 @@
 * [Can I combine AdNauseam with another blocker?](#can-i-combine-adnauseam-with-another-blocker)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
 * [What is the AdNauseam filter list?](#what-is-the-adnauseam-filter-list)
-* [What is the EasyList filter and why do I get a warning when it is disabled?](#what-is-the-easylist-filter-and-why-do-I-get-a-warning-when-it-is-disabled)
+* [What is the EasyList filter and why do I get a warning when it is disabled?](#what-is-the-easylist-filter-and-why-do-i-get-a-warning-when-it-is-disabled)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
