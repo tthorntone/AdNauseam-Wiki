@@ -109,7 +109,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 - Test that the correct 'user-agent' header is sent on Ad visits depending on the setting (the usual user-agent when disabled, or default when enabled)  
 - Test that outgoing cookies are sent on Ad visits depending on the setting (the usual cookies when disabled, or none when enabled)  
 - Test that incoming cookies are not allowed from responses to Ad visits, by checking cookies before/after
-(if only Channel ID cookies are allowed, it is ok for now)
+(if only Channel ID cookies are allowed, it is ok for now) [TestCase](http://lab-lamp.scm.cityu.edu.hk/adntest/cookie-setting-ad.html)
 - Please notice that, sometimes there is a “CAUTION: provisional headers are shown” message when you check headers in the console. If you see this message, the headers shown are not reliable. Therefore it should not be considered as a reference when checking the headers during test release/ debugging. Check other requests or use [Chrome Net-Internals](#tools) instead.
 
 ------------------
