@@ -152,7 +152,8 @@ To check headers for ad visits, please go to developer tools of the browser -> N
  1.  Delete and reinstall AdNauseam
  1.  Activate debugging mode and open the background.html page to observe the console
  1.  Wait till the autoUpdate triggers and check whether there is any error message in the console
- 1.  Check the same things as above.
+ 1.  Check the same things as above
+
 ------------------
 &nbsp;
 
