@@ -97,7 +97,8 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 * Test that no cookies are accepted from adn-ALLOWed requests: [Test Case](http://lab-lamp.scm.cityu.edu.hk/adntest/incomingCookies.html) 
   - Make sure ‘Activate debugging mode’ is set to true to view log info in the console   
   - Visit sites where one or more _3rd-party_ requests are adn-ALLOWed and note their domains
-  - Verify that no cookies are accepted from these domains: first by checking cookies before/after in the browser, then verify using one of the [tools](#tools) listed below (look for 'set-cookies' in response Header)
+* Verify that no cookies are accepted from these domains: first by checking cookies before/after in the browser, then verify using one of the [tools](#tools) listed below (look for 'set-cookies' in response Header)
+
 ------------------
 
 ## Ad Visits 
