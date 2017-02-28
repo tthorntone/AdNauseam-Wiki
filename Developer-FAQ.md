@@ -323,7 +323,7 @@ The fields of each Ad include:
 -----------
 ####How do I view AdNauseam-specific network events in the addon console?
 
-To view such events (blocks, allows, cookies, headers, etc.), enable the `netLogging` flag in core.js, then open the addon console as usual
+To view such events (blocks, allows, cookies, headers, etc.), enable the 'debugging' option on the settings page, then open the addon console as usual
 
 -----------
 ####How do I run the browser's debugger on different parts of the extension?
