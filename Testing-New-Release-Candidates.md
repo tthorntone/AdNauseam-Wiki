@@ -17,6 +17,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check there is no text overlap in the menu for text ads
 - Check the uBlock version number(in uBlock menu)
 - Menu shows "AdNauseam is paused on current pages" when AdNauseam is paused, and make sure that the layout is correct.
+- Check that the Adnauseam logo links to homepage
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Vault</b>
 - Verify loading animation, and centering/scaling of Ads on load
