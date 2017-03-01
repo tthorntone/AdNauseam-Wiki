@@ -360,8 +360,7 @@ Path: vapi-background.js::handleRequestHeaders() -> traffic.js::onBeforeSendHead
 
 
 * All-requests _unimplemented_
-
-if (in our allowedException list and not an enabled DNT entry) 
+  if (in our allowedException list and not an enabled DNT entry) 
  * &nbsp;&nbsp; block cookies  	   // remove set-cookie/set-cookie2 headers
  * &nbsp;&nbsp; remove referrer header   // replace with most-common
  * &nbsp;&nbsp; obfuscate user-agent header // replace with most-common
