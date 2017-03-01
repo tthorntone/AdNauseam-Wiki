@@ -19,6 +19,7 @@
 * [What does it mean when 'Do Not Track (DNT)' is enabled?](#what-does-it-mean-when-do-not-track-dnt-is-enabled)
 * [What is the data format for Ad imports/exports?](#what-is-the-data-format-for-ad-importsexports)
 * [What is uAssets and how does it work?](#what-is-uassets-and-how-does-it-work)
+* [How does AdNauseam handle incoming and out-coming cookies?]()
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
@@ -319,6 +320,54 @@ The fields of each Ad include:
 #### What is uAssets and how does it work?
 
 (pending)
+
+-----------
+
+#### How does AdNauseam handle incoming and out-coming cookies?
+
+Incoming
+-------------------
+
+Path: vapi-background.js::handleResponseHeaders() -> traffic.js::onHeadersReceived()
+
+**Ad-visits**
+
+if (a response to an ad-visit)
+&nbsp;&nbsp;  block cookies
+
+
+**All-requests**
+
+if (in our allowedException list and not an enabled DNT entry) 
+&nbsp;&nbsp;  block cookies  // remove set-cookie/set-cookie2 headers
+
+
+<br>
+
+Outgoing 
+--------------
+
+Path: vapi-background.js::handleRequestHeaders() -> traffic.js::onBeforeSendHeaders()
+
+**Ad-visits**
+
+if (noOutgoingCookies) 
+&nbsp;&nbsp; block cookies  // remove set-cookie/set-cookie2 headers
+
+if (noOutgoingReferer)
+&nbsp;&nbsp; remove referrer header // replace with most-common
+
+if (noOutgoingUserAgent)
+&nbsp;&nbsp; obfuscate user-agent header // replace with most-common
+
+
+
+**All-requests** _unimplemented_
+
+if (in our allowedException list and not an enabled DNT entry) 
+&nbsp;&nbsp; block cookies  	   // remove set-cookie/set-cookie2 headers
+&nbsp;&nbsp; remove referrer header   // replace with most-common
+&nbsp;&nbsp; obfuscate user-agent header // replace with most-common
 
 -----------
 ####How do I view AdNauseam-specific network events in the addon console?
