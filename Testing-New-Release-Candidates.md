@@ -90,7 +90,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 - Check that changing the two DNT settings will triggger DNT notifications with corresponding messages to the menu  
 - Check the layout of each DNT notification("?" should be in the middle, 'settings' button appears on hover)  
 
-&nbsp;&nbsp;&nbsp;&nbsp;<i>[Test Page for 3rd-party DNT](http://chenqianxun.com/testcases/effTestPage.html)</i>
+&nbsp;&nbsp;&nbsp;&nbsp;<i>[Test Page for 3rd-party DNT](http://lab-lamp.scm.cityu.edu.hk/adntest/effTestPage.html)</i>
 
 ------------------
 
@@ -128,7 +128,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 ## Check Blocking
 - Check that the request from the following test page is blocked by adnauseam by using the uBlock logger 
-[here](http://chenqianxun.com/testcases/block.html)
+[here](http://lab-lamp.scm.cityu.edu.hk/adntest/block.html)
 
 ------------------
 
