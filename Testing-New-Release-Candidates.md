@@ -60,8 +60,8 @@ _First make sure that you are working with the correct commit (check the hash) o
 * Test a set of pages, and make sure that ads are being captured and visited   
   * ImageAds: visit Facebook/Youtube/Amazon... and verify ads are hidden and appear in menu
   * TextAds: visit Google/Ask/Yahoo/Bing/DuckDuckGo to search for keywords such as "credit card" or "loan"
-*  Test Ad-parsing from within dynamically-created iFrames [here](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe.html)
-*  Test Ad-parsing from cosmetically-filtered iFrames (without cosmetic filters for any contained elements)  [here](http://lab-lamp.scm.cityu.edu.hk/adntest/iframe-cosm.html)                       
+*  Test Ad-parsing from within dynamically-created iFrames: hidden and collected [here](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe.html)
+*  Test Ad-parsing from cosmetically-filtered iFrames: hidden but not collected (without cosmetic filters for any contained elements)  [here](http://lab-lamp.scm.cityu.edu.hk/adntest/iframe-cosm.html)                       
 *  Test that no Ads are collected in incognito/private-browsing windows:    
    * In Chrome/Opera, go to the extension page and check "Allow in incognito" for AdNauseam, then hit command+shift+N to start testing
    * In Firefox, use command+shift+P to open a private window
@@ -79,7 +79,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 - DNT Cookie handling (v3.1 and later)
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Hiding/Clicking</b>
-- Ads are visible when domain is 1st-party iff disableHidingForDNT is checked
+- Ads are visible when domain is 1st-party if disableHidingForDNT is checked
 - Requests are not blocked when domain is 1st-party iff disableHidingForDNT is checked
 - Requests are not blocked when domain is 3rd-party iff disableHidingForDNT is checked
 - No clicking when ad domain is on list iff disableClickingForDNT is checked (especially for 3rd-party)
