@@ -343,19 +343,18 @@ if (in our allowedException list and not an enabled DNT entry)
 <br>
 
 **Outgoing**
---------------
 
 Path: vapi-background.js::handleRequestHeaders() -> traffic.js::onBeforeSendHeaders()
 
 * Ad-visits
 
-if (noOutgoingCookies) 
+ * if (noOutgoingCookies) 
 &nbsp;&nbsp; block cookies  // remove set-cookie/set-cookie2 headers
 
-if (noOutgoingReferer)
+ * if (noOutgoingReferer)
 &nbsp;&nbsp; remove referrer header // replace with most-common
 
-if (noOutgoingUserAgent)
+ * if (noOutgoingUserAgent)
 &nbsp;&nbsp; obfuscate user-agent header // replace with most-common
 
 
