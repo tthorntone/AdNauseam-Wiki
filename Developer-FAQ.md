@@ -272,9 +272,9 @@ If AdNauseam is paused, there could be several scenarios:
 
 This setting applies for [sites](https://www.eff.org/files/effdntlist.txt) that follow the [EFF](ttps://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard. 
 
-With both 'Do Not Track (DNT)' settings enabled, AdNauseam will send the DNT header and then allow all the requests from sites who have committed to respecting DNT.
+With either of the 'Do Not Track (DNT)' settings enabled, AdNauseam will send the DNT header and allow all requests to sites on the current DNT list (which is checked/updated like any other list), including any 3rd-parties on those pages.
 
-Technically, the following changes occur when one (or both) of AdNauseam's DNT-exception options are disabled:
+Technically, the following changes occur when either (or both) of AdNauseam's DNT-exception options are disabled:
 
 * <b>When "Don't hide non-tracking Ads" is checked </b> (hidingAds=true, disableHidingForDNT=true)
 
@@ -287,7 +287,8 @@ Technically, the following changes occur when one (or both) of AdNauseam's DNT-e
 * <b>When either of the above is checked</b>
 
   * The DNT header will be sent for ALL outgoing requests (traffic.js)
-  * first party incoming cookies from DNT sites are allowed (core.js)
+  * First-party incoming cookies from sites on DNT list are allowed (core.js)
+  * Third-party incoming cookies from sites on DNT list are allowed (core.js) (pending)
 
 -----------
 
