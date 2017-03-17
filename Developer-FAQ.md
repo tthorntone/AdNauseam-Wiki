@@ -30,7 +30,7 @@
 * [How do I view the extensions storage entries?](#how-do-i-view-the-extensions-storage-entries)
 * [How are locales/languages/translations handled?](https://github.com/dhowe/AdNauseam/wiki/Handling-languages,-locales,-and-translations)
 * [How do I inspect the requests/visits made by AdNauseam to collected Ads?](#how-do-i-inspect-the-requestsvisits-made-by-adnauseam-to-collected-ads)
-
+* [How do I do a merge from uBlock?](#how-do-i-do-a-merge-from-uBlock)
 ### Debugging / Testing
 * [How do I debug an ad that is visible on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
 * [How do I debug a video ad that is visible on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
@@ -179,6 +179,23 @@ To begin the process, AdNauseam makes a request to the URL stored in the parsed 
 
 In the addon console, the actual request data can be seen (headers, response, etc.) in the 'Network' tab. Similarly, any redirects for the visit (status 302, for example) can also be viewed. In such cases, the chain of requests can be followed from the initial `targetUrl`, through some number (0 or more) of redirects until either the actual advertiser's site is reached (status 200), or a request in the chain fails (status 404, for example). The last URL to be reached successfully in this chain is stored in the Ad object as its `resolvedTargetUrl`, and the timestamp is stored as its `visitedTs`. If an error occurs, it is stored in the Ad's `errors` array, and the time stamped is logged as a negative value (timestamp * -1).
 
+-----------
+
+#### How do I do a merge from uBlock
+
+1. Fetch all the tags from upstream
+  `git fetch --all --tags --prune`
+1. Check out the code at specific release
+ `git checkout tags/1.10.2`
+1. Checkout a new branch for the content and double check that the version number is correct (in manifest)
+`git checkout -b upstream1.10.2`
+1. Go back to master
+`git checkout master`
+1. From master branch, checkout a new branch for the merge
+`git checkout -b merge1.10.2`
+1. merge upstream to the merge branch
+`git merge upstream1.10.6`
+1. Solve merge conflicts
 -----------
 
 #### How do I view the metadata for an ad?
