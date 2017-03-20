@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-####How?
+#### How?
 
 * [How do I install AdNauseam?](#how-do-i-install-adnauseam)
 * [How do I install a development release of AdNauseam?](#how-do-i-install-a-development-release-of-adnauseam)
@@ -28,7 +28,7 @@
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
 * [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 * [What is "Don't send cookies on visits"?](#)
-####Why?
+#### Why?
 
 * [Do you oppose all advertising?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
 * [Isn't it safer just to use an adblocker? Why engage with ad-networks at all?](#isnt-it-safer-just-to-use-an-adblocker-why-engage-with-ad-networks-at-all)
@@ -43,13 +43,13 @@
 * [What about "Native Advertising?"](#are-you-concerned-that-adblocking-technology-is-part-of-the-reason-companies-like-facebook-are-so-keen-to-deploy-native-advertising----ads-that-masquerade-as-editorial-content)
 
 
-####Who?
+#### Who?
 
 * [Daniel C Howe](#daniel-c-howe)
 * [Helen Nissenbaum](#helen-nissenbaum)
 * [Mushon Zer-Aviv](#mushon-zer-aviv)
 
-##How?
+## How?
 
 #### How do I install AdNauseam?
 You can find AdNauseam for <a href="https://chrome.google.com/webstore/detail/adnauseam/hgfacieeomogkcchookiodlpppbcolha" target="_new">Chrome</a>,  <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' and get started...
@@ -202,7 +202,7 @@ If you're not comfortable creating a ticket (or don't want to create a GitHub ac
 (Pending)
 
 
-##Why?
+## Why?
 
 #### Do you oppose all advertising or only advertising you believe is abusive (e.g., tracking)?
 
