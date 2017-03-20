@@ -27,7 +27,7 @@
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
 * [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
-
+* [What is "Don't send cookies on visits"?](#)
 ####Why?
 
 * [Do you oppose all advertising?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
@@ -193,6 +193,14 @@ First, please make sure the bug hasn't already been reported by checking the cur
 
 If you're not comfortable creating a ticket (or don't want to create a GitHub account), you can also report the bug via email to adnauseam-issues [@] rednoise.org.
 
+#### What is "Don't send cookies on visits"?
+
+(Pending)
+
+#### What is "click Probability" preference?
+
+(Pending)
+
 ##Why?
 
 #### Do you oppose all advertising or only advertising you believe is abusive (e.g., tracking)?
@@ -247,6 +255,7 @@ And again, thank you.
 #### Are you concerned that adblocking technology is part of the reason companies like Facebook are so keen to deploy "native advertising" -- Ads that masquerade as editorial content?
 
 We can't answer for Facebook's decisions to insert advertising material inadvertently into other content, Media companies have utilized this approach before and will likely continue to attempt to confuse individuals into paying attention with new techniques, once resistance has developed to entrenched methods. In print media, some governments have found the practice sufficiently unethical to require publishers clearly to distinguish advertising from editorial content.
+
 
 ##Who?
 
