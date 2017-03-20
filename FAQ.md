@@ -258,16 +258,16 @@ And again, thank you.
 We can't answer for Facebook's decisions to insert advertising material inadvertently into other content, Media companies have utilized this approach before and will likely continue to attempt to confuse individuals into paying attention with new techniques, once resistance has developed to entrenched methods. In print media, some governments have found the practice sufficiently unethical to require publishers clearly to distinguish advertising from editorial content.
 
 
-##Who?
+## Who?
 
-####Daniel C Howe
+#### Daniel C Howe
 
 Daniel is an artist, researcher and critical technologist based in New York and Hong Kong. He leads all development on the project. You can contact him on Twitter at [@danielchowe](http://twitter.com/danielchowe) or by email at daniel [@] rednoise.org
 
-####Helen Nissenbaum
+#### Helen Nissenbaum
 
 Helen is a leading scholar of digital privacy at New York University. She is an advisor on the project and even wrote [a book inspired by it](https://mitpress.mit.edu/books/obfuscation). You can contact her at helen.nissenbaum [@] nyu.edu
 
-####Mushon Zer-Aviv
+#### Mushon Zer-Aviv
 
 Mushon is a designer, educator and media activist based in Tel Aviv. Mushon leads the design on AdNauseam. You can contact him on Twitter at [@mushon](http://twitter.com/mushon) or by email at mushon [@] shual.com
