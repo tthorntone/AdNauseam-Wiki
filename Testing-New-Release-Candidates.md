@@ -25,7 +25,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check function/layout of Inspector (for both image and text ads)
 - Check correct function of date-filter slider at bottom
 - Check that AdNauseam logo in the bottom-right corner links correctly to homepage  
-- Check correct calculation of ad cost (and $$$ updates according to date-filter, hidden if no ads)
+- Check correct calculation of ad cost
 - Test import/export/clear functions
 - Right click on an ad and delete it. Refresh the page and check that it is successfully deleted
 
@@ -106,8 +106,6 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. You can also click on 'XHR' type to filter the requests.
 (For a more detailed network logging, you can check Chrome Net-Internals of the [tools](#tools) listed below.)
 
-- Test that the correct 'referer' header is sent on Ad visits depending on the setting (ad.pageUrl when disabled, or none when enabled) 
-- Test that the correct 'user-agent' header is sent on Ad visits depending on the setting (the usual user-agent when disabled, or default when enabled)  
 - Test that outgoing cookies are sent on Ad visits depending on the setting (the usual cookies when disabled, or none when enabled) : There should be a "\[COOKIE\] (Strip)" log message in the console [Testcase](https://github.com/dhowe/AdNauseam/issues/920)
 - Test that incoming cookies are not allowed from responses to Ad visits, by checking cookies before/after
 (if only Channel ID cookies are allowed, it is ok for now) [TestCase](http://lab-lamp.scm.cityu.edu.hk/adntest/cookie-setting-ad.html)
@@ -154,6 +152,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
  1.  Activate debugging mode and open the background.html page to check the logging message in the console
  1.  Wait till the autoUpdate triggers and check whether there is any error message in the console
  1.  Check the same things as above
+- Test "Update" button for adnauseam.txt
 
 ------------------
 &nbsp;
