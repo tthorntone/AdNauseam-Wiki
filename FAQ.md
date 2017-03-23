@@ -100,7 +100,7 @@ AdNauseam v3.1.2, Adblock Plus v1.12.4, AdBlock v3.8.4
 
 &nbsp;
 
-####Does AdNauseam's clicking put me at risk for malicious Ads or ransomware?
+#### Does AdNauseam's clicking put me at risk for malicious Ads or ransomware?
 Absolutely not. AdNauseam simulates clicks on Ads by issuing an AJAX request to the adserver in a background process. This request is made without opening any additional windows or pages on your computer. The text-only request is safely discarded by AdNauseam before it has a chance to execute in the browser (no DOM is constructed and no code is ever allowed to run). Further, all cookies from AdNauseam's visits are automatically blocked before they reach the browser's local storage.
 
 #### Are you also tracking my clicks on your own servers?
