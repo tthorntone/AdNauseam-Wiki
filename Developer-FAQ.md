@@ -371,6 +371,7 @@ An update will be scheduled and  `µBlock.assets.updateStart({...})` will force 
 When an asset is updated, the asset manager fires a notification to observers registered through `µBlock.assets.addObserver(callback)`, and the observer call will be passed the argument `topic` and `details`, where `topic` will be `'after-asset-updated'`, and `details` is an object with the properties `assetKey`  and `content` which is the new content.
 
 Based on gorhill's comment in [issue752](https://github.com/dhowe/AdNauseam/issues/752)
+
 -----------
 
 #### How does AdNauseam handle incoming and out-coming cookies?
