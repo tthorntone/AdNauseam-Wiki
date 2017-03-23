@@ -339,7 +339,7 @@ The fields of each Ad include:
 
 #### How does AdNauseam handle asset managements?
 
-**assets.js**
+**assets.js**  
 All the information about filter lists is in file `assets.js`. For each update, adnauseam is going to update other filter lists based on the information in `assets.js`. If there is any change in the remote `assets.js` file, adnauseam will update `assets.js` first and update other list accordingly.
 
 Each entry in assets.js looks like this:
@@ -360,7 +360,7 @@ Each entry in assets.js looks like this:
 
 The `submitter` field is needed **only** if you register the resource programmatically. This tells uBO to not remove the entry when it updates its own `assets.json` resource.
 
-What happens when ‘update now’ button is clicked?  
+##### What happens when ‘update now’ button is clicked?  
 **In 3pfilters.js**  
 `SelectFilterLists()` will read the active filter lists from 3p-filters.html and return the selection. Then the selection will be passed to `ApplyFilterListSelection()`, and get saved the in local storage.
 Finally, the content script will send a  `forceUpdateAssets` message to trigger the background script.
