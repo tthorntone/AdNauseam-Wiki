@@ -361,14 +361,16 @@ Each entry in assets.js looks like this:
 The `submitter` field is needed **only** if you register the resource programmatically. This tells uBO to not remove the entry when it updates its own `assets.json` resource.
 
 What happens when ‘update now’ button is clicked?
-**In 3pfilters.js**
+**In 3pfilters.js**  
 `SelectFilterLists()` will read the active filter lists from 3p-filters.html and return the selection. Then the selection will be passed to `ApplyFilterListSelection()`, and get saved the in local storage.
 Finally, the content script will send a  `forceUpdateAssets` message to trigger the background script.
 
-**In assets.js**
+**In assets.js**  
 An update will be scheduled and  `µBlock.assets.updateStart({...})` will force AdNauseam to launch an update session, i.e. lookup what is obsolete (as per `updateAfter`) and for assets in need of an update, to pull assets from their remote locations and cache them locally. If auto-update is enabled, the semantic of `µBlock.assets.get('adnauseam.txt', ...)` is to return the most recent version of the asset, keeping in mind that auto-update kicks in a few minutes after launch.
 
 When an asset is updated, the asset manager fires a notification to observers registered through `µBlock.assets.addObserver(callback)`, and the observer call will be passed the argument `topic` and `details`, where `topic` will be `'after-asset-updated'`, and `details` is an object with the properties `assetKey`  and `content` which is the new content.
+
+Based on https://github.com/dhowe/AdNauseam/issues/752
 
 -----------
 
