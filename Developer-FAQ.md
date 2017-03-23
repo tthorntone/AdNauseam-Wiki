@@ -18,7 +18,7 @@
 * [What does it mean for AdNauseam to appear as 'paused' in the menu?](#what-does-it-mean-for-adnauseam-to-appear-as-paused-in-the-menu)
 * [What does it mean when 'Do Not Track (DNT)' is enabled?](#what-does-it-mean-when-do-not-track-dnt-is-enabled)
 * [What is the data format for Ad imports/exports?](#what-is-the-data-format-for-ad-importsexports)
-* [What is uAssets and how does it work?](#what-is-uassets-and-how-does-it-work)
+* [How does AdNauseam handle asset managements?](#how-does-adNauseam-handle-asset-managements)
 * [How does AdNauseam handle incoming and out-coming cookies?](#how-does-adnauseam-handle-incoming-and-out-coming-cookies)
 
 ### Common Tasks
@@ -337,9 +337,38 @@ The fields of each Ad include:
 
 -----------
 
-#### What is uAssets and how does it work?
+#### How does AdNauseam handle asset managements?
 
-(pending)
+**assets.js**
+All the information about filter lists is in file `assets.js`. For each update, adnauseam is going to update other filter lists based on the information in `assets.js`. If there is any change in the remote `assets.js` file, adnauseam will update `assets.js` first and update other list accordingly.
+
+Each entry in assets.js looks like this:
+  ```
+  µBlock.assets.registerAssetSource('adnauseam.txt', {
+    content: '[whatever you want]',
+    contentURL: [ array of URLs of where to fetch the resource ],
+    updateAfter: 2,
+    submitter: 'adnauseam'
+  });
+  ```
+
+`content` is just a token for what the content of the resource contains. uBO will look at this when gathering all the filter lists available -- in which case `content` will be `filters` (this makes the resource appear in the _3rd-party filters_ pane). uBO uses `internal` for resources other than filters.
+
+`contentURL` can be a URL string or an array of URL strings. This tells the asset source manager where to get the resource. Typically I assume you will ship with a local version of `adnauseam.txt`, in which case you should list the relative URL in there, and a also provide a URL of where to fetch `adnauseam.txt` for update purpose.
+
+`updateAfter` tells the asset updater how often (in days) it should pull the asset from its remote location(s).
+
+The `submitter` field is needed **only** if you register the resource programmatically. This tells uBO to not remove the entry when it updates its own `assets.json` resource.
+
+What happens when ‘update now’ button is clicked?
+**In 3pfilters.js**
+`SelectFilterLists()` will read the active filter lists from 3p-filters.html and return the selection. Then the selection will be passed to `ApplyFilterListSelection()`, and get saved the in local storage.
+Finally, the content script will send a  `forceUpdateAssets` message to trigger the background script.
+
+**In assets.js**
+An update will be scheduled and  `µBlock.assets.updateStart({...})` will force AdNauseam to launch an update session, i.e. lookup what is obsolete (as per `updateAfter`) and for assets in need of an update, to pull assets from their remote locations and cache them locally. If auto-update is enabled, the semantic of `µBlock.assets.get('adnauseam.txt', ...)` is to return the most recent version of the asset, keeping in mind that auto-update kicks in a few minutes after launch.
+
+When an asset is updated, the asset manager fires a notification to observers registered through `µBlock.assets.addObserver(callback)`, and the observer call will be passed the argument `topic` and `details`, where `topic` will be `'after-asset-updated'`, and `details` is an object with the properties `assetKey`  and `content` which is the new content.
 
 -----------
 
