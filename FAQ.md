@@ -24,9 +24,9 @@
 * [What is the AdNauseam filter list?](#what-is-the-adnauseam-filter-list)
 * [What is the EasyList filter and why do I get a warning when it is disabled?](#what-is-the-easylist-filter-and-why-do-i-get-a-warning-when-it-is-disabled)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
-* [What is the "click-probability" setting?](#)
-* [Why have options from earlier versions been removed?](#)
+* [What is the "click-probability" setting?](#what-is-the-click-probability-setting)
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
+* [Why have options from earlier versions been removed?](#why-have-options-from-earlier-versions-been-removed)
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
 * [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 
