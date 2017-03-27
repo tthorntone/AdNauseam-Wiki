@@ -193,11 +193,11 @@ First, please make sure the bug hasn't already been reported by checking the cur
 
 If you're not comfortable creating a ticket (or don't want to create a GitHub account), you can also report the bug via email to adnauseam-issues [@] rednoise.org.
 
-#### What is "Don't send cookies on visits"?
+#### Why have options from earlier versions been removed?
 
 (Pending)
 
-#### What is "click Probability" preference?
+#### What is the "click-probability" preference?
 
 (Pending)
 
