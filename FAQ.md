@@ -24,10 +24,12 @@
 * [What is the AdNauseam filter list?](#what-is-the-adnauseam-filter-list)
 * [What is the EasyList filter and why do I get a warning when it is disabled?](#what-is-the-easylist-filter-and-why-do-i-get-a-warning-when-it-is-disabled)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
+* [What is the "click-probability" setting?](#)
+* [Why have options from earlier versions been removed?](#)
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
 * [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
-* [What is "Don't send cookies on visits"?](#)
+
 #### Why?
 
 * [Do you oppose all advertising?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
@@ -183,24 +185,23 @@ The EasyList filter list, shown on the 3RD-PARTY-FILTERS page in SETTINGS, is a 
 
 The AdNauseam filter list, shown at the top of the 3RD-PARTY-FILTERS page in SETTINGS, is a set of hand-crafted rules that come included with the extension. These include cosmetic rules that allow us to collect specific types of Ads, as well as blocking and exception rules to make sure that pages render correctly after Ads are removed. AdNauseam will still function without this filter, but far fewer Ads will be collected and some content may render incorrectly. Thus we recommend keeping this filter enabled at all times (and notify you with a warning when it is not).
 
+#### What is the "click-probability" setting?
+
+This setting lets you control the likelihood that each discovered Ad will actually be clicked by AdNauseam. 'Click ALL Ads' means that every Ad discovered will be clicked, while 'Click OCCASIONAL Ads' means that very few ads will be clicked (<= 10%). 
+
 #### Sometimes it appears that there are multiples of the same Ad in the AdVault?
 
 This sometimes happens. AdNauseam tests for Ad uniqueness of image-Ads by comparing the URLs of the displayed image. However, some Ad networks use different URLs in different Ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/631).
+
+#### Why have options from earlier versions been removed?
+
+AdNauseam is a work in progress, with new features continually being added, tuned, and, sometimes, deprecated. If a setting no longer appears in the settings page, we have likely found a better means of implementing the design goal. For information about specific deprecated settings, please consult our [DevFAQ](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ) or send us a query at adnauseam-dev [@] rednoise.org.
 
 #### I found a bug! What do I do now?
 
 First, please make sure the bug hasn't already been reported by checking the current [bug list](https://github.com/dhowe/AdNauseam/issues).  If the bug hasn't yet been reported you can report it there. If you don't have a GitHub account, please create one so that we can communicate with you about the bug and fix it more quickly.
 
 If you're not comfortable creating a ticket (or don't want to create a GitHub account), you can also report the bug via email to adnauseam-issues [@] rednoise.org.
-
-#### Why have options from earlier versions been removed?
-
-(Pending)
-
-#### What is the "click-probability" preference?
-
-(Pending)
-
 
 ## Why?
 
