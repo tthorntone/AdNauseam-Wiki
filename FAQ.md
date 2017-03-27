@@ -32,7 +32,7 @@
 
 #### Why?
 
-* [Do you oppose all advertising?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
+* [Do the project oppose all advertising?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
 * [Isn't it safer just to use an adblocker? Why engage with ad-networks at all?](#isnt-it-safer-just-to-use-an-adblocker-why-engage-with-ad-networks-at-all)
 * [What must advertisers do to win the trust of Internet users?](#what-must-advertisers-do-to-win-the-trust-of-internet-users)
 * [What made you choose data obfuscation as the strategy here?](#what-made-you-choose-data-obfuscation-as-the-strategy-here)
@@ -205,7 +205,7 @@ If you're not comfortable creating a ticket (or don't want to create a GitHub ac
 
 ## Why?
 
-#### Do you oppose all advertising or only advertising you believe is abusive (e.g., tracking)?
+#### Does the project oppose all advertising or only advertising you believe is abusive (e.g., tracking)?
 
 The intent of this project is not to oppose online advertising categorically. We are instead attempting to bring to light a system that has overtaken the web, whereby Ads are just the tip of the iceberg and serve as a delivery system for a massive back-end surveillance architecture that tracks us continually. It is not advertising we are protesting, but advertising insofar as it represents a dominant means of tracking users without their consent. In fact, for sites who wish respectfully serve ads to their users, we recommend adopting the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard (and, incidentally, you will no longer be blocked by default in tools like AdNauseam or [PrivacyBadger](https://www.eff.org/privacybadger)).
 
