@@ -32,7 +32,7 @@
 
 #### Why?
 
-* [Do the project oppose all advertising?](#do-you-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
+* [Does the project oppose all advertising?](#does-the-project-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
 * [Isn't it safer just to use an adblocker? Why engage with ad-networks at all?](#isnt-it-safer-just-to-use-an-adblocker-why-engage-with-ad-networks-at-all)
 * [What must advertisers do to win the trust of Internet users?](#what-must-advertisers-do-to-win-the-trust-of-internet-users)
 * [What made you choose data obfuscation as the strategy here?](#what-made-you-choose-data-obfuscation-as-the-strategy-here)
