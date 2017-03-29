@@ -35,5 +35,5 @@ If Google has lost your trust, as it has ours, you might want to move to a brows
 
 * Go back to [Firefox](https://getfirefox.com)
 * You've always wanted to [give Opera a chance](https://opera.com), this is a good excuse
-* Try one of the many non-Google versions of Chromium (such as [Iron](https://www.srware.net/en/software_srware_iron.php), [Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php), [Vivaldi](http://www.vivaldi.com/), or [Maxthon](http://www.maxthon.com/))
+* Try one of the many non-Google versions of Chromium (such as [Iron](https://www.srware.net/en/software_srware_iron.php), [Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php), or [Vivaldi](http://www.vivaldi.com/))
 
