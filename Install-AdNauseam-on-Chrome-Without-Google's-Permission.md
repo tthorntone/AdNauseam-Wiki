@@ -12,7 +12,7 @@
 
 1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release for chrome](https://github.com/dhowe/AdNauseam/releases/latest).
 1. Extract the zip file.
-1. In your Chrome Browser menu, click Windows>Extensions.
+1. In your Chrome Browser menu, click Windows > Extensions.
 1. Check the ``Developer mode`` checkbox (see image)
 1. Click the ``Load unpacked extension`` button (see image) and navigate to the file you downloaded in step 1 (in most cases it will be in the downloads folder).
 ![image](https://cloud.githubusercontent.com/assets/27123/21674694/83a8a8ba-d337-11e6-8837-7a56f507e8d7.png)
