@@ -97,7 +97,9 @@ _Case 2_
 
 The Ad was NOT detected by the content-script. Here we need to debug the parsing code (/src/js/adn/parser.js) to figure out where it is failing. You can use the debugger to do this, but it may also be useful to turn on the 'debugging' option on the settings page. For more details about how parser works, and a guideline of what the log messages mean, please check: [#how-does-parserjs-work).
 
-_Case 3_ In rare cases, a dynamically-generated Ad appears to be hidden (and not collected), when in actuality the code to generate the Ad (usually JS code) was either blocked or redirected, and thus never executed. You can recognize such cases because the Ad will not be present in the DOM.  Further, in the logger you will find a JS resource being blocked or redirected. To address such cases it is generally necessary to create an exception rule (see the entry for Google's gpt.js script [here](https://github.com/dhowe/uAssets/blob/master/filters/adnauseam.txt#L225)) so that the JS is allowed to run. Once the rule is in effect, the logger entry should disappear and the Ad should be visible in the DOM. Then you can then evaluate whether it is being hidden and/or collected correctly, and if not, continue to debug as described above.
+_Case 3_ 
+
+In rare cases, a dynamically-generated Ad appears to be hidden (and not collected), when in actuality the code to generate the Ad (usually JS code) was either blocked or redirected, and thus never executed. You can recognize such cases because the Ad will not be present in the DOM.  Further, in the logger you will find a JS resource being blocked or redirected. To address such cases it is generally necessary to create an exception rule (see the entry for Google's gpt.js script [here](https://github.com/dhowe/uAssets/blob/master/filters/adnauseam.txt#L225)) so that the JS is allowed to run. Once the rule is in effect, the logger entry should disappear and the Ad should be visible in the DOM. Then you can then evaluate whether it is being hidden and/or collected correctly, and if not, continue to debug as described above.
 
 -----------
 #### How do I debug a text-ad that is being hidden, but not collected?
