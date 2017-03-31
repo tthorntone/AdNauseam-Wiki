@@ -309,8 +309,7 @@ Technically, the following changes occur when either (or both) of AdNauseam's DN
 * <b>When either of the above is checked</b>
 
   * The DNT header will be sent for ALL outgoing requests (traffic.js)
-  * First-party incoming cookies from sites on DNT list are allowed (core.js)
-  * Third-party incoming cookies from sites on DNT list are allowed (core.js)
+  * Incoming cookies from sites on the allowedExceptions list, which would normally be blocked, are allowed when the site is on the DNT list, unless blocked by other browser settings (core.js)
 
 -----------
 
@@ -382,20 +381,10 @@ Based on gorhill's comment in [issue752](https://github.com/dhowe/AdNauseam/issu
 
 #### How does AdNauseam handle incoming and outgoing cookies?
 
-**Incoming**
+Incoming cookies are blocked when responses comes from and ad-visit OR a response to a domain in the allowedExceptions list, which is NOT an enabled DNT entries. Outgoing cookies are not manipulated. 
 
 Path: vapi-background.js::handleResponseHeaders() -> traffic.js::onHeadersReceived()
 
-* For responses from an ad-visit, block cookies
-* For responses from domains in allowedExceptions list which are not enabled DNT entries, block cookies
-
-<br>
-
-**Outgoing**
-
-Path: vapi-background.js::handleRequestHeaders() -> traffic.js::onBeforeSendHeaders()
-
-* For requests to domains in allowedExceptions list which are not enabled DNT entries, block cookies
 
 -----------
 ####How do I view AdNauseam-specific network events in the addon console?
