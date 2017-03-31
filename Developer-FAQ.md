@@ -308,7 +308,7 @@ Technically, the following changes occur when either (or both) of AdNauseam's DN
 
   * The DNT header will be sent for ALL outgoing requests (traffic.js)
   * First-party incoming cookies from sites on DNT list are allowed (core.js)
-  * Third-party incoming cookies from sites on DNT list are allowed (core.js) (pending)
+  * Third-party incoming cookies from sites on DNT list are allowed (core.js)
 
 -----------
 
@@ -401,24 +401,9 @@ Ad-visits
 
 Path: vapi-background.js::handleRequestHeaders() -> traffic.js::onBeforeSendHeaders()
 
-* Ad-visits
-
- * if (noOutgoingCookies) 
-&nbsp;&nbsp; block cookies  // remove set-cookie/set-cookie2 headers
-
- * if (noOutgoingReferer)
-&nbsp;&nbsp; remove referrer header // replace with most-common
-
- * if (noOutgoingUserAgent)
-&nbsp;&nbsp; obfuscate user-agent header // replace with most-common
-
-
-
-* All-requests _unimplemented_
+* All-requests
   (if it is in our allowedException list and not an enabled DNT entry) 
  * &nbsp;&nbsp; block cookies  	   // remove set-cookie/set-cookie2 headers
- * &nbsp;&nbsp; remove referrer header   // replace with most-common
- * &nbsp;&nbsp; obfuscate user-agent header // replace with most-common
 
 -----------
 ####How do I view AdNauseam-specific network events in the addon console?
