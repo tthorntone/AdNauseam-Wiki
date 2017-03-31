@@ -19,7 +19,7 @@
 * [What does it mean when 'Do Not Track (DNT)' is enabled?](#what-does-it-mean-when-do-not-track-dnt-is-enabled)
 * [What is the data format for Ad imports/exports?](#what-is-the-data-format-for-ad-importsexports)
 * [How does AdNauseam handle asset managements?](#how-does-adNauseam-handle-asset-managements)
-* [How does AdNauseam handle incoming and out-coming cookies?](#how-does-adnauseam-handle-incoming-and-out-coming-cookies)
+* [How does AdNauseam handle incoming and outgoing cookies?](#how-does-adnauseam-handle-incoming-and-outgoing-cookies)
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
@@ -380,22 +380,14 @@ Based on gorhill's comment in [issue752](https://github.com/dhowe/AdNauseam/issu
 
 -----------
 
-#### How does AdNauseam handle incoming and out-coming cookies?
+#### How does AdNauseam handle incoming and outgoing cookies?
 
 **Incoming**
 
 Path: vapi-background.js::handleResponseHeaders() -> traffic.js::onHeadersReceived()
 
-Ad-visits
-
-* if (a response to an ad-visit)
-&nbsp;&nbsp;  block cookies
-
-
-* All-requests
-
- * if (in our allowedException list and not an enabled DNT entry) 
-&nbsp;&nbsp;  block cookies  // remove set-cookie/set-cookie2 headers
+* For responses from an ad-visit, block cookies
+* For responses from domains in allowedExceptions list which are not enabled DNT entries, block cookies
 
 <br>
 
@@ -403,9 +395,7 @@ Ad-visits
 
 Path: vapi-background.js::handleRequestHeaders() -> traffic.js::onBeforeSendHeaders()
 
-* All-requests
-  (if it is in our allowedException list and not an enabled DNT entry) 
- * &nbsp;&nbsp; block cookies  	   // remove set-cookie/set-cookie2 headers
+* For requests to domains in allowedExceptions list which are not enabled DNT entries, block cookies
 
 -----------
 ####How do I view AdNauseam-specific network events in the addon console?
