@@ -153,7 +153,7 @@ For completeness, there are also two other kinds of rules: exception rules, whic
 
 Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on the logger icon. Choose the tab you are interested in, then click the refresh icon. This will refresh the tab with the logger activated, and you will see each request made by the browser (whether blocked, allowed, or hidden). For info on the different types of entries, see this [page](https://github.com/gorhill/uBlock/wiki/The-logger).
 
-####How does AdNauseam handle visual resources that link to the same domain?
+#### How does AdNauseam handle visual resources that link to the same domain?
 Generally AdNauseam does not recognize Ads with internal target URLs. So an Ad found on xyz.com which links to a URL on xyz.com (or www.xyz.com) is ignored. However, some sites use this mechanism (generally with a redirect) for serving real Ads. These are sometimes text Ads and sometimes so-called 'native Ads'. One classic example is Google, where all Ads on search pages go first to a Google URL, and are then redirected. To accommodate these exceptions, AdNauseam maintains an array of domains called `internalLinkDomains` (see core.js). Adding a domain to this list will cause AdNauseam to no longer ignore internal Ads from that domain.
 
 -----------
@@ -234,7 +234,7 @@ When this message is received in the addon core, `adnauseam.adsForPage(request, 
 
 --------------------
 
-####How does Ad parsing work?
+#### How does Ad parsing work?
 
 When a cosmetic rule fires for an element on the page, the element is passed to the `process()` function in [parser.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/parser.js). With the 'debugging' option enabled on the settings page, related messages will appear in the console in the following format: `process(tagName)...`.
 
@@ -387,17 +387,17 @@ Path: vapi-background.js::handleResponseHeaders() -> traffic.js::onHeadersReceiv
 
 
 -----------
-####How do I view AdNauseam-specific network events in the addon console?
+#### How do I view AdNauseam-specific network events in the addon console?
 
-To view such events (blocks, allows, cookies, headers, etc.), enable the 'debugging' option on the settings page, then open the addon console as usual
+To view such events (blocks, allows, cookies, headers, etc.), enable the 'debugging' option on the settings page, then open the addon console as usual (for example, by clicking on 'background.html' on the extensions page, in Chromium with developer-mode enabled)
 
 -----------
-####How do I run the browser's debugger on different parts of the extension?
+#### How do I run the browser's debugger on different parts of the extension?
 
 (pending)
 
 -----------
-####What is the uDom?
+#### What is the uDom?
 The uDom library, written by Raymond Hill for uBlock, is a minimalist DOM framework that provides the core functionality of something like jQuery, without the size. Thus you should not mix jQuery with uDom, as they provide the same basic functionality. In fact, you should not use jQuery at all in AdNauseam. The one (temporary) exception to this is the vault, pending its rewrite. A list of commonly used uDom functions follows below (in progress), or you may consult the [source](https://github.com/dhowe/AdNauseam/blob/master/src/js/udom.js).
 
 - on()
