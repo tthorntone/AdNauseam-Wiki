@@ -246,7 +246,7 @@ What AdNauseam only blocks and doesn't collect:
 
 * Video Ad
 * Audio Ad
-* Dynamically-assembled Ads [example](https://github.com/dhowe/AdNauseam/issues/765))
+* Dynamically-assembled Ads [example](https://github.com/dhowe/AdNauseam/issues/765)
 * Ad that is drawn in canvas
 * Background Images
 * Internal Ad ([exceptions](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/core.js#L45))
