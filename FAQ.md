@@ -258,7 +258,7 @@ And again, thank you.
 
 #### Are you concerned that adblocking technology is part of the reason companies like Facebook are so keen to deploy "native advertising" -- Ads that masquerade as editorial content?
 
-We can't answer for Facebook's decisions to insert advertising material inadvertently into other content, Media companies have utilized this approach before and will likely continue to attempt to confuse individuals into paying attention with new techniques, once resistance has developed to entrenched methods. In print media, some governments have found the practice sufficiently unethical to require publishers clearly to distinguish advertising from editorial content.
+We can't answer for Facebook's decisions to insert advertising material inadvertently into other content. Media companies have utilized this approach before and will likely continue to attempt to confuse individuals into paying attention with new techniques, once resistance has developed to entrenched methods. In print media, some governments have found the practice sufficiently unethical to require publishers clearly to distinguish advertising from editorial content. 
 
 
 ## Who?
