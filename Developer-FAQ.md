@@ -239,15 +239,17 @@ When this message is received in the addon core, `adnauseam.adsForPage(request, 
 
 At this stage AdNauseam only collects:
 
-* Image Ad (`<image>` wrapped with `<a>`)
+* Image Ad 
 * Text Ad from search result page (google/bing/ask/yahoo/duckduckgo/aol/baidu)
 
 What AdNauseam only blocks and doesn't collect:
 
 * Video Ad
 * Audio Ad
-* Dynamic Ad (An ad consists of many images / text & images / dom elements)
+* Dynamically-assembled Ads [example](https://github.com/dhowe/AdNauseam/issues/765))
+* Ad that is drawn in canvas
 * Background Images
+* Internal Ad ([exceptions](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/core.js#L45))
 
 --------------------
 
