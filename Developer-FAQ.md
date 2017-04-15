@@ -13,7 +13,7 @@
 * [What is the relationship between blocking and hiding rules in uBlock and AdNauseam?](#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn)
 * [How does AdNauseam handle visual resources that link to the same domain?](#how-does-adnauseam-handle-visual-resources-that-link-to-the-same-domain)
 * [What is the difference between JS code in src and in platform?](#what-is-the-difference-between-js-code-in-src-and-in-platform)
-* [What ads does AdNauseam collect?](#what-ads-does-AdNauseam-collect)
+* [What ads does AdNauseam collect?](##what-ads-does-adnauseam-collect)
 * [How does the Ad-parsing mechanism work?](#how-does-ad-parsing-work)
 * [How are messages passed to AdNauseam core functions?](#how-are-messages-passed-to-adnauseam-core-functions)
 * [What does it mean for AdNauseam to appear as 'paused' in the menu?](#what-does-it-mean-for-adnauseam-to-appear-as-paused-in-the-menu)
