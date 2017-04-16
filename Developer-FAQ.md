@@ -32,6 +32,9 @@
 * [How are locales/languages/translations handled?](https://github.com/dhowe/AdNauseam/wiki/Handling-languages,-locales,-and-translations)
 * [How do I inspect the requests/visits made by AdNauseam to collected Ads?](#how-do-i-inspect-the-requestsvisits-made-by-adnauseam-to-collected-ads)
 * [How do I merge in upstream (uBlock) code?](#how-do-i-merge-in-upstream-ublock-code)
+* [How do I create a new release?](#how-do-i-create-a-new-release)
+
+
 ### Debugging / Testing
 * [How do I debug an ad that is visible on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
 * [How do I debug a video ad that is visible on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
