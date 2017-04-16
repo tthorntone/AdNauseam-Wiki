@@ -205,6 +205,37 @@ In the addon console, the actual request data can be seen (headers, response, et
 1. Merge upstream branch to the new merge branch
   `$ git merge upstream1.10.6`
 1. Resolve any merge conflicts
+
+-----------
+
+
+#### How do I merge in upstream (uBlock) code?
+
+1. Fetch code and tags from upstream
+  `$ git fetch --all --tags --prune`
+1. Check out the tag for the release you want to merge
+  `$ git checkout tags/1.10.2`
+1. Create a new branch here, and verify the version number matches in manifest.json)
+  `$ git checkout -b upstream1.10.2`
+1. Go back to master
+  `$ git checkout master`
+1. Create a new branch for the merge
+  `$ git checkout -b merge1.10.2`
+1. Merge upstream branch to the new merge branch
+  `$ git merge upstream1.10.6`
+1. Resolve any merge conflicts
+
+-----------
+
+#### How do I create a new release?
+1. make sure 'webext' is installed
+1. run tools/git-tag.sh VERSION (first make sure there is small change, eg the version number)
+1. run tools/make-artifacts.sh
+1. make a new PR and add a note that a new release tag is needed on master
+1. After the PR is accepted and new release tag is created in the dhowe/AdNauseam/master. Go to release, and edit the release tag by adding information about changes and upload the five files generated from tools/make-artifacts.sh
+1. When approved for production, update chromium links on the website, then submit to opera and firefox stores
+*** Please remember to also include the source code when uploading to firefox store.
+
 -----------
 
 #### How do I view the metadata for an ad?
