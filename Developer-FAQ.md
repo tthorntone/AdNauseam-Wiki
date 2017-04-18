@@ -79,7 +79,7 @@ First check whether the ad is appearing in uBlock. If it is, then this is not an
 1.  Rebuild/reload the extension, then click the 'update' button next to adnauseam.txt
 1.  You should now see the # of 'AdNauseam filters' increase to include your new rule
 1.  Test by visiting the page in question to verify the ad is now hidden
-1.  Commit your changes and make a pull request
+1.  Commit your changes and create a pull request
 
 -----------
 #### How do I debug a video ad that is appearing on a page?
