@@ -76,12 +76,10 @@ First check whether the ad is appearing in uBlock. If it is, then this is not an
 1.  Test it by adding it to Options->Dashboard->My Filters->Apply-changes
 1.  If its OK, add the rule to the text-file: /uAssets/filters/adnauseam.txt
 1.  Remove the rule from Options->Dashboard->My Filters, then click Apply-changes
-1.  Rebuild/reload the extension, then click Options->Dashboard->3rd-Party-Filters->Purge-all-caches, then click Apply-changes
+1.  Rebuild/reload the extension, then click the 'update' button next to adnauseam.txt
 1.  You should now see the # of 'AdNauseam filters' increase to include your new rule
 1.  Test by visiting the page in question to verify the ad is now hidden
-1.  Before you commit the changes, please run tools/update-ublock.sh to generate a new checksum for adnauseam.txt
-(The checksum always matches with the content in the file, so please generate the checksum with the latest content and then commit the changes)
-1.  Now you should see that both adnauseam.txt and ublock0.txt have changed
+1.  Commit your changes and make a pull request
 
 -----------
 #### How do I debug a video ad that is appearing on a page?
