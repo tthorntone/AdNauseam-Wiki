@@ -62,8 +62,7 @@ _Note: you should always disable other adblockers while using AdNauseam_
 You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
 To install, follow the instructions for your browser of choice below:
 
-- **Chrome**
- 1. Follow [these instructions](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)
+- **[Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)**
 
 - **Firefox**
 
