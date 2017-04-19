@@ -63,9 +63,7 @@ You can find AdNauseam development releases [here](https://github.com/dhowe/AdNa
 To install, follow the instructions for your browser of choice below:
 
 - **Chrome**
- 1. Download a ["Chromium" release](https://github.com/dhowe/AdNauseam/releases/). Older ones come as .zip directories (unzip after downloading), the latest release is a .crx file.
- 2. In your Chrome Browser navigate to the Settings page. Select "Extensions" at the top-left of the page.
- 3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.
+ 1. Follow [these instructions](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)
 
 - **Firefox**
 
