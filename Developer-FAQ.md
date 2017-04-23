@@ -1,4 +1,4 @@
-## Frequently Asked Questions for Developers  (in progress)
+## Frequently Asked Questions for Developers
 
 
 ### Getting Started
