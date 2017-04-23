@@ -148,6 +148,8 @@ Blocking rules block the requested element from being fetched by the browser. Hi
 
 An important point to note is that these 3rd-party requests, for which an active blocking rule exists, but which are _allowed_ by AdNauseam (because blocking would make collection of the Ad impossible), are marked and treated differently than those which are simply hidden (for example, all cookies from such requests are blocked, assuming they are not on a DNT list). These are often referred to as _adn-allowed_ requests as they would be blocked by uBlock, but are specifically allowed by AdNauseam.
 
+Existing lists are divided into two categories, those that primarily block visual ads and those that block other requests, trackers, beacons, etc. Currently we only allow blocks for those in the latter category, as identified by the `enabledBlockLists` lists in core.js. If a list (Peter Lowe's for example) contains only blocking rules (and no hiding rules) AND this list blocks visual ads, then it is not useful for AdNauseam and is likely removed from the default list set (as is the case for Peter Lowe's list).
+
 For completeness, there are also two other kinds of rules: exception rules, which are similar to blocking rules, except that they define which requests should be allowed even when other matching blocking rules exist; and dynamic-filtering rules, which are explained [here](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax).
 
 -----------
