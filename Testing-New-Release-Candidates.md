@@ -106,7 +106,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. You can also click on 'XHR' type to filter the requests.
 (For a more detailed network logging, you can check Chrome Net-Internals of the [tools](#tools) listed below.)
 
-- Test that outgoing cookies are sent on Ad visits depending on the setting (the usual cookies when disabled, or none when enabled) : There should be a "\[COOKIE\] (Strip)" log message in the console [Testcase](https://github.com/dhowe/AdNauseam/issues/920)
+- Test that outgoing cookies are always sent
 - Test that incoming cookies are not allowed from responses to Ad visits, by checking cookies before/after
 (if only Channel ID cookies are allowed, it is ok for now) [TestCase](http://lab-lamp.scm.cityu.edu.hk/adntest/cookie-setting-ad.html)
 - Please notice that, sometimes there is a “CAUTION: provisional headers are shown” message when you check headers in the console. If you see this message, the headers shown are not reliable. Therefore it should not be considered as a reference when checking the headers during test release/ debugging. Check other requests or use [Chrome Net-Internals](#tools) instead.
