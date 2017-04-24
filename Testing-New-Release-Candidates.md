@@ -143,7 +143,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
     - All out-dated filters are updated (background.html console)
     - The total rules of adnauseam has been updated
     - The rules are functioning when test on webpage.
-- Test Auto Update
+- Test Auto Update (This need to be tested from unpacked extension)
  Check the same thing above with a different procedure:
  1.  Go to start.js and change this line : "µb.scheduleAssetUpdater(µb.userSettings.autoUpdate ? 7 * 60 * 1000 : 0);" to "µb.scheduleAssetUpdater(µb.userSettings.autoUpdate ? 10 * 1000 : 0);"
  1.  Go to background.js and change autoUpdateAssetFetchPeriod to 1
