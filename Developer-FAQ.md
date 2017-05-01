@@ -72,7 +72,7 @@ The project uses the git fork-and-branch workflow, described nicely [here](http:
 -----------
 
 #### How should I setup for firefox android?
-Please refer to [this page](https://developer.mozilla.org/en-US/Add-ons/Firefox_for_Android/Walkthrough)
+Please refer to [this page](https://developer.mozilla.org/en-US/Add-ons/Firefox_for_Android/Walkthrough) and [this page](https://developer.mozilla.org/en-US/docs/Tools/Remote_Debugging/Debugging_Firefox_for_Android_with_WebIDE)
 
 -----------
 #### How do I debug an ad that is appearing on a page?
