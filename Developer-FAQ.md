@@ -6,6 +6,8 @@
 * [What is the usual workflow for developers?](#what-is-the-usual-workflow-for-developers)
 * [How should I setup my browser profiles for developing?](#how-should-i-setup-my-browser-profiles-for-developing)
 * [How can I get the first-run page to show up when developing?](#how-can-i-get-the-first-run-page-to-show-up-when-developing)
+* [How should I setup for firefox android?](#how-should-i-setup-for-firefox-android)
+
 
 
 ### How Things Work
@@ -66,6 +68,11 @@ If multiple tickets are assigned to you, work on the one with highest priority, 
 Sometimes you may be assigned a ticket with the label _Needs-verification_. In such cases, you should simply verify that the fix works as expected. If so, then the ticket can usually be closed. If not, document as specifically as possible how/why the fix fails.
 
 The project uses the git fork-and-branch workflow, described nicely [here](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/).
+
+-----------
+
+#### How should I setup for firefox android?
+Please refer to [this page](https://developer.mozilla.org/en-US/Add-ons/Firefox_for_Android/Walkthrough)
 
 -----------
 #### How do I debug an ad that is appearing on a page?
