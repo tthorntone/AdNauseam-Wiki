@@ -21,6 +21,7 @@
 * [What does it mean when the AdNauseam icon turns green?](#what-does-it-mean-when-the-adnauseam-icon-turns-green)
 * [Can I combine AdNauseam with another blocker?](#can-i-combine-adnauseam-with-another-blocker)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
+* [What do purple entries in the logger represent?](#what-do-purple-entries-in-the-logger-represent)
 * [What is the AdNauseam filter list?](#what-is-the-adnauseam-filter-list)
 * [What is the EasyList filter and why do I get a warning when it is disabled?](#what-is-the-easylist-filter-and-why-do-i-get-a-warning-when-it-is-disabled)
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
@@ -177,6 +178,10 @@ When you visit a webpage, parts of the page may come from domains and servers ot
 #### What is the EasyList filter and why do I get a warning when it is disabled?
 
 The EasyList filter list, shown on the 3RD-PARTY-FILTERS page in SETTINGS, is a set of publicly-available, crowd-sourced rules that come included with the extension. These rules include cosmetic filters that allow us to collect a high percentage of common Ads you are likely to encounter. You can read more about the EasyList project [here](https://easylist.to/pages/about.html). AdNauseam will still function without this filter, but _far_ fewer Ads will be collected. Thus we recommend keeping this filter enabled at all times (and notify you with a warning when it is not).
+
+### What do purple entries in the logger represent?
+
+Purple entries represent the requests that would normally be blocked by a list but are instead allowed by AdNauseam, as they may result in visible ads. [See also](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-use-the-logger-and-what-are-the-different-types-of-entries-it-shows)
 
 #### What is the AdNauseam filter list?
 
