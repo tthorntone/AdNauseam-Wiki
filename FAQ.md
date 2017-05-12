@@ -181,7 +181,7 @@ The EasyList filter list, shown on the 3RD-PARTY-FILTERS page in SETTINGS, is a 
 
 ### What do purple entries in the logger represent?
 
-Purple entries represent the requests that would normally be blocked by a list but are instead allowed by AdNauseam, as they may result in visible ads. [See also](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-use-the-logger-and-what-are-the-different-types-of-entries-it-shows)
+Purple entries represent requests that would normally be blocked by one or more lists, but are instead allowed by AdNauseam, as they may result in visible ads [see also](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-use-the-logger-and-what-are-the-different-types-of-entries-it-shows).
 
 #### What is the AdNauseam filter list?
 
