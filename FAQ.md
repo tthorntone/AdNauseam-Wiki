@@ -179,7 +179,7 @@ When you visit a webpage, parts of the page may come from domains and servers ot
 
 The EasyList filter list, shown on the 3RD-PARTY-FILTERS page in SETTINGS, is a set of publicly-available, crowd-sourced rules that come included with the extension. These rules include cosmetic filters that allow us to collect a high percentage of common Ads you are likely to encounter. You can read more about the EasyList project [here](https://easylist.to/pages/about.html). AdNauseam will still function without this filter, but _far_ fewer Ads will be collected. Thus we recommend keeping this filter enabled at all times (and notify you with a warning when it is not).
 
-### What do purple entries in the logger represent?
+#### What do purple entries in the logger represent?
 
 Purple entries represent requests that would normally be blocked by one or more lists, but are instead allowed by AdNauseam, as they may result in visible ads ([see also](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-use-the-logger-and-what-are-the-different-types-of-entries-it-shows)).
 
