@@ -10,7 +10,7 @@
 * [How does AdNauseam "Click Ads"?](#how-does-adnauseam-click-ads)
 * [How does AdNauseam "Block Malicious Ads"?](#how-does-adnauseam-block-malicious-ads)
 * [What is AdNauseam's performance like? Will it speed up or slow down my browsing?](#what-is-adnauseams-performance-like-will-it-speed-up-or-slow-down-my-browsing)
-* [Does AdNauseam's clicking put me at risk for malicious Ads or ransomware?](#does-adnauseams-clicking-put-me-at-risk-for-malicious-ads-or-ransomware?)
+* [Does AdNauseam's clicking put me at risk for malicious Ads or ransomware?](#does-adnauseams-clicking-put-me-at-risk-for-malicious-ads-or-ransomware)
 * [How does AdNauseam estimate the click cost it shows in the menu and vault?](#how-does-adnauseam-estimate-the-click-cost-it-shows-in-the-menu-and-vault)
 * [Does AdNauseam respect the browser's private-browsing/incognito modes?](#does-adnauseam-respect-the-browsers-private-browsingincognito-modes)
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
