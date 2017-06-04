@@ -1,4 +1,4 @@
-###Welcome to the AdNauseam wiki!
+### Welcome to the AdNauseam wiki!
 
 [Adnauseam.io](http://adnauseam.io) is the main site for the project.
 
