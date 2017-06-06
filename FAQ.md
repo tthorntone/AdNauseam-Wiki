@@ -189,7 +189,7 @@ The AdNauseam filter list, shown at the top of the 3RD-PARTY-FILTERS page in SET
 
 #### What is the "click-probability" setting?
 
-This setting lets you control the likelihood that each discovered Ad will actually be clicked by AdNauseam. 'Click ALL Ads' means that every Ad discovered will be clicked, while 'Click OCCASIONAL Ads' means that very few ads will be clicked (<= 10%). 
+This setting lets you control the likelihood that each discovered Ad will actually be clicked by AdNauseam. 'Always' means that every Ad discovered will be clicked, while 'Rarely' means that very few ads will be clicked.
 
 #### Sometimes it appears that there are multiples of the same Ad in the AdVault?
 
