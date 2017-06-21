@@ -11,7 +11,7 @@
 * [How does AdNauseam "Block Malicious Ads"?](#how-does-adnauseam-block-malicious-ads)
 * [What is AdNauseam's performance like? Will it speed up or slow down my browsing?](#what-is-adnauseams-performance-like-will-it-speed-up-or-slow-down-my-browsing)
 * [Does AdNauseam's clicking put me at risk for malicious Ads or ransomware?](#does-adnauseams-clicking-put-me-at-risk-for-malicious-ads-or-ransomware)
-* [Why does the ad vault sometimes not load all my ads when I open it?](#why-does-the-ad-vault-sometimes-not-load-all-my-ads-when-i-open-it)
+* [Why does the Ad vault not load all my ads when I open it?](#why-does-the-ad-vault-not-load-all-my-ads-when-i-open-it)
 * [How does AdNauseam estimate the click cost it shows in the menu and vault?](#how-does-adnauseam-estimate-the-click-cost-it-shows-in-the-menu-and-vault)
 * [Does AdNauseam respect the browser's private-browsing/incognito modes?](#does-adnauseam-respect-the-browsers-private-browsingincognito-modes)
 * [Are you also tracking my clicks on your own servers?](#are-you-also-tracking-my-clicks-on-your-own-servers)
@@ -139,7 +139,7 @@ When you are browsing DNT sites, the AdNauseam icon in the toolbar will turn gre
 
 This means that the current page is served from a site that has committed to the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard and thus does not engage in user-tracking (nor do any of its 3rd-party affiliates). For details on the AdNauseam options for 'Do Not Track sites', see [this entry](#what-is-the-effs-do-not-track-standard-and-how-it-is-supported-in-adnauseam).
 
-#### Why does the Ad vault sometimes not load all my ads when I open it?
+#### Why does the Ad vault not load all my ads when I open it?
 
 The Ad vault limits the initial number of displayed ads to 300 when the vault opens, to avoid a long wait while images load. The user can, however, drag the date slider at bottom to show as many ads as desired. 
 
