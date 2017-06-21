@@ -113,7 +113,7 @@ In rare cases, a dynamically-generated Ad appears to be hidden (and not collecte
 -----------
 #### How do I debug a text-ad that is being hidden, but not collected?
 
-In this case, we need to first determine whether we have a filter for this type of text-ad (these filters are in /src/js/adn/textads.js). If not, we may or may not want to add a filter, depending on how popular a site the text Ads are found on, so simply mark the ticket with this question. If we do, then we need to debug why it is not working correctly. (pending)
+In this case, we need to first determine whether we have a filter for this type of text-ad (these filters are in /src/js/adn/textads.js). If not, we may or may not want to add a filter, depending on how popular a site the text Ads are found on, so simply mark the ticket with this question. If we do, then we need to debug why it is not working correctly. To see debugging messages from textads.js, please activate debugging mode in settings page then open the console from the page in question. From the debugging messages, you should be able to see which text ad handler is in use and where the parsing has failed(title, site or text of the text-ad).
 
 -----------
 #### How do I test/verify functionality of a commit?
