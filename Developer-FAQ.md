@@ -177,7 +177,8 @@ This depends on the browser and the code you are interested in.
 
 ##### In Firefox
 
-Menu->Tools->Web Developer->Browser Console  (pending)
+Unlike chrome, all the logging messages in firefox can be viewed at one place. 
+Use `ctrl/command + shift + J` to open the browser console.
 
 -----------
 #### How do I view the extensions storage entries?
@@ -434,7 +435,15 @@ To view such events (blocks, allows, cookies, headers, etc.), enable the 'debugg
 -----------
 #### How do I run the browser's debugger on different parts of the extension?
 
-(pending)
+**Chrome / Opera**  
+* Background-scripts: click on background.html in chrome://extensions, then go to tab 'Sources'
+* Content-scripts: right click on the page in question, then choose 'inspect' and go to tab 'Sources'.
+
+**Firefox**
+1. Open the `about:debugging` page in Firefox
+2. Make sure the "Enable add-on debugging" box is checked
+3. Click the "Debug" button next to your add-on's entry in the page
+4. Next you'll see a dialog asking you to accept an incoming connection. Click "OK", and the debugger will start in a separate window.
 
 -----------
 #### What is the uDom?
