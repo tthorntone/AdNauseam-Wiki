@@ -77,7 +77,7 @@ Please refer to [this page](https://developer.mozilla.org/en-US/Add-ons/Firefox_
 
 -----------
 #### How do I run the unit tests?
-Make and load the extension as usual, then navigate to 'src/unit-tests.html' in your adnauseam dev browser
+Make and load the extension as usual, then navigate to 'src/unit-tests.html' in your browser
 
 #### How do I debug an ad that is appearing on a page?
 
