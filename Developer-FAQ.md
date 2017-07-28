@@ -38,6 +38,7 @@
 
 
 ### Debugging / Testing
+* [How do I run the unit tests?](#how-do-I-run-the-unit-tests)
 * [How do I debug an ad that is visible on a page?](#how-do-i-debug-an-ad-that-is-appearing-on-a-page)
 * [How do I debug a video ad that is visible on a page?](#how-do-i-debug-a-video-ad-that-is-appearing-on-a-page)
 * [How do I debug an image ad that is being hidden, but not collected?](#how-do-i-debug-an-image-ad-that-is-being-hidden-but-not-collected)
@@ -75,6 +76,9 @@ The project uses the git fork-and-branch workflow, described nicely [here](http:
 Please refer to [this page](https://developer.mozilla.org/en-US/Add-ons/Firefox_for_Android/Walkthrough) and [this page](https://developer.mozilla.org/en-US/docs/Tools/Remote_Debugging/Debugging_Firefox_for_Android_with_WebIDE)
 
 -----------
+#### How do I run the unit tests?
+Make and load the extension as usual, then navigate to 'src/unit-tests.html' in your adnauseam dev browser
+
 #### How do I debug an ad that is appearing on a page?
 
 First check whether the ad is appearing in uBlock. If it is, then this is not an ADN-specific problem (though we may want to fix it anyway). If the ad _does_ not show in uBlock, then it is likely the case that it is being blocked in uBlock, but not in ADN (remember that we don't want to block Ads, only hide them). So then we need to add a cosmetic filter (in AdNauseam filters) to replace the blocking filter that uBlock uses. All devs should learn how to do this (either by using the browser inspector, or the [block-element tool](https://github.com/gorhill/ublock/wiki/element-picker)):
