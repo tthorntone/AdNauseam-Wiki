@@ -4,6 +4,7 @@
 
 * [How do I install AdNauseam?](#how-do-i-install-adnauseam)
 * [How do I uninstall AdNauseam?](#how-do-i-uninstall-adnauseam)
+* [Is AdNauseam compatible with Firefox Web Extensions?](#is-adnauseam-compatible-with-firefox-web-extensions)
 * [How do I install a development release of AdNauseam?](#how-do-i-install-a-development-release-of-adnauseam)
 * [Can I use AdNauseam with my current adblocker?](#can-i-use-adnauseam-with-my-current-adblocker)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
@@ -66,6 +67,11 @@ _Note: you should always disable other adblockers while using AdNauseam_
 * [For Firefox](https://support.mozilla.org/en-US/kb/troubleshoot-issues-with-plugins-fix-problems#w_manually-uninstalling-a-plugin)
 * [For Chrome](https://support.google.com/chromebook/answer/2589434?hl=en)
 * [For Opera](http://help.opera.com/Mac/11.60/en/extensions.html)
+
+#### Is AdNauseam compatible with Firefox Web Extensions?
+
+AdNauseam is a fork of uBlock Origin. Thus, until there is a stable release of uBlock Origin for Web Extensions,
+there will not be an AdNauseam version either. However, uBlock's expected date of release for Web Extensions is currently September 19th. Shortly thereafter, once we work out any issues arising in the merge of ADN with uBlock, there will be an AdNauseam release. Keep up to date by checking the [uBlock](https://github.com/gorhill/uBlock/releases) and [AdNauseam](https://github.com/dhowe/adnauseam/releases) release notes.
 
 
 #### How do I install a development release of AdNauseam?
