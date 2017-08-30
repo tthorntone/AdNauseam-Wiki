@@ -3,6 +3,7 @@
 #### How?
 
 * [How do I install AdNauseam?](#how-do-i-install-adnauseam)
+* [How do I uninstall AdNauseam?](#how-do-i-uninstall-adnauseam)
 * [How do I install a development release of AdNauseam?](#how-do-i-install-a-development-release-of-adnauseam)
 * [Can I use AdNauseam with my current adblocker?](#can-i-use-adnauseam-with-my-current-adblocker)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
@@ -59,6 +60,13 @@
 You can find easy install links for AdNauseam on <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' and get started. For Chrome, you will need to follow [these instructions](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission).
 
 _Note: you should always disable other adblockers while using AdNauseam_
+
+
+#### How do I uninstall AdNauseam?
+* [For Firefox](https://support.mozilla.org/en-US/kb/troubleshoot-issues-with-plugins-fix-problems#w_manually-uninstalling-a-plugin).
+* [For Chrome](https://support.google.com/chromebook/answer/2589434?hl=en).
+* [For Opera](http://help.opera.com/Mac/11.60/en/extensions.html).
+
 
 #### How do I install a development release of AdNauseam?
 You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
