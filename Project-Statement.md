@@ -1,4 +1,4 @@
-The AdNauseam project is an open-source initiative with the goal of promoting privacy, specifically as regards the context of advertisement.
+The AdNauseam project is an open-source initiative with the goal of promoting privacy in the face of online surveillance by advertisers and advertising networks.
 
 The AdNauseam project is dedicated to being a harassment-free, inclusive forum for the sharing of strategies in service of the above goal. Everyone is welcome to contribute, regardless of race, class, gender identity or expression, age, ethnicity, religion, political beliefs, disability, sexual orientation, personal appearance, education level, and other aspects of who we are. In short, this is a space for tolerance and respect.
 
