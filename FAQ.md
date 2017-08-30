@@ -63,9 +63,9 @@ _Note: you should always disable other adblockers while using AdNauseam_
 
 
 #### How do I uninstall AdNauseam?
-* [For Firefox](https://support.mozilla.org/en-US/kb/troubleshoot-issues-with-plugins-fix-problems#w_manually-uninstalling-a-plugin).
-* [For Chrome](https://support.google.com/chromebook/answer/2589434?hl=en).
-* [For Opera](http://help.opera.com/Mac/11.60/en/extensions.html).
+* [For Firefox](https://support.mozilla.org/en-US/kb/troubleshoot-issues-with-plugins-fix-problems#w_manually-uninstalling-a-plugin)
+* [For Chrome](https://support.google.com/chromebook/answer/2589434?hl=en)
+* [For Opera](http://help.opera.com/Mac/11.60/en/extensions.html)
 
 
 #### How do I install a development release of AdNauseam?
