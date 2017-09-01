@@ -4,7 +4,7 @@
 
 * [How do I install AdNauseam?](#how-do-i-install-adnauseam)
 * [How do I uninstall AdNauseam?](#how-do-i-uninstall-adnauseam)
-* [What browsers does AdNauseam work with?](#h)
+* [What browsers does AdNauseam work with?](#what-browsers-does-adnauseam-work-with)
 * [Is AdNauseam compatible with Firefox Web Extensions?](#is-adnauseam-compatible-with-firefox-web-extensions)
 * [How do I install a development release of AdNauseam?](#how-do-i-install-a-development-release-of-adnauseam)
 * [Can I use AdNauseam with my current adblocker?](#can-i-use-adnauseam-with-my-current-adblocker)
