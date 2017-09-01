@@ -83,31 +83,30 @@ there will not be an AdNauseam version either. However, uBlock's expected date o
 You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
 To install, follow the instructions for your browser of choice below:
 
-##### [Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)
+- **[Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)**
 
-##### Firefox
+- **Firefox**
 
  Note: Dev releases of AdNauseam will only run on the Developer Edition of Firefox ([download](https://www.mozilla.org/en-US/firefox/developer/)).
 
  Prepare Firefox:
 
   1. Open you Firefox Developer Edition and type `about:config` into the url bar. When asked, choose to accept the risks.
-  2. In the config panel, search for `xpinstall.signatures.required`. Make sure the value is set to `false`.   
+  2. In the config panel, search for `xpinstall.signatures.required`. Make sure the value is set to `false`.<br/>   
 
- Install AdNauseam:
+ <br/>Install AdNauseam:
 
   1. Download a ["Firefox" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .xpi.
   2. In the browser navigate to Tools > Add-ons. In the side bar select "Extensions.
-  3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.
+  3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.  
 
-<br>
 
 - **Opera**
  1. Download a ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
  2. In your Opera Browser navigate to Opera > Preferences. In the side bar select the *puzzle piece* symbol/"Extensions".
  3. Drag the file you downloaded in i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Click "Install".
 
-_Note: you should always disable other adblockers while using AdNauseam_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Note: you should always disable other adblockers while using AdNauseam_
 
 #### Can I use AdNauseam with my current adblocker?
 It is possible, but since your adblocker will likely block some, or all, of the Ads AdNauseam is collecting, this is NOT recommended. For the best experience, you should disable other adblockers while using AdNauseam.
@@ -162,7 +161,7 @@ This means that the current page is served from a site that has committed to the
 
 #### Why does the Ad vault not load all my ads when I open it?
 
-The Ad vault limits the initial number of displayed ads to 300 when the vault opens, to avoid a long wait while images load. The user can, however, drag the date slider at bottom to show as many ads as desired. 
+The Ad vault limits the initial number of displayed ads to 300 when the vault opens, to avoid a long wait while images load. The user can, however, drag the date slider at bottom to show as many ads as desired.
 
 #### How does AdNauseam estimate the click cost it shows in the menu and vault?
 
@@ -241,11 +240,11 @@ For those who argue that advertising drives consumerism, irresponsible consumpti
 
 #### Isn't it safer just to use an adblocker? Why engage with ad-networks at all?
 
-While AdNauseam is far safer than using no blocker at all, it is indeed marginally safer for one to simply use a strong adblocker and protect themselves. But it is also safer to stay at home rather than to attend a protest. Using an adblocker does little to change the status quo (especially for those users without the resources to install/configure one, and so remain at risk). AdNauseam, and the obfuscation strategy in general, instead presents a possible avenue for collective resistance; a means of questioning and perhaps eventually, changing the system. But this is not for everyone. If your goal is primarily self-protection, this tool may not be for you... 
+While AdNauseam is far safer than using no blocker at all, it is indeed marginally safer for one to simply use a strong adblocker and protect themselves. But it is also safer to stay at home rather than to attend a protest. Using an adblocker does little to change the status quo (especially for those users without the resources to install/configure one, and so remain at risk). AdNauseam, and the obfuscation strategy in general, instead presents a possible avenue for collective resistance; a means of questioning and perhaps eventually, changing the system. But this is not for everyone. If your goal is primarily self-protection, this tool may not be for you...
 
 ####  What must advertisers do to win the trust of Internet users?
 
-One good option is to advertise on sites that respect the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard (and, incidentally, you will no longer be blocked by default in tools like AdNauseam or [PrivacyBadger](https://www.eff.org/privacybadger)). 
+One good option is to advertise on sites that respect the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard (and, incidentally, you will no longer be blocked by default in tools like AdNauseam or [PrivacyBadger](https://www.eff.org/privacybadger)).
 
 But there are many other ways that the status quo can be improved without damaging the Web ecosystem, e.g. non-tracking ads,  contextual advertising, and client-side ad profiling (see [Adnostic](http://crypto.stanford.edu/adnostic/)). Alternatively, web-sites and publishers might switch to advertising networks that don't violate the privacy of users ([Deck](http://decknetwork.net/privacy/) appears to have been one such example).
 
@@ -264,7 +263,7 @@ We understand what click-fraud is and do not believe we are engaging in it (nor 
 
 #### But what about "good" sites who don't track -- doesn't AdNauseam also block their ads?
 
-We very much believe that users should be allowed to 'whitelist' any and all sites they want to support. In fact, this is why we provide built-in support for the [EFF's Do Not Track](#how-and-why-does-adnauseam-make-exceptions-for-non-tracking-ads) mechanism to support sites that pledge to respect user privacy. But you can also whitelist any site, whether or not they are on the EFF's list. To learn how to add a site to your whitelist, see this [page](https://github.com/dhowe/AdNauseam/wiki/Whitelisting). 
+We very much believe that users should be allowed to 'whitelist' any and all sites they want to support. In fact, this is why we provide built-in support for the [EFF's Do Not Track](#how-and-why-does-adnauseam-make-exceptions-for-non-tracking-ads) mechanism to support sites that pledge to respect user privacy. But you can also whitelist any site, whether or not they are on the EFF's list. To learn how to add a site to your whitelist, see this [page](https://github.com/dhowe/AdNauseam/wiki/Whitelisting).
 
 #### What is the "end goal" of AdNauseam? Confusing data so it becomes useless for advertisers and forces them to react?
 
@@ -282,11 +281,11 @@ Otherwise, we are very happy with Bitcoin donations. Why Bitcoin? Because it's a
 
 If this sounds fair to you and you still want to show your support through a donation, please use the following Bitcoin address: 1NiwkdL8Dm9DiTxp7uxNVDnxESAotg6En2
 
-And again, thank you. 
+And again, thank you.
 
 #### Are you concerned that adblocking technology is part of the reason companies like Facebook are so keen to deploy "native advertising" -- Ads that masquerade as editorial content?
 
-We can't answer for Facebook's decisions to insert advertising material inadvertently into other content. Media companies have utilized this approach before and will likely continue to attempt to confuse individuals into paying attention with new techniques, once resistance has developed to entrenched methods. In print media, some governments have found the practice sufficiently unethical to require publishers clearly to distinguish advertising from editorial content. 
+We can't answer for Facebook's decisions to insert advertising material inadvertently into other content. Media companies have utilized this approach before and will likely continue to attempt to confuse individuals into paying attention with new techniques, once resistance has developed to entrenched methods. In print media, some governments have found the practice sufficiently unethical to require publishers clearly to distinguish advertising from editorial content.
 
 
 ## Who?
