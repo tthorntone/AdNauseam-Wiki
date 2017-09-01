@@ -100,6 +100,7 @@ To install, follow the instructions for your browser of choice below:
   2. In the browser navigate to Tools > Add-ons. In the side bar select "Extensions.
   3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.
 
+
 - **Opera**
  1. Download a ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
  2. In your Opera Browser navigate to Opera > Preferences. In the side bar select the *puzzle piece* symbol/"Extensions".
