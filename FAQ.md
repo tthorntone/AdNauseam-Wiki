@@ -83,9 +83,9 @@ there will not be an AdNauseam version either. However, uBlock's expected date o
 You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
 To install, follow the instructions for your browser of choice below:
 
-- **[Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)**
+#####[Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)**
 
-- **Firefox**
+#####Firefox
 
  Note: Dev releases of AdNauseam will only run on the Developer Edition of Firefox ([download](https://www.mozilla.org/en-US/firefox/developer/)).
 
