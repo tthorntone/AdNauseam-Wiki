@@ -65,9 +65,9 @@ _Note: you should always disable other adblockers while using AdNauseam_
 
 
 #### How do I uninstall AdNauseam?
-* [For Firefox](https://support.mozilla.org/en-US/kb/troubleshoot-issues-with-plugins-fix-problems#w_manually-uninstalling-a-plugin)
-* [For Chrome](https://support.google.com/chromebook/answer/2589434?hl=en)
-* [For Opera](http://help.opera.com/Mac/11.60/en/extensions.html)
+* [In Firefox](https://support.mozilla.org/en-US/kb/troubleshoot-issues-with-plugins-fix-problems#w_manually-uninstalling-a-plugin)
+* [In Chrome](https://support.google.com/chromebook/answer/2589434?hl=en)
+* [In Opera](http://help.opera.com/Mac/11.60/en/extensions.html)
 
 #### What browsers does AdNauseam work with?
 
@@ -100,6 +100,7 @@ To install, follow the instructions for your browser of choice below:
   2. In the browser navigate to Tools > Add-ons. In the side bar select "Extensions.
   3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.
 
+<br>
 
 - **Opera**
  1. Download a ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
