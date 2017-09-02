@@ -14,13 +14,13 @@
 1. Extract the zip file.
 1. In your Chrome Browser menu, click Windows > Extensions or type ``chrome://extensions/`` in the address bar.
 1. Check the ``Developer mode`` checkbox (see image)
-1. Click the ``Load unpacked extension`` button (see image) and navigate to the file you downloaded in step 1 (in most cases it will be in the downloads folder).
+1. Click the ``Load unpacked extension`` button (see image) and navigate to the file you downloaded in step 1 (in most cases it will be in the downloads folder).<br/>  
 ![image](https://cloud.githubusercontent.com/assets/27123/21674694/83a8a8ba-d337-11e6-8837-7a56f507e8d7.png)
 
 *&nbsp;Note that each time you restart Chrome you will be prompted to ``Disable Developer Mode Extensions``. Feel free to simply hit ``Cancel`` and continue.<br/>  
 ![image](https://cloud.githubusercontent.com/assets/27123/21674871/5041d6c6-d338-11e6-9112-9dcebb5553e6.png)
 
-This is indeed annoying, as Google intends, however there is no workaround we know of at this time
+This is indeed annoying, as Google of course intends, however there is no workaround we know of at this time
 
 ### Retrieving your backup
 
