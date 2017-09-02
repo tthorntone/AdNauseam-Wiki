@@ -71,7 +71,7 @@ _Note: you should always disable other adblockers while using AdNauseam_
 
 #### What browsers does AdNauseam work with?
 
-AdNauseam is compatible with all Chromium-based based browsers (e.g. Chromium, Opera, Dragon, etc), as well as Firefox and its derivatives (e.g., Firefox Mobile, Waterfox, etc). It requires workarounds on [Google Chrome](https://adnauseam.io/free-adnauseam.html) (and on a certain [Firefox derivative](https://forum.palemoon.org/viewtopic.php?t=16504])), where it has been disallowed. If you are interested in working on a version for another browser (Safari, Edge, Brave, etc), please [contact the developers](mailto:adnauseam@rednoise.org) directly (do NOT create a github issue for such requests).
+AdNauseam is compatible with all Chromium-based based browsers (e.g. Opera, Iron, Comodo Dragon, Vivaldi, etc), as well as Firefox and its derivatives (e.g., Firefox Mobile, Waterfox, etc). It requires workarounds on [Google Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission) (and on a certain [Firefox derivative](https://forum.palemoon.org/viewtopic.php?t=16504])), where it has been disallowed. If you are interested in working on a version for another browser (Safari, Edge, Brave, etc), please [contact the developers](mailto:adnauseam@rednoise.org) directly (do NOT create a github issue for such requests).
 
 #### Is AdNauseam compatible with Firefox Web Extensions?
 

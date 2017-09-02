@@ -17,10 +17,10 @@
 1. Click the ``Load unpacked extension`` button (see image) and navigate to the file you downloaded in step 1 (in most cases it will be in the downloads folder).
 ![image](https://cloud.githubusercontent.com/assets/27123/21674694/83a8a8ba-d337-11e6-8837-7a56f507e8d7.png)
 
-*Note that every time you restart Chrome you will be prompted about your use of ``Disable Developer Mode Extension``. Feel free to ignore it and hit ``Cancel``.
+* Note that every time you restart Chrome you will be prompted about your use of ``Disable Developer Mode Extension``. Feel free to ignore it and hit ``Cancel``.
 ![image](https://cloud.githubusercontent.com/assets/27123/21674871/5041d6c6-d338-11e6-9112-9dcebb5553e6.png)
 
-**This is slightly annoying, we know. But hopefully we'll be back on the Google Web Store soon and this will no longer be required.
+** This is slightly annoying, we know, but there is currently no alternative we are aware of.
 
 ### Retrieving your backup
 
@@ -36,4 +36,3 @@ If Google has lost your trust, as it has ours, you might want to move to a brows
 * Go back to [Firefox](https://getfirefox.com)
 * You've always wanted to [give Opera a chance](https://opera.com), this is a good excuse
 * Try one of the many non-Google versions of Chromium (such as [Iron](https://www.srware.net/en/software_srware_iron.php), [Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php), or [Vivaldi](http://www.vivaldi.com/))
-
