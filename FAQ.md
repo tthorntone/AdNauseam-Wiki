@@ -71,12 +71,11 @@ _Note: you should always disable other adblockers while using AdNauseam_
 
 #### What browsers does AdNauseam work with?
 
-AdNauseam is compatible with all Chromium-based based browsers (e.g. Chrome, Chromium and Opera), as well as Firefox and its derivatives (e.g., Firefox Mobile, Waterfox, etc). If you are interested in working on a version for another browser (Safari, Edge, Brave, etc), we would love to work with you. Please contact the developers directly (do NOT create a github issue for this).
+AdNauseam is compatible with all Chromium-based based browsers (e.g. Chromium, Opera, Dragon, etc), as well as Firefox and its derivatives (e.g., Firefox Mobile, Waterfox, etc). It requires workarounds on [Google Chrome](https://adnauseam.io/free-adnauseam.html) (and on a certain [Firefox derivative](https://forum.palemoon.org/viewtopic.php?t=16504])), where it has been disallowed. If you are interested in working on a version for another browser (Safari, Edge, Brave, etc), please [contact the developers](mailto:adnauseam@rednoise.org) directly (do NOT create a github issue for such requests).
 
 #### Is AdNauseam compatible with Firefox Web Extensions?
 
-AdNauseam is a fork of uBlock Origin. Thus, until there is a stable release of uBlock Origin for Web Extensions,
-there will not be an AdNauseam version either. However, uBlock's expected date of release for Web Extensions is currently September 19th. Shortly thereafter, once we work out any merge issues, there will be an AdNauseam release. Keep up to date by checking the ([uBlock](https://github.com/gorhill/uBlock/releases) and [AdNauseam](https://github.com/dhowe/adnauseam/releases)) release notes.
+AdNauseam is a fork of uBlock Origin. Thus, until there is a stable release of uBlock Origin for Web Extensions, there will be no AdNauseam version either. uBlock's expected date of release for Web Extensions is currently September 19th, 2017. Shortly thereafter, once we work out any merge issues, there will be an AdNauseam release. Keep up to date by checking the ([uBlock](https://github.com/gorhill/uBlock/releases) and [AdNauseam](https://github.com/dhowe/adnauseam/releases)) release notes.
 
 
 #### How do I install a development release of AdNauseam?
