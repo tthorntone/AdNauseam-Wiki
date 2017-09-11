@@ -218,7 +218,7 @@ This setting lets you control the likelihood that each discovered Ad will actual
 
 #### Sometimes it appears that there are multiples of the same Ad in the AdVault?
 
-This sometimes happens. AdNauseam tests for Ad uniqueness of image-Ads by comparing the URLs of the displayed image. However, some Ad networks use different URLs in different Ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/631).
+This sometimes happens. AdNauseam tests for Ad uniqueness of image-Ads by comparing the URLs of the displayed image. However, some ad networks use different URLs in different Ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/631).
 
 #### Why have options from earlier versions been removed?
 
@@ -271,7 +271,7 @@ Yes, one goal of AdNauseam is protecting users from privacy violations and other
 
 #### Doesn’t AdNauseam harm small websites and publishers most?
 
-Small websites are in a tough situation. For some, financial survival depends on selling out visitors to ad network surveillance because there are no viable alternatives. Having seen no interest on the part of the ad networks to do the right thing, we have concluded that pressure on the business model is the only fighting chance for change. AdNauseam offers one such chance. While it may, at first, impose stress on small websites and publishers, ultimately, this approach will lead to more advertising options and a fairer distribution of rewards than the current value-grab [[1]](https://www.wired.com/2017/04/stronger-privacy-laws-save-advertising/). Most importantly, small publishers will no longer be forced by ad networks to mislead and exploit their visitors in order to survive. Rather than passively enable and bankroll the surveillance advertising industry, we encourage and expect advertisers to welcome changes to the corrupt system that is the current status quo.
+Small websites are in a tough situation. For some, financial survival depends on selling out visitors to ad network surveillance because there are no viable alternatives. Having seen no interest on the part of ad networks to do the right thing, we have concluded that pressure on the business model is the only fighting chance for change. AdNauseam offers one such chance. While it may, at first, impose stress on small websites and publishers, ultimately, this approach will lead to more advertising options and a fairer distribution of rewards than the current value-grab [[1]](https://www.wired.com/2017/04/stronger-privacy-laws-save-advertising/). Most importantly, small publishers will no longer be forced by ad networks to mislead and exploit their visitors in order to survive. Rather than passively enable and bankroll the surveillance advertising industry, we encourage and expect advertisers to welcome changes to the corrupt system that is the current status quo.
 
 #### Is there a business model behind AdNauseam? Do you consider yourself a business, or is it solely to make some kind of a statement about the state of web advertising?
 
