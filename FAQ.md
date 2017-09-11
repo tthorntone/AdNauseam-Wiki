@@ -45,6 +45,7 @@
 * [How does AdNauseam's clicking differ from 'click-fraud'?](#how-does-adnauseams-clicking-differ-from-click-fraud)
 * [But what about "good" sites who don't track -- doesn't AdNauseam also block their Ads?](#but-what-about-good-sites-who-dont-track----doesnt-adnauseam-also-block-their-ads)
 * [What is the "end goal" of AdNauseam?](#what-is-the-end-goal-of-adnauseam-confusing-data-so-it-becomes-useless-for-advertisers-and-forces-them-to-react)
+* [Doesn’t AdNauseam harm small websites and publishers most?]
 * [Is there a business model behind AdNauseam?](#is-there-a-business-model-behind-adnauseam-do-you-consider-yourself-a-business-or-is-it-solely-to-make-some-kind-of-a-statement-about-the-state-of-web-advertising)
 * [Donations / is that your REAL business model?](#donations--is-that-your-real-business-model)
 * [What about "Native Advertising?"](#are-you-concerned-that-adblocking-technology-is-part-of-the-reason-companies-like-facebook-are-so-keen-to-deploy-native-advertising----ads-that-masquerade-as-editorial-content)
