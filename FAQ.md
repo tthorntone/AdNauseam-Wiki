@@ -112,7 +112,7 @@ To install, follow the instructions for your browser of choice below:
 It is possible, but since your adblocker will likely block some, or all, of the Ads AdNauseam is collecting, this is NOT recommended. For the best experience, you should disable other adblockers while using AdNauseam.
 
 #### What is AdNauseam's performance like? Will it speed up or slow down my browsing?
-AdNauseam is significantly faster (and safer) than using either of the two most popular blockers, Adblock or Adblock Plus, and nearly twice as fast as using no blocker at all. Metrics with more browsers and adblockers on the way...
+AdNauseam is significantly faster (and safer) than using either of the two most popular blockers, Adblock or Adblock Plus, and nearly twice as fast as using no blocker at all. For further metrics please see [our forthcoming paper](http://ceur-ws.org/Vol-1873/IWPE17_paper_23.pdf)...
 
 ![Benchmark](https://raw.githubusercontent.com/cqx931/AdNauseam/images/wikiImage/20160113.png)  
 
