@@ -426,7 +426,7 @@ Based on gorhill's comment in [issue752](https://github.com/dhowe/AdNauseam/issu
 
 #### How does AdNauseam handle incoming and outgoing cookies?
 
-Incoming cookies are blocked when responses comes from an ad-visit OR a response to a domain in the allowedExceptions list, which is NOT an enabled DNT entry. Outgoing cookies are not manipulated. 
+Incoming cookies are blocked when responses comes from an ad-visit OR a domain in the allowedExceptions list, which is NOT an enabled DNT entry. Outgoing cookies are not manipulated. 
 
 Path: vapi-background.js::handleResponseHeaders() -> traffic.js::onHeadersReceived()
 
