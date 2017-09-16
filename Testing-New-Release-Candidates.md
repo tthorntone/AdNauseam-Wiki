@@ -62,7 +62,7 @@ _First make sure that you are working with the correct commit (check the hash) o
   * TextAds: visit Google/Ask/Yahoo/Bing/DuckDuckGo to search for keywords such as "credit card" or "loan"
 *  Test Ad-parsing from within dynamically-created iFrames: hidden and collected 
 Test cases:
-[Chrome](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe.html)
+[Chrome](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe.html) | 
 [Firefox](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe_firefox.html)
 *  Test Ad-parsing from cosmetically-filtered iFrames: hidden but not collected (without cosmetic filters for any contained elements)  [here](http://lab-lamp.scm.cityu.edu.hk/adntest/iframe-cosm.html)                       
 *  Test that no Ads are collected in incognito/private-browsing windows:    
