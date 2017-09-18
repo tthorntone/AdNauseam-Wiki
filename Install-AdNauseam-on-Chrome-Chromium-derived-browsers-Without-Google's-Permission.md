@@ -8,13 +8,17 @@
 2. Click the ``SETTINGS`` button at the bottom of the menu
 3. Scroll down to the bottom of the page and click ``EXPORT ADS``
 
+### Installation
+### Manual install through `.crx`
+**Note: this only works on certain Chromium-derived browsers, such as [Centbrowser](https://www.centbrowser.com/)**
+1. Download the ``adnauseam.chrome.crx``file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest).
+2. Drag the ``adnauseam.chrome.crx``file into the active window of the browser 
 ### Manual Install in Developer Mode
-
-1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release for chrome](https://github.com/dhowe/AdNauseam/releases/latest).
-1. Extract the zip file.
-1. In your Chrome Browser menu, click Windows > Extensions or type ``chrome://extensions/`` in the address bar.
-1. Check the ``Developer mode`` checkbox (see image)
-1. Click the ``Load unpacked extension`` button (see image) and navigate to the file you downloaded in step 1 (in most cases it will be in the downloads folder).<br/>  
+1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest).
+2. Extract the zip file.
+3. In your Chrome Browser menu, click Windows > Extensions or type ``chrome://extensions/`` in the address bar.
+4. Check the ``Developer mode`` checkbox (see image)
+5. Click the ``Load unpacked extension`` button (see image) and navigate to the file you downloaded in step 1 (in most cases it will be in the downloads folder).<br/>  
 ![image](https://cloud.githubusercontent.com/assets/27123/21674694/83a8a8ba-d337-11e6-8837-7a56f507e8d7.png)
 
 *&nbsp;Note that each time you restart Chrome you will be prompted to ``Disable Developer Mode Extensions``. Feel free to simply hit ``Cancel`` and continue.<br/>  
@@ -35,4 +39,8 @@ If __Google has lost your trust__, as it has ours, you might want to move to a b
 
 * Go back to [Firefox](https://getfirefox.com), or a derivative like [WaterFox](https://www.waterfoxproject.org/)
 * You've always wanted to [give Opera a chance](https://opera.com), this is a good excuse
-* Try one of the many non-Google versions of Chromium, such as [Iron](https://www.srware.net/en/software_srware_iron.php), [Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php), or [Vivaldi](http://www.vivaldi.com/)
+* Try one of the many non-Google versions of Chromium, such as:
+ * [Iron](https://www.srware.net/en/software_srware_iron.php)
+ * [Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php)
+ * [Vivaldi](http://www.vivaldi.com/)
+ * [Centbrowser](https://www.centbrowser.com/)
