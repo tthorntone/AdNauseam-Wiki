@@ -1,1 +1,1 @@
-ASD
+# [This page has been moved](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-or-Chromium-derived-browsers-Without-Google's-Permission)
