@@ -11,17 +11,17 @@
 ### Installation
 ### Manual install through `.crx`
 **Note: this only works on certain Chromium-derived browsers, such as [Centbrowser](https://www.centbrowser.com/)**
-1. Download the ``adnauseam.chrome.crx``file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest).
+1. Download the ``adnauseam.chrome.crx``file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest)
 2. Drag the ``adnauseam.chrome.crx``file into the active window of the browser 
 ### Manual Install in Developer Mode
-1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest).
+1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest)
 2. Extract the zip file to a folder somewhere that it can remain
 
 ###### Warning: Do not delete this folder after the install; Chrome will disable AdNauseam if this folder is not in the expected location
 
-3. In your Chrome Browser menu, click Windows > Extensions or type ``chrome://extensions/`` in the address bar.
+3. In your Chrome Browser menu, click Windows > Extensions or type ``chrome://extensions/`` in the address bar
 4. Check the ``Developer mode`` checkbox (see image)
-5. Click the ``Load unpacked extension`` button (see image) and navigate to the file you downloaded in step 1 (in most cases it will be in the downloads folder).<br/>  
+5. Click the ``Load unpacked extension`` button (see image) and navigate to the folder you downloaded in step 1<br/>  
 ![image](https://cloud.githubusercontent.com/assets/27123/21674694/83a8a8ba-d337-11e6-8837-7a56f507e8d7.png)
 
 *&nbsp;Note that each time you restart Chrome you will be prompted to ``Disable Developer Mode Extensions``. Feel free to simply hit ``Cancel`` and continue.<br/>  
