@@ -15,7 +15,10 @@
 2. Drag the ``adnauseam.chrome.crx``file into the active window of the browser 
 ### Manual Install in Developer Mode
 1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest).
-2. Extract the zip file.
+2. Extract the zip file to a folder somewhere that it can remain
+
+###### _Warning: Do not delete the folder after installing. AdNauseam will stop working if this folder is not in the expected location
+
 3. In your Chrome Browser menu, click Windows > Extensions or type ``chrome://extensions/`` in the address bar.
 4. Check the ``Developer mode`` checkbox (see image)
 5. Click the ``Load unpacked extension`` button (see image) and navigate to the file you downloaded in step 1 (in most cases it will be in the downloads folder).<br/>  
