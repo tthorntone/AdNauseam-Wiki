@@ -43,6 +43,6 @@ If __Google has lost your trust__, as it has ours, you might want to move to a b
 * Go back to [Firefox](https://getfirefox.com), or a derivative like [WaterFox](https://www.waterfoxproject.org/)
 * You've always wanted to [give Opera a chance](https://opera.com), this is a good excuse
 * Try one of the many non-Google versions of Chromium, such as:
- * [Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php)
- * [Vivaldi](http://www.vivaldi.com/)
- * [Centbrowser](https://www.centbrowser.com/)
+   ** [Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php)
+   ** [Vivaldi](http://www.vivaldi.com/)
+   ** [Centbrowser](https://www.centbrowser.com/)
