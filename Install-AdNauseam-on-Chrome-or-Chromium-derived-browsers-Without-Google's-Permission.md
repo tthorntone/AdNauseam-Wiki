@@ -17,7 +17,7 @@
 1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest).
 2. Extract the zip file to a folder somewhere that it can remain
 
-###### Warning: Do not delete this folder after the install. Chrome will disable AdNauseam if this folder is not in the expected location
+###### Warning: Do not delete this folder after the install; Chrome will disable AdNauseam if this folder is not in the expected location
 
 3. In your Chrome Browser menu, click Windows > Extensions or type ``chrome://extensions/`` in the address bar.
 4. Check the ``Developer mode`` checkbox (see image)
@@ -42,9 +42,7 @@ If __Google has lost your trust__, as it has ours, you might want to move to a b
 
 * Go back to [Firefox](https://getfirefox.com), or a derivative like [WaterFox](https://www.waterfoxproject.org/)
 * You've always wanted to [give Opera a chance](https://opera.com), this is a good excuse
-
-Try one of the many non-Google versions of Chromium, such as:
- * [Iron](https://www.srware.net/en/software_srware_iron.php)
+* Try one of the many non-Google versions of Chromium, such as:
  * [Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php)
  * [Vivaldi](http://www.vivaldi.com/)
  * [Centbrowser](https://www.centbrowser.com/)
