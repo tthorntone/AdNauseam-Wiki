@@ -178,7 +178,7 @@ Once an Ad has been detected, CSS is used to render it invisible and to collapse
 
 #### How does AdNauseam "click Ads"?
 
-AdNauseam 'clicks' Ads by issuing an HTTP request to the URL to which they lead. In current versions the is done via an XMLHttpRequest (or AJAX request) issued in a background process. This lightweight request signals a 'click' on the server responsible for the Ad, but does so without opening any additional windows or pages on your computer. Further it allows AdNauseam to safely receive and discard the resulting response data, rather than executing it in the browser, thus preventing a range of potential security problems (ransomware, rogue Javascript or Flash code, XSS-attacks, etc.) caused by malfunctioning or malicious Ads. Although it is completely safe, AdNauseam's clicking behaviour can be de-activated in the settings panel.
+AdNauseam 'clicks' Ads by issuing an HTTP request to the URL to which they lead. In current versions this is done via an AJAX request issued in a background process. This lightweight request signals a 'click' on the server responsible for the Ad, but does so without opening any additional windows or pages on your computer. Further it allows AdNauseam to safely receive and discard the resulting response data, rather than executing it in the browser, thus preventing a range of potential security problems (ransomware, rogue Javascript or Flash code, XSS-attacks, etc.) caused by malfunctioning or malicious Ads. Although it is completely safe, AdNauseam's clicking behaviour can be de-activated in the settings panel.
 
 
 #### How does AdNauseam "Block Malicious Ads"?
