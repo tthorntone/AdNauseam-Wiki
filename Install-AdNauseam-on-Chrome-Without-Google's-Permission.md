@@ -21,7 +21,8 @@ _The following instructions are for Google Chrome only. For other chromium-based
 3. In your Chrome Browser menu, click Windows > Extensions or type ``chrome://extensions/`` in the address bar
 4. Check the ``Developer mode`` checkbox (see image)
 5. Click the ``Load unpacked extension`` button (see image) and navigate to the folder you downloaded in step 1<br/>  
-![image](https://cloud.githubusercontent.com/assets/27123/21674694/83a8a8ba-d337-11e6-8837-7a56f507e8d7.png). If you have previously exported your ads, you can [retrieve them now](#retrieve-your-saved-data)
+![image](https://cloud.githubusercontent.com/assets/27123/21674694/83a8a8ba-d337-11e6-8837-7a56f507e8d7.png) 
+6. If you have previously exported your ads, you can [retrieve them now](#retrieve-your-saved-data)
 
 *&nbsp;Note that each time you restart Chrome you will be prompted to ``Disable Developer Mode Extensions``. Feel free to simply hit ``Cancel`` and continue.<br/>  
 ![image](https://cloud.githubusercontent.com/assets/27123/21674871/5041d6c6-d338-11e6-9112-9dcebb5553e6.png)
