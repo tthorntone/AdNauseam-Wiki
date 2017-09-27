@@ -1,8 +1,8 @@
 [Google has banned AdNauseam](https://adnauseam.io/free-adnauseam.html) from its web store and have left users with no access to their data.
 
-## 1. Back up your data
+## Back up your data
 
-&nbsp; &nbsp;(if you're a new AdNauseam user, or don't need your ads, jump to [Installation](#2-install-adnauseam))
+&nbsp; &nbsp;(if you're a new AdNauseam user, or don't need your ads, jump to [Installation](#install-adnauseam))
 
 1. Click on the AdNauseam icon to open the AdNauseam menu
 2. Click the ``SETTINGS`` button at the bottom of the menu
@@ -10,7 +10,7 @@
 
 <br>
 
-## 2. Install AdNauseam
+## Install AdNauseam
 
 _The following instructions are for Google Chrome only. For other chromium-based browsers simply download [the latest .crx file](https://github.com/dhowe/AdNauseam/releases/latest) and drag into your browser window._
 
@@ -32,7 +32,7 @@ This is indeed annoying, as Google of course intends, however there is no workar
 
 <br>
 
-## 3. Retrieve your backup
+## Retrieve your backup
 
 1. After you have AdNauseam up and running again, go back to the AdNauseam settings page
 1. Scroll all the way down again and click ''Import Ads''
