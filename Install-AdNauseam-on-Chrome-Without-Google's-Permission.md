@@ -32,7 +32,7 @@ This is indeed annoying, as Google of course intends, however there is no workar
 
 <br>
 
-## Retrieving your backup
+## 3. Retrieve your backup
 
 1. After you have AdNauseam up and running again, go back to the AdNauseam settings page
 1. Scroll all the way down again and click ''Import Ads''
@@ -41,7 +41,7 @@ This is indeed annoying, as Google of course intends, however there is no workar
 
 <br>
 
-### Using AdNauseam on other browsers
+## Using AdNauseam on other browsers
 
 If __Google has lost your trust__, as it has ours, you might want to move to a browser that is not as intrusive and controlling. You have a number of options including:
 
