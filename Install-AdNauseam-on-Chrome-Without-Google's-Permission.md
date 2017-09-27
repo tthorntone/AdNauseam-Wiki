@@ -8,6 +8,9 @@
 2. Click the ``SETTINGS`` button at the bottom of the menu
 3. Scroll down to the bottom of the page and click ``EXPORT ADS``
 
+<br>
+
+
 ## 2. Installation
 
 <br>
