@@ -9,10 +9,16 @@
 3. Scroll down to the bottom of the page and click ``EXPORT ADS``
 
 ## 2. Installation
-### Manual install through `.crx`
+
+<br>
+
+### Manual install via `.crx`
 **Note: this only works on certain Chromium-derived browsers, such as [Centbrowser](https://www.centbrowser.com/)**
 1. Download the ``adnauseam.chrome.crx``file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest)
 2. Drag the ``adnauseam.chrome.crx``file into the active window of the browser 
+
+<br>
+
 ### Manual Install in Developer Mode
 1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest)
 2. Extract the zip file to a folder somewhere that it can remain
