@@ -12,7 +12,7 @@
 
 ## 2. Install AdNauseam
 
-##### The following instructions are for Google Chrome only. For other chromium-based browers...
+_The following instructions are for Google Chrome only. For other chromium-based browers..._
 
 <br>
 
@@ -30,9 +30,11 @@
 *&nbsp;Note that each time you restart Chrome you will be prompted to ``Disable Developer Mode Extensions``. Feel free to simply hit ``Cancel`` and continue.<br/>  
 ![image](https://cloud.githubusercontent.com/assets/27123/21674871/5041d6c6-d338-11e6-9112-9dcebb5553e6.png)
 
-This is indeed annoying, as Google of course intends, however there is no workaround we know of at this time
+This is indeed annoying, as Google of course intends, however there is no workaround we are aware of at this time
 
-### Retrieving your backup
+<br>
+
+## Retrieving your backup
 
 1. After you have AdNauseam up and running again, go back to the AdNauseam settings page
 1. Scroll all the way down again and click ''Import Ads''
