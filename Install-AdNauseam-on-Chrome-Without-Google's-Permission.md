@@ -2,7 +2,7 @@
 
 ## 1. Back up your data
 
-&nbsp; &nbsp;(if you're a new AdNauseam user, or don't need your ads, jump to [Installation](#2-installation))
+&nbsp; &nbsp;(if you're a new AdNauseam user, or don't need your ads, jump to [Installation](#2-install-adnauseam))
 
 1. Click on the AdNauseam icon to open the AdNauseam menu
 2. Click the ``SETTINGS`` button at the bottom of the menu
@@ -12,11 +12,11 @@
 
 
 
-## 2. Installation
+## 2. Install AdNauseam
 
 <br>
 
-### Manual install via `.crx` (not for Google Chrome)
+### Manual install via `.crx` (* not for Google Chrome)
 **Note: this only works on certain Chromium-derived browsers, such as [Centbrowser](https://www.centbrowser.com/)**
 1. Download the ``adnauseam.chrome.crx``file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest)
 2. Drag the ``adnauseam.chrome.crx``file into the active window of the browser 
