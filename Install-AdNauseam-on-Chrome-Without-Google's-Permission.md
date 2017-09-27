@@ -2,7 +2,7 @@
 
 ## Back up your data
 
-&nbsp; &nbsp;(if you're a new AdNauseam user, or don't need your ads, jump to [Installation](#install-adnauseam))
+&nbsp; &nbsp;(if you're a new AdNauseam user, or don't care about your saved ads, jump to [Installation](#install-adnauseam))
 
 1. Click on the AdNauseam icon to open the AdNauseam menu
 2. Click the ``SETTINGS`` button at the bottom of the menu
