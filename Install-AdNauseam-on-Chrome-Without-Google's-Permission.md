@@ -7,12 +7,11 @@
 1. Click on the AdNauseam icon to open the AdNauseam menu
 2. Click the ``SETTINGS`` button at the bottom of the menu
 3. Scroll down to the bottom of the page and click ``EXPORT ADS``
-
 <br>
 
 ## Install AdNauseam
 
-&nbsp; &nbsp;_The following instructions are for Google Chrome only. For other chromium-based browsers simply download [the latest .crx file](https://github.com/dhowe/AdNauseam/releases/latest) and drag into your browser window._
+&nbsp; &nbsp;_The following instructions are for Google Chrome only. For other chromium-based browsers simply download [the latest .CRX file](https://github.com/dhowe/AdNauseam/releases/latest) and drag into your browser window._
 
 ### Manual Install in Developer Mode
 1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest)
@@ -23,7 +22,7 @@
 3. In your Chrome Browser menu, click Windows > Extensions or type ``chrome://extensions/`` in the address bar
 4. Check the ``Developer mode`` checkbox (see image)
 5. Click the ``Load unpacked extension`` button (see image) and navigate to the folder you downloaded in step 1<br/>  
-![image](https://cloud.githubusercontent.com/assets/27123/21674694/83a8a8ba-d337-11e6-8837-7a56f507e8d7.png). If you have saved ads to restore, you can [retrieve them now](#retrieve-your-backup)
+![image](https://cloud.githubusercontent.com/assets/27123/21674694/83a8a8ba-d337-11e6-8837-7a56f507e8d7.png). If you have previously exported your ads, you can [retrieve them now](#retrieve-your-backup)
 
 *&nbsp;Note that each time you restart Chrome you will be prompted to ``Disable Developer Mode Extensions``. Feel free to simply hit ``Cancel`` and continue.<br/>  
 ![image](https://cloud.githubusercontent.com/assets/27123/21674871/5041d6c6-d338-11e6-9112-9dcebb5553e6.png)
