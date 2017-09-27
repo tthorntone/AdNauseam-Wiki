@@ -11,7 +11,15 @@
 <br>
 
 
+
 ## 2. Installation
+
+<br>
+
+### Manual install via `.crx` (not for Google Chrome)
+**Note: this only works on certain Chromium-derived browsers, such as [Centbrowser](https://www.centbrowser.com/)**
+1. Download the ``adnauseam.chrome.crx``file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest)
+2. Drag the ``adnauseam.chrome.crx``file into the active window of the browser 
 
 <br>
 
