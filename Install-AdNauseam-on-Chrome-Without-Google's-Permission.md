@@ -1,6 +1,6 @@
 [Google has banned AdNauseam](https://adnauseam.io/free-adnauseam.html) from its web store and have left users with no access to their data.
 
-### Back up your data
+## 1. Back up your data
 
 (if you're a new AdNauseam user jump to [Manual Install](#manual-install-in-developer-mode))
 
@@ -8,7 +8,7 @@
 2. Click the ``SETTINGS`` button at the bottom of the menu
 3. Scroll down to the bottom of the page and click ``EXPORT ADS``
 
-### Installation
+## 2. Installation
 ### Manual install through `.crx`
 **Note: this only works on certain Chromium-derived browsers, such as [Centbrowser](https://www.centbrowser.com/)**
 1. Download the ``adnauseam.chrome.crx``file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest)
