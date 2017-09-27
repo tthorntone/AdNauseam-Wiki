@@ -12,9 +12,7 @@
 
 ## 2. Install AdNauseam
 
-_The following instructions are for Google Chrome only. For other chromium-based browers..._
-
-<br>
+_The following instructions are for Google Chrome only. For other chromium-based browsers simply download the [latest .crx](https://github.com/dhowe/AdNauseam/releases/latest) and drag into the browser window.
 
 ### Manual Install in Developer Mode
 1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release](https://github.com/dhowe/AdNauseam/releases/latest)
