@@ -69,7 +69,7 @@
 
     b. Download the current firefox-android.xpi and drag it into your browser to install
 
-2. Extract the zip file to a folder somewhere that it can remain). For Chrome, you will need to follow [these instructions](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission).
+3. For Chrome, you will need to follow [these instructions](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission).
 
 _Note: you should always disable other adblockers while using AdNauseam_
 
