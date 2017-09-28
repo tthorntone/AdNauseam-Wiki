@@ -63,8 +63,8 @@
 
 1. You can find easy-install links for AdNauseam on <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' to get started. 
 
-2. Unfortunately, due to compatibility issues with new version of Firefox on Android, you will need to manually install [the android.xpi file from our latest release page](https://github.com/dhowe/AdNauseam/releases/latest). 
-    a. To do so, open Firefox for Android and turn off signing by browsing to about:config then locating and setting _xpinstall.signatures.required_ to false.
+2. Unfortunately, due to compatibility issues with new version of Firefox on Android, you will need to manually install the android.xpi file [from our latest release page](https://github.com/dhowe/AdNauseam/releases/latest). <br>
+     a. To do so, open Firefox for Android and turn off signing by browsing to about:config then locating and setting _xpinstall.signatures.required_ to false.
      b. Download the current firefox-android.xpi and drag it into your browser to install
 
 
