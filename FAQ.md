@@ -67,12 +67,13 @@
 
     a. To do so, open Firefox for Android and turn off signing by browsing to about:config then locating and setting _xpinstall.signatures.required_ to false.
 
-    b. Download the current firefox-android.xpi and drag it into your browser to install
+    b. Finally, download the current firefox-android.xpi and drag it into your browser to install
 
 3. For Chrome, you will need to follow [these instructions](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission).
 
 _Note: you should always disable other adblockers while using AdNauseam_
 
+<br>
 
 #### How do I uninstall AdNauseam?
 * [In Firefox](https://support.mozilla.org/en-US/kb/troubleshoot-issues-with-plugins-fix-problems#w_manually-uninstalling-a-plugin)
