@@ -35,7 +35,7 @@
 * [How do I inspect the requests/visits made by AdNauseam to collected Ads?](#how-do-i-inspect-the-requestsvisits-made-by-adnauseam-to-collected-ads)
 * [How do I merge in upstream (uBlock) code?](#how-do-i-merge-in-upstream-ublock-code)
 * [How do I create a new release?](#how-do-i-create-a-new-release)
-* [How do I create a custom filter for a text or text-hybrid ad](#)
+* [How do I create a custom filter for a text or text-hybrid ad](#how-do-i-create-a-custom-filter-for-a-text-or-text-hybrid-ad)
 
 
 
