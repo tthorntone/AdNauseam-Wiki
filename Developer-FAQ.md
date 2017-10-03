@@ -35,6 +35,8 @@
 * [How do I inspect the requests/visits made by AdNauseam to collected Ads?](#how-do-i-inspect-the-requestsvisits-made-by-adnauseam-to-collected-ads)
 * [How do I merge in upstream (uBlock) code?](#how-do-i-merge-in-upstream-ublock-code)
 * [How do I create a new release?](#how-do-i-create-a-new-release)
+* [How do I create a custom filter for a text or text-hybrid ad](#)
+
 
 
 ### Debugging / Testing
@@ -113,6 +115,11 @@ The Ad was NOT detected by the content-script. Here we need to debug the parsing
 _Case 3_ 
 
 In rare cases, a dynamically-generated Ad appears to be hidden (and not collected), when in actuality the code to generate the Ad (usually JS code) was either blocked or redirected, and thus never executed. You can recognize such cases because the Ad will not be present in the DOM.  Further, in the logger you will find a JS resource being blocked or redirected. To address such cases it is generally necessary to create an exception rule (see the entry for Google's gpt.js script [here](https://github.com/dhowe/uAssets/blob/master/filters/adnauseam.txt#L225)) so that the JS is allowed to run. Once the rule is in effect, the logger entry should disappear and the Ad should be visible in the DOM. Then you can then evaluate whether it is being hidden and/or collected correctly, and if not, continue to debug as described above.
+
+-----------
+#### How do I create a custom filter for a text or text-hybrid ad?
+
+pending
 
 -----------
 #### How do I debug a text-ad that is being hidden, but not collected?
