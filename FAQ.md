@@ -63,11 +63,11 @@
 
 1. You can find easy-install links for AdNauseam on <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' to get started. 
 
-2. Unfortunately, due to compatibility issues with new version of Firefox on Android, you will need to manually install the android.xpi file [from our latest release page](https://github.com/dhowe/AdNauseam/releases/latest). 
+2. Unfortunately, due to compatibility issues with new version of Firefox on Android, you will need to manually install the android .xpi file [from our latest release page](https://github.com/dhowe/AdNauseam/releases/latest). 
 
-    a. To do so, open Firefox for Android and turn off signing by browsing to about:config then locating and setting _xpinstall.signatures.required_ to false.
+    a. First, open Firefox for Android and turn off signing by browsing to about:config then locating and setting _xpinstall.signatures.required_ to false.
 
-    b. Finally, download the current firefox-android.xpi and drag it into your browser to install
+    b. Then download the current firefox-android.xpi and drag it into your browser to install
 
 3. For Chrome, you will need to follow [these instructions](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission).
 
@@ -95,9 +95,9 @@ Yes. Beginning with version 3.4 (now available on [Mozilla](https://addons.mozil
 You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
 To install, follow the instructions for your browser of choice below:
 
-- **[Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)**
+##### [Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)
 
-- **Firefox**
+##### Firefox
 
  Note: Dev releases of AdNauseam will only run on the Developer Edition of Firefox ([download](https://www.mozilla.org/en-US/firefox/developer/)).
 
@@ -113,7 +113,8 @@ To install, follow the instructions for your browser of choice below:
   3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.  
 
 
-- **Opera**
+##### Opera
+
  1. Download a ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
  2. In your Opera Browser navigate to Opera > Preferences. In the side bar select the *puzzle piece* symbol/"Extensions".
  3. Drag the file you downloaded in i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Click "Install".
