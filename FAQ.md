@@ -88,7 +88,7 @@ Unfortunately we do not have the resources at this point to support other browse
 
 #### Is AdNauseam compatible with Firefox Web Extensions?
 
-AdNauseam is a fork of uBlock Origin. Thus, until there is a stable release of uBlock Origin for Web Extensions, there will be no AdNauseam version either. uBlock's expected date of release for Web Extensions is currently September 19th, 2017. Shortly thereafter, once we work out any merge issues, there will be an AdNauseam release. Keep up to date by checking the ([uBlock](https://github.com/gorhill/uBlock/releases) and [AdNauseam](https://github.com/dhowe/adnauseam/releases)) release notes.
+Yes. Beginning with version 3.4 (now available on [Mozilla](https://addons.mozilla.org/en-US/firefox/addon/adnauseam/)), AdNauseam is now fully compatible with Web Extensions.
 
 
 #### How do I install a development release of AdNauseam?
