@@ -95,9 +95,9 @@ Yes. Beginning with version 3.4 (now available on [Mozilla](https://addons.mozil
 You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
 To install, follow the instructions for your browser of choice below:
 
-##### [Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)
+**[Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)**
 
-##### Firefox
+**Firefox**
 
  Note: Dev releases of AdNauseam will only run on the Developer Edition of Firefox ([download](https://www.mozilla.org/en-US/firefox/developer/)).
 
@@ -113,7 +113,7 @@ To install, follow the instructions for your browser of choice below:
   3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.  
 
 
-##### Opera
+**Opera**
 
  1. Download a ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
  2. In your Opera Browser navigate to Opera > Preferences. In the side bar select the *puzzle piece* symbol/"Extensions".
