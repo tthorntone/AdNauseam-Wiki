@@ -14,6 +14,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Menu</b>
 - Check all buttons and information (including number of Ads and $$ cost, hidden if no ads)
 - Hover over Ad images and check zooming
+- Check that menu is correctly updated after ad-visiting
 - Check ad-visiting animation
 - Check there is no text overlap in the menu for text ads
 - Check AdNauseam version number(in uBlock menu)
