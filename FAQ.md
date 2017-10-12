@@ -36,6 +36,8 @@
 * [How can I activate debugging mode?](#how-can-i-activate-debugging-mode)
 * [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 
+<br>
+
 #### Why?
 
 * [Does the project oppose all advertising?](#does-the-project-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
