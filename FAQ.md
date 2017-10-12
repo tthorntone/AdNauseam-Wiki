@@ -36,8 +36,6 @@
 * [How can I activate debugging mode?](#how-can-i-activate-debugging-mode)
 * [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 
-<br>
-
 #### Why?
 
 * [Does the project oppose all advertising?](#does-the-project-oppose-all-advertising-or-only-advertising-you-believe-is-abusive-eg-tracking)
@@ -254,6 +252,8 @@ If you're not comfortable creating a ticket (or don't want to create a GitHub ac
 - You should begin to see output in the console window you opened previously
 - Now go to any page, like this [test page](https://rednoise.org/adntest/simple.html), that has ads
 - After a few moments you should have log data you can post in your issues or send to devs
+
+<br>&nbsp;<br>
 
 ## Why?
 
