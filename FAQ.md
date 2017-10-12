@@ -33,6 +33,7 @@
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
 * [Why have options from earlier versions been removed?](#why-have-options-from-earlier-versions-been-removed)
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
+* [How can I activate debugging mode?](#how-can-I-activate-debugging-mode)
 * [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 
 #### Why?
@@ -242,6 +243,15 @@ AdNauseam is a work in progress, with new features continually being added, tune
 First, please make sure the bug hasn't already been reported by checking the current [bug list](https://github.com/dhowe/AdNauseam/issues).  If the bug hasn't yet been reported you can report it there. If you don't have a GitHub account, please create one so that we can communicate with you about the bug and fix it more quickly.
 
 If you're not comfortable creating a ticket (or don't want to create a GitHub account), you can also report the bug via email to adnauseam-issues [@] rednoise.org.
+
+#### How can I activate debugging mode?
+
+- Go to chrome://extensions/, find AdNauseam, and click 'background.html' to open the console
+- Leave this window open, then click 'options', again under AdNauseam, to open 'settings'
+- Now enable 'Activate debugging mode' at the bottom of the settings
+- You should begin to see output in the console window you opened previously
+- Now go to any page, like this [test page](https://rednoise.org/adntest/simple.html), that has ads
+- After a few moments you should have log data you can post in your issues or send to devs
 
 ## Why?
 
