@@ -233,7 +233,7 @@ In the addon console, the actual request data can be seen (headers, response, et
 1. make a new PR and add a note that a new release tag is needed on master
 1. After the PR is accepted and new release tag is created in dhowe/AdNauseam/master. Go to the release, and edit the release tag by adding information about the changes.
 1. Run tools/make-artifacts.sh and upload the five generated files (note that in order to enable auto-updating, you will need to sign the chromium release with the adnauseam key).
-1. When approved for production, update chromium links on the website, then submit to opera and firefox stores.
+1. When approved for production, sign and re-upload the chromium release, then submit the new release to the Opera and Firefox stores.
 
 -----------
 
