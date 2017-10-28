@@ -119,7 +119,13 @@ In rare cases, a dynamically-generated Ad appears to be hidden (and not collecte
 -----------
 #### How do I create a custom filter for a text or text-hybrid ad?
 
-pending
+To create a custom filter for text or text-hybrid ad, please check the file /src/js/adn/textads.js.
+
+1. Create a new filter in the filters array
+A filter consists of four elements: selector, handler, name and domain. The selector should be the one used to target the ad you are going to parse. If there is more than one ad on a page, please use the selector for the outer div here, so that you can parse all the ads later in the handler later. The handler should be the name of the handler function you are going to create later for the ads; The domain is a regex expression that specify the domain that would trigger the current filter.
+2.Write a new handler
+Each handler takes the div selected by the filter and creates ads based on the information. Please go through the dom structure of each ad and try to specify the selector needed to parse the information. For a default text ad in adnauseam, you will need to find: title, text, the site and a target link. After finding all the information you can create an ad using vAPI.adParser.createAd and return an array of all the ads you found as the last step.
+For details, please refer to the current handlers as a template to write your own.
 
 -----------
 #### How do I debug a text-ad that is being hidden, but not collected?
