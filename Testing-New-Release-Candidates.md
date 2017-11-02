@@ -2,8 +2,9 @@
 _First make sure that you are working with the correct commit (check the hash) or installed release, then perform each test on Chrome, Firefox, and Opera_
 
 Test set
-Basic test
-Android test
+[Full test](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates#interface)
+[Basic test](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates#basic)
+[Android test](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates#android)
 
 ## Interface
 
