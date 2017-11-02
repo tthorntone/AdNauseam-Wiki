@@ -1,7 +1,7 @@
 
 _First make sure that you are working with the correct commit (check the hash) or installed release, then perform each test on Chrome, Firefox, and Opera_
 
-Test set
+**Test set ** 
 [Full test](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates#interface)  
 [Basic test](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates#basic-test)  
 [Android test](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates#tests-for-firefox-android)  
