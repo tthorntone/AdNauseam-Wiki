@@ -31,7 +31,7 @@
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 * [What is the "click-probability" setting?](#what-is-the-click-probability-setting)
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
-* [Can I use AdNauseam while logged into my Youtube channel?](#)
+* [Can I use AdNauseam while logged into my Youtube channel?](#can-i-use-adnauseam-while-logged-into-my-youtube-channel)
 * [Why have options from earlier versions been removed?](#why-have-options-from-earlier-versions-been-removed)
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
 * [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
