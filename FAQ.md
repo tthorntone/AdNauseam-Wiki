@@ -31,9 +31,9 @@
 * [Sometimes it appears that there are multiples of the same ad in the advault?](#sometimes-it-appears-that-there-are-multiples-of-the-same-ad-in-the-advault)
 * [What is the "click-probability" setting?](#what-is-the-click-probability-setting)
 * [What is user tracking? How does tracking work?](#what-is-user-tracking-how-does-tracking-work)
+* [Can I use AdNauseam while logged into my Youtube channel?](#)
 * [Why have options from earlier versions been removed?](#why-have-options-from-earlier-versions-been-removed)
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
-* [How can I activate debugging mode?](#how-can-i-activate-debugging-mode)
 * [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 
 #### Why?
@@ -46,7 +46,6 @@
 * [How does AdNauseam's clicking differ from 'click-fraud'?](#how-does-adnauseams-clicking-differ-from-click-fraud)
 * [But what about "good" sites who don't track -- doesn't AdNauseam also block their Ads?](#but-what-about-good-sites-who-dont-track----doesnt-adnauseam-also-block-their-ads)
 * [What is the "end goal" of AdNauseam?](#what-is-the-end-goal-of-adnauseam-confusing-data-so-it-becomes-useless-for-advertisers-and-forces-them-to-react)
-* [Doesn’t AdNauseam harm small websites and publishers most?](#doesnt-adnauseam-harm-small-websites-and-publishers-most)
 * [Is there a business model behind AdNauseam?](#is-there-a-business-model-behind-adnauseam-do-you-consider-yourself-a-business-or-is-it-solely-to-make-some-kind-of-a-statement-about-the-state-of-web-advertising)
 * [Donations / is that your REAL business model?](#donations--is-that-your-real-business-model)
 * [What about "Native Advertising?"](#are-you-concerned-that-adblocking-technology-is-part-of-the-reason-companies-like-facebook-are-so-keen-to-deploy-native-advertising----ads-that-masquerade-as-editorial-content)
@@ -61,20 +60,10 @@
 ## How?
 
 #### How do I install AdNauseam?
-
-1. You can find easy-install links for AdNauseam on <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' to get started. 
-
-2. Unfortunately, due to compatibility issues with new version of Firefox on Android, you will need to manually install the android .xpi file [from our latest release page](https://github.com/dhowe/AdNauseam/releases/latest). 
-
-    a. First, open Firefox for Android and turn off signing by browsing to about:config then locating and setting _xpinstall.signatures.required_ to false.
-
-    b. Then download the current firefox-android.xpi and drag it into your browser to install
-
-3. For Chrome, you will need to follow [these instructions](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission).
+You can find easy install links for AdNauseam on <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' and get started. For Chrome, you will need to follow [these instructions](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission).
 
 _Note: you should always disable other adblockers while using AdNauseam_
 
-<br>
 
 #### How do I uninstall AdNauseam?
 * [In Firefox](https://support.mozilla.org/en-US/kb/troubleshoot-issues-with-plugins-fix-problems#w_manually-uninstalling-a-plugin)
@@ -83,22 +72,20 @@ _Note: you should always disable other adblockers while using AdNauseam_
 
 #### What browsers does AdNauseam work with?
 
-AdNauseam is compatible with all Chromium-based based browsers (e.g. [Opera](http://www.opera.com/download), [Iron](https://www.srware.net/en/software_srware_iron_download.php), [Comodo Dragon](https://www.comodo.com/home/download/download.php?prod=browser), [Vivaldi](https://vivaldi.com/download/), etc), as well as Firefox and its derivatives (e.g., [Firefox Mobile](https://www.mozilla.org/en-US/firefox/android/), [Waterfox](https://www.waterfoxproject.org/downloads), etc). It requires workarounds on [Google Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission) (and on a certain [ad-funded Firefox derivative](https://forum.palemoon.org/viewtopic.php?t=16504])), where it has been disallowed. 
-
-Unfortunately we do not have the resources at this point to support other browsers (Safari, Edge, Brave, etc). However, if you are interested in **actually helping to develop** a version for another browser, we would love to hear from you (please [contact us](mailto:adnauseam@rednoise.org) directly rather than creating a github issue).
+AdNauseam is compatible with all Chromium-based based browsers (e.g. Opera, Iron, Comodo Dragon, Vivaldi, etc), as well as Firefox and its derivatives (e.g., Firefox Mobile, Waterfox, etc). It requires workarounds on [Google Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission) (and on a certain [Firefox derivative](https://forum.palemoon.org/viewtopic.php?t=16504])), where it has been disallowed. If you are interested in working on a version for another browser (Safari, Edge, Brave, etc), please [contact the developers](mailto:adnauseam@rednoise.org) directly (do NOT create a github issue for such requests).
 
 #### Is AdNauseam compatible with Firefox Web Extensions?
 
-Yes. Beginning with version 3.4 (now available on [Mozilla](https://addons.mozilla.org/en-US/firefox/addon/adnauseam/)), AdNauseam is now fully compatible with Web Extensions.
+AdNauseam is a fork of uBlock Origin. Thus, until there is a stable release of uBlock Origin for Web Extensions, there will be no AdNauseam version either. uBlock's expected date of release for Web Extensions is currently September 19th, 2017. Shortly thereafter, once we work out any merge issues, there will be an AdNauseam release. Keep up to date by checking the ([uBlock](https://github.com/gorhill/uBlock/releases) and [AdNauseam](https://github.com/dhowe/adnauseam/releases)) release notes.
 
 
 #### How do I install a development release of AdNauseam?
 You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
 To install, follow the instructions for your browser of choice below:
 
-**[Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)**
+- **[Chrome](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission)**
 
-**Firefox**
+- **Firefox**
 
  Note: Dev releases of AdNauseam will only run on the Developer Edition of Firefox ([download](https://www.mozilla.org/en-US/firefox/developer/)).
 
@@ -114,8 +101,7 @@ To install, follow the instructions for your browser of choice below:
   3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.  
 
 
-**Opera**
-
+- **Opera**
  1. Download a ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
  2. In your Opera Browser navigate to Opera > Preferences. In the side bar select the *puzzle piece* symbol/"Extensions".
  3. Drag the file you downloaded in i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Click "Install".
@@ -126,7 +112,7 @@ To install, follow the instructions for your browser of choice below:
 It is possible, but since your adblocker will likely block some, or all, of the Ads AdNauseam is collecting, this is NOT recommended. For the best experience, you should disable other adblockers while using AdNauseam.
 
 #### What is AdNauseam's performance like? Will it speed up or slow down my browsing?
-AdNauseam is significantly faster (and safer) than using either of the two most popular blockers, Adblock or Adblock Plus, and nearly twice as fast as using no blocker at all. For further metrics please see [our forthcoming paper](http://ceur-ws.org/Vol-1873/IWPE17_paper_23.pdf)...
+AdNauseam is significantly faster (and safer) than using either of the two most popular blockers, Adblock or Adblock Plus, and nearly twice as fast as using no blocker at all. Metrics with more browsers and adblockers on the way...
 
 ![Benchmark](https://raw.githubusercontent.com/cqx931/AdNauseam/images/wikiImage/20160113.png)  
 
@@ -192,7 +178,7 @@ Once an Ad has been detected, CSS is used to render it invisible and to collapse
 
 #### How does AdNauseam "click Ads"?
 
-AdNauseam 'clicks' Ads by issuing an HTTP request to the URL to which they lead. In current versions this is done via an AJAX request issued in a background process. This lightweight request signals a 'click' on the server responsible for the Ad, but does so without opening any additional windows or pages on your computer. Further it allows AdNauseam to safely receive and discard the resulting response data, rather than executing it in the browser, thus preventing a range of potential security problems (ransomware, rogue Javascript or Flash code, XSS-attacks, etc.) caused by malfunctioning or malicious Ads. Although it is completely safe, AdNauseam's clicking behaviour can be de-activated in the settings panel.
+AdNauseam 'clicks' Ads by issuing an HTTP request to the URL to which they lead. In current versions the is done via an XMLHttpRequest (or AJAX request) issued in a background process. This lightweight request signals a 'click' on the server responsible for the Ad, but does so without opening any additional windows or pages on your computer. Further it allows AdNauseam to safely receive and discard the resulting response data, rather than executing it in the browser, thus preventing a range of potential security problems (ransomware, rogue Javascript or Flash code, XSS-attacks, etc.) caused by malfunctioning or malicious Ads. Although it is completely safe, AdNauseam's clicking behaviour can be de-activated in the settings panel.
 
 
 #### How does AdNauseam "Block Malicious Ads"?
@@ -232,28 +218,21 @@ This setting lets you control the likelihood that each discovered Ad will actual
 
 #### Sometimes it appears that there are multiples of the same Ad in the AdVault?
 
-This sometimes happens. AdNauseam tests for Ad uniqueness of image-Ads by comparing the URLs of the displayed image. However, some ad networks use different URLs in different Ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/631).
+This sometimes happens. AdNauseam tests for Ad uniqueness of image-Ads by comparing the URLs of the displayed image. However, some Ad networks use different URLs in different Ads for the same image resource (often, but not always, with some additional tracking data in the query-string). In such cases, there is no simple/efficient way for AdNauseam to recognize that the images are the "same". One proposal for how to deal with this was suggested [here](https://github.com/dhowe/AdNauseam/issues/631).
 
 #### Why have options from earlier versions been removed?
 
 AdNauseam is a work in progress, with new features continually being added, tuned, and, sometimes, deprecated. If a setting no longer appears in the settings page, we have likely found a better means of implementing the design goal. For information about specific deprecated settings, please consult our [DevFAQ](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ) or send us a query at adnauseam-dev [@] rednoise.org.
+
+#### Can I use AdNauseam while logged into my Youtube channel?
+
+We have heard reports of logged-in users having their Youtube channels suspended by Google due to alleged Terms-of-Service violations. While we have only anecdotal evidence of this practice on the part of Google/Youtube, we advise users to log out of their Youtube accounts when using AdNauseam. In fact, for general online privacy, we recommend that users _always log out of all Google-related accounts_ when not directly using them.
 
 #### I found a bug! What do I do now?
 
 First, please make sure the bug hasn't already been reported by checking the current [bug list](https://github.com/dhowe/AdNauseam/issues).  If the bug hasn't yet been reported you can report it there. If you don't have a GitHub account, please create one so that we can communicate with you about the bug and fix it more quickly.
 
 If you're not comfortable creating a ticket (or don't want to create a GitHub account), you can also report the bug via email to adnauseam-issues [@] rednoise.org.
-
-#### How can I activate debugging mode?
-
-- Go to chrome://extensions/, find AdNauseam, and click 'background.html' to open the console
-- Leave this window open, then click 'options', again under AdNauseam, to open 'settings'
-- Now enable 'Activate debugging mode' at the bottom of the settings
-- You should begin to see output in the console window you opened previously
-- Now go to any page, like this [test page](https://rednoise.org/adntest/simple.html), that has ads
-- After a few moments you should have log data you can post in your issues or send to devs
-
-<br>&nbsp;<br>
 
 ## Why?
 
@@ -293,10 +272,6 @@ We very much believe that users should be allowed to 'whitelist' any and all sit
 #### What is the "end goal" of AdNauseam? Confusing data so it becomes useless for advertisers and forces them to react?
 
 Yes, one goal of AdNauseam is protecting users from privacy violations and other harms that might follow directly or indirectly from tracking to which they have not consented. Another goal is to provide a means for users to let advertisers know that they don’t think such a system is ok. So yes, we would love to advertisers to respond with constructive alternatives which respect the values and preferences of users, but we are not holding our breath -- it may be that very different ways of supporting online content will need to be developed. But the real end goal of AdNauseam is to make software like AdNauseam unnecessary.
-
-#### Doesn’t AdNauseam harm small websites and publishers most?
-
-Small websites are in a tough situation. For some, financial survival depends on selling out visitors to ad network surveillance because there are no viable alternatives. Having seen no interest on the part of ad networks to do the right thing, we have concluded that pressure on the business model is the only fighting chance for change. AdNauseam offers one way of exerting such pressure. While it may, at first, impose stress on small websites and publishers, ultimately, this approach will lead to more advertising options and a fairer distribution of rewards than the current value-grab[<sup>1</sup>](https://www.wired.com/2017/04/stronger-privacy-laws-save-advertising/). Most importantly, small publishers will no longer be forced by ad networks to mislead and exploit their visitors in order to survive. Rather than passively enable and bankroll the surveillance advertising industry, we encourage and expect advertisers to welcome changes to the corrupt system that is the current status quo.
 
 #### Is there a business model behind AdNauseam? Do you consider yourself a business, or is it solely to make some kind of a statement about the state of web advertising?
 
