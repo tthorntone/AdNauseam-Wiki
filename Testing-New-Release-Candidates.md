@@ -204,6 +204,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 - Blocking [here](http://lab-lamp.scm.cityu.edu.hk/adntest/block.html)
 - Hiding [here](http://lab-lamp.scm.cityu.edu.hk/adntest/simple.html)
 - Clicking
+- Check DNT headers
 
 ------------------
 
