@@ -76,7 +76,24 @@ _First make sure that you are working with the correct commit (check the hash) o
    * In Firefox, use command+shift+P to open a private window
 
 ------------------
+## Ad clicking status (Menu and Vault)
 
+**Visual**  
+Check whether the clicking status of an ad is correctly indicated by the color of its border:
+
+- Blue - Pending
+- Purple - Clicked
+- Red - Failed
+- Green - DNT
+
+**Text**
+
+- If an ad is not visited because of the clicking frequency, the ad should be marked as "SKIPPED: Click Frequency "
+- If an ad is not visited because the user has already clicked it, the ad should be marked as "SKIPPED: Clicked by user "
+- When an ad is collected from a dnt site (Ex:duckduckgo), the ad should be marked as "SKIPPED: DNT Allowed" ("Allowed via Do Not Track Policy" in vault)
+- When clicking is disabled, all ads that are not "visited" or "failed" should be marked as "SKIPPED: Clicking Disabled:"
+
+------------------
 ## DoNotTrack (DNT)
 DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 
