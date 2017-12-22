@@ -46,6 +46,7 @@
 * [How do I debug a text ad that is being hidden, but not collected?](#how-do-i-debug-a-text-ad-that-is-being-hidden-but-not-collected)
 * [How do I test/verify functionality of a commit?](#how-do-i-testverify-functionality-of-a-commit)
 * [How do I test a new release?](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates)
+* [What should I do after a new release?](https://github.com/dhowe/AdNauseam/wiki/After-New-Release)
 * [How do I run the unit tests?](#how-do-i-run-the-unit-tests)
 
 
@@ -242,6 +243,17 @@ In the addon console, the actual request data can be seen (headers, response, et
 1. After the PR is accepted and new release tag is created in dhowe/AdNauseam/master. Go to the release, and edit the release tag by adding information about the changes.
 1. Run tools/make-artifacts.sh and upload the five generated files (note that in order to enable auto-updating, you will need to sign the chromium release with the adnauseam key).
 1. When approved for production, sign and re-upload the chromium release, then submit the new release to the Opera and Firefox stores.
+
+
+-----------
+
+#### After new release
+1. Upload to Firefox and Opera add-on store
+1. Create a .crx version using the adnauseam key (shared among developers)
+2. Update the website (version number in 3 locations)
+3. Make sure that the version # and link in the following page is updated: ````http://rednoise.org/adnauseam/updates.xml````
+4. Install a previous version in chrome and check that auto-update works
+
 
 -----------
 
