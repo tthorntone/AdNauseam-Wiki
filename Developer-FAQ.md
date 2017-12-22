@@ -237,22 +237,22 @@ In the addon console, the actual request data can be seen (headers, response, et
 -----------
 
 #### How do I create a new release?
-1. make sure 'webext' is installed
-1. run tools/make-artifacts.sh
-1. make a new PR and add a note that a new release tag is needed on master
-1. After the PR is accepted and new release tag is created in dhowe/AdNauseam/master. Go to the release, and edit the release tag by adding information about the changes.
-1. Run tools/make-artifacts.sh and upload the five generated files (note that in order to enable auto-updating, you will need to sign the chromium release with the adnauseam key).
-1. When approved for production, sign and re-upload the chromium release, then submit the new release to the Opera and Firefox stores.
+1. Make sure 'webext' is installed
+1. Run tools/make-artifacts.sh
+1. Make a new PR and add a note that a new release tag is needed on master
+1. After the PR is accepted and a new release tag has been created in dhowe/AdNauseam/master, edit the release notes by adding information about the changes.
+1. Do a 'git pull' to fetch the new release tag
+1. Run tools/make-artifacts.sh again and upload the five generated files to the release (note that in order to enable auto-updating, the chromium release MUST BE SIGNED with the adnauseam key).
+1. Once approved for production, submit the new release to the Opera and Firefox stores, and update the version and link on http://rednoise.org/adnauseam/updates.xml
 
 
 -----------
 
 #### After new release
-1. Upload to Firefox and Opera add-on store
-1. Create a .crx version using the adnauseam key (shared among developers)
+1. Upload to Firefox and Opera add-on stores
 2. Update the website (version number in 3 locations)
 3. Make sure that the version # and link in the following page is updated: ````http://rednoise.org/adnauseam/updates.xml````
-4. Install a previous version in chrome and check that auto-update works
+4. Install a previous version in chrome and verify that auto-update is triggered and the new version auto-installed 
 
 
 -----------
