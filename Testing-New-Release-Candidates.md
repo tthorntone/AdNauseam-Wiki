@@ -180,6 +180,11 @@ To check headers for ad visits, please go to developer tools of the browser -> N
  1.  Check the same things as above
 - Test "Update" button for adnauseam.txt
 
+After going through all the tests, check:
+https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-create-a-new-release
+https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#after-new-release
+(make sure to update http://rednoise.org/adnauseam/updates.xml for chrome)
+
 ------------------
 &nbsp;
 
@@ -234,3 +239,8 @@ To check headers for ad visits, please go to developer tools of the browser -> N
     - The total rules of adnauseam has been updated
     - The rules are functioning when test on webpage.
 - Test "Update" button for adnauseam.txt
+
+After going through all the tests, check:
+https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-create-a-new-release
+https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#after-new-release
+(make sure to update http://rednoise.org/adnauseam/updates.xml for chrome)
