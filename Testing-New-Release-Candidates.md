@@ -40,7 +40,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check layout of buttons, check-boxes, and links in each tab
 - Test that all (i)nfo buttons lead to correct FAQ pages in each tab
 - On settings tab (options.html) check that when clicking or hiding are disabled, then all of their sub-items are also disabled
-- Test import/export/clear ads functions
+
 - Test whitelist
 - Test all the import/export/apply buttons for filters
 - Click on a filter in 3p-filters and make sure that asset viewer works
@@ -220,7 +220,7 @@ After going through all the tests, check:
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Dashboard</b>
 - Check layout of buttons, check-boxes, and links in each tab
-- Test import/export/clear ads functions
+- Test backup/restore/reset settings functions
 
 ------------------
 
