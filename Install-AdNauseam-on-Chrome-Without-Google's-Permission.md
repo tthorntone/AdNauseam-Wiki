@@ -13,7 +13,7 @@ _If you're a new AdNauseam user, or don't care about your saved ads, jump to [In
 _The following instructions are for Google Chrome/Chromium ONLY. For other chromium-based browsers simply download [the latest .CRX file](https://github.com/dhowe/AdNauseam/releases/latest) and drag into your browser window._
 
 #### Manual Install in Developer Mode
-1. Download the most latest adnauseam.chromium.ZIP file from our [releases page](https://github.com/dhowe/AdNauseam/releases/latest)
+1. Download the most latest adnauseam.chromium.zip file from our [releases page](https://github.com/dhowe/AdNauseam/releases/latest) (make sure to download the CHROMIUM ZIP file)
 1. Extract the zip file to a folder somewhere that it can remain  
 **Warning: Do not delete this folder after the install; Chrome will disable AdNauseam if this folder is not in the expected location**
 
