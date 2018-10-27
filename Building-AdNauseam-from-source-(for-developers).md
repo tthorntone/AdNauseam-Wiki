@@ -1,6 +1,6 @@
 <br>
 
-##### Setup (on OS X  only, linux instructions pending)
+#### Setup (on OS X  only, linux instructions pending)
 
 * First, install [jq](https://stedolan.github.io/jq/) if you don't have it 
 * Then do the following from the terminal:
@@ -12,7 +12,7 @@ $ cd AdNauseam
 
 <br>
 
-##### For Chromium / Opera:
+#### For Chromium / Opera:
 
 1. Build the extension (via the terminal)
 ```$ tools/make-chromium.sh```
@@ -28,7 +28,7 @@ or
 <br>
 
 <!--
-##### For Firefox:
+#### For Firefox:
 
   _Note: [Developer](https://www.mozilla.org/en-US/firefox/developer/) builds are now required for development_
 
@@ -49,7 +49,7 @@ or
 
 -->
 
-##### For Firefox:
+#### For Firefox:
 
 1. Make sure to have the [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext) tool installed. 
 
