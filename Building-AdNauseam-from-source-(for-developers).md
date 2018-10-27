@@ -55,7 +55,7 @@ or
 
 2. In terminal:` $ tools/run-webext.sh`
 
-3. (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to _run-ff.sh_:
+3. (Optional) To use a [Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) other than the default, pass the profile path to _run-webext.sh_:
 
     ````$ tools/run-webext.sh /path/to/profile```` 
 
