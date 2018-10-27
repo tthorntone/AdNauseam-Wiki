@@ -27,6 +27,7 @@ or
 
 <br>
 
+<!--
 ##### For Firefox:
 
   _Note: [Developer](https://www.mozilla.org/en-US/firefox/developer/) builds are now required for development_
@@ -46,9 +47,9 @@ or
 
 5. To view console messages, select the ```Tools->Web Developer->Browser Console``` menu option
 
-<br>
+-->
 
-##### For Firefox with WebExtensions (_experimental_):
+##### For Firefox:
 
 1. Make sure to have the [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext) tool installed. 
 
