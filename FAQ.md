@@ -76,7 +76,7 @@ AdNauseam is compatible with all Chromium-based based browsers (e.g. Opera, Iron
 
 #### Is AdNauseam compatible with Firefox Web Extensions?
 
-Yes, AdNauseam has used Firefox's Web Extensions API for some time now. If you need an old-style XPI build, see the Firefox-legacy zip on our releases page.
+Yes, AdNauseam has used Firefox's Web Extensions API for some time now. If you need an old-style XPI build, see the Firefox-legacy zip on our [releases](https://github.com/dhowe/AdNauseam/releases/) page.
 
 #### How do I install a development release of AdNauseam?
 You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
