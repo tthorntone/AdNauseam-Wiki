@@ -76,8 +76,7 @@ AdNauseam is compatible with all Chromium-based based browsers (e.g. Opera, Iron
 
 #### Is AdNauseam compatible with Firefox Web Extensions?
 
-AdNauseam is a fork of uBlock Origin. Thus, until there is a stable release of uBlock Origin for Web Extensions, there will be no AdNauseam version either. uBlock's expected date of release for Web Extensions is currently September 19th, 2017. Shortly thereafter, once we work out any merge issues, there will be an AdNauseam release. Keep up to date by checking the ([uBlock](https://github.com/gorhill/uBlock/releases) and [AdNauseam](https://github.com/dhowe/adnauseam/releases)) release notes.
-
+Yes, AdNauseam has used Firefox's Web Extensions API for some time now. If you need an old-style XPI build, see the Firefox-legacy zip on our releases page.
 
 #### How do I install a development release of AdNauseam?
 You can find AdNauseam development releases [here](https://github.com/dhowe/AdNauseam/releases/).
@@ -87,19 +86,10 @@ To install, follow the instructions for your browser of choice below:
 
 - **Firefox**
 
- Note: Dev releases of AdNauseam will only run on the Developer Edition of Firefox ([download](https://www.mozilla.org/en-US/firefox/developer/)).
-
- Prepare Firefox:
-
-  1. Open you Firefox Developer Edition and type `about:config` into the url bar. When asked, choose to accept the risks.
-  2. In the config panel, search for `xpinstall.signatures.required`. Make sure the value is set to `false`.<br/>   
-
- <br/>Install AdNauseam:
-
-  1. Download a ["Firefox" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .xpi.
-  2. In the browser navigate to Tools > Add-ons. In the side bar select "Extensions.
-  3. Drag the file you downloaded in i. and drop it over the open extension page. A prompt will appear listing the required permissions. Click "Add extension" to install.  
-
+ 1. open Firefox
+ 2. enter "about:debugging" in the URL bar
+ 3. click "Load Temporary Add-on"
+ 4. select the .zip file containing the extension (or any file in the folder)
 
 - **Opera**
  1. Download a ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
