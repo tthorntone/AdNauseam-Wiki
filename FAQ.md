@@ -86,13 +86,13 @@ To install, follow the instructions for your browser of choice below:
 
 - **Firefox**
 
- 1. open Firefox
- 2. enter "about:debugging" in the URL bar
- 3. click "Load Temporary Add-on"
- 4. select the .zip file containing the extension (or any file in the folder)
+ 1. Download a ["Firefox" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .zip.
+ 2. Open Firefox and enter "about:debugging" in the URL bar
+ 3. Click "Load Temporary Add-on"
+ 4. Select the .zip file containing the extension
 
 - **Opera**
- 1. Download a ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
+ 1. Download an ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
  2. In your Opera Browser navigate to Opera > Preferences. In the side bar select the *puzzle piece* symbol/"Extensions".
  3. Drag the file you downloaded in i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Click "Install".
 
