@@ -14,9 +14,9 @@ The request logger will open in a new tab (which was moved to its own window bel
 
 ![Figure 2](https://raw.githubusercontent.com/wiki/dhowe/AdNauseam/logger-lines.png)
 
-Take note that the network request logger in uBlock is a forward-looking logger: this means only future requests can be logged. AdNauseam/uBlock will log entries **IF AND ONLY IF** the logger is opened. Otherwise, if the logger is not opened, no CPU/memory resources are consumed by AdNauseam for logging.
+Note that AdNauseam will log entries **IF AND ONLY IF** the logger is opened. Otherwise, if the logger is not opened, no CPU/memory resources are consumed for logging.
 
-Log events in AdNauseam are color-coded for easy identification, as follows:
+Logger events in AdNauseam are color-coded for easy identification, as follows:
 
 ![Figure 2](https://raw.githubusercontent.com/wiki/dhowe/AdNauseam/logger-colors.png)
 
