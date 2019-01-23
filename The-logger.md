@@ -6,9 +6,9 @@ AdNauseam comes with a logger (based on the uBlock Origin logger), which gives t
 
 The logger is the tool of choice to see, understand, diagnose and fix the functioning of uBlock.
 
-To access the logger, click on the _list_ icon of uBlock Origin's popup UI:
+To access the logger, first click the uBlock button in the menu, then select the logger icon:
 
-![Figure 1](https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/popup-1c-1.png)
+![Figure 1](https://raw.githubusercontent.com/wiki/dhowe/AdNauseam/logger.png)
 
 The request logger will open in a new tab (which was moved to its own window below):
 
