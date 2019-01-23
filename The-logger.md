@@ -10,7 +10,7 @@ To access the logger, first click the uBlock button in the menu, then select the
 
 ![Figure 1](https://raw.githubusercontent.com/wiki/dhowe/AdNauseam/logger.png)
 
-The request logger will open in a new tab (which was moved to its own window below):
+The request logger will open in a new tab:
 
 ![Figure 2](https://raw.githubusercontent.com/wiki/dhowe/AdNauseam/logger-lines.png)
 
