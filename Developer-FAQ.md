@@ -182,7 +182,7 @@ For completeness, there are also two other kinds of rules: exception rules, whic
 -----------
 #### How do I use the logger, and what are the different types of entries it shows?
 
-Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on the logger icon. Choose the tab you are interested in, then click the refresh icon. This will refresh the tab with the logger activated, and you will see each request made by the browser (whether blocked, allowed, or hidden). For info on the different types of entries, see this [page](https://github.com/gorhill/uBlock/wiki/The-logger).
+Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on the logger icon. Choose the tab you are interested in, then click the refresh icon. This will refresh the tab with the logger activated, and you will see each request made by the browser (whether blocked, allowed, or hidden). For info on the different types of entries, see this [page](https://github.com/dhowe/AdNauseam/wiki/The-logger).
 
 #### How does AdNauseam handle visual resources that link to the same domain?
 Generally AdNauseam does not recognize Ads with internal target URLs. So an Ad found on xyz.com which links to a URL on xyz.com (or www.xyz.com) is ignored. However, some sites use this mechanism (generally with a redirect) for serving real Ads. These are sometimes text Ads and sometimes so-called 'native Ads'. One classic example is Google, where all Ads on search pages go first to a Google URL, and are then redirected. To accommodate these exceptions, AdNauseam maintains an array of domains called `internalLinkDomains` (see core.js). Adding a domain to this list will cause AdNauseam to no longer ignore internal Ads from that domain.
