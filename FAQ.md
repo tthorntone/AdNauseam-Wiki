@@ -186,6 +186,10 @@ This is generally not a good idea, as other blockers (uBlock, Privacy Badger, Ad
 
 Absolutely -- these two extensions should work happily together...
 
+#### Why AdNauseam does not work with certain Firefox settings?
+
+TBA
+
 #### What is user tracking? How does tracking work?
 
 When you visit a webpage, parts of the page may come from domains and servers other than the one you asked to visit. This is an essential feature of the web, but it has also come to be a _serious_ privacy problem. Nowadays embedded images and code often use cookies, fingerprinting, and other methods to track your browsing habits — often in order to display targeted advertisements. The domains that do this are called "third party trackers".You can read more about how they work on the excellent [EFF page](https://www.eff.org/deeplinks/2009/09/online-trackers-and-social-networks).
