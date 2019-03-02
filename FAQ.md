@@ -25,7 +25,7 @@
 * [What does it mean when the AdNauseam icon turns green?](#what-does-it-mean-when-the-adnauseam-icon-turns-green)
 * [Can I combine AdNauseam with another blocker?](#can-i-combine-adnauseam-with-another-blocker)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
-* [Why AdNauseam does not work with certain firefox settings](https://github.com/dhowe/AdNauseam/wiki/FAQ#why-adnauseam-does-not-work-with-certain-firefox-settings)
+* [Why AdNauseam does not work with certain browser settings](https://github.com/dhowe/AdNauseam/wiki/FAQ#why-adnauseam-does-not-work-with-certain-browser-settings)
 * [What do colored entries in the logger represent?](https://github.com/dhowe/AdNauseam/wiki/The-logger)
 * [What is the AdNauseam filter list?](#what-is-the-adnauseam-filter-list)
 * [What is the EasyList filter and why do I get a warning when it is disabled?](#what-is-the-easylist-filter-and-why-do-i-get-a-warning-when-it-is-disabled)
