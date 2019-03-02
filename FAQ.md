@@ -187,9 +187,9 @@ This is generally not a good idea, as other blockers (uBlock, Privacy Badger, Ad
 
 Absolutely -- these two extensions should work happily together...
 
-#### Why AdNauseam does not work with certain Firefox settings?
+#### Why AdNauseam does not work with certain browser settings?
 
-TBA
+Browser settings, like Firefox's 'Tracker Blocking', may conflict with AdNauseam. While ads and trackers will still be blocked, they are unlikely to be collected or clicked, as they will be handled by the browser rather than AdNauseam.
 
 #### What is user tracking? How does tracking work?
 
