@@ -1,7 +1,7 @@
 ### AdNauseam
 #### Clicking Ads So You Don’t Have To
 
-As online advertising becomes more automatic, universal and unsanctioned, AdNauseam works to complete the cycle by automating all ad-clicks on behalf of the target audience. Working in coordination with Ad Block Plus, AdNauseam quietly clicks every blocked ad, registering a visit on the ad networks databases. As the data gathered shows an omnivorous click-stream, user profiling, targeting and surveillance becomes futile.
+As online advertising becomes more automatic, universal and unsanctioned, AdNauseam works to complete the cycle by automating all ad-clicks on behalf of the target audience. Built atop uBlock Origin, AdNauseam quietly clicks every blocked ad, registering a visit on the ad networks databases. As the data gathered shows an omnivorous click-stream, user profiling, targeting and surveillance becomes futile.
 
 AdNauseam is a browser extension designed to obfuscate browsing data and protect users from surveillance and tracking by advertising networks. Simultaneously, AdNauseam serves as a means of amplifying users' discontent with advertising networks that disregard privacy and facilitate bulk surveillance agendas.
 
