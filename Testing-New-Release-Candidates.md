@@ -50,7 +50,8 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check that the icon in the toolbar is in grey when AdNauseam is disabled
 - Check that the icon in the toolbar is in green when on DNT pages
 - Icon should animate each time an Ad is clicked (>= v3.1)
-- double check that the badge number is correctly updated
+- Double check that the badge number is correctly updated
+- Check that the text on hover is correct for active and disabled state
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Notifications</b>
 - Check that disabling hiding, clicking, or blocking on the first-run generates a notification warning at the top of the dashboard (all tabs), menu, and vault page (after first-run is closed or 'ok' is clicked). 
@@ -180,6 +181,7 @@ To check headers for ad visits, please go to developer tools of the browser -> N
  1.  Activate debugging mode and open the background.html page to check the logging message in the console
  1.  Wait till the autoUpdate triggers and check whether there is any error message in the console
  1.  Check the same things as above
+- Make sure that both buttons "Update Now" and "Purge All Caches" toggle correctly
 - Test "Update" button for adnauseam.txt
 
 After going through all the tests, check:
