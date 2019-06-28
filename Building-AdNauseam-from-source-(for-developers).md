@@ -11,7 +11,7 @@ $ cd AdNauseam
 ### For Chromium / Opera:
 
 1. Update the uAssets repo:
-```$ cd /path/to/uAssets && git pull```
+```$ cd ../uAssets && git pull && cd -```
 
 1. Build the extension (via the terminal)
 ```$ tools/make-chromium.sh```
@@ -51,7 +51,7 @@ or
 1. Make sure to have the [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext) tool installed. 
 
 1. Update the uAssets repo:
-```$ cd /path/to/uAssets && git pull```
+```$ cd ../uAssets && git pull && cd -```
 
 2. In terminal:` $ tools/run-firefox.sh`
 
