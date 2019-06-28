@@ -238,6 +238,7 @@ In the addon console, the actual request data can be seen (headers, response, et
 
 #### How do I create a new release?
 1. Make sure 'webext' is installed
+1. Go to uAssets folder and update it by `git pull`
 1. Run tools/make-artifacts.sh
 1. Make a new PR and add a note that a new release tag is needed on master
 1. After the PR is accepted and a new release tag has been created in dhowe/AdNauseam/master, edit the release notes by adding information about the changes
