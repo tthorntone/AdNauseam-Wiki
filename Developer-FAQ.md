@@ -88,7 +88,7 @@ First check whether the ad is appearing in uBlock. If it is, then this is not an
 
 1.  Select/create the cosmetic rule you want to use to block the ad
 1.  Test it by adding it to Options->Dashboard->My Filters->Apply-changes
-1.  If its OK, add the rule to the text-file: /uAssets/filters/adnauseam.txt
+1.  If its OK, add the rule to the text-file: filters/adnauseam.txt
 1.  Remove the rule from Options->Dashboard->My Filters, then click Apply-changes
 1.  Rebuild/reload the extension, then click the 'update' button next to adnauseam.txt
 1.  You should now see the # of 'AdNauseam filters' increase to include your new rule
@@ -115,7 +115,7 @@ The Ad was NOT detected by the content-script. Here we need to debug the parsing
 
 _Case 3_ 
 
-In rare cases, a dynamically-generated Ad appears to be hidden (and not collected), when in actuality the code to generate the Ad (usually JS code) was either blocked or redirected, and thus never executed. You can recognize such cases because the Ad will not be present in the DOM.  Further, in the logger you will find a JS resource being blocked or redirected. To address such cases it is generally necessary to create an exception rule (see the entry for Google's gpt.js script [here](https://github.com/dhowe/uAssets/blob/master/filters/adnauseam.txt#L225)) so that the JS is allowed to run. Once the rule is in effect, the logger entry should disappear and the Ad should be visible in the DOM. Then you can then evaluate whether it is being hidden and/or collected correctly, and if not, continue to debug as described above.
+In rare cases, a dynamically-generated Ad appears to be hidden (and not collected), when in actuality the code to generate the Ad (usually JS code) was either blocked or redirected, and thus never executed. You can recognize such cases because the Ad will not be present in the DOM.  Further, in the logger you will find a JS resource being blocked or redirected. To address such cases it is generally necessary to create an exception rule (see the entry for Google's gpt.js script [here](https://github.com/dhowe/AdNauseam/blob/master/filters/adnauseam.txt#L540)) so that the JS is allowed to run. Once the rule is in effect, the logger entry should disappear and the Ad should be visible in the DOM. Then you can then evaluate whether it is being hidden and/or collected correctly, and if not, continue to debug as described above.
 
 -----------
 #### How do I create a custom filter for a text or text-hybrid ad?
@@ -412,6 +412,8 @@ The fields of each Ad include:
 -----------
 
 #### How does AdNauseam handle asset managements?
+##### uAssets
+
 
 ##### assets.js
 All the information about filter lists is in file `assets.js`. For each update, adnauseam is going to update other filter lists based on the information in `assets.js`. If there is any change in the remote `assets.js` file, adnauseam will update `assets.js` first and update other list accordingly.
