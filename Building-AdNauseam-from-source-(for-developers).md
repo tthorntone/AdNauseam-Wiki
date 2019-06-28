@@ -10,16 +10,19 @@ $ cd AdNauseam
 
 ### For Chromium / Opera:
 
+1. Update the uAssets repo:
+```$ git clone https://github.com/uBlockOrigin/uAssets```
+
 1. Build the extension (via the terminal)
 ```$ tools/make-chromium.sh```
 or 
 ```$ tools/make-opera.sh```
 
-2. Open the browser and go to settings, with URL ```chrome://extensions/```
+1. Open the browser and go to settings, with URL ```chrome://extensions/```
 
-3. Enable Developer mode in the settings page and load extension from ```/dist/build/adnauseam.chromium``` or ```/dist/build/adnauseam.opera```
+1. Enable Developer mode in the settings page and load extension from ```/dist/build/adnauseam.chromium``` or ```/dist/build/adnauseam.opera```
 
-4. To view console messages, go to ```chrome://extensions/```, and select 'background.html' under the AdNauseam entry
+1. To view console messages, go to ```chrome://extensions/```, and select 'background.html' under the AdNauseam entry
 
 <!--
 ### For Firefox:
