@@ -11,7 +11,7 @@ $ cd AdNauseam
 ### For Chromium / Opera:
 
 1. Update the uAssets repo:
-```$ git clone https://github.com/uBlockOrigin/uAssets```
+```$ cd /path/to/uAssets && git pull```
 
 1. Build the extension (via the terminal)
 ```$ tools/make-chromium.sh```
@@ -49,6 +49,9 @@ or
 ### For Firefox:
 
 1. Make sure to have the [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext) tool installed. 
+
+1. Update the uAssets repo:
+```$ cd /path/to/uAssets && git pull```
 
 2. In terminal:` $ tools/run-firefox.sh`
 
