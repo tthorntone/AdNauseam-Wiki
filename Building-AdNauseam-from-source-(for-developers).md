@@ -4,7 +4,7 @@
 * Then do the following from the terminal:
 ```
 $ git clone https://github.com/dhowe/AdNauseam.git
-$ git clone https://github.com/dhowe/uAssets.git
+$ git clone https://github.com/uBlockOrigin/uAssets
 $ cd AdNauseam
 ```
 
