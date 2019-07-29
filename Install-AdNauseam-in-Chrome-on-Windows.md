@@ -14,4 +14,6 @@ If you see the following message: “This extension is not listed in the Chrome 
 
 1. Restart chrome.
 
+<br/>
+
 Note: should the extension update, you may need to correct the extension ID to fit the new version.
