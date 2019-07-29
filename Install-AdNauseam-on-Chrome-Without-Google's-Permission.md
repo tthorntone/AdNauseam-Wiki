@@ -31,27 +31,7 @@ This is indeed annoying, as Google intends, however there is no workaround we ar
 
 <br>
 
-#### Installing the CRX (Windows only)
-
-Instead of installing the extension from the unpacked files, you can install the CRX and whitelist it so that you don't get the ``Disable Developer Mode Extensions`` message. This requires access to the group policy editor.
-
-1. Download the latest chromium CRX file from our [releases page](https://github.com/dhowe/AdNauseam/releases/latest)
-2. Go to chrome://extensions/
-3. Enable developer mode by flipping the switch at the top right corner
-4. Drag the CRX from earlier into the window. This will install the extension
-5. Download the Chrome group policy templates [here](http://dl.google.com/dl/edgedl/chrome/policy/policy_templates.zip)
-6. Copy [zip]\windows\admx\chrome.admx to C:\Windows\PolicyDefinitions
-7. Copy [zip]\windows\admx\Your Language (for example, en-GB)\chrome.adml to C:\Windows\PolicyDefinitions\Your Language\chrome.adml
-8. Go to chrome://extensions and copy the ID of Adnauseum. It should be a long string of letters. If you can't see the ID, ensure that developer mode is enabled.
-9. Press Win + R to open the run window and type gpedit.msc
-10. Go to User Configuration -> Administrative Templates -> Google Chrome -> Extensions
-11. Open "Configure extension installation whitelist" by double clicking on it
-12. Check the "Enabled" box to activate this policy
-13. In the options box, click "Show..."
-14. Paste the Adnauseam ID into a box and click OK
-15. Apply these changes
-16. Restart Chrome, Adnauseam should be enabled and working. If it isn't, ensure that it's enabled in chrome://extensions
-17. If you have previously exported your ads, you can retrieve them now 
+#### [Install AdNauseam in Chrome on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows)
 
 ## Retrieve your saved data
 
