@@ -1,4 +1,4 @@
-** NOTE: For advanced Windows users only: improperly editing the registry can result in serious system problems **
+_NOTE: For advanced Windows users only: improperly editing the registry can result in serious system problems_
 
 If you see the following message: “This extension is not listed in the Chrome Web Store and may have been added without your knowledge.”, follow the steps below to use AdNauseam _without enabling Developer Mode_.
  
