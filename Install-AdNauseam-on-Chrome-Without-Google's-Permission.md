@@ -10,7 +10,8 @@ _If you're a new AdNauseam user, or don't care about your saved ads, jump to [In
 
 ## Install AdNauseam
 
-_The following instructions are for Google Chrome/Chromium ONLY. For other chromium-based browsers simply download the latest [.CRX file](https://github.com/dhowe/AdNauseam/releases/latest), open the extension page and drag into your browser window._
+_If you are Windows user, please check [Install AdNauseam in Chrome on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows).
+The following instructions are for Google Chrome/Chromium ONLY. For other chromium-based browsers simply download the latest [.CRX file](https://github.com/dhowe/AdNauseam/releases/latest), open the extension page and drag into your browser window._
 
 #### Manual Install in Developer Mode
 1. Download the most latest adnauseam.chromium.zip file from our [releases page](https://github.com/dhowe/AdNauseam/releases/latest) (make sure to download the _chromium.zip_ file!)
@@ -31,7 +32,7 @@ This is indeed annoying, as Google intends, however there is no workaround we ar
 
 <br>
 
-#### [Install AdNauseam in Chrome on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows)
+
 
 ## Retrieve your saved data
 
