@@ -16,4 +16,4 @@ If you see the following message: “This extension is not listed in the Chrome 
 
 <br/>
 
-Note: should the extension update, you may need to correct the extension ID to fit the new version.
+Note: should the extension update, you may need to update the extension-id to match the new version
