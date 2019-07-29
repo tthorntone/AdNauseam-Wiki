@@ -12,7 +12,7 @@ If Adnauseam is automatically disabled on Chrome by Google for not being in the 
 
 1. In that key make a new string value called “1” or one number higher than what is already there.
 
-1. Set the value of that to the Adnauseam extension ID.e.g. pnjfhlmmeapfclcplcihceboadiigekg
+1. Set the value of that to the Adnauseam extension ID： pnjfhlmmeapfclcplcihceboadiigekg
 
 1. Restart chrome.
 
