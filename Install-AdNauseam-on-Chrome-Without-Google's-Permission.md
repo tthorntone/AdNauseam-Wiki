@@ -10,7 +10,7 @@ _If you're a new AdNauseam user, or don't care about your saved ads, jump to [In
 
 ## Install AdNauseam
 
-### Windows:[Install AdNauseam in Chrome on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows).
+### Windows: [Install AdNauseam in Chrome on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows).
 
 ### Other Operating Systems
 The following instructions are for Google Chrome/Chromium ONLY. For other chromium-based browsers simply download the latest [.CRX file](https://github.com/dhowe/AdNauseam/releases/latest), open the extension page and drag into your browser window._
