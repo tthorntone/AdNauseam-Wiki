@@ -1,4 +1,4 @@
-**_NOTE: For advanced Windows users only!_**
+**NOTE: For advanced Windows users only!**
 
 If you see the following message: “This extension is not listed in the Chrome Web Store and may have been added without your knowledge.”, follow the steps below to use AdNauseam _without_ enabling Developer Mode.
  
