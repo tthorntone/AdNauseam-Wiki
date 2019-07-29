@@ -8,11 +8,9 @@ If you see the following message: “This extension is not listed in the Chrome 
 
 1. Navigate to Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\
 
-1. Make a new key called “ExtensionInstallWhitelist” if it doesn’t already exist
+1. Create a new key called “ExtensionInstallWhitelist”, if it doesn’t already exist
 
-1. In that key make a new string value called “1” or one number higher than what is already there
-
-1. Set its value of that to the Adnauseam extension-id
+1. Create a new string value for this key called “1” (or any number higher than what is already there) and set it to  AdNauseam's extension-id
 
 1. Restart chrome.
 
