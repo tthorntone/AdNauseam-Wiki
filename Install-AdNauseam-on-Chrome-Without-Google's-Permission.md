@@ -10,10 +10,8 @@ _If you're a new AdNauseam user, or don't care about your saved ads, jump to [In
 
 ## Install AdNauseam
 
-### Windows: [Install AdNauseam in Chrome on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows).
-
 ### Other Operating Systems
-The following instructions are for Google Chrome/Chromium ONLY. For other chromium-based browsers simply download the latest [.CRX file](https://github.com/dhowe/AdNauseam/releases/latest), open the extension page and drag into your browser window._
+The following instructions are for Google's Chrome and Chromium browsers ONLY. For other Chromium-based browsers simply download the latest [.CRX file](https://github.com/dhowe/AdNauseam/releases/latest), open the extension page, and drag the file into your browser window.
 
 #### Manual Install in Developer Mode
 1. Download the most latest adnauseam.chromium.zip file from our [releases page](https://github.com/dhowe/AdNauseam/releases/latest) (make sure to download the _chromium.zip_ file!)
@@ -30,7 +28,7 @@ The following instructions are for Google Chrome/Chromium ONLY. For other chromi
 *&nbsp;Note that each time you restart Chrome you will be prompted to ``Disable Developer Mode Extensions``. Feel free to simply hit ``Cancel`` and continue.<br/>  
 ![image](https://cloud.githubusercontent.com/assets/27123/21674871/5041d6c6-d338-11e6-9112-9dcebb5553e6.png)
 
-This is indeed annoying, as Google intends, however there is no workaround we are aware of at this time
+This is indeed annoying, as Google intends, however there is a workaround for [advanced users on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows). Unfortunately we are thus far unaware of workarounds for other platforms.
 
 <br>
 
