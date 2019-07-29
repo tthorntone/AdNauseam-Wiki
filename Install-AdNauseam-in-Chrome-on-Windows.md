@@ -16,4 +16,4 @@ If you see the following message: “This extension is not listed in the Chrome 
 
 <br/>
 
-1. Note: you may need to update the extension-id for newer versions of AdNauseam
+Note: you may need to update the extension-id for newer versions of AdNauseam
