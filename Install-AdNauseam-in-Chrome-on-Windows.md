@@ -1,6 +1,6 @@
 _NOTE: For advanced Windows users only: improperly editing the registry can result in serious system problems_
 
-If you see the following message: “This extension is not listed in the Chrome Web Store and may have been added without your knowledge.”, follow the steps below to use AdNauseam _without enabling Developer Mode_.
+If you see the following message: “This extension is not listed in the Chrome Web Store and may have been added without your knowledge”, follow the steps below to use AdNauseam _without enabling Developer Mode_.
  
 1. Find the extension-id for AdNauseam by going to chrome://extensions/. In the .crx file for the current release, this is  `pnjfhlmmeapfclcplcihceboadiigekg`
 
