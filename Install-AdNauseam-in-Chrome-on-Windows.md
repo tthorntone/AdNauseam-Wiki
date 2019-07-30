@@ -17,3 +17,5 @@ If you see the following message: “This extension is not listed in the Chrome 
 <br/>
 
 Note: you may need to update the extension-id for newer versions of AdNauseam
+
+<small>Thanks to Matt Moore for this workaround!</small>
