@@ -184,7 +184,8 @@ To check headers for ad visits, please go to developer tools of the browser -> N
  1.  Wait till the autoUpdate triggers and check whether there is any error message in the console
  1.  Check the same things as above
 - Make sure that both buttons "Update Now" and "Purge All Caches" toggle correctly
-- Test "Update" button for adnauseam.txt
+- Test "Update" button for adnauseam.txt on "filterlists" page
+- Test "Update" button for Eff list on "whitelists" page
 
 After going through all the tests, check:
 [How do I create a new release](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-create-a-new-release) and 
