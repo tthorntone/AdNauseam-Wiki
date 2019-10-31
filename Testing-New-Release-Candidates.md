@@ -58,6 +58,8 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check that disabling hiding, clicking, or blocking on the dashboard/options page generates a notification warning at the top of the dashboard(all tabs), menu, and vault page. 
 - Check that disabling EasyList/AdNauseam filters on the dashboard/3p-filters page generates a notification warning at the top of the dashboard(all tabs), menu, and vault page. 
 - Check that clicking 'reactivate' on a notification warning at the top of the dashboard, menu, or vault pages causes the visual state to change correctly, and the setting in question to be updated correctly. 
+- Check that entering private/incognito mode is going to bring up the corresponding notification as expected.
+- In firefox, choose "strict" for Enhanced Tracking Protection in `about:preferences#privacy`. Check that a notification shows up after the setting is changed. 
 - Check that the vault (if open) is updated when notifications change
 - Check that the dashboard (if open) is updated when notifications change
 - Dashboard::settings (options.html) Check that page refreshes correctly when a notification is 'reactivated'
