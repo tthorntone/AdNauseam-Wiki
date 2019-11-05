@@ -177,7 +177,7 @@ AdNauseam 'clicks' Ads by issuing an HTTP request to the URL to which they lead.
 While visual Ads are not usually blocked by AdNauseam, beacons, non-visual trackers, and other potentially malicious content can be blocked altogether. The detection of domains known to deliver such content is managed via the same set of user-configurable filter lists used to detect visual Ads. Additionally, AdNauseam's blocking behavior can be de-/activated in the settings panel, either for a site, a page, or globally (though this last option is strongly discouraged).
 
 #### Does AdNauseam respect the browser's private-browsing/incognito modes?
-Yes, AdNauseam does not collect or click Ads that occur on pages loaded in [private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) or [incognito](https://support.google.com/chromebook/answer/95464?hl=en) windows.
+Yes, AdNauseam does not collect or click Ads that occur on pages loaded in [private-browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) or [incognito](https://support.google.com/chromebook/answer/95464?hl=en) windows, unless manually enabled by the user.
 
 #### Can I combine AdNauseam with another blocker?
 
