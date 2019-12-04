@@ -26,6 +26,7 @@
 * [Can I combine AdNauseam with another blocker?](#can-i-combine-adnauseam-with-another-blocker)
 * [Can I combine AdNauseam and TrackMeNot?](#can-i-combine-adnauseam-and-trackmenot)
 * [Why AdNauseam does not work with certain browser settings?](https://github.com/dhowe/AdNauseam/wiki/FAQ#why-adnauseam-does-not-work-with-certain-browser-settings)
+* [Why AdNauseam does not work on search engines in Opera?](https://github.com/dhowe/AdNauseam/wiki/FAQ#why-adnauseam-does-not-work-on-search-engines-in-opera)
 * [What do colored entries in the logger represent?](https://github.com/dhowe/AdNauseam/wiki/The-logger)
 * [What is the AdNauseam filter list?](#what-is-the-adnauseam-filter-list)
 * [What is the EasyList filter and why do I get a warning when it is disabled?](#what-is-the-easylist-filter-and-why-do-i-get-a-warning-when-it-is-disabled)
@@ -190,6 +191,9 @@ Absolutely -- these two extensions should work happily together...
 #### Why AdNauseam does not work with certain browser settings?
 
 Browser settings, like Firefox's 'Tracker Blocking', may conflict with AdNauseam. While ads and trackers will still be blocked, they are unlikely to be collected or clicked, as they will be handled by the browser rather than AdNauseam.
+
+#### Why AdNauseam does not work on search engines in Opera?
+From Opera 57+, there's a new permission setting for extensions that will require manual intervention if you want your extensions to work on search page results like Google or Bing etc. To make it work again: Go to Menu > Extensions and tick the box `Allow access to search page results`. 
 
 #### What is user tracking? How does tracking work?
 
