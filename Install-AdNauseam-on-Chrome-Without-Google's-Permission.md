@@ -19,8 +19,8 @@ The following instructions are for Google's Chrome and Chromium browsers ONLY. F
 **Warning: Do not delete this folder after the install; Chrome will disable AdNauseam if this folder is not in the expected location**
 
 3. In your Chrome Browser menu, click Windows > Extensions or type chrome://extensions/ in the address bar  
-4. Check the Developer mode checkbox  
-5. Click the Load unpacked extension button (see image) and navigate to the folder you downloaded in step 1  
+4. Check the 'Developer Mode' checkbox  
+5. Click the 'Load unpacked extension' button and navigate to the folder you downloaded in step 1  
 6. If you have previously exported your ads, you can retrieve them now  
 
 <br>
