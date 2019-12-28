@@ -8,7 +8,7 @@ The logger is the tool of choice to see, understand, diagnose and fix the functi
 
 To access the logger, first click the uBlock button in the menu, then select the logger icon:
 
-![Figure 1](https://raw.githubusercontent.com/wiki/dhowe/AdNauseam/logger.png)
+![Figure 1](https://user-images.githubusercontent.com/3056154/71547463-3f198580-296e-11ea-96d0-91602ea96a31.png)
 
 The request logger will open in a new tab:
 
