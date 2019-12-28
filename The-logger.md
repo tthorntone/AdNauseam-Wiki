@@ -8,7 +8,7 @@ The logger is the tool of choice to see, understand, diagnose and fix the functi
 
 To access the logger, first click the uBlock button in the menu, then select the logger icon:
 
-![Figure 1](https://user-images.githubusercontent.com/3056154/71547463-3f198580-296e-11ea-96d0-91602ea96a31.png)
+![Figure 1](https://raw.githubusercontent.com/wiki/dhowe/AdNauseam/logger.png)
 
 The request logger will open in a new tab:
 
@@ -18,7 +18,7 @@ Note that AdNauseam will log entries **IF AND ONLY IF** the logger is opened. Ot
 
 Logger events in AdNauseam are color-coded for easy identification, as follows:
 
-![Figure 2](https://raw.githubusercontent.com/wiki/dhowe/AdNauseam/logger-colors.png)
+![Figure 2](https://user-images.githubusercontent.com/3056154/71547463-3f198580-296e-11ea-96d0-91602ea96a31.png)
 
 You can find more information on the original uBlock logger [here]()...
 
