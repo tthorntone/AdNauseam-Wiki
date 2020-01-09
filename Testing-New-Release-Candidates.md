@@ -58,13 +58,12 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check that disabling hiding, clicking, or blocking on the dashboard/options page generates a notification warning at the top of the dashboard(all tabs), menu, and vault page. 
 - Check that disabling EasyList/AdNauseam filters on the dashboard/3p-filters page generates a notification warning at the top of the dashboard(all tabs), menu, and vault page. 
 - Check that clicking 'reactivate' on a notification warning at the top of the dashboard, menu, or vault pages causes the visual state to change correctly, and the setting in question to be updated correctly. 
-- Check that entering private/incognito mode is going to bring up the corresponding notification as expected.
-- In firefox, choose "strict" for Enhanced Tracking Protection in `about:preferences#privacy`. Check that a notification shows up after the setting is changed. 
+- In Firefox, choose "strict" for Enhanced Tracking Protection in `about:preferences#privacy`. Check that a notification shows up after the setting is changed. 
 - Check that the vault (if open) is updated when notifications change
 - Check that the dashboard (if open) is updated when notifications change
-- Dashboard::settings (options.html) Check that page refreshes correctly when a notification is 'reactivated'
+- Dashboard: settings (options.html) Check that page refreshes correctly when a notification is 'reactivated'
 - Dashboard::3rd-Party (3p-filters.html) Check that page refreshes correctly when a list-notification is 'reactivated'
-
+- [Opera only] If "allow access to search page results" is unchecked, AdNauseam will show a corresponding notification.
 ------------------
 
 ## Ad Hiding/Parsing
@@ -76,7 +75,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 [Chrome](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe.html) | 
 [Firefox](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe_firefox.html)
 *  Test Ad-parsing from cosmetically-filtered iFrames: hidden but not collected (without cosmetic filters for any contained elements)  [here](http://lab-lamp.scm.cityu.edu.hk/adntest/iframe-cosm.html)                       
-*  Test that no Ads are collected in incognito/private-browsing windows:    
+*  Test that ads are collected in incognito/private-browsing windows:    
    * In Chrome/Opera, go to the extension page and check "Allow in incognito" for AdNauseam, then hit command+shift+N to start testing
    * In Firefox, use command+shift+P to open a private window
 
