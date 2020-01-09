@@ -1,5 +1,5 @@
 
-_First make sure that you are working with the correct commit (check the hash) or installed release, then perform each test on Firefox, Chrome and Opera
+_First make sure that you are working with the correct commit (check the hash) or installed release, then perform each test on Firefox, Chrome, and Opera
 
 **Test set**  
 [Full test set](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates#interface)  
@@ -16,24 +16,24 @@ _First make sure that you are working with the correct commit (check the hash) o
 - Check the version number at left-bottom corner
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Menu</b>
-- Check all buttons and information (including number of Ads and $$ cost, hidden if no ads)
+- Check all buttons and information (including the number of Ads and $$ cost, hidden if no ads)
 - Hover over Ad images and check zooming
 - Check that menu is correctly updated after ad-visiting
 - Check ad-visiting animation
 - Check there is no text overlap in the menu for text ads
 - Check AdNauseam version number(in uBlock menu)
-- Menu shows "AdNauseam is paused on current pages" when AdNauseam is paused, and make sure that the layout is correct.
+- The menu shows "AdNauseam is paused on current pages" when AdNauseam is paused, and make sure that the layout is correct.
 - Check that the Adnauseam logo links to homepage
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Vault</b>
 - Verify loading animation, and centering/scaling of Ads on load
-- Zoom in/out using mouse wheel and buttons in top-left corner 
+- Zoom in/out using mouse wheel and buttons in the top-left corner 
 - Check function/layout of Inspector (for both image and text ads)
-- Check correct function of date-filter slider at bottom
+- Check correct function of the date-filter slider at the bottom
 - Check that AdNauseam logo in the bottom-right corner links correctly to homepage  
 - Check correct calculation of ad cost
 - Test import/export/clear functions
-- Right click on an ad and delete it. Refresh the page and check that it is successfully deleted
+- Right-click on an ad and delete it. Refresh the page and check that it is successfully deleted
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Dashboard</b>
 - Check 2 version numbers in 'About' page (links.html)
@@ -117,7 +117,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Interface</b>
 - DNT list at top of whitelist.html is checked when either DNT option is checked, otherwise unchecked
-- Check that changing the two DNT settings will triggger DNT notifications with corresponding messages to the menu  
+- Check that changing the two DNT settings will trigger DNT notifications with corresponding messages to the menu  
 - Check the layout of each DNT notification("?" should be in the middle, 'settings' button appears on hover)  
 
 &nbsp;&nbsp;&nbsp;&nbsp;<i>[Test Page for 3rd-party DNT](http://lab-lamp.scm.cityu.edu.hk/adntest/effTestPage.html)</i>
@@ -146,9 +146,9 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 ## Check Ad Blockers
 - Install uBlock Origin
 - Remove and reinstall AdNauseam to trigger the first-run page 
-- check if there is a warning about other ad blockers on first-run page,menu and vault
-- click 'disable' button on the warning message, it should lead to the extension page
-- disable uBlock and check whether the message is gone in vault and menu.(If the page was opened, it need to be refreshed)
+- check if there is a warning about other ad blockers on the first-run page,menu and vault
+- click the 'disable' button on the warning message, it should lead to the extension page
+- disable uBlock and check whether the message is gone in vault and menu. (If the page was opened, it need to be refreshed)
 
   _Test this for Adblock Plus/AdBlock/uBlock as well
 
@@ -171,17 +171,12 @@ To check headers for ad visits, please go to developer tools of the browser -> N
   1.  Rebuild AdNauseam
   1.  Click "Update Now" in Settings Page and check 
     - All out-dated filters are updated (background.html console)
-    - The total rules of adnauseam has been updated
-    - The rules are functioning when test on webpage.
-- Test Auto Update (This need to be tested from unpacked extension)
- Check the same thing above with a different procedure:
- 1.  Go to start.js and change this line : "µb.scheduleAssetUpdater(µb.userSettings.autoUpdate ? 7 * 60 * 1000 : 0);" to "µb.scheduleAssetUpdater(µb.userSettings.autoUpdate ? 10 * 1000 : 0);"
- 1.  Go to assets.js and change updaterAssetDelayDefault to 3000
- 1.  Rebuild AdNauseam
- 1.  Delete and reinstall AdNauseam
- 1.  Activate debugging mode and open the background.html page to check the logging message in the console
+    - The total number of rules of Adnauseam has been updated
+    - The rules are functioning when test on a webpage.
+- Test Auto Update
+ 1.  Go to "advanced-settings.html" and modify "autoUpdateAssetFetchPeriod", "autoUpdatePeriod" to 1, and "autoUpdateDelayAfterLaunch" to 0.
+ 1.  Open the background.html page to check the logging message in the network section
  1.  Wait till the autoUpdate triggers and check whether there is any error message in the console
- 1.  Check the same things as above
 - Make sure that both buttons "Update Now" and "Purge All Caches" toggle correctly
 - Test "Update" button for adnauseam.txt on "filterlists" page
 - Test "Update" button for Eff list on "whitelists" page
