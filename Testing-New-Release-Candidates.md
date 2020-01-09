@@ -72,8 +72,9 @@ _First make sure that you are working with the correct commit (check the hash) o
   * TextAds: visit Google/Ask/Yahoo/Bing/DuckDuckGo to search for keywords such as "credit card" or "loan"
 *  Test Ad-parsing from within dynamically-created iFrames: hidden and collected   
   Test cases:
-[Chrome](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe.html) | 
-[Firefox](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe_firefox.html)
+[Dynamic_iframe](http://rednoise.org/adntest/dynamic_iframe.html)
+[about:blank_Chrome](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe.html) | 
+[about:blank_Firefox](http://lab-lamp.scm.cityu.edu.hk/adntest/dynamic_iframe_firefox.html)
 *  Test Ad-parsing from cosmetically-filtered iFrames: hidden but not collected (without cosmetic filters for any contained elements)  [here](http://lab-lamp.scm.cityu.edu.hk/adntest/iframe-cosm.html)                       
 *  Test that ads are collected in incognito/private-browsing windows:    
    * In Chrome/Opera, go to the extension page and check "Allow in incognito" for AdNauseam, then hit command+shift+N to start testing
