@@ -227,6 +227,8 @@ We have heard reports of logged-in users having their Youtube channels suspended
 
 First, please make sure the bug hasn't already been reported by checking the current [bug list](https://github.com/dhowe/AdNauseam/issues).  If the bug hasn't yet been reported you can report it there. If you don't have a GitHub account, please create one so that we can communicate with you about the bug and fix it more quickly.
 
+*For adult and potentially offensive sites/advertisements, please add a [Content Warning] tag in the title to warn developers that there may be offensive material in the ticket. Please notice that we will delete the issue if the content is particularly racist/sexist, advocated violence, or was intentionally offensive.
+
 If you're not comfortable creating a ticket (or don't want to create a GitHub account), you can also report the bug via email to adnauseam-issues [@] rednoise.org.
 
 ## Why?
