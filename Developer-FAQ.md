@@ -23,6 +23,7 @@
 * [What is the data format for Ad imports/exports?](#what-is-the-data-format-for-ad-importsexports)
 * [How does AdNauseam handle asset managements?](#how-does-adNauseam-handle-asset-managements)
 * [How does AdNauseam handle incoming and outgoing cookies?](#how-does-adnauseam-handle-incoming-and-outgoing-cookies)
+* [What is ’strict blocking mode’ for, and when should I use it?](#what-is-strict-blocking-mode-for-and-when-should-i-use-it)
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
@@ -178,6 +179,11 @@ An important point to note is that these 3rd-party requests, for which an active
 Existing lists are divided into two categories, those that primarily block visual ads and those that block other requests, trackers, beacons, etc. Currently we only allow blocks for those in the latter category, as identified by the `enabledBlockLists` lists in core.js. If a list (Peter Lowe's for example) contains only blocking rules (and no hiding rules) AND this list blocks visual ads, then it is not useful for AdNauseam and is likely removed from the default list set (as is the case for Peter Lowe's list).
 
 For completeness, there are also two other kinds of rules: exception rules, which are similar to blocking rules, except that they define which requests should be allowed even when other matching blocking rules exist; and dynamic-filtering rules, which are explained [here](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax).
+
+-----------
+#### What is ’strict blocking mode’ for, and when should I use it?
+
+Strict blocking mode means that AdNauseam will block all the web requests that match any blocking rules from all the enabled blocking lists. By default, AdNauseam only blocks requests that won’t stops image or text ads from rendering(with video ads as an exception), while the rest of the block-able requests are allowed. If 'strict blocking mode' is enabled, AdNauseam will have a general better performance in ad blocking, while its performance in collecting and clicking are expected to be impacted(for example, the majority of google ads won’t be collected and clicked). AdNauseam can no longer collect nor click on ads that are never rendered on a user’s computer. You can read more about blocking and hiding rules in AdNauseam at [here](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn). Please use this mode with caution and make sure that you fully understand the consequences of enabling it. 
 
 -----------
 #### How do I use the logger, and what are the different types of entries it shows?
