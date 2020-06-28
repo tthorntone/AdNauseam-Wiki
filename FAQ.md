@@ -242,7 +242,7 @@ To ensure that AdNauseum  is safe, and secure for its users, we encourage users 
 
 The intent of this project is not to oppose online advertising categorically. We are instead attempting to bring to light a system that has overtaken the web, whereby Ads are just the tip of the iceberg and serve as a delivery system for a massive back-end surveillance architecture that tracks us continually. It is not advertising we are protesting, but advertising insofar as it represents a dominant means of tracking users without their consent. In fact, for sites who wish respectfully serve ads to their users, we recommend adopting the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard (and, incidentally, you will no longer be blocked by default in tools like AdNauseam or [PrivacyBadger](https://www.eff.org/privacybadger)).
 
-For those who argue that advertising drives consumerism, irresponsible consumption and other behaviors that threaten the survival of our species, we hear you. However it is not our intent to address such issues in this project.
+For those who argue that advertising drives consumerism, irresponsible consumption and other behaviors that threaten the survival of our species, **we hear you**. However it is not our intent to address such issues in this specific project.
 
 #### Isn't it safer just to use an adblocker? Why engage with ad-networks at all?
 
