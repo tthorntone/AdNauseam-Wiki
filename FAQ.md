@@ -36,6 +36,7 @@
 * [Can I use AdNauseam while logged into my Youtube channel?](#can-i-use-adnauseam-while-logged-into-my-youtube-channel)
 * [Why have options from earlier versions been removed?](#why-have-options-from-earlier-versions-been-removed)
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
+* [What should I do if I found potential vulnerabilities?](https://github.com/dhowe/AdNauseam/wiki/FAQ#what-should-i-do-if-i-found-potential-vulnerabilities)
 * [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
 
 #### Why?
