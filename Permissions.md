@@ -2,6 +2,7 @@ AdNauseam's required permissions are based on those of uBlock. These are AdNause
 ```
 "permissions": [
     "contextMenus",
+    "dns",
     "privacy",
     "storage",
     "tabs",
