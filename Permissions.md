@@ -10,8 +10,7 @@ AdNauseam's required permissions are based on those of uBlock. These are AdNause
     "webRequest",
     "webRequestBlocking",
     "management",
-    "http://*/*",
-    "https://*/*"
+    "<all_urls>",
 ],
 ```
 
