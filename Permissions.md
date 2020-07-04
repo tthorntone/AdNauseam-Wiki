@@ -1,7 +1,7 @@
 AdNauseam's required permissions are based on those of [uBlock Origin](https://github.com/gorhill/uBlock/wiki/Permissions). We add one additional permission ([monitor extension usage and manage themes](https://support.mozilla.org/en-US/kb/permission-request-messages-firefox-extensions)) which we use to check for other addons that might conflict with AdNauseam, and then to issue a warning for the user. Here is a link to the [relevant code](https://github.com/dhowe/AdNauseam/blob/master/platform/chromium/vapi-background.js#L1690).
 
-<br>
-These are the required permissions as specified in AdNauseam's manifest file:
+These are the required permissions as specified in AdNauseam's manifest:
+
 ```
 "permissions": [
     "contextMenus",
@@ -18,6 +18,7 @@ These are the required permissions as specified in AdNauseam's manifest file:
 ],
 ```
 
+<br>
 
 **See uBlock's documentation on how specific permissions are used below:**
 
