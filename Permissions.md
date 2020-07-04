@@ -5,7 +5,6 @@ These are the required permissions as specified in AdNauseam's manifest:
 ```
 "permissions": [
     "contextMenus",
-    "dns",
     "privacy",
     "storage",
     "tabs",
@@ -13,8 +12,8 @@ These are the required permissions as specified in AdNauseam's manifest:
     "webNavigation",
     "webRequest",
     "webRequestBlocking",
-    "management",
     "<all_urls>",
+    "management"
 ],
 ```
 
