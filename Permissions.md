@@ -1,4 +1,4 @@
-AdNauseam's required permissions are based on those of uBlock. These are AdNauseam's required permissions:
+AdNauseam's required permissions are based on those of [uBlock Origin](https://github.com/gorhill/uBlock/wiki/Permissions). We add one additional permission ("Monitor extension usage and manage themes") which we use to check for other addons that may conflict with AdNauseam, and then to issue a warning. These are AdNauseam's required permissions:
 ```
 "permissions": [
     "contextMenus",
@@ -14,6 +14,7 @@ AdNauseam's required permissions are based on those of uBlock. These are AdNause
     "<all_urls>",
 ],
 ```
+
 #### "Monitor extension usage and manage themes"
 
 AdNauseam adds this additional permission to check which extensions you have installed and enabled in your browser, so that we can show you a warning message if you have installed other extensions that might cause conflicts with AdNauseam.
@@ -22,7 +23,7 @@ See code:
 [vAPI.getAddonInfo](https://github.com/dhowe/AdNauseam/blob/master/platform/chromium/vapi-background.js#L1690)
 
 
-***
+*** from uBlock Origin:
 
 #### ["Access your data on all web sites"](https://github.com/gorhill/uBlock/wiki/Permissions#access-your-data-on-all-web-sites) 
 #### ["Access your tabs and browsing activity"](https://github.com/gorhill/uBlock/wiki/Permissions#access-your-tabs-and-browsing-activity) 
