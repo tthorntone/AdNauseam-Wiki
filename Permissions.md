@@ -1,4 +1,6 @@
-AdNauseam's required permissions are based on those of [uBlock Origin](https://github.com/gorhill/uBlock/wiki/Permissions). We add one additional permission ([Monitor extension usage and manage themes](https://support.mozilla.org/en-US/kb/permission-request-messages-firefox-extensions)) which we use to check for other addons that might conflict with AdNauseam, and then to issue a warning for the user. These are the required permissions as specified in AdNauseam's manifest file:
+AdNauseam's required permissions are based on those of [uBlock Origin](https://github.com/gorhill/uBlock/wiki/Permissions). We add one additional permission ([monitor extension usage and manage themes](https://support.mozilla.org/en-US/kb/permission-request-messages-firefox-extensions)) which we use to check for other addons that might conflict with AdNauseam, and then to issue a warning for the user. Here is a link to the [relevant code](https://github.com/dhowe/AdNauseam/blob/master/platform/chromium/vapi-background.js#L1690).
+
+These are the required permissions as specified in AdNauseam's manifest file:
 ```
 "permissions": [
     "contextMenus",
@@ -14,12 +16,6 @@ AdNauseam's required permissions are based on those of [uBlock Origin](https://g
     "<all_urls>",
 ],
 ```
-
-<br/>
-
-**Monitor extension usage and manage themes**
-
-AdNauseam adds this additional permission to check which addons you have installed and enabled in your browser, so that we can show you a warning message if you have installed other extensions that might cause conflicts with AdNauseam. Here is a link to the [relevant code](https://github.com/dhowe/AdNauseam/blob/master/platform/chromium/vapi-background.js#L1690)
 
 
 **See uBlock's documentation on how specific permissions are used below:**
