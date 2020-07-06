@@ -13,9 +13,9 @@ These are the required permissions as specified in AdNauseam's manifest:
     "webRequestBlocking",
     "<all_urls>",
     "management",
-    "contextMenus (chromium-only)",
-    "menus" (firefox-only),
-    "dns" (firefox-only),
+    "contextMenus, (chromium-only)"
+    "menus", (firefox-only)
+    "dns" (firefox-only)
 ]
 ```
 
