@@ -259,7 +259,7 @@ But there are many other ways that the status quo can be improved without damagi
 We believe obfuscation is an important form of resistance to data tyranny. It can frustrate surveillance, help users to express their discontent, and act as a communal, rather than merely individual, practice. 
 
 #### This is interesting, do you know of other similar obfuscation initiatives along these lines?
-There are many such instance, both in digital media and beyond. Please see the following articles ([1](http://ceur-ws.org/Vol-1873/IWPE17_paper_23.pdf) [2](http://firstmonday.org/article/view/3493/2955), [3](http://www.aprja.net/?p=2510)) for a range of examples.
+There are many such instance, both in digital media and beyond. Please see the following articles ([1](http://ceur-ws.org/Vol-1873/IWPE17_paper_23.pdf), [2](http://firstmonday.org/article/view/3493/2955), [3](http://www.aprja.net/?p=2510)) for a range of examples.
 
 #### How does AdNauseam's clicking differ from 'click-fraud'?
 
