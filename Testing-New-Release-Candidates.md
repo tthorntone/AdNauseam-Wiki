@@ -161,6 +161,19 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 ------------------
 
+## Check New Features
+### Strict Blocking   
+- [ ] Enable global strict blocking in settings, open the logger and go to sites such as nytimes. All blocking rules(including easyList) should be blocked(in red). 
+- [ ] Go to "My rules" and add `* doubleclick.net * strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that requests from doubleclick.net are all blocked by easylist.
+- [ ] Go to "My rules" and add `nytimes.com * * strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that blocking filters from easyList are triggered.
+- [ ] Go to "My rules" and add `nytimes.com * image strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that blocking filters on images are triggered from easyList, but other types of requests are still allowed. 
+
+### Private Mode
+- Enable Private Mode and open one incognito/private window.
+- [ ] Go to [test case](http://rednoise.org/adntest/simple.html) and verify that ad is collected within private window.
+- [ ] Close the private window and open adVault. The ad content should have been removed, while leaving a count for total ads collected and the ad network.
+------------------
+
 ## Check Element-picker Tool
 - Go to some web page with a visible ad, then right-click, select 'Block element', create a rule to hide the element
 
