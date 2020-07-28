@@ -170,7 +170,6 @@ To check headers for ad visits, please go to developer tools of the browser -> N
 
 ### Private Mode
 - Enable Private Mode and open one incognito/private window.
-- [ ] Go to [test case](http://rednoise.org/adntest/simple.html) and verify that ad is collected within private window.
 - [ ] Close the private window and open adVault. The ad content should have been removed, while leaving a count for total ads collected and the ad network.
 ------------------
 
