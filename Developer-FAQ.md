@@ -185,24 +185,24 @@ For completeness, there are also two other kinds of rules: exception rules, whic
 
 By default AdNauseam only blocks requests that do not stop ads from being collected. When ’Strict blocking mode’ is enabled, AdNauseam will block ANY request that matches a blocking rule from an enabled third-party list. This means that LESS ads will be collected, placed in the vault, and later clicked, and that AdNauseam will be LESS effective in its primary function (for example, the majority of Google ads won’t be collected or clicked). Thus for most users 'Strict blocking mode' is NOT recommended. However if you are primarily interested in blocking ads, you _may_ see better performance with 'strict blocking mode' enabled (depending on other settings and the specific sites you visit). You can read more about blocking and hiding rules in AdNauseam [here](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn). Generally speaking this mode is only for advanced users with specific use-cases (e.g., testing), so please make sure that you understand the ramifications before enabling it. 
 
-Another option is to use 'strict blocking' in combination with dynamic filtering rules. You can follow [ublock's dynamic filtering rule syntax](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax) to create your own strict blocking rules that let AdNauseam 'strict' block requests based on sites, 3rd-party domains, and request types. To compose strict-blocking rules, you will need to use the syntax `strictBlock` for the "action" component.
+Another option is to use 'strict blocking' in combination with dynamic filtering rules. You can follow [uBlock's dynamic filtering rule syntax](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax) to create your own strict blocking rules that let AdNauseam 'strict' block requests based on sites, 3rd-party domains, and request types. To compose strict-blocking rules, you will need to use the syntax `strictBlock` for the "action" component.
 
 Here are a few examples:  
-* To strict block all the requests for facebook, you can use the following rule:
+* To strict-block all the requests for facebook.com, you can use the following rule:
    `facebook.com * * strictBlock`  
 
-* To strict block all the requests coming from double click for a certain site, you can use the following rule(this will stop google ads from rendering and prevent them to be collected and clicked by AdNauseam):
+* To strict-block all the requests coming from doubleclick.net for a certain site, you can use the following rule (this will stop google ads from rendering and prevent them from being collected and clicked by AdNauseam):
    `mysite.com doubleclick.net * strictBlock` 
 
-* To strict block all 3rd-party scripts for a certain site, you can use the following rule:
+* To strict-block all 3rd-party scripts for a certain site, you can use the following rule:
    `facebook.com * 3p-script strictBlock`
 
-*Please notice the difference between `strictBlock` and `block`. The `block` action blocks all the requests following the dynamic filtering rules, while `strictBlock` only blocks a request if it triggers a blocking rule in one of the filter lists.
+*Please note the difference between `strictBlock` and `block`. The `block` action blocks all the requests according to the dynamic filtering rules, while `strictBlock` only blocks a request if it triggers a blocking rule in one of the filter lists.
 
 -----------
 #### How do I use the logger, and what are the different types of entries it shows?
 
-Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on the logger icon. Choose the tab you are interested in, then click the refresh icon. This will refresh the tab with the logger activated, and you will see each request made by the browser (whether blocked, allowed, or hidden). For info on the different types of entries, see this [page](https://github.com/dhowe/AdNauseam/wiki/The-logger).
+Open the uBlock menu by clicking on the 'µ' icon in the ADN menu, then click on the logger icon. Choose the tab you are interested in, then click the 'refresh' icon. This will refresh the tab with the logger activated, and you will see each request made by the browser (whether blocked, allowed, or hidden). For info on the different types of entries, see this [page](https://github.com/dhowe/AdNauseam/wiki/The-logger).
 
 #### How does AdNauseam handle visual resources that link to the same domain?
 Generally AdNauseam does not recognize Ads with internal target URLs. So an Ad found on xyz.com which links to a URL on xyz.com (or www.xyz.com) is ignored. However, some sites use this mechanism (generally with a redirect) for serving real Ads. These are sometimes text Ads and sometimes so-called 'native Ads'. One classic example is Google, where all Ads on search pages go first to a Google URL, and are then redirected. To accommodate these exceptions, AdNauseam maintains an array of domains called `internalLinkDomains` (see core.js). Adding a domain to this list will cause AdNauseam to no longer ignore internal Ads from that domain.
