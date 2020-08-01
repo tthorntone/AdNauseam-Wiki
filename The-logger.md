@@ -18,7 +18,8 @@ Note that AdNauseam will log entries **IF AND ONLY IF** the logger is opened. Ot
 
 Logger events in AdNauseam are color-coded for easy identification, as follows:
 
-![Figure 2](https://user-images.githubusercontent.com/3056154/71547463-3f198580-296e-11ea-96d0-91602ea96a31.png)
+
+![Figure 2](https://user-images.githubusercontent.com/3056154/89107817-acf4c680-d401-11ea-8845-3287e543bf68.png)
 
 You can find more information on the original uBlock logger [here]()...
 
