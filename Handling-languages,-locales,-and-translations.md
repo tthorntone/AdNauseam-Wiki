@@ -16,7 +16,7 @@ Our workflow for updating translations is as follows (assumes Crowdin Manager pe
 
 1. Sync the English version of 'adnauseam.json' on Crowdin with the one from the repo (see image below)
 2. Approve new and updated translations found on Crowdin 
-3. Build the Crowdin project so that it contains only the latest approved translated strings (???)
+3. Build the Crowdin project so that it contains only the latest approved translated strings
 4. Download and unpack the latest Crowdin zip archive (to `~/Downloads/adnauseam` by default)
 5. Run the following command from root of ADN to update the (non-english) locale files in our source.
 
