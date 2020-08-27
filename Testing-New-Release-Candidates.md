@@ -171,6 +171,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
    * In Firefox, use command+shift+P to open a private window
 - [ ]  Test that by default ads are collected in incognito/private-browsing windows:    
 ### Private Mode
+- [ ]  [Opera Only] For Private Mode to work correctly, make sure that in opera's manifest file, "incognito" is always set to "spanning". This is the default value in chrome.
 - [ ]  Enable Private Mode and open one incognito/private window
 - [ ]  Close the private window
 - [ ]  Open adVault. The ad content should have been removed, while an private ad place holder is rendered, leaving a count for total ads collected and the ad network in the statistics panel.
