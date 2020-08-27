@@ -68,7 +68,7 @@ First make sure that you are working with the correct commit (check the hash) or
 - [ ]  Check that the dashboard (if open) is updated when notifications change
 - [ ]  Dashboard: settings (options.html) Check that page refreshes correctly when a notification is 'reactivated'
 - [ ]  Dashboard::3rd-Party (3p-filters.html) Check that page refreshes correctly when a list-notification is 'reactivated'
-- [ ]  [Opera only] If "allow access to search page results" is unchecked, AdNauseam will show a corresponding notification.
+- [ ]  [Opera only] If "allow access to search page results" is unchecked, AdNauseam will show a corresponding notification in menu on the search result page. (Test Google search result for "credit card")
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Logger</b>
 - [ ]  Visit a random web page then open the logger
