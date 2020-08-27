@@ -160,10 +160,10 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 
 ## Check New Features
 ### Strict Blocking   
-- [ ]  [ ] Enable global strict blocking in settings, open the logger and go to sites such as nytimes. All blocking rules(including easyList) should be blocked(in red). 
-- [ ]  [ ] Go to "My rules" and add `* doubleclick.net * strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that requests from doubleclick.net are all blocked by easylist.
-- [ ]  [ ] Go to "My rules" and add `nytimes.com * * strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that blocking filters from easyList are triggered.
-- [ ]  [ ] Go to "My rules" and add `nytimes.com * image strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that blocking filters on images are triggered from easyList, but other types of requests are still allowed. 
+- [ ]  Enable global strict blocking in settings, open the logger and go to sites such as nytimes. All blocking rules(including easyList) should be blocked(in red). 
+- [ ]  Go to "My rules" and add `* doubleclick.net * strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that requests from doubleclick.net are all blocked by easylist.
+- [ ]  Go to "My rules" and add `nytimes.com * * strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that blocking filters from easyList are triggered.
+- [ ]  Go to "My rules" and add `nytimes.com * image strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that blocking filters on images are triggered from easyList, but other types of requests are still allowed. 
 
 ------
 ## Check incognito/private browsing
@@ -219,44 +219,44 @@ After going through all the tests, check:
 ### Interface
 &nbsp;&nbsp;&nbsp;&nbsp;<b>First-Run</b>
 - Remove and reinstall AdNauseam to trigger this page 
-- Test selection of various options (click-ads, block-malware, hide-ads, DNT)
-- Check the layout
+- [ ]  Test selection of various options (click-ads, block-malware, hide-ads, DNT)
+- [ ]  Check the layout
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Menu</b>
-- Check all buttons and information (including number of Ads and $$ cost, hidden if no ads)
-- Check the layout when adnauseam is paused
-- Check there is no text overlap in the menu for text ads
+- [ ]  Check all buttons and information (including number of Ads and $$ cost, hidden if no ads)
+- [ ]  Check the layout when adnauseam is paused
+- [ ]  Check there is no text overlap in the menu for text ads
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Vault</b>
-- Verify loading animation, and centering/scaling of Ads on load
-- Zoom in/out using gesture and buttons in top-left corner 
-- Check function/layout of Inspector (for both image and text ads)
-- Check correct function of date-filter slider at bottom
-- Test import/export/clear functions
+- [ ]  Verify loading animation, and centering/scaling of Ads on load
+- [ ]  Zoom in/out using gesture and buttons in top-left corner 
+- [ ]  Check function/layout of Inspector (for both image and text ads)
+- [ ]  Check correct function of date-filter slider at bottom
+- [ ]  Test import/export/clear functions
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Dashboard</b>
-- Check layout of buttons, check-boxes, and links in each tab
-- Test backup/restore/reset settings functions
+- [ ]  Check layout of buttons, check-boxes, and links in each tab
+- [ ]  Test backup/restore/reset settings functions
 
 ------------------
 
 ### Basic Functions
-- Blocking [here](http://lab-lamp.scm.cityu.edu.hk/adntest/block.html)
-- Hiding [here](http://lab-lamp.scm.cityu.edu.hk/adntest/simple.html)
-- Clicking
-- Check DNT headers
+- [ ]  Blocking [here](http://lab-lamp.scm.cityu.edu.hk/adntest/block.html)
+- [ ]  Hiding [here](http://lab-lamp.scm.cityu.edu.hk/adntest/simple.html)
+- [ ]  Clicking
+- [ ]  Check DNT headers
 
 ------------------
 
 ### Test Update
-- Test Manual Update by clicking "Update Now" in settings page
+- [ ]  Test Manual Update by clicking "Update Now" in settings page
   1.  Change the local uAsset and run tools/update-ublock0.sh to generate a new checksum
   1.  Rebuild AdNauseam
   1.  Click "Update Now" in Settings Page and check 
     - All out-dated filters are updated (background.html console)
     - The total rules of adnauseam has been updated
     - The rules are functioning when test on webpage.
-- Test "Update" button for adnauseam.txt
+- [ ]  Test "Update" button for adnauseam.txt
 
 After going through all the tests, check:
 [How do I create a new release](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#how-do-i-create-a-new-release) and 
