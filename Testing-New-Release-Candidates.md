@@ -1,5 +1,5 @@
 
-_First make sure that you are working with the correct commit (check the hash) or installed release, then perform each test on Firefox, Chrome, and Opera
+First make sure that you are working with the correct commit (check the hash) or installed release, then perform each test on Firefox, Chrome, Opera and Edge
 
 **Test set**  
 [Full test set](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates#interface)  
