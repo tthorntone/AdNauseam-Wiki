@@ -5,7 +5,7 @@ _First make sure that you are working with the correct commit (check the hash) o
 [Full test set](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates#interface)  
 [Basic / Android test set](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates#tests-for-firefox-android--basic-tests)  
 
-#1307  Interface
+## Interface
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>First-Run</b>
 
