@@ -252,7 +252,7 @@ While AdNauseam is far safer than using no blocker at all, it is indeed marginal
 
 One good option is to advertise on sites that respect the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard (and, incidentally, you will no longer be blocked by default in tools like AdNauseam or [PrivacyBadger](https://www.eff.org/privacybadger)).
 
-But there are many other ways that the status quo can be improved without damaging the Web ecosystem, e.g. non-tracking ads,  contextual advertising, and client-side ad profiling (see [Adnostic](http://crypto.stanford.edu/adnostic/)). Alternatively, web-sites and publishers might switch to advertising networks that don't violate the privacy of users ([Deck](http://decknetwork.net/privacy/) appears to have been one such example).
+But there are many other ways that the status quo can be improved without damaging the Web ecosystem, e.g. non-tracking ads,  contextual advertising, and client-side ad profiling (see [Adnostic](http://crypto.stanford.edu/adnostic/)). Alternatively, web-sites and publishers might switch to advertising networks that don't violate the privacy of users ([ContextCue](https://contextcue.com/) is one example).
 
 #### What made you choose data obfuscation as the strategy here?
 
