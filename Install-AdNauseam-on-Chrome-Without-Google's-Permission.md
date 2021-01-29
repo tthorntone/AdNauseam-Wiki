@@ -65,7 +65,7 @@ If you add the following Key's to the HKLM or HKCU, no other actions need to be 
 For the Edge Beta you can set the same key in this location.
 
 ```
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallForcelist
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallForcelist]
 ```
 
 For the Brave Browser you can set the same key here:
