@@ -222,7 +222,7 @@ AdNauseam is a work in progress, with new features continually being added, tune
 
 #### Can I use AdNauseam while logged into my Youtube channel?
 
-We have heard reports of logged-in users having their Youtube channels suspended by Google due to alleged Terms-of-Service violations. While we have only anecdotal evidence of this practice on the part of Google/Youtube, we advise users to log out of their Youtube accounts when using AdNauseam. In fact, for general online privacy, we recommend that users _always log out of all Google-related accounts_ when not directly using them.
+We have heard reports of logged-in users having their Youtube channels suspended by Google due to alleged Terms-of-Service violations. While we have only anecdotal evidence of this practice on the part of Google/Youtube, we advise users to log out of their Youtube accounts when using AdNauseam. In fact, for general online privacy, we recommend that users _always log out of all Google-related services_ when not directly using them.
 
 #### I found a bug! What do I do now?
 
