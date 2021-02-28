@@ -11,7 +11,9 @@ _If you're a new AdNauseam user, or don't care about your saved ads, jump to [In
 ## Install AdNauseam
 
 ### Other Operating Systems
-The following instructions are for Google's Chrome and Chromium browsers ONLY. For other Chromium-based browsers simply download the latest [.CRX file](https://github.com/dhowe/AdNauseam/releases/latest), open the extension page, and drag the file into your browser window (*Note: the Brave no longer allows extensions from outside the Chrome webstore).
+The following instructions are for Google's Chrome and Chromium browsers ONLY. For other Chromium-based browsers simply download the latest [.CRX file](https://github.com/dhowe/AdNauseam/releases/latest), open the extension page, and drag the file into your browser window 
+
+*NOTE: the Brave Browser no longer allows extensions from outside the Chrome webstore*
 
 #### Manual Install in Developer Mode
 1. Download the most latest adnauseam.chromium.zip file from our [releases page](https://github.com/dhowe/AdNauseam/releases/latest) (make sure to download the _chromium.zip_ file!)
