@@ -68,8 +68,8 @@ For the Edge Beta you can set the same key in this location.
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallForcelist]
 ```
 
-For the Brave Browser you can set the same key here:
-
+~~For the Brave Browser you can set the same key here:~~
+Note: Brave no longer allows non-Chrome store extensions
 ```
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\BraveSoftware\Brave\ExtensionInstallForcelist]
 ```
