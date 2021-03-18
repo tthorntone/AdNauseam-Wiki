@@ -1,5 +1,6 @@
 ## Frequently Asked Questions for Developers
 
+Welcome and thanks for coming - we really do need your help!
 
 ### Getting Started
 * [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
