@@ -2,7 +2,7 @@
 
 Welcome and thanks for visiting! AdNauseam is a non-profit volunteer project.
 
-** We really need your help! **
+**We really need your help!**
 
 ### Getting Started
 * [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
