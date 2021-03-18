@@ -2,7 +2,7 @@
 
 Welcome and thanks for visiting! AdNauseam is a completely non-profit, volunteer-run project. And we REALLY do need your help!
 
-If you're interested in helping, but not sure how/where to start, send an email to adnauseam-@-rednoise-dot-com
+If you're interested in helping, but not sure how/where to start, send an email to adnauseam-at-rednoise.org
 and tell us about your skills and interests.
 
 ### Getting Started
