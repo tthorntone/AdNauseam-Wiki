@@ -7,7 +7,7 @@ There are _many ways to contribute,_  from testing, to translating, to documenti
 If you're interested in helping,  just send an email to adnauseam-at-rednoise.org
 and tell us about your skills and interests, we can help you get started!
 
-<br>
+![AdNauseam finger](https://adnauseam.io/img/adn_animated.gif)
 
 ### Getting Started
 * [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
