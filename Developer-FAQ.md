@@ -7,9 +7,7 @@ There are _many ways to contribute,_  from testing, to translating, to documenti
 If you're interested in helping,  just send an email to adnauseam-at-rednoise.org
 and tell us about your skills and interests, we can help you get started!
 
-![AdNauseam finger](https://camo.githubusercontent.com/fef7dc37503e6356d2558bada3c75091785893bdc1e32d7eabf302f8bb101ddd/68747470733a2f2f7265646e6f6973652e6f72672f696d616765732f61646e61757365616d2e706e67)
-
-<img alt="the AdNauseam finger" src="https://camo.githubusercontent.com/fef7dc37503e6356d2558bada3c75091785893bdc1e32d7eabf302f8bb101ddd/68747470733a2f2f7265646e6f6973652e6f72672f696d616765732f61646e61757365616d2e706e67" width="400"/>
+<img alt="the AdNauseam finger" src="https://camo.githubusercontent.com/fef7dc37503e6356d2558bada3c75091785893bdc1e32d7eabf302f8bb101ddd/68747470733a2f2f7265646e6f6973652e6f72672f696d616765732f61646e61757365616d2e706e67" width="300"/>
 
 ### Getting Started
 * [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
