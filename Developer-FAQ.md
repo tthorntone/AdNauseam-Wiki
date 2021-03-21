@@ -5,7 +5,7 @@ AdNauseam is a completely non-profit, volunteer-run project dedicated to protect
 There are _many ways to contribute,_  from testing, to translating, to documenting, to helping us develop and nurture our community (and of course coding!) 
 
 If you're interested in helping, just send an email to _adnauseam-at-rednoise.org_
-telling us about your interests and skills and we will help you get started!
+telling us about your interests and skills and we will can you get started!
 
 <img alt="the AdNauseam finger" src="https://camo.githubusercontent.com/fef7dc37503e6356d2558bada3c75091785893bdc1e32d7eabf302f8bb101ddd/68747470733a2f2f7265646e6f6973652e6f72672f696d616765732f61646e61757365616d2e706e67" width="300"/>
 
