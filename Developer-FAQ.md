@@ -1,4 +1,4 @@
-**Welcome and thanks for visiting! **
+**Welcome and thanks for visiting!**
 
 AdNauseam is a completely non-profit, volunteer-run project dedicated to protecting privacy online... And we REALLY do need your help!
 
