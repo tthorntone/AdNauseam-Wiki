@@ -2,8 +2,10 @@
 
 Welcome and thanks for visiting! AdNauseam is a completely non-profit, volunteer-run project. And we REALLY do need your help!
 
-If you're interested in helping, but not sure how/where to start, send an email to adnauseam-at-rednoise.org
-and tell us about your skills and interests.
+There are _many ways to contribute,_ from coding to testing to translating to documenting. 
+
+If you're interested in helping,  just send an email to adnauseam-at-rednoise.org
+and tell us about your skills and interests, we can help you get started!
 
 ### Getting Started
 * [How to build AdNauseam from source?](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
