@@ -38,6 +38,7 @@
 * [I found a bug! What do I do now?](#i-found-a-bug-what-do-i-do-now)
 * [What should I do if I found potential vulnerabilities?](https://github.com/dhowe/AdNauseam/wiki/FAQ#what-should-i-do-if-i-found-potential-vulnerabilities)
 * [How to build AdNauseam (for developers)](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))
+* [Will Firefox's Enhanced Tracking Protection conflict with AdNauseam?](#will-firefoxs-enhanced-tracking-protection-conflict-with-adnauseam)
 
 #### Why?
 
@@ -235,6 +236,8 @@ If you're not comfortable creating a ticket (or would rather not create a GitHub
 #### What should I do if I found potential vulnerabilities?
 To ensure that AdNauseum  is safe, and secure for its users, we encourage users to report all potential vulnerabilities to us, either via direct email, or a pull request, or both, if you believe you have also found the solution to said vulnerability. While we don't have a standard policy for any reports related to security vulnerabilities (potential or confirmed) in this software, we recommend that you periodically check the project page to ensure that your version is current. You can do this by following the page with the Star, or Watch functions on the page. If there are any verified vulnerabilities that come to our attention, we will start working on remediating  the issue to provide a safe, and secure tool to use against advertisement surveillance, or even collaborate with whomever finds the vulnerability, if they wish to. Check the wiki if you have any questions! (Many thanks to Andrew Harris who suggested and drafted this entry.)
 
+#### Will Firefox's Enhanced Tracking Protection conflict with AdNauseam?
+Not with the default settings. Conflicts may occur only if you use custom settings to block tracking content 'in all windows'.
 
 ## Why?
 
