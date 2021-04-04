@@ -31,7 +31,7 @@ telling us about your interests and skills and we will can you get started!
 * [What is the data format for Ad imports/exports?](#what-is-the-data-format-for-ad-importsexports)
 * [How does AdNauseam handle asset managements?](#how-does-adNauseam-handle-asset-managements)
 * [How does AdNauseam handle incoming and outgoing cookies?](#how-does-adnauseam-handle-incoming-and-outgoing-cookies)
-* [What is ’strict blocking’, and when should I use it?](#what-is-strict-blocking-and-when-should-i-use-it)
+* [What is ‘Strict Blocking’, and when should I use it?](#what-is-strict-blocking-and-when-should-i-use-it)
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
