@@ -165,8 +165,6 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 
 ------------------
 
-https://m.bild.de/###wt_ref=https%3A%2F%2Fwww.bild.de%2F&wt_t=1616698301531
-
 ## Check New Features
 ### Strict Blocking   
 - [ ]  Enable global strict blocking in settings, open the logger and go to sites such as nytimes. All blocking rules(including easyList) should be blocked(in red). 
