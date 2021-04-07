@@ -158,6 +158,15 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 
 ------------------
 
+
+## Check Redirect-rules
+
+- [ ]  Check that the "redirect" and "redirect-rule" are properly working, comparing behaviour with uBlock Origin. Example of website with both types of rules [here](https://m.bild.de/###wt_ref=https%3A%2F%2Fwww.bild.de%2F&wt_t=1616698301531). For further information follow the discussion on this issue https://github.com/dhowe/AdNauseam/issues/1771#issuecomment-807294379
+
+------------------
+
+https://m.bild.de/###wt_ref=https%3A%2F%2Fwww.bild.de%2F&wt_t=1616698301531
+
 ## Check New Features
 ### Strict Blocking   
 - [ ]  Enable global strict blocking in settings, open the logger and go to sites such as nytimes. All blocking rules(including easyList) should be blocked(in red). 
