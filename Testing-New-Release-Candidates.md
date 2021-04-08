@@ -105,6 +105,8 @@ Check whether the clicking status of an ad is correctly indicated by the color o
 - [ ]  When an ad is collected from a dnt site (Ex:duckduckgo), the ad should be marked as "SKIPPED: DNT Allowed" ("Allowed via Do Not Track Policy" in vault)
 - [ ]  When clicking is disabled, all ads that are not "visited" or "failed" should be marked as "SKIPPED: Clicking Disabled:"
 
+*[Real-world test cases for ad collection and clicking](https://github.com/dhowe/AdNauseam/wiki/Real-world-test-cases-for-ad-collection-clicking)*
+
 ------------------
 ## DoNotTrack (DNT)
 DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
