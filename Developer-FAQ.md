@@ -90,6 +90,8 @@ Please refer to [this page](https://extensionworkshop.com/documentation/develop/
 
 After downloading the `adnauseam-{VERSION}.firefox.zip`, open the about:debugging page, click "This Firefox" (in newer versions of Firefox), click "Load Temporary Add-on", then select any file in your extension's directory. The extension will now be installed, and will stay until you restart Firefox.
 
+[Reference - Loading a temporary extension](https://developer.mozilla.org/en-US/docs/Tools/about:debugging#loading_a_temporary_extension)
+
 -----------
 #### How do I run the unit tests?
 Make and load the extension as usual, then navigate to 'src/unit-tests.html' in your browser
