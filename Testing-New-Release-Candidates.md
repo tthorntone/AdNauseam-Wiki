@@ -47,7 +47,7 @@ First make sure that you are working with the correct commit (check the hash) or
 - [ ]  Click on a filter in 3p-filters and make sure that asset viewer works
 - [ ]  Test all the import/export/apply buttons for "My Filters"
 - [ ]  Test that import/export buttons work for "My Rules"
-- [ ]  Test creating deleting and modifying the rules in "My Ryles" (make sure to test `strictBlock` which is AdNauseam-specific 
+- [ ]  Test creating deleting and modifying the rules in "My Rules" (make sure to test `strictBlock` which is AdNauseam-specific 
 - [ ]  Test whitelist
 - [ ]  Check 2 version numbers in 'About' page (links.html)
 
