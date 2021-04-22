@@ -15,8 +15,7 @@ telling us about your interests and skills and we will can you get started!
 * [How should I setup my browser profiles for developing?](#how-should-i-setup-my-browser-profiles-for-developing)
 * [How can I get the first-run page to show up when developing?](#how-can-i-get-the-first-run-page-to-show-up-when-developing)
 * [How should I setup for firefox android?](#how-should-i-setup-for-firefox-android)
-
-
+* [How to manually install AdNauseam in Firefox (temporarily)](#how-to-manually-install-adnauseam-in-firefox-temporarily)
 
 ### How Things Work
 * [How does AdNauseam detect Ads?](#how-does-adnauseam-detect-ads)
@@ -83,9 +82,13 @@ Sometimes you may be assigned a ticket with the label _Needs-verification_. In s
 The project uses the git fork-and-branch workflow, described nicely [here](http://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/).
 
 -----------
-
 #### How should I setup for firefox android?
 Please refer to [this page](https://extensionworkshop.com/documentation/develop/developing-extensions-for-firefox-for-android/)
+
+-----------
+#### How to manually install AdNauseam in Firefox (temporarily)
+
+After downloading the `adnauseam-{VERSION}.firefox.zip`, open the about:debugging page, click "This Firefox" (in newer versions of Firefox), click "Load Temporary Add-on", then select any file in your extension's directory. The extension will now be installed, and will stay until you restart Firefox.
 
 -----------
 #### How do I run the unit tests?
