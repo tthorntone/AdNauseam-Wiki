@@ -80,7 +80,7 @@ First make sure that you are working with the correct commit (check the hash) or
 
 ## Ad Hiding/Parsing
 - [ ]  Test a set of pages, and make sure that ads are being captured and visited   
-  * TextAds: visit Google/Ask/Yahoo/Bing/DuckDuckGo to search for keywords such as "credit card" or "loan"
+  * TextAds: visit Google/Ask/Yahoo/Bing/DuckDuckGo to search for keywords such as "credit card" or "loan". [tested example](https://www.bing.com/search?q=credit+card&form=QBLH&sp=-1&pq=credit+&sc=0-7&qs=n&sk=&cvid=46B734872CDB42B1B80A66BE1B6B84D6)
   * ImageAds: visit NYTimes/Youtube/Facebook(Right column only)... and verify image ads are hidden and appear in menu
 - [ ]  Test Ad-parsing from within dynamically-created iFrames: hidden and collected   
   Test cases: [Dynamic_iframe](http://rednoise.org/adntest/dynamic_iframe.html) 
@@ -122,7 +122,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Hiding/Clicking</b>
 - [ ]  Ads are visible when domain is 1st-party if disableHidingForDNT is checked
 - [ ]  Requests are not blocked when domain is 1st-party iff disableHidingForDNT is checked
-- [ ]  Requests are not blocked when domain is 3rd-party iff disableHidingForDNT is checked([here](http://lab-lamp.scm.cityu.edu.hk/adntest/effTestPage.html))
+- [ ]  Requests are not blocked when domain is 3rd-party iff disableHidingForDNT is checked([here](https://rednoise.org/adntest/effTestPage.html))
 - [ ]  No clicking when ad domain is on list iff disableClickingForDNT is checked (especially for 3rd-party)
 - [ ]  If both DNT options are disabled, then hiding, blocking, visiting occur again as usual(both first party and 3rd-party)
 
@@ -131,7 +131,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 - [ ]  Check that changing the two DNT settings will trigger DNT notifications with corresponding messages in the menu(dnt sites only)  
 - [ ]  Check the layout of each DNT notification("?" should be in the middle, 'settings' button appears on hover)  
 
-&nbsp;&nbsp;&nbsp;&nbsp;<i>[Test Page for 3rd-party DNT](http://lab-lamp.scm.cityu.edu.hk/adntest/effTestPage.html)</i>
+&nbsp;&nbsp;&nbsp;&nbsp;<i>[Test Page for 3rd-party DNT](https://rednoise.org/adntest/effTestPage.html)</i>
 
 ------------------
 
