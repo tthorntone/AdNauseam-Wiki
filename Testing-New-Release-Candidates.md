@@ -9,7 +9,7 @@ First make sure that you are working with the correct commit (check the hash) or
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>First-Run</b>
 
-- Remove and reinstall AdNauseam to trigger this page 
+- <b>Remove and reinstall AdNauseam to trigger this page<b> * Note: if you are testing a dev-release, it will NOT open 
 - [ ]  Test selection of various options (click-ads, block-malware, hide-ads, DNT)
 - [ ]  Verify that the DNT option is visible _only_ when clicking OR hiding is enabled
 - [ ]  Test that toggling the DNT option changes _both_ DNT options in Settings
