@@ -144,7 +144,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 * To check headers for ad visits, please go to developer tools of the browser -> Network -> click on a request -> select 'Headers'. You can also click on 'XHR' type to filter the requests.(For a more detailed network logging, you can check Chrome Net-Internals of the [tools](#tools) listed below.)Please notice that, sometimes there is a “CAUTION: provisional headers are shown” message when you check headers in the console. If you see this message, the headers shown are not reliable. Therefore it should not be considered as a reference when checking the headers during test release/ debugging. Check other requests or use [Chrome Net-Internals](#tools) instead.
 ------------------
 
-## Check Ad Blockers
+## Other AdBlockers
 - [ ]  Install uBlock Origin
 - [ ]  Remove and reinstall AdNauseam to trigger the first-run page 
 - [ ]  check if there is a warning about other ad blockers on the first-run page,menu and vault
@@ -154,20 +154,21 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 - [ ]  Make sure that a warning message won't be triggered for uBlock Origin Extra (chromium based)
 ------------------
 
-## Check Blocking
+## Blocking
 - [ ]  Check that the request from the following test page is blocked by adnauseam by using the uBlock logger 
 [here](http://lab-lamp.scm.cityu.edu.hk/adntest/block.html)
 
 ------------------
 
 
-## Check Redirect-rules
+## Redirect-rules
 
 - [ ]  Check that the "redirect" and "redirect-rule" are properly working, comparing behaviour with uBlock Origin. Example of website with both types of rules [here](https://m.bild.de/###wt_ref=https%3A%2F%2Fwww.bild.de%2F&wt_t=1616698301531). For further information follow the discussion on this issue https://github.com/dhowe/AdNauseam/issues/1771#issuecomment-807294379
 
 ------------------
 
-## Check New Features
+## New Features
+
 ### Strict Blocking   
 - [ ]  Enable global strict blocking in settings, open the logger and go to sites such as nytimes. All blocking rules(including easyList) should be blocked(in red). 
 - [ ]  Go to "My rules" and add `* doubleclick.net * strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that requests from doubleclick.net are all blocked by easylist.
@@ -175,7 +176,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 - [ ]  Go to "My rules" and add `nytimes.com * image strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that blocking filters on images are triggered from easyList, but other types of requests are still allowed. 
 
 ------
-## Check incognito/private browsing
+## Incognito/private browsing
    * In Chrome/Opera, go to the extension page and check "Allow in incognito" for AdNauseam, then hit command+shift+N to start testing
    * In Firefox, use command+shift+P to open a private window
 - [ ]  Test that by default ads are collected in incognito/private-browsing windows:    
@@ -188,7 +189,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 - [ ]  Disable Private Mode, double check that private ads are normally displayed in menu and vault.
 ------------------
 
-## Check Element-picker Tool
+## Element-picker Tool
 - [ ]  Go to some web page with a visible ad, then right-click, select 'Block element', create a rule to hide the element
 
 ------------------
