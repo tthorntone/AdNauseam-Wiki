@@ -7,7 +7,7 @@ First make sure that you are working with the correct commit (check the hash) or
 
 ## Interface
 
-&nbsp;&nbsp;&nbsp;&nbsp;<b>First-Run</b><small>* Note: if you are testing a dev-release, it will NOT open</small>
+&nbsp;&nbsp;&nbsp;&nbsp;<b>First-Run</b>  (<small>Note: if you are testing a dev-release, it will NOT open</small>)
 
 - [ ]  Test selection of various options (click-ads, block-malware, hide-ads, DNT)
 - [ ]  Verify that the DNT option is visible _only_ when clicking OR hiding is enabled
