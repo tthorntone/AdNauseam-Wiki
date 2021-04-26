@@ -82,9 +82,26 @@ The project uses the git fork-and-branch workflow, described nicely [here](http:
 
 -----------
 #### How should I setup for firefox android?
-Please refer to [this page](https://extensionworkshop.com/documentation/develop/developing-extensions-for-firefox-for-android/)
 
-Instructions for running web-ext with android are here (see web-ext run) [here](https://extensionworkshop.com/documentation/develop/web-ext-command-reference/)
+1. Download `.firefox.zip` file from desired AdNauseam release and and unzip it in your folder of choice.   
+2. [Install web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/).
+3. Install `adb` (Android Debug Bridge). Best solution for MacOS is using [brew](https://brew.sh/).
+```
+brew install android-platform-tools
+```
+4. Connect the Android Device with the USB to your computer.
+5. Enable USB Debbuging on your Android phone.
+6. Enable USB Debugging on Firefox Android in settings.  
+7. Run `adb devices` on the terminal to get the id of your connected Android Device, e.g.: `cb16bcbe`.
+8. With the terminal go to the unziped AdNauseam release firefox folder where the `manifest.json` file is located.
+9. Run the following command: (substituting `cb16bcbe` with your Android Device id)
+```
+web-ext run --target=firefox-android --android-device cb16bcbe --firefox-apk=org.mozilla.firefox
+```
+
+Further reference to web-ext commands [here](https://extensionworkshop.com/documentation/develop/web-ext-command-reference/) 
+
+[Developing extensions for firefox for Android](https://extensionworkshop.com/documentation/develop/developing-extensions-for-firefox-for-android/).
 
 -----------
 #### How to manually install AdNauseam in Firefox (temporarily)
