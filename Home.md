@@ -19,6 +19,7 @@ Here we document additional details like:
 And, for developers:
 
 - [How-to build AdNauseam from source](https://github.com/dhowe/AdNauseam/wiki/Building-AdNauseam-from-source-(for-developers))...
+- [How-to test a release candidate?](https://github.com/dhowe/AdNauseam/wiki/Testing-New-Release-Candidates)...
 - [The Developer FAQ](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ)
 - [Our Project Statement](https://github.com/dhowe/AdNauseam/wiki/Project-Statement)
 
