@@ -83,6 +83,7 @@ The project uses the git fork-and-branch workflow, described nicely [here](http:
 -----------
 #### How should I setup for firefox android?
 Please refer to [this page](https://extensionworkshop.com/documentation/develop/developing-extensions-for-firefox-for-android/)
+
 Instructions for running web-ext with android are here (see web-ext run) [here](https://extensionworkshop.com/documentation/develop/web-ext-command-reference/)
 
 -----------
