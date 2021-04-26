@@ -263,13 +263,13 @@ In the addon console, the actual request data can be seen (headers, response, et
 -----------
 
 #### How do I create a new release?
-1. Make sure [webext](https://github.com/mozilla/web-ext) is installed
+1. Make sure [web-ext](https://github.com/mozilla/web-ext) is installed
 1. Go to uAssets folder and update it by `git pull`
-1. Run tools/make-artifacts.sh
+1. From the top-level of the AdNauseam folder, run tools/make-artifacts.sh
 1. Make a new PR and add a note that a new release tag is needed on master
-1. After the PR is accepted and a new release tag has been created in dhowe/AdNauseam/master, edit the release notes by adding information about the changes
+1. After the PR is accepted and a new release tag has been created in `dhowe/AdNauseam/master`, edit the release notes by adding information about the changes
 1. Do a 'git pull' to fetch the new release tag
-1. Run tools/make-artifacts.sh again and upload the five generated files to the release (note that in order to enable auto-updating, the chromium release MUST BE SIGNED with the adnauseam key)
+1. Run tools/make-artifacts.sh again and upload the five generated files to the release (note that in order to enable auto-updating, the chromium release MUST BE SIGNED with the AdNauseam key)
 1. Once approved for production, submit the new release to the Opera and Firefox stores, and update the version and link on http://rednoise.org/adnauseam/updates.xml
 
 
@@ -293,11 +293,13 @@ then hit the 'd' on the keyboard to dump this data to both the addon and vault c
 -----------
 #### How can I get the first-run page to show up when developing?
 
-First remove the ADN extension in chrome://extensions (using the trash icon), then reload
+First remove the ADN extension in chrome://extensions (using the trash icon), then reload.
+Note that for dev-builds (with version numbers in the form of X.Y.Z.Q, the first-run page 
+is disabled.
 
 -----------
 
-#### What is the difference between JS code in src and in platform?
+#### What is the difference between JS code in `src` and in `platform`?
 
 Code in 'src/js' is cross-browser code that originates in uBlock, though it may have been modified in ADN's fork. Code in 'src/js/adn' is cross-browser code specific to ADN. Code in subdirectories of 'platform/' is code specific to a browser. You should not mess with this code unless you are an expert dev, _and_ have discussed the necessity of changes with the other devs.
 
@@ -311,7 +313,7 @@ Messages from page-scripts (menu.js, vault.js, etc) and content-scripts (parser.
 
 `  vAPI.messaging.send('adnauseam', { what: 'adsForPage', tabId: popupData.tabId } ...);`
 
-When this message is received in the addon core, `adnauseam.adsForPage(request, pageStore, tabId, frameId)` function is automatically invoked with the arguments shown.
+When this message is received in the addon core, the `adnauseam.adsForPage(request, pageStore, tabId, frameId)` function is automatically invoked with the arguments shown.
 
 --------------------
 
@@ -319,17 +321,17 @@ When this message is received in the addon core, `adnauseam.adsForPage(request, 
 
 At this stage AdNauseam only collects:
 
-* Image Ad 
-* Text Ad from search result page (google/bing/ask/yahoo/duckduckgo/aol/baidu)
+* Image Ads 
+* Text Ads from search result page (google/bing/ask/yahoo/duckduckgo/aol/baidu)
 
 What AdNauseam only blocks and doesn't collect:
 
-* Video Ad
-* Audio Ad
+* Video Ads
+* Audio Ads
 * Dynamically-assembled Ads [example](https://github.com/dhowe/AdNauseam/issues/765)
-* Ad that is drawn in canvas
-* Background Images
-* Internal Ad ([exceptions](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/core.js#L45))
+* Ads that are drawn to a canvas
+* Background images
+* Internal Ads ([exceptions](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/core.js#L45))
 
 --------------------
 
