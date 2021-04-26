@@ -83,8 +83,8 @@ The project uses the git fork-and-branch workflow, described nicely [here](http:
 -----------
 #### How should I setup for firefox android?
 
-1. Download `.firefox.zip` file from desired AdNauseam release and and unzip it in your folder of choice.   
-2. [Install web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/).
+1. Download `adnauseam-[VERSION].firefox.zip` file from desired AdNauseam release from the [release page](https://github.com/dhowe/AdNauseam/releases) and unzip it in your folder of choice.
+2. Install [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/).
 3. Install `adb` (Android Debug Bridge). Best solution for MacOS is using [brew](https://brew.sh/).
 ```
 brew install android-platform-tools
