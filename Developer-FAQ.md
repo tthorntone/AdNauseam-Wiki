@@ -98,6 +98,7 @@ brew install android-platform-tools
 ```
 web-ext run --target=firefox-android --android-device cb16bcbe --firefox-apk=org.mozilla.firefox
 ```
+10. Adnauseam should be running now on Firefox on your Android device.
 
 Further reference to web-ext commands [here](https://extensionworkshop.com/documentation/develop/web-ext-command-reference/) 
 
