@@ -92,7 +92,7 @@ brew install android-platform-tools
 4. Connect the Android Device with the USB to your computer.
 5. Enable USB Debbuging on your Android phone.
 6. Enable USB Debugging on Firefox Android in settings.  
-7. Run `adb devices` on the terminal to get the id of your connected Android Device, e.g.: `cb16bcbe`.
+7. Run `adb devices` on the terminal to get the id of your connected Android Device, e.g.: `cb16bcbe`. [reference link](https://stackoverflow.com/questions/17901692/set-up-adb-on-mac-os-x).
 8. With the terminal go to the unziped AdNauseam release firefox folder where the `manifest.json` file is located.
 9. Run the following command: (substituting `cb16bcbe` with your Android Device id)
 ```
