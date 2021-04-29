@@ -289,7 +289,7 @@ In the addon console, the actual request data can be seen (headers, response, et
 1. After the PR is accepted and a new release tag has been created in `dhowe/AdNauseam/master`, edit the release notes by adding information about the changes
 1. Do a 'git pull' to fetch the new release tag
 1. Run tools/make-artifacts.sh again and upload the five generated files to the release (note that in order to enable auto-updating, the chromium release MUST BE SIGNED with the AdNauseam key)
-1. Once approved for production, submit the new release to the Opera and Firefox stores, and update the version and link on http://rednoise.org/adnauseam/updates.xml
+1. Once approved for production, submit the new release to the Opera and Firefox stores, and update the version and link on https://rednoise.org/adnauseam/updates.xml
 
 
 -----------
