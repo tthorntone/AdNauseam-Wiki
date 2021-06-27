@@ -64,7 +64,7 @@
 ## How?
 
 #### How do I install AdNauseam?
-You can find easy install links for AdNauseam on <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' and get started. For Chrome, you will need to follow [these instructions](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chrome-Without-Google's-Permission).
+You can find easy install links for AdNauseam on <a href="https://addons.mozilla.org/en-US/firefox/addon/adnauseam/" target="_new">Firefox</a>, or <a href="https://addons.opera.com/en/extensions/details/adnauseam-2" target="_new">Opera</a>. Just click 'install' and get started. For *Chromium-based browsers* (Chrome, Brave, Edge etc..), you will need to follow [these instructions](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-on-Chromium-based-browsers).
 
 _Note: you should always disable other adblockers while using AdNauseam_
 
