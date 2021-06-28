@@ -152,7 +152,6 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 - [ ]  [chromium based only] click the 'disable' button on the warning message, it should lead to the extension page
 - [ ]  [chromium based only] disable uBlock and check whether the message is gone in vault and menu. (If the page was opened, it need to be refreshed)
 - [ ]  Test this for Adblock Plus/AdBlock/uBlock as well
-- [ ]  Make sure that a warning message won't be triggered for uBlock Origin Extra (chromium based)
 ------------------
 
 ## Blocking
