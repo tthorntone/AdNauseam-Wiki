@@ -24,6 +24,7 @@ telling us about your interests and skills and we will help you get started!
 * [What is the difference between JS code in src and in platform?](#what-is-the-difference-between-js-code-in-src-and-in-platform)
 * [What ads does AdNauseam collect?](#what-ads-does-adnauseam-collect)
 * [How does the Ad-parsing mechanism work?](#how-does-ad-parsing-work)
+* [When is the Ad-parser fired](#when-is-the-ad-parser-fired)
 * [How are messages passed to AdNauseam core functions?](#how-are-messages-passed-to-adnauseam-core-functions)
 * [What does it mean for AdNauseam to appear as 'paused' in the menu?](#what-does-it-mean-for-adnauseam-to-appear-as-paused-in-the-menu)
 * [What does it mean when 'Do Not Track (DNT)' is enabled?](#what-does-it-mean-when-do-not-track-dnt-is-enabled)
@@ -383,11 +384,9 @@ If no IMG-AD message appears in the console, then one of several things may have
 
 If an iFrame matches a cosmetic selector and has a valid 'src' attribute, `processIFrame()` is called. If the iFrame's 'src' and parent page have the same origin, `processIFrame()` selects all images within the iFrame and handles them as above. If the iFrame is cross-domain, however, we will not be able to access its contents due to "Same Origin" security restrictions. In this case, we may need to manually create a new cosmetic filter for the element of interest _inside_ the  the iFrame (and add it to adnauseam.txt).
 
-If, on Chromium-based browsers, an iFrame is dynamically-generated, the `primeLocalIFrame()` function attempts to inject the usual contentscripts into the iFrame (this will happen automatically on Firefox).  If the injection is successful, a console message in the addon console will read as follows:
+*Dynamic iframes*
 
-`[INJECT] Dynamic-iFrame...`
-
-You may inspect the [pageStore object](https://github.com/dhowe/AdNauseam/blob/master/src/js/pagestore.js) to find more information about the iFrame.
+On Chromium-based browser extension we now have the option of using the parameter `match_about_blank` in the [manifest.json](https://github.com/dhowe/AdNauseam/blob/master/manifest.json), which injects the content-script in the `about:blank` iframes as well. Firefox does that by default. 
 
 **3. Other**
 
@@ -398,6 +397,16 @@ If an element matches a cosmetic filter but is NOT an image or IFrame, `process(
 `textAdParser.process() —> checkFilters() —> corresponding handler function`
 
 All actions related to text-ad parsing occur within [textads.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/textads.js). If domain of the current page matches the AdNauseam's domain list (including Google, Ask, AOL, Yahoo, Bing, Baidu, etc.), `checkFilters()` will invoke the corresponding handler function (e.g., `googleText()`) to process the text-ad. In each handler function, information including title, text and site of the Ad is collected according to specific selectors. Finally, if all is successful, an Ad is created and passed to the addon core. If anything fails during the process, an error message should appear in the page console.
+
+--------------------
+
+#### When is the Ad-parser fired ?
+
+uBlock has its own system of when the filters should run. It has a Dom-watcher which watches for changes in the DOM, both for created and modified nodes in the HTML. (A clear documentation of how it works is commented in the beggining of the [contentscript.js file](https://github.com/dhowe/AdNauseam/blob/master/src/js/contentscript.js). It does this so it can deal with dynamically created ads or simply with a delay, which is normally the case. 
+
+The contentscript has different processes for domain-specific comestic filters, and non-domain-specific ones. AdNauseam calls its Ad parser when it detects that one of the cosmetic filters being run by the uBlock system matches an element in the DOM. When it does, it runs the parser on that DOM to check if there is any collectable elements in it.
+
+We have now the DomWatcher integrated with Adn parser checks. For more details check the `bootstrapPhaseAdn` function in the [contentscript.js file](https://github.com/dhowe/AdNauseam/blob/master/src/js/contentscript.js).
 
 -----------
 
