@@ -359,7 +359,7 @@ What AdNauseam only blocks and doesn't collect:
 
 When a cosmetic rule fires for an element on the page, the element is passed to the `process()` function in [parser.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/parser.js). With the 'debugging' option enabled on the settings page, related messages will appear in the console in the following format: `process(tagName)...`.
 
-There are three main cases handled by the `process()` function: images, iFrames, and other.
+There are three main cases handled by the `process()` function: images, iframes, and other elements.
 
 `1. Images —> findImageAds() —> processImage()  `
 
@@ -370,43 +370,43 @@ There are three main cases handled by the `process()` function: images, iFrames,
 
 **1. Images**
 
-With the exception of text Ads, the parser's main role is to detect clickable Ad images. If all goes well after an image is matched by a cosmetic filter, then you will see a message in the page console saying 'IMG-AD' and the Ad will be viewable in both the menu and vault.
+With the exception of text Ads, the parser's main role is to detect clickable Ad images. If all goes well after an image is matched by a cosmetic filter, you will see a message in the page console saying 'IMG-AD' and the Ad will be viewable in both the menu and vault.
 
-If this message shows in the page console, but the Ad does not appear in the menu or vault, then the Ad was rejected by the addon core. This generally happens because the detected ad is a duplicate ([EXISTS] will show in the addon console), or, because its target (where it leads when clicked) is internal (in the same domain as the page on which it was found). In this case, [INTERN] will show in the addon console and the Ad will be rejected, unless it is listed in `internalLinkDomains` in [core.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/core.js).
+If a message shows in the page console, but the Ad does _not_ appear in the menu or vault, then the Ad was rejected by the addon core. This generally happens because the detected ad is a duplicate ([EXISTS] will show in the addon console), or, because its target (where it leads when clicked) is internal (in the same domain as the page on which it was found). In this case, [INTERN] will show in the addon console and the Ad will be rejected, unless it is listed in `internalLinkDomains` in [core.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/core.js).
 
-If no IMG-AD message appears in the console, then one of several things may have happened:
+If no 'IMG-AD' message appears in the console, then one of several things may have happened:
 
-1. No valid src attribute could be found for the image (a "No ImgSrc" message will show in the page console)
+1. No valid _src_ attribute could be found for the image (a 'No ImgSrc' message will show in the page console)
 2. No clickable parent could be found for the image (a "No clickable parent" message will show in the page console)
 3. Some other error occurred (some other message will show in the page console)
 
 **2. IFrames**
 
-If an iFrame matches a cosmetic selector and has a valid 'src' attribute, `processIFrame()` is called. If the iFrame's 'src' and parent page have the same origin, `processIFrame()` selects all images within the iFrame and handles them as above. If the iFrame is cross-domain, however, we will not be able to access its contents due to "Same Origin" security restrictions. In this case, we may need to manually create a new cosmetic filter for the element of interest _inside_ the  the iFrame (and add it to adnauseam.txt).
+If an iFrame matches a cosmetic selector and has a valid 'src' attribute, `processIFrame()` will be called. If the iFrame's 'src' and parent page have the same origin, `processIFrame()` selects all images within the iframe and handles them as above. If the iframe is cross-domain, however, we may not be able to access its contents due to "Same-Origin" security restrictions. In this case, we may need to manually create a new cosmetic filter for the element of interest _inside_ the iframe (and add it to adnauseam.txt).
 
-*Dynamic iframes*
+*Dynamic IFrames*
 
-On Chromium-based browser extension we now have the option of using the parameter `match_about_blank` in the [manifest.json](https://github.com/dhowe/AdNauseam/blob/master/manifest.json), which injects the content-script in the `about:blank` iframes as well. Firefox does that by default. 
+For Chromium-based extensions we now have the option of using the parameter `match_about_blank` in the [manifest.json](https://github.com/dhowe/AdNauseam/blob/master/manifest.json), which injects our content scripts into the `about:blank` iframes as well. Firefox does this _by default_. 
 
 **3. Other**
 
-If an element matches a cosmetic filter but is NOT an image or IFrame, `process()` will search inside it for elements of type image. If any images are found, they will be processed in the usual manner. After all these steps have completed, `process()` will finally check whether the element matches any text-ad filters
+If an element matches a cosmetic filter, but is NOT an image or iframe, `process()` will search inside it for image elements If any image elements are found, they are processed in the usual manner. After all these steps have completed, `process()` will finally check whether the element matches any text-ad filters
 
 **Text-ad parsing**
 
 `textAdParser.process() —> checkFilters() —> corresponding handler function`
 
-All actions related to text-ad parsing occur within [textads.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/textads.js). If domain of the current page matches the AdNauseam's domain list (including Google, Ask, AOL, Yahoo, Bing, Baidu, etc.), `checkFilters()` will invoke the corresponding handler function (e.g., `googleText()`) to process the text-ad. In each handler function, information including title, text and site of the Ad is collected according to specific selectors. Finally, if all is successful, an Ad is created and passed to the addon core. If anything fails during the process, an error message should appear in the page console.
+All actions related to text-ad parsing occur within [textads.js](https://github.com/dhowe/AdNauseam/blob/master/src/js/adn/textads.js). If the domain of the current page matches AdNauseam's text-ad domain list (including Google, Ask, AOL, Yahoo, Bing, Baidu, etc.), `checkFilters()` will invoke the corresponding handler function (e.g., `googleText()`) to process the text-ad. In each handler function, information including title, text and site of the Ad is collected according to specific selectors. Finally, if all is successful, an Ad is created and passed to the addon core. If anything fails during the process, an error message should appear in the page console. If you notice text-ads on other pages than those for which we have handles, you may need to create a new text-ad handler to properly capture these Ads.
 
 --------------------
 
 #### When is the Ad parser fired?
 
-uBlock has its own system of when the filters should run. It has a Dom-watcher which watches for changes in the DOM, both for created and modified nodes in the HTML. (A clear documentation of how it works is commented in the beggining of the [contentscript.js file](https://github.com/dhowe/AdNauseam/blob/master/src/js/contentscript.js). It does this so it can deal with dynamically created ads or simply with a delay, which is normally the case. 
+In order to deal with dynamically created ads and ads that appear after a delay, the uBlock _dom-watcher_ watches for changes in the DOM, either newly created elements or existing elements that have been modified and then runs or re-runs content-scripts on those elements (further documentation of this mechanism can be found in the comments at the top of [contentscript.js file](https://github.com/dhowe/AdNauseam/blob/master/src/js/contentscript.js). 
 
-The contentscript has different processes for domain-specific comestic filters, and non-domain-specific ones. AdNauseam calls its Ad parser when it detects that one of the cosmetic filters being run by the uBlock system matches an element in the DOM. When it does, it runs the parser on that DOM to check if there is any collectable elements in it.
+The content-script responds differently, depending on whether the filter is generic (applies to all domains) or domain-specific. When one of the cosmetic filters matches an element in the DOM, AdNauseam invokes its Adparser on that element to check if there are any collectable ad elements within.
 
-We have now the DomWatcher integrated with Adn parser checks. For more details check the `bootstrapPhaseAdn` function in the [contentscript.js file](https://github.com/dhowe/AdNauseam/blob/master/src/js/contentscript.js).
+As of version 3.11.x, the dom-watcher is integrated with the AdNauseam ad parser, which is re-invoked whenever an element is created or changed. For more details check the `bootstrapPhaseAdn` function in [contentscript.js file](https://github.com/dhowe/AdNauseam/blob/master/src/js/contentscript.js).
 
 -----------
 
