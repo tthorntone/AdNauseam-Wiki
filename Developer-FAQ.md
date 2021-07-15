@@ -400,7 +400,7 @@ All actions related to text-ad parsing occur within [textads.js](https://github.
 
 --------------------
 
-#### When is the Ad-parser fired ?
+#### When is the Ad parser fired ?
 
 uBlock has its own system of when the filters should run. It has a Dom-watcher which watches for changes in the DOM, both for created and modified nodes in the HTML. (A clear documentation of how it works is commented in the beggining of the [contentscript.js file](https://github.com/dhowe/AdNauseam/blob/master/src/js/contentscript.js). It does this so it can deal with dynamically created ads or simply with a delay, which is normally the case. 
 
