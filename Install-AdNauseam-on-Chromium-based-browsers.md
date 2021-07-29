@@ -10,14 +10,14 @@ _If you're a new AdNauseam user, or don't care about your saved ads, jump to [In
 
 ## Install AdNauseam
 
-*At the moment Chromium-based browsers (e.g.: Chrome, Brave, MS Edge, etc) do not enable Add-ons by simply dragging the `.crx` file any longer. Manual installation is required as described bellow.*
+*At the moment Chromium-based browsers (e.g. Chrome, Brave, Edge, etc.) no longer allow add-ons to be installed via drag-and-drop of a `.crx` file. Manual installation is required as described below.*
 
 #### Manual Install in Developer Mode
-1. Download the latest adnauseam.chromium.zip file from our [releases page](https://github.com/dhowe/AdNauseam/releases/latest) (make sure to download the _chromium.zip_ file!)
-2. Extract the zip file to a folder somewhere that it can remain  
-**Warning: Do not delete this folder after the install; Chrome will disable AdNauseam if this folder is not in the expected location**
+1. Download the latest _adnauseam.chromium.zip_ file from our [releases page](https://github.com/dhowe/AdNauseam/releases/latest) (make sure to download the _.zip_ file!)
+2. Extract the zip file to a folder somewhere where it can remain after install.  
+**Warning: Do not delete this folder after the install or the extension will be disabled.**
 
-3. In your Chrome Browser menu, click Windows > Extensions or type chrome://extensions/ in the address bar  
+3. In your Chrome browser menu, click Windows > Extensions or type chrome://extensions/ in the address bar  
 4. Check the 'Developer Mode' checkbox  
 5. Click the 'Load unpacked extension' button and navigate to the folder you downloaded in step 1. Make sure you select the folder with the name 'adnauseam.chromium'(without a version number). 
 6. If you have previously exported your ads, you can retrieve them now  
@@ -27,7 +27,7 @@ _If you're a new AdNauseam user, or don't care about your saved ads, jump to [In
 *&nbsp;Note that each time you restart Chrome you will be prompted to ``Disable Developer Mode Extensions``. Feel free to simply hit ``Cancel`` and continue.<br/>  
 ![image](https://cloud.githubusercontent.com/assets/27123/21674871/5041d6c6-d338-11e6-9112-9dcebb5553e6.png)
 
-This is indeed annoying, as Google intends, however there is a workaround for [advanced users on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows). Unfortunately we are thus far unaware of workarounds for other platforms.
+This is indeed annoying, as Google intends, however there is a workaround for [advanced users on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows). Unfortunately we don't know of workarounds (as yet) for other platforms.
 
 <br>
 
