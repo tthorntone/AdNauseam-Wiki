@@ -51,28 +51,3 @@ If __Google has lost your trust__, as it has ours, you might want to move to a b
     * [Centbrowser](https://www.centbrowser.com/)
 
 <br>
-
-## Keep AdNauseam Updated
-
-### For Chrome Enterprise / Edge Chromium users:
-
-If you add the following Key's to the HKLM or HKCU, no other actions need to be taken to install AdNauseam
-```
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallForcelist]
-"1"="pnjfhlmmeapfclcplcihceboadiigekg;https://rednoise.org/adnauseam/updates.xml"
-```
-For the Edge Beta you can set the same key in this location.
-
-```
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallForcelist]
-```
-
-~~For the Brave Browser you can set the same key here:~~
-
-Note: Brave no longer allows non-Chrome store extensions
-```
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\BraveSoftware\Brave\ExtensionInstallForcelist]
-```
-
-### For Linux users:
-Please note that by default, manually installed AdNauseam in Developer Mode won't be automatically updated. If you are familiar with Arch Linux, you can checkout [this package](https://aur.archlinux.org/packages/chromium-extension-adnauseam/), maintained by [gardenappl](https://github.com/gardenappl), to keep AdNauseam updated.
