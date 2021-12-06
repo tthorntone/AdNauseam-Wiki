@@ -99,6 +99,9 @@ To install, follow the instructions for your browser of choice below:
  1. Download an ["Opera" release](https://github.com/dhowe/AdNauseam/releases/). The file format is .nex.
  2. In your Opera Browser navigate to Opera > Preferences. In the side bar select the *puzzle piece* symbol/"Extensions".
  3. Drag the file you downloaded in i) and drop it over the open extension page. A notification will inform about the the permissions it asks for. Click "Install".
+ 3. **IMPORTANT** In Opera Browser to block ads on search engines such as google.com, **it is now necessary that in the add-on configurations you check the option** `Allow access to serach page results`:
+
+![](https://user-images.githubusercontent.com/4967860/143271753-1155d7af-331c-43be-ba13-1f1292bd9f64.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Note: you should always disable other adblockers while using AdNauseam_
 
