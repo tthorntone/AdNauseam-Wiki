@@ -23,7 +23,7 @@ _If you're a new AdNauseam user, or don't need your saved ads, jump to [Installa
 3. In the Chrome menu, click Windows > Extensions or type chrome://extensions/ in the address bar  
 4. Make sure the 'Developer Mode' checkbox is ticked
 5. Click 'Load unpacked extension' and go to the folder from step 1. Make sure you select the folder with the name 'adnauseam.chromium' (without a version number)
-6. If you have previously exported your ads, you can [retrieve them now](#retrieve-your-saved-data)
+6. If you have previously exported your ads, you can now [import](#retrieve-your-saved-data) them
 
 <br>
 
