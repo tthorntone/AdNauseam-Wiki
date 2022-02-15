@@ -1,6 +1,6 @@
 [Google has banned AdNauseam](https://adnauseam.io/free-adnauseam.html) from its web store and have left users with no access to their data. Follow these instructions to install it anyway.
 
-## Back up your data
+## Backup your data
 
 _If you're a new AdNauseam user, or don't care about your saved ads, jump to [Installation](#install-adnauseam)_
 
