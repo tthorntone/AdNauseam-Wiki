@@ -27,7 +27,7 @@ _If you're a new AdNauseam user, or don't care about your saved ads, jump to [In
 
 <br>
 
-*&nbsp;Note that each time you restart Chrome you will be prompted to ``Disable Developer Mode Extensions``. Feel free to simply hit ``Cancel`` and continue.<br/>  
+*&nbsp;Note that each time you restart Chrome you may be prompted to ``Disable Developer Mode Extensions``. Hit ``Cancel`` and continue.<br/>  
 ![image](https://cloud.githubusercontent.com/assets/27123/21674871/5041d6c6-d338-11e6-9112-9dcebb5553e6.png)
 
 This is indeed annoying, as Google intends, however there is a workaround for [advanced users on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows). Unfortunately we don't know of workarounds (as yet) for other platforms.
