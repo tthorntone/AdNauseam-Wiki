@@ -4,11 +4,11 @@
 
 ## Backup your data
 
-_If you're a new AdNauseam user, or don't care about your saved ads, jump to [Installation](#install-adnauseam)_
+_If you're a new AdNauseam user, or don't need your saved ads, jump to [Installation](#install-adnauseam)_
 
-1. Click on the AdNauseam icon to open the AdNauseam menu
+1. Click on the AdNauseam icon to open the menu
 2. Click the ``SETTINGS`` button at the bottom of the menu
-3. Scroll down to the bottom of the page and click ``EXPORT ADS``
+3. Scroll to the bottom and click ``EXPORT ADS``
 
 <br>
 
@@ -16,14 +16,14 @@ _If you're a new AdNauseam user, or don't care about your saved ads, jump to [In
 
 #### Manual Install in Developer Mode
 1. Download the latest [adnauseam-chromium.zip](https://github.com/dhowe/AdNauseam/releases/latest/download/adnauseam-chromium.zip) file from the [releases page](https://github.com/dhowe/AdNauseam/releases/latest) 
-2. Extract the zip file to a folder where it can remain after install.  
+2. Extract the zip file to a folder where it can remain after install  
 
-&nbsp; &nbsp; &nbsp; _Warning: Do not delete this folder after the install or the extension will be disabled._
+&nbsp; &nbsp; &nbsp; _Warning: Do not delete this folder after install or the extension will be disabled_
 
 3. In the Chrome menu, click Windows > Extensions or type chrome://extensions/ in the address bar  
 4. Make sure the 'Developer Mode' checkbox is ticked
-5. Click 'Load unpacked extension' and go to the folder from step 1. Make sure you select the folder with the name 'adnauseam.chromium' (without a version number). 
-6. If you have previously exported your ads, you can retrieve them now  
+5. Click 'Load unpacked extension' and go to the folder from step 1. Make sure you select the folder with the name 'adnauseam.chromium' (without a version number)
+6. If you have previously exported your ads, you can [retrieve them now](#retrieve-your-saved-data)
 
 <br>
 
