@@ -14,16 +14,15 @@ _If you're a new AdNauseam user, or don't care about your saved ads, jump to [In
 
 ## Install AdNauseam
 
-*At the moment Chromium-based browsers (e.g. Chrome, Brave, Edge, etc.) no longer allow add-ons to be installed via drag-and-drop of a `.crx` file. Manual installation is required as described below.*
-
 #### Manual Install in Developer Mode
 1. Download the latest [adnauseam-chromium.zip](https://github.com/dhowe/AdNauseam/releases/latest/download/adnauseam-chromium.zip) file from the [releases page](https://github.com/dhowe/AdNauseam/releases/latest) 
-2. Extract the zip file to a folder somewhere where it can remain after install.  
+2. Extract the zip file to a folder where it can remain after install.  
+
 **Warning: Do not delete this folder after the install or the extension will be disabled.**
 
-3. In your Chrome browser menu, click Windows > Extensions or type chrome://extensions/ in the address bar  
+3. In the Chrome menu, click Windows > Extensions or type chrome://extensions/ in the address bar  
 4. Make sure the 'Developer Mode' checkbox is ticked
-5. Click 'Load unpacked extension' and navigate to the folder you downloaded in step 1. Make sure you select the folder with the name 'adnauseam.chromium'(without a version number). 
+5. Click 'Load unpacked extension' and go to the folder from step 1. Make sure you select the folder with the name 'adnauseam.chromium' (without a version number). 
 6. If you have previously exported your ads, you can retrieve them now  
 
 <br>
