@@ -18,7 +18,7 @@ _If you're a new AdNauseam user, or don't care about your saved ads, jump to [In
 1. Download the latest [adnauseam-chromium.zip](https://github.com/dhowe/AdNauseam/releases/latest/download/adnauseam-chromium.zip) file from the [releases page](https://github.com/dhowe/AdNauseam/releases/latest) 
 2. Extract the zip file to a folder where it can remain after install.  
 
-**Warning: Do not delete this folder after the install or the extension will be disabled.**
+&nbsp; &nbsp; &nbsp; _Warning: Do not delete this folder after the install or the extension will be disabled._
 
 3. In the Chrome menu, click Windows > Extensions or type chrome://extensions/ in the address bar  
 4. Make sure the 'Developer Mode' checkbox is ticked
