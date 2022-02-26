@@ -8,7 +8,7 @@ _If you're a new AdNauseam user, or don't need your saved ads, jump to [Installa
 
 1. Click on the AdNauseam icon in the toolbar
 2. Then click the ``View Ad Vault`` button
-3. Then click ``EXPORT`` at bottom-right of page
+3. Then click ``EXPORT`` at bottom-right
 
 <br>
 
