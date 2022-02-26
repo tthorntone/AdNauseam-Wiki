@@ -6,9 +6,9 @@
 
 _If you're a new AdNauseam user, or don't need your saved ads, jump to [Installation](#install-adnauseam)_
 
-1. Click on the AdNauseam icon to open the menu
-2. Click the ``SETTINGS`` button at the bottom of the menu
-3. Scroll to the bottom and click ``EXPORT ADS``
+1. Click on the AdNauseam icon in the toolbar
+2. Then click the ``View Ad Vault`` button
+3. Then click ``EXPORT`` at bottom-right of page
 
 <br>
 
@@ -30,7 +30,7 @@ _If you're a new AdNauseam user, or don't need your saved ads, jump to [Installa
 *&nbsp;Note that each time you restart Chrome you may be prompted to ``Disable Developer Mode Extensions``. Hit ``Cancel`` and continue.<br/>  
 ![image](https://cloud.githubusercontent.com/assets/27123/21674871/5041d6c6-d338-11e6-9112-9dcebb5553e6.png)
 
-This is indeed annoying, as Google intends, however there is a workaround for [advanced users on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows). Unfortunately we don't know of workarounds (as yet) for other platforms.
+This can be annoying, as Google intends, however there is a workaround for [advanced users on Windows](https://github.com/dhowe/AdNauseam/wiki/Install-AdNauseam-in-Chrome-on-Windows). Unfortunately we don't know of workarounds (as yet) for other platforms.
 
 <br>
 
