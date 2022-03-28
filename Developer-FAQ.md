@@ -207,23 +207,9 @@ For completeness, there are also two other kinds of rules: exception rules, whic
 -----------
 #### What is ‘Strict Blocking’, and when should I use it?
 
-By default AdNauseam only blocks requests that do not interfere with the collection of ads. However, when ‘Strict Blocking’ mode is enabled, AdNauseam will instead block all requests that match a blocking rule from an enabled third-party list. This means that LESS ads will be collected, placed in the vault, and later clicked, and that AdNauseam will be LESS effective in its primary function (for example, the majority of Google ads won’t be collected or clicked). 
+By default AdNauseam only blocks requests that do not interfere with the collection of ads. However, when ‘Strict Blocking’ mode is enabled for a site, AdNauseam will instead block all requests that match a blocking rule from any enabled third-party list. This means that LESS ads will be collected, placed in the vault, and later clicked, and that AdNauseam will be LESS effective in its primary function on that site (for example, the majority of Google ads won’t be collected or clicked). 
 
-Thus for most users ‘Strict Blocking’ mode is NOT RECOMMENDED. However, if you are primarily interested in blocking ads, you _may_ see better performance with ‘Strict Blocking’ enabled (depending on your settings and the specific sites you visit). You can read more about blocking and hiding rules in AdNauseam [here](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn). Generally speaking this mode is for advanced users with specific use-cases (e.g., testing), so please be sure to understand the ramifications before enabling it. 
-
-A BETTER OPTION is often to use ‘Strict Blocking’ in combination with dynamic filtering rules. You can follow [uBlock's dynamic filtering rule syntax](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax) to create your own strict blocking rules to block requests based on sites, 3rd-party domains, and request types. To compose strict-blocking rules, you will need to use the syntax `strictBlock` for the "action" component.
-
-Here are a few examples:  
-* To strict-block all the requests for facebook.com, you can use the following rule:
-   `facebook.com * * strictBlock`  
-
-* To strict-block all the requests coming from doubleclick.net for a certain site, you can use the following rule (this will stop google ads from rendering and prevent them from being collected and clicked by AdNauseam):
-   `mysite.com doubleclick.net * strictBlock` 
-
-* To strict-block all 3rd-party scripts for a certain site, you can use the following rule:
-   `facebook.com * 3p-script strictBlock`
-
-* Please note the difference between `strictBlock` and `block`. The `block` action blocks requests according to the dynamic filtering rules, while `strictBlock` only blocks a request if it triggers a blocking rule in one of the filter lists.
+Thus for most cases‘Strict Blocking’ mode is NOT recommended However, if you are primarily interested in blocking ads, you _may_ see better performance with ‘Strict Blocking’ enabled (depending on your settings and the specific sites you visit). You can read more about blocking and hiding rules in AdNauseam [here](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn). Generally speaking this mode is for advanced users with specific use-cases, so please be sure to understand the ramifications before enabling it. 
 
 -----------
 #### How do I use the logger, and what are the different types of entries it shows?
