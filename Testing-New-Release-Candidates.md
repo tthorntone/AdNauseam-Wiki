@@ -27,7 +27,6 @@ First make sure that you are working with the correct commit (check the hash) or
 - [ ]  Check that the uBlock menu is properly displayed and everything is readable
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Menu Toggle Button</b>
-#### Expected Behaviour:
 
 - [ ] __Active__ -> Adnauseam works normally. If the current page and/or domain can't be found both in "Whitelist" and "Strict Block List", then the toggle button should be on "active" state.  
 
