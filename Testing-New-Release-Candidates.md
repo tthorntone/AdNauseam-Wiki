@@ -182,7 +182,7 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 
 ### Dynamic Rules
 
-- [ ]  Enable global strict blocking in settings, open the logger and go to sites such as nytimes. All blocking rules(including easyList) should be blocked(in red). 
+- [ ]  ~~Enable global strict blocking in settings, open the logger and go to sites such as nytimes. All blocking rules(including easyList) should be blocked(in red). ~~ (removed feature)
 - [ ]  Go to "My rules" and add `* doubleclick.net * strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that requests from doubleclick.net are all blocked by easylist.
 - [ ]  Go to "My rules" and add `nytimes.com * * strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that blocking filters from easyList are triggered.
 - [ ]  Go to "My rules" and add `nytimes.com * image strictBlock`; Commit the rule and make sure that nothing turns red in codeMIrror; Go to nytimes and make sure that blocking filters on images are triggered from easyList, but other types of requests are still allowed. 
