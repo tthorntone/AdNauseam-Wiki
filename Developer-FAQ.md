@@ -32,6 +32,7 @@ telling us about your interests and skills and we will help you get started!
 * [How does AdNauseam handle asset managements?](#how-does-adNauseam-handle-asset-managements)
 * [How does AdNauseam handle incoming and outgoing cookies?](#how-does-adnauseam-handle-incoming-and-outgoing-cookies)
 * [What is ‘Strict Blocking’, and when should I use it?](#what-is-strict-blocking-and-when-should-i-use-it)
+* [What is the 'Strict Block List'?](#what-is-the-strict-block-list)
 
 ### Common Tasks
 * [How do I view extension messages in the console?](#How-do-I-view-extension-messages-in-the-console)
@@ -210,6 +211,20 @@ For completeness, there are also two other kinds of rules: exception rules, whic
 By default AdNauseam only blocks requests that do not interfere with the collection of ads. However, when ‘Strict Blocking’ mode is enabled for a site, AdNauseam will instead block all requests that match a blocking rule from any enabled third-party list. This means that LESS ads will be collected, placed in the vault, and later clicked, and that AdNauseam will be LESS effective in its primary function on that site (for example, the majority of Google ads won’t be collected or clicked). 
 
 Thus for most cases‘Strict Blocking’ mode is NOT recommended However, if you are primarily interested in blocking ads, you _may_ see better performance with ‘Strict Blocking’ enabled (depending on your settings and the specific sites you visit). You can read more about blocking and hiding rules in AdNauseam [here](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-the-relationship-between-blocking-and-hiding-rules-in-ublock-and-adn). Generally speaking this mode is for advanced users with specific use-cases, so please be sure to understand the ramifications before enabling it. 
+
+-----------
+#### What is the Strict Block List?
+
+In AdNauseam since {{VERSION_NUMBER}} the **Strict Block List** was implemented in AdNauseam. It allows users to strict block specific domains more easily.
+
+![Screenshot 2022-03-31 at 21 40 10](https://user-images.githubusercontent.com/4967860/161135877-01c13e99-bce2-4e00-8bb2-d9b6b3833451.png)
+
+In the new Menu interface, the user should be able to easily switch between the following states: 
+- Active: default state, AdNauseam works normally
+- Disabled: the page or domain is 'whitelisted', not blocking requests for that Page or Domain, and not hiding, clicking or collecting ads.
+- Strict: the current domain is 'strict blocked', as stated [here](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-strict-blocking-and-when-should-i-use-it), blocking  requests that AdNauseam would normally allow.  Some ads may still be collected and clicked but these will be infrequent.
+
+![Screenshot 2022-03-31 at 21 38 16](https://user-images.githubusercontent.com/4967860/161135648-a0bfaf7e-e8e7-4910-8e85-51773b3249c1.png)
 
 -----------
 #### How do I use the logger, and what are the different types of entries it shows?
