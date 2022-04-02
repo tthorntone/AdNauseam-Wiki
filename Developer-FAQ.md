@@ -222,6 +222,9 @@ In AdNauseam since {{VERSION_NUMBER}} the **Strict Block List** was implemented 
 In the new Menu interface, the user should be able to easily switch between the following states: 
 - Active: default state, AdNauseam works normally
 - Disabled: the page or domain is 'whitelisted', not blocking requests for that Page or Domain, and not hiding, clicking or collecting ads.
+    - Disable DOMAIN/PAGE: When clicking the 'disable' option, a popup will appear with an option for disable AdNauseam on the current domain (e.g. domain.com) OR in the current page (e.g. domain.com/foo/bar.html). The change will result in a different path added to the "Strict Block List":
+    ![Screenshot 2022-04-02 at 16 29 02](https://user-images.githubusercontent.com/4967860/161387892-c936e1de-c1e7-4446-b6a7-bfd6f76d6922.png)
+
 - Strict: the current domain is 'strict blocked', as stated [here](https://github.com/dhowe/AdNauseam/wiki/Developer-FAQ#what-is-strict-blocking-and-when-should-i-use-it), blocking  requests that AdNauseam would normally allow.  Some ads may still be collected and clicked but these will be infrequent.
 
 ![Screenshot 2022-03-31 at 21 38 16](https://user-images.githubusercontent.com/4967860/161135648-a0bfaf7e-e8e7-4910-8e85-51773b3249c1.png)
