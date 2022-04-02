@@ -29,12 +29,11 @@ First make sure that you are working with the correct commit (check the hash) or
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Menu Toggle Button</b>
 
 - [ ] __Active__ -> Adnauseam works normally. If the current page and/or domain can't be found both in "Whitelist" and "Strict Block List", then the toggle button should be on "active" state.  
-
 - [ ] __Strict__ -> Current domain is strict blocked. When the button is clicked, the __DOMAIN__ is added to the "Strict Block List". If the toggle button was previously on "disabled", that page and/or domain is removed from the "Whitelist".
-
 - [ ] __Disabled__ -> AdNauseam is disabled for the current domain/page.  When the button is clicked, by default the __DOMAIN__ is added to the "Whitelist". ALSO when clicked, a popup will appear with the options "on domain.com" and "on this page". Whenever a page/domain is added to the Whitelist, it will be automatically removed from the "Strict Block List" if it can be found there.
-   - [ ] __on domain.com__ -> the current DOMAIN (e.g. google.com) will be added to the "Whitelist", if the PAGE was previously on the "Whitelist", it will be then removed. 
+   - [ ] __on domain__ -> the current DOMAIN (e.g. google.com) will be added to the "Whitelist", if the PAGE was previously on the "Whitelist", it will be then removed. 
    - [ ] __on this page__ -> the current PAGE (e.g. google.com/foo/bar.html) will be added to the "Whitelist", if the DOMAIN was previously on the "Whitelist", it will be then removed.
+
  
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Vault</b>
@@ -190,10 +189,8 @@ DNT: Go to a DNT page (Ex: duckduckgo.com) and check the following items:
 ### Strict Block List
 
 - [ ] Add a domain name into the list and check if a page from that domain is following the strict block behaviour.
-- [ ] Add a page path into the list and check if only that specific page from the domain is following the strict block behaviour.
 - [ ] Make sure when changing the state of the domain from the Popup menu, the Strict Block List is responding accordingly.
 - [ ] Make sure when list is edited directly, the popup menu follows the behaviour correctly.
-
 ------
 ## Incognito/private browsing
    * In Chrome/Opera, go to the extension page and check "Allow in incognito" for AdNauseam, then hit command+shift+N to start testing
