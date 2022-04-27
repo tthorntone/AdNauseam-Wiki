@@ -68,7 +68,6 @@ First make sure that you are working with the correct commit (check the hash) or
 - [ ]  Check that the icon in the toolbar is in red when the page is Strict Blocked
 - [ ]  Icon should animate each time an Ad is clicked
 - [ ]  Double check that the badge number is correctly updated
-- [ ]  Check that the text on hover is correct for active and disabled state
 
 &nbsp;&nbsp;&nbsp;&nbsp;<b>Notifications</b>
 - [ ]  Check that disabling hiding, clicking, or blocking on the first-run generates a notification warning at the top of the dashboard (all tabs), menu, and vault page (after first-run is closed or 'ok' is clicked). 
