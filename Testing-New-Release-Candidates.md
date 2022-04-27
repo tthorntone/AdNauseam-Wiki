@@ -65,6 +65,7 @@ First make sure that you are working with the correct commit (check the hash) or
 - [ ]  Check that the icon in the toolbar is in purple when AdNauseam is active
 - [ ]  Check that the icon in the toolbar is in grey when AdNauseam is disabled
 - [ ]  Check that the icon in the toolbar is in green when on DNT pages
+- [ ]  Check that the icon in the toolbar is in red when the page is Strict Blocked
 - [ ]  Icon should animate each time an Ad is clicked
 - [ ]  Double check that the badge number is correctly updated
 - [ ]  Check that the text on hover is correct for active and disabled state
